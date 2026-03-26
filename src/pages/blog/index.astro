@@ -1,0 +1,46 @@
+---
+import Base from '../../layouts/Base.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import '../../styles/global.css';
+import { getCollection } from 'astro:content';
+
+const posts = (await getCollection('blog')).sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime());
+
+const CALENDLY = 'https://calendly.com/alohawindowbros-r6nn/30min?hide_gdpr_banner=1';
+---
+<Base
+  title="Blog - Window Cleaning Tips & Guides | Aloha Window Bros"
+  description="Expert tips on window cleaning, solar panel maintenance, and home care from Aloha Window Bros in Ventura County."
+>
+  <Header slot="header" />
+
+  <!-- Blog Hero -->
+  <section class="blog-list-hero">
+    <h1>Window Cleaning Tips & Guides</h1>
+    <p>Expert advice from the Aloha Window Bros team</p>
+  </section>
+
+  <section class="blog-list-section">
+    <div class="blog-grid">
+      {posts.map((post) => (
+        <a href={`/blog/${post.id}`} class="blog-card">
+          <div class="blog-card-accent"></div>
+          <div class="blog-card-body">
+            <time datetime={post.data.date}>{new Date(post.data.date + 'T12:00:00').toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}</time>
+            <h2>{post.data.title}</h2>
+            <p>{post.data.description}</p>
+            <span class="blog-read-more">Read Article →</span>
+          </div>
+        </a>
+      ))}
+    </div>
+
+    <div class="blog-list-cta">
+      <h3>Need window cleaning, not just tips?</h3>
+      <a href={CALENDLY} class="hero-cta-primary" target="_blank" rel="noopener noreferrer">Get a Free Quote</a>
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+</Base>

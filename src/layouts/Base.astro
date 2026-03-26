@@ -1,0 +1,96 @@
+---
+interface Props {
+  title: string;
+  description: string;
+  canonical?: string;
+  ogType?: string;
+  ogImage?: string;
+  jsonLd?: object;
+}
+
+const { title, description, canonical, ogType = 'website', ogImage = '/img/cover-slides/slide-1.png', jsonLd } = Astro.props;
+const siteUrl = 'https://alohawindowbros.com';
+const canonicalUrl = canonical || new URL(Astro.url.pathname, siteUrl).href;
+const ogImageUrl = ogImage.startsWith('http') ? ogImage : `${siteUrl}${ogImage}`;
+---
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonicalUrl} />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonicalUrl} />
+    <meta property="og:type" content={ogType} />
+    <meta property="og:image" content={ogImageUrl} />
+    <meta property="og:site_name" content="Aloha Window Bros" />
+
+    <!-- Google Analytics (GA4) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-MRSP8D9CQG"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-MRSP8D9CQG');
+    </script>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet" />
+
+    {jsonLd && <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />}
+  </head>
+  <body>
+    <slot name="header" />
+    <slot />
+    <slot name="footer" />
+
+    <!-- Conversion tracking -->
+    <script>
+      document.addEventListener('click', function(e) {
+        const link = e.target.closest('a');
+        if (!link) return;
+        const href = link.getAttribute('href') || '';
+
+        // Phone call clicks
+        if (href.startsWith('tel:')) {
+          gtag('event', 'phone_call', {
+            event_category: 'conversion',
+            event_label: href,
+          });
+        }
+
+        // Email clicks
+        if (href.startsWith('mailto:')) {
+          gtag('event', 'email_click', {
+            event_category: 'conversion',
+            event_label: href,
+          });
+        }
+
+        // Calendly / Free Quote clicks
+        if (href.includes('calendly.com')) {
+          gtag('event', 'quote_click', {
+            event_category: 'conversion',
+            event_label: link.textContent.trim(),
+          });
+        }
+
+        // Google Reviews click
+        if (href.includes('google.com/search') && href.includes('reviews')) {
+          gtag('event', 'reviews_click', {
+            event_category: 'engagement',
+          });
+        }
+      });
+    </script>
+  </body>
+</html>

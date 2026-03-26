@@ -1,0 +1,90 @@
+---
+import Base from '../../layouts/Base.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import '../../styles/global.css';
+import { getCollection, render } from 'astro:content';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('blog');
+  return posts.map((post) => ({
+    params: { slug: post.id },
+    props: { post },
+  }));
+}
+
+const { post } = Astro.props;
+const { Content } = await render(post);
+
+const PHONE = '(805) 341-4121';
+const PHONE_LINK = 'tel:+18053414121';
+const CALENDLY = 'https://calendly.com/alohawindowbros-r6nn/30min?hide_gdpr_banner=1';
+
+const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": post.data.title,
+  "datePublished": post.data.date,
+  "author": { "@type": "Organization", "name": "Aloha Window Bros" },
+  "publisher": { "@type": "Organization", "name": "Aloha Window Bros", "url": "https://alohawindowbros.com" },
+  "mainEntityOfPage": `https://alohawindowbros.com/blog/${post.id}`
+};
+---
+<Base
+  title={`${post.data.title} | Aloha Window Bros`}
+  description={post.data.description}
+  ogType="article"
+  jsonLd={articleSchema}
+>
+  <Header slot="header" />
+
+  <!-- Blog Post Hero -->
+  <section class="blog-post-hero">
+    <a href="/blog" class="service-back-link">← All Articles</a>
+    <h1>{post.data.title}</h1>
+    <time datetime={post.data.date}>{new Date(post.data.date + 'T12:00:00').toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}</time>
+  </section>
+
+  <!-- Blog Content + Sidebar -->
+  <section class="service-content-section">
+    <article class="service-article">
+      <div class="article-content">
+        <Content />
+      </div>
+    </article>
+
+    <aside class="service-sidebar">
+      <div class="sidebar-card">
+        <h3>Need Window Cleaning?</h3>
+        <p>Schedule a free quote — we'll come to you.</p>
+        <a href={CALENDLY} class="hero-cta-primary" target="_blank" rel="noopener noreferrer" style="width:100%;text-align:center;">Get a Free Quote</a>
+        <div class="sidebar-divider"><span>or</span></div>
+        <a href={PHONE_LINK} class="sidebar-phone">{PHONE}</a>
+      </div>
+
+      <div class="sidebar-card sidebar-services">
+        <h4>Our Services</h4>
+        <ul>
+          <li><a href="/services/window-washing">Window Washing</a></li>
+          <li><a href="/services/screen-cleaning">Screen Cleaning</a></li>
+          <li><a href="/services/solar-panel-cleaning">Solar Panel Cleaning</a></li>
+        </ul>
+      </div>
+
+      <div class="sidebar-card sidebar-guarantee">
+        <div class="sidebar-guarantee-icon">⭐</div>
+        <h4>100% Satisfaction Guarantee</h4>
+        <p>We walk the property with you before we leave. Not happy? We redo it on the spot.</p>
+      </div>
+    </aside>
+  </section>
+
+  <!-- Bottom CTA -->
+  <section class="cta-banner">
+    <h2>Ready for Crystal Clear Windows?</h2>
+    <p>Get a free on-site quote from Aloha Window Bros today.</p>
+    <a href={CALENDLY} class="cta-btn" target="_blank" rel="noopener noreferrer">Schedule Free Quote</a>
+  </section>
+
+  <Footer slot="footer" />
+</Base>

@@ -1,0 +1,7 @@
+{
+  "domain": "alohawindowbros.com",
+  "type": "vite",
+  "port": 3000,
+  "container": "app_alohawindowbros_com",
+  "deploy_script": "/usr/local/bin/deploy_alohawindowbros_com"
+}

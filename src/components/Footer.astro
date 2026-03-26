@@ -1,0 +1,47 @@
+---
+const PHONE = '(805) 341-4121';
+const PHONE_LINK = 'tel:+18053414121';
+const EMAIL = 'alohawindowbros@gmail.com';
+---
+<footer class="footer">
+  <div class="footer-grid">
+    <div>
+      <h4>Aloha Window Bros</h4>
+      <p>Your trusted partner in professional window cleaning. We bring crystal-clear views and lasting shine to every pane, with a commitment to quality and customer satisfaction.</p>
+    </div>
+    <div>
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/#services">Services</a></li>
+        <li><a href="/#about">Why Us</a></li>
+        <li><a href="/#reviews">Reviews</a></li>
+        <li><a href="/blog">Blog</a></li>
+        <li><a href="/#contact">Contact</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Services</h4>
+      <ul>
+        <li><a href="/services/window-washing">Window Cleaning</a></li>
+        <li><a href="/services/screen-cleaning">Screen Cleaning</a></li>
+        <li><a href="/services/solar-panel-cleaning">Solar Panel Cleaning</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Contact</h4>
+      <p>138 Colt Lane, Thousand Oaks, CA 91362</p>
+      <p>Serving: Westlake, Thousand Oaks, Agoura, Newbury Park</p>
+      <p style="margin-top: 12px;">
+        <a href={PHONE_LINK} style="color: #60a5fa;">{PHONE}</a>
+      </p>
+      <p>
+        <a href={`mailto:${EMAIL}`} style="color: #60a5fa;">{EMAIL}</a>
+      </p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    &copy; {new Date().getFullYear()} Aloha Window Bros. All Rights Reserved.
+    &nbsp;Designed by <a href="https://www.blrbdigital.com/">BLRB Digital</a>
+  </div>
+</footer>

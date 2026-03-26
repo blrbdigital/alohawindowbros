@@ -1,0 +1,131 @@
+---
+import Base from '../../layouts/Base.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import '../../styles/global.css';
+import { getCollection, render } from 'astro:content';
+
+export async function getStaticPaths() {
+  const services = await getCollection('services');
+  return services.map((service) => ({
+    params: { slug: service.id },
+    props: { service },
+  }));
+}
+
+const { service } = Astro.props;
+const { Content } = await render(service);
+
+const PHONE = '(805) 341-4121';
+const PHONE_LINK = 'tel:+18053414121';
+const CALENDLY = 'https://calendly.com/alohawindowbros-r6nn/30min?hide_gdpr_banner=1';
+
+const serviceImages: Record<string, string> = {
+  'window-washing': '/img/window_washing_image.png',
+  'screen-cleaning': '/img/cover-slides/slide-4.png',
+  'solar-panel-cleaning': '/img/solar_1.png',
+};
+
+const serviceTaglines: Record<string, string> = {
+  'window-washing': 'Crystal clear views for your home and business',
+  'screen-cleaning': 'Breathe easy with spotless, dust-free screens',
+  'solar-panel-cleaning': 'Maximize your energy output with clean panels',
+};
+
+const heroImage = serviceImages[service.id] || service.data.image;
+const tagline = serviceTaglines[service.id] || service.data.description;
+
+const serviceSchema = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": service.data.title,
+  "description": service.data.description,
+  "provider": {
+    "@type": "LocalBusiness",
+    "name": "Aloha Window Bros",
+    "telephone": "+18053414121",
+    "address": { "@type": "PostalAddress", "addressLocality": "Thousand Oaks", "addressRegion": "CA" }
+  },
+  "areaServed": ["Thousand Oaks", "Westlake Village", "Agoura Hills", "Newbury Park", "Ventura County", "Santa Barbara County"]
+};
+---
+<Base
+  title={`${service.data.title} - Ventura County | Aloha Window Bros`}
+  description={service.data.description}
+  ogImage={heroImage}
+  jsonLd={serviceSchema}
+>
+  <Header slot="header" />
+
+  <!-- Service Hero Banner -->
+  <section class="service-hero">
+    <div class="service-hero-bg">
+      {heroImage && <img src={heroImage} alt={service.data.title} />}
+      <div class="service-hero-overlay"></div>
+    </div>
+    <div class="service-hero-content">
+      <a href="/#services" class="service-back-link">← All Services</a>
+      <h1>{service.data.title}</h1>
+      <p>{tagline}</p>
+      <div class="service-hero-ctas">
+        <a href={CALENDLY} class="hero-cta-primary" target="_blank" rel="noopener noreferrer">Get a Free Quote</a>
+        <a href={PHONE_LINK} class="service-hero-phone">Or call {PHONE}</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Trust Bar -->
+  <div class="service-trust-bar">
+    <span>✓ Fully Insured</span>
+    <span>✓ Locally Owned</span>
+    <span>✓ 100% Satisfaction Guaranteed</span>
+    <span>✓ 500+ Happy Clients</span>
+  </div>
+
+  <!-- Service Content -->
+  <section class="service-content-section">
+    <article class="service-article">
+      <div class="article-content">
+        <Content />
+      </div>
+    </article>
+
+    <!-- Sidebar -->
+    <aside class="service-sidebar">
+      <div class="sidebar-card">
+        <h3>Get Your Free Quote</h3>
+        <p>Schedule online or call us — we'll come to you.</p>
+        <a href={CALENDLY} class="hero-cta-primary" target="_blank" rel="noopener noreferrer" style="width:100%;text-align:center;">Schedule Now</a>
+        <div class="sidebar-divider"><span>or</span></div>
+        <a href={PHONE_LINK} class="sidebar-phone">{PHONE}</a>
+      </div>
+
+      <div class="sidebar-card sidebar-areas">
+        <h4>Areas We Serve</h4>
+        <ul>
+          <li>Thousand Oaks</li>
+          <li>Westlake Village</li>
+          <li>Agoura Hills</li>
+          <li>Newbury Park</li>
+          <li>Santa Barbara</li>
+          <li>Ventura County</li>
+        </ul>
+      </div>
+
+      <div class="sidebar-card sidebar-guarantee">
+        <div class="sidebar-guarantee-icon">⭐</div>
+        <h4>100% Satisfaction Guarantee</h4>
+        <p>We walk the property with you before we leave. Not happy? We redo it on the spot.</p>
+      </div>
+    </aside>
+  </section>
+
+  <!-- Bottom CTA -->
+  <section class="cta-banner">
+    <h2>Ready to Get Started?</h2>
+    <p>Schedule your free {service.data.title.toLowerCase()} quote today.</p>
+    <a href={CALENDLY} class="cta-btn" target="_blank" rel="noopener noreferrer">Schedule Free Quote</a>
+  </section>
+
+  <Footer slot="footer" />
+</Base>
