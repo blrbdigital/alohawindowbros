@@ -15,7 +15,13 @@ body {
   font-size: 15px;
   line-height: 1.5;
   color: #1a1a2e;
-  background: #fff;
+  background:
+    radial-gradient(ellipse at 15% 30%, rgba(37, 99, 235, 0.035) 0%, transparent 50%),
+    radial-gradient(ellipse at 85% 15%, rgba(124, 58, 237, 0.03) 0%, transparent 45%),
+    radial-gradient(ellipse at 50% 70%, rgba(37, 99, 235, 0.025) 0%, transparent 50%),
+    radial-gradient(ellipse at 80% 85%, rgba(124, 58, 237, 0.03) 0%, transparent 45%),
+    #fff;
+  background-attachment: fixed;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
@@ -279,7 +285,7 @@ button {
 .hero-bg-overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(135deg, rgba(15, 23, 42, 0.88) 0%, rgba(30, 58, 95, 0.82) 50%, rgba(37, 99, 235, 0.7) 100%);
+  background: linear-gradient(135deg, rgba(15, 23, 42, 0.88) 0%, rgba(30, 58, 95, 0.82) 35%, rgba(37, 99, 235, 0.72) 65%, rgba(124, 58, 237, 0.6) 100%);
 }
 
 .hero-inner {
@@ -575,7 +581,7 @@ button {
   display: flex;
   justify-content: center;
   gap: 0;
-  background: #1a1a2e;
+  background: linear-gradient(90deg, #1a1a2e 0%, #1e2854 50%, #2d1b69 100%);
   padding: 0;
 }
 
@@ -1213,7 +1219,7 @@ button {
 
 /* ===== CTA BANNER ===== */
 .cta-banner {
-  background: linear-gradient(135deg, #1e3a5f 0%, #2563eb 100%);
+  background: linear-gradient(135deg, #1e3a5f 0%, #2563eb 50%, #7c3aed 100%);
   padding: 48px 40px;
   text-align: center;
   color: #fff;
@@ -1249,7 +1255,7 @@ button {
 
 /* ===== FOOTER ===== */
 .footer {
-  background: #1a1a2e;
+  background: linear-gradient(135deg, #1a1a2e 0%, #1e2854 60%, #2d1b69 100%);
   color: #ccc;
   padding: 48px 40px 24px;
 }
@@ -1451,6 +1457,37 @@ button {
   z-index: 999;
 }
 
+/* ===== WAVE DIVIDERS ===== */
+.wave-divider {
+  width: 100%;
+  line-height: 0;
+  overflow: hidden;
+  position: relative;
+}
+
+.wave-divider svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.wave-divider-dark {
+  background: #fff;
+}
+
+.wave-divider-pre-cta {
+  background: #f8fafc;
+}
+
+.wave-divider-post-cta {
+  background: transparent;
+  margin-top: -1px;
+}
+
+.wave-divider-footer {
+  background: #f8fafc;
+}
+
 /* ===== SERVICE CARDS AS LINKS ===== */
 a.service-card {
   text-decoration: none;
@@ -1464,7 +1501,7 @@ a.service-card:hover {
 
 /* ===== BLOG LIST PAGE ===== */
 .blog-list-hero {
-  background: linear-gradient(135deg, #0f172a, #1e3a5f);
+  background: linear-gradient(135deg, #0f172a, #1e3a5f, #3b1d8e);
   padding: 48px 40px 40px;
   text-align: center;
 }
@@ -1507,7 +1544,7 @@ a.service-card:hover {
 }
 .blog-card-accent {
   height: 4px;
-  background: linear-gradient(90deg, #2563eb, #16a34a);
+  background: linear-gradient(90deg, #2563eb, #7c3aed);
 }
 .blog-card-body {
   padding: 24px;
@@ -1556,7 +1593,7 @@ a.service-card:hover {
 
 /* ===== BLOG POST HERO ===== */
 .blog-post-hero {
-  background: linear-gradient(135deg, #0f172a, #1e3a5f);
+  background: linear-gradient(135deg, #0f172a, #1e3a5f, #3b1d8e);
   padding: 48px 40px 40px;
   max-width: 100%;
 }
@@ -1671,7 +1708,7 @@ a.service-card:hover {
 .article-cta {
   margin-top: 48px;
   padding: 36px;
-  background: linear-gradient(135deg, #0f172a, #1e3a5f);
+  background: linear-gradient(135deg, #0f172a, #1e3a5f, #7c3aed);
   border-radius: 16px;
   text-align: center;
   color: #fff;
@@ -1723,7 +1760,7 @@ a.service-card:hover {
 .service-hero-overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(135deg, rgba(15,23,42,0.92), rgba(30,58,95,0.85));
+  background: linear-gradient(135deg, rgba(15,23,42,0.92), rgba(30,58,95,0.85), rgba(124,58,237,0.5));
 }
 .service-hero-content {
   position: relative;

@@ -94,6 +94,21 @@ const jsonLd = {
     <div class="stat"><span class="stat-num">24hr</span><span class="stat-label">Response Time</span></div>
   </section>
 
+  <!-- Wave: Stats → How It Works -->
+  <div class="wave-divider wave-divider-dark">
+    <svg viewBox="0 0 1440 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <linearGradient id="wg1" x1="0%" y1="0%" x2="100%" y2="0%">
+          <stop offset="0%" stop-color="#1a1a2e"/>
+          <stop offset="40%" stop-color="#1e2854"/>
+          <stop offset="100%" stop-color="#2d1b69"/>
+        </linearGradient>
+      </defs>
+      <path d="M0,0 L0,40 C240,75 480,20 720,45 C960,70 1200,15 1440,35 L1440,0 Z" fill="url(#wg1)"/>
+      <path d="M0,0 L0,25 C300,55 600,5 900,30 C1100,48 1300,20 1440,28 L1440,0 Z" fill="url(#wg1)" opacity="0.4"/>
+    </svg>
+  </div>
+
   <!-- How It Works -->
   <section class="how-section">
     <h2>How It Works</h2>
@@ -245,12 +260,34 @@ const jsonLd = {
     </div>
   </section>
 
+  <!-- Wave: FAQ → CTA -->
+  <div class="wave-divider wave-divider-pre-cta">
+    <svg viewBox="0 0 1440 70" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <linearGradient id="wg2" x1="0%" y1="0%" x2="100%" y2="0%">
+          <stop offset="0%" stop-color="#1e3a5f"/>
+          <stop offset="50%" stop-color="#2563eb"/>
+          <stop offset="100%" stop-color="#7c3aed"/>
+        </linearGradient>
+      </defs>
+      <path d="M0,70 C320,20 640,60 960,25 C1120,10 1300,40 1440,20 L1440,70 Z" fill="url(#wg2)"/>
+      <path d="M0,70 C400,35 800,65 1200,30 L1440,45 L1440,70 Z" fill="url(#wg2)" opacity="0.3"/>
+    </svg>
+  </div>
+
   <!-- CTA Banner -->
   <section class="cta-banner">
     <h2>Ready for Crystal Clear Windows?</h2>
     <p>Schedule your free quote today — we'll drive out to you!</p>
     <a href={CALENDLY} class="cta-btn" target="_blank" rel="noopener noreferrer">Schedule Free Quote</a>
   </section>
+
+  <!-- Wave: CTA → Contact -->
+  <div class="wave-divider wave-divider-post-cta" style="background: linear-gradient(135deg, #1e3a5f 0%, #2563eb 50%, #7c3aed 100%);">
+    <svg viewBox="0 0 1440 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0,0 C360,50 720,10 1080,35 C1260,47 1380,25 1440,30 L1440,60 L0,60 Z" fill="#f8fafc"/>
+    </svg>
+  </div>
 
   <!-- Contact -->
   <section id="contact" class="contact-section">
@@ -262,6 +299,21 @@ const jsonLd = {
       <div class="contact-card"><div class="contact-card-icon">✉️</div><h4>Email Us</h4><a href={`mailto:${EMAIL}`}>{EMAIL}</a></div>
     </div>
   </section>
+
+  <!-- Wave: Contact → Footer -->
+  <div class="wave-divider wave-divider-footer">
+    <svg viewBox="0 0 1440 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <linearGradient id="wg3" x1="0%" y1="0%" x2="100%" y2="0%">
+          <stop offset="0%" stop-color="#1a1a2e"/>
+          <stop offset="60%" stop-color="#1e2854"/>
+          <stop offset="100%" stop-color="#2d1b69"/>
+        </linearGradient>
+      </defs>
+      <path d="M0,60 C480,15 960,50 1440,10 L1440,60 Z" fill="url(#wg3)"/>
+      <path d="M0,60 C320,30 800,55 1440,20 L1440,60 Z" fill="url(#wg3)" opacity="0.5"/>
+    </svg>
+  </div>
 
   <Footer slot="footer" />
 </Base>
