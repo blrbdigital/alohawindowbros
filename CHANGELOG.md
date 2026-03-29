@@ -6,6 +6,9 @@
 - Updated blog card accent strip from blue-green to blue-purple
 - Added subtle fixed radial gradient background (faint blue/purple glows) for a cohesive underwater-light feel
 
+## 2026-03-29 (b)
+- Replaced logo with new tribal diamond "AW" / Aloha Bros logo matching truck branding
+
 ## 2026-03-26
 - Migrated from WordPress to Astro static site
 - Built home page with hero, booking widget, stats, how it works, reviews, services, guarantees, service areas, FAQ, CTA, contact, footer
