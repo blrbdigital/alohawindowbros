@@ -4,6 +4,32 @@
 
 ---
 
+### 2026-04-01
+
+**What we did:**
+- Created new blog article: "Window Cleaning Santa Barbara: Why Local Homeowners Trust Professional Service"
+- Created new blog article: "Window Cleaning Westlake Village: A Homeowner Guide to Cleaner Glass Year-Round"
+- Both articles include FAQ sections, comparison tables, authoritative citations, and Calendly CTAs
+- GEO-optimized: direct answers in first 150 words, quotable statistics, structured FAQ for AI citation readiness
+
+**Why we did it:**
+- **Santa Barbara**: Semrush shows "window cleaning santa barbara ca" at position 6 with $15.54 CPC (highest CPC of any tracked keyword) — yet we had ZERO dedicated Santa Barbara content. This is the single highest-value content gap. A targeted article should consolidate this ranking and push into top 3.
+- **Westlake Village**: "window cleaning westlake" at position 14 with 70 monthly searches and $7.88 CPC. Combined with "westlake window cleaning" (40 vol, pos 37) and "window cleaning near me west lake" (30 vol, pos 37), there's ~140 monthly search volume with no blog content. Old location pages (westlake.html, /westlake/) exist but aren't ranking well.
+
+**Expected impact:**
+- Santa Barbara article should push from position 6 to positions 1–3 within 4–6 weeks, capturing high-intent traffic worth $15.54/click
+- Westlake Village article should break into page 1 (positions 5–10) within 4–6 weeks, consolidating rankings across multiple Westlake-related queries
+- Both articles strengthen topical authority for location-based window cleaning queries
+- FAQ sections improve eligibility for Google's People Also Ask features and AI-generated answers
+
+**Metrics at time of action:**
+- Organic keywords: 27 (up from 10 in Oct 2025) | Organic traffic: 26 sessions/mo | Domain rank: ~6M
+- Top non-brand keyword: "window cleaning thousand oaks" at position 7 (70 vol)
+- Key gaps filled: Santa Barbara (pos 6, $15.54 CPC), Westlake Village (pos 14, $7.88 CPC)
+- Growth trend: Keywords nearly tripled in 5 months (10 → 27), traffic jumped from 0 to 26
+
+---
+
 ### 2026-03-26
 
 **What we did:**
