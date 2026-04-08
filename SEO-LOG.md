@@ -4,6 +4,34 @@
 
 ---
 
+### 2026-04-08
+
+**What we did:**
+- Created new blog article: "Window Cleaning Ventura: A Homeowner's Guide to Professional Service"
+- Created new blog article: "Screen Cleaning in Ventura County: Why Clean Screens Matter More Than You Think"
+- Both articles include FAQ sections with FAQPage JSON-LD schema, comparison tables, authoritative citations (NOAA, IWCA, ASHRAE, AAFA, NAHB), and Calendly CTAs
+- Added internal links from Ventura article to existing Thousand Oaks, Westlake Village, and Ventura County blog posts
+
+**Why we did it:**
+- **Ventura city keywords**: Four keywords — "ventura window washing" (pos 11, 70 vol), "window washing ventura ca" (pos 12, 70 vol), "window cleaning ventura ca" (pos 17, 70 vol), "window cleaning ventura" (pos 20, 70 vol) — all point to the homepage. Combined ~280 monthly searches with $5.55–$6.05 CPC. We had two "Ventura County" articles but ZERO city-of-Ventura content. A dedicated article should consolidate these rankings and push them onto page 1.
+- **Screen cleaning content gap**: Aloha Window Bros has a /services/screen-cleaning page but zero blog content supporting it. No existing blog post mentions screen cleaning as a primary topic. This is a completely untapped content vertical targeting queries like "screen cleaning near me", "window screen cleaning cost", and "professional screen cleaning". Opening this vertical also strengthens topical authority for the screen cleaning service page.
+
+**Expected impact:**
+- Ventura article should push 4 keywords from positions 11–20 to positions 5–10 within 4–6 weeks, potentially capturing 50–100+ additional monthly sessions worth $5–$6/click
+- Screen cleaning article opens a new keyword vertical with zero existing competition from our own site — should begin ranking for screen cleaning queries within 6–8 weeks
+- Internal links from Ventura article strengthen existing Thousand Oaks and Westlake Village articles
+- Blog post count reaches 10, building domain-level topical authority for local window/screen cleaning
+
+**Metrics at time of action:**
+- Organic keywords: 27 (stable from March) | Organic traffic: 26 sessions/mo | Domain rank: ~6M
+- Top non-brand keyword: "window cleaning thousand oaks" at position 7 (70 vol) — stable
+- "santa barbara window cleaning" appeared at position 11 (140 vol, $15.54 CPC) — new since last snapshot
+- "thousand oaks window washing" appeared at position 10 (40 vol) — new since last snapshot
+- "window cleaning westlake" dropped from position 14 to not visible — new Westlake article may need indexing time
+- Blog posts: 8 → 10 | Total pages: 13 → 15
+
+---
+
 ### 2026-04-01
 
 **What we did:**
