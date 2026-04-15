@@ -4,6 +4,34 @@
 
 ---
 
+### 2026-04-15
+
+**What we did:**
+- Created new blog article: "Window Cleaning Agoura Hills: Your Guide to Spotless Windows Year-Round"
+- Created new blog article: "Solar Panel Cleaning in Thousand Oaks: How to Protect Your Investment"
+- Both articles include FAQ sections with FAQPage JSON-LD schema, comparison tables, authoritative citations (NREL, AQMD, WQA, NAHB, CAL FIRE, WRCC), and Calendly CTAs
+- Added internal links connecting new articles to existing Thousand Oaks, Westlake Village, Ventura, Santa Barbara, and Ventura County blog posts plus all three service pages
+
+**Why we did it:**
+- **Agoura Hills content gap**: The /agoura/ location page generates 119 impressions/month but only 2 clicks (1.68% CTR) at position 6.7. GSC shows "best window washer agoura hills" with 10 impressions at position 6 — zero clicks. No blog content existed to support this location page. A dedicated blog article strengthens the Agoura Hills keyword cluster and provides Google a richer, more authoritative page to rank for informational queries. Agoura Hills is one of the 6 core service areas in the site's LocalBusiness JSON-LD schema.
+- **Solar panel cleaning geo-targeting**: Two existing solar panel articles ("Professional vs DIY" and "When and How Often") are generic nationwide content with no location targeting. Meanwhile, "window cleaning thousand oaks" is the site's strongest non-brand keyword (position 7, 70 vol, $5.30 CPC). Combining "solar panel cleaning" with the Thousand Oaks geo creates a new keyword cluster with no internal competition. April is the ideal time to publish — spring is when homeowners prepare panels for peak summer production, so this content will have 4-6 weeks to index before the highest-demand period.
+
+**Expected impact:**
+- Agoura Hills article should improve CTR on /agoura/ location page and begin ranking for "window cleaning agoura hills" and "best window washer agoura hills" within 4-6 weeks, targeting positions 3-8
+- Solar panel article should capture "solar panel cleaning thousand oaks" and related queries — a keyword space with zero competition from existing blog content. Expected initial ranking at positions 10-20, improving to 5-10 over 6-8 weeks
+- Internal links from both articles strengthen the site's overall link graph and pass authority to service pages and existing location content
+- Blog post count reaches 12, continuing to build domain-level topical authority
+
+**Metrics at time of action:**
+- Organic keywords: 27 (stable since Feb) | Organic traffic: 26 sessions/mo | Domain rank: ~6M
+- Top non-brand keyword: "window cleaning thousand oaks" at position 7 (70 vol, $5.30 CPC)
+- Notable improvement: "window cleaning ventura" moved from position 20 → 9 since last article was published
+- /agoura/ page: 119 impressions, 2 clicks, position 6.7 | /thousand-oaks/ page: 263 impressions, 2 clicks, position 4.4
+- "santa barbara window cleaning": position 11 (140 vol, $15.54 CPC) — stable
+- GSC total: 56 clicks, 485 impressions, 11.55% CTR, avg position 7.6 (new data — GSC was not configured in previous snapshot)
+
+---
+
 ### 2026-04-08
 
 **What we did:**
