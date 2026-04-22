@@ -4,6 +4,35 @@
 
 ---
 
+### 2026-04-22
+
+**What we did:**
+- Created new blog article: "Window Cleaning Camarillo: What Homeowners Need to Know"
+- Created new blog article: "Window Cleaning Simi Valley: A Homeowner Guide to Clearer Glass"
+- Both articles include FAQ sections with FAQPage JSON-LD schema, pricing and frequency tables, authoritative citations (NOAA, CARB, CAL FIRE, EPA, NWS, WQA, NAHB, IWCA, NREL), neighborhood lists, and Calendly CTAs
+- Added internal links connecting both new articles to existing Thousand Oaks, Westlake Village, Agoura Hills, Ventura, Ventura County, screen cleaning, and solar panel cleaning blog content
+
+**Why we did it:**
+- **Camarillo content gap**: GSC shows "best window washer camarillo" at position 1 with 3 impressions but 0 clicks — Google is currently serving the home page for this query because no dedicated Camarillo content exists. A targeted article gives Google a stronger, more relevant page to rank and should dramatically improve CTR on Camarillo-area searches. Camarillo is a core Ventura County market (pop. ~70k) that was completely uncovered in our content strategy.
+- **Simi Valley content gap**: Same pattern — GSC shows "best window washer simi valley" at position 1 with 3 impressions but 0 clicks. Simi Valley (pop. ~125k) is the largest Ventura County city we had no content for. It's also unique in that it faces the most severe Santa Ana wind exposure in the region and sits inside a Very High Fire Hazard Severity Zone, giving us strong, defensible topic angles (ash/smoke residue, wind-driven dust) specifically relevant to local homeowners.
+- **Seasonal timing**: April is entering the peak spring/summer demand window for window cleaning. Publishing now gives Google 4-8 weeks to index and rank these articles before peak search volume hits in May-August.
+
+**Expected impact:**
+- Camarillo article should capture position 1-5 for "window cleaning camarillo", "window washer camarillo", and "best window washer camarillo" within 4-6 weeks. These queries currently generate low impressions because no one on our site is targeting them — dedicated content typically unlocks 5-10x impression volume in Google Search Console
+- Simi Valley article should capture similar positions for Simi Valley-specific queries. Given the larger city population, Simi Valley could produce higher volume than Camarillo
+- Internal links from both articles strengthen existing Thousand Oaks, Westlake Village, Agoura Hills, Ventura, and Ventura County content
+- Blog post count reaches 14, continuing to build domain-level topical authority for local window/screen/solar cleaning in Ventura County
+
+**Metrics at time of action:**
+- Organic keywords: 27 (stable) | Organic traffic: 26 sessions/mo | Domain rank: ~6M
+- GSC total: 56 clicks, 510 impressions, 10.98% CTR, avg position 7.1 (30-day window)
+- Top non-brand keyword: "window cleaning thousand oaks" at position 7 (70 vol, $5.30 CPC) — stable
+- Key GSC signal: "best window washer camarillo" position 1, 3 impressions; "best window washer simi valley" position 1, 3 impressions — both with zero clicks and zero dedicated pages
+- Related close-to-page-1: "window cleaning ventura county" position 8.4, "window cleaners ventura county" position 9.9
+- Blog posts: 12 → 14 | Total pages: 17 → 19
+
+---
+
 ### 2026-04-15
 
 **What we did:**
