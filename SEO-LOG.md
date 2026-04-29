@@ -4,6 +4,37 @@
 
 ---
 
+### 2026-04-29
+
+**What we did:**
+- Created new blog article: "Window Cleaning Newbury Park: A Homeowner Guide to Spotless Glass"
+- Created new blog article: "Window Cleaning Oxnard: A Coastal Homeowner Guide"
+- Both articles include FAQ sections with FAQPage JSON-LD schema, pricing and frequency tables, authoritative citations (NOAA, CARB, NWS, WQA, NAHB, IWCA, NREL, Calleguas Municipal Water District), neighborhood-specific recommendations, and Calendly CTAs
+- Added internal links connecting both new articles to existing Camarillo, Ventura, Thousand Oaks, Westlake Village, Agoura Hills, Santa Barbara, screen cleaning, solar panel, and Ventura County blog content
+- Updated .claude-site-map.md (blog count 14 → 16, page count 19 → 21) and CHANGELOG.md
+
+**Why we did it:**
+- **Newbury Park — direct GSC validation**: The /newbury/ location page already generates 18 impressions and 1 click at avg position 7.6 for the prior 30-day window — Google is already recognizing the site for Newbury Park queries, but there was zero blog content backing up that location page. Adding a topical, GEO-optimized article gives Google a stronger, more relevant page to rank and dramatically expands the topical surface area (canyon dust, marine layer, hard water, hillside Dos Vientos homes). Competitors targeting this geo cluster have minimal Newbury Park-specific content (per Semrush competitor data: deluxewindowcleaning.co and windowcleanersventura.com both have <60 organic keywords combined).
+- **Oxnard — biggest coastal content gap**: Oxnard is the largest city in Ventura County (pop. ~200k) and the only major coastal city we had no blog content for. Existing Camarillo article references "Oxnard Plain" repeatedly but treats Oxnard as a peripheral mention rather than a primary geo target. The waterfront neighborhoods (Hollywood Beach, Mandalay Bay, Channel Islands Harbor) face the most aggressive salt-spray exposure of any Ventura County area — a strong, defensible topic angle that makes higher-frequency cleaning recommendations naturally credible. This article also internally links to Camarillo, Ventura, and Santa Barbara, strengthening the entire coastal cluster.
+- **Seasonal timing**: Late April / early May is entering the peak spring/summer demand window for window cleaning. Publishing now gives Google 4-8 weeks to index and rank these articles before peak search volume hits in May-August. Coastal Oxnard content benefits especially from this timing because beach homeowners book pre-summer cleanings.
+
+**Expected impact:**
+- Newbury Park article should improve CTR on the /newbury/ location page (currently 5.56% at position 7.6) and capture position 3-8 for "window cleaning newbury park" and related queries within 4-6 weeks
+- Oxnard article should rank position 5-15 within 6-8 weeks for "window cleaning oxnard", "window washing oxnard", "oxnard window cleaning", and waterfront-specific long-tails like "channel islands harbor window cleaning" — a city of 200k that has been entirely uncovered by our content strategy until now
+- Combined with existing coastal articles (Ventura, Camarillo, Santa Barbara), this completes the coastal Ventura County coverage and strengthens the whole geo cluster
+- Internal link additions strengthen existing Camarillo, Ventura, Thousand Oaks, Westlake Village, Agoura Hills, and Santa Barbara content
+- Blog post count reaches 16, continuing to build domain-level topical authority for local window/screen/solar cleaning in Ventura County
+
+**Metrics at time of action:**
+- Organic keywords: 27 (stable per March 2026 Semrush rank history) | Organic traffic: 26 sessions/mo | Domain rank: ~6M
+- GSC total (prior 30 days): 56 clicks, 510 impressions, 10.98% CTR, avg position 7.1
+- Key GSC validation signal: /newbury/ page = 18 impressions, 1 click, 5.56% CTR, position 7.6 — direct evidence Google recognizes the site for Newbury Park but no supporting blog content exists
+- Top non-brand keyword: "window cleaning thousand oaks" position 7 (70 vol, $5.30 CPC), "window cleaning ventura county" position 8.4
+- Live data sources currently degraded: Semrush returning 403 errors on most endpoints (auth issue), PageSpeed returning 429 (rate limit), GA4 still not configured (invalid_grant). Previous-week snapshot used for trend baseline.
+- Blog posts: 14 → 16 | Total pages: 19 → 21
+
+---
+
 ### 2026-04-22
 
 **What we did:**
