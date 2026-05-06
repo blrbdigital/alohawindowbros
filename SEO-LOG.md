@@ -4,6 +4,36 @@
 
 ---
 
+### 2026-05-06
+
+**What we did:**
+- Created new blog article: "How to Remove Hard Water Stains from Windows: A Ventura County Guide"
+- Created new blog article: "Solar Panel Cleaning Camarillo: How to Maximize Your System Output"
+- Both articles GEO-optimized with direct answers in first 150 words, quotable stats with citations (USGS, NREL, IWCA, Water Quality Association, CARB, Camrosa Water District), comparison tables, FAQ sections with FAQPage JSON-LD schema, and Calendly CTAs
+- Added internal links connecting both articles to all existing city-specific cluster pages (Thousand Oaks, Westlake Village, Newbury Park, Oxnard, Camarillo, Simi Valley, Ventura, Santa Barbara, Agoura Hills) plus core service pages
+- Updated .claude-site-map.md (blog count 16 → 18, page count 22 → 24) and CHANGELOG.md
+
+**Why we did it:**
+- **Hard water stains — high-intent evergreen + seasonal peak**: Multiple existing articles (Westlake Village, Oxnard, Newbury Park, Camarillo) reference hard water stains in their FAQ sections, proving the topic is highly relevant to our audience — but no dedicated guide existed. May-July is peak sprinkler season in California, when fresh hard water spotting drives the highest search volume for "how to remove hard water stains from windows." This is high-intent search traffic: people searching this query already have the problem and are typically open to professional help when DIY fails (which is most of the time for deposits older than 60 days). The article positions Aloha Window Bros as the authoritative local expert on a specific, solvable problem rather than competing on generic "window cleaning near me" terms where larger competitors dominate.
+- **Solar Panel Cleaning Camarillo — replicating the Thousand Oaks blueprint in a higher-soiling market**: The existing "Solar Panel Cleaning Thousand Oaks" article (published 2026-04-15) was the only city-specific solar piece on the site. Camarillo is a structurally different market — closer to the Pacific (salt fog), surrounded by active agriculture (ag dust on the Oxnard Plain), and one of Ventura County's higher solar adoption rates due to flat lots and newer construction. The article differentiates from Thousand Oaks by leading with ag dust + salt fog as the dominant soiling factors and references specific Camarillo neighborhoods (Mission Oaks, Las Posas Estates, Spanish Hills, Camarillo Springs, Camarillo Heights, Sterling Hills) for high-relevance local terms. This expands the solar-cleaning topical cluster from 1 city-specific page to 2 and strengthens internal linking between solar and city content.
+- **Low-traffic strategy alignment**: Per the run guidelines, with limited GSC/GA4 data flowing through, content creation is the priority. Both articles fill clear topical gaps (hard water = no dedicated content; Camarillo solar = no city-specific solar variant) rather than waiting for data validation that won't exist without first publishing the content.
+- **Competitor gap**: Per the snapshot, the only competitor with detectable content (brilliantwindowcleaning.com) has just 1 indexed page. Both venturacountywindowcleaning.com and windowcleaningventura.com have zero indexed pages. Aloha Window Bros is in a position to dominate the local content vertical by simply publishing comprehensive, GEO-optimized guides faster than competitors.
+
+**Expected impact:**
+- **Hard water article**: Should begin appearing for queries like "how to remove hard water stains from windows," "hard water stains glass Ventura County," "sprinkler spots windows California," and "hard water restoration window cleaning" within 4-8 weeks. Conversion rate should be elevated vs. typical informational articles because the audience is actively troubleshooting a problem.
+- **Solar Panel Cleaning Camarillo**: Should capture position 5-15 within 6-8 weeks for "solar panel cleaning Camarillo," "solar panel cleaning Camarillo CA," and related neighborhood queries. Mirrors the Thousand Oaks article's structure, which already exists in the index — the same template usually compounds rankings as Google trusts the topical authority.
+- **Cluster-level gain**: 18 indexed blog posts now cover 9+ Ventura County cities + 4 service categories. Internal link density continues to grow, which is the primary lever for an early-stage local SEO site.
+
+**Metrics at time of action:**
+- Blog post count: 16 → 18 | Total pages: 22 → 24
+- GSC: not yet configured (invalid_grant) — flagged in snapshot as the major data gap to resolve
+- Semrush: API errors prevented domain overview / organic keywords / competitors data this run; previous snapshots show domain in early-stage growth phase
+- PageSpeed: API rate-limited (429) on both runs; not measurable this session
+- Competitor visibility: brilliantwindowcleaning.com has 1 indexed page, 2 other competitors have 0 — content velocity is a clear competitive advantage
+- Build verified: 24/24 pages built successfully with new articles in sitemap
+
+---
+
 ### 2026-04-29
 
 **What we did:**

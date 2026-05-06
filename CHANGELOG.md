@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-05-06
+- Created blog article: "How to Remove Hard Water Stains from Windows: A Ventura County Guide" — high-intent evergreen + seasonal (May/June peak when sprinklers run constantly in CA). Multiple existing articles mention hard water stains but no dedicated guide existed. Targets DIY-then-stuck searchers ready to convert. Cites USGS, IWCA, and Water Quality Association.
+- Created blog article: "Solar Panel Cleaning Camarillo: How to Maximize Your System Output" — extends solar coverage from Thousand Oaks (only existing city-specific solar article) to Camarillo. Targets ag dust + coastal salt fog + Oxnard Plain factors that Thousand Oaks article doesn't cover. Cites NREL, CARB, and Camrosa Water District.
+- Both articles GEO-optimized: direct answers in first 150 words, quotable stats with sources, FAQ sections with FAQPage JSON-LD schema, comparison tables, internal links to existing city pages.
+- Blog post count: 16 → 18 | Total pages: 22 → 24
+
 ## 2026-05-03
 - Added `/privacy` page (`src/pages/privacy.astro`) so Meta Ads can verify a published privacy policy on the landing domain — required before Meta will approve lead-gen ad campaigns. Policy explicitly discloses Meta Pixel (ID 2085643305314161) usage including custom audiences, lookalikes, and retargeting, plus GA4 (G-MRSP8D9CQG), CCPA opt-out path, and GDPR legal basis. Reuses `blog-post-hero` + `service-content-section` styles for consistent look/mobile layout.
 - Added "Privacy Policy" link to `Footer.astro` Quick Links column so the page is crawlable from every page on the site.
