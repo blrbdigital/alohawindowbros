@@ -4,6 +4,35 @@
 
 ---
 
+### 2026-05-20
+
+**What we did:**
+- Created new blog article: "Window Washing Santa Barbara: A Coastal Guide to Streak-Free Glass"
+- Created new blog article: "Window Cleaning Ojai: A Homeowner Guide to Spotless Valley Views"
+- Both articles GEO-optimized with direct answers in the first 150 words, quotable stats with citations (EPA, Cal Fire, IWCA), comparison tables, FAQ sections with FAQPage JSON-LD schema, and Calendly CTAs
+- Added internal links between the new articles and existing city/topic pages (Thousand Oaks, Westlake Village, Camarillo, Ventura, Santa Barbara, Ventura County, hard water stains guide)
+- Updated .claude-site-map.md (blog count 18 → 20, page count 24 → 26) and CHANGELOG.md
+
+**Why we did it:**
+- **Santa Barbara is the highest-volume keyword opportunity in our Semrush data.** "santa barbara window cleaning" sits at position 11 with 140 monthly search volume (highest of any keyword we rank for) and "window washing santa barbara" sits at position 16 with 90 search volume. Our existing Santa Barbara article targets "window cleaning"; we had no dedicated content targeting the "window washing" variant. Creating a parallel article focused on "washing" (different search intent — emphasizes process, technique, and surface-level maintenance) gives Google a second SB-anchored URL to rank, reduces over-reliance on one page, and supports the keyword cluster as a whole. CPC for the SB cluster is $15.54 — the highest of any keyword we rank for — making each captured click significantly more valuable than Ventura County or Thousand Oaks traffic.
+- **Ojai is the largest uncovered Ventura County town in our content footprint.** Our city-specific blog cluster covers Thousand Oaks, Westlake Village, Agoura Hills, Newbury Park, Camarillo, Oxnard, Simi Valley, Ventura, Santa Barbara — but not Ojai. Ojai is small (population ~7,500) but extremely high-affluence with significant second-home ownership, vacation-rental presence (Ojai Valley Inn area), and a culture that hires local trades. The article differentiates from generic city content by leading with Ojai-specific soiling factors not relevant anywhere else: orchard dust from active citrus/avocado groves, hard well water (most Ojai homes are on private wells, not municipal), wildfire ash from the chronic Ventura County fire season, and "Pink Moment" mineral particulate from the Topa Topa bluffs. Neighborhood targeting includes East End, Arbolada, Mira Monte, Meiners Oaks, and Upper Ojai for hyper-local relevance.
+- **Low-traffic-strategy alignment:** With GSC and GA4 still not configured (per snapshot status), the priority remains content creation rather than data-driven optimization. Both topics were chosen from explicit Semrush ranking data (Santa Barbara) and obvious competitor/geo gaps (Ojai) — not guesswork.
+- **Competitor gap remains wide open.** Per the snapshot, brilliantwindowcleaning.com has only 1 indexed page; venturacountywindowcleaning.com and windowcleaningventura.com show zero indexed pages. Direct competitors are not publishing content at any meaningful rate — every article we ship extends our topical authority gap.
+
+**Expected impact:**
+- **Window Washing Santa Barbara:** Should rank within 6–10 weeks for "window washing santa barbara" (current position 16) and lift "santa barbara window cleaning" (current position 11) by 2–4 positions through topical reinforcement. At positions 5–10, the keyword cluster should generate an additional 15–25 organic clicks/month. With $15.54 CPC, the equivalent paid value is roughly $230–$385/month captured organically.
+- **Window Cleaning Ojai:** Net-new keyword acquisition for "window cleaning ojai," "window washing ojai," and Ojai neighborhood variants. With no existing content on these terms anywhere in our footprint, expect first impressions within 4–6 weeks and ranking positions 8–20 within 8–12 weeks. Conversion value is high — Ojai homes are typically larger (East End estates) and use professional services more readily than DIY-heavy demographics.
+- **Topical cluster strengthening:** Our city-specific cluster grows from 11 cities to 12, with Santa Barbara coverage doubling. Both new articles internally link to multiple cluster pages, which improves crawl efficiency and distributes link equity.
+
+**Metrics at time of action:**
+- Total organic keywords ranked: 19–27 (per Semrush rank history, fluctuating across last 6 months)
+- Top keyword: "aloha window bros" position 1 (branded, 30 search vol) | Top non-branded: "window cleaning thousand oaks" position 7 (70 search vol)
+- Highest-volume non-branded keyword: "santa barbara window cleaning" position 11 (140 search vol, $15.54 CPC) — directly targeted by this run
+- Total blog posts: 18 → 20 | Total pages: 24 → 26
+- Domain rank trend: improving (8.2M → 6M over last 60 days, Semrush rank history)
+
+---
+
 ### 2026-05-06
 
 **What we did:**

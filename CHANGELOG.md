@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-05-20
+- Created blog article: "Window Washing Santa Barbara: A Coastal Guide to Streak-Free Glass" — targets the "window washing santa barbara" / "santa barbara window cleaning" keyword cluster (140 search volume, currently positions 11–19 per Semrush). Distinct from existing Santa Barbara article: focuses on the "window washing" search term variant, deeper neighborhood targeting (Montecito, Hope Ranch, Carpinteria, Mesa, Riviera), and a service-comparison table (window washing vs. cleaning vs. hard water restoration). Cites EPA and IWCA.
+- Created blog article: "Window Cleaning Ojai: A Homeowner Guide to Spotless Valley Views" — fills uncovered Ventura County geo (Ojai had no content despite high-affluence demographics). Targets orchard dust, well-water mineral content, wildfire ash, and "Pink Moment" particulate — unique to the Ojai Valley microclimate. Covers East End, Arbolada, Mira Monte, Meiners Oaks, Upper Ojai. Cites Cal Fire and IWCA.
+- Both articles GEO-optimized: direct answers in first 150 words, quotable stats with sources, FAQ sections with FAQPage JSON-LD schema, comparison tables, internal links to related city pages and existing topical articles.
+- Blog post count: 18 → 20 | Total pages: 24 → 26
+
 ## 2026-05-06
 - Created blog article: "How to Remove Hard Water Stains from Windows: A Ventura County Guide" — high-intent evergreen + seasonal (May/June peak when sprinklers run constantly in CA). Multiple existing articles mention hard water stains but no dedicated guide existed. Targets DIY-then-stuck searchers ready to convert. Cites USGS, IWCA, and Water Quality Association.
 - Created blog article: "Solar Panel Cleaning Camarillo: How to Maximize Your System Output" — extends solar coverage from Thousand Oaks (only existing city-specific solar article) to Camarillo. Targets ag dust + coastal salt fog + Oxnard Plain factors that Thousand Oaks article doesn't cover. Cites NREL, CARB, and Camrosa Water District.
