@@ -2,6 +2,8 @@
 title: 'Window Cleaning Ventura County: What Homeowners Should Know Before Hiring Professionals'
 date: '2026-03-09'
 description: 'Clean windows improve the look of any home. Sunlight enters more easily, views look sharper, and the property feels well maintained. In Ventura County,...'
+heroImage: "/img/before_after.png"
+heroImageAlt: "Professional window cleaning by Aloha Window Bros"
 ---
 
 Clean windows improve the look of any home. Sunlight enters more easily, views look sharper, and the property feels well maintained. In Ventura County, dust from dry seasons, coastal moisture, and everyday debris can quickly leave windows looking dull.

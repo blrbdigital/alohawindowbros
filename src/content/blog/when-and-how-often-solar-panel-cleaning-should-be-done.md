@@ -2,6 +2,8 @@
 title: 'When and How Often Solar Panel Cleaning Should Be Done'
 date: '2026-03-09'
 description: 'Solar panels are designed to work efficiently for many years, but their performance depends on regular maintenance. Over time, dust, bird droppings,...'
+heroImage: "/img/solar_1.png"
+heroImageAlt: "Professional solar panel cleaning by Aloha Window Bros"
 ---
 
 Solar panels are designed to work efficiently for many years, but their performance depends on regular maintenance. Over time, dust, bird droppings, leaves, and pollution build up on the panel surface and reduce the amount of sunlight reaching the solar cells.

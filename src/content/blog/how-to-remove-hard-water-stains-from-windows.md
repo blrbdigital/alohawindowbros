@@ -2,6 +2,8 @@
 title: 'How to Remove Hard Water Stains from Windows: A Ventura County Guide'
 date: '2026-05-06'
 description: 'Hard water stain removal for Ventura County homes — DIY methods, when to call pros, and how to prevent permanent glass etching from sprinkler spots.'
+heroImage: "/img/before_after_6.png"
+heroImageAlt: "Hard water stain removal — before and after"
 ---
 
 Hard water stains on windows can be removed with white vinegar, commercial mineral deposit removers, or professional restoration if the deposits have not yet etched the glass. Aloha Window Bros recommends treating hard water spots within 60 days of formation — after about 6 to 12 months of exposure, mineral deposits chemically bond to the glass and become permanent. For Ventura County homeowners dealing with sprinkler overspray, salt fog, or well water, a combination of regular professional cleaning and quick action on fresh spots is the most cost-effective approach.

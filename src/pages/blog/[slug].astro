@@ -30,7 +30,8 @@ const jsonLd = {
       "datePublished": post.data.date,
       "author": { "@type": "Organization", "name": "Aloha Window Bros" },
       "publisher": { "@type": "Organization", "name": "Aloha Window Bros", "url": "https://alohawindowbros.com" },
-      "mainEntityOfPage": `https://alohawindowbros.com/blog/${post.id}/`
+      "mainEntityOfPage": `https://alohawindowbros.com/blog/${post.id}/`,
+      ...(post.data.heroImage ? { "image": `https://alohawindowbros.com${post.data.heroImage}` } : {})
     },
     {
       "@type": "BreadcrumbList",
@@ -50,6 +51,12 @@ const jsonLd = {
   jsonLd={jsonLd}
 >
   <Header slot="header" />
+
+  {post.data.heroImage && (
+    <figure class="blog-post-cover">
+      <img src={post.data.heroImage} alt={post.data.heroImageAlt || post.data.title} loading="eager" decoding="async" />
+    </figure>
+  )}
 
   <!-- Blog Post Hero -->
   <section class="blog-post-hero">

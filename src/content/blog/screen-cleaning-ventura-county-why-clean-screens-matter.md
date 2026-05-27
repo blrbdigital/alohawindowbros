@@ -2,6 +2,8 @@
 title: 'Screen Cleaning in Ventura County: Why Clean Screens Matter More Than You Think'
 date: '2026-04-08'
 description: 'Window screen cleaning in Ventura County — why dirty screens hurt air quality, how often to clean them, and what professional service costs.'
+heroImage: "/img/screen_cleaner.jpg"
+heroImageAlt: "Window screen cleaning by Aloha Window Bros"
 ---
 
 Dirty window screens reduce indoor airflow by up to 50% and push pollen, dust, and allergens directly into your home every time you open a window. Aloha Window Bros provides professional screen cleaning throughout Ventura County — including Thousand Oaks, Westlake Village, Ventura, Agoura Hills, and Newbury Park — as a standalone service or bundled with window washing. Most homes cost $3–$7 per screen for professional cleaning, and the entire job typically takes under an hour.

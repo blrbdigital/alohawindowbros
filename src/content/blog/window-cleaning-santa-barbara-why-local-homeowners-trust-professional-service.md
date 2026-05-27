@@ -2,6 +2,8 @@
 title: 'Window Cleaning Santa Barbara: Why Local Homeowners Trust Professional Service'
 date: '2026-04-01'
 description: 'Professional window cleaning in Santa Barbara, CA. Learn costs, frequency, and why coastal homes need expert care. Free quotes from Aloha Window Bros.'
+heroImage: "/img/hero-window-cleaning.jpg"
+heroImageAlt: "Professional window cleaning by Aloha Window Bros"
 ---
 
 Santa Barbara homeowners need professional window cleaning more often than most California residents due to the coastal environment. Salt spray, marine fog, and mineral-rich hard water create a stubborn film on glass that standard household cleaning cannot remove effectively. Aloha Window Bros provides professional window cleaning throughout Santa Barbara County, using purified water systems and eco-friendly solutions designed specifically for coastal conditions. Most Santa Barbara homes benefit from cleaning every 3–4 months, with average costs ranging from $150 to $400 depending on home size and window accessibility.

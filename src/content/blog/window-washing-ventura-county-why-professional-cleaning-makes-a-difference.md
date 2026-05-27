@@ -2,6 +2,8 @@
 title: 'Window Washing Ventura County: Why Professional Cleaning Makes a Difference'
 date: '2026-03-09'
 description: 'Clean windows make a home look brighter and well cared for. In Ventura County, dust from dry seasons, ocean air, and everyday debris quickly settle on...'
+heroImage: "/img/window_washing_image.png"
+heroImageAlt: "Professional window washing by Aloha Window Bros"
 ---
 
 Clean windows make a home look brighter and well cared for. In Ventura County, dust from dry seasons, ocean air, and everyday debris quickly settle on window glass. When that buildup remains on the surface for too long, it can leave streaks and mineral spots that are difficult to remove.

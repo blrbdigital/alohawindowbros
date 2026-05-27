@@ -2,6 +2,8 @@
 title: 'Window Cleaning Thousand Oaks: A Complete Guide for Homeowners'
 date: '2026-03-09'
 description: 'Thousand Oaks is known for beautiful neighborhoods, scenic views, and homes designed to capture natural light. Large windows are common in many properties...'
+heroImage: "/img/before_after.png"
+heroImageAlt: "Professional window cleaning by Aloha Window Bros"
 ---
 
 Thousand Oaks is known for beautiful neighborhoods, scenic views, and homes designed to capture natural light. Large windows are common in many properties throughout the area. These windows allow sunlight to brighten living spaces and provide clear outdoor views.

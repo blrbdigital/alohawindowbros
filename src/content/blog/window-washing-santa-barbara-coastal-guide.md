@@ -2,6 +2,8 @@
 title: 'Window Washing Santa Barbara: A Coastal Guide to Streak-Free Glass'
 date: '2026-05-20'
 description: 'Professional window washing in Santa Barbara, CA. Coastal salt, hard water, and marine fog require specialized techniques. Free quotes from Aloha Window Bros.'
+heroImage: "/img/window_washing_image.png"
+heroImageAlt: "Professional window washing by Aloha Window Bros"
 ---
 
 Window washing in Santa Barbara requires a different approach than inland cleaning because salt spray, marine fog, and Santa Barbara's notoriously hard water create a mineral film that standard squeegee work cannot remove. Aloha Window Bros uses purified water-fed pole systems and professional-grade solutions designed for coastal conditions, serving homes from Carpinteria to Goleta. Most Santa Barbara homeowners pay between $175 and $400 for professional window washing, with quarterly service recommended for properties within five miles of the coast.

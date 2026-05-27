@@ -2,6 +2,8 @@
 title: 'Window Cleaning Newbury Park: A Homeowner Guide to Spotless Glass'
 date: '2026-04-29'
 description: 'Professional window cleaning in Newbury Park, CA. Pricing, frequency, and why hillside homes need specialized service. Book a free quote with Aloha Window Bros.'
+heroImage: "/img/before_after.png"
+heroImageAlt: "Professional window cleaning by Aloha Window Bros"
 ---
 
 Homeowners in Newbury Park searching for professional window cleaning should expect to pay between $175 and $425 for a full-home service, depending on home size, window count, and accessibility. Aloha Window Bros provides window cleaning throughout Newbury Park, using purified water systems and eco-friendly solutions that leave glass streak-free. Most Newbury Park homes need cleaning every three to four months because of the area's combination of canyon dust from the Santa Monica Mountains, marine layer moisture from the nearby Pacific coast, and hard water from local irrigation systems.

@@ -2,6 +2,8 @@
 title: 'Solar Panel Cleaning Camarillo: How to Maximize Your System Output'
 date: '2026-05-06'
 description: 'Solar panel cleaning in Camarillo, CA — why ag dust and coastal salt cut output by 15-25%, what professional cleaning costs, and when to schedule it.'
+heroImage: "/img/solar_1.png"
+heroImageAlt: "Professional solar panel cleaning by Aloha Window Bros"
 ---
 
 Solar panels in Camarillo lose between 15% and 25% of their output each year to agricultural dust, coastal salt fog, and pollen unique to the Oxnard Plain. Aloha Window Bros provides professional solar panel cleaning throughout Camarillo using purified water systems that safely remove buildup without scratching panels or voiding manufacturer warranties. Most Camarillo homeowners should schedule professional solar panel cleaning at least twice per year — once in early spring before peak production season and again in late fall after the dry season ends.

@@ -2,6 +2,8 @@
 title: 'Window Cleaning Camarillo: What Homeowners Need to Know'
 date: '2026-04-22'
 description: 'Professional window cleaning in Camarillo, CA. Costs, frequency, and why ocean-adjacent homes need specialized service. Book a free quote with Aloha Window Bros.'
+heroImage: "/img/before_after.png"
+heroImageAlt: "Professional window cleaning by Aloha Window Bros"
 ---
 
 Homeowners in Camarillo searching for professional window cleaning should expect to pay between $150 and $400 for a full-home service, depending on window count and accessibility. Aloha Window Bros provides window cleaning throughout Camarillo, using purified water systems and eco-friendly solutions that leave glass streak-free. Most Camarillo homes need cleaning every three to four months because of the city's unique combination of coastal salt air from the Oxnard Plain, agricultural dust from surrounding farmland, and hard water from local irrigation systems.

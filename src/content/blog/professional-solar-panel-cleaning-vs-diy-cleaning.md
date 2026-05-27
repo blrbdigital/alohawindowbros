@@ -2,6 +2,8 @@
 title: 'Professional Solar Panel Cleaning vs DIY Cleaning'
 date: '2026-03-09'
 description: 'Solar panels are exposed to outdoor conditions throughout the year, which makes dirt accumulation unavoidable. Dust, pollution, and bird droppings...'
+heroImage: "/img/solar_1.png"
+heroImageAlt: "Professional solar panel cleaning by Aloha Window Bros"
 ---
 
 Solar panels are exposed to outdoor conditions throughout the year, which makes dirt accumulation unavoidable. Dust, pollution, and bird droppings gradually cover the surface and reduce the ability of the panels to capture sunlight.

@@ -2,6 +2,8 @@
 title: 'How Much Does Window Cleaning Cost in Ventura County'
 date: '2026-03-09'
 description: 'Homeowners and business owners often search for reliable window cleaning Ventura County services to keep their properties looking clean and well...'
+heroImage: "/img/hero-window-cleaning.jpg"
+heroImageAlt: "Professional window cleaning by Aloha Window Bros"
 ---
 
 Homeowners and business owners often search for reliable window cleaning Ventura County services to keep their properties looking clean and well maintained. One of the most common questions people ask before hiring a service is how much professional window cleaning costs. The price can vary depending on several factors such as property size, number of windows, accessibility, and the type of cleaning required.

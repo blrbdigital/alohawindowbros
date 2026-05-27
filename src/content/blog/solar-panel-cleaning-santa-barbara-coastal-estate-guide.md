@@ -2,6 +2,8 @@
 title: 'Solar Panel Cleaning Santa Barbara: A Coastal Estate Owner Guide'
 date: '2026-05-27'
 description: 'Solar panel cleaning in Santa Barbara, CA — why coastal salt and Eucalyptus pollen cut output by 18-25%, what professional cleaning costs, and when to schedule.'
+heroImage: "/img/solar_1.png"
+heroImageAlt: "Professional solar panel cleaning by Aloha Window Bros"
 ---
 
 Solar panels in Santa Barbara lose between 18% and 25% of their output every year to a combination of coastal salt fog, Eucalyptus pollen, and wildfire ash that no other California city sees in the same proportions. Aloha Window Bros provides professional solar panel cleaning across Santa Barbara — from the Riviera and Hope Ranch to Montecito and the Mesa — using purified water systems that lift salt and organic film without scratching glass or voiding manufacturer warranties. Most Santa Barbara homes should clean panels at least twice per year, and estate-scale arrays on coastal bluffs often need quarterly service to stay at peak production.

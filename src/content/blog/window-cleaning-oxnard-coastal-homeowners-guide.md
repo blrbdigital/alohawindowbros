@@ -2,6 +2,8 @@
 title: 'Window Cleaning Oxnard: A Coastal Homeowner Guide'
 date: '2026-04-29'
 description: 'Professional window cleaning in Oxnard, CA. Costs, frequency, and why coastal homes need salt-residue removal. Book a free quote with Aloha Window Bros.'
+heroImage: "/img/hero-window-cleaning.jpg"
+heroImageAlt: "Professional window cleaning by Aloha Window Bros"
 ---
 
 Homeowners in Oxnard searching for professional window cleaning should expect to pay between $175 and $450 for a full-home service, depending on home size, window count, and proximity to the coast. Aloha Window Bros provides window cleaning throughout Oxnard, using purified water systems and eco-friendly solutions that lift salt residue and hard water without scratching glass. Most Oxnard homes need cleaning every two to three months because of constant ocean salt spray, agricultural dust from the Oxnard Plain, and hard water from local irrigation — a combination that builds up faster than in any other Ventura County city.

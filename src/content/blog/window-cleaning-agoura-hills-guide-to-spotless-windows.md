@@ -2,6 +2,8 @@
 title: 'Window Cleaning Agoura Hills: Your Guide to Spotless Windows Year-Round'
 date: '2026-04-15'
 description: 'Professional window cleaning in Agoura Hills, CA. Learn costs, frequency, and why local homeowners trust Aloha Window Bros for streak-free results.'
+heroImage: "/img/water_pole_2.jpg"
+heroImageAlt: "Professional window cleaning by Aloha Window Bros"
 ---
 
 Homeowners in Agoura Hills searching for reliable window cleaning should expect to pay between $150 and $400 for a full-home service, depending on the number of windows and accessibility. Aloha Window Bros provides professional window cleaning throughout Agoura Hills and the surrounding Ventura County communities, using purified water systems and eco-friendly solutions that leave glass streak-free without chemical residue. Most homes in the area benefit from cleaning every three to six months due to the local climate conditions that cause rapid buildup on exterior glass.

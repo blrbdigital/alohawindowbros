@@ -2,6 +2,8 @@
 title: 'Window Cleaning Westlake Village: A Homeowner Guide to Cleaner Glass Year-Round'
 date: '2026-04-01'
 description: 'Window cleaning in Westlake Village, CA — costs, frequency, and what to expect from professional service. Free quotes from Aloha Window Bros.'
+heroImage: "/img/clean_window_pic.png"
+heroImageAlt: "Professional window cleaning by Aloha Window Bros"
 ---
 
 Westlake Village homeowners typically need professional window cleaning two to four times per year to maintain clear glass and protect their investment. Aloha Window Bros serves Westlake Village and the surrounding Conejo Valley with full-service window cleaning, including interior and exterior glass, screens, frames, and sills. Most homes in Westlake Village cost between $175 and $350 for a complete professional cleaning, depending on window count and home layout.

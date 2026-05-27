@@ -1,5 +1,8 @@
 # Changelog
 
+## 2026-05-27 (later)
+- **Hero images on every blog article.** Added `heroImage` + `heroImageAlt` to the blog content schema, render a 21:9 cover figure above the title in `[slug].astro`, and injected the image into the Article JSON-LD. Backfilled all 22 existing articles with real photos from `/public/img/` (solar_1, screen_cleaner, before_after, before_after_6, hero-window-cleaning, water_pole_2, clean_window_pic, window_washing_image) via deterministic category match in `scripts/backfill-hero-images.mjs` — same picker the SEO cron uses, so new articles get heroes automatically.
+
 ## 2026-05-27
 - **2 new GEO-optimized blog articles** filling priority service × city content gaps:
   - **Solar Panel Cleaning Santa Barbara** (`/blog/solar-panel-cleaning-santa-barbara-coastal-estate-guide/`) — targets the highest-CPC keyword cluster on the domain ($15.54 CPC). Santa Barbara rankings dropped between snapshots ("window cleaning santa barbara ca" pos 6 → 14), and we had zero solar content for SB despite SB being our most commercially valuable geo. Coastal salt + Eucalyptus pollen + Montecito/Hope Ranch estate angle.

@@ -2,6 +2,8 @@
 title: 'Window Cleaning Ojai: A Homeowner Guide to Spotless Valley Views'
 date: '2026-05-20'
 description: 'Professional window cleaning in Ojai, CA. Orchard dust, well water, and wildfire ash require expert care. Free quotes from Aloha Window Bros.'
+heroImage: "/img/before_after.png"
+heroImageAlt: "Professional window cleaning by Aloha Window Bros"
 ---
 
 Ojai homeowners need professional window cleaning more often than most Ventura County residents because of the unique combination of orchard dust, well-water mineral content, and wildfire-season ash that settles on glass throughout the year. Aloha Window Bros provides professional window cleaning across the Ojai Valley, from East End estates to Mira Monte, using purified water systems and eco-friendly methods that protect both the home and the surrounding agricultural environment. Most Ojai homes pay between $175 and $400 for full-service cleaning, with quarterly visits recommended for properties near active orchards or oak canopies.
