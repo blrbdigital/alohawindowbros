@@ -1,0 +1,182 @@
+---
+/**
+ * Cookie consent banner — Consent Mode v2 gate.
+ *
+ * Default state (set in Base.astro before GA4 loads): all storage denied.
+ * Accept → updates gtag consent to granted + initializes Meta Pixel.
+ * Decline → records the choice; analytics/ads stay denied.
+ * Returning visitors who accepted skip the banner entirely (state restored
+ * synchronously in Base.astro, no flicker).
+ */
+---
+<aside
+  id="awb-cookie-banner"
+  role="region"
+  aria-label="Cookie notice"
+  hidden
+>
+  <div class="awb-cookie-card">
+    <p class="awb-cookie-text">
+      We use cookies and similar technologies (including Google Analytics and
+      the Meta Pixel) to understand how our site is used and to measure ads.
+      You can accept or decline below. See our
+      <a href="/privacy">Privacy Policy</a> for details.
+    </p>
+    <div class="awb-cookie-actions">
+      <button type="button" class="awb-cookie-btn awb-cookie-btn--ghost" data-action="decline">
+        Decline
+      </button>
+      <button type="button" class="awb-cookie-btn awb-cookie-btn--primary" data-action="accept">
+        Accept
+      </button>
+    </div>
+  </div>
+</aside>
+
+<style>
+  #awb-cookie-banner {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    padding: 0 clamp(12px, 4vw, 32px) clamp(12px, 3vw, 24px);
+    pointer-events: none;
+  }
+  #awb-cookie-banner[data-visible="true"] {
+    animation: awb-cookie-slide 0.45s cubic-bezier(0.22, 1, 0.36, 1);
+  }
+  @keyframes awb-cookie-slide {
+    from { transform: translateY(120%); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+  }
+  .awb-cookie-card {
+    pointer-events: auto;
+    max-width: 720px;
+    margin: 0 auto;
+    background: #ffffff;
+    border: 1px solid rgba(26, 26, 46, 0.08);
+    border-radius: 16px;
+    box-shadow: 0 12px 48px rgba(26, 26, 46, 0.12), 0 2px 8px rgba(26, 26, 46, 0.04);
+    padding: clamp(16px, 3vw, 22px) clamp(18px, 3vw, 26px);
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  }
+  .awb-cookie-text {
+    flex: 1;
+    min-width: 240px;
+    font-size: 13px;
+    line-height: 1.55;
+    color: #4b5563;
+    margin: 0;
+  }
+  .awb-cookie-text a {
+    color: #2563eb;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+  .awb-cookie-text a:hover {
+    color: #1d4ed8;
+  }
+  .awb-cookie-actions {
+    display: flex;
+    gap: 8px;
+    flex-shrink: 0;
+  }
+  .awb-cookie-btn {
+    padding: 10px 18px;
+    border-radius: 10px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.2px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-family: inherit;
+    line-height: 1;
+  }
+  .awb-cookie-btn--ghost {
+    background: transparent;
+    border: 1px solid rgba(26, 26, 46, 0.15);
+    color: #4b5563;
+  }
+  .awb-cookie-btn--ghost:hover {
+    border-color: rgba(26, 26, 46, 0.35);
+    color: #1a1a2e;
+  }
+  .awb-cookie-btn--primary {
+    background: linear-gradient(115deg, #2563eb, #7c3aed);
+    border: none;
+    color: #ffffff;
+    box-shadow: 0 4px 14px rgba(37, 99, 235, 0.28);
+  }
+  .awb-cookie-btn--primary:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 6px 18px rgba(37, 99, 235, 0.36);
+  }
+  @media (max-width: 520px) {
+    .awb-cookie-card { flex-direction: column; align-items: stretch; }
+    .awb-cookie-actions { width: 100%; }
+    .awb-cookie-btn { flex: 1; padding: 12px 16px; }
+  }
+</style>
+
+<script is:inline>
+  (function () {
+    var KEY = 'awb-cookie-consent';
+    var banner = document.getElementById('awb-cookie-banner');
+    if (!banner) return;
+
+    var existing = null;
+    try { existing = localStorage.getItem(KEY); } catch (e) {}
+
+    function reveal() {
+      banner.hidden = false;
+      // Force reflow before animating
+      banner.getBoundingClientRect();
+      banner.setAttribute('data-visible', 'true');
+    }
+
+    function hide() {
+      banner.hidden = true;
+      banner.removeAttribute('data-visible');
+    }
+
+    function grant() {
+      try { localStorage.setItem(KEY, 'accepted'); } catch (e) {}
+      if (typeof gtag === 'function') {
+        gtag('consent', 'update', {
+          ad_storage: 'granted',
+          ad_user_data: 'granted',
+          ad_personalization: 'granted',
+          analytics_storage: 'granted',
+        });
+      }
+      if (typeof window.__awbLoadMetaPixel === 'function') {
+        window.__awbLoadMetaPixel();
+      }
+      hide();
+    }
+
+    function deny() {
+      try { localStorage.setItem(KEY, 'declined'); } catch (e) {}
+      // Consent already defaults to denied; nothing to update.
+      hide();
+    }
+
+    banner.addEventListener('click', function (e) {
+      var target = e.target instanceof Element ? e.target.closest('[data-action]') : null;
+      if (!target) return;
+      var action = target.getAttribute('data-action');
+      if (action === 'accept') grant();
+      else if (action === 'decline') deny();
+    });
+
+    if (!existing) {
+      // Small delay so the banner doesn't fight the first paint
+      setTimeout(reveal, 800);
+    }
+  })();
+</script>

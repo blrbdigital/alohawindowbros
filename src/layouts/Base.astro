@@ -1,4 +1,6 @@
 ---
+import CookieBanner from '../components/CookieBanner.astro';
+
 interface Props {
   title: string;
   description: string;
@@ -35,32 +37,54 @@ const ogImageUrl = ogImage.startsWith('http') ? ogImage : `${siteUrl}${ogImage}`
     <meta property="og:image" content={ogImageUrl} />
     <meta property="og:site_name" content="Aloha Window Bros" />
 
-    <!-- Google Analytics (GA4) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-MRSP8D9CQG"></script>
-    <script>
+    <!-- Consent Mode v2: default to denied; CookieBanner updates on accept. -->
+    <!-- Reads stored choice synchronously so returning visitors who accepted -->
+    <!-- get full tracking on the first paint without flicker. -->
+    <script is:inline>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
+      var __awb_consent = null;
+      try { __awb_consent = localStorage.getItem('awb-cookie-consent'); } catch (e) {}
+      var __awb_granted = __awb_consent === 'accepted';
+      gtag('consent', 'default', {
+        ad_storage: __awb_granted ? 'granted' : 'denied',
+        ad_user_data: __awb_granted ? 'granted' : 'denied',
+        ad_personalization: __awb_granted ? 'granted' : 'denied',
+        analytics_storage: __awb_granted ? 'granted' : 'denied',
+        functionality_storage: 'granted',
+        security_storage: 'granted',
+        wait_for_update: 500,
+      });
       gtag('js', new Date());
+      window.__awbConsentGranted = __awb_granted;
+    </script>
+
+    <!-- Google Analytics (GA4) — respects consent state above -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-MRSP8D9CQG"></script>
+    <script is:inline>
       gtag('config', 'G-MRSP8D9CQG');
     </script>
 
-    <!-- Meta Pixel Code -->
+    <!-- Meta Pixel — only loads after explicit consent (initialized by CookieBanner) -->
     <script is:inline>
-      !function(f,b,e,v,n,t,s)
-      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-      n.queue=[];t=b.createElement(e);t.async=!0;
-      t.src=v;s=b.getElementsByTagName(e)[0];
-      s.parentNode.insertBefore(t,s)}(window, document,'script',
-      'https://connect.facebook.net/en_US/fbevents.js');
-      fbq('init', '2085643305314161');
-      fbq('track', 'PageView');
+      window.__awbLoadMetaPixel = function () {
+        if (window.fbq) return;
+        !function(f,b,e,v,n,t,s)
+        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+        n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t,s)}(window, document,'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '2085643305314161');
+        fbq('track', 'PageView');
+      };
+      if (window.__awbConsentGranted) window.__awbLoadMetaPixel();
     </script>
     <noscript><img height="1" width="1" style="display:none"
       src="https://www.facebook.com/tr?id=2085643305314161&ev=PageView&noscript=1"
     /></noscript>
-    <!-- End Meta Pixel Code -->
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -73,6 +97,7 @@ const ogImageUrl = ogImage.startsWith('http') ? ogImage : `${siteUrl}${ogImage}`
     <slot name="header" />
     <slot />
     <slot name="footer" />
+    <CookieBanner />
 
     <!-- Conversion tracking -->
     <script>

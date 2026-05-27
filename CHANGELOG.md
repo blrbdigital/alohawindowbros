@@ -1,5 +1,10 @@
 # Changelog
 
+## 2026-05-27 — Cookie consent banner (Consent Mode v2)
+- Added `src/components/CookieBanner.astro` — slide-up notice with Accept/Decline, styled to match site palette (blue→purple gradient). Stores choice in localStorage under `awb-cookie-consent`.
+- **Critical for Meta Pixel:** rewired Base.astro to default GA4 + ad_storage to `denied`, and to NOT initialize `fbq()` (Meta Pixel) on load. Pixel only fires after explicit Accept (or on subsequent visits where the user previously accepted). This brings the site into proper CPRA/CCPA "sharing" compliance for cross-context behavioral advertising and GDPR-readiness for any EU traffic.
+- Returning visitors who accepted have consent restored synchronously before GA4 loads — no flicker, no double-tracking, no banner re-shown.
+
 ## 2026-05-27 (blacklist)
 - **Removed `/public/img/screen_cleaner.jpg`** — depicted an ex-employee. Deleted the binary, re-pointed both screen-cleaning articles to existing real photos (water_pole_2.jpg + hero-window-cleaning.jpg), and added a `HERO_IMAGE_BLACKLIST` set in `blrb-command-center/server/jobs/lib/aloha-hero-picker.ts` so it can't be reintroduced even if a future edit drops it back into a category.
 
