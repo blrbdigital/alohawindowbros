@@ -2,7 +2,7 @@
 title: 'Screen Cleaning Thousand Oaks: A Pollen and Allergy Guide'
 date: '2026-05-27'
 description: 'Screen cleaning in Thousand Oaks, CA — why oak pollen clogs screens, how it worsens indoor allergies, what professional cleaning costs, and how often to schedule.'
-heroImage: "/img/screen_cleaner.jpg"
+heroImage: "/img/water_pole_2.jpg"
 heroImageAlt: "Window screen cleaning by Aloha Window Bros"
 ---
 

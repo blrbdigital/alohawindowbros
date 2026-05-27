@@ -1,5 +1,8 @@
 # Changelog
 
+## 2026-05-27 (blacklist)
+- **Removed `/public/img/screen_cleaner.jpg`** — depicted an ex-employee. Deleted the binary, re-pointed both screen-cleaning articles to existing real photos (water_pole_2.jpg + hero-window-cleaning.jpg), and added a `HERO_IMAGE_BLACKLIST` set in `blrb-command-center/server/jobs/lib/aloha-hero-picker.ts` so it can't be reintroduced even if a future edit drops it back into a category.
+
 ## 2026-05-27 (later)
 - **Hero images on every blog article.** Added `heroImage` + `heroImageAlt` to the blog content schema, render a 21:9 cover figure above the title in `[slug].astro`, and injected the image into the Article JSON-LD. Backfilled all 22 existing articles with real photos from `/public/img/` (solar_1, screen_cleaner, before_after, before_after_6, hero-window-cleaning, water_pole_2, clean_window_pic, window_washing_image) via deterministic category match in `scripts/backfill-hero-images.mjs` — same picker the SEO cron uses, so new articles get heroes automatically.
 

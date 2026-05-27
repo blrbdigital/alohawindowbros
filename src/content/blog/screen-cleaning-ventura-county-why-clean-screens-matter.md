@@ -2,7 +2,7 @@
 title: 'Screen Cleaning in Ventura County: Why Clean Screens Matter More Than You Think'
 date: '2026-04-08'
 description: 'Window screen cleaning in Ventura County — why dirty screens hurt air quality, how often to clean them, and what professional service costs.'
-heroImage: "/img/screen_cleaner.jpg"
+heroImage: "/img/hero-window-cleaning.jpg"
 heroImageAlt: "Window screen cleaning by Aloha Window Bros"
 ---
 
