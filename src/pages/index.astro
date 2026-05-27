@@ -225,17 +225,22 @@ const jsonLd = {
       </div>
       <div class="areas-grid">
         {[
-          { name: 'Thousand Oaks', desc: 'Our home base' },
-          { name: 'Westlake Village', desc: 'Full coverage' },
-          { name: 'Agoura Hills', desc: 'Full coverage' },
-          { name: 'Newbury Park', desc: 'Full coverage' },
-          { name: 'Santa Barbara', desc: 'Expanding' },
-          { name: 'Ventura County', desc: 'County-wide' },
+          { name: 'Thousand Oaks', desc: 'Our home base', href: '/thousand-oaks/' },
+          { name: 'Westlake Village', desc: 'Conejo Valley', href: '/westlake/' },
+          { name: 'Agoura Hills', desc: 'Canyon corridor', href: '/agoura/' },
+          { name: 'Newbury Park', desc: 'Dos Vientos + Rancho Conejo', href: '/newbury/' },
+          { name: 'Santa Barbara', desc: 'Coastal + estate', href: '/santa-barbara/' },
+          { name: 'Camarillo', desc: 'Mission Oaks + foothills', href: '/camarillo/' },
+          { name: 'Simi Valley', desc: 'Wood Ranch + Big Sky', href: '/simi-valley/' },
+          { name: 'Oxnard', desc: 'Beach + canal communities', href: '/oxnard/' },
+          { name: 'Ventura', desc: 'Pierpont, Keys, hillsides', href: '/ventura/' },
+          { name: 'Ojai', desc: 'East End + Upper Ojai', href: '/ojai/' },
         ].map((a) => (
-          <div class="area-card">
+          <a href={a.href} class="area-card area-card-link">
             <span class="area-pin">📍</span>
             <div><strong>{a.name}</strong><span class="area-desc">{a.desc}</span></div>
-          </div>
+            <span class="area-arrow">→</span>
+          </a>
         ))}
       </div>
     </div>

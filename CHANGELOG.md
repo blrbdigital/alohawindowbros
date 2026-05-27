@@ -1,5 +1,13 @@
 # Changelog
 
+## 2026-05-26 (evening)
+- **Expanded city landing pages from 4 → 10**. Added `/santa-barbara/`, `/camarillo/`, `/simi-valley/`, `/oxnard/`, `/ventura/`, `/ojai/` using the shared `<CityLanding>` component. Each page is grounded in real local soiling factors pulled from the matching blog guide and neighborhood lists already in our content. Santa Barbara is the highest-priority addition — Semrush has the SB keyword cluster at $15.54 CPC, the highest CPC of any term we rank for, currently at position 11.
+- **Internal-linking wire-up**: homepage "Service Areas" section now shows all 10 cities as clickable cards with hover arrows (was 4 static + 2 placeholder cards previously). Footer adds a 5th column "Service Areas" with all 10 city links. Services slug-page sidebar's "Areas We Serve" list converted from static `<li>` to actual links to the 10 city pages — fixes the "no way to discover these pages" gap and propagates link equity from high-traffic service pages down to city pages.
+- **`/llms.txt`** updated to include all 10 cities so AI search engines discover the full local footprint.
+- **Updated `.claude-site-map.md`** — city pages list expanded, page count 30 → 36.
+- **Fix from earlier today**: the deploy script at `/usr/local/bin/deploy_alohawindowbros_com` was overwriting our committed `.blrb/nginx_spa.conf` with a default SPA template on every run — patched it on the VPS to only write the default when no file exists in the repo. **The container's `index index.html;` directive + the new `location = /index.html { return 301 /; }` rule were colliding** (index triggered an internal rewrite `/` → `/index.html` → matched the 301 rule → loop). Removed the `index` directive and dropped `$uri/` from try_files so try_files handles directory→index.html resolution as a file lookup (file checks don't re-evaluate locations).
+- Page count: 30 → 36. New city URLs: `/santa-barbara/`, `/camarillo/`, `/simi-valley/`, `/oxnard/`, `/ventura/`, `/ojai/`.
+
 ## 2026-05-26
 - Full SEO sweep based on Semrush Site Audit + Google Search Console findings (94% Site Health → targeting 98+%, 22 indexed → eliminating the indexing tail).
 - **Nginx** (`.blrb/nginx_spa.conf`): added gzip compression (fixes 28 uncompressed JS/CSS files per Semrush) for text/css, JS, JSON, XML, SVG; added HSTS header (`Strict-Transport-Security: max-age=31536000; includeSubDomains`) — fixes "subdomain doesn't support HSTS" notice; added X-Content-Type-Options header.

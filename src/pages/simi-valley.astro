@@ -1,0 +1,36 @@
+---
+import CityLanding from '../components/CityLanding.astro';
+
+const city = {
+  slug: 'simi-valley',
+  cityName: 'Simi Valley',
+  shortName: 'Simi Valley',
+  metaTitle: 'Window Cleaning Simi Valley, CA — Aloha Window Bros',
+  metaDescription: 'Professional window cleaning in Simi Valley, CA. Wood Ranch, Big Sky, Santa Susana experts. Fully insured — free quote at (805) 341-4121.',
+  heroHeadline: 'Window Cleaning in Simi Valley, CA',
+  heroSubcopy: 'From Wood Ranch to Big Sky to central Simi, two brothers bringing aloha hospitality to your home with a 100% satisfaction guarantee.',
+  intro: 'Simi Valley sits in a wide east–west valley wrapped by the Simi Hills, Santa Susana Mountains, and the Las Llajas canyon system. That bowl-shaped terrain traps wind-driven dust and pollen, especially during Santa Ana events, and the valley\'s sustained sun exposure bakes spotting onto south- and west-facing glass faster than coastal areas. Most Simi Valley full-home jobs run $175–$425, with free on-site estimates.',
+  soilingFactors: [
+    { name: 'Canyon-funneled dust', detail: 'Las Llajas and Tapo Canyons funnel dust into Wood Ranch, Big Sky, and the northern edge of Simi. Homes within a half-mile of these canyon corridors see noticeably faster soiling, especially on east-facing glass.' },
+    { name: 'Santa Ana wind events', detail: 'Simi sits directly in the path of seasonal Santa Anas. Fall and winter wind events drive fine particulate from the Santa Susana Mountains across the entire valley — even interior streets in central Simi see post-event haze on glass and screens.' },
+    { name: 'Wildfire ash season', detail: 'Late summer and fall bring brush-clearing operations and proximity to fire-prone hillsides. Fine ash bonds to glass and screens differently than dust — needs a proper rinse, not a dry wipe, or you grind it into the glass.' },
+    { name: 'Sustained UV exposure', detail: 'Simi averages 290+ sunny days per year, and the valley\'s elevation gives stronger solar intensity than coastal cities. Hard water spots and pollen residue bake onto glass faster here — quarterly service prevents the etching that develops past 60 days.' }
+  ],
+  neighborhoods: [
+    'Wood Ranch', 'Big Sky', 'Central Simi', 'Sinaloa',
+    'Madera', 'Santa Susana Knolls', 'Texas Tract', 'Country Club Estates',
+    'Bridle Path', 'Indian Hills', 'Royal Highlands', 'White Oak'
+  ],
+  blogSlug: 'window-cleaning-simi-valley-a-homeowners-guide',
+  blogTitle: 'Window Cleaning Simi Valley: A Homeowner Guide to Clearer Glass',
+  geo: { lat: 34.2694, lon: -118.7815 },
+  faq: [
+    { q: 'How much does window cleaning cost in Simi Valley?', a: 'Most Simi Valley homes fall between $175 and $425 for a complete residential window cleaning. Larger homes in Wood Ranch or Big Sky with 25+ windows run on the higher end. We provide free on-site estimates within 24 hours — no obligation.' },
+    { q: 'How often should I clean my windows in Simi Valley?', a: 'For homes near the canyons (Wood Ranch, Big Sky, north Simi) we recommend every 3 months — canyon dust accumulates fast. Interior valley homes can typically go 4–6 months. After a major Santa Ana event, even recently-cleaned homes often want a refresh.' },
+    { q: 'Do you handle homes in Wood Ranch and Bridle Path?', a: 'Yes. Wood Ranch and Bridle Path are core parts of our Simi service area. Bridle Path properties (with horse facilities) often need more frequent service due to elevated dust loads from arena work.' },
+    { q: 'Can you reach two-story windows and skylights?', a: 'Yes — water-fed pole systems handle most two-story exterior glass and accessible skylights from the ground. For tall vaulted second-story windows we use safe height-access equipment.' },
+    { q: 'Do you also clean solar panels?', a: 'Yes. Simi has high solar adoption, and our purified-water system works on panels the same way it works on glass — no streaks, measurable output recovery. Canyon dust + Santa Ana ash hits panel output hard, so biannual panel cleaning pairs well with quarterly window service.' }
+  ]
+};
+---
+<CityLanding city={city} />

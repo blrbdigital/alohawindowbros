@@ -851,6 +851,32 @@ button {
   box-shadow: 0 2px 12px rgba(37,99,235,0.1);
 }
 
+.area-card-link {
+  text-decoration: none;
+  color: inherit;
+  position: relative;
+}
+
+.area-card-link:hover {
+  background: #fff;
+  border-color: #2563eb;
+  transform: translateY(-1px);
+}
+
+.area-arrow {
+  margin-left: auto;
+  color: #2563eb;
+  font-weight: 700;
+  font-size: 18px;
+  opacity: 0;
+  transition: opacity 0.2s, transform 0.2s;
+}
+
+.area-card-link:hover .area-arrow {
+  opacity: 1;
+  transform: translateX(2px);
+}
+
 .area-pin {
   font-size: 20px;
   flex-shrink: 0;

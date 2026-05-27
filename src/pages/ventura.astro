@@ -1,0 +1,36 @@
+---
+import CityLanding from '../components/CityLanding.astro';
+
+const city = {
+  slug: 'ventura',
+  cityName: 'Ventura',
+  shortName: 'Ventura',
+  metaTitle: 'Window Cleaning Ventura, CA — Aloha Window Bros',
+  metaDescription: 'Professional window cleaning in Ventura, CA. Pierpont, Ventura Keys, hillside experts. Coastal + waterfront specialists. Free quote — (805) 341-4121.',
+  heroHeadline: 'Window Cleaning in Ventura, CA',
+  heroSubcopy: 'Beachfront homes, canal properties, hillside estates, and Craftsman bungalows — we know every kind of Ventura home and what its windows need.',
+  intro: "Ventura is one of the most varied cities we serve. Within the city limits there are beachfront homes in Pierpont, canal properties in Ventura Keys, hillside estates with panoramic ocean views, and historic Craftsman homes in Midtown — each with their own soiling pattern. The shared factor is the coastal influence: salt mist, marine layer, and the hard well water common in Ventura's older neighborhoods. Most Ventura full-home services run $175–$425, with free on-site estimates.",
+  soilingFactors: [
+    { name: 'Pacific salt mist', detail: 'Pierpont Bay, Ventura Harbor, and homes within 5 blocks of the coast see daily salt mist deposition. Salt is hygroscopic — it actively pulls moisture from marine air and re-spots within days if not removed.' },
+    { name: 'Marine layer condensation', detail: "Ventura's morning marine layer condenses on cool glass overnight, then evaporates by midday leaving behind dissolved salts and minerals. The cycle repeats every clear-night morning — homes that haven't been cleaned in 4+ months show a permanent haze." },
+    { name: 'Hillside Sundowner wind', detail: "Properties up on Hobson Heights, the Foothill Road corridor, and the Ventura hillsides catch Sundowner-style winds off the Topa Topa range. Fine ridgeline dust accumulates on upper-story glass between rains." },
+    { name: 'Hard tap + well water', detail: "Ventura's water system runs 12–16 grains per gallon, and many older homes in Midtown and east Ventura are on private wells with even higher hardness. Hand-washing without purified water actually makes spotting worse, not better." }
+  ],
+  neighborhoods: [
+    'Pierpont Bay', 'Ventura Keys', 'Midtown Ventura', 'East Ventura',
+    'Ventura Hillsides', 'Ventura Harbor', 'Saticoy', 'Downtown Ventura',
+    'Hobson Heights', 'Ondulando', 'College Estates', 'Montalvo'
+  ],
+  blogSlug: 'window-cleaning-ventura-a-homeowners-guide-to-professional-service',
+  blogTitle: "Window Cleaning Ventura: A Homeowner's Guide to Professional Service",
+  geo: { lat: 34.2746, lon: -119.2290 },
+  faq: [
+    { q: 'How much does window cleaning cost in Ventura?', a: 'Most Ventura homes fall between $175 and $425 for a complete residential window cleaning. Larger homes in the Ventura Hillsides or Ondulando, and waterfront homes in Pierpont and Ventura Keys, often run on the higher end. Free on-site estimates, usually within 24 hours.' },
+    { q: 'Do you work on waterfront homes in Ventura Keys?', a: 'Yes. Ventura Keys canal-front homes are a regular part of our work. Canal-front glass needs more careful equipment access and benefits from quarterly service because of the heightened humidity and salt exposure.' },
+    { q: 'How often should beachfront Ventura homes be cleaned?', a: 'Every 2–3 months for homes in Pierpont Bay, Pierpont, and immediately around Ventura Harbor — salt mist re-spots quickly and waiting longer lets it etch into the glass surface.' },
+    { q: 'What about Craftsman homes in Midtown?', a: 'Many Midtown Ventura Craftsmans have original wood-frame windows that need careful, non-aggressive cleaning to preserve sash and putty. We use a soft-touch approach on heritage homes and avoid over-wetting wood frames.' },
+    { q: 'Can you reach hillside two-story homes?', a: 'Yes. Hillside homes in Hobson Heights, Ondulando, and along Foothill Road are common in our route. We use water-fed pole systems for upper-story exterior glass and proper height-access equipment when ladders are needed safely.' }
+  ]
+};
+---
+<CityLanding city={city} />

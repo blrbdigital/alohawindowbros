@@ -1,0 +1,36 @@
+---
+import CityLanding from '../components/CityLanding.astro';
+
+const city = {
+  slug: 'oxnard',
+  cityName: 'Oxnard',
+  shortName: 'Oxnard',
+  metaTitle: 'Window Cleaning Oxnard, CA — Aloha Window Bros',
+  metaDescription: 'Professional window cleaning in Oxnard, CA. Coastal salt + ag dust experts serving Hollywood Beach, Channel Islands, Mandalay Bay. (805) 341-4121.',
+  heroHeadline: 'Window Cleaning in Oxnard, CA',
+  heroSubcopy: 'From Hollywood Beach to River Ridge, two brothers cleaning windows on the most coastal homes in Ventura County — with the right equipment for salt-air conditions.',
+  intro: "Oxnard is the most coastal city we serve, which makes it both the toughest on windows and the most rewarding to clean. Pacific salt mist deposits on every dew cycle, the surrounding Oxnard Plain kicks up ag dust during planting and harvest, and the Channel Islands Harbor and Mandalay Bay canal communities have direct waterfront salt exposure. We use purified-water systems specifically because tap water can't compete with this combination. Most Oxnard residential jobs run $175–$450.",
+  soilingFactors: [
+    { name: 'Direct coastal salt', detail: 'Homes in Hollywood Beach, Silver Strand, Oxnard Shores, Mandalay Bay, and Channel Islands Harbor sit within blocks of the Pacific. Salt mist deposits on glass every night, and salt is hygroscopic — it pulls moisture from the air and re-spots faster than any dust.' },
+    { name: 'Oxnard Plain ag dust', detail: 'Inland Oxnard (College Park, Rio Lindo, El Rio) is wrapped by some of the most active agricultural land in California. Strawberry, celery, and pepper fields kick fine soil into the air during summer field prep and harvest cycles.' },
+    { name: 'Marine layer + UV', detail: 'Oxnard sees the strongest morning marine layer of any city we serve. Glass condenses overnight, then bakes in midday UV — the cycle deposits a salt-and-mineral haze that needs proper purified water to remove without re-spotting.' },
+    { name: 'Hard irrigation water', detail: "Casitas and United Water Conservation District water runs 12–16 grains per gallon. Sprinkler overspray on lower-story glass etches calcium spots within a month, and the combination of salt + calcium is harder to remove than either alone." }
+  ],
+  neighborhoods: [
+    'Hollywood Beach', 'Silver Strand', 'Mandalay Bay', 'Channel Islands Harbor',
+    'Oxnard Shores', 'River Ridge', 'College Park', 'Rio Lindo',
+    'Rose Park', 'El Rio', 'The Esplanade', 'Seabridge'
+  ],
+  blogSlug: 'window-cleaning-oxnard-coastal-homeowners-guide',
+  blogTitle: 'Window Cleaning Oxnard: A Coastal Homeowner Guide',
+  geo: { lat: 34.1975, lon: -119.1771 },
+  faq: [
+    { q: 'How much does window cleaning cost in Oxnard?', a: 'Most Oxnard homes fall between $175 and $450 for a complete residential window cleaning. Beachfront homes in Hollywood Beach, Mandalay Bay, and Oxnard Shores often run on the higher end because of larger window counts and the need for more frequent service.' },
+    { q: 'How often should beachfront Oxnard homes be cleaned?', a: 'Every 2–3 months for homes within 3 blocks of the coast (Hollywood Beach, Silver Strand, Oxnard Shores, Mandalay Bay). Salt mist re-spots quickly, and going longer than 90 days lets salt etch into the glass surface, which is much harder to remove.' },
+    { q: 'Do you work on canal-front homes in Mandalay Bay and Channel Islands?', a: 'Yes. Canal-front and waterfront homes need careful work because of the heightened salt exposure and the often-tight access to canal-side glass. We bring the right reach equipment and use purified water exclusively in these areas.' },
+    { q: 'What about inland Oxnard homes near the ag belt?', a: 'For College Park, Rio Lindo, El Rio, and homes near active fields, every 3 months is the right rhythm during the growing season (March–October). The off-season can stretch to 4 months for most homes.' },
+    { q: 'Can you handle solar panels too?', a: 'Yes — Oxnard has heavy solar adoption, and salt + ag dust hit panel output harder than almost any other Ventura County city. Biannual panel cleaning typically recovers 5–15% of lost production.' }
+  ]
+};
+---
+<CityLanding city={city} />
