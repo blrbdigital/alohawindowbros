@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-05-27
+- **2 new GEO-optimized blog articles** filling priority service × city content gaps:
+  - **Solar Panel Cleaning Santa Barbara** (`/blog/solar-panel-cleaning-santa-barbara-coastal-estate-guide/`) — targets the highest-CPC keyword cluster on the domain ($15.54 CPC). Santa Barbara rankings dropped between snapshots ("window cleaning santa barbara ca" pos 6 → 14), and we had zero solar content for SB despite SB being our most commercially valuable geo. Coastal salt + Eucalyptus pollen + Montecito/Hope Ranch estate angle.
+  - **Screen Cleaning Thousand Oaks** (`/blog/screen-cleaning-thousand-oaks-pollen-and-allergy-guide/`) — first city-specific screen cleaning article on the site (screen cleaning city pages were a 9-city gap). Oak pollen + allergy angle is unique to Thousand Oaks and aligns with peak pollen-season search intent.
+- Both articles follow GEO guidelines: direct answer in first 150 words, full entity name "Aloha Window Bros" on first reference, 3+ quotable stat statements, FAQPage JSON-LD, comparison tables (not prose), city landing page + service page links in first 300 words and in closing CTA.
+- Page count: 36 → 38.
+
 ## 2026-05-26 (evening)
 - **Expanded city landing pages from 4 → 10**. Added `/santa-barbara/`, `/camarillo/`, `/simi-valley/`, `/oxnard/`, `/ventura/`, `/ojai/` using the shared `<CityLanding>` component. Each page is grounded in real local soiling factors pulled from the matching blog guide and neighborhood lists already in our content. Santa Barbara is the highest-priority addition — Semrush has the SB keyword cluster at $15.54 CPC, the highest CPC of any term we rank for, currently at position 11.
 - **Internal-linking wire-up**: homepage "Service Areas" section now shows all 10 cities as clickable cards with hover arrows (was 4 static + 2 placeholder cards previously). Footer adds a 5th column "Service Areas" with all 10 city links. Services slug-page sidebar's "Areas We Serve" list converted from static `<li>` to actual links to the 10 city pages — fixes the "no way to discover these pages" gap and propagates link equity from high-traffic service pages down to city pages.

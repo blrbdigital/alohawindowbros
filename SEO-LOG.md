@@ -4,6 +4,34 @@
 
 ---
 
+### 2026-05-27
+
+**What we did:**
+- Created 2 new GEO-optimized blog articles targeting priority service × city content gaps:
+  1. "Solar Panel Cleaning Santa Barbara: A Coastal Estate Owner Guide" (`/blog/solar-panel-cleaning-santa-barbara-coastal-estate-guide/`)
+  2. "Screen Cleaning Thousand Oaks: A Pollen and Allergy Guide" (`/blog/screen-cleaning-thousand-oaks-pollen-and-allergy-guide/`)
+- Both articles include FAQPage JSON-LD, comparison tables, direct-answer first paragraph, full entity-name compliance, 3+ quotable stat statements, and authoritative citations (NREL, CARB, ACAAI, Calleguas, Santa Barbara Water Resources).
+- Both articles link to the matching city landing page AND the matching service page within the first 300 words and in the closing CTA.
+
+**Why we did it:**
+- **Santa Barbara solar gap is the single highest-value content gap on the site.** Santa Barbara keywords carry $15.54 CPC — the highest CPC of any keyword we rank for — and our SB rankings are slipping ("window cleaning santa barbara ca" dropped from position 6 → 14 between the 2026-05-20 and 2026-05-27 snapshots; "santa barbara window cleaning" sits at position 11 with 140 monthly volume, one place off page 1). We had zero solar content for SB despite owning the corresponding window-cleaning content. Adding the SB solar guide builds topical depth around our most commercially valuable geo and gives Google a second SB-specific service page to consolidate signals on.
+- **Screen Cleaning city pages were a 9-city content gap** with only one generic Ventura County article existing. Thousand Oaks was the obvious place to start — TO was a top-10 ranker last snapshot ("window cleaning thousand oaks" at position 7, "thousand oaks window washing" at position 10) and the city name itself is built around the oak tree species that drives the pollen angle. This is a defensible, locally-grounded article no national competitor can write.
+- Both topics align with **late-spring search intent** (peak oak pollen + start of solar peak production season), so publishing now maximizes the runway for ranking before the high-intent window opens.
+
+**Expected impact:**
+- **Solar Panel Cleaning Santa Barbara**: should capture position 15–25 within 4–8 weeks for "solar panel cleaning santa barbara" and related coastal-estate queries; longer-term path to top 10 given existing domain authority on the SB cluster. Adds a high-CPC capture page.
+- **Screen Cleaning Thousand Oaks**: should capture position 10–20 within 4–8 weeks for "screen cleaning thousand oaks" and pollen-related variants. Establishes the screen-cleaning city-page template we can scale to the other 8 cities in subsequent runs.
+- Both articles strengthen internal linking to `/santa-barbara/` and `/thousand-oaks/` city landing pages (the conversion targets), helping consolidate ranking signals on the canonical pages instead of fragmenting them.
+
+**Metrics at time of action:**
+- Top organic keyword: "aloha window bros" at position 1 (branded, 87.5% of traffic)
+- Highest-value cluster: Santa Barbara — "santa barbara window cleaning" pos 11, "window washing santa barbara" pos 16, "window cleaning santa barbara" pos 19, $15.54 CPC
+- Trend warning: "window cleaning santa barbara ca" pos 6 → 14, "window cleaning thousand oaks" pos 7 → off top-12 list between 5/20 → 5/27 snapshots
+- Domain rank (Semrush): 8.2M as of 2026-04-15 (down from 6.0M peak in March)
+- Total blog posts: 20 → 22; total pages: 36 → 38
+
+---
+
 ### 2026-05-20
 
 **What we did:**
