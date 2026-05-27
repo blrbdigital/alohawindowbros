@@ -1,0 +1,36 @@
+---
+import CityLanding from '../components/CityLanding.astro';
+
+const city = {
+  slug: 'newbury',
+  cityName: 'Newbury Park',
+  shortName: 'Newbury Park',
+  metaTitle: 'Window Cleaning Newbury Park, CA — Aloha Window Bros',
+  metaDescription: 'Professional window cleaning in Newbury Park, CA. Dos Vientos and canyon-adjacent experts. Fully insured — free quote at (805) 341-4121.',
+  heroHeadline: 'Window Cleaning in Newbury Park, CA',
+  heroSubcopy: 'Local brothers cleaning windows across Newbury Park — from Dos Vientos Ranch to the original Casa Conejo neighborhoods. 100% satisfaction guaranteed.',
+  intro: "Newbury Park sits on the western edge of Thousand Oaks, tucked against the Santa Monica Mountains and a few miles inland from the Point Mugu coast. That position means homes deal with three things at once: canyon dust, marine layer moisture, and hard sprinkler water — a combination that's tough on glass. We grew up working these streets, we know which Dos Vientos cul-de-sacs need quarterly service, and we tailor each clean accordingly. Most Newbury Park homes run $175–$425.",
+  soilingFactors: [
+    { name: 'Santa Monica Mountain dust', detail: 'Dos Vientos Ranch, Rancho Conejo, and the homes along Borchard Road sit downwind of canyon corridors that funnel dust off the Santa Monica Mountains — especially during Santa Ana wind events in fall and winter.' },
+    { name: 'Marine layer moisture', detail: 'Newbury Park is roughly 9 miles inland from the Point Mugu coastline. Morning marine layer regularly pushes inland through the Conejo Grade, condensing on glass and leaving mineral residue when it evaporates.' },
+    { name: 'Hard irrigation water', detail: 'Calleguas Municipal water averages 15–20 grains per gallon — "very hard" by industry standards. Sprinkler overspray on summer cycles bonds calcium to lower-story glass within 30–60 days.' },
+    { name: 'Hillside terrain + access', detail: 'Many Dos Vientos and Rancho Conejo homes are two-story on sloped lots, which means upper-story windows need water-fed pole systems rather than ladders for safety and a streak-free result.' }
+  ],
+  neighborhoods: [
+    'Dos Vientos Ranch', 'Rancho Conejo', 'Casa Conejo', 'Vista Arroyo',
+    'Newbury Knolls', 'Wendy Park', 'Old Town Newbury', 'Borchard',
+    'Sycamore Canyon', 'Conejo Mountain', 'Rancho Conejo Estates', 'Newbury Springs'
+  ],
+  blogSlug: 'window-cleaning-newbury-park-a-homeowners-guide',
+  blogTitle: 'Window Cleaning Newbury Park: A Homeowner Guide',
+  geo: { lat: 34.1842, lon: -118.9080 },
+  faq: [
+    { q: 'How much does window cleaning cost in Newbury Park?', a: 'Most Newbury Park homes fall between $175 and $425 for a complete residential window cleaning. Hillside two-story homes in Dos Vientos Ranch or Rancho Conejo Estates typically run on the higher end because of elevated access and larger window counts. Free on-site quotes — no obligation.' },
+    { q: 'How often should Newbury Park homes be cleaned?', a: 'We recommend every 3 months for canyon-adjacent homes (Dos Vientos, Rancho Conejo hills) and homes within a half-mile of the 101. Interior neighborhoods like Casa Conejo and Vista Arroyo can usually go 4 months between cleanings.' },
+    { q: 'Do you handle two-story homes in Dos Vientos?', a: 'Yes — almost every job in Dos Vientos is two-story. We use water-fed pole systems for upper-story exterior glass, which is safer than ladder work on sloped lots and gets a streak-free finish without needing access to second-floor windows from the inside.' },
+    { q: 'What\'s included in a Newbury Park window cleaning?', a: 'Our standard service includes exterior glass, interior glass, screens, frames, and sills. For Newbury Park homes we typically include a screen rinse on every clean because canyon dust loads up screen mesh quickly and reduces airflow into the home.' },
+    { q: 'Can you remove hard water spots from Newbury Park glass?', a: 'Yes. We use specialized treatments for hard water mineralization — common in Newbury Park because of the Calleguas water hardness. We can usually restore glass clarity if the etching is less than ~12 months old; older etching may require glass restoration rather than cleaning.' }
+  ]
+};
+---
+<CityLanding city={city} />

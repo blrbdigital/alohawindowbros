@@ -35,27 +35,39 @@ const serviceTaglines: Record<string, string> = {
 const heroImage = serviceImages[service.id] || service.data.image;
 const tagline = serviceTaglines[service.id] || service.data.description;
 
-const serviceSchema = {
+const jsonLd = {
   "@context": "https://schema.org",
-  "@type": "Service",
-  "name": service.data.title,
-  "description": service.data.description,
-  "provider": {
-    "@type": "LocalBusiness",
-    "name": "Aloha Window Bros",
-    "telephone": "+18053414121",
-    "logo": "https://alohawindowbros.com/img/logo.PNG",
-    "image": "https://alohawindowbros.com/img/logo.PNG",
-    "address": { "@type": "PostalAddress", "addressLocality": "Thousand Oaks", "addressRegion": "CA" }
-  },
-  "areaServed": ["Thousand Oaks", "Westlake Village", "Agoura Hills", "Newbury Park", "Ventura County", "Santa Barbara County"]
+  "@graph": [
+    {
+      "@type": "Service",
+      "name": service.data.title,
+      "description": service.data.description,
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Aloha Window Bros",
+        "telephone": "+18053414121",
+        "logo": "https://alohawindowbros.com/img/logo.PNG",
+        "image": "https://alohawindowbros.com/img/logo.PNG",
+        "address": { "@type": "PostalAddress", "addressLocality": "Thousand Oaks", "addressRegion": "CA" }
+      },
+      "areaServed": ["Thousand Oaks", "Westlake Village", "Agoura Hills", "Newbury Park", "Ventura County", "Santa Barbara County"]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://alohawindowbros.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Services", "item": "https://alohawindowbros.com/#services" },
+        { "@type": "ListItem", "position": 3, "name": service.data.title, "item": `https://alohawindowbros.com/services/${service.id}/` }
+      ]
+    }
+  ]
 };
 ---
 <Base
-  title={`${service.data.title} - Ventura County | Aloha Window Bros`}
+  title={`${service.data.title} — Ventura County, CA`}
   description={service.data.description}
   ogImage={heroImage}
-  jsonLd={serviceSchema}
+  jsonLd={jsonLd}
 >
   <Header slot="header" />
 

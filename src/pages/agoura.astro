@@ -1,0 +1,36 @@
+---
+import CityLanding from '../components/CityLanding.astro';
+
+const city = {
+  slug: 'agoura',
+  cityName: 'Agoura Hills',
+  shortName: 'Agoura Hills',
+  metaTitle: 'Window Cleaning Agoura Hills, CA — Aloha Window Bros',
+  metaDescription: 'Professional window cleaning in Agoura Hills, CA. Hillside, canyon, and gated-community experts. Fully insured — free quote at (805) 341-4121.',
+  heroHeadline: 'Window Cleaning in Agoura Hills, CA',
+  heroSubcopy: 'From Old Agoura ranches to the Morrison Highlands hillside — two brothers bringing the spirit of aloha to your Agoura Hills home with a 100% satisfaction guarantee.',
+  intro: 'Agoura Hills sits in the Santa Monica Mountain corridor, which means stunning views and tough conditions for windows. Canyon dust funnels through Kanan Road and Cornell, brush-clearing season throws ash and ag dust onto south-facing glass, and the mix of mature oaks with open ridgelines means every neighborhood has a different cleaning rhythm. We know the streets because we grew up here. Most Agoura Hills full-home services run $175–$425, with free on-site estimates within 24 hours.',
+  soilingFactors: [
+    { name: 'Canyon-corridor dust', detail: 'Kanan Road, Cornell, and Las Virgenes funnel Santa Monica Mountain dust directly into Agoura Hills neighborhoods. Homes in Morrison Highlands, Old Agoura, and the Liberty Canyon corridor see noticeably faster soiling than interior streets.' },
+    { name: 'Wildfire ash + brush season', detail: 'Late summer and fall bring brush-clearing operations and seasonal smoke events along the 101. Fine ash bonds to glass and screens, especially on east- and south-facing windows facing the canyon-side.' },
+    { name: 'Marine layer moisture', detail: 'Morning marine layer regularly pushes inland through the Conejo Grade. Condensation on cool morning glass pulls airborne minerals into a film that dries into haze by afternoon.' },
+    { name: 'Hard sprinkler water', detail: 'Las Virgenes Municipal water averages 14–18 grains per gallon. Sprinkler overspray on driveway-adjacent and corner-lot windows leaves calcium spotting within weeks if not removed.' }
+  ],
+  neighborhoods: [
+    'Old Agoura', 'Morrison Highlands', 'Liberty Canyon', 'Chumash Park',
+    'Agoura Meadows', 'Forest Cove', 'Reyes Adobe', 'Lakeside Park',
+    'Malibou Lake', 'Cornell', 'Hillrise', 'Saddle Mountain'
+  ],
+  blogSlug: 'window-cleaning-agoura-hills-guide-to-spotless-windows',
+  blogTitle: 'Window Cleaning Agoura Hills: Your Guide to Spotless Windows',
+  geo: { lat: 34.1533, lon: -118.7615 },
+  faq: [
+    { q: 'How much does window cleaning cost in Agoura Hills?', a: 'Most Agoura Hills homes fall between $175 and $425 for a complete residential window cleaning. Hillside two-story homes in Morrison Highlands and Old Agoura typically run on the higher end due to elevated access and larger window counts. Free on-site quotes — no obligation.' },
+    { q: 'Do you clean equestrian properties in Old Agoura?', a: 'Yes. Old Agoura has a number of properties with horse facilities and detached barns. We service the main home and can clean barn windows and tack-room glass on request. Dust load on equestrian-adjacent glass is consistently higher, so we usually recommend quarterly service.' },
+    { q: 'How often should Agoura Hills homes have their windows cleaned?', a: 'We recommend every 3 months for canyon-adjacent homes — Morrison Highlands, the Liberty Canyon corridor, and any property within a half-mile of Kanan Road. Interior neighborhoods like Chumash Park can typically go 4–6 months between cleanings.' },
+    { q: 'Can you handle skylights and hard-to-reach windows?', a: 'Yes. Many Agoura Hills homes have skylights, vaulted second-story windows, and clerestory glass. Our water-fed pole systems reach most of these from the ground without ladder risk, and we have safe height-access equipment when ladders are needed.' },
+    { q: 'Are you insured for gated communities like Morrison Estates?', a: 'Yes — fully insured, and we routinely service the gated Morrison-area communities. We can email proof of insurance to your gate guard or HOA in advance of the appointment.' }
+  ]
+};
+---
+<CityLanding city={city} />

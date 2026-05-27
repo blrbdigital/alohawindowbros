@@ -1,0 +1,455 @@
+---
+import Base from '../layouts/Base.astro';
+import Header from './Header.astro';
+import Footer from './Footer.astro';
+import '../styles/global.css';
+
+export interface CityProps {
+  slug: string;                  // url segment: 'agoura', 'newbury', 'thousand-oaks', 'westlake'
+  cityName: string;              // display name: 'Agoura Hills', 'Newbury Park', ...
+  shortName: string;             // short form used in copy: 'Agoura Hills' or 'Newbury Park'
+  metaTitle: string;             // <title> — must fit under 60 chars
+  metaDescription: string;       // <meta description> — ~155 chars
+  heroHeadline: string;          // h1
+  heroSubcopy: string;           // hero paragraph
+  intro: string;                 // 1-paragraph intro under stats
+  soilingFactors: { name: string; detail: string }[];   // 3-4 environmental factors
+  neighborhoods: string[];        // 6-12 neighborhood/area names
+  blogSlug: string;              // slug of related blog post for deep-dive CTA
+  blogTitle: string;             // title of the related blog post
+  faq: { q: string; a: string }[];
+  geo?: { lat: number; lon: number };  // optional GeoCoordinates for LocalBusiness JSON-LD
+}
+
+const { city } = Astro.props as { city: CityProps };
+
+const PHONE = '(805) 341-4121';
+const PHONE_LINK = 'tel:+18053414121';
+const EMAIL = 'alohawindowbros@gmail.com';
+const CALENDLY = 'https://calendly.com/alohawindowbros-r6nn/30min?hide_gdpr_banner=1';
+
+const canonical = `https://alohawindowbros.com/${city.slug}/`;
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "@id": `https://alohawindowbros.com/${city.slug}/#business`,
+      "name": "Aloha Window Bros",
+      "description": `Professional window cleaning service for ${city.cityName} homes, including screen, frame, sill, and solar panel cleaning.`,
+      "url": canonical,
+      "telephone": "+18053414121",
+      "email": EMAIL,
+      "logo": "https://alohawindowbros.com/img/logo.PNG",
+      "image": "https://alohawindowbros.com/img/logo.PNG",
+      "priceRange": "$150-$475",
+      "address": { "@type": "PostalAddress", "addressLocality": "Thousand Oaks", "addressRegion": "CA", "postalCode": "91362", "addressCountry": "US" },
+      ...(city.geo ? { "geo": { "@type": "GeoCoordinates", "latitude": city.geo.lat, "longitude": city.geo.lon } } : {}),
+      "areaServed": [city.cityName, "Ventura County", "Santa Barbara County"],
+      "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "50" }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://alohawindowbros.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Service Areas", "item": "https://alohawindowbros.com/#areas" },
+        { "@type": "ListItem", "position": 3, "name": city.cityName, "item": canonical }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": city.faq.map(f => ({
+        "@type": "Question",
+        "name": f.q,
+        "acceptedAnswer": { "@type": "Answer", "text": f.a }
+      }))
+    }
+  ]
+};
+---
+<Base
+  title={city.metaTitle}
+  description={city.metaDescription}
+  canonical={canonical}
+  jsonLd={jsonLd}
+>
+  <Header slot="header" />
+
+  <!-- Hero -->
+  <section class="city-hero">
+    <div class="city-hero-bg">
+      <img src="/img/wave_no_surfer.png" alt="" />
+      <div class="city-hero-overlay"></div>
+    </div>
+    <div class="city-hero-inner">
+      <a href="/#areas" class="service-back-link">← Service Areas</a>
+      <span class="city-hero-pill">📍 Serving {city.cityName}</span>
+      <h1>{city.heroHeadline}</h1>
+      <p class="city-hero-sub">{city.heroSubcopy}</p>
+      <div class="city-hero-ctas">
+        <a href={CALENDLY} class="hero-cta-primary" target="_blank" rel="noopener noreferrer">Get Your Free Quote</a>
+        <a href={PHONE_LINK} class="city-hero-phone">Or call {PHONE}</a>
+      </div>
+      <div class="city-hero-trust">
+        <span>★★★★★ 5.0 Rating</span>
+        <span>✓ Fully Insured</span>
+        <span>✓ Locally Owned</span>
+      </div>
+    </div>
+  </section>
+
+  <div class="mobile-cta-bar">
+    <a href={PHONE_LINK} class="mobile-cta-call">Call Now</a>
+    <a href={CALENDLY} class="mobile-cta-book" target="_blank" rel="noopener noreferrer">Free Quote</a>
+  </div>
+
+  <!-- Intro / Why -->
+  <section class="city-intro-section">
+    <div class="city-intro-inner">
+      <h2>Window Cleaning {city.cityName}, CA</h2>
+      <p>{city.intro}</p>
+    </div>
+  </section>
+
+  <!-- Soiling Factors -->
+  <section class="city-factors-section">
+    <div class="city-factors-inner">
+      <h2>What Affects Your Windows in {city.shortName}</h2>
+      <p class="city-section-sub">Every neighborhood has its own conditions. Here's what we plan around when we clean your home.</p>
+      <div class="city-factors-grid">
+        {city.soilingFactors.map((f) => (
+          <div class="city-factor-card">
+            <h3>{f.name}</h3>
+            <p>{f.detail}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Offered -->
+  <section class="city-services-section">
+    <h2>Services We Offer in {city.shortName}</h2>
+    <p class="city-section-sub">Professional residential cleaning for every part of your window system — and your solar.</p>
+    <div class="services-grid">
+      <a href="/services/window-washing/" class="service-card">
+        <img src="/img/window_washing_image.png" alt="Window Washing" />
+        <div class="service-card-body"><h3>Window Washing</h3><p>Exterior + interior glass, frames, and sills. Purified water for zero spotting.</p></div>
+      </a>
+      <a href="/services/screen-cleaning/" class="service-card">
+        <img src="/img/cover-slides/slide-4.png" alt="Screen Cleaning" />
+        <div class="service-card-body"><h3>Screen Cleaning</h3><p>Pressurized wash that lifts dust, pollen, and grime from every screen.</p></div>
+      </a>
+      <a href="/services/solar-panel-cleaning/" class="service-card">
+        <img src="/img/solar_1.png" alt="Solar Panel Cleaning" />
+        <div class="service-card-body"><h3>Solar Panel Cleaning</h3><p>Restore lost production from dust, ash, and bird droppings.</p></div>
+      </a>
+    </div>
+  </section>
+
+  <!-- Neighborhoods -->
+  <section class="city-neighborhoods-section">
+    <div class="city-neighborhoods-inner">
+      <h2>Neighborhoods We Serve in {city.shortName}</h2>
+      <p class="city-section-sub">We grew up in the Conejo Valley, so we know these streets. Below is where we work most often.</p>
+      <div class="city-neighborhood-grid">
+        {city.neighborhoods.map((n) => (
+          <div class="city-neighborhood-chip">📍 {n}</div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- How It Works (condensed) -->
+  <section class="how-section">
+    <h2>How It Works</h2>
+    <p class="how-subtitle">Three steps from "I want clean windows" to crystal clear glass</p>
+    <div class="how-grid">
+      <div class="how-step">
+        <div class="how-step-num">1</div>
+        <h3>Book Your Free Quote</h3>
+        <p>Schedule online or call. We'll drive out to your {city.shortName} home and assess everything — no obligation.</p>
+      </div>
+      <div class="how-step-arrow" aria-hidden="true">→</div>
+      <div class="how-step">
+        <div class="how-step-num">2</div>
+        <h3>We Do the Work</h3>
+        <p>Our team arrives on time with professional-grade tools. Windows, screens, frames, and sills — all spotless.</p>
+      </div>
+      <div class="how-step-arrow" aria-hidden="true">→</div>
+      <div class="how-step">
+        <div class="how-step-num">3</div>
+        <h3>You Love the Results</h3>
+        <p>We walk the property with you before we leave. Not happy? We redo it on the spot — 100% guaranteed.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Deep-dive blog CTA -->
+  <section class="city-blog-cta-section">
+    <div class="city-blog-cta-inner">
+      <div class="city-blog-cta-text">
+        <h3>Want the full guide?</h3>
+        <p>We wrote a complete homeowner's guide to {city.shortName}: pricing tables, frequency recommendations, neighborhood breakdown, and what makes this area different.</p>
+      </div>
+      <a href={`/blog/${city.blogSlug}/`} class="city-blog-cta-btn">Read the Guide →</a>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="faq-section">
+    <h2>Frequently Asked Questions — {city.shortName}</h2>
+    <p class="faq-subtitle">Common questions from {city.shortName} homeowners</p>
+    <div class="faq-list">
+      {city.faq.map((f) => (
+        <details class="faq-item">
+          <summary>{f.q}</summary>
+          <p>{f.a}</p>
+        </details>
+      ))}
+    </div>
+  </section>
+
+  <!-- Final CTA -->
+  <section class="cta-banner">
+    <h2>Ready for Crystal Clear Windows in {city.shortName}?</h2>
+    <p>Schedule a free quote — we'll drive out to you, usually within 24 hours.</p>
+    <a href={CALENDLY} class="cta-btn" target="_blank" rel="noopener noreferrer">Schedule Free Quote</a>
+  </section>
+
+  <Footer slot="footer" />
+</Base>
+
+<style>
+  .city-hero {
+    position: relative;
+    background: linear-gradient(135deg, #1a1a2e 0%, #1e2854 50%, #2d1b69 100%);
+    color: #fff;
+    padding: 4rem 1.5rem 5rem;
+    overflow: hidden;
+  }
+  .city-hero-bg {
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+  }
+  .city-hero-bg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.18;
+  }
+  .city-hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, rgba(26,26,46,0.4) 0%, rgba(45,27,105,0.7) 100%);
+  }
+  .city-hero-inner {
+    position: relative;
+    z-index: 1;
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .city-hero-pill {
+    display: inline-block;
+    background: rgba(255,255,255,0.12);
+    backdrop-filter: blur(8px);
+    color: #fff;
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+    border-radius: 999px;
+    border: 1px solid rgba(255,255,255,0.18);
+    font-size: 0.9rem;
+    margin-bottom: 1.25rem;
+  }
+  .city-hero h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(2rem, 5vw, 3.4rem);
+    line-height: 1.1;
+    margin: 0 0 1rem;
+  }
+  .city-hero-sub {
+    font-size: clamp(1rem, 2vw, 1.2rem);
+    line-height: 1.55;
+    opacity: 0.92;
+    max-width: 640px;
+    margin: 0 auto 1.75rem;
+  }
+  .city-hero-ctas {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 1.25rem;
+  }
+  .city-hero-phone {
+    color: rgba(255,255,255,0.9);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+  }
+  .city-hero-phone:hover {
+    color: #fff;
+    text-decoration: underline;
+  }
+  .city-hero-trust {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 0.9rem;
+    opacity: 0.85;
+  }
+  .city-intro-section {
+    padding: 3.5rem 1.5rem 2rem;
+    background: #fff;
+  }
+  .city-intro-inner {
+    max-width: 760px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .city-intro-section h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(1.6rem, 3vw, 2.2rem);
+    color: #1a1a2e;
+    margin: 0 0 1rem;
+  }
+  .city-intro-section p {
+    font-size: 1.05rem;
+    line-height: 1.7;
+    color: #475569;
+  }
+  .city-factors-section {
+    padding: 3rem 1.5rem 4rem;
+    background: #f8fafc;
+  }
+  .city-factors-inner {
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+  .city-factors-section h2,
+  .city-services-section h2,
+  .city-neighborhoods-section h2 {
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    font-size: clamp(1.6rem, 3vw, 2.2rem);
+    color: #1a1a2e;
+    margin: 0 0 0.5rem;
+  }
+  .city-section-sub {
+    text-align: center;
+    color: #64748b;
+    margin: 0 auto 2.5rem;
+    max-width: 640px;
+    font-size: 1rem;
+  }
+  .city-factors-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 1.25rem;
+  }
+  .city-factor-card {
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+  }
+  .city-factor-card h3 {
+    font-size: 1.05rem;
+    color: #1a1a2e;
+    margin: 0 0 0.5rem;
+  }
+  .city-factor-card p {
+    font-size: 0.95rem;
+    line-height: 1.55;
+    color: #475569;
+    margin: 0;
+  }
+  .city-services-section {
+    padding: 4rem 1.5rem;
+    background: #fff;
+  }
+  .city-neighborhoods-section {
+    padding: 4rem 1.5rem;
+    background: linear-gradient(135deg, #f0f9ff 0%, #faf5ff 100%);
+  }
+  .city-neighborhoods-inner {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  .city-neighborhood-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+    justify-content: center;
+  }
+  .city-neighborhood-chip {
+    background: #fff;
+    padding: 0.6rem 1rem;
+    border-radius: 999px;
+    border: 1px solid #e2e8f0;
+    font-size: 0.95rem;
+    color: #1e3a5f;
+    font-weight: 500;
+  }
+  .city-blog-cta-section {
+    padding: 3rem 1.5rem;
+    background: #1e3a5f;
+    color: #fff;
+  }
+  .city-blog-cta-inner {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+  .city-blog-cta-text h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.6rem;
+    margin: 0 0 0.5rem;
+  }
+  .city-blog-cta-text p {
+    margin: 0;
+    opacity: 0.9;
+    line-height: 1.55;
+    max-width: 540px;
+  }
+  .city-blog-cta-btn {
+    background: #fff;
+    color: #1e3a5f;
+    padding: 0.85rem 1.5rem;
+    border-radius: 8px;
+    font-weight: 700;
+    text-decoration: none;
+    flex-shrink: 0;
+    transition: transform 0.15s ease;
+  }
+  .city-blog-cta-btn:hover {
+    transform: translateY(-2px);
+  }
+  @media (max-width: 640px) {
+    .city-hero {
+      padding: 3rem 1rem 4rem;
+    }
+    .city-hero-ctas {
+      flex-direction: column;
+      gap: 0.75rem;
+    }
+    .city-blog-cta-inner {
+      flex-direction: column;
+      text-align: center;
+    }
+    .city-blog-cta-btn {
+      width: 100%;
+      text-align: center;
+    }
+  }
+</style>
