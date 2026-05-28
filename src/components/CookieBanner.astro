@@ -1,12 +1,13 @@
 ---
 /**
- * Cookie consent banner — Consent Mode v2 gate.
+ * Cookie notice — courtesy banner for US visitors.
  *
- * Default state (set in Base.astro before GA4 loads): all storage denied.
- * Accept → updates gtag consent to granted + initializes Meta Pixel.
- * Decline → records the choice; analytics/ads stay denied.
- * Returning visitors who accepted skip the banner entirely (state restored
- * synchronously in Base.astro, no flicker).
+ * Default state (set in Base.astro before GA4 loads): all storage granted.
+ * Accept → dismisses the banner; tracking continues normally.
+ * Decline → dismisses, marks future visits as denied (ad+analytics storage off
+ * + Meta Pixel won't initialize on the next page load). Current session is
+ * already tracked because tracking fires before the user can click.
+ * Returning visitors who already chose skip the banner entirely.
  */
 ---
 <aside
@@ -145,24 +146,23 @@
     }
 
     function grant() {
+      // Default is already granted; just record the acknowledgement and hide.
       try { localStorage.setItem(KEY, 'accepted'); } catch (e) {}
-      if (typeof gtag === 'function') {
-        gtag('consent', 'update', {
-          ad_storage: 'granted',
-          ad_user_data: 'granted',
-          ad_personalization: 'granted',
-          analytics_storage: 'granted',
-        });
-      }
-      if (typeof window.__awbLoadMetaPixel === 'function') {
-        window.__awbLoadMetaPixel();
-      }
       hide();
     }
 
     function deny() {
       try { localStorage.setItem(KEY, 'declined'); } catch (e) {}
-      // Consent already defaults to denied; nothing to update.
+      // Honor preference for the rest of this session (next page load will
+      // also respect it via the synchronous read in Base.astro).
+      if (typeof gtag === 'function') {
+        gtag('consent', 'update', {
+          ad_storage: 'denied',
+          ad_user_data: 'denied',
+          ad_personalization: 'denied',
+          analytics_storage: 'denied',
+        });
+      }
       hide();
     }
 

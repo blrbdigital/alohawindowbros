@@ -1,5 +1,10 @@
 # Changelog
 
+## 2026-05-27 (later) — Flip cookie banner from gate → notice (max-data US pattern)
+- US-only audience, no EU targeting: default consent flipped to `granted`. GA4 + Meta Pixel now fire immediately on page load (no analytics loss for unaccepted/ignored sessions).
+- Banner is now a courtesy notice. Accept dismisses. Decline dismisses **and** sets future visits to denied (current session already tracked because tracking fires before the user can click).
+- Returning visitors who already chose still skip the banner.
+
 ## 2026-05-27 — Cookie consent banner (Consent Mode v2)
 - Added `src/components/CookieBanner.astro` — slide-up notice with Accept/Decline, styled to match site palette (blue→purple gradient). Stores choice in localStorage under `awb-cookie-consent`.
 - **Critical for Meta Pixel:** rewired Base.astro to default GA4 + ad_storage to `denied`, and to NOT initialize `fbq()` (Meta Pixel) on load. Pixel only fires after explicit Accept (or on subsequent visits where the user previously accepted). This brings the site into proper CPRA/CCPA "sharing" compliance for cross-context behavioral advertising and GDPR-readiness for any EU traffic.
