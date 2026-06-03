@@ -4,6 +4,29 @@
 
 ---
 
+### 2026-06-03
+
+**What we did:**
+- Created new blog article: **Solar Panel Cleaning Oxnard: Beating Ventura County's Heaviest Soiling** (/solar-panel-cleaning-oxnard-coastal-agricultural-guide). Links to the /oxnard/ city landing page and /services/solar-panel-cleaning in the first 300 words and the CTA.
+- Created new blog article: **Screen Cleaning Camarillo: An Ag Dust and Pollen Guide** (/screen-cleaning-camarillo-ag-dust-and-pollen-guide). Links to the /camarillo/ city landing page and /services/screen-cleaning in the first 300 words and the CTA.
+
+**Why we did it:**
+- These two posts are the top items on our priority service×city content-gap list. We have 10 city landing pages and 3 service pages, but the money keywords are long-tail `[service] [city]` queries that had no supporting blog content. Solar Panel Cleaning Oxnard is the single highest-value solar gap — Oxnard is flagged as the heaviest-soiling market in our service area (coastal salt fog + Oxnard Plain ag dust combine into a film that resists rain), so the page can argue a genuinely differentiated "clean 3–4× per year" recommendation that competitors don't make.
+- Screen Cleaning Camarillo completes the window + solar + screen content trio for Camarillo (we already rank/publish for window cleaning and solar there), letting us cross-link three Camarillo guides and consolidate local relevance signals to the /camarillo/ landing page.
+- With Semrush showing only ~15 indexed organic keywords and near-zero traffic, the site is firmly in low-traffic territory where the correct strategy is high-intent content creation, not optimization — we cannot earn `[service] [city]` rankings without pages targeting those exact phrases.
+
+**Expected impact:**
+- Should begin ranking for "solar panel cleaning oxnard," "screen cleaning camarillo," and close variants within 4–8 weeks, targeting positions 5–15 given low local competition (only 2 Semrush competitors with relevance >0.30, both with <50 keywords).
+- FAQPage JSON-LD on both posts positions us for People Also Ask / featured-snippet capture and AI-assistant (GEO) citation, since each answers the target query directly in the first 150 words with cited stats.
+- Internal links push ranking equity to the /oxnard/ and /camarillo/ conversion landing pages.
+
+**Metrics at time of action:**
+- Semrush: ~15 organic keywords, organic traffic ≈7/mo, domain rank 8.84M (down from 5.99M in March — a content/freshness push is overdue). Best non-brand positions: "window cleaning ventura" #9, "window washing santa barbara" #16, "window cleaning ventura county" #14, "window cleaning santa barbara" #19.
+- GSC/GA4 not yet configured (invalid_grant); PageSpeed rate-limited (429). Decisions made on Semrush + keyword-intuition + competitor-gap analysis.
+- Blog post count: 22 → 24. Total site pages: 38 → 40 (build verified).
+
+---
+
 ### 2026-05-27
 
 **What we did:**

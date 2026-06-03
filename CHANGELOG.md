@@ -1,5 +1,10 @@
 # Changelog
 
+## 2026-06-03 — Two new GEO blog articles (solar Oxnard + screen Camarillo)
+- Added `solar-panel-cleaning-oxnard-coastal-agricultural-guide` targeting the priority gap "Solar Panel Cleaning Oxnard" (flagged heaviest-soiling market: salt + ag dust combo). Links to `/oxnard/` landing + `/services/solar-panel-cleaning` in first 300 words and CTA.
+- Added `screen-cleaning-camarillo-ag-dust-and-pollen-guide` targeting the priority gap "Screen Cleaning Camarillo" (ag dust + oak pollen). Links to `/camarillo/` landing + `/services/screen-cleaning`. Completes the window/solar/screen trio for Camarillo.
+- Both follow GEO guidelines: direct answer in first 150 words, comparison tables, 3+ quotable stats with NREL/EPA/water-district citations, FAQ + FAQPage JSON-LD. Build verified (40 pages, +2).
+
 ## 2026-05-27 (later) — Flip cookie banner from gate → notice (max-data US pattern)
 - US-only audience, no EU targeting: default consent flipped to `granted`. GA4 + Meta Pixel now fire immediately on page load (no analytics loss for unaccepted/ignored sessions).
 - Banner is now a courtesy notice. Accept dismisses. Decline dismisses **and** sets future visits to denied (current session already tracked because tracking fires before the user can click).
