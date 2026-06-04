@@ -71,11 +71,11 @@ Typical services include:
 - Screen cleaning
 - Track cleaning
 
-Homeowners in Ventura County usually schedule window washing twice per year. Homes near coastal areas sometimes need more frequent cleaning due to salt residue.
+Homeowners in Ventura County usually schedule window washing twice per year. Homes near coastal areas — [window cleaning in Ventura](/ventura/), [Oxnard](/oxnard/), and [Camarillo window cleaning](/camarillo/) — sometimes need more frequent cleaning due to salt residue.
 
 ## Window Washing in Westlake Village
 
-Homes in Westlake Village often feature large windows designed to maximize natural light and scenic views.
+Homes in [Westlake Village](/westlake/) often feature large windows designed to maximize natural light and scenic views.
 
 Dust and pollen can settle on these windows quickly, reducing clarity. Professional window washing helps maintain those views while protecting glass surfaces from long-term buildup.
 
@@ -176,4 +176,4 @@ Professional window washing services make the process easier, safer, and more ef
 
 If you are looking for reliable window washing in Ventura County, the team at Aloha Window Bros can help.
 
-We provide professional window washing, screen cleaning, and solar panel cleaning for homes throughout Ventura County.
+We provide professional [window washing](/services/window-washing/), [screen cleaning](/services/screen-cleaning/), and [solar panel cleaning](/services/solar-panel-cleaning/) for homes throughout Ventura County — and [window washing in Santa Barbara](/santa-barbara/) along the coast.

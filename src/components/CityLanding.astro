@@ -31,6 +31,21 @@ const CALENDLY = 'https://calendly.com/alohawindowbros-r6nn/30min?hide_gdpr_bann
 
 const canonical = `https://alohawindowbros.com/${city.slug}/`;
 
+// All service-area cities for cross-linking (interlinks every city page).
+const ALL_CITIES = [
+  { slug: 'thousand-oaks', name: 'Thousand Oaks' },
+  { slug: 'westlake', name: 'Westlake Village' },
+  { slug: 'agoura', name: 'Agoura Hills' },
+  { slug: 'newbury', name: 'Newbury Park' },
+  { slug: 'santa-barbara', name: 'Santa Barbara' },
+  { slug: 'camarillo', name: 'Camarillo' },
+  { slug: 'simi-valley', name: 'Simi Valley' },
+  { slug: 'oxnard', name: 'Oxnard' },
+  { slug: 'ventura', name: 'Ventura' },
+  { slug: 'ojai', name: 'Ojai' },
+];
+const relatedCities = ALL_CITIES.filter((c) => c.slug !== city.slug);
+
 const jsonLd = {
   "@context": "https://schema.org",
   "@graph": [
@@ -209,6 +224,19 @@ const jsonLd = {
           <p>{f.a}</p>
         </details>
       ))}
+    </div>
+  </section>
+
+  <!-- Related Service Areas (city interlinking) -->
+  <section class="city-related-section">
+    <div class="city-related-inner">
+      <h2>Window Cleaning Across Ventura County &amp; Santa Barbara</h2>
+      <p class="city-section-sub">Outside {city.shortName}? We bring the same window washing and window cleaning to neighboring cities across Ventura County and Santa Barbara County.</p>
+      <div class="city-related-grid">
+        {relatedCities.map((c) => (
+          <a href={`/${c.slug}/`} class="city-related-link">📍 Window Cleaning {c.name}</a>
+        ))}
+      </div>
     </div>
   </section>
 
@@ -435,6 +463,42 @@ const jsonLd = {
   }
   .city-blog-cta-btn:hover {
     transform: translateY(-2px);
+  }
+  .city-related-section {
+    padding: 4rem 1.5rem;
+    background: #fff;
+  }
+  .city-related-inner {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .city-related-inner h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(1.6rem, 3vw, 2.2rem);
+    color: #1a1a2e;
+    margin: 0 0 0.5rem;
+  }
+  .city-related-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+    justify-content: center;
+  }
+  .city-related-link {
+    background: #f0f9ff;
+    padding: 0.65rem 1.1rem;
+    border-radius: 999px;
+    border: 1px solid #dbeafe;
+    font-size: 0.95rem;
+    color: #1e3a5f;
+    font-weight: 600;
+    text-decoration: none;
+    transition: background 0.15s ease, transform 0.15s ease;
+  }
+  .city-related-link:hover {
+    background: #dbeafe;
+    transform: translateY(-1px);
   }
   @media (max-width: 640px) {
     .city-hero {
