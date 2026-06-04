@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-06-03 (later) — Add ImageObject structured data (fix GSC "no image metadata")
+- New `src/lib/seo.ts`: `imageObject()` builder + `businessImages` (3 representative photos with real pixel dims). Adds schema.org `ImageObject` metadata — url, contentUrl, caption, width/height, creditText, creator (Organization), copyrightNotice.
+- Wired into all 4 JSON-LD locations: home LocalBusiness (`index.astro`), city LocalBusiness (`CityLanding.astro`), service provider (`services/[slug].astro`), and blog Article (`blog/[slug].astro` — uses heroImageAlt as caption). Previously all referenced images as bare URL strings, which is why GSC reported no image metadata.
+- Alt text was already solid (only the Meta Pixel 1×1 has none, correctly). Build verified, 40 pages, ImageObject confirmed in rendered output.
+- Follow-up option (not done): image sitemap (`<image:image>` entries) for Google Images discovery — @astrojs/sitemap needs a serialize hook + per-route image map.
+
 ## 2026-06-03 — Two new GEO blog articles (solar Oxnard + screen Camarillo)
 - Added `solar-panel-cleaning-oxnard-coastal-agricultural-guide` targeting the priority gap "Solar Panel Cleaning Oxnard" (flagged heaviest-soiling market: salt + ag dust combo). Links to `/oxnard/` landing + `/services/solar-panel-cleaning` in first 300 words and CTA.
 - Added `screen-cleaning-camarillo-ag-dust-and-pollen-guide` targeting the priority gap "Screen Cleaning Camarillo" (ag dust + oak pollen). Links to `/camarillo/` landing + `/services/screen-cleaning`. Completes the window/solar/screen trio for Camarillo.

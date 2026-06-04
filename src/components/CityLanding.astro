@@ -2,6 +2,7 @@
 import Base from '../layouts/Base.astro';
 import Header from './Header.astro';
 import Footer from './Footer.astro';
+import { businessImages } from '../lib/seo';
 import '../styles/global.css';
 
 export interface CityProps {
@@ -42,7 +43,7 @@ const jsonLd = {
       "telephone": "+18053414121",
       "email": EMAIL,
       "logo": "https://alohawindowbros.com/img/logo.PNG",
-      "image": "https://alohawindowbros.com/img/logo.PNG",
+      "image": businessImages,
       "priceRange": "$150-$475",
       "address": { "@type": "PostalAddress", "addressLocality": "Thousand Oaks", "addressRegion": "CA", "postalCode": "91362", "addressCountry": "US" },
       ...(city.geo ? { "geo": { "@type": "GeoCoordinates", "latitude": city.geo.lat, "longitude": city.geo.lon } } : {}),

@@ -2,6 +2,7 @@
 import Base from '../layouts/Base.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
+import { businessImages } from '../lib/seo';
 import '../styles/global.css';
 
 const PHONE = '(805) 341-4121';
@@ -25,7 +26,7 @@ const jsonLd = {
   "telephone": "+18053414121",
   "email": EMAIL,
   "logo": "https://alohawindowbros.com/img/logo.PNG",
-  "image": "https://alohawindowbros.com/img/logo.PNG",
+  "image": businessImages,
   "address": { "@type": "PostalAddress", "streetAddress": "138 Colt Lane", "addressLocality": "Thousand Oaks", "addressRegion": "CA", "postalCode": "91362" },
   "areaServed": ["Thousand Oaks", "Westlake Village", "Agoura Hills", "Newbury Park", "Ventura County", "Santa Barbara County"],
   "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "50" },

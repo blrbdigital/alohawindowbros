@@ -4,6 +4,7 @@ import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
 import '../../styles/global.css';
 import { getCollection, render } from 'astro:content';
+import { businessImages } from '../../lib/seo';
 
 export async function getStaticPaths() {
   const services = await getCollection('services');
@@ -47,7 +48,7 @@ const jsonLd = {
         "name": "Aloha Window Bros",
         "telephone": "+18053414121",
         "logo": "https://alohawindowbros.com/img/logo.PNG",
-        "image": "https://alohawindowbros.com/img/logo.PNG",
+        "image": businessImages,
         "address": { "@type": "PostalAddress", "addressLocality": "Thousand Oaks", "addressRegion": "CA" }
       },
       "areaServed": ["Thousand Oaks", "Westlake Village", "Agoura Hills", "Newbury Park", "Ventura County", "Santa Barbara County"]

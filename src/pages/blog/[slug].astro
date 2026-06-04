@@ -4,6 +4,7 @@ import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
 import '../../styles/global.css';
 import { getCollection, render } from 'astro:content';
+import { imageObject } from '../../lib/seo';
 
 export async function getStaticPaths() {
   const posts = await getCollection('blog');
@@ -31,7 +32,7 @@ const jsonLd = {
       "author": { "@type": "Organization", "name": "Aloha Window Bros" },
       "publisher": { "@type": "Organization", "name": "Aloha Window Bros", "url": "https://alohawindowbros.com" },
       "mainEntityOfPage": `https://alohawindowbros.com/blog/${post.id}/`,
-      ...(post.data.heroImage ? { "image": `https://alohawindowbros.com${post.data.heroImage}` } : {})
+      ...(post.data.heroImage ? { "image": imageObject({ path: post.data.heroImage, caption: post.data.heroImageAlt || post.data.title }) } : {})
     },
     {
       "@type": "BreadcrumbList",
