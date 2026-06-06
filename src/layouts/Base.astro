@@ -10,7 +10,7 @@ interface Props {
   jsonLd?: object;
 }
 
-const { title, description, canonical, ogType = 'website', ogImage = '/img/cover-slides/slide-1.png', jsonLd } = Astro.props;
+const { title, description, canonical, ogType = 'website', ogImage = '/img/og-card.jpg', jsonLd } = Astro.props;
 const siteUrl = 'https://alohawindowbros.com';
 const canonicalUrl = canonical || new URL(Astro.url.pathname, siteUrl).href;
 const ogImageUrl = ogImage.startsWith('http') ? ogImage : `${siteUrl}${ogImage}`;
@@ -36,6 +36,10 @@ const ogImageUrl = ogImage.startsWith('http') ? ogImage : `${siteUrl}${ogImage}`
     <meta property="og:type" content={ogType} />
     <meta property="og:image" content={ogImageUrl} />
     <meta property="og:site_name" content="Aloha Window Bros" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={ogImageUrl} />
 
     <!-- Consent Mode v2: default = granted (US-only audience, no EU targeting). -->
     <!-- A returning visitor who previously clicked Decline gets denied state -->

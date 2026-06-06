@@ -1,3 +1,6 @@
+## 2026-06-06
+- Added branded 1200x630 Open Graph card (public/img/og-card.jpg) and set it as default og:image + twitter:image so texted links render a clean preview on iPhone.
+
 # Changelog
 
 ## 2026-06-03 (latest) — Additive on-page local SEO: internal linking + Ventura County phrasing
