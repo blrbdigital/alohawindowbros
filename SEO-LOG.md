@@ -4,6 +4,32 @@
 
 ---
 
+### 2026-06-10
+
+**What we did:**
+- Created two new GEO-optimized blog articles, both targeting Westlake Village:
+  - "Solar Panel Cleaning Westlake Village: A Lake Humidity and Hard Water Guide"
+  - "Screen Cleaning Westlake Village: A Lake Humidity and Pollen Guide"
+- Each article links to the `/westlake/` city landing page (within the first 300 words and again in the closing CTA) and to its matching service page (`/services/solar-panel-cleaning`, `/services/screen-cleaning`).
+
+**Why we did it:**
+- Semrush shows the `/westlake/` landing page ranking **position 79** for "aloha window cleaning" — the worst-performing of all 10 city landing pages (Thousand Oaks pos 27, Agoura pos 43, Newbury pos 68, Westlake pos 79). The page has almost no internal-link support relative to its peers.
+- Both topics were explicitly flagged as priority content gaps (Solar Panel Cleaning × Westlake Village and Screen Cleaning × Westlake Village), and neither existed yet.
+- Strategy: publish two supporting articles that both funnel internal-link equity to `/westlake/`, consolidating ranking signal onto the underperforming conversion page rather than fragmenting it. Differentiated with a real local angle — Westlake Lake humidity plus hard imported State Water Project water (Las Virgenes MWD, 10+ grains) — that competitors do not cover.
+
+**Expected impact:**
+- Lift `/westlake/` from position 79 toward the top 30–40 over 6–10 weeks via consolidated internal links and topical relevance.
+- Capture long-tail "solar panel cleaning westlake village" and "screen cleaning westlake village" queries (position 10–20 within 4–8 weeks; little to no direct competition for these exact phrases).
+- FAQPage JSON-LD makes both posts eligible for People Also Ask / AI-citation surfaces.
+
+**Metrics at time of action:**
+- Organic traffic: ~7 sessions/mo (Semrush) | Organic keywords: 15 | Domain rank: 8,840,703
+- Westlake landing page: position 79 for "aloha window cleaning" (vol 50)
+- Highest-value live keywords: "window cleaning santa barbara" pos 19 (vol 90, CPC $15.54), "window cleaning ventura county" pos 14 (vol 30)
+- Note: "window cleaning ventura" slipped pos 9 → 20 week-over-week (homepage). Blog post count 24 → 26; total pages 40 → 42. GSC/GA4 not yet configured (invalid_grant).
+
+---
+
 ### 2026-06-03
 
 **What we did:**

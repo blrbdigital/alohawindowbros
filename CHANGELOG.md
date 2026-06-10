@@ -1,3 +1,10 @@
+## 2026-06-10 — Two new Westlake Village GEO blog posts (support the weakest city page)
+- Added `solar-panel-cleaning-westlake-village-lake-humidity-and-hard-water-guide.md` and `screen-cleaning-westlake-village-lake-pollen-and-humidity-guide.md`. Both close named priority content gaps (Solar × Westlake, Screen × Westlake).
+- **Why Westlake**: Semrush shows `/westlake/` ranking position 79 for "aloha window cleaning" — the worst of all 10 city landing pages (Thousand Oaks 27, Agoura 43, Newbury 68, Westlake 79). Both new posts interlink to `/westlake/` in the first 300 words AND the closing CTA to consolidate ranking equity onto that underperforming conversion page.
+- Real-world angle unique to Westlake: lake humidity off the 125-acre Westlake Lake + hard imported State Water Project water via Las Virgenes MWD (10+ grains). Each post links to its matching service page (`/services/solar-panel-cleaning`, `/services/screen-cleaning`) within the first 300 words.
+- Full GEO compliance: direct answer in first 150 words, 3+ quotable stat statements, comparison tables, full entity names, authoritative citations (NREL, ACAAI, CARB, LVMWD), 5-item FAQ + FAQPage JSON-LD.
+- Build verified: 42 pages (was 40). Blog post count 24 → 26.
+
 ## 2026-06-06
 - Added branded 1200x630 Open Graph card (public/img/og-card.jpg) and set it as default og:image + twitter:image so texted links render a clean preview on iPhone.
 
