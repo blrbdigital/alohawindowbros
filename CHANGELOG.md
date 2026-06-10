@@ -1,3 +1,7 @@
+## 2026-06-10 — Removed Ventura County Roof Cleaners cross-promo from footer
+- Removed the `.footer-partner` block in `src/components/Footer.astro` (the "for roof, gutter, and solar panel washing we recommend Ventura County Roof Cleaners" recommendation linking to venturacountyroofcleaning.com) plus its now-orphaned CSS rules.
+- Build verified: 42 pages, no leftover `footer-partner` references.
+
 ## 2026-06-10 — Two new Westlake Village GEO blog posts (support the weakest city page)
 - Added `solar-panel-cleaning-westlake-village-lake-humidity-and-hard-water-guide.md` and `screen-cleaning-westlake-village-lake-pollen-and-humidity-guide.md`. Both close named priority content gaps (Solar × Westlake, Screen × Westlake).
 - **Why Westlake**: Semrush shows `/westlake/` ranking position 79 for "aloha window cleaning" — the worst of all 10 city landing pages (Thousand Oaks 27, Agoura 43, Newbury 68, Westlake 79). Both new posts interlink to `/westlake/` in the first 300 words AND the closing CTA to consolidate ranking equity onto that underperforming conversion page.
