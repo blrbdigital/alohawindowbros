@@ -1,3 +1,7 @@
+## 2026-06-12 — Footer credit: BLRB Digital → Crossover Labs
+- `Footer.astro` "Designed by" credit now links to https://crossoverlabs.ai (Crossover Labs is the agency hub; part of the hub-and-spoke backlink web — crossoverlabs.ai/#work links back here).
+- REMINDER: never mention Ventura County Roof Cleaners anywhere on this site (rivals).
+
 ## 2026-06-12 — "Window washing" variant targeting on Santa Barbara + Thousand Oaks pages (Semrush Copilot recs)
 - Semrush Copilot flagged: "window washing santa barbara" (vol 90, pos 16 from homepage), "window cleaning santa barbara ca" (vol 30, pos 14), and "window washing thousand oaks" dropped out of the top 10. Neither city page contained any "window washing" phrasing — both targeted only "window cleaning".
 - **santa-barbara.astro**: meta description now includes "window washing"; intro weaves the exact phrase "window washing Santa Barbara"; new 6th FAQ item "Is window washing the same as window cleaning in Santa Barbara, CA?" (also lands in FAQPage JSON-LD).
