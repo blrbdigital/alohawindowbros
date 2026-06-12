@@ -1,3 +1,11 @@
+## 2026-06-12 — "Window washing" variant targeting on Santa Barbara + Thousand Oaks pages (Semrush Copilot recs)
+- Semrush Copilot flagged: "window washing santa barbara" (vol 90, pos 16 from homepage), "window cleaning santa barbara ca" (vol 30, pos 14), and "window washing thousand oaks" dropped out of the top 10. Neither city page contained any "window washing" phrasing — both targeted only "window cleaning".
+- **santa-barbara.astro**: meta description now includes "window washing"; intro weaves the exact phrase "window washing Santa Barbara"; new 6th FAQ item "Is window washing the same as window cleaning in Santa Barbara, CA?" (also lands in FAQPage JSON-LD).
+- **thousand-oaks.astro**: same treatment — meta description, intro phrase "window washing Thousand Oaks", new 6th FAQ item with washing-variant phrasing.
+- "Window cleaning ventura county" rec left alone — homepage title + county H2 section already target it (2026-06-03 work), pos 14 and climbing.
+- Also via Semrush UI: added Copilot-suggested competitors (sbwindowcleaning, almightywindows, santabarbarapacific, jerryswindowcleaning) to the Aloha project.
+- Build verified: 42 pages, exact phrases + FAQPage JSON-LD confirmed in rendered HTML.
+
 ## 2026-06-10 — Removed Ventura County Roof Cleaners cross-promo from footer
 - Removed the `.footer-partner` block in `src/components/Footer.astro` (the "for roof, gutter, and solar panel washing we recommend Ventura County Roof Cleaners" recommendation linking to venturacountyroofcleaning.com) plus its now-orphaned CSS rules.
 - Build verified: 42 pages, no leftover `footer-partner` references.

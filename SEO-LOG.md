@@ -4,6 +4,29 @@
 
 ---
 
+### 2026-06-12
+
+**What we did:**
+- Added "window washing" variant targeting to the two city pages Semrush Copilot flagged: `/santa-barbara/` and `/thousand-oaks/`. Each got the exact phrase woven into the intro prose, a new FAQ item ("Is window washing the same as window cleaning in {city}?") that also lands in FAQPage JSON-LD, and "window washing" added to the meta description.
+- In the Semrush UI: added the four Copilot-suggested competitors to the Aloha project (sbwindowcleaning.com, almightywindows.com, santabarbarapacific.com, jerryswindowcleaning.com) and kicked off the overdue Site Audit recrawl on precisionsportsct.com.
+
+**Why we did it:**
+- Semrush Copilot's new-keyword rec listed "window washing santa barbara" (vol 90 — our single highest-volume non-brand opportunity, pos 16), "window cleaning santa barbara ca" (vol 30, pos 14), and "window cleaning ventura county" (vol 30, pos 14). Copilot also flagged "window washing thousand oaks" dropping out of the top 10.
+- All the "washing" rankings come from the **homepage** — neither city page contained the word "washing" at all (only "cleaning"), so Google had no exact-match page to promote. This was the cheapest possible on-page fix before any new content.
+- "Window cleaning ventura county" was deliberately left alone: the homepage title tag and the county H2 section (added 2026-06-03) already target it.
+
+**Expected impact:**
+- `/santa-barbara/` starts ranking for the washing-variant queries and the SB terms consolidate from homepage → city page; target top 10 for "window washing santa barbara" (currently 16) within 4–8 weeks.
+- "window washing thousand oaks" re-enters the top 10 on `/thousand-oaks/`.
+- FAQ items eligible for People Also Ask via FAQPage JSON-LD.
+
+**Metrics at time of action:**
+- Organic: 14 keywords, ~7 sessions/mo, Authority Score dropped 7 → 6 (Copilot backlink alert — not yet actioned).
+- "window washing santa barbara" #16, "window cleaning santa barbara ca" #14, "window cleaning ventura county" #14, "window cleaning santa barbara" #19 — all from homepage.
+- Precision: 102 keywords (+278%), visibility 39.53% (+12.53). Ventura roof: 7 keywords, page-2 positions on county gutter/pressure-washing terms.
+
+---
+
 ### 2026-06-10
 
 **What we did:**
