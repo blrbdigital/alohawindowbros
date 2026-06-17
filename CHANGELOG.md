@@ -1,3 +1,10 @@
+## 2026-06-17 — 2 new Ventura GEO blog posts (solar + screen) to ride Ventura ranking momentum
+- Semrush shows Ventura is our strongest momentum geo: "window cleaning ventura ca" jumped from pos 36 → **13** in the latest snapshot; "window cleaning ventura" sits at 20. Both Ventura gap articles were still missing, so we wrote them to consolidate signal to `/ventura/`.
+- New: `solar-panel-cleaning-ventura-coastal-hillside-guide.md` — coastal salt fog + hillside dust soiling angle; links `/ventura/` + `/services/solar-panel-cleaning` in first 300 words.
+- New: `screen-cleaning-ventura-coastal-salt-and-pollen-guide.md` — salt-tacky mesh + pollen angle; links `/ventura/` + `/services/screen-cleaning` in first 300 words.
+- Both follow GEO spec: direct answer in first 150 words, 3+ quotable stats with NREL/EPA citations, comparison tables, 5-item FAQ + FAQPage JSON-LD, full entity name on first reference.
+- Build verified: 44 pages (was 42); both pages render with `/ventura/` links confirmed.
+
 ## 2026-06-12 — Footer credit: BLRB Digital → Crossover Labs
 - `Footer.astro` "Designed by" credit now links to https://crossoverlabs.ai (Crossover Labs is the agency hub; part of the hub-and-spoke backlink web — crossoverlabs.ai/#work links back here).
 - REMINDER: never mention Ventura County Roof Cleaners anywhere on this site (rivals).

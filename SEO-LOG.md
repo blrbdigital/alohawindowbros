@@ -4,6 +4,31 @@
 
 ---
 
+### 2026-06-17
+
+**What we did:**
+- Published 2 new location GEO blog articles for Ventura, both targeting service × city long-tail gaps we had not yet covered:
+  - "Solar Panel Cleaning Ventura: A Coastal and Hillside Guide" (`/solar-panel-cleaning-ventura-coastal-hillside-guide`)
+  - "Screen Cleaning Ventura: A Coastal Salt and Pollen Guide" (`/screen-cleaning-ventura-coastal-salt-and-pollen-guide`)
+- Each links to the `/ventura/` city landing page AND its matching service page within the first 300 words and again in the closing CTA, consolidating ranking signal onto the canonical conversion page.
+- Both follow the full GEO spec: direct answer in the first 150 words, 3+ quotable stats sourced to NREL and the EPA, comparison tables (cost-of-soiling, professional vs. DIY, neighborhood frequency), a 5-question FAQ with FAQPage JSON-LD, and full "Aloha Window Bros" entity naming.
+
+**Why we did it:**
+- Ventura is the site's strongest momentum geo right now. Semrush shows "window cleaning ventura ca" (vol 70) jumped from **position 36 in the prior snapshot to position 13** this week, and "window cleaning ventura" (vol 70) sits at position 20. Google is actively warming to our Ventura content.
+- The fastest way to compound that momentum is more topically-relevant Ventura pages that all internally link to `/ventura/`. Both the solar and screen Ventura gap articles were still missing, so they were the highest-impact unwritten pages for our best-trending city.
+- Low-traffic site (single-digit organic traffic per Semrush rank history), so strategy remains content creation against high-intent local long-tail keywords rather than pure optimization.
+
+**Expected impact:**
+- Capture position 8–15 within 4–8 weeks for "solar panel cleaning ventura" and "screen cleaning ventura" queries, which currently have no dedicated page.
+- Strengthen internal linking to `/ventura/`, supporting the climb of "window cleaning ventura" / "window cleaning ventura ca" toward page 1.
+
+**Metrics at time of action:**
+- Top trending keyword: "window cleaning ventura ca" pos 13 (was 36 last snapshot) | "window cleaning ventura" pos 20 | "window washing/cleaning santa barbara" pos 16–19 | Brand "aloha window bros" pos 1.
+- Semrush rank history: ~15 organic keywords, single-digit organic traffic. Domain overview N/A. GSC/GA4 not yet configured.
+- Blog post count: 28 (was 26).
+
+---
+
 ### 2026-06-12
 
 **What we did:**
