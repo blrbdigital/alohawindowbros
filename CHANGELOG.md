@@ -1,3 +1,10 @@
+## 2026-06-24 — 2 new Solar Panel Cleaning GEO posts (Agoura Hills + Newbury Park) to lift the two weakest city pages
+- Semrush snapshot shows `/agoura/` is generating impressions ("aloha window cleaning" pos 43, "the window bros chico" pos 62) but had zero solar content, and `/newbury/` is our weakest landing page (pos 68). Both were on the priority gap list (Solar Panel Cleaning × Agoura Hills and Newbury Park, both previously missing).
+- New: `solar-panel-cleaning-agoura-hills-canyon-dust-and-ash-guide.md` — canyon dust + Woolsey-zone wildfire ash soiling angle; links `/agoura/` + `/services/solar-panel-cleaning` in first 300 words and again in the closing CTA.
+- New: `solar-panel-cleaning-newbury-park-canyon-dust-and-sloped-roof-guide.md` — canyon dust + steep Dos Vientos roof-safety angle; links `/newbury/` + `/services/solar-panel-cleaning` in first 300 words and again in the closing CTA.
+- Both follow GEO spec: direct answer in first 150 words, 3+ quotable stats with NREL citation, comparison tables, 5-item FAQ + FAQPage JSON-LD, full entity name "Aloha Window Bros" on first reference. Cross-linked to each other and the other Conejo Valley solar guides.
+- Build verified: 48 pages; both pages render with city-landing + service links confirmed.
+
 ## 2026-06-17 — 2 new Ventura GEO blog posts (solar + screen) to ride Ventura ranking momentum
 - Semrush shows Ventura is our strongest momentum geo: "window cleaning ventura ca" jumped from pos 36 → **13** in the latest snapshot; "window cleaning ventura" sits at 20. Both Ventura gap articles were still missing, so we wrote them to consolidate signal to `/ventura/`.
 - New: `solar-panel-cleaning-ventura-coastal-hillside-guide.md` — coastal salt fog + hillside dust soiling angle; links `/ventura/` + `/services/solar-panel-cleaning` in first 300 words.

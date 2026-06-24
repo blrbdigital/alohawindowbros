@@ -4,6 +4,29 @@
 
 ---
 
+### 2026-06-24
+
+**What we did:**
+- Created new blog article: "Solar Panel Cleaning Agoura Hills: A Canyon Dust and Wildfire Ash Guide" (`/blog/solar-panel-cleaning-agoura-hills-canyon-dust-and-ash-guide`).
+- Created new blog article: "Solar Panel Cleaning Newbury Park: A Canyon Dust and Sloped-Roof Guide" (`/blog/solar-panel-cleaning-newbury-park-canyon-dust-and-sloped-roof-guide`).
+- Both link to their matching city landing page (`/agoura/`, `/newbury/`) and the `/services/solar-panel-cleaning` service page within the first 300 words and again in the closing CTA, consolidating ranking signal onto the conversion pages.
+
+**Why we did it:**
+- Semrush shows `/agoura/` is already earning impressions ("aloha window cleaning" at position 43, "the window bros chico" at position 62) yet had no solar-panel content to capture solar-intent searches in that city. Doubling down on a page Google is already surfacing is higher-EV than starting a cold geo.
+- `/newbury/` is our weakest city landing page (position 68 for "aloha window cleaning") and had no supporting blog content. Adding a topically-relevant, internally-linked article passes equity to it.
+- Both topics sit on the documented priority content gap list (Solar Panel Cleaning × city — Agoura Hills and Newbury Park were two of the eight missing), so we are closing real long-tail `[service] [city]` gaps rather than inventing topics.
+- Both articles follow the full GEO spec (direct answer in first 150 words, 3+ quotable stats with NREL citation, comparison tables, FAQ + FAQPage JSON-LD, full entity names) for AI-citation readiness.
+
+**Expected impact:**
+- Capture position 5–15 within 4–8 weeks for long-tail queries like "solar panel cleaning Agoura Hills," "solar panel cleaning Newbury Park," and "Dos Vientos solar cleaning."
+- Lift `/agoura/` and `/newbury/` landing-page rankings via fresh internal links from topically relevant content.
+- Improve odds of AI-search (GEO) citations through structured FAQ schema and quotable, sourced statistics.
+
+**Metrics at time of action:**
+- Organic traffic: ~7 sessions/mo (Semrush est.), 15 tracked organic keywords. Top keyword: "aloha window bros" at position 1 (vol 50). Strongest non-brand: "window washing santa barbara" pos 8, "window cleaning santa barbara" pos 15, "window cleaning ventura ca" pos 13.
+- `/agoura/`: "aloha window cleaning" pos 43; "the window bros chico" pos 62. `/newbury/`: "aloha window cleaning" pos 68 (weakest city page).
+- Blog post count: 32 → 34. Total pages built: 48. GSC/GA4 not yet configured.
+
 ### 2026-06-17
 
 **What we did:**
