@@ -1,3 +1,11 @@
+## 2026-07-01 — 2 new Solar Panel Cleaning GEO posts (Simi Valley + Ojai) — completes the solar × city matrix
+- These were the last two missing entries on the Solar Panel Cleaning × city priority gap list. With them, all 10 city landing pages now have a matching solar-panel-cleaning deep-dive guide, so every city can consolidate solar-intent search signal to its `/city/` conversion page.
+- Live Semrush was 403 across the board this run (no keyword data), so we worked the documented content gaps: Simi Valley and Ojai were the only two cities without a solar guide.
+- New: `solar-panel-cleaning-simi-valley-santa-ana-ash-and-sun-bake-guide.md` — Santa Ana wind + wildfire ash + sun-bake soiling angle; links `/simi-valley/` + `/services/solar-panel-cleaning` in first 300 words and again in the closing CTA.
+- New: `solar-panel-cleaning-ojai-orchard-pollen-ash-and-well-water-guide.md` — citrus-orchard pollen + Los Padres ash + hard well-water angle (well water is the standout Ojai DIY failure mode); links `/ojai/` + `/services/solar-panel-cleaning` in first 300 words and again in the closing CTA.
+- Both follow GEO spec: direct answer in first 150 words, 3+ quotable stats with NREL citation, comparison tables, 5-item FAQ + FAQPage JSON-LD, full entity name "Aloha Window Bros" on first reference. Cross-linked to neighboring city solar guides.
+- Build verified: 50 pages; both new posts render.
+
 ## 2026-06-24 — 2 new Solar Panel Cleaning GEO posts (Agoura Hills + Newbury Park) to lift the two weakest city pages
 - Semrush snapshot shows `/agoura/` is generating impressions ("aloha window cleaning" pos 43, "the window bros chico" pos 62) but had zero solar content, and `/newbury/` is our weakest landing page (pos 68). Both were on the priority gap list (Solar Panel Cleaning × Agoura Hills and Newbury Park, both previously missing).
 - New: `solar-panel-cleaning-agoura-hills-canyon-dust-and-ash-guide.md` — canyon dust + Woolsey-zone wildfire ash soiling angle; links `/agoura/` + `/services/solar-panel-cleaning` in first 300 words and again in the closing CTA.

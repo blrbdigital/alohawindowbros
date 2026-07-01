@@ -4,6 +4,28 @@
 
 ---
 
+### 2026-07-01
+
+**What we did:**
+- Created new blog article: "Solar Panel Cleaning Simi Valley: A Santa Ana Ash and Sun-Bake Guide" (`/blog/solar-panel-cleaning-simi-valley-santa-ana-ash-and-sun-bake-guide`).
+- Created new blog article: "Solar Panel Cleaning Ojai: An Orchard Pollen, Ash, and Well Water Guide" (`/blog/solar-panel-cleaning-ojai-orchard-pollen-ash-and-well-water-guide`).
+- Both link to their matching city landing page (`/simi-valley/`, `/ojai/`) and the `/services/solar-panel-cleaning` service page within the first 300 words and again in the closing CTA, consolidating solar-intent ranking signal onto the conversion pages.
+
+**Why we did it:**
+- These were the final two entries on the documented Solar Panel Cleaning × city priority gap list. Simi Valley and Ojai were the only two of our ten city landing pages without a matching solar-panel-cleaning deep-dive guide. Publishing them completes the solar × city matrix so every city page has a topically-relevant article feeding it equity.
+- Live Semrush returned 403 on every endpoint this run (rank_history, organic_keywords, competitors, domain_overview) and GSC/GA4 remain unconfigured, so there was no fresh keyword data. Per the low-traffic content-creation strategy, we prioritized closing known long-tail `[service] [city]` gaps over waiting for traffic that won't exist without content.
+- Each article leads with the city's specific soiling driver — Simi Valley's Santa Ana winds + wildfire ash + extreme heat, and Ojai's citrus-orchard pollen + Los Padres ash + hard well water (the well-water angle is a genuine local DIY failure mode) — so the content is genuinely useful and differentiated, not templated filler.
+- Both articles follow the full GEO spec (direct answer in first 150 words, 3+ quotable stats with NREL citation, comparison tables, 5-item FAQ + FAQPage JSON-LD, full entity names) for AI-citation readiness.
+
+**Expected impact:**
+- Should capture position 5–15 within 4–8 weeks for "solar panel cleaning simi valley" and "solar panel cleaning ojai" and related long-tail queries, then pass internal-link equity to `/simi-valley/` and `/ojai/` to lift those conversion pages.
+- FAQPage schema positions both posts to appear in People Also Ask and AI-generated answers for solar cleaning cost/frequency/well-water questions in these geos.
+
+**Metrics at time of action:**
+- Semrush: 403 on all endpoints (no data this run). Prior snapshot top keyword: "aloha window bros" position 1 (vol 50); "window washing santa barbara" position 8; "window cleaning ventura ca" position 13. Organic keywords tracked: ~15. Blog post count: 34 → 36. All 10 city landing pages now have a matching solar guide (matrix complete). Build: 50 pages, verified passing.
+
+---
+
 ### 2026-06-24
 
 **What we did:**
