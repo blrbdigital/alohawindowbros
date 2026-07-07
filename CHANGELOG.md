@@ -1,3 +1,10 @@
+## 2026-07-06 - Fix Semrush crawl errors introduced by the two Jul 6 screen posts
+- Semrush Site Audit flagged 7 new errors (health 96% to 92%), all from `solar-screens-ojai-ca.md` and `window-screen-repair-oxnard-ca.md`:
+  - Both posts set `heroImage: /img/hero-screen-cleaning.jpg`, which does not exist in `public/img/`. Switched to `/img/water_pole_2.jpg` (the heroImage every other screen-cleaning post uses).
+  - Ojai post linked to `/blog/window-cleaning-ventura-keeping-coastal-glass-clean`, a slug that has never existed. Now links to `/blog/screen-cleaning-ventura-coastal-salt-and-pollen-guide`.
+- Also swept all em dashes out of both posts (title, description, body, FAQ JSON-LD) per the no-em-dash content rule. Title is now "Solar Screens in Ojai, CA: Block the Heat, Not the View".
+- Build verified: 50 pages.
+
 ## 2026-07-01 — 2 new Solar Panel Cleaning GEO posts (Simi Valley + Ojai) — completes the solar × city matrix
 - These were the last two missing entries on the Solar Panel Cleaning × city priority gap list. With them, all 10 city landing pages now have a matching solar-panel-cleaning deep-dive guide, so every city can consolidate solar-intent search signal to its `/city/` conversion page.
 - Live Semrush was 403 across the board this run (no keyword data), so we worked the documented content gaps: Simi Valley and Ojai were the only two cities without a solar guide.
