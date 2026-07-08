@@ -1,3 +1,10 @@
+## 2026-07-08 - 2 new Screen Cleaning GEO posts (Santa Barbara + Oxnard)
+- Added `screen-cleaning-santa-barbara-coastal-salt-and-oak-pollen-guide.md` and `screen-cleaning-oxnard-salt-and-ag-dust-guide.md`, closing 2 of the 6 remaining `screen cleaning [city]` content gaps (the solar x city matrix is already complete).
+- Santa Barbara chosen because Semrush shows real ranking momentum there: "window washing santa barbara" pos 8, "window cleaning santa barbara" pos 15, "window cleaning santa barbara ca" pos 14. A screen-cleaning page consolidates that entity/geo signal onto a fresh, low-competition long-tail.
+- Oxnard chosen as the heaviest-soiling market (unique salt + Oxnard Plain ag-dust double load) - highly differentiated content, and we already rank pos 13 for the neighboring "window cleaning camarillo".
+- Each post: direct answer in first 150 words, links to BOTH the city landing page (`/santa-barbara/`, `/oxnard/`) and `/services/screen-cleaning` in the first 300 words + closing CTA, 4+ quotable stat statements, comparison tables, EPA citation, 5-item FAQ + FAQPage JSON-LD, Calendly CTA.
+- heroImage set to `/img/water_pole_2.jpg` (the verified screen-post hero); all internal `/blog/` links verified against real slugs; zero em dashes (swept U+2014 to hyphen, kept en-dash ranges). Build verified: 52 pages.
+
 ## 2026-07-06 - Fix Semrush crawl errors introduced by the two Jul 6 screen posts
 - Semrush Site Audit flagged 7 new errors (health 96% to 92%), all from `solar-screens-ojai-ca.md` and `window-screen-repair-oxnard-ca.md`:
   - Both posts set `heroImage: /img/hero-screen-cleaning.jpg`, which does not exist in `public/img/`. Switched to `/img/water_pole_2.jpg` (the heroImage every other screen-cleaning post uses).

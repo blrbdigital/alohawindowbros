@@ -4,6 +4,27 @@
 
 ---
 
+### 2026-07-08
+
+**What we did:**
+- Created new blog article: "Screen Cleaning Santa Barbara: A Coastal Salt and Oak Pollen Guide" (`/blog/screen-cleaning-santa-barbara-coastal-salt-and-oak-pollen-guide`).
+- Created new blog article: "Screen Cleaning Oxnard: A Coastal Salt and Ag Dust Guide" (`/blog/screen-cleaning-oxnard-salt-and-ag-dust-guide`).
+- Both are full GEO-optimized guides: direct answer in the first 150 words, quotable stat statements, comparison tables, EPA citation, a 5-question FAQ with FAQPage JSON-LD schema, and a Calendly booking CTA. Each links to its city landing page and the screen-cleaning service page in the opening and closing.
+
+**Why we did it:**
+- The solar-panel-cleaning x city content matrix is now complete, so the highest-value remaining gap is the `screen cleaning [city]` long-tail (6 cities still had no dedicated page). We prioritized Santa Barbara and Oxnard.
+- Santa Barbara: Semrush shows genuine ranking momentum on the Santa Barbara geo cluster - "window washing santa barbara" at position 8 (already sending 6.25% of site traffic), "window cleaning santa barbara" at position 15, and "window cleaning santa barbara ca" at position 14. Publishing a screen-cleaning page lets us capture the adjacent, lower-competition "screen cleaning santa barbara" query while the domain already has topical authority for that city.
+- Oxnard: it is the single heaviest-soiling market we serve (coastal salt plus Oxnard Plain agricultural dust - a double load no other city faces), which makes for uniquely differentiated, genuinely useful content. We already rank position 13 for the neighboring "window cleaning camarillo", showing this geo cluster responds to our pages.
+
+**Expected impact:**
+- Should capture position 5-15 within 4-8 weeks for "screen cleaning santa barbara" and "screen cleaning oxnard" and their variants, and pass internal-link equity to the `/santa-barbara/` and `/oxnard/` conversion landing pages.
+- FAQPage schema positions both posts for People Also Ask and AI-citation (GEO) surfaces on screen-cleaning and airflow/allergen queries.
+
+**Metrics at time of action:**
+- Organic traffic ~16 sessions/mo (Semrush, low-traffic content-build phase) | 14 organic keywords tracked | Top keyword "aloha window bros" at position 1; strongest non-brand cluster is Santa Barbara ("window washing santa barbara" pos 8, "window cleaning santa barbara" pos 15) | Blog now has 36 posts, screen-cleaning city coverage 6 of 10.
+
+---
+
 ### 2026-07-01
 
 **What we did:**
