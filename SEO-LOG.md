@@ -4,6 +4,30 @@
 
 ---
 
+### 2026-07-10
+
+**What we did:**
+- Created new blog article: "Screen Cleaning Simi Valley: A Santa Ana Wind and Ash Guide" (`/blog/screen-cleaning-simi-valley-santa-ana-wind-and-ash-guide`).
+- Created new blog article: "Screen Cleaning Agoura Hills: A Canyon Dust and Oak Pollen Guide" (`/blog/screen-cleaning-agoura-hills-canyon-dust-and-oak-pollen-guide`).
+- Both are full GEO-optimized guides: direct answer in the first 150 words, quotable stat statements, comparison tables, authoritative citations (EPA, National Weather Service, CDC, AAAAI), a 5-question FAQ with FAQPage JSON-LD schema, and a Calendly booking CTA. Each links to its city landing page and the screen-cleaning service page in the opening and the closing CTA, plus its matching solar-panel-cleaning post.
+
+**Why we did it:**
+- With the solar-panel x city matrix complete, `screen cleaning [city]` is the highest-value remaining long-tail. Six of ten cities were covered; these two close the two largest remaining markets, leaving only Newbury Park and Ojai.
+- Simi Valley is the biggest unserved city by population (~125,000). It also clears the information-gain bar: it is the only city we serve that gets essentially no marine-layer moisture, so airborne dust lands dry and triple-digit summer heat drives it into the screen weave rather than leaving it on the surface. That is a concrete local mechanism no competitor page explains, and it justifies the professional-vs-hose recommendation on physical grounds rather than sales grounds.
+- Agoura Hills was picked over Newbury Park and Ojai on crawl evidence: Semrush shows `/agoura/` already ranking on two queries ("aloha window cleaning" pos 43, "the window bros chico" pos 62), meaning Google is actively indexing that URL, so a new post linking to it should pass equity that lands. Its differentiated angle is oak pollen tannins, which run onto the glass on the first damp morning and explain the very common "my windows re-streaked a week after cleaning" complaint.
+- Both articles reinforce the site's strongest structural asset: internal links from blog content into the ten conversion-focused city landing pages, consolidating geo signal instead of fragmenting it.
+
+**Expected impact:**
+- Should capture position 5-15 within 4-8 weeks for "screen cleaning simi valley" and "screen cleaning agoura hills" and their variants, and pass internal-link equity to the `/simi-valley/` and `/agoura/` conversion landing pages.
+- FAQPage schema positions both posts for People Also Ask and AI-citation (GEO) surfaces on screen-cleaning, wildfire-ash, and pollen/allergen queries.
+- The Agoura post additionally supports the `/agoura/` page, which currently ranks only on weak brand-adjacent terms and has never had a topical blog post pointing at it with a screen-cleaning anchor.
+
+**Metrics at time of action:**
+- Organic traffic ~16 sessions/mo, up from 7 the prior month (Semrush rank history; still in low-traffic content-build phase) | 14 organic keywords tracked | Domain rank improved from 8,840,703 to 7,088,188 month over month | Top keyword "aloha window bros" at position 1; strongest non-brand keywords are "window washing santa barbara" pos 8, "window cleaning camarillo" pos 13 (trending up), "window cleaning ventura ca" pos 13 | Blog now has 38 posts; screen-cleaning city coverage 8 of 10.
+- Data caveat: Google Search Console and GA4 remain unconfigured (invalid_grant), and PageSpeed Insights returned HTTP 429 on both mobile and desktop, so click-through and Core Web Vitals data were unavailable this run. Targeting decisions were made from Semrush position data plus the documented service x city gap list.
+
+---
+
 ### 2026-07-08
 
 **What we did:**

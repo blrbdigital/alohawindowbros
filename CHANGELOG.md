@@ -1,3 +1,11 @@
+## 2026-07-10 - 2 new Screen Cleaning GEO posts (Simi Valley + Agoura Hills)
+- Added `screen-cleaning-simi-valley-santa-ana-wind-and-ash-guide.md` and `screen-cleaning-agoura-hills-canyon-dust-and-oak-pollen-guide.md`, closing 2 of the 4 remaining `screen cleaning [city]` gaps. Only Newbury Park and Ojai remain.
+- Simi Valley chosen as the largest unserved market by population (~125k) and because the angle is genuinely differentiated: it is the one city we serve with no marine-layer moisture, so dust lands dry and 100F+ heat bakes it into the mesh. No competitor page makes that argument.
+- Agoura Hills chosen because `/agoura/` already carries ranking signals in Semrush ("aloha window cleaning" pos 43, "the window bros chico" pos 62), so it is being crawled. Angle is the oak-pollen tannin streak, which explains why cleaned windows re-streak after the first dew.
+- Each post: direct answer in first 150 words, links to BOTH the city landing page (`/simi-valley/`, `/agoura/`) and `/services/screen-cleaning` in the first 300 words + closing CTA, 4+ quotable stat statements, comparison tables, EPA + NWS + CDC + AAAAI citations, 5-item FAQ + FAQPage JSON-LD, Calendly CTA.
+- Each also cross-links its matching solar post, tightening the service cluster per city.
+- Verified before commit per the 2026-07-06 gotcha: `heroImage` resolves to a real file, every `/blog/`, `/services/`, and city link resolves to a real slug/page, zero em/en dashes (with a positive control proving the detector fires). Build verified: 54 pages, both posts emit FAQPage schema + canonical + sitemap entry.
+
 ## 2026-07-08 - 2 new Screen Cleaning GEO posts (Santa Barbara + Oxnard)
 - Added `screen-cleaning-santa-barbara-coastal-salt-and-oak-pollen-guide.md` and `screen-cleaning-oxnard-salt-and-ag-dust-guide.md`, closing 2 of the 6 remaining `screen cleaning [city]` content gaps (the solar x city matrix is already complete).
 - Santa Barbara chosen because Semrush shows real ranking momentum there: "window washing santa barbara" pos 8, "window cleaning santa barbara" pos 15, "window cleaning santa barbara ca" pos 14. A screen-cleaning page consolidates that entity/geo signal onto a fresh, low-competition long-tail.
