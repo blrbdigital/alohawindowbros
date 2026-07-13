@@ -4,6 +4,37 @@
 
 ---
 
+### 2026-07-13
+
+**What we did:**
+- Created new blog article: "Screen Cleaning Newbury Park: A Canyon Dust and Two-Wind Guide" (`/blog/screen-cleaning-newbury-park-canyon-dust-and-wind-guide`).
+- Created new blog article: "Screen Cleaning Ojai: An Orchard Pollen and Well Water Guide" (`/blog/screen-cleaning-ojai-orchard-pollen-and-well-water-guide`).
+- These two posts **complete the service x city content matrix**. All 10 cities Aloha Window Bros serves now have a dedicated window cleaning, screen cleaning, and solar panel cleaning guide, each feeding its city landing page.
+- Both are full GEO-optimized guides: direct answer in the first 150 words, quotable stat statements, comparison tables, authoritative citations (EPA, National Weather Service, CDC, AAAAI), a 5-question FAQ with FAQPage JSON-LD schema, and a Calendly booking CTA. Each links to its city landing page and the screen-cleaning service page in both the opening and the closing CTA, plus its matching solar post and the hard water stain pillar.
+
+**Why we did it:**
+- Newbury Park and Ojai were the last two gaps on the documented `screen cleaning [city]` priority list. Closing them means every city page now receives geo signal from three separate blog guides instead of one or two, which is the site's strongest structural asset given its very low domain authority.
+- Both articles clear the information-gain bar with a real local mechanism no competitor page explains, which is what earns AI citations and featured snippets rather than just a ranking:
+  - **Newbury Park**: it sits where marine air coming up the Conejo Grade meets dry canyon flow, so screens go through a damp-then-dry cycle that cements dust into the mesh instead of leaving it loose. Layered on top, hard sprinkler overspray leaves mineral scale in the lower third of the screen, which then traps dust. That specifically explains the common "the bottom of my screen is dirtier than the top" observation.
+  - **Ojai**: much of the valley is on private wells with very hard groundwater. That means rinsing a screen with a garden hose actively makes it worse, because it deposits fresh mineral scale into the weave. This is the strongest angle we have written for any screen post because it inverts the homeowner's default DIY instinct on physical grounds rather than sales grounds, and it pairs with the valley inversion layer that traps sticky citrus and avocado grove pollen.
+- Semrush data was unchanged from the 2026-07-10 snapshot (identical keyword table), so there was no new ranking signal to react to. With GSC and GA4 still unauthenticated, the documented content gap list remains the correct driver, and it explicitly named these two cities.
+- The site remains firmly in the low-traffic regime (14 organic keywords, 16 organic traffic in the latest month), where the priority is content creation, not optimization of existing traffic.
+
+**Expected impact:**
+- Should capture position 5 to 15 within 6 to 10 weeks for low-competition long-tails like "screen cleaning Newbury Park", "screen cleaning Ojai", "window screen cleaning Ojai CA", and neighborhood variants (Dos Vientos, Meiners Oaks, East End).
+- The well-water angle in the Ojai post is a strong candidate for AI Overview and voice-assistant citation on queries like "can I hose off my window screens" and "why do my screens look hazy after cleaning", which are national-intent questions we can answer with a locally grounded mechanism.
+- Adds 6 new internal links into `/newbury/` and `/ojai/`, the two weakest city landing pages by ranking signal. `/newbury/` currently ranks only 68th for "aloha window cleaning" and `/ojai/` does not rank at all, so both need inbound internal equity more than any other city page.
+- Strategic note for future runs: with the matrix complete, the next highest-impact work is **refreshing and expanding the 10 stale posts** (all over 90 days old, several dating to 2026-03-09) rather than adding new city-service pages, which would now risk near-duplicate thin content.
+
+**Metrics at time of action:**
+- Organic keywords: 14 | Organic traffic: 16/mo | Semrush domain rank: 7,088,188 (latest monthly, 2026-06-15).
+- Best positions: "aloha window bros" pos 1 (brand), "window washing santa barbara" pos 8, "the window bros chico" pos 9, "window cleaning camarillo" pos 13, "window cleaning ventura ca" pos 13, "window cleaning santa barbara ca" pos 14, "window cleaning santa barbara" pos 15.
+- Blog posts: 38 to 40. Total pages built: 56.
+- Nearest real competitors remain tiny: deluxewindowcleaning.co (48 keywords), joeswindowcleaning805.com (52 keywords). This niche is still winnable on content volume and quality alone.
+- Data caveat: GSC and GA4 remain unauthenticated (`invalid_grant`), PageSpeed returned HTTP 429, and the Semrush backlinks endpoint returned HTTP 400. Keyword data was identical to the previous snapshot.
+
+---
+
 ### 2026-07-10
 
 **What we did:**
