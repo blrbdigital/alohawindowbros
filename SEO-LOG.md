@@ -4,6 +4,34 @@
 
 ---
 
+### 2026-07-14
+
+**What we did:**
+- Created new blog article: "Hard Water Stains on Windows in Ojai: A Well Water Guide" (`/blog/hard-water-stains-ojai-well-water-guide`).
+- Created new blog article: "Hard Water Stains on Windows in Westlake Village: What Actually Causes Them" (`/blog/hard-water-stains-westlake-village-guide`).
+- **Corrected a factual error in our existing hard water pillar page.** The article "How to Remove Hard Water Stains from Windows" claimed Conejo Valley water "averages 15 to 22 grains per gallon." The water utilities' own published reports put it at roughly 8.5. We replaced the false claim with a sourced, per-district hardness table.
+
+**Why we did it:**
+- The service x city matrix (window / screen / solar for all 10 cities) was completed on 2026-07-13. The next-highest-value gap on the content plan was the **hard water restoration city variants**, which are high-intent, high-ticket queries: restoration jobs run $200 to $500 versus $175 to $350 for a standard clean.
+- We picked Ojai and Westlake Village specifically because they are the **two extremes**, which let us publish a genuine comparison instead of two near-duplicate pages. We verified the numbers against primary sources rather than asserting them: Casitas MWD's 2024 Ojai water quality report, California Water Service's Westlake district report, and the Las Virgenes MWD water quality report.
+- **The information-gain angle no competitor has:** Ojai runs about 17 grains per gallon on local well water, while both utilities serving Westlake Village average 146 (about 8.5 gpg) on imported water. Ojai homeowners deal with roughly double the mineral load. Nobody in this market publishes per-district hardness data.
+- The Westlake article is deliberately counterintuitive and tells the truth against our own sales instinct: the water there is only moderately hard, so the real cause is **sprinkler overspray frequency, not water hardness**. Pages that answer a question honestly and specifically are what get cited by AI search, and this is the kind of claim a competitor's generic "hard water is bad" page cannot make.
+- Fixing the false 15-to-22 gpg stat matters for GEO: it sat inside a pull-quote on our pillar page, which is precisely the format an LLM lifts and repeats. Publishing a wrong number that the water district's own report contradicts is a credibility risk with both Google and AI answer engines.
+
+**Expected impact:**
+- Target queries: "hard water stains windows ojai", "hard water spots windows westlake village", "how hard is the water in ojai", "westlake village water hardness", plus the broader "remove hard water stains from windows" pillar these two now feed. Expect indexation in 1 to 2 weeks and position 5 to 15 on the long-tail city terms within 4 to 8 weeks, given how thin the competing content is.
+- The hardness-comparison table and the FAQ answers are written as directly quotable, sourced blocks, which is the format that earns AI Overview and ChatGPT citations. "How hard is the water in Ojai" is a question with no good local answer currently ranking.
+- Both posts pass link equity to `/ojai/` and `/westlake/`, the conversion pages. `/westlake/` is currently ranking 79th for "aloha window cleaning," so it needs internal support most.
+
+**Metrics at time of action:**
+- Semrush: 14 organic keywords, 16 organic monthly traffic, domain rank 7,088,188. Best positions: "aloha window bros" #1, "window washing santa barbara" #8, "the window bros chico" #9.
+- Close-to-page-1 opportunities unchanged: "window cleaning camarillo" #13, "window cleaning ventura ca" #13, "window cleaning santa barbara ca" #14, "window cleaning santa barbara" #15.
+- Organic keywords trending down from the March peak (27 keywords, 26 traffic) to 14 keywords / 16 traffic in June, which is why we are prioritizing genuinely differentiated content over volume.
+- GSC and GA4 remain unconfigured (invalid_grant), so no click or impression data is available. Keyword selection is based on Semrush positions, the city landing page set, and verified local water district data.
+- Blog post count: 40 -> 42.
+
+---
+
 ### 2026-07-13
 
 **What we did:**
