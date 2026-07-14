@@ -220,25 +220,63 @@ const jsonLd = {
   <!-- Window Cleaning Ventura County (SEO context + internal links) -->
   <section class="county-section">
     <div class="county-inner">
-      <h2>Window Cleaning Ventura County, From Coast to Conejo Valley</h2>
-      <p>
-        Aloha Window Bros provides professional <a href="/services/window-washing/">window washing</a> and window cleaning for homes
-        across all of Ventura County. From the coastal salt air of <a href="/oxnard/">Oxnard window cleaning</a> and
-        <a href="/ventura/">window cleaning in Ventura</a> to the dry-season dust of the Conejo Valley, every neighborhood
-        builds up its own kind of grime. We tailor each visit to your home — purified water for streak-free glass, plus
-        <a href="/services/screen-cleaning/">screen cleaning</a> and <a href="/services/solar-panel-cleaning/">solar panel cleaning</a>
-        in the same trip.
-      </p>
-      <h3>Window Washing Ventura County Done Right</h3>
-      <p>
-        Whether you need <a href="/camarillo/">Camarillo window cleaning</a>, a hand with hard-water spots in
-        <a href="/simi-valley/">Simi Valley</a>, hillside views cleared in <a href="/thousand-oaks/">window cleaning Thousand Oaks</a>,
-        or coastal window cleaning in <a href="/ojai/">Ojai</a>, our two-brother team treats your windows, screens, frames, and sills
-        as a complete four-in-one clean. Looking for window cleaning in Santa Barbara County? We bring the same care to
-        <a href="/santa-barbara/">window cleaning in Santa Barbara</a> and the surrounding coast. Want the details first? Read our
-        <a href="/blog/window-cleaning-ventura-county-what-homeowners-should-know-before-hiring-professionals/">Ventura County window cleaning guide</a>
-        and our <a href="/blog/window-washing-ventura-county-why-professional-cleaning-makes-a-difference/">window washing Ventura County guide</a>.
-      </p>
+      <div class="county-head">
+        <span class="county-eyebrow">Ventura &amp; Santa Barbara County</span>
+        <h2>Window Cleaning Ventura County, Coast to Conejo</h2>
+        <p class="county-lede">
+          Every neighborhood grows its own kind of grime. Salt spray on the coast, dry-season dust off the Conejo
+          Valley, hard water almost everywhere. We read the glass before we touch it, then match the visit to your home.
+        </p>
+      </div>
+
+      <div class="county-grid">
+        <article class="county-card">
+          <span class="county-icon" aria-hidden="true">🌊</span>
+          <h3>On the coast</h3>
+          <p>Salt air hazes the glass within weeks and creeps into frames and tracks if it sits. Coastal homes earn a shorter cycle than inland ones.</p>
+          <ul class="county-links">
+            <li><a href="/oxnard/">Oxnard</a></li>
+            <li><a href="/ventura/">Ventura</a></li>
+            <li><a href="/santa-barbara/">Santa Barbara</a></li>
+          </ul>
+        </article>
+
+        <article class="county-card">
+          <span class="county-icon" aria-hidden="true">🍃</span>
+          <h3>Up the Conejo Valley</h3>
+          <p>Dry-season dust and the Santa Anas load every pane and screen with grit, then the first rain streaks it all down the glass.</p>
+          <ul class="county-links">
+            <li><a href="/thousand-oaks/">Thousand Oaks</a></li>
+            <li><a href="/simi-valley/">Simi Valley</a></li>
+          </ul>
+        </article>
+
+        <article class="county-card">
+          <span class="county-icon" aria-hidden="true">💧</span>
+          <h3>Hard-water country</h3>
+          <p>Sprinkler overspray leaves mineral spots that etch in under the sun. Purified water lifts them and dries without a single streak.</p>
+          <ul class="county-links">
+            <li><a href="/camarillo/">Camarillo</a></li>
+            <li><a href="/ojai/">Ojai</a></li>
+          </ul>
+        </article>
+      </div>
+
+      <div class="county-foot">
+        <p class="county-foot-copy">
+          One trip covers all of it. Our four-in-one clean takes the windows, screens, frames, and sills together, and we can add
+          <a href="/services/window-washing/">window washing</a>, <a href="/services/screen-cleaning/">screen cleaning</a>, and
+          <a href="/services/solar-panel-cleaning/">solar panel cleaning</a> to the same visit.
+        </p>
+        <div class="county-guides">
+          <a class="county-guide" href="/blog/window-cleaning-ventura-county-what-homeowners-should-know-before-hiring-professionals/">
+            <strong>Before you hire anyone</strong><span>The Ventura County window cleaning guide</span>
+          </a>
+          <a class="county-guide" href="/blog/window-washing-ventura-county-why-professional-cleaning-makes-a-difference/">
+            <strong>Why it lasts longer</strong><span>The window washing Ventura County guide</span>
+          </a>
+        </div>
+      </div>
     </div>
   </section>
 
@@ -353,45 +391,177 @@ const jsonLd = {
 
 <style>
   .county-section {
-    padding: 48px 40px;
+    padding: 72px 40px;
     background: #f8fafc;
   }
   .county-inner {
-    max-width: 820px;
+    max-width: 1100px;
     margin: 0 auto;
+  }
+  .county-head {
+    max-width: 720px;
+    margin: 0 auto 40px;
     text-align: center;
   }
-  .county-inner h2 {
+  .county-eyebrow {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #2563eb;
+    margin-bottom: 14px;
+  }
+  .county-head h2 {
     font-family: 'Playfair Display', serif;
-    font-size: clamp(1.6rem, 3vw, 2rem);
+    font-size: clamp(1.75rem, 3.2vw, 2.25rem);
     font-weight: 700;
     color: #1a1a2e;
-    margin: 0 0 16px;
+    line-height: 1.2;
+    margin: 0 0 14px;
   }
-  .county-inner h3 {
-    font-family: 'Playfair Display', serif;
-    font-size: clamp(1.25rem, 2.4vw, 1.5rem);
-    font-weight: 700;
-    color: #1e3a5f;
-    margin: 28px 0 12px;
-  }
-  .county-inner p {
-    font-size: 16px;
-    line-height: 1.75;
+  .county-lede {
+    font-size: 17px;
+    line-height: 1.7;
     color: #475569;
     margin: 0;
   }
-  .county-inner a {
+
+  .county-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  .county-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    border: 1px solid #e2e8f0;
+    border-radius: 16px;
+    padding: 28px 24px 22px;
+    overflow: hidden;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  .county-card::before {
+    content: '';
+    position: absolute;
+    inset: 0 0 auto 0;
+    height: 3px;
+    background: linear-gradient(90deg, #1e3a5f 0%, #2563eb 50%, #7c3aed 100%);
+  }
+  .county-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 24px rgba(30, 58, 95, 0.09);
+  }
+  .county-icon {
+    font-size: 26px;
+    line-height: 1;
+    margin-bottom: 14px;
+  }
+  .county-card h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #1e3a5f;
+    margin: 0 0 10px;
+  }
+  .county-card p {
+    font-size: 15.5px;
+    line-height: 1.65;
+    color: #475569;
+    margin: 0 0 18px;
+  }
+  .county-links {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    padding: 0;
+    margin: auto 0 0;
+  }
+  .county-links a {
+    display: inline-block;
+    padding: 6px 12px;
+    border: 1px solid #dbe4f0;
+    border-radius: 999px;
+    background: #f8fafc;
+    font-size: 14px;
+    font-weight: 600;
+    color: #2563eb;
+    text-decoration: none;
+    transition: background 0.18s ease, color 0.18s ease, border-color 0.18s ease;
+  }
+  .county-links a:hover {
+    background: #2563eb;
+    border-color: #2563eb;
+    color: #fff;
+  }
+
+  .county-foot {
+    margin-top: 36px;
+    padding-top: 32px;
+    border-top: 1px solid #e2e8f0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+    align-items: center;
+  }
+  .county-foot-copy {
+    font-size: 16px;
+    line-height: 1.7;
+    color: #475569;
+    margin: 0;
+  }
+  .county-foot-copy a {
     color: #2563eb;
     font-weight: 600;
     text-decoration: none;
+    border-bottom: 1px solid rgba(37, 99, 235, 0.3);
   }
-  .county-inner a:hover {
-    text-decoration: underline;
+  .county-foot-copy a:hover {
+    border-bottom-color: #2563eb;
+  }
+  .county-guides {
+    display: grid;
+    gap: 10px;
+  }
+  .county-guide {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    padding: 14px 18px;
+    background: #fff;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    text-decoration: none;
+    transition: border-color 0.18s ease, transform 0.18s ease;
+  }
+  .county-guide:hover {
+    border-color: #2563eb;
+    transform: translateX(3px);
+  }
+  .county-guide strong {
+    font-size: 15px;
+    font-weight: 700;
+    color: #1e3a5f;
+  }
+  .county-guide span {
+    font-size: 13.5px;
+    color: #64748b;
+  }
+  @media (max-width: 900px) {
+    .county-grid {
+      grid-template-columns: 1fr;
+    }
+    .county-foot {
+      grid-template-columns: 1fr;
+      gap: 24px;
+    }
   }
   @media (max-width: 640px) {
     .county-section {
-      padding: 36px 20px;
+      padding: 48px 20px;
     }
   }
 </style>
