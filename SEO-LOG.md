@@ -4,6 +4,32 @@
 
 ---
 
+### 2026-07-15
+
+**What we did:**
+- Rewrote the `<title>` and meta description on three city landing pages flagged in the GSC "CTR outliers" list: `/santa-barbara/`, `/agoura/`, and `/camarillo/`.
+- Dropped the brand suffix from each `<title>`, front-loaded the exact search query, and added a CTR hook (free on-site / 24-hr quote + a price band in the description).
+- Santa Barbara's title now targets both outlier queries at once: "Window Cleaning & Washing Santa Barbara, CA | Free Quote".
+
+**Why we did it (brief numbers):**
+- Non-brand clicks are 6 (28d) against 1880 non-brand impressions (+56% vs prior). Reality check in the brief: with clicks near zero and impressions healthy, the bottleneck is click-winning (titles, positions 1-3, local pack), not more content. The service x city matrix is already complete, so new posts would risk thin duplication.
+- The three pages chosen are all page-1-boundary CTR outliers with real impressions and 0% CTR: window cleaning agoura hills (pos 6.6, 59 impr), window cleaning santa barbara (pos 10.0, 134 impr, rising 63→134), window washing santa barbara (pos 9.0, 48 impr), window cleaning camarillo (pos 10.5, 47 impr, rising 14→47, pos improving 12.4→10.5).
+- Skipped Ventura (pos 15.2) and Ojai (pos 13.1): too deep on page 2 for a title change to convert clicks yet. Playbook rank 1 (title_meta) chosen because the CTR-outliers section was non-empty.
+
+**Expected impact:**
+- CTR lift on these three pages over the next 4-6 weeks as the sharper, query-forward titles surface. Realistic target: first non-brand clicks on `/agoura/` and `/santa-barbara/` city queries (currently 0), and CTR moving off 0% toward the ~3% expected for their positions.
+- Secondary: the "& Washing" token in the SB title should also help the window washing santa barbara query.
+
+**Metrics at time of action (GSC 28d, 2026-06-15..2026-07-12):**
+- Total clicks 61 (-22%), total impressions 2550 (+32%). Non-brand clicks 6, non-brand impressions 1880, non-brand avg position 10.1.
+- window cleaning santa barbara: 0 clicks / 134 impr / pos 10.0
+- window cleaning agoura hills: 0 clicks / 59 impr / pos 6.6
+- window washing santa barbara: 0 clicks / 48 impr / pos 9.0
+- window cleaning camarillo: 0 clicks / 47 impr / pos 10.5
+- GBP note (no code change): window cleaning westlake village sits at pos 2.1 with 0 clicks, a local-pack problem for the GBP workstream, not a content one.
+
+---
+
 ### 2026-07-14
 
 **What we did:**

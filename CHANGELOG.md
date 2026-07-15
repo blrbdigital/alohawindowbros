@@ -1,3 +1,14 @@
+## 2026-07-15 - Title/meta CTR rewrite on 3 city landing pages (Santa Barbara, Agoura Hills, Camarillo)
+
+- **Context**: non-brand clicks are near zero (6 in 28d) while non-brand impressions are healthy (1880, +56%). The bottleneck is click-winning, not content. The GSC "CTR outliers" list flagged six city queries earning ~0% CTR at positions their rank should convert. Per the decision playbook, `title_meta` is the cheapest click gain and comes first when that section is non-empty.
+- **What changed** (only lines 8-9, the `metaTitle`/`metaDescription`, in `src/pages/{santa-barbara,agoura,camarillo}.astro`):
+  - Dropped the ` Aloha Window Bros` brand tail from the `<title>` (site convention: brand lives in OG/JSON-LD/logo, not the title) and reclaimed the space for a CTR hook.
+  - Front-loaded the exact query and added a concrete differentiator: free on-site / 24-hr quote, and a price band in the meta description ($175-$425 or $200-$475).
+  - Santa Barbara title now reads "Window Cleaning & Washing Santa Barbara, CA | Free Quote" so it targets both the "window cleaning santa barbara" (pos 10) and "window washing santa barbara" (pos 9) outlier queries with one title.
+  - Pipe separators, no em/en dashes (edited lines are dash-clean; pre-existing body/FAQ dashes untouched).
+- **Scope discipline**: left Ventura (pos 15.2) and Ojai (pos 13.1) alone. Titles won't move clicks from deep page 2 until rank climbs, so no churn there. Noted the Westlake Village local-pack suspect (pos 2.1, 0 clicks) for the GBP workstream rather than touching code.
+- Titles verified under 60 chars; `npm run build` passes (58 pages).
+
 ## 2026-07-14 - 2 hard-water city GEO posts (Ojai + Westlake Village) + corrected a false stat in the hard-water pillar
 
 - **Context**: the service x city matrix is complete, so per the site map the next gap on the priority list was the *hard water restoration* city variants. Wrote the two highest-contrast markets: Ojai (well water) and Westlake Village (imported water).
