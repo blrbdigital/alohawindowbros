@@ -22,7 +22,7 @@ Oxnard is the heart of one of California's largest strawberry, celery, and lima 
 
 ### Hard Water from Local Irrigation
 
-Oxnard residents are served by both the City of Oxnard Water Resources Division and the [Calleguas Municipal Water District](https://www.calleguas.com/), which delivers water with hardness levels averaging 15 to 20 grains per gallon — classified as "very hard" by the [Water Quality Association](https://www.wqa.org/). Sprinkler overspray and hose rinsing leave mineral deposits that become permanently etched into glass within 30 to 60 days.
+Oxnard residents are served by the City of Oxnard Water Resources Division, which blends local groundwater with imported supply delivered through the [Calleguas Municipal Water District](https://www.calleguas.com/). The imported portion runs about 8.5 grains per gallon; the groundwater portion is harder, so hardness varies across the city rather than sitting at one number. The [Water Quality Association](https://www.wqa.org/) classifies water above 7 grains per gallon as hard. Combined with salt, sprinkler overspray and hose rinsing leave mineral deposits that become permanently etched into glass within 30 to 60 days.
 
 ## What Professional Window Cleaning Includes in Oxnard
 

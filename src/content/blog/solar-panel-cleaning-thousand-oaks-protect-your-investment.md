@@ -47,7 +47,7 @@ Homeowners sometimes consider cleaning panels themselves, but there are signific
 | Cost | $150–$300 | $20–$50 in supplies |
 | Effectiveness | 95–100% soiling removal | 60–80% soiling removal |
 
-The [Calleguas Municipal Water District](https://www.calleguas.com/) serves most of Thousand Oaks with water hardness averaging 15–20 grains per gallon. Using untreated tap water to clean solar panels leaves mineral deposits that can be more harmful than the original dust, creating a film that reduces light transmission and requires professional removal.
+The [Calleguas Municipal Water District](https://www.calleguas.com/) serves most of Thousand Oaks with imported water averaging about 8.5 grains per gallon. That is moderate hardness, but it is not zero, and panels are the surface where it matters most: water sits and evaporates in full sun rather than being squeegeed off. Using untreated tap water to clean solar panels leaves mineral deposits that can be more harmful than the original dust, creating a film that reduces light transmission and requires professional removal.
 
 ## What Professional Solar Panel Cleaning Includes
 

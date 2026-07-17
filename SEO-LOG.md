@@ -4,6 +4,39 @@
 
 ---
 
+### 2026-07-17
+
+**What we did:**
+- **refresh (primary):** rebuilt `/blog/how-much-does-window-cleaning-cost-in-ventura-county/` from the ground up. The old version was titled "How Much Does Window Cleaning Cost in Ventura County" and never stated a single price; its own FAQ said the cost "depends on factors such as the number of windows." Replaced with a per-city price table for all 10 cities, a price-driver table, restoration vs cleaning pricing, a Key Takeaways box, a direct answer with a number in the first 150 words, and a 6-question FAQ with FAQPage JSON-LD (the page previously had no FAQ schema). New title: "Window Cleaning Cost in Ventura County: A 2026 Price Guide" (57 chars).
+- **technical:** swept the fabricated "15 to 20 grains per gallon" hardness stat off 11 pages (7 blog posts + 4 city landing pages). The 2026-07-14 run corrected this claim in the hard-water pillar but the same number survived everywhere else.
+- **internal_links:** added a third homepage county-section guide card pointing at the pricing guide.
+- **gbp (no code change):** logged `window cleaning westlake village` (pos 1.9, 29 impr, 0 clicks) for the GBP workstream.
+
+**Why we did it (brief numbers):**
+- The brief's reality check is explicit: non-brand clicks are 5 against 1903 non-brand impressions (+50%), so the bottleneck is click-winning, not content. The service x city matrix is complete, so new_content was off the table.
+- **title_meta was already spent.** The brief's window (2026-06-17..2026-07-14) ends the day *before* the 2026-07-15 title rewrite shipped, so the CTR-outliers list (Santa Barbara, Agoura Hills, Camarillo) reflects pages that are **already treated and pending review**. Re-treating them would have confounded a live experiment for no gain. The brief confirms this: "Pending (not yet due): 4", scoreboard empty.
+- That left the strongest untreated signal: **the decaying pricing page**. It is the only entry in "Decaying pages" with a commercial-intent query behind it, and it is falling on two fronts at once. Impressions 51 -> 10 (-80%), pos 10.1. Its supporting queries are both in "Falling queries": *window cleaning prices ventura* at **pos 4.0** (impr 14 -> 8) and *window washing cost ventura county* collapsing from **pos 7.9 to 17.3** (impr 14 -> 8).
+- Position 4.0 on "window cleaning prices ventura" is the single best non-brand position on the board, and it is attached to the page with the worst content on the site. That is the clearest refresh case the data has offered.
+- **The information-gain bar is cleared by first-party data.** We publish per-city price bands on 10 city landing pages; no competitor in this market publishes per-city pricing at all. Consolidating them into one table is exclusive, verifiable, and exactly what GEO standard E01 (original first-party data) rewards. It required no invented numbers.
+- **The hardness sweep is a credibility fix, not a ranking play.** The site was asserting two different numbers for the same city's water: `/westlake/` and its window-cleaning guide said 14-20 gpg, while `hard-water-stains-westlake-village-guide.md` said 8.5 gpg with citations from Cal Water and Las Virgenes MWD (both publish 146 mg/L on 100% imported supply). The Westlake guide's version sat inside a pull-quote, the exact format an LLM lifts and repeats. `/westlake/` also claimed "hard well + municipal water" when Cal Water's own report states the district has no wells. Where we had no primary data (Simi Valley, Oxnard blends), we deleted the fabricated figure rather than inventing a replacement.
+
+**Expected impact:**
+- Primary: recover and improve *window cleaning prices ventura* (currently pos 4.0) and *window washing cost ventura county* (pos 17.3, was 7.9). A pricing query answered with actual prices should hold position far better than one answered with "it depends." Expect impressions on the page to recover from 10 toward the prior 51+ within 6 weeks, and the first non-brand clicks from a pos-4 query.
+- The per-city price table and 6 FAQs are built for AI Overview and ChatGPT citation on "how much does window cleaning cost" queries, which currently have no good local answer.
+- Secondary: the page now passes links into `/ventura/`, `/thousand-oaks/`, and `/westlake/`, and receives one from the homepage.
+- The hardness sweep should not move rankings. It removes a self-contradiction that would undermine citation trust, and it protects the 07-14 correction from being re-poisoned by the 11 pages that still carried the false number.
+
+**Metrics at time of action (GSC 28d, 2026-06-17..2026-07-14):**
+- Total clicks 67 (-4%), total impressions 2599 (+28%). Non-brand clicks 5, non-brand impressions 1903 (+50%), non-brand avg position 10.4.
+- `/blog/how-much-does-window-cleaning-cost-in-ventura-county/`: 0 clicks / 10 impr / pos 10.1 (prior impr 51).
+- window cleaning prices ventura: 0 clicks / 8 impr / pos 4.0 (prior pos 7.6).
+- window washing cost ventura county: 0 clicks / 8 impr / pos 17.3 (prior pos 7.9).
+- Top pages unchanged: /thousand-oaks/ 7 clicks / 1030 impr / pos 10.2; /agoura/ 1 click / 775 impr / pos 6.9.
+- Data caveats: GA4 reports 0 sessions (consent-gated, undercounts; GSC is truth here). PageSpeed 429, Semrush 403 on all endpoints, so no third-party keyword or CWV data this run.
+- Blog post count unchanged at 42 (refresh, not new content).
+
+---
+
 ### 2026-07-15
 
 **What we did:**

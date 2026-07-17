@@ -22,7 +22,7 @@ The [California Department of Forestry and Fire Protection](https://www.fire.ca.
 
 ### Hard Water from Valley Wells and Municipal Supply
 
-Simi Valley is served by Ventura County Waterworks District No. 8, which sources from both the State Water Project and local groundwater. Water hardness in the valley averages 15 to 20 grains per gallon — classified as "very hard" by the [Water Quality Association](https://www.wqa.org/). Sprinkler overspray and hose rinsing leave mineral deposits that begin etching glass within 30 to 60 days if not removed.
+Simi Valley is served by Ventura County Waterworks District No. 8, which blends State Water Project supply with local groundwater. That blend matters for glass: imported State Water Project water runs about 8.5 grains per gallon, while local Ventura County groundwater is considerably harder, so Simi Valley hardness lands between the two and shifts with the blend rather than holding one figure. The [Water Quality Association](https://www.wqa.org/) classifies anything above 7 grains per gallon as hard. Sprinkler overspray and hose rinsing leave mineral deposits that begin etching glass within 30 to 60 days if not removed.
 
 ## What Professional Window Cleaning Includes in Simi Valley
 

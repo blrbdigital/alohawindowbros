@@ -60,7 +60,7 @@ Aloha Window Bros provides a comprehensive service for every appointment:
 5. **Frame and track detailing** — Dust, cobwebs, and debris removed from all frames and sills
 6. **Walk-through inspection** — Every window reviewed with the homeowner before the crew leaves
 
-> "Our purified water system filters out 99.9% of dissolved minerals before the water contacts glass. This is what separates professional results from tap-water DIY cleaning — especially in areas like Westlake Village where water hardness averages 15–20 grains per gallon."
+> "Our purified water system filters out 99.9% of dissolved minerals before the water contacts glass. That is what separates professional results from tap-water DIY cleaning. Westlake Village water is only moderately hard, about 8.5 grains per gallon, but a hose rinse still deposits every one of those minerals back onto the glass as it dries in the sun."
 
 ## Westlake Village Neighborhoods We Serve
 

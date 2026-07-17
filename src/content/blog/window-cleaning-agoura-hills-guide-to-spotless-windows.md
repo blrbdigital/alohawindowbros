@@ -18,7 +18,7 @@ The proximity to open space and hiking trails means homes in Agoura Hills are ex
 
 ### Hard Water Stains from Sprinkler Systems
 
-Many Agoura Hills properties use irrigation systems that spray onto or near windows. The Calleguas Municipal Water District, which serves much of the Conejo Valley, reports water hardness levels averaging 15–20 grains per gallon — classified as "very hard" by the [Water Quality Association](https://www.wqa.org/). Hard water leaves mineral deposits on glass that become permanently etched if not removed within 30 to 60 days.
+Many Agoura Hills properties use irrigation systems that spray onto or near windows. Agoura Hills is supplied by the [Las Virgenes Municipal Water District](https://www.lvmwd.com/), which reports hardness averaging 146 mg/L of calcium carbonate, about 8.5 grains per gallon, on entirely imported State Water Project supply. The [Water Quality Association](https://www.wqa.org/) classifies that as hard rather than very hard. The damage here is driven by how often sprinklers hit the glass rather than by extreme hardness: repeated overspray leaves mineral deposits that begin etching into glass within 30 to 60 days.
 
 ### Seasonal Wildfire Smoke and Ash
 

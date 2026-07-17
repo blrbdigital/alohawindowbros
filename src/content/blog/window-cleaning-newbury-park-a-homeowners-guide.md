@@ -22,7 +22,7 @@ Newbury Park sits roughly 9 miles inland from the Point Mugu coastline, close en
 
 ### Hard Water from Local Irrigation
 
-Newbury Park is served by the [Calleguas Municipal Water District](https://www.calleguas.com/), which delivers water with hardness levels typically averaging 15 to 20 grains per gallon — classified as "very hard" by the [Water Quality Association](https://www.wqa.org/). Sprinkler overspray, hose rinsing, and irrigation drift leave mineral deposits that begin etching into glass within 30 to 60 days if not removed.
+Newbury Park is served imported water through the [Calleguas Municipal Water District](https://www.calleguas.com/), which purchases its entire supply from the Metropolitan Water District. Local retail reports put that water at about 146 mg/L of calcium carbonate, roughly 8.5 grains per gallon, which the [Water Quality Association](https://www.wqa.org/) classifies as hard rather than very hard. Hardness alone is moderate here, but sprinkler overspray, hose rinsing, and irrigation drift repeat the exposure often enough that mineral deposits begin etching into glass within 30 to 60 days if not removed.
 
 ## What Professional Window Cleaning Includes in Newbury Park
 
