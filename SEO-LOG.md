@@ -4,6 +4,44 @@
 
 ---
 
+### 2026-07-20
+
+**What we did:**
+- **title_meta (sole action):** rewrote the `<title>` and `<meta description>` on the **7 city landing pages the 2026-07-15 CTR pass never touched**: `/thousand-oaks/`, `/ventura/`, `/ojai/`, `/oxnard/`, `/westlake/`, `/newbury/`, `/simi-valley/`. Dropped the brand from every title, led each description with the exact query phrase, and added the city's own published price band plus the phone number. Titles 45-56 chars, descriptions 141-149 chars.
+- `/thousand-oaks/` got the dual-intent title (`Window Cleaning & Washing Thousand Oaks, CA | Free Quote`) already proven out on Santa Barbara.
+- **gbp (no code change):** logged *window cleaning westlake village* (pos 1.5, 29 impr, 0 clicks) and *window cleaning newbury park* (pos 4.5, 22 impr, 0 clicks) for the GBP workstream.
+- Rejected internal_links and new_content with reasons below.
+
+**Why we did it (brief numbers):**
+- The brief's reality check is unambiguous and unchanged for a third straight run: **66 total clicks against 2620 impressions, 5 non-brand clicks against 1927 non-brand impressions (+43%)**. Impressions are compounding and clicks are not. The bottleneck is click-winning, and the playbook ranks title_meta first when the CTR-outlier section is non-empty. It is non-empty, with 6 entries.
+- **The decisive finding was an incomplete job, not a new idea.** The 07-15 run rewrote 3 of 10 city pages. Auditing all 10 metaTitles showed the other **7 were still on the legacy `Window Cleaning <City>, CA - Aloha Window Bros` boilerplate**. That pattern burns 22 of ~57 title characters on a brand term with zero non-brand search demand.
+- **Six of the seven untreated pages back a query the brief flags:**
+  - `/thousand-oaks/` - *window cleaning thousand oaks* 110 impr / pos 8.4 (the largest untreated query on the board) and *window washing thousand oaks* 52 impr / pos 9.3, **slipping** from 8.4.
+  - `/ventura/` - *window cleaning ventura* 47 impr / pos 14.5, **CTR outlier at 0.0%**, impressions 18 -> 47. Plus *window cleaning ventura ca* 22 impr / pos 11.0.
+  - `/ojai/` - *window cleaning ojai* 33 impr / pos 13.2, **CTR outlier at 0.0%**, impressions 18 -> 33, and flagged **slipping**.
+  - `/oxnard/` - *window cleaning oxnard* 21 impr / pos 15.4, impressions 2 -> 21.
+  - `/westlake/` - *window cleaning westlake village* pos **1.5**, 29 impr, 0 clicks (local-pack suspect).
+  - `/newbury/` - *window cleaning newbury park* pos **4.5**, 22 impr, 0 clicks (local-pack suspect).
+- **Why treating 7 more pages does not confound the pending 07-15 experiment:** those 3 pages retain their own independent before/after window. These 7 are a disjoint set with their own baselines. The scoreboard is still empty with 8 pending, so no action type has graded FAIL and none is off the table.
+- **Why not internal_links.** The tempting hypothesis was that `/santa-barbara/` is starved, since *window cleaning santa barbara* is the biggest query on the board (151 impr, pos 9.7, impressions 67 -> 151) yet the page is absent from Top pages. I counted actual inbound internal links per city page before acting: **Ojai 14, Oxnard 12, Ventura 11, Westlake/Simi/Santa Barbara/Newbury 10, Camarillo 8, Agoura 8, Thousand Oaks 7.** Santa Barbara is mid-pack, and the correlation runs backwards: the two most-linked pages (Ojai 14, Oxnard 12) are the two worst-ranking cities (pos 13.2, 15.4), while the least-linked (Thousand Oaks, 7) is the best performer at 971 impressions. Internal link count is not the binding constraint on this site, so adding links would have been motion without a mechanism.
+- **Why not new_content.** The service x city matrix is complete at 42 posts. Nothing cleared the information-gain bar, so per the guardrail I wrote nothing.
+- **Why not a refresh.** Only 2 pages are in Decaying pages. One of them, the pricing guide, was rebuilt from scratch 3 days ago on 07-17 and is still pending review; re-touching it would destroy that read. The other, `/blog/window-washing-santa-barbara-coastal-guide/`, sits at **pos 23.3**, too far out for a refresh to convert into clicks this cycle, and its query is already served by `/santa-barbara/` at pos 8.7.
+
+**Expected impact:**
+- Primary: first non-brand clicks from `/thousand-oaks/`, `/ventura/`, and `/ojai/`. Thousand Oaks at pos 8.4 with 110 impressions is the most likely to convert. A title carrying a price and "Free On-Site Quote" should beat one carrying a brand name nobody searches.
+- Realistic ceiling: these are position 8-15 queries outside Thousand Oaks and Newbury. Title changes move CTR, not rank, so the honest expectation is a few clicks, not a step change. Ventura at pos 14.5 and Oxnard at 15.4 may show nothing until rank improves, and I would not read zero clicks there as a failed title.
+- The two local-pack queries (Westlake pos 1.5, Newbury pos 4.5) will likely **still show 0 clicks** even with better titles. That is the diagnostic value: if a pos-1.5 page with a good title still earns nothing, the map pack is confirmed as the blocker and the GBP workstream is the only remaining lever.
+- Secondary: removed em dashes from the rendered `<head>` of 7 pages, a standing house-rule violation.
+
+**Metrics at time of action (GSC 28d, 2026-06-20..2026-07-17):**
+- Total clicks 66 (-13%), total impressions 2620 (+21%). Non-brand clicks 5 (+25%), non-brand impressions 1927 (+43%), non-brand avg position 10.8 (from 9.7).
+- Treated pages: /thousand-oaks/ 7 clicks / 971 impr / pos 10.2; /westlake/ 0 clicks / 472 impr / pos 8.1; /newbury/ 0 clicks / 426 impr / pos 12.1. /ventura/, /ojai/, /oxnard/, /simi-valley/ all below the Top-pages reporting cutoff (<56 impr).
+- Untouched control from the 07-15 pass: /agoura/ 1 click / 709 impr / pos 6.7.
+- Data caveats: GA4 reports 0 sessions (consent-gated, undercounts; GSC is truth). PageSpeed 429 and Semrush 403 on all endpoints, so no third-party keyword or Core Web Vitals data this run. Competitor crawl returned effectively nothing (1 page total across 3 domains), so no competitive SERP read either.
+- Blog post count unchanged at 42. Scoreboard still empty, 8 actions pending review.
+
+---
+
 ### 2026-07-17
 
 **What we did:**
