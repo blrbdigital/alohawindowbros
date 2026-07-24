@@ -4,6 +4,101 @@
 
 ---
 
+### 2026-07-24
+
+**What we did:**
+- **Diagnosis first, and it changed the whole plan.** Instead of taking the brief's CTR-outlier list
+  at face value, I queried the GSC API for query-to-page attribution and then the URL Inspection API
+  for index status. **Six of the ten city landing pages are not in Google's index**: `/santa-barbara/`,
+  `/ventura/`, `/ojai/`, `/oxnard/`, `/simi-valley/` are "Discovered, currently not indexed" with no
+  crawl on record, and `/camarillo/` is "URL is unknown to Google."
+- **homepage (primary action):** rewrote the `<title>` and meta description on `/`, plus expanded the
+  `LocalBusiness` `areaServed` from 4 cities to all 10 plus Montecito.
+- **technical:** added real `lastmod` to all 58 sitemap URLs (there were zero before) and a `WebSite`
+  JSON-LD node for the SERP site name.
+- **technical (correctness):** removed unsourced water-hardness figures that survived the 07-17 sweep
+  on `/santa-barbara/`, `/ventura/`, and `/oxnard/`; swept em/en dashes from the five files touched.
+- **gbp (no code change):** logged the `http://` GBP URL issue plus the two local-pack queries.
+- Rejected title_meta on city pages, internal_links, refresh, and new_content, with reasons below.
+
+**Why we did it (brief numbers):**
+- The brief's reality check held for a fourth run: **67 clicks against 2627 impressions, 5 non-brand
+  clicks against 1926 non-brand impressions (+32%)**. The bottleneck is click-winning. The playbook
+  ranks title_meta first when CTR outliers is non-empty, and it has 7 entries.
+- **But the CTR-outlier list does not mean what the last three runs assumed.** Pulling page-level GSC
+  data for each outlier query shows the ranking URL is the **homepage**, not the city page:
+
+  | Query | Impr | Pos | Page Google actually ranks | City page impr |
+  |---|---|---|---|---|
+  | window cleaning santa barbara | 154 | 9.5 | `/` | **0** |
+  | window cleaning camarillo | 47 | 11.0 | `/` | **0** |
+  | window cleaning ventura | 43 | 14.3 | `/` | **0** |
+  | window washing santa barbara | 45 | 8.7 | `/` | **0** |
+  | window cleaning thousand oaks | 36 | 10.6 | `/` **and** `/thousand-oaks/` (60 impr) | 60 |
+  | window cleaning agoura hills | 45 | 7.9 | `/agoura/` | 45 |
+
+- URL Inspection confirmed why: the only indexed city pages are the 4 legacy WordPress URLs that
+  carry pre-existing backlinks. The 6 added 2026-05-26 have never been crawled. **So 6 of the 10
+  title rewrites shipped on 07-15 and 07-20 were applied to pages that cannot appear in any SERP.**
+  Those pending experiments should be graded void, not FAIL, and the pages should not be re-treated.
+- **Why the homepage was the right target.** It is not a consolation prize: `/` carries **2197 of the
+  site's 2627 impressions and 63 of its 67 clicks**, and it is the de-facto city landing page for six
+  cities. Its title led with the brand, which is the exact defect the 07-15 and 07-20 runs corrected
+  everywhere else, and its description contained an em dash. This is playbook action type 6.
+- **Why not internal_links (now settled with evidence, not inference).** `/santa-barbara/` already
+  receives 2 links from the homepage and 2-3 contextual links from each of four *indexed, ranking*
+  blog posts (`screen-cleaning-oxnard` 129 impr, `solar-panel-cleaning-santa-barbara` 59,
+  `screen-cleaning-simi-valley` 62, `screen-cleaning-ventura` 34). Google recrawls those linkers
+  constantly and still refuses the target. More links is provably not the mechanism. The 07-20 run
+  reached the same conclusion from the other direction. This should now be considered closed.
+- **Why not title_meta again.** Its cheapest targets are the unindexed six. Rewriting a title on a
+  page Google has never fetched is the definition of motion without a mechanism.
+- **Why not refresh.** The two real decayers are `/blog/solar-panel-cleaning-ventura-coastal-hillside-guide/`
+  (85 to 35 impr) and `/blog/screen-cleaning-ventura-coastal-salt-and-pollen-guide/` (83 to 34). Both
+  are Ventura posts holding good positions (7.7 and 4.4) and neither is the cause of the click
+  problem. The pricing guide was rebuilt 7 days ago and is still pending review; re-touching it would
+  destroy that read.
+- **Why not new_content.** Matrix complete at 42 posts. Nothing cleared the information-gain bar, and
+  writing a new page while six existing conversion pages sit uncrawled would make the problem worse.
+- **Why the sitemap fix is a real mechanism, not filler.** All 58 URLs shipped with **no `<lastmod>`
+  at all**. It is the one sitemap field Google says it uses for crawl scheduling, and the pages that
+  need rescheduling are precisely the six it declined to crawl. Values are derived from git history,
+  never build time, so the signal stays trustworthy.
+
+**Expected impact:**
+- Primary: the homepage title now matches the query for the biggest block on the board (the Santa
+  Barbara cluster: 157 + 46 + 28 + 18 impressions, plus *montecito* 24 rising from 6). At pos 9.4 the
+  realistic outcome is the first non-brand clicks, not a rank change. Titles move CTR, not position.
+- **Honest limitation: I do not expect the sitemap `lastmod` fix alone to get the six pages indexed.**
+  "Discovered, currently not indexed" on a domain with almost no external links is usually a
+  site-value judgement, and lastmod is a scheduling hint, not an instruction. It is the only
+  meaningful in-repo lever, so it is worth shipping, but the highest-yield action is off-page and
+  Adam's to take: **manually "Request indexing" for the six URLs in the GSC UI** (not available via
+  API), plus GBP and citation signals.
+- The hardness corrections and the dash sweep will not move rankings. They remove a self-contradiction
+  in exactly the pull-quote format an AI engine lifts, and clear a standing house-rule violation from
+  the rendered body copy of the highest-traffic page on the site.
+- **Rollback trigger**: ~61 of 67 clicks are brand. If brand clicks drop materially next window,
+  revert the homepage title before touching anything else.
+
+**Metrics at time of action (GSC 28d, 2026-06-24..2026-07-21):**
+- Total clicks 67 (-9%), total impressions 2627 (+12%). Non-brand clicks 5 (+25%), non-brand
+  impressions 1926 (+32%), non-brand avg position 10.6.
+- `/` 63 clicks / 2197 impr / pos 8.7. `http://alohawindowbros.com/` 36 clicks / 1246 impr / pos 5.3.
+  `/thousand-oaks/` 6 / 1000 / 10.1. `/agoura/` 1 / 676 / 6.6. `/westlake/` 0 / 463 / 7.7.
+  `/newbury/` 0 / 442 / 11.4.
+- `/santa-barbara/`, `/camarillo/`, `/ventura/`, `/ojai/`, `/oxnard/`, `/simi-valley/`: **0 impressions
+  each, not indexed.**
+- Sitemap lastmod coverage before: 0/58. After: 58/58 across 18 distinct git-derived dates.
+- Data caveats: PageSpeed 429 and Semrush 403/400 on every endpoint again, so no third-party keyword
+  or Core Web Vitals data. Competitor crawl returned 1 page across 3 domains. GA4 reports 0 sessions;
+  note that `Base.astro` now defaults Consent Mode to **granted**, so the "consent-gated" explanation
+  in the brief no longer fully accounts for zero sessions and GA4 may simply be broken. Flagged, not
+  actioned, this run.
+- Blog post count unchanged at 42. Scoreboard still empty, 17 actions pending.
+
+---
+
 ### 2026-07-20
 
 **What we did:**

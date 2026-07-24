@@ -1,3 +1,59 @@
+## 2026-07-24 - Found the real bottleneck: 6 of 10 city landing pages are not in Google's index
+
+- **The finding that reframes the last three runs.** Queried the GSC API for query-to-page
+  attribution instead of assuming it, then confirmed with the URL Inspection API. Result:
+  `/santa-barbara/`, `/ventura/`, `/ojai/`, `/oxnard/`, `/simi-valley/` are all **"Discovered,
+  currently not indexed" with no crawl on record**, and `/camarillo/` is **"URL is unknown to
+  Google"**. Only the 4 legacy WordPress URLs (`/thousand-oaks/`, `/agoura/`, `/westlake/`,
+  `/newbury/`) are indexed.
+  - **The homepage is what actually ranks for the city queries.** *window cleaning santa barbara*
+    154 impr @ pos 9.5, *window cleaning camarillo* 47 @ 11.0, *window cleaning ventura* 43 @ 14.3,
+    *window washing santa barbara* 45 @ 8.7 - every one attributed to `/`, with **zero** impressions
+    on the matching city page. `/` holds 2197 impressions and 63 of the site's 67 clicks.
+  - **So the 07-15 and 07-20 title rewrites were applied to pages Google has never fetched.** Six of
+    those ten pages cannot convert a click at any CTR. Their flat CTR is not a failed title test.
+  - Ruled out as causes: HTTP 200 on all six, present in sitemap, robots.txt open, correct
+    self-referencing canonicals, no noindex. This is Google's crawl-priority judgement.
+  - **Internal links are definitively not the constraint.** `/santa-barbara/` already gets 2 links
+    from the homepage and 2-3 contextual links from each of four *indexed, ranking* blog posts.
+    Google crawls those linkers constantly and still won't fetch the target.
+- **Primary action (homepage).** Rewrote the `<title>` and meta description on `/`, the page that is
+  actually in the SERP for the entire CTR-outlier list. Old title led with the brand
+  (`Aloha Window Bros - Window Cleaning Ventura County & Santa Barbara`) and the description carried
+  an em dash. New: `Window Cleaning Santa Barbara & Ventura County | Free Quote` (59 chars) and a
+  150-char description leading with the query, naming the four-in-one clean, and carrying the phone
+  number. Also expanded `LocalBusiness` `areaServed` from 4 cities to all 10 plus Montecito.
+  - **Risk noted in the site map**: ~61 of 67 clicks are brand queries. Dropping the brand from the
+    title is mitigated by the new `WebSite` JSON-LD site name, but if brand clicks fall next window,
+    revert the title first.
+- **Technical: sitemap `lastmod`.** The sitemap shipped **zero** `<lastmod>` values on all 58 URLs,
+  giving Google no crawl-scheduling signal for pages it had already decided not to fetch.
+  `astro.config.mjs` now stamps each URL from a real source: the file's last git commit, falling back
+  to markdown frontmatter `date`. 58/58 URLs covered across 18 distinct dates. Deliberately **not**
+  build time, which would flag every URL as fresh on every deploy and get the field ignored.
+- **Technical: `WebSite` JSON-LD** added to `Base.astro` to feed Google's SERP site-name feature.
+- **Correctness: second hardness sweep.** The 07-17 sweep missed three pages still asserting
+  unsourced figures - `/santa-barbara/` ("16-22 gpg"), `/ventura/` ("12-16 gpg") and `/oxnard/`
+  ("12-16 gpg"), the last flatly contradicting 07-17's own note that Oxnard has no verified number.
+  All three now describe the blend honestly and keep the overspray mechanism, inventing nothing.
+- **House rule: em/en dashes in page bodies.** Earlier runs only cleaned the meta tags, leaving
+  dashes in the rendered body copy of every page. Swept **all of `src/pages/*.astro`** (all 10 city
+  pages, `index`, `privacy`) plus `CityLanding.astro`, `Base.astro` and `CookieBanner.astro`. Every
+  rendered page outside `/blog` is now dash-clean, verified against `dist/`. Fixing the shared
+  `CityLanding` component removed 6 dashes from all 10 city pages at once. Comma splices created by
+  the substitution were fixed individually rather than blind-replaced.
+  - **Not done: ~700 dashes across 30 files in `src/content/blog/`.** That needs sentence-by-sentence
+    judgement rather than search-and-replace, so it is logged in the site map as a scoped follow-up
+    instead of being rushed through 30 articles in this run.
+- **GBP (no code change).** `http://alohawindowbros.com/` is tracked by GSC as a separate URL with
+  1246 impressions and 36 clicks, ranking pos 1.0 for *best window washer thousand oaks / agoura
+  hills / camarillo / simi valley / ventura* and pos 2.5 on brand. That profile is the local pack,
+  which suggests the Google Business Profile website field points at the **http** URL that 301s.
+  Worth switching to `https://`. Also re-logged *window cleaning westlake village* (pos 2.1, 31 impr,
+  0 clicks) and *window cleaning newbury park* (pos 4.4, 23 impr, 0 clicks).
+- `npm run build` passes (58 pages). Homepage still links all 10 city pages; both homepage JSON-LD
+  blocks parse; no em/en dashes in any touched file.
+
 ## 2026-07-20 - Finished the city-page title/meta rewrite: the 7 pages the 07-15 pass missed
 
 - **Primary action (title_meta)**: rewrote `<title>` and `<meta description>` on `/thousand-oaks/`, `/ventura/`, `/ojai/`, `/oxnard/`, `/westlake/`, `/newbury/`, and `/simi-valley/`.

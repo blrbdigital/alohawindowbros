@@ -62,13 +62,13 @@ const ogImageUrl = ogImage.startsWith('http') ? ogImage : `${siteUrl}${ogImage}`
       window.__awbConsentDenied = __awb_denied;
     </script>
 
-    <!-- Google Analytics (GA4) — fires immediately unless user previously declined -->
+    <!-- Google Analytics (GA4), fires immediately unless user previously declined -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-MRSP8D9CQG"></script>
     <script is:inline>
       gtag('config', 'G-MRSP8D9CQG');
     </script>
 
-    <!-- Meta Pixel — fires immediately unless user previously declined -->
+    <!-- Meta Pixel, fires immediately unless user previously declined -->
     <script is:inline>
       if (!window.__awbConsentDenied) {
         !function(f,b,e,v,n,t,s)
@@ -93,6 +93,16 @@ const ogImageUrl = ogImage.startsWith('http') ? ogImage : `${siteUrl}${ogImage}`
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet" />
 
     {jsonLd && <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />}
+
+    <!-- WebSite node: feeds Google's SERP "site name" so the brand still displays -->
+    <!-- even though page titles intentionally drop the brand suffix. -->
+    <script type="application/ld+json" set:html={JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Aloha Window Bros",
+      "alternateName": "Aloha Window Brothers",
+      "url": siteUrl
+    })} />
   </head>
   <body>
     <slot name="header" />
