@@ -1,3 +1,48 @@
+## 2026-07-27 - Differentiated /santa-barbara/; measured that the 42-post blog earns zero non-brand clicks
+
+- **New measurement that should govern future content decisions.** Pulled a GSC `page x query` join
+  and split brand from non-brand (`/aloha|window bros|mahalo/i`). The weekly brief's "Top pages"
+  table does not make this split, and it hides the real picture:
+  - Over **90 days**, all 42 blog posts together earned **135 non-brand impressions and 0 clicks**.
+    The blog rows that look strong in the brief are brand impressions surfacing as secondary results
+    for *aloha window bros* (`hard-water-stains-westlake-village` is 46 brand / 2 non-brand,
+    `screen-cleaning-simi-valley` 45 / 1).
+  - Non-brand demand lands on two URLs: `/` (817 impr / 1 click) and the Google Business Profile
+    listing (647 / 2). Everything else is rounding error.
+  - The four indexed city pages are also mostly brand: each takes 155-185 impressions at position
+    1.7-1.9 for *aloha window bros* alone, which is what inflates their totals in the brief.
+  - Recorded in `.claude-site-map.md` under "WHERE NON-BRAND DEMAND ACTUALLY LANDS" so future runs
+    stop reading blog impressions as real demand.
+- **Primary action: gave `/santa-barbara/` genuinely unique content.** Confirmed via URL Inspection
+  that all six city pages are still uncrawled (`lastCrawlTime = NEVER`), unchanged since 07-24, so
+  the near-duplicate template is the only in-repo lever left. Added an optional `localBrief` prop to
+  `CityLanding.astro` and filled it for Santa Barbara only:
+  - Direct-answer lede on the one thing that is structurally true of Santa Barbara and no other city
+    we serve: the Santa Ynez Mountains run east to west, so the coastline faces **south**, and
+    ocean-view glass therefore takes salt aerosol and peak sun at the same time.
+  - Key Takeaways box, four sourced sections (Sundowner winds, salt plus direct sun, the multi-source
+    water blend, what we do differently), and a first-party table of recommended service intervals
+    across five Santa Barbara zones.
+  - Two new FAQ entries (Sundowner winds, and why no honest hardness figure exists for Santa
+    Barbara), taking the FAQPage JSON-LD from 6 to 8 questions.
+  - Result: `/santa-barbara/` grew from ~1074 to 2390 rendered words, and vocabulary overlap with a
+    sibling city page fell from 76.2% (the untreated Oxnard/Ojai pair) to 65.4%.
+  - **The other nine city pages are untouched on purpose** and serve as the control group.
+- **Held the line on the hardness rule.** Santa Barbara has no verified hardness figure, so the page
+  now says so explicitly rather than inventing one, and explains the blend (Lake Cachuma, Gibraltar,
+  State Water Project, groundwater, recycled, and the Charles E. Meyer Desalination Plant) plus the
+  separate Montecito, Goleta, and Carpinteria districts. Every cited source URL verified 200; a USGS
+  link was dropped for returning 403.
+- **Escalated the Google Business Profile URL again, now quantified.** The GBP website field points
+  at `http://alohawindowbros.com/`, which 301-redirects. That listing ranks **position 1.0 to 1.8**
+  for *best window washer* in six cities and carries 30 clicks / 982 impressions, about a quarter of
+  all site clicks. Adam's to fix; it cannot be done from this repo.
+- **Observed but deliberately not actioned**: every page answers 200 at both `/path` and `/path/`,
+  and Google has indexed both variants of two blog URLs. Canonicals are already correct and the
+  split is ~30 impressions; the fix lives in nginx config that the Actions deploy does not apply.
+  Documented in the site map instead of shipping inert config.
+- Verified: build passes, no horizontal overflow at 390/768/1440, no console errors, JSON-LD parses.
+
 ## 2026-07-24 - Found the real bottleneck: 6 of 10 city landing pages are not in Google's index
 
 - **The finding that reframes the last three runs.** Queried the GSC API for query-to-page

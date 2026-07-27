@@ -9,8 +9,8 @@ export interface CityProps {
   slug: string;                  // url segment: 'agoura', 'newbury', 'thousand-oaks', 'westlake'
   cityName: string;              // display name: 'Agoura Hills', 'Newbury Park', ...
   shortName: string;             // short form used in copy: 'Agoura Hills' or 'Newbury Park'
-  metaTitle: string;             // <title> — must fit under 60 chars
-  metaDescription: string;       // <meta description> — ~155 chars
+  metaTitle: string;             // <title>, must fit under 60 chars
+  metaDescription: string;       // <meta description>, roughly 155 chars
   heroHeadline: string;          // h1
   heroSubcopy: string;           // hero paragraph
   intro: string;                 // 1-paragraph intro under stats
@@ -20,6 +20,24 @@ export interface CityProps {
   blogTitle: string;             // title of the related blog post
   faq: { q: string; a: string }[];
   geo?: { lat: number; lon: number };  // optional GeoCoordinates for LocalBusiness JSON-LD
+  /**
+   * Optional long-form, city-exclusive section (added 2026-07-27).
+   *
+   * WHY THIS EXISTS: six of the ten city pages sit in "Discovered - currently not
+   * indexed" and have never been crawled. Internal links were ruled out as the cause
+   * (2026-07-20 and 2026-07-24 runs, from opposite directions). The one honest in-repo
+   * lever left is genuine differentiation: the ten pages otherwise share roughly 76% of
+   * their rendered tokens through this component. Anything supplied here is unique to
+   * one city and must be sourced, not invented.
+   */
+  localBrief?: {
+    heading: string;
+    lede: string;                       // direct answer, kept short enough to stay quotable
+    takeaways: string[];
+    body: { h3: string; p: string }[];
+    table: { caption: string; headers: string[]; rows: string[][] };
+    sources: { label: string; url: string }[];
+  };
 }
 
 const { city } = Astro.props as { city: CityProps };
@@ -143,6 +161,56 @@ const jsonLd = {
       </div>
     </div>
   </section>
+
+  <!-- City-exclusive local brief (only rendered for cities that supply one) -->
+  {city.localBrief && (
+    <section class="city-brief-section">
+      <div class="city-brief-inner">
+        <h2>{city.localBrief.heading}</h2>
+        <p class="city-brief-lede">{city.localBrief.lede}</p>
+
+        <div class="city-brief-takeaways">
+          <h3>Key Takeaways</h3>
+          <ul>
+            {city.localBrief.takeaways.map((t) => <li>{t}</li>)}
+          </ul>
+        </div>
+
+        {city.localBrief.body.map((b) => (
+          <div class="city-brief-block">
+            <h3>{b.h3}</h3>
+            <p>{b.p}</p>
+          </div>
+        ))}
+
+        <div class="city-brief-table-wrap">
+          <p class="city-brief-table-caption">{city.localBrief.table.caption}</p>
+          <div class="city-brief-table-scroll">
+            <table class="city-brief-table">
+              <thead>
+                <tr>{city.localBrief.table.headers.map((h) => <th scope="col">{h}</th>)}</tr>
+              </thead>
+              <tbody>
+                {city.localBrief.table.rows.map((row) => (
+                  <tr>{row.map((cell, i) => (i === 0 ? <th scope="row">{cell}</th> : <td>{cell}</td>))}</tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <p class="city-brief-sources">
+          Sources:{' '}
+          {city.localBrief.sources.map((s, i) => (
+            <>
+              {i > 0 && ', '}
+              <a href={s.url} target="_blank" rel="noopener noreferrer">{s.label}</a>
+            </>
+          ))}
+        </p>
+      </div>
+    </section>
+  )}
 
   <!-- Services Offered -->
   <section class="city-services-section">
@@ -403,6 +471,126 @@ const jsonLd = {
     padding: 4rem 1.5rem;
     background: #fff;
   }
+  /* City-exclusive local brief */
+  .city-brief-section {
+    padding: 4rem 1.5rem;
+    background: #fff;
+    border-top: 1px solid #e2e8f0;
+  }
+  .city-brief-inner {
+    max-width: 820px;
+    margin: 0 auto;
+  }
+  .city-brief-section h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(1.6rem, 3vw, 2.2rem);
+    color: #1a1a2e;
+    margin: 0 0 1rem;
+  }
+  .city-brief-lede {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: #334155;
+    margin: 0 0 2rem;
+  }
+  .city-brief-takeaways {
+    background: #f0f9ff;
+    border: 1px solid #dbeafe;
+    border-left: 4px solid #1e3a5f;
+    border-radius: 10px;
+    padding: 1.5rem 1.75rem;
+    margin: 0 0 2.5rem;
+  }
+  .city-brief-takeaways h3 {
+    font-size: 1.05rem;
+    color: #1a1a2e;
+    margin: 0 0 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+  .city-brief-takeaways ul {
+    margin: 0;
+    padding-left: 1.15rem;
+  }
+  .city-brief-takeaways li {
+    font-size: 0.98rem;
+    line-height: 1.6;
+    color: #334155;
+    margin-bottom: 0.6rem;
+  }
+  .city-brief-takeaways li:last-child {
+    margin-bottom: 0;
+  }
+  .city-brief-block {
+    margin-bottom: 2rem;
+  }
+  .city-brief-block h3 {
+    font-size: 1.2rem;
+    color: #1a1a2e;
+    margin: 0 0 0.6rem;
+  }
+  .city-brief-block p {
+    font-size: 1rem;
+    line-height: 1.7;
+    color: #475569;
+    margin: 0;
+  }
+  .city-brief-table-wrap {
+    margin: 2.5rem 0 2rem;
+  }
+  .city-brief-table-caption {
+    font-size: 0.95rem;
+    color: #64748b;
+    margin: 0 0 0.75rem;
+    font-style: italic;
+  }
+  .city-brief-table-scroll {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
+  }
+  .city-brief-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.95rem;
+    min-width: 640px;
+  }
+  .city-brief-table th,
+  .city-brief-table td {
+    padding: 0.85rem 1rem;
+    text-align: left;
+    border-bottom: 1px solid #e2e8f0;
+    vertical-align: top;
+    line-height: 1.5;
+  }
+  .city-brief-table thead th {
+    background: #f8fafc;
+    color: #1a1a2e;
+    font-weight: 700;
+    white-space: nowrap;
+  }
+  .city-brief-table tbody th {
+    color: #1e3a5f;
+    font-weight: 700;
+  }
+  .city-brief-table tbody td {
+    color: #475569;
+  }
+  .city-brief-table tbody tr:last-child th,
+  .city-brief-table tbody tr:last-child td {
+    border-bottom: none;
+  }
+  .city-brief-sources {
+    font-size: 0.88rem;
+    color: #64748b;
+    line-height: 1.6;
+    margin: 0;
+  }
+  .city-brief-sources a {
+    color: #1e3a5f;
+    text-decoration: underline;
+  }
   .city-neighborhoods-section {
     padding: 4rem 1.5rem;
     background: linear-gradient(135deg, #f0f9ff 0%, #faf5ff 100%);
@@ -515,6 +703,12 @@ const jsonLd = {
     .city-blog-cta-btn {
       width: 100%;
       text-align: center;
+    }
+    .city-brief-section {
+      padding: 3rem 1rem;
+    }
+    .city-brief-takeaways {
+      padding: 1.25rem 1.25rem;
     }
   }
 </style>

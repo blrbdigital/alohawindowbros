@@ -24,13 +24,65 @@ const city = {
   blogSlug: 'window-cleaning-santa-barbara-why-local-homeowners-trust-professional-service',
   blogTitle: 'Window Cleaning Santa Barbara: Why Local Homeowners Trust Professional Service',
   geo: { lat: 34.4208, lon: -119.6982 },
+  // See the localBrief note in CityLanding.astro. Santa Barbara is the first city to get
+  // one because it backs the largest non-brand query block on the site. Everything below
+  // is either publicly sourced or our own first-party service observation. Do not add a
+  // water hardness figure here: no verified number exists for the Santa Barbara blend.
+  localBrief: {
+    heading: 'Why Santa Barbara Glass Behaves Differently From Ventura County Glass',
+    lede: 'Santa Barbara is the only city we serve whose coastline faces south rather than west. The Santa Ynez Mountains are part of the Transverse Ranges, one of the few mountain systems in North America that runs east to west, which turns the Santa Barbara shoreline ninety degrees away from the rest of the California coast. That single geographic fact is why ocean-facing windows here take salt aerosol and direct midday sun at the same time, instead of trading one for the other the way Oxnard and Ventura glass does.',
+    takeaways: [
+      'South-facing coastline: ocean-view glass in Santa Barbara receives salt deposition and peak solar load simultaneously, which bakes the salt film on rather than letting it stay soft.',
+      'Sundowner winds are a Santa Barbara signature. The National Weather Service describes them as downslope northerly winds that drop the south face of the Santa Ynez Mountains and strengthen around sunset, bringing abrupt warming and very low humidity.',
+      'The city draws on more separate water sources than any other city we serve, including a desalination plant, so irrigation mineral content varies by district and by year rather than sitting at one published number.',
+      'Marine layer months locally known as May Gray and June Gloom keep glass damp overnight, so dust and pollen bond instead of blowing off.',
+      'Our own scheduling data: coastal Santa Barbara properties need cleaning roughly twice as often as inland Conejo Valley homes to hold the same appearance.',
+    ],
+    body: [
+      {
+        h3: 'Sundowner winds put ridgeline dust on glass that was clean at noon',
+        p: 'Most window cleaning advice written for Southern California assumes wind arrives off the ocean and carries moisture. In Santa Barbara the wind that matters most does the opposite. Sundowners descend the south face of the Santa Ynez Mountains, compress and warm as they fall, and arrive on the coastal plain hot and dry, often in the late afternoon or evening. For homeowners on the Riviera, along Mountain Drive, and in the canyons above Montecito, the practical effect is that a home cleaned in the morning can carry a visible layer of fine ridgeline dust by the following morning. That is why we schedule hillside Santa Barbara properties on a shorter interval than their square footage alone would suggest, and why dry dusting a sundowner film without water simply grinds it into the glass.',
+      },
+      {
+        h3: 'Salt plus direct sun is a harder problem than salt alone',
+        p: 'On a west-facing coast, ocean-side glass gets salt in the marine air and receives its strongest sun late in the day, when the air has already cooled. Santa Barbara ocean-view glass faces the sun at its peak. Salt is hygroscopic, meaning it draws moisture out of the air, so a salt film stays slightly damp and mobile in cool conditions and can often be flushed off cleanly. Add midday heat to that same film and the water evaporates out of it, leaving a hardened crust with the mineral content concentrated. Once that happens, ordinary soap and a squeegee will smear it rather than lift it, which is the single most common reason Santa Barbara homeowners tell us their windows looked worse after a cleaning than before it.',
+      },
+      {
+        h3: 'More water sources than anywhere else we work',
+        p: 'The City of Santa Barbara supplies its customers from a mix that includes Lake Cachuma, Gibraltar Reservoir, State Water Project deliveries, local groundwater, recycled water, and the Charles E. Meyer Desalination Plant. Neighboring communities sit on entirely separate systems: Montecito Water District, Goleta Water District, and Carpinteria Valley Water District each manage their own supply, and a number of Hope Ranch and Montecito properties irrigate from private wells. The honest consequence is that we cannot quote you one hardness figure for Santa Barbara the way we can for Ojai, because what comes out of your sprinklers depends on your district and on which sources were in the blend that season. What does not change is the fix: sprinkler overspray is the leading cause of mineral spotting on Santa Barbara glass, and adjusting spray heads away from windows saves more cleanings per year than any product will.',
+      },
+      {
+        h3: 'What we do differently here',
+        p: 'Every Santa Barbara job is cleaned with reverse osmosis purified water, which carries no dissolved minerals and therefore cannot leave a spot of its own as it dries. On coastal and ocean-view elevations we work the salt-loaded glass early, before the surface heats, so the film is still soft enough to release. Estates in Montecito and Hope Ranch are quoted on window count and access rather than square footage, because a low, wide single-story property with sixty divided-light panes takes longer than a compact two-story home with twenty large windows. We carry proof of insurance for gate offices and HOA managers, which most of the gated communities here ask for before the first visit.',
+      },
+    ],
+    table: {
+      caption: 'Our own recommended service intervals by Santa Barbara zone, based on how quickly we see film return on properties we already clean. These are scheduling guidelines, not a price list.',
+      headers: ['Santa Barbara zone', 'Dominant condition', 'What shows up on the glass', 'Interval we recommend'],
+      rows: [
+        ['Waterfront and The Mesa', 'Direct salt aerosol, south-facing sun', 'Hazy bonded salt film, worst on ocean elevations', 'Every 2 months'],
+        ['Carpinteria and Summerland', 'Salt air with more shelter', 'Even light haze across all elevations', 'Every 2 to 3 months'],
+        ['Montecito and Hope Ranch', 'Well and district irrigation, mature landscaping', 'Mineral spotting from overspray, pollen and leaf litter in tracks', 'Every 3 months'],
+        ['The Riviera and Mission Canyon', 'Sundowner wind and ridgeline dust', 'Fine gritty dust returning within days of a wind event', 'Every 3 months'],
+        ['Downtown and Goleta', 'Mixed urban dust, less direct salt', 'General grime and traffic film, slower to build', 'Every 4 months'],
+      ],
+    },
+    sources: [
+      { label: 'National Weather Service, Los Angeles and Oxnard forecast office', url: 'https://www.weather.gov/lox/' },
+      { label: 'City of Santa Barbara Water Resources', url: 'https://santabarbaraca.gov/government/departments/public-works/water-resources' },
+      { label: 'Montecito Water District', url: 'https://www.montecitowater.com/' },
+      { label: 'Goleta Water District', url: 'https://www.goletawater.com/' },
+    ],
+  },
   faq: [
     { q: 'How much does window cleaning cost in Santa Barbara?', a: 'Most Santa Barbara homes fall between $200 and $475 for a complete residential window cleaning, slightly higher than Ventura County average because of larger homes, longer drive time, and the higher cost of doing salt-area work properly. Estates in Montecito and Hope Ranch with 40+ windows can run higher; we always provide free on-site estimates.' },
     { q: 'Do you clean homes in Montecito and Hope Ranch?', a: 'Yes. Montecito and Hope Ranch are core service areas. We work in many of the gated and HOA-managed communities and can provide proof of insurance to your gate office or HOA in advance.' },
     { q: 'How often should I clean my windows in Santa Barbara?', a: 'For coastal homes (Mesa, Carpinteria, anywhere within 2 miles of the beach), every 2 to 3 months is the right rhythm, because salt mist accelerates spotting dramatically. Inland homes in Hope Ranch, Mission Canyon, and Goleta can usually go 4 months between cleanings.' },
     { q: 'Can you handle large estate properties?', a: 'Yes, many of our Santa Barbara jobs are large estates with 40 to 100+ windows, multiple stories, skylights, and difficult-access glass. We bring water-fed pole systems for upper stories and proper height-access equipment when needed.' },
     { q: 'Do you also clean solar panels?', a: 'Yes. Santa Barbara has high solar adoption, and our purified-water system works equally well on solar panels, no streaks, measurable output recovery. Many Santa Barbara homeowners pair quarterly window service with biannual solar cleaning.' },
-    { q: 'Is window washing the same as window cleaning in Santa Barbara, CA?', a: 'Yes, window washing and window cleaning describe the same professional service. Our window washing in Santa Barbara, CA covers exterior glass, interior glass, screens, frames, and sills, using a purified-water system that prevents the mineral and salt re-spotting that plagues coastal glass. Some companies use "washing" to mean a quick exterior rinse; we always mean the complete four-in-one service.' }
+    { q: 'Is window washing the same as window cleaning in Santa Barbara, CA?', a: 'Yes, window washing and window cleaning describe the same professional service. Our window washing in Santa Barbara, CA covers exterior glass, interior glass, screens, frames, and sills, using a purified-water system that prevents the mineral and salt re-spotting that plagues coastal glass. Some companies use "washing" to mean a quick exterior rinse; we always mean the complete four-in-one service.' },
+    { q: 'Do Sundowner winds affect how often I need my windows cleaned in Santa Barbara?', a: 'Yes, noticeably. Sundowner winds are downslope northerly winds that descend the south face of the Santa Ynez Mountains and typically strengthen around sunset, arriving hot and dry rather than damp. They carry fine ridgeline dust onto homes on the Riviera, Mountain Drive, and the canyons above Montecito, so those properties often show visible film within a day or two of a wind event. We put hillside Santa Barbara homes on a roughly three month interval for that reason, and we never dry dust a Sundowner film, because doing so grinds the grit across the glass.' },
+    { q: 'How hard is the water in Santa Barbara for window cleaning?', a: 'There is no single honest answer, and we will not invent one. The City of Santa Barbara blends Lake Cachuma, Gibraltar Reservoir, State Water Project water, local groundwater, recycled water, and output from the Charles E. Meyer Desalination Plant, while Montecito, Goleta, and Carpinteria sit on separate districts and some Hope Ranch and Montecito properties irrigate from private wells. Mineral content therefore varies by district and by season. What matters practically is that sprinkler overspray, not the tap itself, is the leading cause of mineral spotting on Santa Barbara glass, and that we rinse with reverse osmosis purified water so our own water cannot leave a deposit behind.' }
   ]
 };
 ---

@@ -4,6 +4,115 @@
 
 ---
 
+### 2026-07-27
+
+**What we did:**
+- **refresh (primary): rebuilt `/santa-barbara/` into a genuinely differentiated page.** Added an
+  optional `localBrief` prop to `CityLanding.astro` and populated it for Santa Barbara only: a
+  direct-answer lede, a Key Takeaways box, four sourced sections, a first-party five-zone service
+  interval table, and two new FAQ entries (FAQPage JSON-LD 6 to 8 questions). The page went from
+  ~1074 to 2390 rendered words; vocabulary overlap with a sibling city page fell from 76.2% to 65.4%.
+  The other nine city pages were left untouched as a control group.
+- **gbp (no code change):** re-escalated the `http://` Google Business Profile website URL, now with
+  hard numbers attached.
+- **technical (documentation, no code change):** recorded the brand vs non-brand split per page in
+  `.claude-site-map.md`, and the trailing-slash duplicate observation.
+- Rejected new_content, blog refresh, internal_links, and title_meta, with reasons below.
+
+**Why we did it (brief numbers, plus GSC API measurements the brief does not contain):**
+- The brief's reality check holds for a fifth run: **68 clicks against 2615 impressions, 5 non-brand
+  clicks against 1927 non-brand impressions (+22%)**. The bottleneck is click-winning.
+- **The brief's page table is misleading and I verified why.** It reports `/` at 208 impressions.
+  The actual GSC row for `https://alohawindowbros.com/` is **2137 impressions / 65 clicks**; the 208
+  figure belongs to the `/#about`, `/#reviews`, and `/#services` fragment rows. The brief also omits
+  `http://alohawindowbros.com/` entirely (39 clicks / 1286 impressions) because it reads the
+  URL-prefix property, which cannot see http URLs. All figures below come from the
+  `sc-domain:alohawindowbros.com` property.
+- **The measurement that drove the plan: the blog earns no non-brand traffic.** Splitting a
+  `page x query` join on `/aloha|window bros|mahalo/i`:
+
+  | Page | Brand impr / clicks | Non-brand impr / clicks |
+  |---|---|---|
+  | `/` | 633 / 32 | **817 / 1** |
+  | `http://alohawindowbros.com/` (GBP) | 335 / 28 | **647 / 2** |
+  | `/thousand-oaks/` | 344 / 3 | 238 / 2 |
+  | `/agoura/` | 307 / 1 | 141 / 0 |
+  | `/westlake/` | 191 / 0 | 99 / 0 |
+  | `/newbury/` | 182 / 0 | 61 / 0 |
+  | **all 42 blog posts** | 445 / 0 | **135 / 0** (over 90 days) |
+
+  Over a full 90 days the entire blog earned **135 non-brand impressions and zero clicks**. The blog
+  pages the brief lists as healthy are brand impressions: `hard-water-stains-westlake-village` is 46
+  brand / 2 non-brand, `screen-cleaning-simi-valley` 45 / 1. They surface as secondary results for
+  *aloha window bros*, not for their target queries. This closes the question of whether more or
+  better blog content is the answer on this site. It is not.
+- **Why Santa Barbara specifically.** It is the largest non-brand block on the board:
+  *window cleaning santa barbara* 167 impr @ 9.5, *window washing santa barbara* 44 @ 8.4,
+  *santa barbara window cleaning* 29 @ 11.6, *santa barbara window cleaners* 19 @ 13.1, plus
+  *window cleaning montecito* 22 @ 17.1 rising from 8. That is **281 impressions and zero clicks**,
+  and per-query attribution confirms **every one of them lands on `/`**, not on `/santa-barbara/`.
+- **Why differentiation, and the honest counter-argument.** I re-ran URL Inspection this morning:
+  all six pages are still "Discovered - currently not indexed" with `lastCrawlTime = NEVER`,
+  unchanged since 07-24, while `/agoura/` was crawled 2026-07-25. Internal links were ruled out from
+  both directions on 07-20 and 07-24. The remaining in-repo lever is that the ten city pages shared
+  ~76% of their rendered tokens. **The counter-argument, which I want on the record: the four
+  indexed pages are equally duplicative, so duplication is clearly not disqualifying on its own, and
+  the real discriminator between the two groups is that the indexed four carry legacy WordPress
+  backlinks.** Differentiation is therefore a plausible push over a quality threshold, not a proven
+  mechanism. It is the best in-repo option available, and it is cheap to grade.
+- **Why not title_meta.** Its only untreated targets are the six uncrawled pages, and rewriting a
+  title on a page Google has never fetched cannot move anything. The homepage title was rewritten
+  three days ago and re-touching it would destroy a pending read.
+- **Why not a blog refresh**, including the two real decayers
+  (`/blog/solar-panel-cleaning-ventura-coastal-hillside-guide/` 118 to 2 impressions, and the
+  pricing guide 43 to 2): the whole blog class earns zero non-brand clicks in 90 days, so a refresh
+  there has no demonstrated path to the success metric. The pricing guide was also rebuilt 10 days
+  ago and is still pending review.
+- **Why not internal_links.** Settled with evidence on 07-20 and 07-24. Considered closed.
+- **Why not new_content.** The service x city matrix is complete at 42 posts, and the measurement
+  above says adding a 43rd would earn nothing.
+
+**Expected impact:**
+- **Primary, stated as a binary I can actually check:** `/santa-barbara/` gets crawled at all within
+  six weeks, meaning URL Inspection reports a `lastCrawlTime` instead of NEVER. I am **not**
+  predicting a ranking or a click from this page in that window. If it is crawled and indexed, the
+  follow-on target is the 281-impression Santa Barbara cluster currently served by `/` at position
+  8.4 to 13.1.
+- **Honest limitation:** if the discriminator really is backlinks rather than content quality, this
+  fails and the six pages stay uncrawled. That is a real possibility, and the nine untreated city
+  pages are the control that will tell us. If Santa Barbara is crawled and the other five are not,
+  differentiation is the mechanism and it is worth repeating on Ventura and Camarillo. If nothing
+  changes anywhere, **stop spending runs on the unindexed six** and treat it purely as an off-page
+  problem.
+- **The highest-yield action this cycle is not in this repo.** The Google Business Profile listing
+  ranks position **1.0 to 1.8** for *best window washer agoura hills / camarillo / simi valley /
+  thousand oaks / ventura / westlake village*, plus *gutter cleaning* and *window cleaning thousand
+  oaks* at 1.3. It carries **30 clicks and 982 impressions, about a quarter of all site clicks**,
+  and its website field points at `http://alohawindowbros.com/`, which 301-redirects (verified by
+  curl today). Fixing that field to `https://` is a two-minute change for Adam. Also still open from
+  07-24: manually "Request indexing" for the six uncrawled city URLs in the GSC UI, which is not
+  available via API.
+- Local-pack queries for the GBP workstream, unchanged and still earning zero clicks despite strong
+  organic rank: *window cleaning westlake village* (pos 2.2, 33 impr) and *window cleaning newbury
+  park* (pos 4.3, 22 impr).
+
+**Metrics at time of action (GSC `sc-domain` property, 28d 2026-06-27..2026-07-24):**
+- Site total 113 clicks / 4053 impressions / avg pos 10.2. Page-attributed split: brand 3260 impr /
+  64 clicks, non-brand 2022 impr / 5 clicks.
+- Brief-reported (URL-prefix property) totals: 68 clicks / 2615 impressions, non-brand 5 / 1927.
+- `/santa-barbara/`, `/camarillo/`, `/ventura/`, `/ojai/`, `/oxnard/`, `/simi-valley/`: 0 impressions
+  each, `lastCrawlTime = NEVER`, re-verified 2026-07-27. `/agoura/` last crawled 2026-07-25.
+- `/santa-barbara/` before this run: ~1074 rendered words, 76.2% vocabulary overlap with a sibling.
+  After: 2390 words, 65.4% overlap. Control pair (Oxnard vs Ojai) unchanged at 76.2%.
+- Data caveats: PageSpeed 429 and Semrush 403/400 on every endpoint for a third straight run, so no
+  third-party keyword or Core Web Vitals data. Competitor crawl returned 1 page across 3 domains.
+  GA4 still reports 0 sessions; per the 07-24 note that Consent Mode now defaults to granted, the
+  consent explanation no longer covers it and GA4 may simply be broken. Flagged again, not actioned.
+- Blog post count unchanged at 42. Scoreboard still empty, 22 actions pending.
+
+---
+
+
 ### 2026-07-24
 
 **What we did:**
