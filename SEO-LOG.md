@@ -4,6 +4,128 @@
 
 ---
 
+### 2026-07-29
+
+**What we did:**
+- **refresh (primary): gave `/thousand-oaks/` a sourced, city-exclusive `localBrief`.** Direct-answer
+  lede, Key Takeaways box, four sourced sections, a water-supply table taken from the utility's own
+  Consumer Confidence Report, five source links, and two new FAQ entries (FAQPage JSON-LD 6 to 8
+  questions). The page went from ~1,040 to **2,681 rendered words**.
+- **technical (correctness), same page:** replaced the vague "about 8.5 grains per gallon via
+  Calleguas" with the per-source figures from California American Water's 2025 CCR, removed an
+  unsourced "280+ sunny days per year" claim, and replaced "Hidden Hills" in the neighborhood chips
+  (that is a separate city in Los Angeles County) with "Old Town Thousand Oaks".
+- **technical (CSS):** `.city-brief-table tbody th { min-width: 10.5rem }`, because the new
+  5-column table collapsed to one word per line in the mobile scroll container.
+- **gbp (no code change):** re-logged the `http://` Google Business Profile website URL for a third
+  run, now with the query-level evidence attached below.
+- Rejected new_content, blog refresh, internal_links, and title_meta, with reasons below.
+
+**Why we did it (brief numbers, plus GSC API measurements the brief does not contain):**
+- The brief's reality check holds for a sixth straight run: **71 clicks against 2,588 impressions,
+  6 non-brand clicks against 1,900 non-brand impressions (+18%)**. The bottleneck is click-winning.
+- **The brief's striking-distance positions are blends across several of our own URLs, and I would
+  have optimised the wrong thing without checking.** The brief reports *window cleaning thousand
+  oaks* at position 7.2. A `query x page` join splits that into three rows: our Google Business
+  Profile listing at **1.3** (32 impr, 1 click), the homepage at **9.3** (33 impr, 1 click), and
+  **`/thousand-oaks/` itself at 11.6** (56 impr, **0 clicks**). Same story on *window washing
+  thousand oaks*: GBP 1.0, `/` 13.6, `/thousand-oaks/` 12.8. **Our dedicated city page ranks worse
+  than our own homepage for the city's own query.** That is the actual defect, and it is on a page
+  Google crawls every day.
+- **Why Thousand Oaks and not the bigger Santa Barbara cluster.** Santa Barbara is the larger query
+  block (172 + 44 + 26 + 18 impressions) but `/santa-barbara/` has **never been crawled**, so
+  nothing done to it can rank this cycle; it was treated on 07-27 and is under review until 09-07.
+  Thousand Oaks is the opposite case and the only one of its kind on the site: URL Inspection
+  confirms `/thousand-oaks/` is "Submitted and indexed", **last crawled 2026-07-26**, and it is the
+  **only page on the domain earning non-brand clicks from its own content** (3 non-brand clicks /
+  240 non-brand impressions this window; the homepage manages 1 from 788). Depth on a page Google
+  reads daily and already ranks has a mechanism. Depth on a page it has never fetched does not.
+- **Why the content clears the information-gain bar.** Two things on this page are not on any
+  competitor page for these queries, and both are checkable:
+  1. **The open space framing.** The Conejo Open Space Conservation Agency protects **15,334 acres
+     inside Thousand Oaks city limits and planning area** and manages more than 12,700 of them with
+     150+ miles of trails. The city is built around its wildland rather than beside it, which is why
+     the soiling profile here is dry inland dust, oak pollen, and grass seed rather than coastal
+     salt film. No other city we serve has that structure.
+  2. **The water report, quoted against the myth.** A search for Thousand Oaks water hardness
+     returns "12.8 grains per gallon, very hard" from water-softener retailers. California American
+     Water's 2025 CCR for **PWS ID CA5610040** (Thousand Oaks and Newbury Park) reports **140 mg/L,
+     8.2 gpg** from the MWD Jensen plant at **94% of supply**, 164 mg/L / 9.5 gpg from Calleguas
+     Lake Bard at 5%, and 146 mg/L / 8.5 gpg from Calleguas Las Posas at 1%, with TDS of 297 / 437 /
+     325 ppm. That is "hard", one WQA class below "very hard". The page now says so and shows the
+     table. Given this site shipped fabricated hardness numbers across 11 pages before the 07-17 and
+     07-24 sweeps, publishing the primary source is worth more here than anywhere else.
+- **Why this does not confound the pending Santa Barbara experiment.** Different population,
+  different outcome variable, different control group. Santa Barbara asks whether differentiation
+  gets an **uncrawled** page crawled, and its controls are the five other uncrawled pages, all
+  untouched. Thousand Oaks asks whether differentiation moves an **indexed** page's rank, and its
+  controls are Agoura Hills, Westlake Village, and Newbury Park, all untouched. Neither treatment
+  changes the other's comparison set.
+- **Why not title_meta.** The section is non-empty and the playbook ranks it first, but it has no
+  untreated target left. All ten city titles were rewritten on 07-15 and 07-20; the homepage on
+  07-24, five days before this window closed, so its read is still pending. Rewriting any of them
+  again would destroy a pending experiment rather than create a new one.
+- **Why not a blog refresh**, including the two decayers the brief lists
+  (`/blog/solar-panel-cleaning-ventura-coastal-hillside-guide/` 118 to 2 impressions and the pricing
+  guide 43 to 1): re-measured this run and unchanged, all 42 blog posts together earn **19 non-brand
+  impressions and 0 non-brand clicks** in this 28-day window (their other 255 impressions are brand
+  queries). There is no demonstrated path from a blog edit to the success metric.
+- **Why not new_content.** The service x city matrix is complete at 42 posts and the measurement
+  above says a 43rd would earn nothing. The only genuinely new query on the board,
+  *exterior cleaning newbury park* (25 impr, up from 1), sits at **position 50.8**. Nothing at
+  position 50 justifies a page.
+- **Why not internal_links.** Settled with evidence on 07-20 and 07-24 from opposite directions.
+  Considered closed.
+
+**Expected impact:**
+- **Primary prediction, and I want it graded on the page not the blend:** `/thousand-oaks/` improves
+  from **position 11.6** to **position 8 or better for *window cleaning thousand oaks*** within six
+  weeks, measured as the `page = /thousand-oaks/` row specifically, not the query's blended average.
+- **Secondary:** the page earns at least 4 non-brand clicks in a 28-day window (it earned 3 this
+  window across all queries).
+- **Honest limitation.** Content depth moves rank on a page that is already crawled and already
+  ranking, which is exactly this case, but position 11.6 to top-3 in one step is not realistic and
+  I am not predicting it. If the page moves to 8-10 without gaining clicks, that is still a partial
+  win and the next lever is the map pack, not more words.
+- **Second honest limitation.** Our own homepage outranks this page for the query. Fixing that is a
+  cannibalisation problem I deliberately did **not** touch, because `/` carries 33 of the site's 71
+  clicks and de-optimising it to help a page with zero clicks is a bad trade. If `/thousand-oaks/`
+  moves above `/` on its own query, the cannibalisation resolves itself.
+- **The highest-yield action this cycle is still not in this repo, and this is the third run it has
+  been logged.** The Google Business Profile listing ranks **1.0 to 1.3** for *window cleaning
+  thousand oaks* and *window washing thousand oaks*, and 1.0 to 1.8 for the *best window washer*
+  variants across six cities. It carries 30 clicks and 980 impressions, and its website field points
+  at `http://alohawindowbros.com/`, which 301-redirects. Changing that field to `https://` is a
+  two-minute change for Adam. Also still open: manual "Request indexing" for the six uncrawled city
+  URLs in the GSC UI, which has no API equivalent.
+- Local-pack queries for the GBP workstream, unchanged: *window cleaning westlake village*
+  (`/westlake/` at position 3.4 and the GBP listing at 1.8, **51 impressions, zero clicks between
+  them**) and *window cleaning newbury park* (position 6.7, 24 impressions, zero clicks).
+
+**Metrics at time of action (GSC `sc-domain` property, 28d 2026-06-29..2026-07-26):**
+- Brief-reported totals: 71 clicks / 2,588 impressions; non-brand 6 clicks / 1,900 impressions;
+  non-brand avg position 10.9.
+- Page-attributed brand vs non-brand split: `/` 633 brand impr / 33 brand clicks vs **788 non-brand
+  impr / 1 non-brand click**. GBP `http://` 337 / 28 vs 643 / 2. `/thousand-oaks/` 350 / 3 vs
+  **240 / 3**. `/agoura/` 306 / 1 vs 140 / 0. `/westlake/` 190 / 0 vs 98 / 0. `/newbury/` 181 / 0 vs
+  66 / 0. All 42 blog posts combined: 255 brand impr / 0 clicks vs **19 non-brand impr / 0 clicks**.
+- `/thousand-oaks/` before this run: ~1,040 rendered words. After: **2,681**. Jaccard vocabulary
+  similarity to siblings **39.0 to 41.9%**, against **54.1 to 58.2%** for the untreated indexed
+  pages and 49.3% for the Oxnard/Ojai pair. 55% of its vocabulary is now unique to it, vs 27 to 34%
+  for untreated pages.
+  - The 07-27 entry's 76.2%/65.4% figures used `intersection / min(set)`, which is unusable across
+    documents of different lengths. Jaccard is the metric from here on; the two are not comparable.
+- Index status re-audited this run: `/santa-barbara/`, `/camarillo/`, `/ventura/`, `/ojai/`,
+  `/oxnard/`, `/simi-valley/` all still **0 impressions, `lastCrawlTime = NEVER`**. The coverage
+  *labels* rotated (`/santa-barbara/` and `/simi-valley/` now say "URL is unknown to Google",
+  `/camarillo/` now says "Discovered, currently not indexed") but that string is a live read of the
+  crawl queue and rotates on its own. **Not a regression from the 07-27 change.**
+  `/thousand-oaks/`: "Submitted and indexed", last crawled 2026-07-26.
+- Data caveats: PageSpeed 429 and Semrush 403/400 on every endpoint for a fourth straight run, so no
+  third-party keyword or Core Web Vitals data. Competitor crawl returned 1 page across 3 domains.
+  GA4 still reports 0 sessions; flagged again since 07-24, still not actioned.
+- Blog post count unchanged at 42. Scoreboard still empty, 25 actions pending.
+
 ### 2026-07-27
 
 **What we did:**

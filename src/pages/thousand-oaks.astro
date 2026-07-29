@@ -12,25 +12,80 @@ const city = {
   intro: "Thousand Oaks is our home base. We started Aloha Window Bros to bring honest, professional window cleaning to the Conejo Valley, the place we grew up. From the older neighborhoods around Conejo Park to the newer Lang Ranch hillside builds, we know the dust, the sun exposure, and the hard water that Thousand Oaks homes deal with every season. Whether you're looking for window washing Thousand Oaks neighbors recommend or a full window cleaning service, it's the same complete job from us: exterior and interior glass, screens, frames, and sills. Most full-home services run $150 to $400 depending on size, with free on-site estimates.",
   soilingFactors: [
     { name: 'Santa Ana wind dust', detail: 'Fall and winter Santa Anas drive fine particulate from the surrounding canyons onto windows, especially on north- and east-facing glass in Lang Ranch, Wildwood, and the hills near Sunset Hills.' },
-    { name: 'Hard sprinkler water', detail: 'Thousand Oaks runs on imported water through Calleguas Municipal, averaging about 8.5 grains per gallon. Moderate hardness, but frequent summer sprinkler overspray still bakes mineral spots into glass within weeks if not removed.' },
-    { name: 'Summer sun + heat etching', detail: 'Thousand Oaks averages 280+ sunny days per year. Heat bakes water spots and pollen onto south- and west-facing glass, making them harder to remove with home methods.' },
+    { name: 'Hard sprinkler water', detail: 'California American Water supplies Thousand Oaks, and its 2025 water quality report puts total hardness at 140 mg/L, about 8.2 grains per gallon, on the State Water Project supply that makes up 94% of the city. Hard, but not very hard. The damage comes from how often sprinklers hit the glass, not from an extreme mineral load.' },
+    { name: 'Inland heat and no marine layer', detail: 'Sitting inland of the Conejo Grade at roughly 890 feet, Thousand Oaks gets far less overnight marine layer than Oxnard or Ventura. Sprinkler water evaporates on the glass instead of staying damp, so minerals concentrate and bake onto south- and west-facing panes.' },
     { name: 'Oak pollen and leaf debris', detail: 'The namesake oaks drop pollen and tannins each spring that settle on screens and lower window panes, blocking views and clogging screen mesh.' }
   ],
   neighborhoods: [
     'Lang Ranch', 'Sunset Hills', 'Wildwood', 'Conejo Park',
-    'North Ranch', 'Lynn Ranch', 'Hidden Hills', 'Country Club Estates',
+    'North Ranch', 'Lynn Ranch', 'Old Town Thousand Oaks', 'Country Club Estates',
     'Shadow Oaks', 'Greenmeadow', 'Conejo Oaks', 'Westlake Trails'
   ],
   blogSlug: 'window-cleaning-thousand-oaks-a-complete-guide-for-homeowners',
   blogTitle: 'Window Cleaning Thousand Oaks: A Complete Guide for Homeowners',
   geo: { lat: 34.1706, lon: -118.8376 },
+  // See the localBrief note in CityLanding.astro. Thousand Oaks is the second city to get one,
+  // and the first ALREADY-INDEXED page to get one, so it tests a different question than the
+  // Santa Barbara brief does (rank movement on a crawled page, not crawling of an uncrawled one).
+  // Agoura Hills, Westlake Village, and Newbury Park stay untreated as the indexed control group.
+  // Every number below traces to a named public document. The hardness figures come straight out
+  // of the Cal Am CCR for PWS ID CA5610040 and supersede the vague "about 8.5 gpg via Calleguas"
+  // this page used to carry. Do not replace them with a water-softener vendor's "12.8 gpg, very
+  // hard" figure, which is what a web search surfaces first and which the CCR contradicts.
+  localBrief: {
+    heading: 'Why Thousand Oaks Glass Is an Open Space Problem, Not a Coastal One',
+    lede: 'Thousand Oaks is the only city we serve that is built around its wildland rather than beside it. The Conejo Open Space Conservation Agency counts 15,334 acres of protected open space inside Thousand Oaks city limits and its planning area, and manages more than 12,700 of them along with over 150 miles of trails. The practical consequence for your windows is that the material landing on the glass is dry inland dust, oak pollen, and grass seed arriving from a few hundred feet away, not the salt film that sets cleaning schedules in Oxnard and Ventura.',
+    takeaways: [
+      'Open space is inside the city, not next to it: 15,334 protected acres within the city limits and planning area, per the Conejo Open Space Conservation Agency, so wildland dust is a neighborhood-scale source rather than a distant one.',
+      'Thousand Oaks water is hard, not very hard. California American Water reports total hardness of 140 mg/L, roughly 8.2 grains per gallon, on the State Water Project supply that provides 94% of the city. That is well under half the hardness of Ojai well water at about 17 grains per gallon.',
+      'Because the mineral load is moderate, spotting here is driven by how often sprinklers reach the glass and how fast that water dries, not by the water itself. Turning two spray heads away from a window saves more cleanings per year than any product does.',
+      'At about 890 feet and inland of the Conejo Grade, Thousand Oaks sees far less overnight marine layer than the coastal cities we serve. Dust stays dry and loose longer, but summer heat concentrates sprinkler minerals faster.',
+      'Our own scheduling data: Thousand Oaks homes hold their appearance roughly twice as long as the coastal Oxnard and Ventura properties we clean, which is why we quote a 3 to 4 month interval here instead of the 2 months we recommend on the coast.',
+    ],
+    body: [
+      {
+        h3: 'The open space is inside the city, which changes what lands on the glass',
+        p: 'Most window cleaning advice written for Southern California assumes the homeowner lives in continuous suburb with a park nearby. Thousand Oaks is the inverse. The Conejo Open Space Conservation Agency was created in 1977 by a joint powers agreement between the City of Thousand Oaks and the Conejo Recreation and Park District, and the land it protects is threaded through the city rather than fenced off at the edge of it. That is why so many homes in Wildwood, Lang Ranch, Sunset Hills, and the neighborhoods along the Conejo Canyons have chaparral or dry annual grass within sight of a kitchen window. From roughly May through the first real rain, that ground surface is the single largest contributor to what we wipe off Thousand Oaks glass: fine mineral dust, oak pollen, and grass seed heads that lodge in screen mesh rather than blowing through it. Homes with a direct open space edge on their north or east side are the ones we most often move onto a quarterly schedule.',
+      },
+      {
+        h3: 'What the water report actually says, and why the softener ads are wrong',
+        p: 'Search for Thousand Oaks water hardness and the first answers you will find come from water softener retailers quoting figures near 12.8 grains per gallon and the label "very hard." The utility\'s own testing does not support that. California American Water serves Thousand Oaks and Newbury Park under PWS ID CA5610040, and its 2025 Consumer Confidence Report gives total hardness as calcium carbonate for each source in the blend: 140 mg/L, or 8.2 grains per gallon, from the Metropolitan Water District Jensen treatment plant, which is 94% of the supply; 164 mg/L, or 9.5 grains per gallon, from the Calleguas Lake Bard Water Filtration Plant at 5%; and 146 mg/L, or 8.5 grains per gallon, from the Calleguas Las Posas Wellfield at 1%. On the Water Quality Association scale that is "hard," one full class below "very hard." We say this plainly because it changes the advice: at this hardness, a spot on your window is a story about evaporation and sprinkler aim, not about needing to treat your whole house.',
+      },
+      {
+        h3: 'Inland, not coastal, which is why our interval here is longer',
+        p: 'Thousand Oaks sits at roughly 890 feet above sea level, inland of the Conejo Grade, the climb on Highway 101 that separates the Conejo Valley from the Oxnard Plain. That grade is a real weather boundary and not just a hill. Marine layer that sits on Oxnard, Ventura, and Camarillo glass overnight often stops short of the valley, so Thousand Oaks windows go through fewer damp-then-dry cycles than coastal windows do. Two things follow. First, dust here stays loose for longer instead of bonding into a film, which is why a Thousand Oaks home can look acceptable for months and then look filthy within a week of one Santa Ana event. Second, when sprinkler water does hit the glass, inland summer heat evaporates it quickly and leaves the minerals behind in a concentrated ring rather than rinsing them off. The National Weather Service Los Angeles and Oxnard office tracks the Santa Ana pattern that drives the first effect, and those winds are most common in the cooler half of the year, roughly September into spring.',
+      },
+      {
+        h3: 'What we do differently in Thousand Oaks',
+        p: 'We clean every Thousand Oaks job with reverse osmosis purified water, which carries no dissolved minerals and therefore cannot leave a spot of its own as it dries. That matters more here than the tap hardness number suggests, because the problem is repetition: moderate-hardness water applied by a sprinkler four mornings a week still builds a visible deposit. We pull and wash screens before the glass rather than after, since oak pollen and grass seed load the mesh and will re-deposit onto clean panes the first time the wind comes up. Upper stories in Lang Ranch, North Ranch, and the Sunset Hills grades are done with water-fed pole systems instead of ladders, which is both safer on sloped lots and better on divided-light windows. And we carry proof of insurance for the gate offices and HOA managers at North Ranch Country Club Estates and the gated Lang Ranch neighborhoods, because most of them ask before a first visit.',
+      },
+    ],
+    table: {
+      caption: 'Where Thousand Oaks water comes from and how hard it is, taken from California American Water\'s 2025 Consumer Confidence Report for PWS ID CA5610040. Percentages are each source\'s share of the city supply.',
+      headers: ['Source', 'Share of supply', 'Total hardness (as CaCO3)', 'Total dissolved solids', 'What it means for your glass'],
+      rows: [
+        ['MWD Jensen plant (State Water Project)', '94%', '140 mg/L (8.2 grains per gallon)', '297 ppm (293 to 301)', 'The supply almost every Thousand Oaks home is actually on. Hard enough to spot with repeated overspray, a full class below very hard.'],
+        ['Calleguas Lake Bard plant', '5%', '164 mg/L (9.5 grains per gallon)', '437 ppm (400 to 470)', 'The hardest source in the blend and by far the highest dissolved solids, so it leaves the most visible residue when it dries.'],
+        ['Calleguas Las Posas wellfield', '1%', '146 mg/L (8.5 grains per gallon)', '325 ppm (290 to 360)', 'Local groundwater, used sparingly. Slightly harder than the imported supply it supplements.'],
+      ],
+    },
+    sources: [
+      { label: 'California American Water, 2025 Consumer Confidence Report, Thousand Oaks (PWS ID CA5610040)', url: 'https://www.amwater.com/ccr/thousandoaks.pdf' },
+      { label: 'Conejo Open Space Conservation Agency', url: 'https://conejoopenspace.gov/about/who-we-are/' },
+      { label: 'Conejo Open Space Conservation Agency trail system', url: 'https://conejoopenspace.gov/trails/' },
+      { label: 'National Weather Service, Los Angeles and Oxnard forecast office', url: 'https://www.weather.gov/lox/' },
+      { label: 'City of Thousand Oaks', url: 'https://www.toaks.gov/' },
+    ],
+  },
   faq: [
     { q: 'How much does window cleaning cost in Thousand Oaks?', a: 'Most Thousand Oaks homes fall between $150 and $400 for a full residential window cleaning. Pricing depends on home size, window count, accessibility, and whether you want screens, frames, and sills included. We give free on-site estimates, no obligation, usually within 24 hours.' },
     { q: 'How often should I clean my windows in Thousand Oaks?', a: 'For most Thousand Oaks homes we recommend every 3 to 4 months. Hillside homes in Lang Ranch or Sunset Hills that face Santa Ana wind corridors typically need quarterly service. Interior-protected homes with shaded exposure can go 6 months between cleanings.' },
     { q: 'Do you clean windows on two-story homes?', a: 'Yes. We use water-fed pole systems for upper-story windows, which is safer than ladder work and gets a streak-free result. Many Thousand Oaks homes, especially in North Ranch and Lang Ranch, are two-story properties, and we clean them regularly.' },
     { q: 'What\'s included in a standard Thousand Oaks window cleaning?', a: 'Our standard service includes the exterior glass, interior glass, screens, frames, and sills, a complete four-in-one clean. We also offer solar panel cleaning as an add-on, which is popular in Thousand Oaks given the high solar adoption rate.' },
     { q: 'Are you insured to work in gated communities?', a: 'Yes, we\'re fully insured and we\'re a familiar service in most Thousand Oaks gated communities, including North Ranch Country Club Estates and the gated Lang Ranch neighborhoods. We can provide proof of insurance to your HOA on request.' },
-    { q: 'Is window washing the same as window cleaning in Thousand Oaks?', a: 'Yes, window washing and window cleaning are the same professional service. Our window washing in Thousand Oaks covers exterior glass, interior glass, screens, frames, and sills, finished with purified water so Calleguas hard-water overspray doesn\'t re-spot the glass. Some companies use "washing" to mean a quick exterior-only rinse; ours is always the complete four-in-one service.' }
+    { q: 'Is window washing the same as window cleaning in Thousand Oaks?', a: 'Yes, window washing and window cleaning are the same professional service. Our window washing in Thousand Oaks covers exterior glass, interior glass, screens, frames, and sills, finished with purified water so sprinkler overspray doesn\'t re-spot the glass. Some companies use "washing" to mean a quick exterior-only rinse; ours is always the complete four-in-one service.' },
+    { q: 'How hard is the water in Thousand Oaks?', a: 'Hard, but not very hard, and the difference matters. California American Water serves Thousand Oaks and Newbury Park under PWS ID CA5610040, and its 2025 Consumer Confidence Report reports total hardness of 140 mg/L, about 8.2 grains per gallon, on the Metropolitan Water District Jensen supply that provides 94% of the city. The two Calleguas sources in the blend measure 164 mg/L (9.5 grains per gallon) and 146 mg/L (8.5 grains per gallon). Water softener retailers commonly quote a much higher figure and call Thousand Oaks water very hard; the utility\'s own testing does not support that. For window cleaning the practical takeaway is that spotting here comes from how often sprinklers reach the glass and how fast the water evaporates, not from an extreme mineral load.' },
+    { q: 'Why do my Thousand Oaks windows get dusty again so quickly?', a: 'Usually because the dust source is closer than you think. The Conejo Open Space Conservation Agency protects 15,334 acres of open space inside Thousand Oaks city limits and its planning area, so a large share of homes here sit within a few hundred feet of dry chaparral or annual grass. From late spring until the first real rain, that ground surface sheds fine dust, oak pollen, and grass seed onto glass and into screen mesh, and a single Santa Ana event can undo weeks of clean appearance overnight. Homes with an open space edge on the north or east side usually need quarterly service, while interior lots on the valley floor hold up for 4 to 6 months.' }
   ]
 };
 ---

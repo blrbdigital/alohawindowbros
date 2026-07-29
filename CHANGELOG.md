@@ -1,3 +1,52 @@
+## 2026-07-29 - Differentiated /thousand-oaks/, the one city page that actually converts non-brand clicks
+
+- **Primary action: gave `/thousand-oaks/` a sourced, city-exclusive `localBrief`.** This is the
+  first **already-indexed** page to get one, so it tests a different question than the 07-27 Santa
+  Barbara brief does. Santa Barbara asks "does differentiation get an uncrawled page crawled";
+  Thousand Oaks asks "does it move an indexed page that already ranks". Agoura Hills, Westlake
+  Village, and Newbury Park stay untreated as the indexed control group.
+  - Direct-answer lede on the one thing structurally true of Thousand Oaks and nowhere else we
+    serve: the city is built **around** its wildland, not beside it. The Conejo Open Space
+    Conservation Agency counts **15,334 acres** of protected open space inside the city limits and
+    planning area and manages more than 12,700 of them, so the dust source is a few hundred feet
+    away rather than out at the edge of town.
+  - Key Takeaways box, four sourced sections (open space as the dust source, what the water report
+    actually says, inland vs coastal drying behaviour, what we do differently), and a table.
+  - **The table is a water-supply table, not a service-interval table.** Deliberately a different
+    table *kind* from the Santa Barbara brief so the two pages do not read as one filled-in
+    template.
+- **Corrected the water claim on this page using the utility's own report.** The page said
+  "imported water through Calleguas Municipal, averaging about 8.5 grains per gallon", which named
+  the wholesaler rather than the retailer and gave one blended number. California American Water's
+  2025 Consumer Confidence Report for **PWS ID CA5610040** (which covers Thousand Oaks and Newbury
+  Park) reports hardness per source: **140 mg/L / 8.2 gpg** from the MWD Jensen plant at **94%** of
+  supply, **164 mg/L / 9.5 gpg** from Calleguas Lake Bard at 5%, **146 mg/L / 8.5 gpg** from
+  Calleguas Las Posas at 1%. TDS 297 / 437 / 325 ppm respectively.
+  - This also **refutes on-page** the "12.8 grains per gallon, very hard" figure that water-softener
+    retailers publish and that a web search returns first. Given this site's history of copy-pasted
+    fabricated hardness numbers (swept 07-17 and 07-24), saying so explicitly is the point.
+- **Two accuracy fixes on the same page**: removed the unsourced "280+ sunny days per year" claim
+  (the identical unsourced figure also sat on `/santa-barbara/`; replaced here with the sourced
+  inland-elevation mechanism), and replaced **"Hidden Hills"** in the neighborhood chips, which is a
+  separate city in Los Angeles County, with **"Old Town Thousand Oaks"**.
+- **Two new FAQ entries** (FAQPage JSON-LD 6 to 8 questions): "How hard is the water in Thousand
+  Oaks?" and "Why do my Thousand Oaks windows get dusty again so quickly?"
+- **CSS**: `.city-brief-table tbody th` gained `min-width: 10.5rem`. Without it the row-label column
+  collapsed to one word per line on the new 5-column table inside the mobile scroll container.
+  Verified at 390px on both `/thousand-oaks/` and `/santa-barbara/` (no regression on the latter).
+- **Measurement.** `/thousand-oaks/` went from ~1,040 to **2,681 rendered words**. Jaccard vocabulary
+  similarity against its siblings is now **39.0-41.9%**, against **54.1-58.2%** for the untreated
+  indexed pages (Agoura/Westlake/Newbury) and 49.3% for the Oxnard/Ojai pair. **55%** of the page's
+  vocabulary is now unique to it, versus 27-34% for untreated pages.
+  - Note for future runs: the 07-27 entry quoted 76.2% and 65.4% using `intersection / min(set)`.
+    That formula is unusable across pages of different lengths, since a longer document trivially
+    contains more of a shorter one's vocabulary. **Jaccard (`intersection / union`) is the metric
+    from here on.**
+- **Verified, not assumed**: `/santa-barbara/` and `/simi-valley/` now read "URL is unknown to
+  Google" where they previously read "Discovered, currently not indexed". Both still have
+  `lastCrawlTime = NEVER`. That state rotates on its own and is **not** a regression from the 07-27
+  change; the Santa Barbara experiment is still pending its 2026-09-07 review.
+
 ## 2026-07-27 - Differentiated /santa-barbara/; measured that the 42-post blog earns zero non-brand clicks
 
 - **New measurement that should govern future content decisions.** Pulled a GSC `page x query` join

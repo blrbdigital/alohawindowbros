@@ -573,6 +573,9 @@ const jsonLd = {
   .city-brief-table tbody th {
     color: #1e3a5f;
     font-weight: 700;
+    /* Without a floor the row-label column collapses to one word per line on a 5-column
+       table inside the mobile scroll container (observed on /thousand-oaks/ 2026-07-29). */
+    min-width: 10.5rem;
   }
   .city-brief-table tbody td {
     color: #475569;
