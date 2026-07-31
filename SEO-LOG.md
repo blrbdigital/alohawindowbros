@@ -4,6 +4,121 @@
 
 ---
 
+### 2026-07-31
+
+**What we did:**
+- **homepage (primary): added a sourced Santa Barbara County section to `/`,** the page that actually
+  ranks for every Santa Barbara query the site earns. Exact-match H2, direct-answer lede, two sourced
+  blocks (Sundowner winds, the water supply), a water-portfolio table for water year 2025, three
+  external sources, and four internal links, two of them to `/santa-barbara/`.
+- **technical (same page): added `FAQPage` JSON-LD to the homepage,** which had none. `jsonLd` is now
+  an `@graph` of LocalBusiness + FAQPage, matching the ten city pages. FAQ copy consolidated into one
+  array feeding both the schema and the rendered list so they cannot drift apart.
+- **content: 2 new homepage FAQ items** on Santa Barbara service area and cleaning interval, 6 to 8
+  total, both consistent with `/santa-barbara/` and the pricing pillar.
+- **gbp (no code change): fourth consecutive run logging the `http://` Google Business Profile URL,**
+  now with the local-pack query evidence below.
+- Rejected title_meta, blog refresh, new_content, and internal_links, with reasons.
+
+**Why we did it (brief numbers, plus the GSC `query x page` join the brief does not contain):**
+- The reality check holds for a seventh run: **74 clicks / 2,585 impressions, but 6 non-brand clicks
+  against 1,878 non-brand impressions**. Click-winning is the bottleneck.
+- **The brief's biggest line is right about the query and wrong about the page.** It lists *window
+  cleaning santa barbara* at 180 impressions, position 9.1, zero clicks, and flags it as the top CTR
+  outlier. The join says all 180 of those impressions belong to **`/`**, not `/santa-barbara/`. Same
+  for the rest of the cluster: *window washing santa barbara* 35 @ 8.3, *santa barbara window
+  cleaning* 31 @ 11.1, *santa barbara window cleaners* 17 @ 11.8, *window cleaning montecito* 18 @
+  16.7, every row on `/`. That is **281 non-brand impressions, the largest single block on the
+  domain**, and it grew from 80 impressions on the head term alone.
+- **The page holding that demand had no Santa Barbara content.** Before this run the homepage body
+  carried an H2 reading "Window Cleaning Ventura County, Coast to Conejo", three Ventura-framed
+  condition cards, one Santa Barbara city chip, and one area card. The title names Santa Barbara
+  (rewritten 07-24); the body did not. Fixing that is the cheapest available relevance gain on the
+  one page that can convert this demand.
+- **Why not `/santa-barbara/`.** URL Inspection re-run this session: `lastCrawlTime = NEVER`, four
+  days after the 07-27 differentiation treatment. Nothing done to it can rank this cycle, and it is
+  under review until 09-07. Treating it again would destroy that read. All six uncrawled pages
+  (`/santa-barbara/`, `/camarillo/`, `/ventura/`, `/ojai/`, `/oxnard/`, `/simi-valley/`) are still
+  NEVER crawled and were left alone.
+- **Why the content clears the information-gain bar.** The water year 2025 supply portfolio is on no
+  competitor page for these queries, and its value is that it justifies a **refusal**: Gibraltar and
+  Devil's Canyon 38% (4,517 AF), Lake Cachuma 26% (3,117 AF), the Charles E. Meyer Desalination Plant
+  **17%** (1,947 AF), Mission Tunnel 10% (1,177 AF), recycled 9% (1,020 AF), and **zero** from both
+  the State Water Project and groundwater, out of 11,777 AF total production. A city that rebuilds
+  its supply mix every water year does not have a stable grains-per-gallon number, so we publish the
+  portfolio and say we read the deposit on the glass instead. Given this site shipped fabricated
+  hardness figures across 11 pages before the 07-17 and 07-24 sweeps, that is the right posture.
+  The Sundowner material is summarised and linked rather than repeated, because `/santa-barbara/`
+  already owns the deep dive.
+- **Why the FAQ schema counts as a real gap and not busywork.** `/` is the site's most valuable page
+  by a wide margin and it was rendering six FAQ items with zero FAQ markup while all ten city pages
+  had `FAQPage`. It is item 2 and item 4 on the GEO checklist and it costs nothing.
+- **Why not title_meta,** even though the playbook ranks it first and the section is non-empty: five
+  of the seven CTR outliers resolve to `/`, whose title was rewritten on 2026-07-24, four days before
+  this window closed. The other two resolve to `/agoura/` and `/westlake/`, rewritten 07-15 and
+  07-20. There is no untreated title on the board; rewriting one would destroy a pending experiment.
+- **Why not a blog refresh.** Re-measured again: all 42 posts earned **19 non-brand impressions and
+  0 non-brand clicks** in this window (262 of their 281 impressions are brand queries). The brief's
+  decaying-page flag on `/blog/solar-panel-cleaning-ventura-coastal-hillside-guide/` is real but
+  worthless, because the traffic it lost was not traffic that converts.
+- **Why not new_content.** Matrix complete at 42 posts, and the blog measurement above says a 43rd
+  earns nothing. The only new query with volume, *exterior cleaning newbury park* (25 impr), sits at
+  position 49.9.
+- **Why not internal_links.** Closed with evidence on 07-20, 07-24, and 07-29. `/santa-barbara/` is
+  already linked from the homepage twice plus contextually from four indexed, frequently-crawled
+  blog posts, and Google still declines to crawl it.
+- **Correction to the brief worth carrying forward: the brief's "Top pages" and "Decaying pages"
+  numbers for `/` are wrong.** It lists `/` at 209 impressions and flags it as decaying from 391.
+  The API says `/` took **1,421 impressions and 36 clicks** in that window, with non-brand
+  impressions **up 32%** (582 to 767). Do not act on a decay flag for `/` without joining first.
+
+**Expected impact:**
+- **Primary prediction:** `/` improves from position 9.1 to **position 7 or better on *window
+  cleaning santa barbara*** within six weeks, and the Santa Barbara cluster on `/` earns **at least
+  1 non-brand click** in a 28-day window (it has earned zero across 281 impressions).
+- **Secondary:** the homepage becomes eligible for FAQ rich results and AI-overview FAQ extraction.
+  No click prediction attached, because FAQ rich results for local service pages are inconsistently
+  shown and I am not going to claim a number I cannot defend.
+- **Honest limitation, and it is the same one as last run.** Position 9 to top 3 in one step is not
+  realistic and I am not predicting it. The Santa Barbara SERP is a local-pack SERP and we have no
+  Santa Barbara address, so organic depth has a ceiling here that content cannot break through.
+- **Honest confound.** The homepage title was rewritten on 07-24 and its CTR read is still pending.
+  This change alters the same page. The two are separable in principle (a title moves CTR at a fixed
+  position, content moves position) but if `/` gains clicks in September, do not attribute them
+  cleanly to either. I judged the relevance gap worth the muddied attribution because the title
+  experiment's own read was already going to be confounded by the position moving underneath it.
+- **The highest-yield action is still not in this repo, fourth run logged.** The Google Business
+  Profile listing carries **29 brand clicks and 2 non-brand clicks off 981 impressions** this window,
+  ranking **1.0 to 1.8** for *window cleaning thousand oaks*, *window washing thousand oaks*,
+  *window cleaning agoura hills*, *window cleaning newbury park*, and *window washing camarillo*. Its
+  website field points at `http://alohawindowbros.com/`, which 301-redirects. Changing it to
+  `https://` is two minutes of Adam's time. Also still open: manual "Request indexing" for the six
+  uncrawled city URLs, which has no API equivalent.
+- **Local-pack queries for the GBP workstream**, all measured this window: *window cleaning westlake
+  village* (GBP at 1.8 with 24 impressions, `/westlake/` at 3.7 with 28, **zero clicks between
+  them**), *window cleaning agoura hills* (GBP 1.0, `/agoura/` 7.7, 47 impressions, zero clicks),
+  *window cleaning newbury park* (GBP 1.4, `/newbury/` 6.7, 28 impressions, zero clicks). Three
+  cities where we hold a top-2 map result and a page-1 organic result and still get nothing.
+
+**Metrics at time of action (GSC `sc-domain:alohawindowbros.com`, 28d 2026-07-01..2026-07-28):**
+- Brief totals: 74 clicks / 2,585 impressions; non-brand 6 clicks / 1,878 impressions; non-brand avg
+  position 10.8.
+- Page-attributed brand vs non-brand: `/` 654 brand impr / 35 brand clicks vs **767 non-brand impr /
+  1 non-brand click** (prior window 582 non-brand impr). GBP `http://` 343 / 29 vs 638 / 2.
+  `/thousand-oaks/` 365 / 3 vs 241 / 3. `/agoura/` 313 / 1 vs 138 / 0. `/westlake/` 193 / 0 vs
+  100 / 0. `/newbury/` 186 / 0 vs 66 / 0. All 42 blog posts: 262 / 0 vs **19 / 0**.
+- Santa Barbara cluster, all attributed to `/`: 180 impr @ 9.1, 35 @ 8.3, 31 @ 11.1, 17 @ 11.8, plus
+  Montecito 18 @ 16.7. **281 impressions, 0 clicks.** `/santa-barbara/` holds 0 impressions.
+- `/thousand-oaks/` on its own query is at **11.5** this window (was 11.6 when treated on 07-29);
+  two days of exposure, far too early to read. Review still 09-09.
+- Index status re-audited this run via URL Inspection: all six of `/santa-barbara/`, `/camarillo/`,
+  `/ventura/`, `/ojai/`, `/oxnard/`, `/simi-valley/` remain **`lastCrawlTime = NEVER`**. `/` last
+  crawled 2026-07-28, `/thousand-oaks/` 2026-07-26.
+- Homepage after this run: `FAQPage` with 8 questions, Santa Barbara section 486 rendered words,
+  4 new internal links, 13 pre-existing county-section links preserved.
+
+---
+
 ### 2026-07-29
 
 **What we did:**

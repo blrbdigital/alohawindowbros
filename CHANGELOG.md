@@ -1,3 +1,52 @@
+## 2026-07-31 - Gave the homepage real Santa Barbara content, and the FAQ schema it never had
+
+- **Primary action (homepage): added a sourced Santa Barbara County section** between the Ventura
+  County section and Service Areas, with scoped `.sb-*` styles in `index.astro`.
+  - **Why the homepage and not `/santa-barbara/`.** A GSC `query x page` join for 07-01..07-28 puts
+    every row of the Santa Barbara block on `/`: *window cleaning santa barbara* 180 impr @ 9.1
+    (up from 12.0), *window washing santa barbara* 35 @ 8.3, *santa barbara window cleaning* 31 @
+    11.1, *santa barbara window cleaners* 17 @ 11.8, *window cleaning montecito* 18 @ 16.7. That is
+    **281 non-brand impressions, the largest single block on the domain**, and `/santa-barbara/`
+    holds **zero** of them because URL Inspection still reports `lastCrawlTime = NEVER`. The page
+    that ranks had no Santa Barbara body copy at all: an H2 reading "Window Cleaning Ventura County",
+    three Ventura-framed condition cards, and one city chip.
+  - H2 carries the exact query phrase. Direct-answer lede in the first 150 words naming the real
+    mechanism, which is that Santa Barbara glass is loaded from two opposite directions on the same
+    day: onshore marine salt through the afternoon, then dry ridgeline dust when Sundowners fall off
+    the Santa Ynez Mountains after dark.
+  - **New sourced data, none of it previously anywhere on the site: the City of Santa Barbara water
+    supply portfolio for water year 2025**, as a table. Gibraltar and Devil's Canyon 38% / 4,517 AF,
+    Lake Cachuma 26% / 3,117 AF, Charles E. Meyer Desalination Plant 17% / 1,947 AF, Mission Tunnel
+    10% / 1,177 AF, recycled 9% / 1,020 AF, State Water Project 0%, groundwater 0%. Total production
+    11,777 AF.
+  - **The point of that table is a refusal, not a number.** Santa Barbara runs on as many as eight
+    supplies and rebuilds the mix every water year, so the honest answer to "what is Santa Barbara's
+    water hardness" is that nobody can give you a stable one. That keeps faith with the 07-17 and
+    07-24 false-hardness sweeps, which had to strip fabricated gpg figures off 11 pages.
+  - 3 external sources, all verified 200 before commit: the City's 2024-2025 Water Supply Management
+    Report, the City's Water Sources page, and NCAR's Sundowner Winds Experiment. The AMS SWEX pilot
+    paper was dropped for 403-ing to non-browser agents.
+  - 4 new internal links, 2 of them to `/santa-barbara/`. **All 13 existing county-section links are
+    untouched**, verified against `dist/index.html`.
+- **Technical (homepage): added `FAQPage` JSON-LD.** The site's most valuable page rendered 6 FAQ
+  items with no FAQ schema at all, while all 10 city pages had it. `jsonLd` is now an `@graph`
+  (LocalBusiness + FAQPage), the same shape `CityLanding.astro` uses. FAQ copy moved into a single
+  `faqs` array consumed by both the schema and the rendered markup, so the two cannot drift.
+- **Content: 2 new homepage FAQ items** (do we serve Santa Barbara and Montecito, how often should
+  Santa Barbara windows be cleaned), 6 to 8 total. Both intervals match `/santa-barbara/` and both
+  price figures match the pricing pillar's $200 to $475 Santa Barbara band.
+- `areaServed` on the homepage LocalBusiness expanded with Hope Ranch, Goleta, Carpinteria, and
+  Summerland, which the Santa Barbara page already claims; `priceRange` corrected to $150-$475 to
+  match the pricing pillar rather than the stale $150-$400.
+- Verified before commit: build passes, 58 pages; zero em or en dashes in `dist/index.html`; both
+  JSON-LD blocks parse and the FAQPage carries 8 questions; iPhone-width render has no horizontal
+  page scroll and no console errors; the water table's Share column is reachable without scrolling
+  at 390px (columns were reordered after the first render showed it cut off).
+- **Not done, deliberately**: no `title_meta` (every CTR-outlier target is a page treated within the
+  last 8 to 16 days, and re-treating destroys a pending read), no blog work (42 posts earned 19
+  non-brand impressions and 0 clicks this window), no new post, and no touch to the six uncrawled
+  city pages or the two live `localBrief` experiments.
+
 ## 2026-07-29 - Differentiated /thousand-oaks/, the one city page that actually converts non-brand clicks
 
 - **Primary action: gave `/thousand-oaks/` a sourced, city-exclusive `localBrief`.** This is the

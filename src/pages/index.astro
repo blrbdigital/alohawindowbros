@@ -17,21 +17,56 @@ const reviews = [
   { text: '"We are repeat customers. Professional, friendly & do a great job!"', name: 'Sheri M.', color: '#f59e0b' },
 ];
 
+const faqs = [
+  { q: 'How much does window cleaning cost?', a: 'Every home is different! We provide free on-site quotes so you get an accurate price, no surprises. Most residential jobs range from $150 to $400 depending on the number of windows.' },
+  { q: 'Do I need to be home during the cleaning?', a: "Not necessarily. As long as we can access the windows, we can get the job done. We'll walk through the results with you when you're available." },
+  { q: "What's included in the service?", a: 'Our standard service includes windows, screens, frames, and sills, a complete four-in-one clean. We also offer solar panel cleaning and screen repair.' },
+  { q: 'Are you insured?', a: "Yes! We're fully insured so you can have complete peace of mind while we work on your property." },
+  { q: 'How often should I have my windows cleaned?', a: "We recommend every 3 to 6 months for most homes. If you're near trees, construction, or the coast, more frequent cleaning keeps things crystal clear." },
+  { q: 'Do you clean windows in Santa Barbara and Montecito?', a: 'Yes. Aloha Window Bros serves the city of Santa Barbara, Montecito, Hope Ranch, Summerland, Carpinteria, and Goleta alongside our Ventura County service area. Santa Barbara homes typically quote between $200 and $475 for the full four-in-one clean covering windows, screens, frames, and sills.' },
+  { q: 'How often should Santa Barbara windows be cleaned?', a: 'Every 2 to 3 months within about two miles of the water, where salt aerosol bonds a haze onto the glass, and roughly every 3 to 4 months inland in Hope Ranch, Mission Canyon, and Goleta. Hillside homes exposed to Sundowner winds sit at the shorter end of that inland range, because ridgeline dust returns within days of a wind event.' },
+  { q: "What if I'm not satisfied with the results?", a: "We walk the property with you before we leave. If anything doesn't look perfect, we redo it on the spot, 100% satisfaction guaranteed." },
+];
+
 const jsonLd = {
   "@context": "https://schema.org",
-  "@type": "LocalBusiness",
-  "name": "Aloha Window Bros",
-  "description": "Professional window cleaning services in Ventura County and Santa Barbara County",
-  "url": "https://alohawindowbros.com",
-  "telephone": "+18053414121",
-  "email": EMAIL,
-  "logo": "https://alohawindowbros.com/img/logo.PNG",
-  "image": businessImages,
-  "address": { "@type": "PostalAddress", "streetAddress": "138 Colt Lane", "addressLocality": "Thousand Oaks", "addressRegion": "CA", "postalCode": "91362" },
-  "areaServed": ["Thousand Oaks", "Westlake Village", "Agoura Hills", "Newbury Park", "Santa Barbara", "Montecito", "Camarillo", "Simi Valley", "Oxnard", "Ventura", "Ojai", "Ventura County", "Santa Barbara County"],
-  "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "50" },
-  "priceRange": "$150-$400"
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://alohawindowbros.com/#business",
+      "name": "Aloha Window Bros",
+      "description": "Professional window cleaning services in Ventura County and Santa Barbara County",
+      "url": "https://alohawindowbros.com",
+      "telephone": "+18053414121",
+      "email": EMAIL,
+      "logo": "https://alohawindowbros.com/img/logo.PNG",
+      "image": businessImages,
+      "address": { "@type": "PostalAddress", "streetAddress": "138 Colt Lane", "addressLocality": "Thousand Oaks", "addressRegion": "CA", "postalCode": "91362" },
+      "areaServed": ["Thousand Oaks", "Westlake Village", "Agoura Hills", "Newbury Park", "Santa Barbara", "Montecito", "Hope Ranch", "Goleta", "Carpinteria", "Summerland", "Camarillo", "Simi Valley", "Oxnard", "Ventura", "Ojai", "Ventura County", "Santa Barbara County"],
+      "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "50" },
+      "priceRange": "$150-$475"
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://alohawindowbros.com/#faq",
+      "mainEntity": faqs.map((f) => ({
+        "@type": "Question",
+        "name": f.q,
+        "acceptedAnswer": { "@type": "Answer", "text": f.a }
+      }))
+    }
+  ]
 };
+
+const sbWaterRows = [
+  ["Gibraltar Reservoir and Devil's Canyon Creek", '38%', '4,517 AF'],
+  ['Lake Cachuma', '26%', '3,117 AF'],
+  ['Charles E. Meyer Desalination Plant', '17%', '1,947 AF'],
+  ['Mission Tunnel', '10%', '1,177 AF'],
+  ['Recycled water', '9%', '1,020 AF'],
+  ['State Water Project', '0%', '0 AF'],
+  ['Groundwater', '0%', '0 AF'],
+];
 ---
 <Base
   title="Window Cleaning Santa Barbara & Ventura County | Free Quote"
@@ -283,6 +318,89 @@ const jsonLd = {
     </div>
   </section>
 
+  <!-- Window Cleaning Santa Barbara (South Coast context + internal links) -->
+  <section class="sb-section">
+    <div class="sb-inner">
+      <div class="sb-head">
+        <span class="sb-eyebrow">Santa Barbara County</span>
+        <h2>Window Cleaning Santa Barbara, Where Glass Gets Hit From Both Sides</h2>
+        <p class="sb-lede">
+          Santa Barbara windows get loaded from two opposite directions on the same day. Onshore marine air lays a salt
+          film down through the afternoon, then Sundowner winds fall off the Santa Ynez Mountains after dark and drop dry
+          ridgeline dust straight on top of it. Aloha Window Bros cleans windows, screens, frames, and sills across
+          <a href="/santa-barbara/">Santa Barbara</a>, Montecito, Hope Ranch, and Goleta, and most homes here quote
+          between $200 and $475 for the complete four-in-one clean.
+        </p>
+      </div>
+
+      <div class="sb-body">
+        <article class="sb-block">
+          <h3>Sundowners arrive when the wind should be dying down</h3>
+          <p>
+            A Sundowner is a downslope windstorm that forms on the lee side of the Santa Ynez Mountains and spills onto
+            the Santa Barbara coastal plain, peaking from early evening to mid-morning. The National Science Foundation
+            funded a full field campaign to study them, the Sundowner Winds Experiment, run out of Santa Barbara between
+            April 1 and May 15 of 2022. The practical version for a homeowner: a house washed at noon on the Riviera or
+            in Mission Canyon can carry visible grit by breakfast. Do not dry dust that film. It is mineral grit, and a
+            dry cloth grinds it across the glass.
+          </p>
+        </article>
+
+        <article class="sb-block">
+          <h3>Nobody can quote you a Santa Barbara water hardness number, including us</h3>
+          <p>
+            Most cities we serve run on one supply and one mineral profile. The City of Santa Barbara runs on as many as
+            eight, and the mix is rebuilt every water year. In water year 2025, which ran from October 2024 through
+            September 2025, the city drew nothing at all from the State Water Project and nothing from groundwater, while
+            17 percent of its water came out of the Charles E. Meyer Desalination Plant. When a company quotes you a fixed
+            grains-per-gallon figure for Santa Barbara, they are quoting a number that already moved last year and will
+            move again. We read the deposit on your glass and treat what is actually on it.
+          </p>
+        </article>
+      </div>
+
+      <div class="sb-table-wrap">
+        <p class="sb-table-caption">
+          City of Santa Barbara water supply by source, water year 2025. Total production 11,777 acre-feet.
+        </p>
+        <div class="sb-table-scroll">
+          <table class="sb-table">
+            <thead>
+              <tr><th scope="col">Source of supply</th><th scope="col">Share</th><th scope="col">WY 2025 volume</th></tr>
+            </thead>
+            <tbody>
+              {sbWaterRows.map((r) => (
+                <tr><th scope="row">{r[0]}</th><td>{r[1]}</td><td>{r[2]}</td></tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+        <p class="sb-sources">
+          Sources:
+          <a href="https://santabarbaraca.gov/sites/default/files/2026-02/2025_Water_Supply_Mgmt_Report.pdf" target="_blank" rel="noopener noreferrer">City of Santa Barbara, 2024-2025 Water Supply Management Report</a>,
+          <a href="https://santabarbaraca.gov/government/departments/public-works/water-resources/water-system/water-sources" target="_blank" rel="noopener noreferrer">City of Santa Barbara Water Sources</a>,
+          <a href="https://www.eol.ucar.edu/field_projects/swex" target="_blank" rel="noopener noreferrer">NCAR Earth Observing Laboratory, Sundowner Winds Experiment</a>.
+        </p>
+      </div>
+
+      <div class="sb-foot">
+        <p class="sb-foot-copy">
+          Our <a href="/santa-barbara/">Santa Barbara window cleaning page</a> carries the full picture: recommended
+          service intervals by zone, from the Mesa and the waterfront through Montecito, Hope Ranch, Mission Canyon, and
+          Goleta, plus what a salt haze actually is and why it comes back faster on ocean elevations.
+        </p>
+        <div class="sb-guides">
+          <a class="sb-guide" href="/blog/window-washing-santa-barbara-coastal-guide/">
+            <strong>Streak-free on the coast</strong><span>The window washing Santa Barbara guide</span>
+          </a>
+          <a class="sb-guide" href="/blog/screen-cleaning-santa-barbara-coastal-salt-and-oak-pollen-guide/">
+            <strong>Salt and oak pollen</strong><span>Screen cleaning in Santa Barbara</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- Service Areas -->
   <section class="areas-section" id="areas">
     <div class="areas-inner">
@@ -318,14 +436,7 @@ const jsonLd = {
     <h2>Frequently Asked Questions</h2>
     <p class="faq-subtitle">Everything you need to know before booking</p>
     <div class="faq-list">
-      {[
-        { q: 'How much does window cleaning cost?', a: 'Every home is different! We provide free on-site quotes so you get an accurate price, no surprises. Most residential jobs range from $150 to $400 depending on the number of windows.' },
-        { q: 'Do I need to be home during the cleaning?', a: "Not necessarily. As long as we can access the windows, we can get the job done. We'll walk through the results with you when you're available." },
-        { q: "What's included in the service?", a: 'Our standard service includes windows, screens, frames, and sills, a complete four-in-one clean. We also offer solar panel cleaning and screen repair.' },
-        { q: 'Are you insured?', a: "Yes! We're fully insured so you can have complete peace of mind while we work on your property." },
-        { q: 'How often should I have my windows cleaned?', a: "We recommend every 3 to 6 months for most homes. If you're near trees, construction, or the coast, more frequent cleaning keeps things crystal clear." },
-        { q: "What if I'm not satisfied with the results?", a: "We walk the property with you before we leave. If anything doesn't look perfect, we redo it on the spot, 100% satisfaction guaranteed." },
-      ].map((f) => (
+      {faqs.map((f) => (
         <details class="faq-item">
           <summary>{f.q}</summary>
           <p>{f.a}</p>
@@ -564,6 +675,190 @@ const jsonLd = {
   }
   @media (max-width: 640px) {
     .county-section {
+      padding: 48px 20px;
+    }
+  }
+
+  /* Santa Barbara County section */
+  .sb-section {
+    padding: 72px 40px;
+    background: #fff;
+  }
+  .sb-inner {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  .sb-head {
+    margin-bottom: 34px;
+  }
+  .sb-eyebrow {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #2563eb;
+    margin-bottom: 14px;
+  }
+  .sb-head h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(1.7rem, 3.2vw, 2.15rem);
+    font-weight: 700;
+    color: #1a1a2e;
+    line-height: 1.22;
+    margin: 0 0 16px;
+  }
+  .sb-lede {
+    font-size: 17px;
+    line-height: 1.75;
+    color: #334155;
+    margin: 0;
+  }
+  .sb-lede a,
+  .sb-foot-copy a {
+    color: #2563eb;
+    font-weight: 600;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(37, 99, 235, 0.3);
+  }
+  .sb-lede a:hover,
+  .sb-foot-copy a:hover {
+    border-bottom-color: #2563eb;
+  }
+
+  .sb-body {
+    display: grid;
+    gap: 26px;
+    padding: 26px 0 4px;
+    border-top: 1px solid #e2e8f0;
+  }
+  .sb-block h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.22rem;
+    font-weight: 700;
+    color: #1e3a5f;
+    line-height: 1.35;
+    margin: 0 0 10px;
+  }
+  .sb-block p {
+    font-size: 16px;
+    line-height: 1.75;
+    color: #475569;
+    margin: 0;
+  }
+
+  .sb-table-wrap {
+    margin-top: 30px;
+  }
+  .sb-table-caption {
+    font-size: 14px;
+    font-weight: 600;
+    color: #64748b;
+    margin: 0 0 10px;
+  }
+  .sb-table-scroll {
+    overflow-x: auto;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+  }
+  .sb-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 15px;
+  }
+  .sb-table th,
+  .sb-table td {
+    padding: 11px 16px;
+    text-align: left;
+    border-bottom: 1px solid #eef2f7;
+  }
+  .sb-table thead th {
+    background: #f8fafc;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #1e3a5f;
+    white-space: nowrap;
+  }
+  .sb-table tbody th {
+    font-weight: 600;
+    color: #1e3a5f;
+    min-width: 12.5rem;
+  }
+  .sb-table tbody td {
+    color: #475569;
+    white-space: nowrap;
+  }
+  .sb-table tbody tr:last-child th,
+  .sb-table tbody tr:last-child td {
+    border-bottom: none;
+  }
+  .sb-sources {
+    font-size: 13.5px;
+    line-height: 1.7;
+    color: #64748b;
+    margin: 12px 0 0;
+  }
+  .sb-sources a {
+    color: #2563eb;
+    text-decoration: none;
+  }
+  .sb-sources a:hover {
+    text-decoration: underline;
+  }
+
+  .sb-foot {
+    margin-top: 34px;
+    padding-top: 30px;
+    border-top: 1px solid #e2e8f0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+    align-items: center;
+  }
+  .sb-foot-copy {
+    font-size: 16px;
+    line-height: 1.7;
+    color: #475569;
+    margin: 0;
+  }
+  .sb-guides {
+    display: grid;
+    gap: 10px;
+  }
+  .sb-guide {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    padding: 14px 18px;
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    text-decoration: none;
+    transition: border-color 0.18s ease, transform 0.18s ease;
+  }
+  .sb-guide:hover {
+    border-color: #2563eb;
+    transform: translateX(3px);
+  }
+  .sb-guide strong {
+    font-size: 15px;
+    font-weight: 700;
+    color: #1e3a5f;
+  }
+  .sb-guide span {
+    font-size: 13.5px;
+    color: #64748b;
+  }
+  @media (max-width: 900px) {
+    .sb-foot {
+      grid-template-columns: 1fr;
+      gap: 24px;
+    }
+  }
+  @media (max-width: 640px) {
+    .sb-section {
       padding: 48px 20px;
     }
   }
