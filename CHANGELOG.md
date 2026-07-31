@@ -1,3 +1,49 @@
+## 2026-07-31 - Wired an Outrank webhook so articles can publish to the blog automatically
+
+- **What this is.** Adam is putting alohawindowbros.com on Outrank (backlink exchange / AI article
+  platform). Outrank's custom integration needs three things: an integration name, an HTTPS endpoint,
+  and an access token. This site is a static Astro build with no CMS and no API surface, so there was
+  nothing to hand them. Built one.
+- **New service `aloha-publish`** on the VPS (`/root/services/aloha-publish/server.mjs`, zero deps,
+  Node 22, systemd). Accepts Outrank's `publish_articles` and `update_article` events, converts each
+  article to a `src/content/blog/*.md` file matching the existing content-collection schema, commits
+  to `main` and pushes. The self-hosted runner deploys as usual. Endpoint is
+  `https://alohawindowbros.com/api/outrank/webhook`, bearer-authenticated.
+- **Ack fast, publish after.** The webhook returns Outrank's expected
+  `200 {"message":"Webhook processed successfully"}` as soon as the payload is validated and spooled
+  to disk; the git work happens on a 20s debounce afterwards. That keeps Outrank from timing out, and
+  batches a burst of articles into **one** commit and one deploy rather than N racing deploys
+  (the one-push-one-deploy rule). The spool survives a restart, so a crash mid-publish does not drop
+  an article.
+- **Content is sanitised on the way in**, because auto-publish means no human reads it first: em and
+  en dashes swept (site hard rule - ranges to "to", title break to a colon, prose break to a comma,
+  with a `worth a human read` warning logged and a count); `<script>`/`<style>`/`<iframe>`/`<form>`
+  and inline `on*=` handlers stripped; leading H1 removed so the page keeps exactly one H1
+  (`[slug].astro` renders the title itself); `image_url` downloaded into `public/img/blog/` and
+  referenced locally instead of hotlinking Outrank's CDN.
+- **Isolation.** The service pushes from its own clone at `/root/services/aloha-publish/repo`, using
+  a dedicated write-scoped GitHub **deploy key** (`aloha_publish`, host alias `github-aloha`) rather
+  than Adam's personal token - revocable on its own without touching anything else. It never touches
+  `/root/sites/aloha2` (the deploy target).
+- **Not exposed.** The VPS has no host firewall (ufw inactive, INPUT ACCEPT), so binding `0.0.0.0`
+  would have put :8790 on the public internet. Binds `127.0.0.1` + `172.18.0.1` (the Docker bridge
+  gateway, which is how the NPM container reaches the host) only. Verified refused from the public IP.
+- **Routing.** Added a `location = /api/outrank/webhook` block to NPM proxy host 34, written both
+  into the live conf *and* into NPM's `advanced_config` DB column so a future regeneration reproduces
+  it instead of silently dropping the route. `nginx -t` gated the reload, with conf + DB backups taken
+  first.
+- **Verified end to end on a throwaway `outrank-test` branch** (the deploy workflow only fires on
+  `main`/`master`, so nothing reached the live site): webhook 200, markdown generated with correct
+  frontmatter and YAML-escaped apostrophes, hero image downloaded, dashes swept to zero, script and
+  `onclick` payloads stripped, commit pushed. Then built the result with `npm run build`: page
+  renders, exactly **1 H1**, no injected script in the output, present in the sitemap. Branch deleted,
+  `main` untouched at `a148bcc`, 42 posts unchanged.
+- **Kill switch.** `PUBLISH_MODE=hold` in `/root/services/aloha-publish/aloha-publish.env` plus a
+  restart queues articles instead of pushing. Shipping on `live` per Adam. Slack `#aloha-seo` gets a
+  message on every publish.
+- **Left deliberately un-enforced:** no cap on outbound links and no check on what Outrank links to.
+  Worth an audit habit given this domain's disavow history.
+
 ## 2026-07-31 - Gave the homepage real Santa Barbara content, and the FAQ schema it never had
 
 - **Primary action (homepage): added a sourced Santa Barbara County section** between the Ventura
