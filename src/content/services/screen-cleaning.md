@@ -8,21 +8,21 @@ image: '/img/cover-slides/slide-4.png'
 
 We remove, deep-clean, and reinstall every screen:
 
-- **Mesh cleaning** — dust, pollen, and grime removed without damage
-- **Frame & track detailing** — debris cleared for smooth operation
-- **Inspection** — we flag any tears or damage so you can replace before they get worse
+- **Mesh cleaning**: dust, pollen, and grime removed without damage
+- **Frame & track detailing**: debris cleared for smooth operation
+- **Inspection**: we flag any tears or damage so you can replace before they get worse
 
 Pairs perfectly with our window washing for a complete clean.
 
 ## Our Process
 
-1. **Remove** — Screens are carefully taken out of each window frame
-2. **Deep clean** — Professional equipment and safe solutions remove all buildup
-3. **Reinstall & inspect** — Screens go back in and we confirm a proper fit
+1. **Remove**: Screens are carefully taken out of each window frame
+2. **Deep clean**: Professional equipment and safe solutions remove all buildup
+3. **Reinstall & inspect**: Screens go back in and we confirm a proper fit
 
 ## Pricing
 
-Pricing depends on the number of screens and level of buildup. Most jobs are done alongside window washing for the best value. Free on-site quotes — no surprises.
+Pricing depends on the number of screens and level of buildup. Most jobs are done alongside window washing for the best value. Free on-site quotes, no surprises.
 
 ## FAQ
 
@@ -37,7 +37,7 @@ Pricing depends on the number of screens and level of buildup. Most jobs are don
 </details>
 <details class="faq-item">
 <summary>Do you clean the frames and tracks too?</summary>
-<p>Yes — we clean the frames, tracks, and sills as part of the service.</p>
+<p>Yes. We clean the frames, tracks, and sills as part of the service.</p>
 </details>
 <details class="faq-item">
 <summary>Can you repair damaged screens?</summary>
@@ -45,6 +45,6 @@ Pricing depends on the number of screens and level of buildup. Most jobs are don
 </details>
 <details class="faq-item">
 <summary>Can I combine this with window washing?</summary>
-<p>Absolutely — most clients do. It's the best way to get a complete clean.</p>
+<p>Absolutely. Most clients do. It's the best way to get a complete clean.</p>
 </details>
 </div>

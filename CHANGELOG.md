@@ -1,3 +1,44 @@
+## 2026-08-03 - Added the gutter cleaning service page, the service the site never mentioned
+
+- **The finding.** A GSC `query x page` join over 90 days surfaced **277 non-brand impressions
+  across 27 gutter cleaning queries, and every single one landed on the `http://` Google Business
+  Profile listing rather than the website.** `grep -rni gutter src/` returned **zero** hits: the
+  site had no gutter content anywhere. For scale, the entire 42-post blog took 135 non-brand
+  impressions over the same 90 days, so this one missing service was carrying twice the blog's
+  whole non-brand demand.
+- **Verified the business actually offers it before writing a word.** "Gutter cleaning service" is a
+  GBP secondary category, and the service is live on Houzz (verified profile), Thumbtack,
+  ProMatcher, Yelp ("Gutter Services") and BBB. Sources: `citation-engine/clients/aloha.json` and
+  `seo-citation-packs/aloha.md`.
+- **New `/services/gutter-cleaning/`** (1,431 rendered words), built to the GEO checklist: direct
+  answer in the first 150 words, Key Takeaways box, a data table, six FAQs with FAQPage schema,
+  three cited primary sources, and links to all 10 city landing pages.
+- **Its argument is local and sourced, not filler.** Standard national advice is to clean gutters in
+  the fall. That is wrong in Ventura County, and two primary sources show why: NOAA's 1991-2020
+  normals for Oxnard Ventura County Airport put **87% of annual rain in November through March with
+  February the wettest month at 3.26 inches**, while the US Forest Service records that coast live
+  oak, an evergreen, **"sheds its old leaves from February to April"**. Peak leaf drop lands inside
+  the two wettest months, which is why the page recommends a November and an April visit instead of
+  one autumn cleaning. Every source URL was curl-checked for a 200 first; CAL FIRE was dropped for
+  403-ing to non-browser agents and NFPA used instead.
+- **No gutter price published**, deliberately. We have no gutter pricing from the business, so the
+  page explains the five variables that move a quote rather than inventing a band. Same posture as
+  the Santa Barbara hardness refusal.
+- **FAQPage JSON-LD added to `services/[slug].astro`**, which fixes all four service pages at once
+  (they were rendering FAQ `<details>` with no schema, the same gap closed on the homepage on
+  07-31). The schema is derived by regex from the markdown body, so it cannot drift from the
+  visible list.
+- **Em dash sweep gap closed.** The 2026-07-24 sweep used the glob `src/pages/*.astro`, which does
+  not match nested templates. `services/[slug].astro` and `blog/[slug].astro` still had dashes, and
+  one was in the **`<title>` of every service page**. Swept those plus `CookieBanner.astro` and all
+  three existing service markdown bodies. All rendered output outside `/blog` is dash-clean again,
+  verified against `dist/`.
+- **Internal links so the URL actually gets crawled.** Added to the sitewide footer, the homepage
+  services grid, the homepage county-section service strip, and the blog sidebar: **62 inbound HTML
+  files**. This matters because six city pages added in May with no inbound links have never been
+  crawled at all.
+- Build passes, 62 pages (was 61), new URL in the sitemap, all three JSON-LD graphs valid.
+
 ## 2026-07-31 - Wired an Outrank webhook so articles can publish to the blog automatically
 
 - **What this is.** Adam is putting alohawindowbros.com on Outrank (backlink exchange / AI article

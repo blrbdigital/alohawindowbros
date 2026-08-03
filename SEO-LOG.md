@@ -4,6 +4,143 @@
 
 ---
 
+### 2026-08-03
+
+**What we did:**
+- **new_content (primary): shipped `/services/gutter-cleaning/`,** a 1,431-word service page for a
+  service Aloha Window Bros actually sells and the website had never once mentioned. Direct-answer
+  lede, Key Takeaways box, a rainfall-vs-oak-phenology table, six FAQs, three cited primary sources,
+  and links to all 10 city landing pages.
+- **technical: added `FAQPage` JSON-LD to `src/pages/services/[slug].astro`,** which fixes all four
+  service pages at once. The schema is derived by regex from the markdown body's `<summary>`/`<p>`
+  pairs, so it cannot drift from the rendered list.
+- **technical (content rule): closed a hole in the 2026-07-24 em dash sweep.** That sweep's glob
+  `src/pages/*.astro` does not match nested templates. `services/[slug].astro` and
+  `blog/[slug].astro` still carried dashes, and one of them was in the **`<title>` of every service
+  page**, which joined the service name to the location with an em dash and now reads
+  `Window Washing in Ventura County, CA`. Swept those plus `CookieBanner.astro` and all
+  three pre-existing service markdown bodies.
+- **internal_links: 62 inbound HTML files to the new URL** (sitewide footer, homepage services grid,
+  homepage county-section service strip, blog sidebar).
+- **gbp (no code change): fifth consecutive run logging the `http://` GBP website URL,** now with a
+  much larger number attached to it.
+- Rejected title_meta, blog refresh, city-page refresh, and further internal_links, with reasons.
+
+**Why we did it (brief numbers, plus the GSC `query x page` join the brief does not contain):**
+- The reality check holds for an eighth run: **86 clicks / 5,565 impressions, but 6 non-brand clicks
+  against 1,940 non-brand impressions.** Click-winning is still the bottleneck.
+- **Every lever the playbook ranks above new_content was blocked by a pending experiment, so I went
+  looking for something genuinely untreated and found a whole missing service.** A 90-day
+  `query x page` join turned up **277 non-brand impressions across 27 distinct gutter cleaning
+  queries, and all 277 landed on the `http://` Google Business Profile listing. Zero landed on the
+  website.** `grep -rni gutter src/` returned **0 hits** across 61 URLs. For scale: **the entire
+  42-post blog earned 135 non-brand impressions over the same 90 days.** This one absent service was
+  carrying roughly twice the blog's entire non-brand demand.
+- **The GBP already ranks 1.0 to 3.5 on the money terms**, which means Google has no doubt the
+  entity does this work: *gutter cleaning* 15 impr @ **1.0**, *gutter cleaning prices ventura
+  county* 15 @ **2.3**, *gutter cleaning prices thousand oaks* 13 @ **2.5**, *gutter cleaning prices
+  westlake village* 12 @ **3.5**, *westlake village gutter screen* 38 @ 9.8. The website could never
+  compete for any of it because it had nothing on the topic to rank.
+- **I verified the business actually offers gutter cleaning before writing anything**, rather than
+  inferring it from a ranking. "Gutter cleaning service" is a **GBP secondary category**, and the
+  service is listed on the live Houzz profile, Thumbtack, ProMatcher, Yelp ("Gutter Services") and
+  BBB. Sources: `citation-engine/clients/aloha.json` and `seo-citation-packs/aloha.md`.
+- **Why it clears the information-gain bar decisively.** Standard national gutter advice is "clean in
+  the fall," and it is wrong here. Two primary sources prove it and no competitor page for these
+  queries carries either: NOAA's 1991-2020 normals for **Oxnard Ventura County Airport (USW00093110)**
+  put **87.2% of the 12.93 in annual rainfall in November through March, with February the wettest
+  month at 3.26 in** and June through September at **0.17 in combined (1.3%)**; and the **US Forest
+  Service FEIS** entry for *Quercus agrifolia* states that coast live oak, an **evergreen**, has
+  "leaves emerge from February to April; and old leaves are shed at the same time." **Peak leaf drop
+  lands inside the two wettest months of the year.** That is a checkable, locally specific,
+  counterintuitive claim, and it is the page's spine.
+- **Every source URL was curl-checked for a 200 before being linked.** CAL FIRE and
+  readyforwildfire.org both **403 to non-browser agents** and were dropped, same rule that dropped
+  the AMS SWEX paper and the USGS link; NFPA's wildfire page (200) supplied the ember guidance
+  instead.
+- **A service page, not a blog post,** because the blog is measured dead for non-brand traffic
+  (19 non-brand impressions and 0 clicks across all 42 posts this window). Service pages sit in the
+  conversion structure, carry `Service` schema, and there are only four of them, so this is a
+  structural addition rather than another matrix entry.
+- **Why the internal links here are not the debunked internal_links play.** The 07-20/07-24 finding
+  was that links cannot rescue an *existing, already densely linked* page Google declines to crawl.
+  This is the opposite problem: a **brand-new URL needs discovery at all**, and the six city pages
+  added in May with no inbound links have never been crawled once. 62 inbound files including the
+  sitewide footer and the daily-crawled homepage is the minimum for this page to get fetched.
+- **Why not title_meta.** Non-empty section, but still no untreated target. Five of the CTR outliers
+  resolve to `/` (title rewritten 07-24, and the brand clicks it risked have actually **risen from
+  32 to 42**, so the revert trigger did not fire). The rest resolve to `/agoura/` and `/westlake/`,
+  rewritten 07-15 and 07-20. Nothing to rewrite without destroying a pending read.
+- **Why not a blog refresh,** including the decayer the brief flags
+  (`/blog/solar-panel-cleaning-ventura-coastal-hillside-guide/`, 118 to 2 impressions): re-measured
+  this window, all 42 posts together earned **19 non-brand impressions and 0 non-brand clicks**. The
+  traffic it lost is not traffic that converts.
+- **Why no city page was touched.** `/santa-barbara/` (review 09-07) and `/thousand-oaks/` (review
+  09-09) are live experiments and the other eight city pages are their control groups. Treating a
+  control is how you lose the read. All six previously uncrawled pages remain untouched.
+- **A brief correction worth carrying forward.** The brief lists *window cleaning agoura hills* as
+  "slipping," 6.7 to 7.3. The join says `/agoura/` itself went **8.7 to 7.9, improving**; the
+  headline is a blend across our own URLs. Same caution as 07-29: join before acting on a brief
+  position.
+
+**Expected impact:**
+- **Primary prediction:** `/services/gutter-cleaning/` gets crawled and indexed within six weeks and
+  earns **at least 40 non-brand impressions in a 28-day window** on gutter queries. The demand is
+  already measured at ~92 impressions per 28 days going entirely to the GBP listing, so this is a
+  claim about capturing a share of known demand, not about creating it.
+- **Secondary:** **at least 1 non-brand click** to the page within six weeks. The site has earned 6
+  non-brand clicks in 28 days in total, so one from a brand-new page would be a meaningful shift.
+- **Tertiary:** all four service pages become eligible for FAQ rich results. No click number
+  attached, because FAQ rich results for local service pages are shown inconsistently.
+- **Honest limitation.** These are local-pack SERPs and we hold a strong GBP position on them
+  already, so the page may cannibalise map-pack impressions rather than add net new ones. That is
+  still a win (a site click is trackable and a GBP impression is not), but I am not claiming the
+  totals will simply add up.
+- **Second honest limitation.** The page's ceiling is capped by the same thing every page here is:
+  no gutter reviews, no gutter photos on the GBP, and a service-area business with no storefront
+  address. Content gets us eligible; it does not get us the pack.
+- **Third, and I want it on the record: I did not confirm the service scope with Adam.** The
+  "What Is Included" section describes the universal core of the trade (trough clearing, downspout
+  clearing and water test, flow check, cleanup, debris hauled away) rather than anything specific to
+  how the brothers work, and it publishes **no price**. **Adam should read that section once and
+  correct it if any of it is wrong.** Everything else on the page is externally sourced.
+- **The highest-yield action is still not in this repo, fifth run logged.** The GBP listing carries
+  **32 brand clicks and 2 non-brand clicks off 1,043 impressions** this window, and it is the sole
+  recipient of the entire 277-impression gutter cluster. Its website field still points at
+  `http://alohawindowbros.com/`, which 301-redirects. Changing it to `https://` is two minutes of
+  Adam's time and is now worth more than it was, because it should point at a site that finally has
+  a gutter page. Also still open: manual "Request indexing" for the six uncrawled city URLs, and now
+  for `/services/gutter-cleaning/` too.
+- **Local-pack queries for the GBP workstream**, this window: *window cleaning westlake village*
+  (`/westlake/` 3.8, GBP 1.9, **51 impressions, zero clicks**), *window cleaning agoura hills*
+  (`/agoura/` 7.9, 38 impr, zero clicks), *window cleaning newbury park* (`/newbury/` 6.5, 23 impr,
+  zero clicks). Plus the whole gutter set above, where we rank 1.0 to 3.5 and take nothing.
+
+**Metrics at time of action (GSC `sc-domain:alohawindowbros.com`, 28d 2026-07-04..2026-07-31):**
+- Totals: 86 clicks / 5,565 impressions; non-brand **6 clicks / 1,940 impressions** (prior 3 / 1,844).
+- Page brand vs non-brand: `/` 701 brand impr / **42** brand clicks vs **705 non-brand / 1**. GBP
+  `http://` 381 / 32 vs 662 / 2. `/thousand-oaks/` 395 / 2 vs **248 / 3**. `/agoura/` 343 / 1 vs
+  140 / 0. `/westlake/` 215 / 1 vs 97 / 0. `/newbury/` 208 / 0 vs 68 / 0. All 42 blog posts:
+  284 / 0 vs **19 / 0**.
+- **Gutter cluster, 90d (2026-05-05..2026-08-01): 27 queries, 277 non-brand impressions, 0 clicks,
+  100% attributed to `http://alohawindowbros.com/`.** Site occurrences of "gutter" before this run:
+  **0**. Whole-blog non-brand over the same 90 days for comparison: **135 impressions, 0 clicks**.
+- Pressure washing, the other GBP secondary category with no page: ~50 non-brand impressions / 90d,
+  mostly single-impression rows. Logged, deliberately not actioned as too thin.
+- Santa Barbara cluster, still 100% on `/`: 181 impr @ **9.0** (from 11.4 prior), plus 28 @ 10.4,
+  24 @ 8.2, 17 @ 11.6, 16 @ 16.4. Treated 07-31, review pending, left alone.
+- `/thousand-oaks/` on its own query: **11.1** (from 11.9). Non-brand clicks on the page went
+  **0 to 3**. Treated 07-29, review 09-09, far too early to read.
+- Homepage brand clicks **32 to 42** since the 07-24 title rewrite, so the documented "revert the
+  title if brand clicks fall" trigger has not fired.
+- After this run: 4 service pages (was 3), 62 built pages (was 61), `FAQPage` schema on 4 service
+  pages (was 0), 62 inbound HTML files to the new URL, all rendered output outside `/blog`
+  dash-clean, build passing.
+- Data caveats unchanged: PageSpeed 429 both strategies, Semrush degraded, GA4 reporting 0 sessions
+  (consent-gated). Scoreboard still empty with 31 actions pending.
+
+---
+
 ### 2026-07-31
 
 **What we did:**

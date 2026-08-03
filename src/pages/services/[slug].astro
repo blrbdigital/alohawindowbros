@@ -25,20 +25,42 @@ const serviceImages: Record<string, string> = {
   'window-washing': '/img/window_washing_image.png',
   'screen-cleaning': '/img/cover-slides/slide-4.png',
   'solar-panel-cleaning': '/img/solar_1.png',
+  'gutter-cleaning': '/img/water_pole_2.jpg',
 };
 
 const serviceTaglines: Record<string, string> = {
   'window-washing': 'Crystal clear views for your home and business',
   'screen-cleaning': 'Breathe easy with spotless, dust-free screens',
   'solar-panel-cleaning': 'Maximize your energy output with clean panels',
+  'gutter-cleaning': 'Clear troughs and downspouts before the rain season',
 };
 
 const heroImage = serviceImages[service.id] || service.data.image;
 const tagline = serviceTaglines[service.id] || service.data.description;
 
+// FAQPage schema is derived from the rendered FAQ markup in the markdown body,
+// so the schema and the visible list can never drift apart. Same rule as the
+// homepage `faqs` array (see .claude-site-map.md): add FAQ items to the markdown,
+// never here.
+const stripTags = (s: string) => s.replace(/<[^>]*>/g, '').replace(/\s+/g, ' ').trim();
+const faqs: { q: string; a: string }[] = [];
+const faqRe = /<summary>([\s\S]*?)<\/summary>\s*<p>([\s\S]*?)<\/p>/g;
+let m: RegExpExecArray | null;
+while ((m = faqRe.exec(service.body ?? '')) !== null) {
+  faqs.push({ q: stripTags(m[1]), a: stripTags(m[2]) });
+}
+
 const jsonLd = {
   "@context": "https://schema.org",
   "@graph": [
+    ...(faqs.length ? [{
+      "@type": "FAQPage",
+      "mainEntity": faqs.map((f) => ({
+        "@type": "Question",
+        "name": f.q,
+        "acceptedAnswer": { "@type": "Answer", "text": f.a }
+      }))
+    }] : []),
     {
       "@type": "Service",
       "name": service.data.title,
@@ -65,7 +87,7 @@ const jsonLd = {
 };
 ---
 <Base
-  title={`${service.data.title} — Ventura County, CA`}
+  title={`${service.data.title} in Ventura County, CA`}
   description={service.data.description}
   ogImage={heroImage}
   jsonLd={jsonLd}
@@ -109,7 +131,7 @@ const jsonLd = {
     <aside class="service-sidebar">
       <div class="sidebar-card">
         <h3>Get Your Free Quote</h3>
-        <p>Schedule online or call us — we'll come to you.</p>
+        <p>Schedule online or call us. We'll come to you.</p>
         <a href={CALENDLY} class="hero-cta-primary" target="_blank" rel="noopener noreferrer" style="width:100%;text-align:center;">Schedule Now</a>
         <div class="sidebar-divider"><span>or</span></div>
         <a href={PHONE_LINK} class="sidebar-phone">{PHONE}</a>
