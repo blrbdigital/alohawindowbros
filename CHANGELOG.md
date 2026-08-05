@@ -1,3 +1,43 @@
+## 2026-08-05 - One business entity, and the review count is now the real one
+
+- **The site was publishing a review figure that was wrong on both axes.** Every page carrying a
+  `LocalBusiness` node asserted `aggregateRating 5.0 / 50 reviews`. The live Google Business
+  Profile (CID 4483745950804238350, read off the listing today) says **4.9 stars from 185 reviews**
+  (5 star 175, 4 star 6, 3 star 2, 2 star 1). So the site was inventing a perfect 5.0 that
+  contradicts the public listing while understating the review count by 135. Same class of defect
+  as the fabricated water-hardness numbers swept on 07-17, and fixed the same way: read the primary
+  source, publish that, never estimate.
+- **Corrected everywhere, in schema and in visible copy, because Google expects the two to agree:**
+  the homepage hero proof pill (was "Reviews (50+)"), the homepage "5.0 Rating" badge, the homepage
+  stats bar (was "50+ 5-Star Reviews"), and the trust line on all 10 city landing pages
+  (was "5.0 Rating"). The hero pill now also links to the Google Business Profile itself instead of
+  a Google search for the brand.
+- **Fifteen LocalBusiness nodes collapsed into one entity.** The homepage used
+  `@id: /#business`, each city page minted its own `/<city>/#business`, and the four service pages
+  emitted an anonymous `provider` node with no `@id` at all. To an entity resolver that is fifteen
+  different businesses sharing a phone number. All fifteen now emit the identical node under
+  `https://alohawindowbros.com/#business`.
+- **City pages express the city with a `Service` node, not a second business.** Each city page now
+  carries `Service` (name "Window Cleaning in <City>, CA", `provider` referencing the shared `@id`,
+  `areaServed` a `City` with the page's GeoCoordinates). Nothing was lost: the per-city coordinates
+  moved from the duplicate business node onto the thing they actually describe. Service pages point
+  their `provider` at the same `@id`.
+- **Added `sameAs`, and `openingHoursSpecification`.** `sameAs` carries the two profile URLs that
+  were actually fetched and confirmed to hold this business's NAP: the Google Business Profile and
+  ProvenExpert. This is the property that tells Google and the AI engines that the listing
+  outranking us on most local queries and this website are one entity. bbb.org was left out: it
+  403s to non-browser agents (same rule that dropped CAL FIRE and the AMS SWEX paper) and its
+  profile is unclaimed under the predecessor brand. Hours mirror the GBP's owner-published
+  "Open 24 hours", confirmed on the live listing today.
+- **All of it now lives in one place.** `src/lib/seo.ts` exports `businessNode()`, `BUSINESS_ID`,
+  `GBP`, `AREA_SERVED` and `SAME_AS`; the three templates import them. The facts cannot drift
+  between templates any more, which is the same discipline already applied to the homepage FAQ
+  array and the service-page FAQ schema. The service pages also picked up the full 17-entry
+  `areaServed` list (they had 6) and the missing `priceRange`.
+- Verified: build passes, 64 pages, all 64 pages' JSON-LD parses, 15 LocalBusiness nodes with one
+  `@id` and one rating, mobile 390px capture of the homepage and a city page shows no overflow from
+  the longer review string.
+
 ## 2026-08-03 - Added the gutter cleaning service page, the service the site never mentioned
 
 - **The finding.** A GSC `query x page` join over 90 days surfaced **277 non-brand impressions

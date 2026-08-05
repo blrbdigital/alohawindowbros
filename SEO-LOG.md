@@ -4,6 +4,150 @@
 
 ---
 
+### 2026-08-05
+
+**What we did:**
+- **technical (sole substantive action): rebuilt the site's business entity in structured data and
+  corrected the review numbers it publishes.** One `LocalBusiness` node, one `@id`, one set of
+  facts, emitted identically on all 15 pages that carry it, built from a single exported
+  `businessNode()` in `src/lib/seo.ts`.
+- **Corrected `aggregateRating` from `5.0 / 50` to `4.9 / 185`** on the homepage and all 10 city
+  landing pages, and corrected the same numbers in the visible copy they are supposed to match
+  (homepage hero pill, homepage "5.0 Rating" badge, homepage stats bar, and the trust line on all
+  10 city pages).
+- **Added `sameAs`** (Google Business Profile + ProvenExpert, both fetched and confirmed) and
+  **`openingHoursSpecification`** (Open 24 hours, read off the live GBP today) to every business
+  node.
+- **Added a per-city `Service` node** to the city landing template, carrying the city's
+  GeoCoordinates and pointing `provider` at the shared business `@id`.
+- **gbp (no code change): sixth consecutive run logging the `http://` GBP website field**, this time
+  confirmed by reading the live listing's own anchor hrefs rather than inferring it.
+- Rejected title_meta, refresh, new_content and internal_links, with reasons.
+
+**Why we did it (brief numbers, plus the GSC `query x page` join the brief does not contain):**
+- The reality check holds for a ninth run: **86 clicks / 2,581 impressions but 6 non-brand clicks
+  against 1,799 non-brand impressions.** Click-winning is still the bottleneck, not content volume.
+- **Every lever above `technical` in the playbook was checked against the join and found spent or
+  blocked, so I went looking for something factually wrong instead, and found the site asserting a
+  review figure that its own Google Business Profile contradicts.** The site published
+  `aggregateRating 5.0 / 50`. The live GBP (CID 4483745950804238350, read directly today) is
+  **4.9 stars from 185 reviews**, distribution 5 star 175 / 4 star 6 / 3 star 2 / 2 star 1. So the
+  site was publishing a fabricated perfect rating **and** understating real social proof by 135
+  reviews, on 11 pages, in both schema and visible copy.
+- **This is the same defect class as the fabricated hardness numbers swept on 07-17**, and it
+  matters more than it looks here specifically because of where this site's traffic sits: the GBP
+  listing takes **640 non-brand impressions and 2 of the site's 5 non-brand clicks this window**,
+  and ranks 1.0 to 3.5 on the money terms. A site whose structured data disagrees with the listing
+  it is trying to be associated with is working against itself, and AI engines quote this JSON-LD
+  verbatim.
+- **The entity fragmentation was the bigger structural finding.** The homepage declared
+  `@id: /#business`, each of the 10 city pages minted its own `/<city>/#business`, and the 4 service
+  pages emitted an anonymous `provider` node with no `@id`. That is **15 separate businesses**
+  sharing one phone number as far as an entity resolver is concerned, on a site whose entire
+  measured problem is that Google resolves the local entity to the GBP listing and not to the
+  website. All 15 now emit one node under `https://alohawindowbros.com/#business`, and `sameAs`
+  names the GBP explicitly. This is the in-repo half of the GBP lever, and it is the first time it
+  has been pulled.
+- **`sameAs` was held to the site's existing source standard.** Only URLs actually fetched and
+  confirmed to carry this business's NAP are in it: the GBP (200) and ProvenExpert (200, 138 Colt
+  Lane present). **bbb.org 403s to non-browser agents** (the rule that already dropped CAL FIRE, the
+  AMS SWEX paper and a USGS link) and its profile is unclaimed under the predecessor brand
+  "Aloha Bros Roof Cleaning", so it was left out rather than linked on faith. Houzz Pro is
+  LIVE-VERIFIED in the citation engine but its public profile URL is not recorded anywhere and I
+  could not surface it, so it is not in `sameAs` either. Both are worth adding later.
+- **Why not title_meta**, though the CTR-outliers section has 6 rows. The join says five of the six
+  resolve to `/` (title rewritten 07-24; brand clicks have risen 32 to 42, so the documented revert
+  trigger has not fired) and the rest to `/agoura/` and `/westlake/` (rewritten 07-15 and 07-20,
+  both still pending review). **The bigger point: at positions 8.9 to 13.5 these are not CTR
+  outliers at all, they are rank problems.** Expected CTR at position 10 is roughly 1 to 2 percent,
+  so 0 clicks on 26 impressions is the arithmetic, not a title failure. The one genuine CTR outlier
+  is *window cleaning westlake village*, and the join shows why a title cannot fix it: `/westlake/`
+  3.8 plus the GBP at 1.9, **55 impressions and zero clicks**. That is the map pack, so it is logged
+  for the GBP workstream, not written around.
+- **Why not a refresh.** The three decaying pages the brief flags are all blog posts, and the blog
+  is measured dead for non-brand: **all 47 posts together took 21 non-brand impressions and 0
+  non-brand clicks this window.** The traffic those pages lost is not traffic that converts.
+- **Why not new_content, and the one candidate that failed the bar.** I re-ran the gutter-style
+  scan that produced the 08-03 page: a 90-day non-brand join across every query outside the window
+  and gutter clusters. The only untouched theme is pressure washing and roof cleaning, and it is
+  **about 15 impressions over 90 days, almost all single-impression rows**, which confirms and
+  tightens the 08-03 "too thin" call rather than overturning it. Nothing else cleared the bar, so
+  nothing was written.
+- **The one real content-shaped finding, and why I did not act on it.** Price intent is the second
+  biggest non-brand cluster on this domain: **465 impressions across 90 days and zero clicks**, more
+  than three times the entire blog's non-brand impressions. But it is already served. The city pages
+  rank **3.8 to 5.9** on their price queries with the price band already in the meta description
+  (`window cleaning cost thousand oaks` 3.8, `window cleaning prices westlake village` 3.9,
+  `window cleaning prices agoura hills` 5.9), so the cheap title_meta win has been taken. The
+  obvious structural move, lifting the pricing pillar out of the dead blog into a `/pricing/` page,
+  **would create a near-duplicate of a page rebuilt on 07-17 that is still pending review, and it
+  could not be consolidated**, because 301s live in `.blrb/nginx_spa.conf`, which `blrb-connect`
+  applies on the VPS and the GitHub Actions site deploy does not redeploy. Committing the redirect
+  would ship inert config. Logged for a future run where the redirect can be applied.
+- **Why no city page body copy was touched.** `/santa-barbara/` (review 09-07) and `/thousand-oaks/`
+  (review 09-09) are live differentiation experiments and the other eight are their control groups.
+  This run's change is JSON-LD plus one trust line, applied uniformly to all 10, so it does not
+  disturb the between-groups read on either experiment.
+
+**Expected impact:**
+- **Primary, and it is a correctness fix first.** The site now states the true rating and review
+  count. The honest expectation for rankings is **zero direct effect**: self-serving
+  `aggregateRating` on a business's own site is not eligible for Google rich results either way, so
+  no star snippets should appear. What changes is what AI engines quote. They read this JSON-LD
+  literally, and "4.9 from 185 Google reviews" is both true and a materially stronger citation than
+  "5.0 from 50".
+- **Secondary, and this is the one I actually expect to matter:** consolidating 15 business nodes
+  into one `@id` and naming the Google Business Profile in `sameAs` is the standard mechanism for
+  telling Google that the listing and the website are one entity. The measured problem on this
+  domain is that the GBP takes the local rankings and the website does not. **Prediction: no
+  measurable position change from this alone within six weeks.** It is a prerequisite, not a
+  driver, and I would rather say so than claim a number I do not believe.
+- **Third: the visible number is a conversion lever independent of ranking.** "185 Google reviews"
+  in the hero and on all 10 city pages, where it previously said "50+", is a stronger proof point
+  for every visitor who already arrives, and those visitors are the ones who click the Calendly CTA.
+  GA4 cannot measure this here (consent-gated, reporting 0 sessions), so I am not going to be able
+  to prove it either way.
+- **Honest limitation.** Nothing here creates demand or wins a click in the SERP. This run bought
+  accuracy and entity coherence, both of which were genuinely broken, and neither of which shows up
+  in the clicks column on its own.
+- **The highest-yield action is still not in this repo, and this is the sixth run logging it.** The
+  GBP website field still points at `http://alohawindowbros.com/`. I confirmed it today by reading
+  the anchor hrefs off the live listing rather than inferring it. It 301-redirects, and it is now
+  the URL of a site whose structured data finally points back at that listing. Changing it to
+  `https://` is two minutes of Adam's time. Also still open: manual "Request indexing" in the GSC UI
+  for the six never-crawled city URLs, and for `/services/gutter-cleaning/` shipped on 08-03.
+- **For the GBP workstream this window:** *window cleaning westlake village* (`/westlake/` 3.8,
+  GBP 1.9, 55 impressions, zero clicks), *window cleaning agoura hills* (`/agoura/` 7.9, 39 impr,
+  zero clicks), *window cleaning newbury park* (`/newbury/` 6.5, 26 impr, zero clicks), plus the
+  whole price cluster where the GBP holds 1.0 to 4.6 on ten queries and takes nothing.
+
+**Metrics at time of action (GSC `sc-domain:alohawindowbros.com`, 28d 2026-07-06..2026-08-02):**
+- Totals: 86 clicks / 2,581 impressions; non-brand **6 clicks / 1,799 impressions** (prior 3 / 1,724).
+  Non-brand average position 11.3 from 9.7.
+- Page brand vs non-brand (join, brand regex `/aloha|window bros|mahalo/i`): `/` 723 brand impr / 42
+  brand clicks vs **681 non-brand / 1**. GBP `http://` 395 / 35 vs **640 / 2**. `/thousand-oaks/`
+  407 / 2 vs 248 / 3. `/agoura/` 351 / 1 vs 137 / 0. `/westlake/` 224 / 1 vs 96 / 0. `/newbury/`
+  217 / 0 vs 68 / 0. **All 47 blog posts combined: 21 non-brand impressions, 0 non-brand clicks.**
+- **Google Business Profile, read live 2026-08-05: 4.9 stars, 185 reviews** (5 star 175, 4 star 6,
+  3 star 2, 2 star 1). Site was publishing 5.0 / 50 on 11 pages. Website field still `http://`.
+- **Price-intent cluster, 90d (2026-05-05..2026-08-02): 465 non-brand impressions, 0 clicks**, of
+  which the pricing pillar took 35. Best positions are on city pages: `window cleaning cost thousand
+  oaks` 6.4, `window cleaning prices westlake village` 4.3, `window cleaning prices agoura hills`
+  5.9. Not actioned, reason above.
+- Pressure washing and roof cleaning, 90d: **about 15 non-brand impressions**, almost all
+  single-impression rows. Confirms the 08-03 "too thin" call.
+- Santa Barbara cluster still 100% on `/`: `window cleaning santa barbara` **177 impr @ 8.9** (from
+  11.3), plus 31 @ 10.0, 22 @ 8.2, 17 @ 11.5, 16 @ 15.2. Treated 07-31, review pending, untouched.
+- `/thousand-oaks/` on its own query: **10.8** (from 11.5). Treated 07-29, review 09-09, too early.
+- Homepage brand clicks 42, so the "revert the title if brand clicks fall" trigger has not fired.
+- After this run: 15 LocalBusiness nodes with **1** shared `@id` (was 12 distinct plus 3 anonymous),
+  `sameAs` and `openingHoursSpecification` on all 15 (was 0), a `Service` node on all 10 city pages
+  (was 0), 64 pages built, all JSON-LD parses, mobile 390px verified, build passing.
+- Data caveats unchanged: PageSpeed 429 both strategies, Semrush degraded, GA4 reporting 0 sessions
+  (consent-gated). Scoreboard still empty with 37 actions pending.
+
+---
+
 ### 2026-08-03
 
 **What we did:**

@@ -2,7 +2,7 @@
 import Base from '../layouts/Base.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
-import { businessImages } from '../lib/seo';
+import { businessNode, GBP } from '../lib/seo';
 import '../styles/global.css';
 
 const PHONE = '(805) 341-4121';
@@ -31,21 +31,7 @@ const faqs = [
 const jsonLd = {
   "@context": "https://schema.org",
   "@graph": [
-    {
-      "@type": "LocalBusiness",
-      "@id": "https://alohawindowbros.com/#business",
-      "name": "Aloha Window Bros",
-      "description": "Professional window cleaning services in Ventura County and Santa Barbara County",
-      "url": "https://alohawindowbros.com",
-      "telephone": "+18053414121",
-      "email": EMAIL,
-      "logo": "https://alohawindowbros.com/img/logo.PNG",
-      "image": businessImages,
-      "address": { "@type": "PostalAddress", "streetAddress": "138 Colt Lane", "addressLocality": "Thousand Oaks", "addressRegion": "CA", "postalCode": "91362" },
-      "areaServed": ["Thousand Oaks", "Westlake Village", "Agoura Hills", "Newbury Park", "Santa Barbara", "Montecito", "Hope Ranch", "Goleta", "Carpinteria", "Summerland", "Camarillo", "Simi Valley", "Oxnard", "Ventura", "Ojai", "Ventura County", "Santa Barbara County"],
-      "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "50" },
-      "priceRange": "$150-$475"
-    },
+    businessNode(),
     {
       "@type": "FAQPage",
       "@id": "https://alohawindowbros.com/#faq",
@@ -83,16 +69,16 @@ const sbWaterRows = [
     </div>
     <div class="hero-inner">
       <div class="hero-left">
-        <a href="https://www.google.com/search?q=aloha+window+bros+reviews" target="_blank" rel="noopener noreferrer" class="hero-proof">
+        <a href="https://maps.google.com/?cid=4483745950804238350" target="_blank" rel="noopener noreferrer" class="hero-proof">
           <span class="hero-proof-stars">★★★★★</span>
-          <span>Reviews (50+)</span>
+          <span>{GBP.ratingValue} from {GBP.reviewCount} Google reviews</span>
         </a>
         <h1>Crystal Clear Windows,<br /><em>Island Hospitality</em></h1>
         <p class="hero-text">Two brothers bringing the spirit of aloha to Ventura & Santa Barbara County. We professionally clean your windows, screens, frames, and sills, leaving your home shining.</p>
         <div class="hero-badges">
           <span class="hero-badge">Fully Insured</span>
           <span class="hero-badge">Locally Owned</span>
-          <span class="hero-badge">5.0 Rating</span>
+          <span class="hero-badge">{GBP.ratingValue} Google Rating</span>
         </div>
         <div class="hero-ctas">
           <a href={CALENDLY} class="hero-cta-primary" target="_blank" rel="noopener noreferrer">Get Your Free Quote</a>
@@ -127,7 +113,7 @@ const sbWaterRows = [
   <!-- Stats -->
   <section class="stats-bar">
     <div class="stat"><span class="stat-num">500+</span><span class="stat-label">Clients</span></div>
-    <div class="stat"><span class="stat-num">50+</span><span class="stat-label">5-Star Reviews</span></div>
+    <div class="stat"><span class="stat-num">{GBP.reviewCount}</span><span class="stat-label">Google Reviews</span></div>
     <div class="stat"><span class="stat-num">100%</span><span class="stat-label">Satisfaction</span></div>
     <div class="stat"><span class="stat-num">24hr</span><span class="stat-label">Response Time</span></div>
   </section>

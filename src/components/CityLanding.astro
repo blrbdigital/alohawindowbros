@@ -2,7 +2,7 @@
 import Base from '../layouts/Base.astro';
 import Header from './Header.astro';
 import Footer from './Footer.astro';
-import { businessImages } from '../lib/seo';
+import { businessNode, BUSINESS_ID, GBP } from '../lib/seo';
 import '../styles/global.css';
 
 export interface CityProps {
@@ -67,21 +67,22 @@ const relatedCities = ALL_CITIES.filter((c) => c.slug !== city.slug);
 const jsonLd = {
   "@context": "https://schema.org",
   "@graph": [
+    // One shared business entity (see src/lib/seo.ts). The city is expressed by
+    // the Service node below, not by minting a second LocalBusiness per page.
+    businessNode(),
     {
-      "@type": "LocalBusiness",
-      "@id": `https://alohawindowbros.com/${city.slug}/#business`,
-      "name": "Aloha Window Bros",
+      "@type": "Service",
+      "@id": `${canonical}#service`,
+      "name": `Window Cleaning in ${city.cityName}, CA`,
       "description": `Professional window cleaning service for ${city.cityName} homes, including screen, frame, sill, and solar panel cleaning.`,
+      "serviceType": "Window cleaning service",
       "url": canonical,
-      "telephone": "+18053414121",
-      "email": EMAIL,
-      "logo": "https://alohawindowbros.com/img/logo.PNG",
-      "image": businessImages,
-      "priceRange": "$150-$475",
-      "address": { "@type": "PostalAddress", "addressLocality": "Thousand Oaks", "addressRegion": "CA", "postalCode": "91362", "addressCountry": "US" },
-      ...(city.geo ? { "geo": { "@type": "GeoCoordinates", "latitude": city.geo.lat, "longitude": city.geo.lon } } : {}),
-      "areaServed": [city.cityName, "Ventura County", "Santa Barbara County"],
-      "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "50" }
+      "provider": { "@id": BUSINESS_ID },
+      "areaServed": {
+        "@type": "City",
+        "name": city.cityName,
+        ...(city.geo ? { "geo": { "@type": "GeoCoordinates", "latitude": city.geo.lat, "longitude": city.geo.lon } } : {})
+      }
     },
     {
       "@type": "BreadcrumbList",
@@ -126,7 +127,7 @@ const jsonLd = {
         <a href={PHONE_LINK} class="city-hero-phone">Or call {PHONE}</a>
       </div>
       <div class="city-hero-trust">
-        <span>★★★★★ 5.0 Rating</span>
+        <span>★★★★★ {GBP.ratingValue} from {GBP.reviewCount} Google reviews</span>
         <span>✓ Fully Insured</span>
         <span>✓ Locally Owned</span>
       </div>
