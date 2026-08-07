@@ -4,6 +4,100 @@
 
 ---
 
+### 2026-08-07
+
+**What we did:**
+- **refresh (sole substantive action): expanded `/` with a new "Window Cleaning Camarillo, Oxnard,
+  and Ventura" section** covering the Oxnard Plain and Ojai Valley, built on agricultural land use
+  and dry-season rainfall. Two verified federal sources, a land-in-farms-by-acre table, 8 internal
+  links to `/oxnard/`, `/camarillo/`, `/ventura/` and `/ojai/`, and 2 blog guide links.
+- **Added 2 FAQ items** to the homepage `faqs` array, which feeds both the rendered list and the
+  `FAQPage` JSON-LD (10 questions in schema, 10 rendered, verified equal in `dist/`).
+- **Refactor: `.sb-*` styles renamed to `.locale-*`** and shared by both homepage context sections,
+  so a third one costs markup only, not another 130 lines of CSS.
+- **gbp (no code change): seventh consecutive run logging the `http://` GBP website field**, plus a
+  new and much more specific finding for that workstream (below).
+- **Rejected new_content, title_meta and internal_links, with reasons.**
+
+**Why we did it (brief numbers, plus the GSC `query x page` join the brief does not contain):**
+- The reality check holds for a tenth run: **83 clicks / 2,580 impressions, but 3 non-brand clicks
+  against 1,739 non-brand impressions**, and non-brand clicks fell 5 to 3. Click-winning is the
+  bottleneck, not content volume.
+- **The join splits the non-brand problem into two populations that need opposite treatments, which
+  the brief presents as one list.** Sorting by whether the Google Business Profile appears:
+  - **Map-pack half** (Thousand Oaks, Westlake Village, Agoura Hills, Newbury Park): GBP at
+    **position 1.0 to 1.8** on nearly every row, our indexed city pages at 3.1 to 9.3,
+    **~525 non-brand impressions for 2 clicks**. `/westlake/` alone holds 68 impressions at
+    positions 3.1 to 4.7 for **zero** clicks. The GBP took 634 non-brand impressions mostly at
+    position 1.0 for **1** click, which is the signature of clicks going to Call and Directions,
+    actions GSC does not count as website clicks. **This half is not fixable in the repo.** The
+    brief flagged `window cleaning westlake village` (pos 2.7, 38 impr, 0 clicks) as a local-pack
+    suspect and the join confirms it: `/westlake/` 3.8 and GBP 1.8 on the same query.
+  - **Organic-only half** (Santa Barbara, Montecito, Camarillo, Ventura city, Ojai): the GBP is
+    absent or at 16.0, our only ranking URL is `/`, at positions 8.3 to 15.2,
+    **~342 non-brand impressions for 0 clicks**. Here position is the whole game.
+- **We treated the organic-only half because the same treatment already produced this site's only
+  measured position win.** The Santa Barbara homepage section shipped 2026-07-31; over the following
+  window `window cleaning santa barbara` moved **11.2 to 8.8 with impressions 106 to 174**, and the
+  rest of its block moved with it (`santa barbara window cleaning` 12.5 to 10.0,
+  `santa barbara window cleaners` 14.2 to 11.3, `window cleaning montecito` 18.5 to 15.2). The
+  Ventura/Camarillo/Ojai cluster is the next largest untreated cluster of exactly the same shape:
+  `window cleaning ventura` 24 impr @ 12.8, `window cleaning camarillo` 23 @ 12.2,
+  `window cleaning ojai` 17 @ 12.6, `window washing ventura` 7 @ 10.7, **all on `/`**, with the
+  dedicated city pages contributing zero.
+- **Re-verified the indexation blocker with the URL Inspection API today**, because it decides
+  whether the homepage or the city page is the right target: `/santa-barbara/`, `/camarillo/`,
+  `/ventura/`, `/ojai/`, `/oxnard/` and `/simi-valley/` are **all still `lastCrawlTime = NEVER`**.
+  So the city pages cannot be the target, and the homepage is the only page Google will read.
+
+**Why we rejected the other playbook actions:**
+- **new_content**: the blog took **17 non-brand impressions and 0 non-brand clicks** this window.
+  Ten runs of measurement now say the blog does not earn non-brand traffic. The service x city
+  matrix is complete and nothing cleared the information-gain bar.
+- **title_meta**: the brief's CTR-outlier list is real but the lever is spent. The four indexed city
+  pages were retitled 07-15 and 07-20 and already carry city, state, "Free Quote" and a price band.
+  The homepage title already leads with "Window Cleaning Santa Barbara". The queries beneath those
+  outliers are either map-pack losses (not a title problem) or sit at position 8.8 to 15, where zero
+  clicks is roughly what the position predicts. **The brief's "~3.0% expected CTR" at position 8.8
+  on a local SERP with a map pack above it is too generous.**
+- **internal_links**: the site map records this as proven-not-the-constraint for indexation, from
+  two independent directions (07-20 and 07-24). The links added today are for relevance and equity
+  to pages that already rank, not an attempt to force a crawl.
+- **Integrity check run, nothing to fix**: per-city price bands in the 10 city pages' `faq[0]`
+  still match the pricing pillar's per-city table.
+
+**Expected impact:**
+- `window cleaning camarillo`, `window cleaning ventura` and `window cleaning ojai` on `/` improve
+  from 12.2 / 12.8 / 12.6 into the 7 to 10 band within 6 weeks, mirroring what the Santa Barbara
+  section did from 11.2 to 8.8. Impressions on the cluster should rise before position does.
+- Non-brand clicks stay in the low single digits until either a query reaches the top 5 or the GBP
+  website field is fixed. **I do not expect this change alone to produce clicks**, and saying
+  otherwise would be dishonest about a position-8-to-13 starting point.
+
+**Metrics at time of action (GSC, 28d 2026-07-08..2026-08-04):**
+- Total clicks 83, impressions 2,580. Non-brand clicks **3**, non-brand impressions 1,739.
+- Non-brand avg position 11.3 (prior 9.7).
+- `/` non-brand 647 impressions, **0** clicks. GBP listing non-brand 634 impressions, 1 click.
+- Blog, all 49 posts combined: ~17 non-brand impressions, 0 clicks.
+- Six of ten city landing pages: `lastCrawlTime = NEVER`.
+
+**For the GBP workstream (unchanged and still Adam's to pull, now with specifics):**
+- The website field on the Google Business Profile is still `http://alohawindowbros.com/`, which
+  301-redirects. Seventh run logging it.
+- **The specific queries where the GBP is at position 1.0 to 1.8 and the click is not reaching the
+  site**: `window cleaning westlake village`, `window washing westlake village`,
+  `window cleaner westlake village`, `window washing service westlake village`,
+  `window washing company westlake village`, `window cleaning thousand oaks`,
+  `window washing thousand oaks`, `best window washer thousand oaks`,
+  `window cleaning company agoura hills`, `window washing agoura hills`,
+  `window cleaning service agoura hills`, `window cleaner agoura hills`,
+  `window cleaning newbury park`.
+- **Santa Barbara, Ojai and Camarillo have no GBP presence on their queries at all.** If the service
+  area or a second listing can put the profile into those local packs, that is worth more than any
+  on-page change available in this repo.
+
+---
+
 ### 2026-08-05
 
 **What we did:**

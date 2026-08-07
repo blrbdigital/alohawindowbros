@@ -25,6 +25,8 @@ const faqs = [
   { q: 'How often should I have my windows cleaned?', a: "We recommend every 3 to 6 months for most homes. If you're near trees, construction, or the coast, more frequent cleaning keeps things crystal clear." },
   { q: 'Do you clean windows in Santa Barbara and Montecito?', a: 'Yes. Aloha Window Bros serves the city of Santa Barbara, Montecito, Hope Ranch, Summerland, Carpinteria, and Goleta alongside our Ventura County service area. Santa Barbara homes typically quote between $200 and $475 for the full four-in-one clean covering windows, screens, frames, and sills.' },
   { q: 'How often should Santa Barbara windows be cleaned?', a: 'Every 2 to 3 months within about two miles of the water, where salt aerosol bonds a haze onto the glass, and roughly every 3 to 4 months inland in Hope Ranch, Mission Canyon, and Goleta. Hillside homes exposed to Sundowner winds sit at the shorter end of that inland range, because ridgeline dust returns within days of a wind event.' },
+  { q: 'Do you clean windows in Oxnard, Camarillo, Ventura, and Ojai?', a: 'Yes. Aloha Window Bros covers the Oxnard Plain and the Santa Clara River Valley as part of our core Ventura County service area, including Oxnard, Camarillo, the city of Ventura, Santa Paula, Fillmore, and the Ojai Valley. Camarillo and Ventura homes typically quote between $175 and $425 for the full four-in-one clean, Oxnard runs $175 to $450, and Ojai runs $200 to $475.' },
+  { q: 'How often should windows be cleaned near farm fields?', a: 'Every 2 to 3 months for homes backing onto active cropland in Oxnard, Camarillo, or Santa Paula, and every 3 to 4 months further from the fields. Ventura County has 139,944 acres of cropland and receives only 0.17 inches of rain between June and September, so field dust that lands on glass in the growing season sits there until someone washes it off. Never dry-wipe it. It is mineral grit and a dry cloth grinds it across the pane.' },
   { q: "What if I'm not satisfied with the results?", a: "We walk the property with you before we leave. If anything doesn't look perfect, we redo it on the spot, 100% satisfaction guaranteed." },
 ];
 
@@ -52,6 +54,13 @@ const sbWaterRows = [
   ['Recycled water', '9%', '1,020 AF'],
   ['State Water Project', '0%', '0 AF'],
   ['Groundwater', '0%', '0 AF'],
+];
+
+const farmlandRows = [
+  ['Cropland', '139,944', '47%'],
+  ['Pastureland', '126,749', '42%'],
+  ['Other (roads, ponds, buildings)', '26,612', '9%'],
+  ['Woodland', '7,262', '2%'],
 ];
 ---
 <Base
@@ -310,12 +319,12 @@ const sbWaterRows = [
   </section>
 
   <!-- Window Cleaning Santa Barbara (South Coast context + internal links) -->
-  <section class="sb-section">
-    <div class="sb-inner">
-      <div class="sb-head">
-        <span class="sb-eyebrow">Santa Barbara County</span>
+  <section class="locale-section">
+    <div class="locale-inner">
+      <div class="locale-head">
+        <span class="locale-eyebrow">Santa Barbara County</span>
         <h2>Window Cleaning Santa Barbara, Where Glass Gets Hit From Both Sides</h2>
-        <p class="sb-lede">
+        <p class="locale-lede">
           Santa Barbara windows get loaded from two opposite directions on the same day. Onshore marine air lays a salt
           film down through the afternoon, then Sundowner winds fall off the Santa Ynez Mountains after dark and drop dry
           ridgeline dust straight on top of it. Aloha Window Bros cleans windows, screens, frames, and sills across
@@ -324,8 +333,8 @@ const sbWaterRows = [
         </p>
       </div>
 
-      <div class="sb-body">
-        <article class="sb-block">
+      <div class="locale-body">
+        <article class="locale-block">
           <h3>Sundowners arrive when the wind should be dying down</h3>
           <p>
             A Sundowner is a downslope windstorm that forms on the lee side of the Santa Ynez Mountains and spills onto
@@ -337,7 +346,7 @@ const sbWaterRows = [
           </p>
         </article>
 
-        <article class="sb-block">
+        <article class="locale-block">
           <h3>Nobody can quote you a Santa Barbara water hardness number, including us</h3>
           <p>
             Most cities we serve run on one supply and one mineral profile. The City of Santa Barbara runs on as many as
@@ -350,12 +359,12 @@ const sbWaterRows = [
         </article>
       </div>
 
-      <div class="sb-table-wrap">
-        <p class="sb-table-caption">
+      <div class="locale-table-wrap">
+        <p class="locale-table-caption">
           City of Santa Barbara water supply by source, water year 2025. Total production 11,777 acre-feet.
         </p>
-        <div class="sb-table-scroll">
-          <table class="sb-table">
+        <div class="locale-table-scroll">
+          <table class="locale-table">
             <thead>
               <tr><th scope="col">Source of supply</th><th scope="col">Share</th><th scope="col">WY 2025 volume</th></tr>
             </thead>
@@ -366,7 +375,7 @@ const sbWaterRows = [
             </tbody>
           </table>
         </div>
-        <p class="sb-sources">
+        <p class="locale-sources">
           Sources:
           <a href="https://santabarbaraca.gov/sites/default/files/2026-02/2025_Water_Supply_Mgmt_Report.pdf" target="_blank" rel="noopener noreferrer">City of Santa Barbara, 2024-2025 Water Supply Management Report</a>,
           <a href="https://santabarbaraca.gov/government/departments/public-works/water-resources/water-system/water-sources" target="_blank" rel="noopener noreferrer">City of Santa Barbara Water Sources</a>,
@@ -374,18 +383,103 @@ const sbWaterRows = [
         </p>
       </div>
 
-      <div class="sb-foot">
-        <p class="sb-foot-copy">
+      <div class="locale-foot">
+        <p class="locale-foot-copy">
           Our <a href="/santa-barbara/">Santa Barbara window cleaning page</a> carries the full picture: recommended
           service intervals by zone, from the Mesa and the waterfront through Montecito, Hope Ranch, Mission Canyon, and
           Goleta, plus what a salt haze actually is and why it comes back faster on ocean elevations.
         </p>
-        <div class="sb-guides">
-          <a class="sb-guide" href="/blog/window-washing-santa-barbara-coastal-guide/">
+        <div class="locale-guides">
+          <a class="locale-guide" href="/blog/window-washing-santa-barbara-coastal-guide/">
             <strong>Streak-free on the coast</strong><span>The window washing Santa Barbara guide</span>
           </a>
-          <a class="sb-guide" href="/blog/screen-cleaning-santa-barbara-coastal-salt-and-oak-pollen-guide/">
+          <a class="locale-guide" href="/blog/screen-cleaning-santa-barbara-coastal-salt-and-oak-pollen-guide/">
             <strong>Salt and oak pollen</strong><span>Screen cleaning in Santa Barbara</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Window Cleaning Oxnard Plain / Santa Clara River Valley (ag context + internal links) -->
+  <section class="locale-section locale-section--alt">
+    <div class="locale-inner">
+      <div class="locale-head">
+        <span class="locale-eyebrow">The Oxnard Plain &amp; Ojai Valley</span>
+        <h2>Window Cleaning Camarillo, Oxnard, and Ventura, Where Farm Dust Never Gets Rinsed Off</h2>
+        <p class="locale-lede">
+          On the Oxnard Plain the thing on your glass is not salt and it is not sprinkler spotting. It is soil. Ventura
+          County farms 139,944 acres of cropland, and between June and September the county receives 0.17 inches of rain
+          in total, so the dust that lifts off a field in July is still on the window in September. Aloha Window Bros
+          cleans windows, screens, frames, and sills across <a href="/oxnard/">Oxnard</a>,
+          <a href="/camarillo/">Camarillo</a>, <a href="/ventura/">Ventura</a>, and <a href="/ojai/">Ojai</a>, and most
+          homes here quote between $175 and $475 for the complete four-in-one clean.
+        </p>
+      </div>
+
+      <div class="locale-body">
+        <article class="locale-block">
+          <h3>The fields are not out in the distance, they are across the street</h3>
+          <p>
+            Ventura County agriculture is unusually close-packed. Of the county's 1,812 farms, 748 are between 1 and 9
+            acres and another 600 are between 10 and 49 acres, so roughly three quarters of them are under 50 acres.
+            These are not remote sections you drive past on the way somewhere. They are blocks that end where a cul de
+            sac begins, which is why homes in Camarillo, north Oxnard, and east Ventura pick up a fine tan film that
+            homeowners in Thousand Oaks simply do not see. Tillage, harvest traffic, and the 96,124 irrigated acres in
+            the county all move soil into the air a few hundred feet from somebody's windows.
+          </p>
+        </article>
+
+        <article class="locale-block">
+          <h3>Ojai is 15 miles away and has the opposite problem</h3>
+          <p>
+            Cross into the Ojai Valley and the failure mode flips from dust to minerals. The Ojai Water System draws from
+            seven local wells in the Ojai Valley Groundwater Basin and runs about 17 grains per gallon, roughly double
+            the 8.2 grains per gallon that most Conejo Valley homes receive from imported supply. Dust you can rinse.
+            Well-water overspray bakes onto south and west glass and etches into the surface if it cycles through enough
+            summers, and at that point no amount of scrubbing brings the pane back. That is the single strongest argument
+            for putting Ojai homes on a schedule rather than calling when the glass looks bad.
+          </p>
+        </article>
+      </div>
+
+      <div class="locale-table-wrap">
+        <p class="locale-table-caption">
+          Ventura County land in farms by use, 2022 Census of Agriculture. Total land in farms 300,567 acres, of which
+          96,124 acres are irrigated.
+        </p>
+        <div class="locale-table-scroll">
+          <table class="locale-table">
+            <thead>
+              <tr><th scope="col">Land use</th><th scope="col">Acres</th><th scope="col">Share</th></tr>
+            </thead>
+            <tbody>
+              {farmlandRows.map((r) => (
+                <tr><th scope="row">{r[0]}</th><td>{r[1]}</td><td>{r[2]}</td></tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+        <p class="locale-sources">
+          Sources:
+          <a href="https://www.nass.usda.gov/Publications/AgCensus/2022/Online_Resources/County_Profiles/California/cp06111.pdf" target="_blank" rel="noopener noreferrer">USDA National Agricultural Statistics Service, 2022 Census of Agriculture, Ventura County profile</a>,
+          <a href="https://www.ncei.noaa.gov/access/us-climate-normals/" target="_blank" rel="noopener noreferrer">NOAA National Centers for Environmental Information, 1991-2020 Climate Normals, station USW00093110 Oxnard</a>.
+        </p>
+      </div>
+
+      <div class="locale-foot">
+        <p class="locale-foot-copy">
+          Each city page carries the detail this summary cannot: <a href="/oxnard/">Oxnard</a> for where salt and field
+          dust overlap, <a href="/camarillo/">Camarillo</a> for Camrosa water and the Springville and Mission Oaks
+          tracts, <a href="/ventura/">Ventura</a> for Midtown and the hillside streets above Poli, and
+          <a href="/ojai/">Ojai</a> for well water and orchard pollen.
+        </p>
+        <div class="locale-guides">
+          <a class="locale-guide" href="/blog/screen-cleaning-oxnard-salt-and-ag-dust-guide/">
+            <strong>Salt plus ag dust</strong><span>Screen cleaning in Oxnard</span>
+          </a>
+          <a class="locale-guide" href="/blog/window-cleaning-camarillo-what-homeowners-need-to-know/">
+            <strong>What Camarillo homeowners ask</strong><span>The Camarillo window cleaning guide</span>
           </a>
         </div>
       </div>
@@ -671,18 +765,25 @@ const sbWaterRows = [
   }
 
   /* Santa Barbara County section */
-  .sb-section {
+  .locale-section {
     padding: 72px 40px;
     background: #fff;
   }
-  .sb-inner {
+  .locale-section--alt {
+    background: #f8fafc;
+  }
+  .locale-section--alt .locale-guide,
+  .locale-section--alt .locale-table thead th {
+    background: #fff;
+  }
+  .locale-inner {
     max-width: 900px;
     margin: 0 auto;
   }
-  .sb-head {
+  .locale-head {
     margin-bottom: 34px;
   }
-  .sb-eyebrow {
+  .locale-eyebrow {
     display: inline-block;
     font-size: 12px;
     font-weight: 700;
@@ -691,7 +792,7 @@ const sbWaterRows = [
     color: #2563eb;
     margin-bottom: 14px;
   }
-  .sb-head h2 {
+  .locale-head h2 {
     font-family: 'Playfair Display', serif;
     font-size: clamp(1.7rem, 3.2vw, 2.15rem);
     font-weight: 700;
@@ -699,31 +800,31 @@ const sbWaterRows = [
     line-height: 1.22;
     margin: 0 0 16px;
   }
-  .sb-lede {
+  .locale-lede {
     font-size: 17px;
     line-height: 1.75;
     color: #334155;
     margin: 0;
   }
-  .sb-lede a,
-  .sb-foot-copy a {
+  .locale-lede a,
+  .locale-foot-copy a {
     color: #2563eb;
     font-weight: 600;
     text-decoration: none;
     border-bottom: 1px solid rgba(37, 99, 235, 0.3);
   }
-  .sb-lede a:hover,
-  .sb-foot-copy a:hover {
+  .locale-lede a:hover,
+  .locale-foot-copy a:hover {
     border-bottom-color: #2563eb;
   }
 
-  .sb-body {
+  .locale-body {
     display: grid;
     gap: 26px;
     padding: 26px 0 4px;
     border-top: 1px solid #e2e8f0;
   }
-  .sb-block h3 {
+  .locale-block h3 {
     font-family: 'Playfair Display', serif;
     font-size: 1.22rem;
     font-weight: 700;
@@ -731,39 +832,39 @@ const sbWaterRows = [
     line-height: 1.35;
     margin: 0 0 10px;
   }
-  .sb-block p {
+  .locale-block p {
     font-size: 16px;
     line-height: 1.75;
     color: #475569;
     margin: 0;
   }
 
-  .sb-table-wrap {
+  .locale-table-wrap {
     margin-top: 30px;
   }
-  .sb-table-caption {
+  .locale-table-caption {
     font-size: 14px;
     font-weight: 600;
     color: #64748b;
     margin: 0 0 10px;
   }
-  .sb-table-scroll {
+  .locale-table-scroll {
     overflow-x: auto;
     border: 1px solid #e2e8f0;
     border-radius: 12px;
   }
-  .sb-table {
+  .locale-table {
     width: 100%;
     border-collapse: collapse;
     font-size: 15px;
   }
-  .sb-table th,
-  .sb-table td {
+  .locale-table th,
+  .locale-table td {
     padding: 11px 16px;
     text-align: left;
     border-bottom: 1px solid #eef2f7;
   }
-  .sb-table thead th {
+  .locale-table thead th {
     background: #f8fafc;
     font-size: 13px;
     font-weight: 700;
@@ -772,34 +873,34 @@ const sbWaterRows = [
     color: #1e3a5f;
     white-space: nowrap;
   }
-  .sb-table tbody th {
+  .locale-table tbody th {
     font-weight: 600;
     color: #1e3a5f;
     min-width: 12.5rem;
   }
-  .sb-table tbody td {
+  .locale-table tbody td {
     color: #475569;
     white-space: nowrap;
   }
-  .sb-table tbody tr:last-child th,
-  .sb-table tbody tr:last-child td {
+  .locale-table tbody tr:last-child th,
+  .locale-table tbody tr:last-child td {
     border-bottom: none;
   }
-  .sb-sources {
+  .locale-sources {
     font-size: 13.5px;
     line-height: 1.7;
     color: #64748b;
     margin: 12px 0 0;
   }
-  .sb-sources a {
+  .locale-sources a {
     color: #2563eb;
     text-decoration: none;
   }
-  .sb-sources a:hover {
+  .locale-sources a:hover {
     text-decoration: underline;
   }
 
-  .sb-foot {
+  .locale-foot {
     margin-top: 34px;
     padding-top: 30px;
     border-top: 1px solid #e2e8f0;
@@ -808,17 +909,17 @@ const sbWaterRows = [
     gap: 32px;
     align-items: center;
   }
-  .sb-foot-copy {
+  .locale-foot-copy {
     font-size: 16px;
     line-height: 1.7;
     color: #475569;
     margin: 0;
   }
-  .sb-guides {
+  .locale-guides {
     display: grid;
     gap: 10px;
   }
-  .sb-guide {
+  .locale-guide {
     display: flex;
     flex-direction: column;
     gap: 2px;
@@ -829,27 +930,27 @@ const sbWaterRows = [
     text-decoration: none;
     transition: border-color 0.18s ease, transform 0.18s ease;
   }
-  .sb-guide:hover {
+  .locale-guide:hover {
     border-color: #2563eb;
     transform: translateX(3px);
   }
-  .sb-guide strong {
+  .locale-guide strong {
     font-size: 15px;
     font-weight: 700;
     color: #1e3a5f;
   }
-  .sb-guide span {
+  .locale-guide span {
     font-size: 13.5px;
     color: #64748b;
   }
   @media (max-width: 900px) {
-    .sb-foot {
+    .locale-foot {
       grid-template-columns: 1fr;
       gap: 24px;
     }
   }
   @media (max-width: 640px) {
-    .sb-section {
+    .locale-section {
       padding: 48px 20px;
     }
   }

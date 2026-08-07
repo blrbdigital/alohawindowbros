@@ -1,3 +1,53 @@
+## 2026-08-07 - The Oxnard Plain gets the treatment that worked on Santa Barbara
+
+- **New homepage section: "Window Cleaning Camarillo, Oxnard, and Ventura, Where Farm Dust Never
+  Gets Rinsed Off"**, sitting between the Santa Barbara section and Service Areas. It exists because
+  the GSC `query x page` join (07-08..08-04) says the **homepage** is the page that ranks for
+  `window cleaning ventura` (24 impr @ 12.8), `window cleaning camarillo` (23 @ 12.2),
+  `window cleaning ojai` (17 @ 12.6) and `window washing ventura` (7 @ 10.7), while the dedicated
+  city pages remain uncrawled and contribute zero. Same situation Santa Barbara was in before
+  2026-07-31, and that section moved its head query from position 11.2 to 8.8.
+- **Why this cluster and not the Thousand Oaks / Westlake block.** Sorting non-brand city queries by
+  whether the Google Business Profile appears splits them cleanly. On Thousand Oaks, Westlake
+  Village, Agoura Hills and Newbury Park the GBP holds **position 1.0 to 1.8** and our organic pages
+  sit at 3.1 to 9.3 with **2 clicks on 525 impressions**: the click is going to Call or Directions in
+  the map pack, which GSC never records as a website click. On Santa Barbara, Camarillo, Ventura and
+  Ojai the GBP barely appears at all, so organic position is the entire game. Only the second half is
+  winnable from this repo, so that is where the work went.
+- **Its argument is agricultural soil, which is a genuinely different mechanism** from the salt and
+  Sundowner winds of the Santa Barbara section and the sprinkler-overspray frequency of the Conejo
+  Valley cards above it. Ventura County farms 139,944 acres of cropland with 96,124 acres irrigated,
+  and takes 0.17 inches of rain between June and September, so field dust that lands on glass in the
+  growing season is not rinsed off by anything. The supporting point is farm *size*: 748 of the
+  county's 1,812 farms are 1 to 9 acres and 600 more are 10 to 49, so the fields end where the
+  cul de sacs begin rather than sitting out in a distant valley.
+- **Every number is from a primary source that was fetched and returned 200 today.** USDA National
+  Agricultural Statistics Service, 2022 Census of Agriculture Ventura County profile, and NOAA NCEI
+  1991-2020 climate normals for station USW00093110 Oxnard (re-pulled live from the NCEI API; the
+  Jun-Sep figure matches the gutter service page's). **The Ventura County Agricultural
+  Commissioner's own crop report could not be used: `ventura.org` and `news.venturacounty.gov` both
+  reject non-browser agents**, same rule that keeps CAL FIRE, BBB and the AMS SWEX paper off the
+  site. No number was invented, and the Ojai contrast (17 gpg vs 8.2 gpg) reuses figures already
+  verified in the site map rather than introducing a new one.
+- **Its table is land in farms by use, in acres.** That keeps the "every brief needs a different KIND
+  of table" rule intact: hardness and TDS per source on `/thousand-oaks/`, service intervals by zone
+  on `/santa-barbara/`, supply volume and share in the homepage Santa Barbara section, rainfall
+  against oak phenology by month on the gutter page, and land use by acres here.
+- **`.sb-*` styles renamed to `.locale-*` and now shared by both context sections**, with a
+  `.locale-section--alt` modifier for the alternating background. This avoided duplicating about 130
+  lines of CSS under a second prefix, and the class names no longer claim to be Santa Barbara
+  specific. `btn-sb` on the hero is unrelated and was left alone.
+- **Two FAQ items added** ("Do you clean windows in Oxnard, Camarillo, Ventura, and Ojai?" and "How
+  often should windows be cleaned near farm fields?"). They go in the `faqs` array, so the rendered
+  list and the `FAQPage` JSON-LD cannot drift: verified 10 questions in schema against 10 rendered
+  `<summary>` elements in `dist/`.
+- **Verified before commit**: build passes, `dist/index.html` carries **zero** em or en dashes, all
+  10 city landing pages are still linked from the homepage with no link dropped (Oxnard, Camarillo,
+  Ventura and Ojai went from 2 inbound homepage links each to 4), both source URLs return 200, and
+  the section renders clean at 390px and 320px with no horizontal page overflow.
+- **No blog post was written.** The blog earned 17 non-brand impressions and zero non-brand clicks in
+  this window, consistent with every prior measurement.
+
 ## 2026-08-05 - One business entity, and the review count is now the real one
 
 - **The site was publishing a review figure that was wrong on both axes.** Every page carrying a
