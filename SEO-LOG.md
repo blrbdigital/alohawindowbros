@@ -4,6 +4,87 @@
 
 ---
 
+### 2026-08-10
+
+**What we did:**
+- **technical / correctness (primary): fixed a price contradiction inside the homepage `FAQPage`
+  JSON-LD.** `faqs[0]` answered "How much does window cleaning cost?" with "Most residential jobs
+  range from $150 to $400" (the Thousand Oaks band) while the same page's Santa Barbara section says
+  "$200 to $475", its Oxnard Plain section says "$175 to $475", and the pricing pillar publishes
+  $200 to $475 for Ojai and Santa Barbara. The answer now gives the true countywide span, $150 to
+  $475, broken into the four real bands, every figure matching the pillar table. Question retitled to
+  "How much does window cleaning cost in Ventura County?" to match query phrasing.
+- **internal_links: added a second homepage link to the pricing pillar**, directly under the FAQ list.
+- **technical: corrected a site-map verification command that could never fail** (`grep -c` counts
+  lines; `dist/index.html` is minified to one line, so the FAQ schema parity check returned 1 == 1
+  regardless of drift). Now `grep -o | wc -l`; verified 10 == 10.
+- **Added `scripts/gsc-country-probe.py`** and documented two foreign / out-of-area query
+  populations so future runs stop treating them as opportunities.
+- **Rejected new_content, and rejected title_meta on the city pages, with reasons.**
+
+**Why we did it (brief numbers plus the joins the brief does not contain):**
+- The reality check holds for an eleventh run: **73 clicks / 2,506 impressions, but 2 non-brand
+  clicks against 1,647 non-brand impressions**, with non-brand clicks falling 6 to 2. Click-winning
+  is the bottleneck, and the two big in-repo content bets are both already in flight: the Santa
+  Barbara homepage section (07-31, working, `window cleaning santa barbara` 10.6 to **8.8** on 154
+  impressions this window) and the Oxnard Plain section (08-07, **three days old and unread**).
+  Stacking a third locale section on top today would contaminate the read on the second one.
+- **Price intent is the one population worth buying, and the map-pack veto does not apply to it.** A
+  90-day cluster dump returns **~470 non-brand impressions and zero clicks** on cost/price queries.
+  Unlike the generic city queries, our own pages sit level with or above the Google Business Profile
+  here: `window cleaning cost thousand oaks` is `/thousand-oaks/` at **6.4** with the GBP at **10.5**,
+  and `window cleaning prices westlake village` is `/westlake/` 4.3 against GBP 4.4. The site map
+  already notes price intent is the only non-brand pull the blog has ever had.
+- **Given that, the homepage answering the single most common price question with a number that
+  contradicts its own body copy is a real defect, not a cosmetic one.** It sits inside the FAQ schema,
+  which is the string AI engines quote back verbatim, and it understated the top of the range by $75
+  on the two highest-value cities we serve. Same defect class as the 07-17 fabricated-hardness sweep
+  and the 08-05 `aggregateRating` fix: a number copied to a second place and left behind when the
+  first moved.
+
+**Why we rejected the other playbook actions:**
+- **new_content**: the blog took **17 non-brand impressions and 0 non-brand clicks** this window; the
+  service x city matrix is complete. The one apparent gap, the rising `exterior cleaning newbury park`
+  cluster (the brief's #3 rising query, impr 8 to 27), **is 100% United Kingdom traffic** on a
+  `query x country` probe: 37 impr `gbr` and zero `usa` over 90 days, plus 15 more on
+  `cladding cleaning newbury park`, a British term. Those are searchers looking for Newbury,
+  Berkshire. Writing an exterior-cleaning page for them would have been the single worst use of this
+  run. Same class: `affordable window cleaners thousand palms` (25 impr) is Riverside County.
+- **title_meta**: still spent on the four indexed city pages. Their metas already carry price bands
+  (`/thousand-oaks/`: "Most homes $150 to $400"). Putting "cost" in `/thousand-oaks/`'s title would
+  chase a 32-impression query at the expense of `window cleaning thousand oaks` (46 impr), which that
+  title currently serves. Bad trade, not taken.
+- **gbp (logged, no code change, eighth consecutive run)**: the `http://` website field on the Google
+  Business Profile still 301-redirects and is still Adam's highest-yield single action. This window
+  the GBP took **614 non-brand impressions for 1 click**, mostly at position 1.0, the signature of
+  clicks going to Call and Directions. Specific queries for that workstream:
+  `window cleaning westlake village` (GBP 1.9, 22 impr), `window cleaning` (GBP 1.0, 34 impr),
+  `window washing thousand oaks` (GBP 1.0), `window cleaning agoura hills` (GBP 1.0).
+  **New ask for Adam: real gutter cleaning price bands.** `gutter cleaning prices <city>` is ~84
+  impressions over 90 days with the GBP at 11.0 to 16.6 in Camarillo, Ventura, Agoura and Simi, so it
+  is organically winnable, but it stays blocked by the no-invented-price rule.
+
+**Expected impact:**
+- The FAQ fix is a correctness and AI-citation play, not a ranking play. Expect no position movement
+  from it. Expect the homepage's quoted price answer to stop contradicting its own body copy, which
+  matters most for AI Overviews and ChatGPT, which quote the FAQ text directly.
+- The pricing-pillar link should consolidate a little price-intent signal onto the one blog page with
+  demonstrated non-brand pull. Modest: prediction is `window washing cost ventura county` improving
+  from 8.8 toward 6 to 8 within 6 weeks, and the pillar holding or growing its non-brand impressions.
+- The real value of this run is negative information: it removed a plausible-looking content plan
+  (the Newbury Park exterior cluster) that would have produced a page for British searchers, and it
+  fixed a verification command that had been silently passing.
+
+**Metrics at time of action (GSC, 2026-07-11..2026-08-07):**
+- Total clicks 73, impressions 2,506. Non-brand clicks **2**, non-brand impressions 1,647.
+- Non-brand avg position 11.2 (prior 10.0).
+- `window cleaning santa barbara` 154 impr @ **8.8** (prior 10.6), all on `/`.
+- Price cluster (90d): ~470 non-brand impressions, **0 clicks**.
+- Newbury Park exterior/cladding cluster (90d): 52 impressions, **100% `gbr`**.
+- Blog: 17 non-brand impressions, 0 non-brand clicks.
+
+---
+
 ### 2026-08-07
 
 **What we did:**

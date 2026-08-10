@@ -1,3 +1,39 @@
+## 2026-08-10 - The homepage contradicted itself on price, and two "opportunities" turned out to be foreign
+
+- **Fixed a self-contradiction on the site's most valuable page.** The homepage FAQ answered
+  "How much does window cleaning cost?" with "Most residential jobs range from $150 to $400", which
+  is the **Thousand Oaks** band, while the same page's two locale sections stated "$200 to $475"
+  (Santa Barbara) and "$175 to $475" (Oxnard Plain) a few hundred lines below, and the pricing
+  pillar published bands up to $475 for Ojai and Santa Barbara. Because the `faqs` array feeds the
+  `FAQPage` JSON-LD, **the wrong number was the one AI engines quote verbatim**. The answer now
+  states the true countywide span, $150 to $475, and breaks it into the four real bands
+  (Thousand Oaks $150 to $400, most of the county $175 to $425, Oxnard $175 to $450, Ojai and Santa
+  Barbara $200 to $475). Every figure matches the pricing pillar table exactly. The question was
+  also retitled to "How much does window cleaning cost in Ventura County?" to match how the queries
+  are actually phrased.
+- **Added a second homepage link to the pricing pillar**, directly beneath the FAQ list, which is
+  the highest price-intent element on the page. The homepage previously linked the pillar once, from
+  a county-section guide card.
+- **Why price and not another locale section:** a 90-day cluster dump puts price intent at
+  **~470 non-brand impressions for zero clicks**, and it is the one population where our own pages
+  sit level with or above the Google Business Profile (`window cleaning cost thousand oaks`:
+  `/thousand-oaks/` at 6.4, GBP at 10.5). It is also the only non-brand pull the blog has ever had.
+- **Corrected a verification command in `.claude-site-map.md` that could never fail.** The file told
+  future runs to check FAQ schema parity with `grep -c '"@type":"Question"' dist/index.html` against
+  `grep -c '<summary'`. `grep -c` counts matching **lines**, and Astro minifies `dist/index.html`
+  onto one line, so both sides return `1` and the check passes `1 == 1` regardless of actual drift.
+  Now uses `grep -o | wc -l`, which counts occurrences. Verified 10 == 10.
+- **New script `scripts/gsc-country-probe.py`** (query x country), plus two findings it produced:
+  - **`exterior cleaning newbury park` and `cladding cleaning newbury park` are 100% UK traffic**
+    (37 and 15 impressions over 90 days, every impression `gbr`, zero `usa`). These are British
+    searchers looking for **Newbury, Berkshire**. The 2026-08-10 brief listed the first as its #3
+    rising query. No page was written for it, and none should be.
+  - **`affordable window cleaners thousand palms` (25 impr) is Thousand Palms, Riverside County**, a
+    fuzzy place-name match ~150 miles outside the service area. The brief lists it as a
+    striking-distance query "improving". It is not an opportunity.
+- No new blog content. The blog took 17 non-brand impressions and zero non-brand clicks this window,
+  and nothing cleared the information-gain bar.
+
 ## 2026-08-07 - The Oxnard Plain gets the treatment that worked on Santa Barbara
 
 - **New homepage section: "Window Cleaning Camarillo, Oxnard, and Ventura, Where Farm Dust Never

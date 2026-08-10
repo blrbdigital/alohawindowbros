@@ -920,6 +920,20 @@ button {
   text-align: left;
 }
 
+.faq-more {
+  max-width: 720px;
+  margin: 22px auto 0;
+  font-size: 15px;
+  line-height: 1.7;
+  color: #555;
+  text-align: left;
+}
+
+.faq-more a {
+  color: #2563eb;
+  font-weight: 600;
+}
+
 .faq-item {
   background: #fff;
   border: 1px solid #e5e7eb;
