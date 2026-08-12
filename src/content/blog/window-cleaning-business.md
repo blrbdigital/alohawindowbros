@@ -37,7 +37,7 @@ A window cleaning business can look simple from the outside. A bucket, a squeege
 <a id="why-starting-a-window-cleaning-business-makes-sense"></a>
 ## Why Starting a Window Cleaning Business Makes Sense
 
-The appeal starts with scale and fragmentation. The U.S. market hit **$2.9 billion in 2024**, and IBISWorld counted **35,344 businesses** in the space, which shows this is a real industry without a few giant players controlling the field ([GetJobber industry statistics](https://www.getjobber.com/academy/window-cleaning/window-cleaning-industry-statistics/)). That mix matters because it rewards local dominance, not national name recognition.
+The appeal starts with scale and fragmentation. The U.S. market hit **$2.9 billion in 2024**, and IBISWorld counted **35,344 businesses** in the space, which shows this is a real industry without a few giant players controlling the field ([IBISWorld window washing industry report](https://www.ibisworld.com/united-states/industry/window-washing/6458/)). That mix matters because it rewards local dominance, not national name recognition.
 
 <a id="a-route-business-not-a-billboard-business"></a>
 ### A route business, not a billboard business

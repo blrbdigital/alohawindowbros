@@ -44,7 +44,7 @@ A squeegee doesn't magically clean dirty glass on its own. It works after the su
 
 A first try with a **window washing squeegee** can feel awkward because the tool looks simple until you see how much of its shape is deliberate. The modern version commonly pictured is usually traced to **1936**, when Italian immigrant **Ettore Steccone** patented a lighter, single-blade design. Earlier versions existed, but they were bulkier and less efficient for professional cleaners. Steccone's version became the standard because it used a **single flexible rubber blade** and a lighter handle, which made cleaner, faster work practical on the growing commercial glass market. Source: [history of the window washer](https://www.aus.com/history-window-washer)
 
-That invention arrived at the right time. Window cleaning had already grown into a real trade as cities filled with more glass after the **1860s construction boom** and the rise of skyscrapers. In the U.S. today, industry summaries estimate about **$2 billion** in annual market size, more than **39,000 businesses**, and roughly **123,000 employees**. Those figures show why the squeegee is more than a household gadget, it is a core trade tool in a large service sector. Source: [window cleaning facts and statistics](https://ohsospotless.com/window-cleaning-facts-and-statistics/)
+That invention arrived at the right time. Window cleaning had already grown into a real trade as cities filled with more glass after the **1860s construction boom** and the rise of skyscrapers. In the U.S. today the trade is a **$2.9 billion** market spread across **35,344 businesses**, according to IBISWorld's 2024 window washing industry report ([IBISWorld](https://www.ibisworld.com/united-states/industry/window-washing/6458/)). Those figures show why the squeegee is more than a household gadget, it is a core trade tool in a large service sector.
 
 The main point is straightforward. The tool became standard because a lighter blade, matched with the right rubber, handled wide panes, storefront glass, and repeated professional routes better than older, heavier designs.
 
@@ -87,7 +87,7 @@ If you are choosing your first one, start with the windows you have. Small divid
 <a id="technique-and-the-angle-question"></a>
 ## Technique and the Angle Question
 
-The most confusing part for beginners is angle. One guide says about **30 degrees**, another says **40 degrees**, and another teaches **45 degrees**. The honest answer is that the angle depends on the handle position, the blade type, and whether you're making straight pulls, using the **S method**, or fanning the water off the pane. Source: [squeegee angle guidance](https://www.professionalwindowcleaning.com/post/how-to-use-a-squeegee)
+The most confusing part for beginners is angle. One guide says about **30 degrees**, another says **40 degrees**, and another teaches **45 degrees**. The honest answer is that the angle depends on the handle position, the blade type, and whether you're making straight pulls, using the **S method**, or fanning the water off the pane. What stays constant is the goal: the blade meets the glass steeply enough to shear the water off in one pass and shallowly enough that the rubber does not chatter.
 
 ![An instructional graphic showing three different squeegee angles, 30, 40, and 45 degrees, for professional window cleaning techniques.](https://cdnimg.co/8387fe5a-1497-428d-a3af-57b68fc0bac4/9b28a308-e170-4b21-b69f-1393a701c830/window-washing-squeegee-squeegee-angles.jpg)
 
@@ -135,7 +135,7 @@ The clean finish comes from the whole sequence working together. Prepare, wet, p
 <a id="when-a-squeegee-is-the-wrong-tool"></a>
 ## When a Squeegee Is the Wrong Tool
 
-A squeegee is useful, but it isn't always the right answer. High foyer windows, skylights, and awkward interior panes can turn a simple cleaning job into a reach problem or a safety problem. In those cases, the smarter choice may be an extendable pole, an angled head, microfiber for spot work, or a professional visit instead of a ladder climb. Guidance for hard-to-reach interior windows notes that these jobs are often better handled with reach tools and heavier cleaning first, before squeegeeing the glass. Source: [cleaning unreachable windows inside](https://cozyhomeclub.org/how-to-clean-unreachable-windows-inside/)
+A squeegee is useful, but it isn't always the right answer. High foyer windows, skylights, and awkward interior panes can turn a simple cleaning job into a reach problem or a safety problem. In those cases, the smarter choice may be an extendable pole, an angled head, microfiber for spot work, or a professional visit instead of a ladder climb. Hard-to-reach interior glass is generally better handled with reach tools and a heavier wash first, before any squeegee touches the pane. Our [guide to cleaning high windows](https://alohawindowbros.com/blog/window-cleaning-for-high-windows/) covers the ground-based methods worth trying before the ladder comes out.
 
 The decision should be outcome-based, not habit-based. If the glass is coated with stubborn mineral spotting, coastal residue, or layers of grime, a dry squeegee pass won't solve the root problem. In those situations, the prep work matters more than the blade, and some windows need a stronger method before the squeegee can leave a good finish.
 

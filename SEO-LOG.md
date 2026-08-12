@@ -4,6 +4,100 @@
 
 ---
 
+### 2026-08-12
+
+**What we did:**
+- **technical / content-integrity (primary): audited all 12 Outrank auto-published blog posts and
+  remediated four defect classes.** This stream has been publishing one post per day since
+  2026-08-01 with **no human review step**, and it had never been audited.
+  - Removed **two dofollow outbound links to sonlightwindow.com, a direct competitor window cleaning
+    company in Ventura**, from `/blog/window-cleaning-ventura-ca/`, and re-grounded the two claims
+    that had been sourced to them (service interval, post-construction pre-wetting).
+  - Replaced **third-party aggregator pricing that undercut our own published bands** on the same
+    page (Manta $108 to $437, HomeBlue $9 to $11 per window, "5 windows = $50 to $60") with the
+    per-city bands from the pricing pillar. Its lede had quoted the Thousand Oaks band as Ventura's.
+  - Corrected **two fabricated regulatory claims** attributing a 4-foot fall trigger and 1,000 lb /
+    5,000 lb load figures to Cal Title 8 section 3282, which contains neither (fetched and read in
+    full today).
+  - Removed **irrelevant and contradictory sources**: a Statistics Canada NAICS revenue and
+    profitability stat used to describe the California market, a 1943 Canadian soap survey cited for
+    ancient Babylon, a contractor-directory link ("find local contractors", twice), a screen
+    replacement competitor, and two content farms. Consolidated three conflicting US market sizes
+    onto one verified figure (IBISWorld, $2.9B / 35,344 businesses, 2024).
+- **internal_links: `/blog/window-cleaning-ventura-ca/` now links `/ventura/`** inside the first 300
+  words and in the closing CTA, plus the pricing pillar. It is a city-specific article that linked no
+  city landing page at all, in violation of the site's own content rule.
+- **Documented the audit and the systemic fix in `.claude-site-map.md`**, including the command that
+  lists auto-published files and what section 3282 actually says.
+- **Rejected new_content, refresh of the homepage, and title_meta, with reasons.**
+
+**Why we did it (brief numbers plus what the repo showed):**
+- The reality check holds for a twelfth run: **74 clicks / 2,528 impressions, but 3 non-brand clicks
+  against 1,639 non-brand impressions**, non-brand clicks down 6 to 3. Click-winning is the
+  bottleneck, and both in-repo content bets are still in flight: the Santa Barbara homepage section
+  (07-31, working, `window cleaning santa barbara` now **144 impr @ 8.8**, up from 10.0) and the
+  Oxnard Plain section (08-07, **five days old and unread in this window**). Stacking a third locale
+  section today would contaminate the read on the second one, which is the site's only running
+  experiment with a measured win behind it.
+- **So the highest-leverage in-repo action this week was not adding signal, it was removing harm.**
+  Between the last run and this one the auto-publisher shipped five more posts, taking the stream to
+  twelve, and one of them targets `window cleaning ventura`, a query in the **organic-only half**
+  where the Google Business Profile does not compete and a click is genuinely winnable (22 impr @
+  13.3 this window, improving from 15.2). That page was carrying two dofollow links to a competing
+  Ventura window cleaning company and quoting a $50 price for a five-window job.
+- **The pricing defect is the exact failure mode this site has now fixed three times** (07-17
+  fabricated hardness across 11 pages, 08-05 fabricated `aggregateRating`, 08-10 the homepage FAQ
+  price contradiction). Price intent is also the only cluster where our pages sit level with or above
+  the GBP (~470 non-brand impressions over 90 days), so publishing numbers that contradict the pillar
+  is expensive in the one place we can win.
+- **The regulatory claims were checked, not assumed.** Section 3282 was fetched and read; the 4-foot
+  trigger and the pound-rated anchorage figures are not in it. Leaving them would have put fabricated
+  legal detail on two pages of a business whose entire pitch is that it is insured and careful.
+
+**Why we rejected the other playbook actions:**
+- **new_content**: the service x city matrix is complete, and the blog earns essentially no non-brand
+  traffic (measured repeatedly; 90-day figure is 135 non-brand impressions and zero clicks across the
+  whole blog). The stream is already producing a post a day without being asked. Nothing cleared the
+  information-gain bar.
+- **refresh of `/`**: the two locale sections need clean reads. The 08-07 section has had five days.
+- **title_meta**: still spent on the four indexed city pages, for the reason recorded on 08-07 and
+  08-10. The CTR-outlier list is real but its queries are either map-pack losses, where the click
+  goes to Call or Directions and GSC never counts it, or they sit at position 8.8 to 13, where zero
+  clicks is roughly what the position predicts.
+- **Decaying pages**: the four flagged pages are blog posts in the population that earns no non-brand
+  clicks. `screen-cleaning-ventura-coastal-salt-and-pollen-guide` at position 36.0 on 2 impressions is
+  not a refresh candidate, it is a page Google reshuffled.
+- **gbp (logged, no code change, ninth consecutive run)**: the `http://` website field on the Google
+  Business Profile still 301-redirects and remains Adam's highest-yield single action. Local-pack
+  suspects this window: `window cleaning westlake village` (pos 2.7, 37 impr, 0 clicks) and
+  `window cleaning` (pos 1.0, 33 impr, 0 clicks). Both are organic positions that cannot be improved
+  and are not producing website clicks. Standing ask from 08-10 still open: **real gutter cleaning
+  price bands**, which would unlock ~84 impressions of `gutter cleaning prices <city>`.
+- **New ask for Adam (VPS, needs sign-off):** add an outbound-link blocklist and a price-figure review
+  flag to `/root/services/aloha-publish/server.mjs`. Today's audit was manual cleanup of a problem the
+  service will keep reproducing at one post per day.
+
+**Expected impact:**
+- Removing competitor links and aggregator prices from `/blog/window-cleaning-ventura-ca/` is a
+  correctness and equity play. Prediction: the page holds or improves its position and stops leaking
+  authority to a competitor; `window cleaning ventura` improves from 13.3 toward 10 to 12 within 6
+  weeks, helped as much by the new `/ventura/` internal links as by the removals.
+- Expect no click movement from the source and regulatory corrections. They protect AI citation
+  quality, which is where the FAQ and price text on this site actually gets quoted.
+- The durable value is the documented audit procedure. The publisher will ship roughly 30 more posts
+  before the next quarter, and this is now a repeatable check instead of a discovery.
+
+**Metrics at time of action (GSC, 2026-07-13..2026-08-09):**
+- Total clicks 74, impressions 2,528. Non-brand clicks **3**, non-brand impressions 1,639.
+- Non-brand avg position 11.2 (prior 10.1).
+- `window cleaning santa barbara` 144 impr @ **8.8** (prior 10.0), on `/`.
+- `window cleaning ventura` 22 impr @ **13.3** (prior 15.2), organic-only half.
+- Auto-published posts audited: **12**. Competitor links removed: **2**. Junk or irrelevant citations
+  removed: **7**. Fabricated regulatory claims corrected: **2**. Contradictory price figures
+  replaced: **6**.
+
+---
+
 ### 2026-08-10
 
 **What we did:**

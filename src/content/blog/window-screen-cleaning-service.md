@@ -160,7 +160,7 @@ That rule keeps you from paying for a wash that won't solve the underlying probl
 
 Screens are cheap to overlook because they're so familiar. They sit there for years, doing their job in the background, until one day you notice the mesh isn't taut anymore or the corner is frayed. At that point, a cleaning visit should become a maintenance decision, not just a cosmetic one.
 
-For a useful reference on that decision-making process, [Rescreen Rescue's screen care advice](https://rescreenrescue.com/2026/03/19/when-to-replace-your-window-screens/) is worth reading alongside any service quote. The value is in the inspection logic, not the sales language.
+The inspection logic is simple enough to run yourself. Press the mesh with a finger: sound mesh springs back, brittle mesh crackles or holds the dent. Check the spline in each corner for shrinkage, and set the frame on a flat surface to see whether it still sits square. Any one of those failing means the screen is past cleaning and into replacement, which is a different job with a different price.
 
 If the screen is still structurally sound, cleaning makes sense. If the screen has moved past its useful life, replacement is the honest choice.
 
@@ -190,14 +190,14 @@ Ask for the work in writing. You want to know whether the price includes removal
 
 Free on-site or virtual estimates are useful because they reduce surprises. They also help a provider see whether a screen is cleanable or whether damage changes the job. A written estimate should also tell you what happens if the technician finds a torn spline, brittle mesh, or a frame that no longer sits true.
 
-For broader pricing context, Angi's window-cleaning cost guide gives a useful baseline for common residential visit pricing. For market context beyond one service call, a separate industry overview from IBISWorld shows how steady demand supports routine maintenance work, not just occasional fixes. If you want a contractor quote that includes screening work, use a provider who can explain both cleaning and inspection clearly, and check this [trusted contractor hiring guide](https://homeprobadge.com/blog/find-local-contractors) before you choose anyone.
+For broader pricing context, Angi's window-cleaning cost guide gives a useful baseline for common residential visit pricing. For market context beyond one service call, a separate industry overview from IBISWorld shows how steady demand supports routine maintenance work, not just occasional fixes. If you want a quote that includes screening work, use a provider who can explain both cleaning and inspection clearly, and who puts the inspection findings in writing rather than mentioning them on the way out.
 
 If you are comparing companies, ask whether their pricing includes insurance coverage and liability handling for removal and reinstallation. That question matters because a screen cleaning visit often involves more handling than a homeowner expects, especially on upper-story windows. A company such as [Aloha Window Bros' insurance guidance](https://alohawindowbros.com/blog/window-cleaning-insurance/) can help you understand why that protection matters before someone starts taking screens out of place.
 
 <a id="a-quick-checklist-before-you-book-a-service"></a>
 ## A Quick Checklist Before You Book a Service
 
-A good booking decision starts with a better question than “How cheap is it?” Ask what the technician will do to the screen, what they'll inspect before cleaning, and whether damaged units will be flagged instead of washed blindly. For a practical overview of contractor screening and vetting, this [trusted contractor hiring guide](https://homeprobadge.com/blog/find-local-contractors) is a smart place to compare expectations before you choose anyone.
+A good booking decision starts with a better question than “How cheap is it?” Ask what the technician will do to the screen, what they'll inspect before cleaning, and whether damaged units will be flagged instead of washed blindly. Ask for the certificate of insurance too, since screens get carried, laid down, and reinstalled, and that handling is where the damage risk actually sits. Our [window cleaning insurance guide](https://alohawindowbros.com/blog/window-cleaning-insurance/) covers what to ask for and why.
 
 ![An infographic checklist for homeowners outlining five essential steps before hiring a professional window screen cleaning service.](https://cdnimg.co/8387fe5a-1497-428d-a3af-57b68fc0bac4/31c6f5c6-e96a-4a59-b7b0-f18c53c48328/window-screen-cleaning-service-checklist.jpg)
 

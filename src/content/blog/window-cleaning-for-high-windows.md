@@ -45,7 +45,7 @@ High windows also punish lazy technique. A blade that's too wet, a corner that's
 
 > **Practical rule:** if you can't keep a controlled angle and a dry edge, the glass will tell on you.
 
-The work is also a distinct trade category, not a casual add-on. Industry data places the U.S. window-washing market at **$2.9 billion in 2026** after a **4.9% CAGR from 2019 to 2024**, and the related UK market at **£467.0 million in 2026** across **2,475 businesses**, growing **6.6% annually from 2021 to 2026** ([IBISWorld](https://www.ibisworld.com/united-states/industry/window-washing/6458/)). That scale exists because high-window work needs special access, trained labor, and the right equipment, not just soap and paper towels.
+The work is also a distinct trade category, not a casual add-on. Industry data places the U.S. window-washing market at **$2.9 billion** across **35,344 businesses** ([IBISWorld](https://www.ibisworld.com/united-states/industry/window-washing/6458/)). That scale exists because high-window work needs special access, trained labor, and the right equipment, not just soap and paper towels.
 
 <a id="safety-changes-the-decision"></a>
 ### Safety changes the decision

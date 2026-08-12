@@ -1,3 +1,45 @@
+## 2026-08-12 - The auto-publisher was linking to a competitor and quoting other people's prices
+
+- **Audited all 12 Outrank auto-published posts** (2026-08-01 to 2026-08-12, one per day, no human
+  review at any point). This is the first audit of that stream since the webhook went live on
+  2026-07-31, and it found four defect classes. All are now fixed in-repo.
+- **Removed two dofollow links to sonlightwindow.com, a direct competitor window cleaning company
+  in Ventura**, from `window-cleaning-ventura-ca.md`. Worse than the links themselves: that post
+  had outsourced two of its substantive claims to the competitor, citing them for the local service
+  interval and for post-construction pre-wetting technique. The interval advice is now grounded in
+  the NOAA NCEI 1991 to 2020 normals this site already uses (0.17 inches of rain June through
+  September, 87 percent of the annual 12.93 inches falling November through March, station
+  USW00093110 Oxnard), which is a stronger argument for the same late-October and March schedule.
+  The pre-wetting passage is now stated as our own practice.
+- **Replaced aggregator pricing that contradicted our own published bands.** The same post quoted
+  Manta at $108 to $437, HomeBlue at $9 to $11 per window, and an example job of **5 windows for
+  $50 to $60**, on a page whose job is to win `window cleaning ventura`. Aloha Window Bros publishes
+  $175 to $425 for the city of Ventura. The post now carries our own per-city bands, matching the
+  pricing pillar exactly, and its cost table was rebuilt around them. Its lede had also quoted the
+  Thousand Oaks band ($150 to $400) as if it were the Ventura number.
+- **Corrected two fabricated regulatory claims.** Two posts attributed a "fall of more than 4 feet"
+  trigger and engineered load figures (1,000 lb service load, 5,000 lb anchorage, 5,000 lb tie-back)
+  to California Title 8 section 3282. The section was fetched and read in full today: it contains
+  neither. Both passages now state what 3282 actually requires, which is approved anchors where a
+  worker stands on a sill or could fall through an opening wider than 18 inches, a sill width and
+  slope chart, and written assurance from the building owner on anchor and load-capacity compliance.
+  Same defect class as the 2026-07-17 fabricated-hardness sweep.
+- **Removed irrelevant and contradictory sources.** A Statistics Canada NAICS 561721 revenue and
+  profitability stat was being used to characterise the California market; a 1943 Canadian
+  industrial soap survey was cited for a claim about ancient Babylon; and three posts stated three
+  different US market sizes. The site now states one figure, IBISWorld's $2.9 billion in 2024 across
+  35,344 businesses, verified against IBISWorld directly (200 today). GetJobber, which was the link
+  carrying those numbers, 403s to non-browser agents, so the citations were re-pointed at the source.
+- **Removed a contractor-directory link that sent readers to find other contractors** (two instances
+  of homeprobadge.com "find local contractors"), a screen-replacement competitor (rescreenrescue.com),
+  and two content-farm citations (cozyhomeclub.org, ohsospotless.com). Where a claim depended on one
+  of them it was either replaced with first-party detail or re-pointed at one of our own guides.
+- **Added the internal links the content rules require.** `window-cleaning-ventura-ca.md` is a
+  city-specific article that linked no city landing page at all. It now links `/ventura/` inside the
+  first 300 words and again in the closing CTA, plus the pricing pillar.
+- **Documented the audit in `.claude-site-map.md`** with the exact command that lists auto-published
+  files, what section 3282 actually says, and the systemic fix (an outbound-link blocklist and a
+  price-figure review flag in the publisher service on the VPS, which needs Adam's sign-off).
 ## 2026-08-10 - The homepage contradicted itself on price, and two "opportunities" turned out to be foreign
 
 - **Fixed a self-contradiction on the site's most valuable page.** The homepage FAQ answered
