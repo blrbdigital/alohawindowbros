@@ -59,8 +59,8 @@ const SERVICES = [
           </div>
         </div>
         <div class="form-field">
-          <label for="f-email">Email <span class="form-optional">(optional)</span></label>
-          <input id="f-email" name="email" type="email" autocomplete="email" inputmode="email" maxlength="200" />
+          <label for="f-email">Email <span aria-hidden="true">*</span></label>
+          <input id="f-email" name="email" type="email" autocomplete="email" inputmode="email" required maxlength="200" />
         </div>
         <div class="form-row">
           <div class="form-field">
@@ -291,9 +291,9 @@ const SERVICES = [
       company: String(fd.get('company') || ''),
     };
     status.className = 'form-status';
-    if (!payload.name || !payload.phone) {
+    if (!payload.name || !payload.phone || !payload.email) {
       status.classList.add('err');
-      status.textContent = 'Add your name and phone number so we can reach you.';
+      status.textContent = 'Add your name, phone, and email so we can reach you.';
       return;
     }
     submitBtn.disabled = true;
