@@ -1,3 +1,24 @@
+## 2026-08-14 - GA4 behavioural layer: the five conversions now have a story underneath them
+
+The site has counted phone_call, email_click, text_click, quote_click and reviews_click since
+launch, but nothing about what happened before or after one. Added `public/assets/js/awb-analytics.js`,
+loaded last and observing only: delete it and the site behaves exactly as it does now.
+
+- **The five conversion events are untouched and are NOT re-fired by the new layer.** Double-counting
+  a phone call would have quietly inflated every report Aloha gets. Each one now carries a `zone`
+  though, so "the sticky bar drives the calls, the footer does not" is finally answerable.
+- **Quote form funnel** (`#inquiry-form`): `form_start`, `form_field` (which fields, in what order),
+  `form_submit` with seconds-to-submit, `form_success` / `form_error` read off `#form-status` by
+  MutationObserver, and `form_abandon` with the last field touched. Field VALUES are never sent.
+  The city and service selects report their choice because those are menu options we wrote.
+- **Reading**: `scroll_depth` 25/50/75/90/100, `section_view` per section id, `engaged_time` at
+  15/30/60/120/300s counted only while the tab is visible.
+- **Intent and friction**: `nav_click` / `footer_click` / `internal_nav` (flagged when the destination
+  is a city page), `outbound_click`, `faq_open`, `rage_click`, `copy_text` (length only),
+  `page_print`, `exit_intent`, `js_error`, and `web_vitals` (LCP / CLS / INP) on pagehide.
+- `session_context` on every load: landing page, referrer host, utm source/campaign, and the
+  `?from=` param the city pages pass into /contact/.
+
 ## 2026-08-14 - Calendly retired: quote flow is now a contact form with call and text CTAs
 
 - **New `/contact/` page** (`src/pages/contact.astro`): Call (805) 341-4121 and Text Us CTAs in the
