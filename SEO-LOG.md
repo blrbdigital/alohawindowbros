@@ -4,6 +4,109 @@
 
 ---
 
+### 2026-08-14
+
+**What we did:**
+- **refresh (primary): expanded the Santa Barbara County section on `/` with South Coast water
+  hardness published by three water districts themselves.** Montecito Water District: surface 19 to
+  26 gpg, groundwater 19 to 38 gpg. Goleta Water District: averages 20 gpg. Carpinteria Valley Water
+  District: 17 to 22 gpg. Against the Conejo Valley baseline of 8.2 gpg (California American Water,
+  PWS ID CA5610040), Montecito groundwater carries up to **4.6 times** the mineral load onto
+  identical glass, and all three exceed Ojai (~17 gpg), previously the hardest figure on the site.
+- **Added a second table to the section**: hardness by agency across the entire service area with a
+  multiple-of-baseline column. Sixth distinct table kind on the site.
+- **Rewrote the section's hardness block and added two more blocks**, separating the City of Santa
+  Barbara (publishes no figure, because its portfolio is rebuilt every water year) from the districts
+  around it (publish figures), then explaining what four times the mineral load does to glass.
+- **Added homepage FAQ item 11**, "Is the water hard in Montecito, Goleta, and Carpinteria?", feeding
+  both the rendered list and the `FAQPage` JSON-LD. Parity verified 11 == 11 via `grep -o | wc -l`.
+- **Rejected new_content, a third locale section, title_meta, and the decaying-page refreshes.**
+
+**Why we did it (brief numbers plus the joins the brief does not contain):**
+- The reality check holds for a thirteenth run: **71 clicks / 2,469 impressions, but 3 non-brand
+  clicks against 1,628 non-brand impressions.** Click-winning is the bottleneck, not more content.
+- **The `query x page` join says the Santa Barbara cluster is the largest genuinely winnable block on
+  this site, by a wide margin.** Over 90 days it is **703 non-brand impressions for zero clicks**,
+  and **every single impression lands on `/`**. Critically, the Google Business Profile takes only
+  **4** impressions on the whole cluster, so this sits squarely in the organic-only half where
+  position is the entire game and a click is actually winnable. In this window: `window cleaning
+  santa barbara` 138 impr @ **8.7** (from 10.2), `santa barbara window cleaning` 50 @ **9.0** (from
+  12.0), `window washing santa barbara` 25 @ 8.2, `santa barbara window cleaners` 15 @ 10.6.
+- **The site map names "expand `/` for an organic-only cluster" as the highest-confidence play here,
+  and it is the only in-repo action with a measured position win** (the 07-31 section moved `window
+  cleaning santa barbara` from 11.2 to 8.8). This run deepens that exact section rather than adding
+  a new one.
+- **The sub-geography inside the cluster was being left on the table.** Over 90 days `window cleaning
+  montecito` is 33 impr @ **17.5** and `window washing goleta` is 8 @ **33.8**, 7 to 25 positions
+  worse than the core Santa Barbara queries, on a page that mentioned Montecito three times in
+  passing and Goleta almost as little. The new copy names Montecito, Goleta, Carpinteria, and
+  Summerland with substantive, sourced material behind each.
+- **The content clears the information-gain bar on a fact this site had explicitly given up on.**
+  Both `/santa-barbara/` and `/` asserted that no Santa Barbara hardness figure could be quoted. That
+  is correct for the city and wrong for its neighbours, and the districts' own reports have said so
+  all along. No competitor page in these results carries these numbers.
+
+**Why we rejected the other playbook actions:**
+- **A third locale section**: the 08-07 Oxnard Plain section is seven days old and needs a clean
+  read. Stacking a third would contaminate the site's only running experiment with a win behind it.
+  Deepening the already-treated 07-31 section does not.
+- **new_content**: the service x city matrix is complete and the blog earns essentially no non-brand
+  traffic (90-day measurement: 135 non-brand impressions, zero clicks, whole blog). Nothing cleared
+  the bar. Probes for uncovered service clusters came back empty: commercial and specialty intent is
+  **21 impressions across 90 days**, and the near-me cluster is map-pack territory.
+- **title_meta**: still spent on the four indexed city pages for the reason recorded on 08-07 and
+  08-10. This window's CTR outliers are either map-pack losses, where the click goes to Call or
+  Directions and GSC never counts it, or they sit at positions 8.7 to 13 where zero clicks is roughly
+  what the position predicts.
+- **Decaying pages**: all four flagged are blog posts in the population that earns no non-brand
+  clicks. `screen-cleaning-ventura-coastal-salt-and-pollen-guide` at position 36.0 on 2 impressions
+  is a reshuffle, not a refresh candidate.
+- **Foreign and out-of-area noise, re-confirmed and left alone**: `exterior cleaning newbury park`
+  (25 impr @ 42.4) and `cladding cleaning newbury park` (15 @ 19.3) are UK traffic for Newbury,
+  Berkshire. New this window: `window cleaning services avila beach` (13 @ 36.6), San Luis Obispo
+  County, outside the service area. A country probe on the Santa Barbara cluster confirmed it is
+  overwhelmingly `usa` (334 of 358 impressions on the head query), so that cluster is real.
+- **gbp (logged, no code change, tenth consecutive run)**: the `http://` website field on the Google
+  Business Profile still 301-redirects and remains Adam's highest-yield single action. Local-pack
+  suspects this window: `window cleaning westlake village` (pos 2.8, 35 impr, 0 clicks) and
+  `window cleaning` (pos 1.0, 32 impr, 0 clicks). Standing asks still open: **real gutter price
+  bands** (~84 impressions of `gutter cleaning prices <city>`), and the outbound-link blocklist plus
+  price-figure review flag on `/root/services/aloha-publish/server.mjs`.
+
+**Also checked, and deliberately not shipped:**
+- **The Coal Oil Point seep field** off Goleta leaks roughly 100 to 160 barrels of oil per day (UCSB,
+  Boles, verified 200) and would have been a striking differentiator. Its tar reaches beaches, not
+  windows. Building copy on it would have invented a deposition mechanism, the same defect class as
+  the 07-17 fabricated hardness and the 08-12 section 3282 claims. Verified, documented, dropped.
+- **`/santa-barbara/` was re-inspected and is still `lastCrawlTime = NEVER`**, 18 days after its
+  07-27 localBrief treatment. Left untouched; its experiment is graded 2026-09-07.
+- **Camarillo contradicts itself on Camrosa hardness across four pages** (10 to 15 gpg on two, 12 to
+  18 on two others). `camrosa.com/water-quality/` 404s, so the true figure was not obtainable and
+  nothing was guessed. Logged in the site map for a future sweep.
+
+**Expected impact:**
+- The 07-31 section moved the head query 2.4 positions in one window. This adds materially more
+  sourced Santa Barbara County depth to the same page, so the primary prediction is the cluster keeps
+  climbing: `window cleaning santa barbara` from 8.7 into the 5 to 8 range within 6 weeks, with the
+  block moving with it. A click at that position is plausible but not promised; at 8.7 zero clicks is
+  normal, which is why position is the honest near-term metric.
+- The sub-geography queries should move furthest because they start worst: `window cleaning montecito`
+  from 17.5 toward 10 to 14.
+- Secondary and probably more durable: these are the only utility-sourced South Coast hardness figures
+  in this SERP, sitting in a comparison table with a summary FAQ answer. That is the shape AI engines
+  quote, and this site's FAQ and price text is where it already gets quoted.
+
+**Metrics at time of action (GSC, 2026-07-15..2026-08-11 unless noted):**
+- Total clicks 71, impressions 2,469. Non-brand clicks **3**, non-brand impressions 1,628.
+- Non-brand avg position 11.1 (prior 10.4).
+- Santa Barbara cluster, 90 days to 08-11: **703 non-brand impressions, 0 clicks, 100% on `/`**, GBP
+  present on only 4 impressions.
+- `window cleaning santa barbara` 138 impr @ **8.7** on `/` (prior 10.2).
+- `window cleaning montecito` 33 impr @ **17.5** (90d); `window washing goleta` 8 @ **33.8** (90d).
+- Homepage FAQ items 10 to **11**; schema parity 11 == 11. Sources added: **4**, all verified 200.
+
+---
+
 ### 2026-08-12
 
 **What we did:**

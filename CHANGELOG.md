@@ -1,3 +1,48 @@
+## 2026-08-14 - The South Coast publishes its water hardness after all, and it is the hardest we work in
+
+- **Expanded the Santa Barbara County section on the homepage with hardness figures pulled from
+  three water districts' own reports.** The site has said for months that no Santa Barbara hardness
+  number can be honestly quoted. That is true of the **City of Santa Barbara**, whose supply mix is
+  rebuilt every water year, and the WY 2025 portfolio table on this page is the evidence for it. It
+  is **not** true of the three districts that ring the city, all of which publish a figure:
+
+  | Agency | Published hardness |
+  |---|---|
+  | Montecito Water District | surface 19 to 26 gpg, groundwater 19 to 38 gpg |
+  | Goleta Water District | averages 20 gpg |
+  | Carpinteria Valley Water District | 17 to 22 gpg |
+
+  Against the Conejo Valley baseline of 8.2 gpg, Montecito groundwater is up to **4.6 times** the
+  mineral load on identical glass, and all three beat Ojai (~17 gpg), which had been the hardest
+  water on our map. Sources are each utility's own Consumer Confidence Report or water quality FAQ,
+  all verified 200 today.
+- **Used the districts' numbers, not the search results'.** A search for Montecito water hardness
+  returns 20.4 gpg from a water softener retailer. That is the same trap as the 12.8 gpg Thousand
+  Oaks claim this site refuted in July, and it was not used. The gpg statements published here are
+  the districts' own softener-setting guidance, and they reconcile with the districts' own mg/L
+  tables (648 mg/L / 17.1 = 37.9, matching "19 to 38").
+- **Second table added to the section**, a cross-agency hardness comparison spanning the whole
+  service area with a multiple-of-baseline column. That is a sixth distinct kind of table on the
+  site, keeping the rule that no two briefs carry the same table shape.
+- **Rewrote the section's second block and added two more.** The old H3 read "Nobody can quote you a
+  Santa Barbara water hardness number, including us", which overreached now that three districts
+  demonstrably do. It now separates the city (no figure, and why) from the districts (figures, and
+  what four times the mineral load does to glass over about a year).
+- **Homepage FAQ item 11 added**, "Is the water hard in Montecito, Goleta, and Carpinteria?", carrying
+  all three districts' figures. It feeds the `faqs` array, so the rendered list and the `FAQPage`
+  JSON-LD cannot drift. Parity re-verified 11 == 11 using `grep -o | wc -l`.
+- **Deliberately not a third locale section.** This deepens the section treated on 2026-07-31, which
+  is the site's only in-repo action with a measured position win. Adding a third section would have
+  contaminated the read on the 08-07 Oxnard Plain section, which is seven days old.
+- **Verified then rejected the Coal Oil Point seep angle.** The seep field off Goleta leaks roughly
+  100 to 160 barrels of oil a day (UCSB, Boles) and is genuinely unique to this coastline, but its
+  tar reaches beaches, not windows. Writing window-cleaning copy around it would have invented a
+  deposition mechanism, the same defect class as the fabricated hardness sweep and the section 3282
+  claims. Documented in the site map so it is not rediscovered and used.
+- **Logged, not fixed: Camarillo contradicts itself on Camrosa hardness across four pages** (10 to 15
+  gpg on two, 12 to 18 on two others). Camrosa's water quality page 404s, so the real figure could
+  not be obtained and nothing was guessed.
+
 ## 2026-08-12 - The auto-publisher was linking to a competitor and quoting other people's prices
 
 - **Audited all 12 Outrank auto-published posts** (2026-08-01 to 2026-08-12, one per day, no human

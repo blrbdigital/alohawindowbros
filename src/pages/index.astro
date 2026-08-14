@@ -25,6 +25,7 @@ const faqs = [
   { q: 'How often should I have my windows cleaned?', a: "We recommend every 3 to 6 months for most homes. If you're near trees, construction, or the coast, more frequent cleaning keeps things crystal clear." },
   { q: 'Do you clean windows in Santa Barbara and Montecito?', a: 'Yes. Aloha Window Bros serves the city of Santa Barbara, Montecito, Hope Ranch, Summerland, Carpinteria, and Goleta alongside our Ventura County service area. Santa Barbara homes typically quote between $200 and $475 for the full four-in-one clean covering windows, screens, frames, and sills.' },
   { q: 'How often should Santa Barbara windows be cleaned?', a: 'Every 2 to 3 months within about two miles of the water, where salt aerosol bonds a haze onto the glass, and roughly every 3 to 4 months inland in Hope Ranch, Mission Canyon, and Goleta. Hillside homes exposed to Sundowner winds sit at the shorter end of that inland range, because ridgeline dust returns within days of a wind event.' },
+  { q: 'Is the water hard in Montecito, Goleta, and Carpinteria?', a: 'Yes, and it is the hardest water Aloha Window Bros works in anywhere. Each district publishes its own figure: Montecito Water District reports 19 to 26 grains per gallon on surface water and 19 to 38 on groundwater, Goleta Water District tells customers to set softeners for an average of 20 grains per gallon, and Carpinteria Valley Water District states a range of 17 to 22. For comparison, the imported supply serving Thousand Oaks and Newbury Park runs 8.2 grains per gallon, so South Coast sprinkler overspray can deposit more than four times the mineral load on identical glass. The City of Santa Barbara itself publishes no hardness figure, because its supply mix is rebuilt every water year.' },
   { q: 'Do you clean windows in Oxnard, Camarillo, Ventura, and Ojai?', a: 'Yes. Aloha Window Bros covers the Oxnard Plain and the Santa Clara River Valley as part of our core Ventura County service area, including Oxnard, Camarillo, the city of Ventura, Santa Paula, Fillmore, and the Ojai Valley. Camarillo and Ventura homes typically quote between $175 and $425 for the full four-in-one clean, Oxnard runs $175 to $450, and Ojai runs $200 to $475.' },
   { q: 'How often should windows be cleaned near farm fields?', a: 'Every 2 to 3 months for homes backing onto active cropland in Oxnard, Camarillo, or Santa Paula, and every 3 to 4 months further from the fields. Ventura County has 139,944 acres of cropland and receives only 0.17 inches of rain between June and September, so field dust that lands on glass in the growing season sits there until someone washes it off. Never dry-wipe it. It is mineral grit and a dry cloth grinds it across the pane.' },
   { q: "What if I'm not satisfied with the results?", a: "We walk the property with you before we leave. If anything doesn't look perfect, we redo it on the spot, 100% satisfaction guaranteed." },
@@ -54,6 +55,18 @@ const sbWaterRows = [
   ['Recycled water', '9%', '1,020 AF'],
   ['State Water Project', '0%', '0 AF'],
   ['Groundwater', '0%', '0 AF'],
+];
+
+// Total hardness as published by each retail water agency itself, not by a softener retailer.
+// Conejo Valley baseline is California American Water's 140 mg/L (8.2 gpg) Jensen WTP supply,
+// which serves 94% of Thousand Oaks and Newbury Park. See .claude-site-map.md before editing.
+const hardnessRows = [
+  ['Montecito Water District (Montecito, Summerland)', '19 to 38 gpg (surface 19 to 26, groundwater 19 to 38)', 'Up to 4.6x'],
+  ['Goleta Water District (Goleta)', 'Averages 20 gpg (350 to 440 mg/L)', '2.4x'],
+  ['Carpinteria Valley Water District (Carpinteria)', '17 to 22 gpg', '2.1 to 2.7x'],
+  ['City of Santa Barbara', 'No hardness figure published', 'Not published'],
+  ['Ojai (Ventura County Public Works)', 'About 17 gpg', '2.1x'],
+  ['California American Water (Thousand Oaks, Newbury Park)', '8.2 gpg (140 mg/L)', 'Baseline'],
 ];
 
 const farmlandRows = [
@@ -327,9 +340,11 @@ const farmlandRows = [
         <p class="locale-lede">
           Santa Barbara windows get loaded from two opposite directions on the same day. Onshore marine air lays a salt
           film down through the afternoon, then Sundowner winds fall off the Santa Ynez Mountains after dark and drop dry
-          ridgeline dust straight on top of it. Aloha Window Bros cleans windows, screens, frames, and sills across
-          <a href="/santa-barbara/">Santa Barbara</a>, Montecito, Hope Ranch, and Goleta, and most homes here quote
-          between $200 and $475 for the complete four-in-one clean.
+          ridgeline dust straight on top of it. On top of both, the South Coast runs the hardest tap water anywhere in our
+          service area: Montecito Water District publishes 19 to 38 grains per gallon, against 8.2 in the Conejo Valley.
+          Aloha Window Bros cleans windows, screens, frames, and sills across
+          <a href="/santa-barbara/">Santa Barbara</a>, Montecito, Hope Ranch, Summerland, Carpinteria, and Goleta, and
+          most homes here quote between $200 and $475 for the complete four-in-one clean.
         </p>
       </div>
 
@@ -347,16 +362,66 @@ const farmlandRows = [
         </article>
 
         <article class="locale-block">
-          <h3>Nobody can quote you a Santa Barbara water hardness number, including us</h3>
+          <h3>The City of Santa Barbara publishes no hardness figure, and that is not evasion</h3>
           <p>
             Most cities we serve run on one supply and one mineral profile. The City of Santa Barbara runs on as many as
             eight, and the mix is rebuilt every water year. In water year 2025, which ran from October 2024 through
             September 2025, the city drew nothing at all from the State Water Project and nothing from groundwater, while
             17 percent of its water came out of the Charles E. Meyer Desalination Plant. When a company quotes you a fixed
-            grains-per-gallon figure for Santa Barbara, they are quoting a number that already moved last year and will
-            move again. We read the deposit on your glass and treat what is actually on it.
+            grains-per-gallon figure for the city itself, they are quoting a number that already moved last year and will
+            move again.
           </p>
         </article>
+
+        <article class="locale-block">
+          <h3>The districts around the city do publish theirs, and they are the hardest water we work in</h3>
+          <p>
+            Montecito, Goleta, and Carpinteria sit on their own separate districts, and all three state a hardness figure
+            in their own reports. Montecito Water District tells customers setting a softener that its surface water runs
+            19 to 26 grains per gallon and its groundwater 19 to 38. Goleta Water District gives an average of 20. Carpinteria
+            Valley Water District publishes a range of 17 to 22. Those are not softener-company estimates, they are the
+            utilities' own numbers, and they are higher than Ojai, which had been the hardest water on our map at about 17.
+          </p>
+        </article>
+
+        <article class="locale-block">
+          <h3>What four times the mineral load actually does to glass</h3>
+          <p>
+            Hardness only matters to a window when the water lands on it, and on the South Coast it lands constantly through
+            irrigation. A sprinkler head clipping a Montecito pane can leave more than four times the dissolved calcium and
+            magnesium that the same head leaves in Newbury Park, and every cycle dries another layer onto the same spot.
+            That is why the fix here is mechanical before it is chemical: turn the spray heads away from the glass first,
+            then have the existing deposit taken off with purified water, which carries no minerals of its own and cannot
+            re-spot as it dries. Left alone past about a year, mineral scale stops sitting on the silica and starts etching
+            into it, and at that point cleaning no longer fully restores the pane.
+          </p>
+        </article>
+      </div>
+
+      <div class="locale-table-wrap">
+        <p class="locale-table-caption">
+          Total water hardness as published by each retail water agency, South Coast compared with our Ventura County
+          service area. Baseline is the imported supply serving Thousand Oaks and Newbury Park.
+        </p>
+        <div class="locale-table-scroll">
+          <table class="locale-table">
+            <thead>
+              <tr><th scope="col">Water agency and community served</th><th scope="col">Hardness the agency publishes</th><th scope="col">Times the Conejo Valley baseline</th></tr>
+            </thead>
+            <tbody>
+              {hardnessRows.map((r) => (
+                <tr><th scope="row">{r[0]}</th><td>{r[1]}</td><td>{r[2]}</td></tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+        <p class="locale-sources">
+          Sources:
+          <a href="https://www.montecitowater.com/doc/ccr2024/" target="_blank" rel="noopener noreferrer">Montecito Water District, 2024 Consumer Confidence Report</a>,
+          <a href="https://www.goletawater.com/doc/18955/" target="_blank" rel="noopener noreferrer">Goleta Water District, 2025 Consumer Confidence Report</a>,
+          <a href="https://www.cvwd.net/water-quality-faq" target="_blank" rel="noopener noreferrer">Carpinteria Valley Water District, Water Quality FAQ</a>,
+          <a href="https://www.amwater.com/ccr/thousandoaks.pdf" target="_blank" rel="noopener noreferrer">California American Water, 2025 Consumer Confidence Report (PWS ID CA5610040)</a>.
+        </p>
       </div>
 
       <div class="locale-table-wrap">
