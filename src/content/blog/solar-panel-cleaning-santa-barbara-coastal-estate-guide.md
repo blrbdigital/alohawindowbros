@@ -151,11 +151,11 @@ Professional cleaning with purified water and soft brushes does not void manufac
 
 ### How do I schedule solar panel cleaning in Santa Barbara?
 
-Aloha Window Bros offers free quotes for solar panel cleaning throughout Santa Barbara, Montecito, Hope Ranch, and the surrounding South Coast. [Schedule a free estimate on Calendly](https://calendly.com/alohawindowbros-r6nn/30min?hide_gdpr_banner=1) or call **(805) 341-4121** to book a convenient time.
+Aloha Window Bros offers free quotes for solar panel cleaning throughout Santa Barbara, Montecito, Hope Ranch, and the surrounding South Coast. [Schedule a free estimate online](/contact/) or call **(805) 341-4121** to book a convenient time.
 
 ## Get Your Free Quote Today
 
-Aloha Window Bros has cleaned solar arrays for hundreds of South Coast and Ventura County homeowners. The same purified water system that keeps [Santa Barbara homes](/santa-barbara/) streak-free also restores solar panel output without scratching glass or voiding warranties. [Schedule your free quote on Calendly](https://calendly.com/alohawindowbros-r6nn/30min?hide_gdpr_banner=1) or call **(805) 341-4121** for a no-obligation on-site assessment.
+Aloha Window Bros has cleaned solar arrays for hundreds of South Coast and Ventura County homeowners. The same purified water system that keeps [Santa Barbara homes](/santa-barbara/) streak-free also restores solar panel output without scratching glass or voiding warranties. [Schedule your free quote online](/contact/) or call **(805) 341-4121** for a no-obligation on-site assessment.
 
 <script type="application/ld+json">
 {
@@ -199,7 +199,7 @@ Aloha Window Bros has cleaned solar arrays for hundreds of South Coast and Ventu
       "name": "How do I schedule solar panel cleaning in Santa Barbara?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Aloha Window Bros offers free quotes for solar panel cleaning throughout Santa Barbara, Montecito, Hope Ranch, and the surrounding South Coast. Schedule a free estimate on Calendly or call (805) 341-4121 to book a convenient time."
+        "text": "Aloha Window Bros offers free quotes for solar panel cleaning throughout Santa Barbara, Montecito, Hope Ranch, and the surrounding South Coast. Schedule a free estimate online or call (805) 341-4121 to book a convenient time."
       }
     }
   ]

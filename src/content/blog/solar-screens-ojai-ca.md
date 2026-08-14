@@ -109,7 +109,7 @@ Yes. Solar screen frames are custom-fabricated to match existing window dimensio
 
 ## Get a Free Solar Screen Quote for Your Ojai Home
 
-If you are looking for a solar screen specialist who understands Ojai Valley's sun exposure, valley heat, and the specific demands of hilltop and east-facing properties, Aloha Window Bros provides free on-site quotes with no obligation. The same team that cleans windows and solar panels throughout the Ojai Valley can measure, fabricate, and install custom solar screens in a single visit. [Schedule your free estimate on Calendly](https://calendly.com/alohawindowbros-r6nn/30min?hide_gdpr_banner=1) or call **(805) 341-4121** to book a convenient time.
+If you are looking for a solar screen specialist who understands Ojai Valley's sun exposure, valley heat, and the specific demands of hilltop and east-facing properties, Aloha Window Bros provides free on-site quotes with no obligation. The same team that cleans windows and solar panels throughout the Ojai Valley can measure, fabricate, and install custom solar screens in a single visit. [Schedule your free estimate online](/contact/) or call **(805) 341-4121** to book a convenient time.
 
 <script type="application/ld+json">
 {

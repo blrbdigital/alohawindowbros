@@ -140,7 +140,7 @@ Yes. Aloha Window Bros performs both standalone hard water restoration and hard 
 
 ## Get Your Free Quote Today
 
-Hard water stains on Ventura County windows do not have to be permanent - but the longer they sit, the harder they are to remove. Aloha Window Bros has restored hundreds of homes across the Conejo Valley, Conejo Coast, and Santa Barbara County. [Schedule your free quote on Calendly](https://calendly.com/alohawindowbros-r6nn/30min?hide_gdpr_banner=1) or call **(805) 341-4121** for a no-obligation on-site assessment.
+Hard water stains on Ventura County windows do not have to be permanent - but the longer they sit, the harder they are to remove. Aloha Window Bros has restored hundreds of homes across the Conejo Valley, Conejo Coast, and Santa Barbara County. [Schedule your free quote online](/contact/) or call **(805) 341-4121** for a no-obligation on-site assessment.
 
 <script type="application/ld+json">
 {

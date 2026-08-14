@@ -19,7 +19,6 @@ const { Content } = await render(service);
 
 const PHONE = '(805) 341-4121';
 const PHONE_LINK = 'tel:+18053414121';
-const CALENDLY = 'https://calendly.com/alohawindowbros-r6nn/30min?hide_gdpr_banner=1';
 
 const serviceImages: Record<string, string> = {
   'window-washing': '/img/window_washing_image.png',
@@ -102,7 +101,7 @@ const jsonLd = {
       <h1>{service.data.title}</h1>
       <p>{tagline}</p>
       <div class="service-hero-ctas">
-        <a href={CALENDLY} class="hero-cta-primary" target="_blank" rel="noopener noreferrer">Get a Free Quote</a>
+        <a href="/contact/" class="hero-cta-primary">Get a Free Quote</a>
         <a href={PHONE_LINK} class="service-hero-phone">Or call {PHONE}</a>
       </div>
     </div>
@@ -129,7 +128,7 @@ const jsonLd = {
       <div class="sidebar-card">
         <h3>Get Your Free Quote</h3>
         <p>Schedule online or call us. We'll come to you.</p>
-        <a href={CALENDLY} class="hero-cta-primary" target="_blank" rel="noopener noreferrer" style="width:100%;text-align:center;">Schedule Now</a>
+        <a href="/contact/" class="hero-cta-primary" style="width:100%;text-align:center;">Schedule Now</a>
         <div class="sidebar-divider"><span>or</span></div>
         <a href={PHONE_LINK} class="sidebar-phone">{PHONE}</a>
       </div>
@@ -162,7 +161,7 @@ const jsonLd = {
   <section class="cta-banner">
     <h2>Ready to Get Started?</h2>
     <p>Schedule your free {service.data.title.toLowerCase()} quote today.</p>
-    <a href={CALENDLY} class="cta-btn" target="_blank" rel="noopener noreferrer">Schedule Free Quote</a>
+    <a href="/contact/" class="cta-btn">Schedule Free Quote</a>
   </section>
 
   <Footer slot="footer" />

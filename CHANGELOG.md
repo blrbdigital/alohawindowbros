@@ -1,3 +1,26 @@
+## 2026-08-14 - Calendly retired: quote flow is now a contact form with call and text CTAs
+
+- **New `/contact/` page** (`src/pages/contact.astro`): Call (805) 341-4121 and Text Us CTAs in the
+  hero, plus an inquiry form (name* + phone* required; email optional; city + service selects;
+  details textarea; honeypot). Submits JSON to `POST /api/contact`, shows inline success/error
+  states, fires GA4 `form_submit` on success. All inputs 16px per the iOS auto-zoom rule. City
+  landing pages link `/contact/?city={cityName}` and the form prefills the City select from it.
+- **Every Calendly CTA sitewide now points at `/contact/`**: Header (3 links), homepage (6, incl.
+  the two region buttons), CityLanding (3), blog index + post template, services template, privacy
+  sidebar, all 55 blog-prose links across ~30 posts (link text " on Calendly" became " online"),
+  the FAQ JSON-LD "on Calendly or call" strings, and `public/llms.txt`. Header/Footer "Contact"
+  nav links now go to `/contact/` instead of `/#contact`. `grep -rl calendly dist/` = 0 files.
+- **Backend**: new `aloha-forms` pm2 service on the VPS (`/root/aloha-forms`, 0.0.0.0:5212),
+  cloned from the crossover-forms pattern. Sends the quote notification to
+  alohawindowbros@gmail.com + adam@blrbdigital.com and a confirmation to the submitter, both via
+  Resend from `Aloha Window Bros <adam@blrbdigital.com>` (blrbdigital.com is the verified domain).
+  Routed via a `location = /api/contact` block in the NPM proxy host (34.conf), same layer as the
+  outrank webhook. Rate limit 5/10min/ip; submissions logged to submissions.jsonl. Verified live
+  end to end before the site change shipped.
+- **Base.astro conversion tracking updated**: `quote_click` now fires on links to `/contact/`
+  (the calendly.com matcher was dead weight after the sweep), new `text_click` event on sms: links.
+- **Privacy policy**: Calendly removed from the processor list (Resend added) and third-party links.
+
 ## 2026-08-14 - The South Coast publishes its water hardness after all, and it is the hardest we work in
 
 - **Expanded the Santa Barbara County section on the homepage with hardness figures pulled from

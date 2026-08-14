@@ -127,7 +127,7 @@ Yes. Aloha Window Bros offers quarterly and semi-annual plans with priority sche
 
 ## Schedule Your Free Ojai Window Cleaning Quote
 
-Whether you're hosting an event at an East End estate or just want the marine-layer haze off your Mira Monte bungalow, Aloha Window Bros provides free on-site quotes throughout the Ojai Valley. [Book your free quote on Calendly](https://calendly.com/alohawindowbros-r6nn/30min?hide_gdpr_banner=1) or call **(805) 341-4121** to get crystal-clear, valley-view glass.
+Whether you're hosting an event at an East End estate or just want the marine-layer haze off your Mira Monte bungalow, Aloha Window Bros provides free on-site quotes throughout the Ojai Valley. [Book your free quote online](/contact/) or call **(805) 341-4121** to get crystal-clear, valley-view glass.
 
 <script type="application/ld+json">
 {

@@ -114,7 +114,7 @@ Check your solar inverter or monitoring app for a gradual decline in daily energ
 
 ### How do I schedule solar panel cleaning in Thousand Oaks?
 
-Aloha Window Bros offers free quotes for solar panel cleaning in Thousand Oaks and the Conejo Valley. [Schedule a free estimate](https://calendly.com/alohawindowbros-r6nn/30min?hide_gdpr_banner=1) online or call (805) 341-4121 to book a convenient time.
+Aloha Window Bros offers free quotes for solar panel cleaning in Thousand Oaks and the Conejo Valley. [Schedule a free estimate](/contact/) online or call (805) 341-4121 to book a convenient time.
 
 <script type="application/ld+json">
 {

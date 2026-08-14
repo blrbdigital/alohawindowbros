@@ -1,0 +1,331 @@
+---
+import Base from '../layouts/Base.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { GBP } from '../lib/seo';
+import '../styles/global.css';
+
+const PHONE = '(805) 341-4121';
+const PHONE_LINK = 'tel:+18053414121';
+const SMS_LINK = 'sms:+18053414121';
+
+const CITIES = [
+  'Thousand Oaks', 'Westlake Village', 'Agoura Hills', 'Newbury Park',
+  'Santa Barbara', 'Camarillo', 'Simi Valley', 'Oxnard', 'Ventura', 'Ojai',
+];
+const SERVICES = [
+  'Window Washing', 'Screen Cleaning', 'Solar Panel Cleaning',
+  'Gutter Cleaning', 'Multiple / Not Sure',
+];
+---
+<Base
+  title="Get a Free Quote | Call, Text, or Send an Inquiry"
+  description="Request a free window cleaning quote in Ventura County and Santa Barbara. Call or text (805) 341-4121, or send an inquiry and we'll get right back to you."
+>
+  <Header slot="header" />
+
+  <section class="blog-post-hero contact-hero">
+    <h1>Get Your Free Quote</h1>
+    <p class="contact-hero-sub">
+      Call or text us for the fastest answer, or send an inquiry below and we'll
+      get back to you, usually the same day.
+    </p>
+    <div class="contact-hero-ctas">
+      <a href={PHONE_LINK} class="contact-cta contact-cta-call">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+        Call {PHONE}
+      </a>
+      <a href={SMS_LINK} class="contact-cta contact-cta-text">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>
+        Text Us
+      </a>
+    </div>
+    <p class="contact-hero-trust">⭐ {GBP.ratingValue} stars from {GBP.reviewCount} Google reviews</p>
+  </section>
+
+  <section class="contact-form-section">
+    <div class="contact-form-card">
+      <h2>Send an Inquiry</h2>
+      <p class="contact-form-sub">Tell us a little about the job and we'll reach out with your free quote.</p>
+      <form id="inquiry-form" novalidate>
+        <div class="form-row">
+          <div class="form-field">
+            <label for="f-name">Name <span aria-hidden="true">*</span></label>
+            <input id="f-name" name="name" type="text" autocomplete="name" required maxlength="120" />
+          </div>
+          <div class="form-field">
+            <label for="f-phone">Phone <span aria-hidden="true">*</span></label>
+            <input id="f-phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" required maxlength="30" />
+          </div>
+        </div>
+        <div class="form-field">
+          <label for="f-email">Email <span class="form-optional">(optional)</span></label>
+          <input id="f-email" name="email" type="email" autocomplete="email" inputmode="email" maxlength="200" />
+        </div>
+        <div class="form-row">
+          <div class="form-field">
+            <label for="f-city">City</label>
+            <select id="f-city" name="city">
+              <option value="">Select your city</option>
+              {CITIES.map((c) => <option value={c}>{c}</option>)}
+              <option value="Other">Other</option>
+            </select>
+          </div>
+          <div class="form-field">
+            <label for="f-service">Service</label>
+            <select id="f-service" name="service">
+              <option value="">What do you need?</option>
+              {SERVICES.map((s) => <option value={s}>{s}</option>)}
+            </select>
+          </div>
+        </div>
+        <div class="form-field">
+          <label for="f-message">Anything else we should know? <span class="form-optional">(optional)</span></label>
+          <textarea id="f-message" name="message" rows="4" maxlength="8000" placeholder="Number of windows, stories, screens, hard water spots, gate codes, best time to reach you..."></textarea>
+        </div>
+        <!-- Honeypot: humans never see or fill this field -->
+        <div class="form-hp" aria-hidden="true">
+          <label for="f-company">Company</label>
+          <input id="f-company" name="company" type="text" tabindex="-1" autocomplete="off" />
+        </div>
+        <button type="submit" class="form-submit" id="form-submit">Request My Free Quote</button>
+        <p class="form-status" id="form-status" role="status"></p>
+      </form>
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+</Base>
+
+<style>
+  .contact-hero {
+    text-align: center;
+    padding: 56px 24px 48px;
+  }
+  .contact-hero h1 {
+    margin: 0 auto 12px;
+  }
+  .contact-hero-sub {
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 16px;
+    line-height: 1.6;
+    max-width: 520px;
+    margin: 0 auto 26px;
+  }
+  .contact-hero-ctas {
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+    flex-wrap: wrap;
+  }
+  .contact-cta {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 9px;
+    padding: 15px 28px;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: 700;
+    transition: transform 0.15s, background 0.2s;
+  }
+  .contact-cta:hover { transform: translateY(-1px); }
+  .contact-cta-call {
+    background: #16a34a;
+    color: #fff;
+    box-shadow: 0 4px 14px rgba(22, 163, 74, 0.35);
+  }
+  .contact-cta-call:hover { background: #15803d; color: #fff; }
+  .contact-cta-text {
+    background: #fff;
+    color: #2563eb;
+  }
+  .contact-cta-text:hover { color: #1e40af; }
+  .contact-hero-trust {
+    margin-top: 22px;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.75);
+  }
+
+  .contact-form-section {
+    padding: 48px 24px 64px;
+    background: #f8fafc;
+  }
+  .contact-form-card {
+    max-width: 640px;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 16px;
+    padding: 36px 32px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+  }
+  .contact-form-card h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 26px;
+    color: #1a1a2e;
+    margin-bottom: 8px;
+    text-align: center;
+  }
+  .contact-form-sub {
+    font-size: 15px;
+    color: #64748b;
+    text-align: center;
+    margin-bottom: 28px;
+  }
+  .form-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+  }
+  .form-field {
+    margin-bottom: 18px;
+  }
+  .form-field label {
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    color: #1a1a2e;
+    margin-bottom: 6px;
+  }
+  .form-field label span[aria-hidden] { color: #dc2626; }
+  .form-optional {
+    font-weight: 400;
+    color: #94a3b8;
+  }
+  .form-field input,
+  .form-field select,
+  .form-field textarea {
+    width: 100%;
+    font-size: 16px; /* 16px+ prevents iOS focus auto-zoom; never shrink this */
+    font-family: inherit;
+    color: #1a1a2e;
+    background: #fff;
+    border: 1px solid #cbd5e1;
+    border-radius: 10px;
+    padding: 12px 14px;
+    transition: border-color 0.15s, box-shadow 0.15s;
+  }
+  .form-field textarea { resize: vertical; }
+  .form-field input:focus,
+  .form-field select:focus,
+  .form-field textarea:focus {
+    outline: none;
+    border-color: #2563eb;
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
+  }
+  .form-hp {
+    position: absolute;
+    left: -9999px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+  }
+  .form-submit {
+    width: 100%;
+    padding: 15px 20px;
+    background: #16a34a;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background 0.2s, transform 0.15s;
+    box-shadow: 0 4px 14px rgba(22, 163, 74, 0.35);
+  }
+  .form-submit:hover { background: #15803d; transform: translateY(-1px); }
+  .form-submit:disabled {
+    background: #94a3b8;
+    box-shadow: none;
+    cursor: default;
+    transform: none;
+  }
+  .form-status {
+    margin-top: 14px;
+    font-size: 15px;
+    text-align: center;
+    min-height: 22px;
+  }
+  .form-status.ok { color: #15803d; font-weight: 600; }
+  .form-status.err { color: #dc2626; font-weight: 600; }
+
+  @media (max-width: 560px) {
+    .contact-hero { padding: 44px 20px 40px; }
+    .contact-hero-ctas { flex-direction: column; align-items: stretch; }
+    .form-row { grid-template-columns: 1fr; gap: 0; }
+    .contact-form-card { padding: 28px 20px; }
+    .contact-form-section { padding: 36px 16px 48px; }
+  }
+</style>
+
+<script>
+  // Prefill city from ?city= (city landing pages link here with their city).
+  const params = new URLSearchParams(window.location.search);
+  const cityParam = params.get('city');
+  const citySelect = document.getElementById('f-city') as HTMLSelectElement | null;
+  if (cityParam && citySelect) {
+    for (const opt of citySelect.options) {
+      if (opt.value.toLowerCase() === cityParam.toLowerCase()) {
+        citySelect.value = opt.value;
+        break;
+      }
+    }
+  }
+
+  const form = document.getElementById('inquiry-form') as HTMLFormElement | null;
+  const status = document.getElementById('form-status') as HTMLParagraphElement | null;
+  const submitBtn = document.getElementById('form-submit') as HTMLButtonElement | null;
+
+  form?.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    if (!status || !submitBtn) return;
+    const fd = new FormData(form);
+    const payload = {
+      name: String(fd.get('name') || '').trim(),
+      phone: String(fd.get('phone') || '').trim(),
+      email: String(fd.get('email') || '').trim(),
+      city: String(fd.get('city') || ''),
+      service: String(fd.get('service') || ''),
+      message: String(fd.get('message') || '').trim(),
+      company: String(fd.get('company') || ''),
+    };
+    status.className = 'form-status';
+    if (!payload.name || !payload.phone) {
+      status.classList.add('err');
+      status.textContent = 'Add your name and phone number so we can reach you.';
+      return;
+    }
+    submitBtn.disabled = true;
+    submitBtn.textContent = 'Sending...';
+    try {
+      const resp = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload),
+      });
+      const json = await resp.json().catch(() => ({}));
+      if (resp.ok && json.success) {
+        form.reset();
+        status.classList.add('ok');
+        status.textContent = "Got it! We'll reach out shortly with your free quote.";
+        submitBtn.textContent = 'Request Sent';
+        // @ts-ignore gtag is defined in Base.astro
+        if (typeof gtag === 'function') {
+          // @ts-ignore
+          gtag('event', 'form_submit', { event_category: 'conversion', event_label: 'inquiry_form' });
+        }
+      } else {
+        status.classList.add('err');
+        status.textContent = json.error || 'Something went wrong. Call or text us at (805) 341-4121.';
+        submitBtn.disabled = false;
+        submitBtn.textContent = 'Request My Free Quote';
+      }
+    } catch (_) {
+      status.classList.add('err');
+      status.textContent = 'Something went wrong. Call or text us at (805) 341-4121.';
+      submitBtn.disabled = false;
+      submitBtn.textContent = 'Request My Free Quote';
+    }
+  });
+</script>

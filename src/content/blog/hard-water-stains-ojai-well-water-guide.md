@@ -117,7 +117,7 @@ Not if you catch them. Deposits under 12 months old can usually be fully or near
 
 ## Get Your Free Ojai Quote
 
-Ojai's water is the hardest challenge in Ventura County for window glass, and it is the one problem that genuinely gets permanent if you leave it alone. Aloha Window Bros restores hard water damaged glass throughout Ojai, Meiners Oaks, Mira Monte, and the East End, using purified water on every job. [Schedule your free quote on Calendly](https://calendly.com/alohawindowbros-r6nn/30min?hide_gdpr_banner=1) or call **(805) 341-4121** for a no-obligation on-site assessment.
+Ojai's water is the hardest challenge in Ventura County for window glass, and it is the one problem that genuinely gets permanent if you leave it alone. Aloha Window Bros restores hard water damaged glass throughout Ojai, Meiners Oaks, Mira Monte, and the East End, using purified water on every job. [Schedule your free quote online](/contact/) or call **(805) 341-4121** for a no-obligation on-site assessment.
 
 <script type="application/ld+json">
 {

@@ -150,11 +150,11 @@ Screen cleaning typically runs $3 to $6 per screen, or $50 to $150 for a whole a
 
 ### How do I schedule screen cleaning in Ojai?
 
-Aloha Window Bros offers free quotes for screen cleaning throughout Ojai and Ventura County. [Schedule a free estimate on Calendly](https://calendly.com/alohawindowbros-r6nn/30min?hide_gdpr_banner=1) or call **(805) 341-4121** to book a convenient time.
+Aloha Window Bros offers free quotes for screen cleaning throughout Ojai and Ventura County. [Schedule a free estimate online](/contact/) or call **(805) 341-4121** to book a convenient time.
 
 ## Get Your Free Quote Today
 
-Aloha Window Bros keeps screens and glass clear for homeowners across [Ojai](/ojai/), where grove pollen, a valley inversion layer, and hard well water combine to produce screens that a garden hose can only make worse. Purified water is the only thing that lifts that mineral scale back out of the mesh. [Schedule your free quote on Calendly](https://calendly.com/alohawindowbros-r6nn/30min?hide_gdpr_banner=1) or call **(805) 341-4121** for a no-obligation on-site assessment.
+Aloha Window Bros keeps screens and glass clear for homeowners across [Ojai](/ojai/), where grove pollen, a valley inversion layer, and hard well water combine to produce screens that a garden hose can only make worse. Purified water is the only thing that lifts that mineral scale back out of the mesh. [Schedule your free quote online](/contact/) or call **(805) 341-4121** for a no-obligation on-site assessment.
 
 <script type="application/ld+json">
 {
@@ -198,7 +198,7 @@ Aloha Window Bros keeps screens and glass clear for homeowners across [Ojai](/oj
       "name": "How do I schedule screen cleaning in Ojai?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Aloha Window Bros offers free quotes for screen cleaning throughout Ojai and Ventura County. Schedule a free estimate on Calendly or call (805) 341-4121 to book a convenient time."
+        "text": "Aloha Window Bros offers free quotes for screen cleaning throughout Ojai and Ventura County. Schedule a free estimate online or call (805) 341-4121 to book a convenient time."
       }
     }
   ]

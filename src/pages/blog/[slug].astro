@@ -19,7 +19,6 @@ const { Content } = await render(post);
 
 const PHONE = '(805) 341-4121';
 const PHONE_LINK = 'tel:+18053414121';
-const CALENDLY = 'https://calendly.com/alohawindowbros-r6nn/30min?hide_gdpr_banner=1';
 
 const jsonLd = {
   "@context": "https://schema.org",
@@ -78,7 +77,7 @@ const jsonLd = {
       <div class="sidebar-card">
         <h3>Need Window Cleaning?</h3>
         <p>Schedule a free quote. We'll come to you.</p>
-        <a href={CALENDLY} class="hero-cta-primary" target="_blank" rel="noopener noreferrer" style="width:100%;text-align:center;">Get a Free Quote</a>
+        <a href="/contact/" class="hero-cta-primary" style="width:100%;text-align:center;">Get a Free Quote</a>
         <div class="sidebar-divider"><span>or</span></div>
         <a href={PHONE_LINK} class="sidebar-phone">{PHONE}</a>
       </div>
@@ -117,7 +116,7 @@ const jsonLd = {
   <section class="cta-banner">
     <h2>Ready for Crystal Clear Windows?</h2>
     <p>Get a free on-site quote from Aloha Window Bros today.</p>
-    <a href={CALENDLY} class="cta-btn" target="_blank" rel="noopener noreferrer">Schedule Free Quote</a>
+    <a href="/contact/" class="cta-btn">Schedule Free Quote</a>
   </section>
 
   <Footer slot="footer" />

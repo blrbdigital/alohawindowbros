@@ -128,7 +128,7 @@ Yes. Aloha Window Bros services storefronts, restaurants, offices, and short-ter
 
 ## Schedule Your Free Santa Barbara Window Washing Quote
 
-Aloha Window Bros offers free on-site quotes for homes and businesses throughout Santa Barbara County. [Book your free quote on Calendly](https://calendly.com/alohawindowbros-r6nn/30min?hide_gdpr_banner=1) or call **(805) 341-4121** to get crystal-clear, streak-free glass on your timeline.
+Aloha Window Bros offers free on-site quotes for homes and businesses throughout Santa Barbara County. [Book your free quote online](/contact/) or call **(805) 341-4121** to get crystal-clear, streak-free glass on your timeline.
 
 <script type="application/ld+json">
 {

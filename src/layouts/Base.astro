@@ -133,8 +133,16 @@ const ogImageUrl = ogImage.startsWith('http') ? ogImage : `${siteUrl}${ogImage}`
           });
         }
 
-        // Calendly / Free Quote clicks
-        if (href.includes('calendly.com')) {
+        // Text message clicks
+        if (href.startsWith('sms:')) {
+          gtag('event', 'text_click', {
+            event_category: 'conversion',
+            event_label: href,
+          });
+        }
+
+        // Free Quote / contact-form CTA clicks (was calendly.com before 2026-08-14)
+        if (href === '/contact/' || href.startsWith('/contact/?')) {
           gtag('event', 'quote_click', {
             event_category: 'conversion',
             event_label: link.textContent.trim(),

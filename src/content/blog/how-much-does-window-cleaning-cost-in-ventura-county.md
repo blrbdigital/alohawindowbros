@@ -112,7 +112,7 @@ Every three to four months suits most homes. Quarterly is better for hillside ho
 
 The bands above will get you close, but the only price that means anything is the one for your actual window count. Aloha Window Bros gives free on-site estimates across Ventura County and Santa Barbara County, usually within 24 hours, and the quote we give is the price you pay. If you are in the city of Ventura, our [Ventura window cleaning page](/ventura/) covers the Pierpont, Ventura Keys, and hillside specifics. For the Conejo Valley, start with [Thousand Oaks](/thousand-oaks/) or [Westlake Village](/westlake/).
 
-[Schedule your free quote on Calendly](https://calendly.com/alohawindowbros-r6nn/30min?hide_gdpr_banner=1) or call **(805) 341-4121**.
+[Schedule your free quote online](/contact/) or call **(805) 341-4121**.
 
 <script type="application/ld+json">
 {

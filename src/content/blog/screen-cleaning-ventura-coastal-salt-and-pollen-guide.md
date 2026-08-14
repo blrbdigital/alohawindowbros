@@ -138,11 +138,11 @@ Screen cleaning typically runs $3 to $6 per screen, or $50 to $150 for a whole a
 
 ### How do I schedule screen cleaning in Ventura?
 
-Aloha Window Bros offers free quotes for screen cleaning throughout Ventura and Ventura County. [Schedule a free estimate on Calendly](https://calendly.com/alohawindowbros-r6nn/30min?hide_gdpr_banner=1) or call **(805) 341-4121** to book a convenient time.
+Aloha Window Bros offers free quotes for screen cleaning throughout Ventura and Ventura County. [Schedule a free estimate online](/contact/) or call **(805) 341-4121** to book a convenient time.
 
 ## Get Your Free Quote Today
 
-Aloha Window Bros keeps screens and glass clear for homeowners across [Ventura](/ventura/), where coastal salt and pollen clog window screens faster than almost anywhere inland. Cleaning your screens at the same time as your windows is the only way to keep that salt film from streaking the glass within days. [Schedule your free quote on Calendly](https://calendly.com/alohawindowbros-r6nn/30min?hide_gdpr_banner=1) or call **(805) 341-4121** for a no-obligation on-site assessment.
+Aloha Window Bros keeps screens and glass clear for homeowners across [Ventura](/ventura/), where coastal salt and pollen clog window screens faster than almost anywhere inland. Cleaning your screens at the same time as your windows is the only way to keep that salt film from streaking the glass within days. [Schedule your free quote online](/contact/) or call **(805) 341-4121** for a no-obligation on-site assessment.
 
 <script type="application/ld+json">
 {
@@ -186,7 +186,7 @@ Aloha Window Bros keeps screens and glass clear for homeowners across [Ventura](
       "name": "How do I schedule screen cleaning in Ventura?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Aloha Window Bros offers free quotes for screen cleaning throughout Ventura and Ventura County. Schedule a free estimate on Calendly or call (805) 341-4121 to book a convenient time."
+        "text": "Aloha Window Bros offers free quotes for screen cleaning throughout Ventura and Ventura County. Schedule a free estimate online or call (805) 341-4121 to book a convenient time."
       }
     }
   ]

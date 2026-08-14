@@ -177,4 +177,4 @@ Yes. Aloha Window Bros cleans all types of screens including standard window scr
 
 ## Get Your Free Quote Today
 
-Aloha Window Bros provides professional screen cleaning throughout Ventura County — standalone or bundled with window washing for the best value. [Schedule your free quote on Calendly](https://calendly.com/alohawindowbros-r6nn/30min?hide_gdpr_banner=1) or call **(805) 341-4121** for an on-site estimate with no obligation.
+Aloha Window Bros provides professional screen cleaning throughout Ventura County, standalone or bundled with window washing for the best value. [Schedule your free quote online](/contact/) or call **(805) 341-4121** for an on-site estimate with no obligation.

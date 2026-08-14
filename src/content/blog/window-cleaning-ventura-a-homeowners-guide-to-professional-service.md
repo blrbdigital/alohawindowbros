@@ -190,4 +190,4 @@ Every season has benefits. Spring cleaning removes winter salt and fog buildup. 
 
 ## Get Your Free Quote Today
 
-Aloha Window Bros has helped hundreds of Ventura homeowners maintain crystal-clear windows in one of California's most beautiful coastal cities. [Schedule your free quote on Calendly](https://calendly.com/alohawindowbros-r6nn/30min?hide_gdpr_banner=1) or call **(805) 341-4121** — we'll come to you for an on-site estimate with no obligation.
+Aloha Window Bros has helped hundreds of Ventura homeowners maintain crystal-clear windows in one of California's most beautiful coastal cities. [Schedule your free quote online](/contact/) or call **(805) 341-4121** and we'll come to you for an on-site estimate with no obligation.

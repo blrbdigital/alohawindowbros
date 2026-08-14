@@ -111,4 +111,4 @@ Yes. Aloha Window Bros offers quarterly and semi-annual plans with priority sche
 
 ## Schedule Your Free Quote
 
-Ready for crystal-clear windows? Aloha Window Bros provides free on-site quotes for homes throughout Santa Barbara County. [Book your free quote on Calendly](https://calendly.com/alohawindowbros-r6nn/30min?hide_gdpr_banner=1) or call **(805) 341-4121** today.
+Ready for crystal-clear windows? Aloha Window Bros provides free on-site quotes for homes throughout Santa Barbara County. [Book your free quote online](/contact/) or call **(805) 341-4121** today.

@@ -101,7 +101,7 @@ Not if they are caught in time. Deposits under 12 months old can usually be full
 
 ## Get Your Free Westlake Village Quote
 
-Westlake Village does not have a water problem, it has a sprinkler problem, and that is a much easier thing to fix. Aloha Window Bros restores hard water damaged glass throughout Westlake Village, North Ranch, First Neighborhood, and the lakefront, finishing every job with a purified water rinse that dries without leaving a single mineral behind. [Schedule your free quote on Calendly](https://calendly.com/alohawindowbros-r6nn/30min?hide_gdpr_banner=1) or call **(805) 341-4121** for a no-obligation on-site assessment.
+Westlake Village does not have a water problem, it has a sprinkler problem, and that is a much easier thing to fix. Aloha Window Bros restores hard water damaged glass throughout Westlake Village, North Ranch, First Neighborhood, and the lakefront, finishing every job with a purified water rinse that dries without leaving a single mineral behind. [Schedule your free quote online](/contact/) or call **(805) 341-4121** for a no-obligation on-site assessment.
 
 <script type="application/ld+json">
 {

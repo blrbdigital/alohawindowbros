@@ -8,7 +8,6 @@ import '../styles/global.css';
 const PHONE = '(805) 341-4121';
 const PHONE_LINK = 'tel:+18053414121';
 const EMAIL = 'alohawindowbros@gmail.com';
-const CALENDLY = 'https://calendly.com/alohawindowbros-r6nn/30min?hide_gdpr_banner=1';
 
 const reviews = [
   { text: '"The Aloha Window Bros did a great job on our windows. It was easy to schedule and they were on time. Pricing is excellent!"', name: 'Mark S.', color: '#2563eb' },
@@ -103,7 +102,7 @@ const farmlandRows = [
           <span class="hero-badge">{GBP.ratingValue} Google Rating</span>
         </div>
         <div class="hero-ctas">
-          <a href={CALENDLY} class="hero-cta-primary" target="_blank" rel="noopener noreferrer">Get Your Free Quote</a>
+          <a href="/contact/" class="hero-cta-primary">Get Your Free Quote</a>
           <a href={PHONE_LINK} class="hero-cta-phone">Or call {PHONE}</a>
         </div>
         <p class="hero-microcopy">Free on-site estimate · No obligation · Usually within 24 hrs</p>
@@ -114,8 +113,8 @@ const farmlandRows = [
             <h3>Schedule in 30 Seconds</h3>
             <p class="subtitle">Pick your area, we'll come to you</p>
           </div>
-          <a href={CALENDLY} class="btn-book btn-sb" target="_blank" rel="noopener noreferrer">Santa Barbara County</a>
-          <a href={CALENDLY} class="btn-book btn-to" target="_blank" rel="noopener noreferrer">Ventura County / Thousand Oaks</a>
+          <a href="/contact/" class="btn-book btn-sb">Santa Barbara County</a>
+          <a href="/contact/" class="btn-book btn-to">Ventura County / Thousand Oaks</a>
           <div class="booking-divider"><span>or call directly</span></div>
           <a href={PHONE_LINK} class="btn-book btn-call">{PHONE}</a>
           <div class="booking-proof">
@@ -129,7 +128,7 @@ const farmlandRows = [
 
   <div class="mobile-cta-bar">
     <a href={PHONE_LINK} class="mobile-cta-call">Call Now</a>
-    <a href={CALENDLY} class="mobile-cta-book" target="_blank" rel="noopener noreferrer">Free Quote</a>
+    <a href="/contact/" class="mobile-cta-book">Free Quote</a>
   </div>
 
   <!-- Stats -->
@@ -192,7 +191,7 @@ const farmlandRows = [
       </div>
     </div>
     <div class="how-cta">
-      <a href={CALENDLY} class="hero-cta-primary" target="_blank" rel="noopener noreferrer">Get Your Free Quote</a>
+      <a href="/contact/" class="hero-cta-primary">Get Your Free Quote</a>
       <span class="how-cta-sub">No obligation · Usually within 24 hrs</span>
     </div>
   </section>
@@ -619,7 +618,7 @@ const farmlandRows = [
   <section class="cta-banner">
     <h2>Ready for Crystal Clear Windows?</h2>
     <p>Schedule your free quote today, we'll drive out to you!</p>
-    <a href={CALENDLY} class="cta-btn" target="_blank" rel="noopener noreferrer">Schedule Free Quote</a>
+    <a href="/contact/" class="cta-btn">Schedule Free Quote</a>
   </section>
 
   <!-- Wave: CTA → Contact -->

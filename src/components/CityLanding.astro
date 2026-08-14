@@ -45,7 +45,7 @@ const { city } = Astro.props as { city: CityProps };
 const PHONE = '(805) 341-4121';
 const PHONE_LINK = 'tel:+18053414121';
 const EMAIL = 'alohawindowbros@gmail.com';
-const CALENDLY = 'https://calendly.com/alohawindowbros-r6nn/30min?hide_gdpr_banner=1';
+const CONTACT = `/contact/?city=${encodeURIComponent(city.cityName)}`;
 
 const canonical = `https://alohawindowbros.com/${city.slug}/`;
 
@@ -123,7 +123,7 @@ const jsonLd = {
       <h1>{city.heroHeadline}</h1>
       <p class="city-hero-sub">{city.heroSubcopy}</p>
       <div class="city-hero-ctas">
-        <a href={CALENDLY} class="hero-cta-primary" target="_blank" rel="noopener noreferrer">Get Your Free Quote</a>
+        <a href={CONTACT} class="hero-cta-primary">Get Your Free Quote</a>
         <a href={PHONE_LINK} class="city-hero-phone">Or call {PHONE}</a>
       </div>
       <div class="city-hero-trust">
@@ -136,7 +136,7 @@ const jsonLd = {
 
   <div class="mobile-cta-bar">
     <a href={PHONE_LINK} class="mobile-cta-call">Call Now</a>
-    <a href={CALENDLY} class="mobile-cta-book" target="_blank" rel="noopener noreferrer">Free Quote</a>
+    <a href={CONTACT} class="mobile-cta-book">Free Quote</a>
   </div>
 
   <!-- Intro / Why -->
@@ -313,7 +313,7 @@ const jsonLd = {
   <section class="cta-banner">
     <h2>Ready for Crystal Clear Windows in {city.shortName}?</h2>
     <p>Schedule a free quote, we'll drive out to you, usually within 24 hours.</p>
-    <a href={CALENDLY} class="cta-btn" target="_blank" rel="noopener noreferrer">Schedule Free Quote</a>
+    <a href={CONTACT} class="cta-btn">Schedule Free Quote</a>
   </section>
 
   <Footer slot="footer" />

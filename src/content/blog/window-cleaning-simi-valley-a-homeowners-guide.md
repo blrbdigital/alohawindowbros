@@ -118,7 +118,7 @@ Yes. Aloha Window Bros serves all Simi Valley neighborhoods including hillside c
 
 ### How do I get a free quote for window cleaning in Simi Valley?
 
-Aloha Window Bros offers free on-site quotes for all Simi Valley homes. [Schedule a free estimate](https://calendly.com/alohawindowbros-r6nn/30min?hide_gdpr_banner=1) online or call (805) 341-4121 to book a convenient time.
+Aloha Window Bros offers free on-site quotes for all Simi Valley homes. [Schedule a free estimate](/contact/) online or call (805) 341-4121 to book a convenient time.
 
 <script type="application/ld+json">
 {

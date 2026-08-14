@@ -118,7 +118,7 @@ No, not for exterior-only service. For interior cleaning, someone needs to be ho
 
 ### How do I get a free quote for window cleaning in Camarillo?
 
-Aloha Window Bros offers free on-site quotes for all Camarillo homes. [Schedule a free estimate](https://calendly.com/alohawindowbros-r6nn/30min?hide_gdpr_banner=1) online or call (805) 341-4121 to book a convenient time.
+Aloha Window Bros offers free on-site quotes for all Camarillo homes. [Schedule a free estimate](/contact/) online or call (805) 341-4121 to book a convenient time.
 
 <script type="application/ld+json">
 {

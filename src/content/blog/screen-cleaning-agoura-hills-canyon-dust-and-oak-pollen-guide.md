@@ -140,11 +140,11 @@ Screen cleaning typically runs $3 to $6 per screen, or $50 to $150 for a whole a
 
 ### How do I schedule screen cleaning in Agoura Hills?
 
-Aloha Window Bros offers free quotes for screen cleaning throughout Agoura Hills and the Conejo Valley. [Schedule a free estimate on Calendly](https://calendly.com/alohawindowbros-r6nn/30min?hide_gdpr_banner=1) or call **(805) 341-4121** to book a convenient time.
+Aloha Window Bros offers free quotes for screen cleaning throughout Agoura Hills and the Conejo Valley. [Schedule a free estimate online](/contact/) or call **(805) 341-4121** to book a convenient time.
 
 ## Get Your Free Quote Today
 
-Aloha Window Bros keeps screens and glass clear for homeowners across [Agoura Hills](/agoura/), where oak pollen, canyon dust, and wildfire ash load window screens faster than most homeowners realize. Cleaning your screens at the same time as your windows is the only way to stop pollen tannins from streaking freshly cleaned glass on the next damp morning. [Schedule your free quote on Calendly](https://calendly.com/alohawindowbros-r6nn/30min?hide_gdpr_banner=1) or call **(805) 341-4121** for a no-obligation on-site assessment.
+Aloha Window Bros keeps screens and glass clear for homeowners across [Agoura Hills](/agoura/), where oak pollen, canyon dust, and wildfire ash load window screens faster than most homeowners realize. Cleaning your screens at the same time as your windows is the only way to stop pollen tannins from streaking freshly cleaned glass on the next damp morning. [Schedule your free quote online](/contact/) or call **(805) 341-4121** for a no-obligation on-site assessment.
 
 <script type="application/ld+json">
 {
@@ -188,7 +188,7 @@ Aloha Window Bros keeps screens and glass clear for homeowners across [Agoura Hi
       "name": "How do I schedule screen cleaning in Agoura Hills?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Aloha Window Bros offers free quotes for screen cleaning throughout Agoura Hills and the Conejo Valley. Schedule a free estimate on Calendly or call (805) 341-4121 to book a convenient time."
+        "text": "Aloha Window Bros offers free quotes for screen cleaning throughout Agoura Hills and the Conejo Valley. Schedule a free estimate online or call (805) 341-4121 to book a convenient time."
       }
     }
   ]
