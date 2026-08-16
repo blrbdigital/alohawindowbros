@@ -136,9 +136,9 @@ For an older unit with unknown material, the conservative choice is a soft, non-
 <a id="what-skylight-cleaning-costs-and-how-quotes-are-built"></a>
 ## What Skylight Cleaning Costs and How Quotes Are Built
 
-A legitimate quote reflects the work required, not just the number of panes. The **2026 industry overview** from [Professional Window Cleaning](https://www.professionalwindowcleaning.com/post/skylight-cleaning-service) estimates the U.S. window-washing industry at **$2.9 billion with 35,344 businesses**, and reports a national average skylight-cleaning cost of **$25 to $35 per skylight**. That national figure is a reference point, not a promise for a specific California home.
+A legitimate quote reflects the work required, not just the number of panes. For scale, the U.S. window washing industry runs to **$2.9 billion in revenue across 35,344 businesses** ([IBISWorld](https://www.ibisworld.com/united-states/industry/window-washing/6458/)), which is why access equipment and trained labor are priced into skylight work rather than bundled in for free.
 
-A residential proposal may also fall into a broader local service range. Aloha Window Bros lists typical residential work at **$150 to $400**, while Santa Barbara full cleans commonly run **$200 to $475**, based on the publisher information supplied for this guide. The final quote should explain why your property lands where it does.
+We do not publish a flat per-skylight rate, because roof pitch, access route, glazing material, and whether the unit can be reached from the ground move the number too far to average honestly. Residential window cleaning across Ventura County and Santa Barbara County generally falls between **$150 and $475** depending on the city, window count, and access, and skylights are quoted on top of that after an on-site look. Our [price breakdown by city](/blog/how-much-does-window-cleaning-cost-in-ventura-county/) sets out the bands. The final quote should explain why your property lands where it does.
 
 <a id="what-moves-the-price"></a>
 ### What moves the price

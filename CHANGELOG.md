@@ -1,3 +1,43 @@
+## 2026-08-16 - High-windows guide rebuilt for the one query family with no map-pack veto, plus a second audit of the auto-published stream
+
+The `query x page` join turned up something the site's own doctrine had not absorbed: the rule that
+"the blog earns no non-brand traffic" was measured on the 42-post service x city matrix, and it is
+now false of the national informational posts. `/blog/window-cleaning-for-high-windows/` took **93
+non-brand impressions in about 9 days**, against 135 for the entire geo blog over 90 days, and it is
+~99% non-brand. Its queries are informational and non-local, so unlike every city query on this
+site the map pack cannot eat the click.
+
+- **`/blog/window-cleaning-for-high-windows/` refreshed and retitled.** It sat at position 11.4 and
+  16.3 on its two target queries, on page 2, behind a SERP whose top three are an Amazon search
+  results page, a Reddit thread, and a telescopic pole vendor. It opened with a scene-setting story
+  rather than an answer, had no FAQ, no schema, and no table matching what the PAA questions ask.
+  - **Direct answer in the first 150 words**, key takeaways box, and a **height-to-method decision
+    table** (up to 8 ft through above 30 ft) that answers the actual PAA questions "how do you clean
+    20 feet high windows" and "how to clean windows that are too high to reach".
+  - **Real regulatory information gain, primary-sourced, that no competitor in this SERP carries.**
+    California Title 8 Section 3282 is a window-cleaning regulation specifically: the 18-inch
+    opening rule, approved anchorages, the building owner's written assurance, 12-month inspections,
+    and the live-load clause that rules out patio covers and bay window roofs. Plus OSHA's 4:1 base
+    placement and 3-feet-above-landing rules, which derive a concrete answer for a 20 ft roofline
+    (a 23 ft ladder set 5 ft out), and the rule against carrying a load that could cost you your
+    balance, which quietly rules out the classic bucket-and-squeegee climb.
+  - **Removed an unsourced "a spotter is required above 10 feet" claim** and a vague trade-show
+    citation standing in for "historic injury and fatality data". Both were the fabricated-authority
+    defect class that produced the false Section 3282 claims in August.
+  - Title now leads with the exact query string: `Cleaning High Windows: Safe Methods, Tools, and Costs`.
+- **`FAQPage` JSON-LD now derives on blog posts**, reusing the exact regex from
+  `services/[slug].astro` so schema and rendered list cannot drift. Parity verified 6 == 6 with
+  `grep -o | wc -l`. Inert for the other 57 posts; picks up any future post that ships an FAQ.
+- **Second audit of the Outrank stream (5 new posts since the 08-12 audit).** Four of five carried
+  defects from the 08-12 table, so the stream reproduces them rather than having been a one-off.
+  **Eight dofollow links to competing window cleaners and content farms removed**, including one
+  competitor blog that carried the entire pricing framework of the commercial pricing post, and a
+  content farm cited twice as a chemistry authority. Market size re-pointed to IBISWorld for the
+  second time. Deleted a "$25 to $35 per skylight" figure sourced only to a competitor, and
+  corrected that post's "$150 to $400" residential band to the countywide **$150 to $475**.
+  Manufacturer care guides and the Federation of Window Cleaners were kept: the test is competing
+  service provider or content farm, not merely outside company.
+
 ## 2026-08-14 - GA4 behavioural layer: the five conversions now have a story underneath them
 
 The site has counted phone_call, email_click, text_click, quote_click and reviews_click since

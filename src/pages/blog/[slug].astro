@@ -20,9 +20,30 @@ const { Content } = await render(post);
 const PHONE = '(805) 341-4121';
 const PHONE_LINK = 'tel:+18053414121';
 
+// FAQPage schema is derived from the rendered FAQ markup in the markdown body,
+// so the schema and the visible list can never drift apart. Same rule and same
+// regex as src/pages/services/[slug].astro and the homepage `faqs` array (see
+// .claude-site-map.md): add FAQ items to the markdown, never here. A post with
+// no <details>/<summary> block simply emits no FAQPage node.
+const stripTags = (s: string) => s.replace(/<[^>]*>/g, '').replace(/\s+/g, ' ').trim();
+const faqs: { q: string; a: string }[] = [];
+const faqRe = /<summary>([\s\S]*?)<\/summary>\s*<p>([\s\S]*?)<\/p>/g;
+let m: RegExpExecArray | null;
+while ((m = faqRe.exec(post.body ?? '')) !== null) {
+  faqs.push({ q: stripTags(m[1]), a: stripTags(m[2]) });
+}
+
 const jsonLd = {
   "@context": "https://schema.org",
   "@graph": [
+    ...(faqs.length ? [{
+      "@type": "FAQPage",
+      "mainEntity": faqs.map((f) => ({
+        "@type": "Question",
+        "name": f.q,
+        "acceptedAnswer": { "@type": "Answer", "text": f.a }
+      }))
+    }] : []),
     {
       "@type": "Article",
       "headline": post.data.title,

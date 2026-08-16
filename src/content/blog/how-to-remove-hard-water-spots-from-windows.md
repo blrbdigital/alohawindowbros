@@ -73,7 +73,7 @@ Before you start the wipe-down, this short video shows the hand motion and pace 
 <a id="the-sequence-that-usually-works"></a>
 ### The sequence that usually works
 
-Pre-wet the pane first. Apply an equal-parts **white-vinegar-and-distilled-water solution** and let it sit for about **10 to 15 minutes**. Then agitate lightly with microfiber, rinse with distilled water, and dry fully with a squeegee or fresh microfiber. [Pine Country Windows' step-by-step removal guide](https://www.pinecountrywindows.com/how-to-remove-hard-water-stains-from-windows/) follows the same dwell-time approach for fresh spots on window glass.
+Pre-wet the pane first. Apply an equal-parts **white-vinegar-and-distilled-water solution** and let it sit for about **10 to 15 minutes**. Then agitate lightly with microfiber, rinse with distilled water, and dry fully with a squeegee or fresh microfiber. That dwell time is what separates a working vinegar pass from a wipe that just smears the deposit around. Our [full hard water stain guide](/blog/how-to-remove-hard-water-stains-from-windows/) walks the same sequence in more detail for Ventura County glass.
 
 Here's the part that tells you whether the glass is still recoverable at home. If the haze softens, smears, or changes when wet, the minerals are sitting on the surface and can usually be removed. Etched glass stays cloudy in the same way wet or dry. That is the point where vinegar can help, and where it stops helping if the marks have already bitten into the glass.
 
@@ -105,7 +105,7 @@ Start with the least aggressive step and only move up if the glass still feels s
 - **Switch to citric acid if vinegar stalls.** On heavier irrigation stains, citric acid can cut through mineral film that vinegar only loosens.
 - **Reserve abrasion for lubricated glass.** If you need a plastic razor blade or very fine steel wool, use it with almost no pressure and plenty of slip.
 
-The trade-off is simple. The stronger the tool, the more careful the hand has to be. A light vinegar pass on a surface stain is safer than jumping straight to aggressive scrubbing, but once the deposit resists vinegar and stays on the surface, a citric-acid step can save time and reduce repeated rubbing. The citric-acid comparison points in that direction, and [The citric acid comparison](https://lifetips.alibaba.com/eco-cleaning/dealing-with-water-spots-try-this-tip) supports that escalation when vinegar is not enough.
+The trade-off is simple. The stronger the tool, the more careful the hand has to be. A light vinegar pass on a surface stain is safer than jumping straight to aggressive scrubbing, but once the deposit resists vinegar and stays on the surface, a citric-acid step can save time and reduce repeated rubbing. That escalation is a judgement call made at the glass, not a rule you can set in advance.
 
 I stop as soon as the cloth starts dragging or the glass begins to feel grabby. That drag is the warning sign. It means the residue is not giving way cleanly, or the surface is no longer just mineral film.
 
@@ -127,7 +127,7 @@ Start with the water source. Re-aim sprinkler heads so they miss the windows, an
 
 Keep the cleaning process disciplined too. Acid cleaners should never dry on the glass, and the edges and tracks need a full rinse so loosened grit does not settle back as water evaporates. Coastal properties face one more layer, salt haze can mix with mineral film and make the pane look worse than it is.
 
-A newer comparison also points to **citric acid** as a stronger choice than vinegar in harder-water conditions. That matters when a home remedy needs a little more bite on stubborn irrigation spotting. [The 2026 citric-acid discussion](https://lifetips.alibaba.com/eco-cleaning/dealing-with-water-spots-try-this-tip) backs that up.
+In our experience **citric acid** has more bite than vinegar on stubborn irrigation spotting in harder-water areas, which is worth knowing before a home remedy gets escalated to abrasion.
 
 For many coastal Ventura and Santa Barbara homes, steady maintenance beats rescue cleaning. Inland homes with more sprinkler contact usually need the same approach, just with closer attention to watering schedules. Clean the glass before the buildup has time to set, and you spend less time polishing and more time keeping the view clear.
 
@@ -136,7 +136,7 @@ For many coastal Ventura and Santa Barbara homes, steady maintenance beats rescu
 
 Some jobs are no longer normal cleaning jobs. If the haze stays put after repeated careful cleaning, or if the glass looks the same wet and dry, you're probably dealing with **etching** rather than surface minerals. That's the point where restoration, polishing, or replacement becomes the necessary conversation, not another round of vinegar.
 
-The clearest decision rule is simple. If the stain responds to wetting, it's likely still in the removable category. If it doesn't, and especially if the pane is large, high up, or visibly damaged by previous abrasion, it's time for a pro with the right tools and judgment. [Glide Cleaners' hard-water stain guide](https://glidecleaners.com/blog/hard-water-stains-removal-guide) makes the same distinction, and it's the one that saves glass from getting overworked.
+The clearest decision rule is simple. If the stain responds to wetting, it's likely still in the removable category. If it doesn't, and especially if the pane is large, high up, or visibly damaged by previous abrasion, it's time for a pro with the right tools and judgment. It is the distinction that saves glass from getting overworked.
 
 Professionally, the advantage is control. A trained crew can assess whether the pane needs mineral removal, polishing compounds, or a different treatment path, and can do it without leaving new scratches in the process. On multi-story homes, the safety part matters too, because hard-water spotting often shows up exactly where ladders and risky reaching would be needed.
 

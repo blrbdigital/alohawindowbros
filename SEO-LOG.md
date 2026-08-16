@@ -4,6 +4,104 @@
 
 ---
 
+### 2026-08-16
+
+**What we did:**
+- **refresh + title_meta (primary): rebuilt `/blog/window-cleaning-for-high-windows/`** with a direct
+  answer lede, a key-takeaways box, a **height-to-method decision table**, six PAA-matched FAQs with
+  `FAQPage` JSON-LD, and primary-sourced regulatory material (California Title 8 Section 3282; OSHA
+  1926.1053 and 1910.23). Retitled to `Cleaning High Windows: Safe Methods, Tools, and Costs` to lead
+  with the exact query string, and rewrote the meta description around it.
+- **technical: `FAQPage` JSON-LD derivation added to `src/pages/blog/[slug].astro`**, reusing the
+  identical regex from `services/[slug].astro` so the schema is read out of the markdown body and
+  cannot drift from the rendered list. Parity verified 6 == 6 via `grep -o | wc -l`.
+- **technical: second audit of the auto-published Outrank stream** (5 posts since the 08-12 audit).
+  Removed 8 dofollow outbound links to competing window cleaners and content farms, re-pointed the
+  market-size figure to IBISWorld, deleted an unverifiable competitor-sourced skylight price, and
+  corrected a residential band that contradicted the pricing pillar.
+- **Rejected new_content, city-page work, and further title_meta.**
+
+**Why we did it (brief numbers plus the joins the brief does not contain):**
+- **The reality check holds for a fourteenth run: 70 clicks / 2,589 impressions, but 3 non-brand
+  clicks against 1,758 non-brand impressions.** Click-winning is the bottleneck, not more content.
+- **The join overturned a standing rule, which is why this run went where it did.** The site map's
+  "the blog earns no non-brand traffic" was measured on the 42-post geo matrix and still holds
+  there. It is now false of the national informational posts:
+  `/blog/window-cleaning-for-high-windows/` took **93 non-brand impressions against 28 brand** in
+  roughly 9 days of eligibility, versus **135 non-brand for the entire 42-post geo blog over 90
+  days**. `/blog/best-streak-free-window-cleaner/` is 62 non-brand against 1 brand. These are the
+  only pages on the site outside `/` and the four indexed city pages earning non-brand impressions
+  at any rate worth acting on.
+- **This is the single query family in the whole brief with no map-pack veto.** *cleaning high
+  windows* (17 impr @ 16.3) and *high window cleaning* (17 @ 11.4) are informational and non-local.
+  The two-population doctrine says organic position only buys a click where the GBP does not sit
+  above us, and here the pack is irrelevant to the organic result. Every city query in this brief
+  fails that test; this one passes it.
+- **The live SERP says the incumbents are beatable, which is the information-gain bar.** For both
+  queries the top three are an **Amazon search results page**, a **Reddit thread**, and either a
+  telescopic pole vendor or a Yelp list. None is a substantive guide. Section 3282 is a
+  window-cleaning-specific California regulation and **no result in either SERP mentions it**; the
+  four PAA questions per query are height-and-method questions that the page previously answered
+  nowhere and now answers in a table and an FAQ. An AI overview is present on both, which is what
+  the direct-answer lede, the table, and the FAQ schema are aimed at.
+- **The page was at position 11.4, page 2.** That is the cheapest distance to top-5 available on
+  this site right now, and CTR at 11.4 is structurally zero regardless of title quality, so the
+  refresh had to come with the retitle rather than instead of it.
+- **The audit was mandated, not discretionary.** The site map instructs re-running the stream audit
+  whenever publisher commits appear; five had. Four of five carried 08-12 defect classes, which
+  upgrades that audit from a one-off cleanup to a recurring obligation. `windowhero.com`, a
+  competitor, carried the entire pricing framework of our commercial pricing post as a dofollow
+  link, and `lifetips.alibaba.com`, a content farm, was cited twice as a chemistry authority.
+
+**Why we rejected the other playbook actions:**
+- **new_content**: the service x city matrix is complete and nothing cleared the information-gain
+  bar. The genuinely uncovered price sub-cluster (`gutter cleaning prices <city>`) is still blocked
+  by the no-invented-price rule pending real gutter bands from the business.
+- **City-page work, including the geo-grid frontier**: the grid shows us ABSENT at Agoura Hills and
+  Oak Park, and the brief calls those city landing pages the lever. **They are control pages in two
+  running experiments** (`/santa-barbara/` and `/thousand-oaks/` `localBrief`, review dates
+  2026-09-07 and 2026-09-09). Treating a control is how you lose the read, and both experiments
+  have three more weeks to run. Logged for GBP instead, which is where pack absence actually lives.
+- **title_meta on the four indexed city pages**: still spent, for the reason recorded on 08-07 and
+  08-10. This window's CTR outliers are map-pack losses where the click goes to Call or Directions
+  and GSC never counts it, or they sit at positions 7 to 13 where zero clicks is what the position
+  predicts. `window cleaning westlake village` at 2.9 and `window cleaning` at 2.7 are the two
+  clearest local-pack suspects and neither is fixable in this repo.
+- **Decaying pages**: all four flagged are geo-matrix blog posts, the population that genuinely
+  earns no non-brand clicks. `screen-cleaning-ventura-coastal-salt-and-pollen-guide` at position
+  36.0 on 2 impressions is a reshuffle, not a refresh candidate.
+- **A fourth homepage locale section**: the 08-14 Santa Barbara deepening is two days old and the
+  cluster is still improving on it (*window cleaning santa barbara* 9.7 to 8.6, *santa barbara
+  window cleaning* 12.2 to 9.1, *window washing santa barbara* 8.7 to 8.2). Stacking another change
+  onto `/` now would contaminate the read on the site's best-performing play.
+- **Foreign and out-of-area noise, re-confirmed and left alone**: `exterior cleaning newbury park`
+  (23 impr @ 41.2) and `cladding cleaning newbury park` (12 @ 18.8) are UK traffic for Newbury,
+  Berkshire; `affordable window cleaners thousand palms` (12 @ 13.1) is Riverside County;
+  `window cleaning services avila beach` (13 @ 36.6) is San Luis Obispo County.
+- **gbp (logged, no code change, eleventh consecutive run)**: the geo-grid puts us **ABSENT from the
+  pack at Agoura Hills, Oak Park, and Camarillo** for *window cleaning near me*, where incumbents
+  hold only 11 to 21 reviews against our 201. That is a relevance and proximity signal, not a review
+  gap, and it is GBP-side: service area, categories, and engagement cadence. Local-pack suspects
+  this window: `window cleaning westlake village` (pos 2.9, 35 impr, 0 clicks) and `window cleaning`
+  (pos 2.7, 35 impr, 0 clicks). Standing asks still open: **real gutter price bands**, and the
+  outbound-link blocklist plus price-figure review flag on `/root/services/aloha-publish/server.mjs`,
+  which this run's audit makes materially more urgent.
+
+**Expected impact:**
+- `cleaning high windows` and `high window cleaning` into positions 5 to 9 within 6 weeks, from 16.3
+  and 11.4, and the page's first non-brand clicks. This is the only query family on the board where
+  a top-5 organic position converts to a click without the GBP taking it.
+- Removing 8 competitor dofollow links has no measurable ranking prediction attached; it is
+  defect removal, and the honest expectation is that it prevents harm rather than produces a gain.
+
+**Metrics at time of action (GSC, 2026-07-17..2026-08-13):**
+- Total 70 clicks / 2,589 impressions. Non-brand 3 clicks / 1,758 impressions / 315 queries.
+- `/blog/window-cleaning-for-high-windows/`: 93 non-brand impressions, 28 brand, 0 clicks, pos 11.7.
+- `cleaning high windows` 17 impr @ 16.3; `high window cleaning` 17 impr @ 11.4. Both 0 clicks.
+- Geo-grid: in pack at 3 of 6 Conejo points; ABSENT Agoura Hills, Oak Park, Camarillo.
+
+---
+
 ### 2026-08-14
 
 **What we did:**

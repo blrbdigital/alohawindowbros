@@ -38,7 +38,7 @@ The usual pattern is familiar. Someone sprays the glass, wipes until it feels dr
 <a id="the-cloth-is-doing-more-of-the-work-than-people-think"></a>
 ### The cloth is doing more of the work than people think
 
-A good glass cloth has to grab dirt, absorb moisture, and leave almost nothing behind. Microfiber became the mainstream choice for that reason, because its split fibers trap dirt and absorb moisture better than paper towels, which helps keep lint and residue from being redeposited on the glass. Professional guidance also points out that microfiber works best when it's **lightly dampened** first, then followed with a dry pass, which matches how the cloth should finish the surface instead of flooding it with liquid. [Powells Window Cleaners](https://www.powellswindowcleaners.co.uk/how-to-pick-the-best-microfibre-towels/)
+A good glass cloth has to grab dirt, absorb moisture, and leave almost nothing behind. Microfiber became the mainstream choice for that reason, because its split fibers trap dirt and absorb moisture better than paper towels, which helps keep lint and residue from being redeposited on the glass. Professional guidance also points out that microfiber works best when it's **lightly dampened** first, then followed with a dry pass, which matches how the cloth should finish the surface instead of flooding it with liquid.
 
 The hard part is that a cloth can feel “good” in the hand and still be wrong for windows. A plush towel can be great for drying dishes, but on glass it often leaves too much texture, too much moisture, or too much lint. If your current cloth leaves streaks even when you use less cleaner, the issue is probably construction, not effort.
 
