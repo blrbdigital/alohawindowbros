@@ -110,7 +110,7 @@ The hidden cost is surface damage. Solar panels have coatings for a reason. Scra
 
 The goal is restoring light capture on the cells. A professional solar panel cleaning service also gives you consistency, and that matters because hard water leaves residue and residue blocks light. If you want a local example of how a service visit is handled, review [solar panel cleaning service details](https://alohawindowbros.com/blog/solar-panel-cleaning-service/).
 
-Aloha Window Bros offers solar panel cleaning alongside window, screen, and skylight service across Ventura and Santa Barbara counties using purified water-fed pole systems suited to both coastal salt and inland dust conditions [Aloha Window Bros](https://alohawindowbros.com).
+Aloha Window Bros offers solar panel cleaning alongside window, screen, and skylight service across Ventura and Santa Barbara counties using purified water-fed pole systems suited to both coastal salt and inland dust conditions [Aloha Window Bros](/contact/).
 
 
 
@@ -189,4 +189,4 @@ For a local service page with timing guidance, use [this solar cleaning schedule
 
 ---
 
-Aloha Window Bros handles solar panel cleaning along with window, screen, and skylight service across Ventura and Santa Barbara counties, using purified water-fed pole systems for coastal salt and inland dust. If your inverter app shows a real loss or your roof got hit by ash, dust, or salt haze, visit [Aloha Window Bros](https://alohawindowbros.com) and book a service that matches your roof, not a generic calendar rule.
+Aloha Window Bros handles solar panel cleaning along with window, screen, and skylight service across Ventura and Santa Barbara counties, using purified water-fed pole systems for coastal salt and inland dust. If your inverter app shows a real loss or your roof got hit by ash, dust, or salt haze, visit [Aloha Window Bros](/contact/) and book a service that matches your roof, not a generic calendar rule.

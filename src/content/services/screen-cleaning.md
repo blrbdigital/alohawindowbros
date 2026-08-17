@@ -24,6 +24,8 @@ Pairs perfectly with our window washing for a complete clean.
 
 Pricing depends on the number of screens and level of buildup. Most jobs are done alongside window washing for the best value. Free on-site quotes, no surprises.
 
+Between visits, light dust and pollen can be handled at home without pulling anything out of the frame. Our guide to [cleaning window screens without removing them](/blog/how-to-clean-window-screens-without-removing-them/) covers the dry, damp, dry method, which screen types must never be hosed, and how in place washing puts hard water spots on the glass behind the mesh.
+
 ## FAQ
 
 <div class="faq-list">

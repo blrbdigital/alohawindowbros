@@ -168,4 +168,4 @@ Treat the rubber as a consumable part, not a permanent one. The handle and chann
 
 ---
 
-If you want cleaner glass without the guesswork, Aloha Window Bros handles window, screen, frame, and sill cleaning for homes and businesses across Ventura County and Santa Barbara County. If you're dealing with streaks, hard water, or high panes that are awkward to reach, visit [Aloha Window Bros](https://alohawindowbros.com) to see how a professional cleaning visit is set up and request a quote.
+If you want cleaner glass without the guesswork, Aloha Window Bros handles window, screen, frame, and sill cleaning for homes and businesses across Ventura County and Santa Barbara County. If you're dealing with streaks, hard water, or high panes that are awkward to reach, visit [Aloha Window Bros](/contact/) to see how a professional cleaning visit is set up and request a quote.

@@ -183,4 +183,4 @@ A good provider earns trust by being specific. They should be able to tell you w
 
 ---
 
-If your windows are dealing with salt haze, dust, or hard-water spotting, Aloha Window Bros can handle the full glass, screen, frame, and sill cleaning process with insured service and on-site estimates. Visit [Aloha Window Bros](https://alohawindowbros.com) to book a professional window cleaning visit that fits your California property and the conditions it faces.
+If your windows are dealing with salt haze, dust, or hard-water spotting, Aloha Window Bros can handle the full glass, screen, frame, and sill cleaning process with insured service and on-site estimates. Visit [Aloha Window Bros](/contact/) to book a professional window cleaning visit that fits your California property and the conditions it faces.

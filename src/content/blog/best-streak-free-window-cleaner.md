@@ -165,4 +165,4 @@ The key takeaway is that the right product depends on the contamination type. Fi
 
 ---
 
-If you're in Ventura or Santa Barbara County and want glass that stays clear in coastal salt, dry wind, or hard-water conditions, **Aloha Window Bros** can handle the whole job, from windows and screens to frames, tracks, skylights, and exterior detailing. Visit [Aloha Window Bros](https://alohawindowbros.com) to request a free estimate and see whether the best streak free window cleaner for your home is a bottle, a pro concentrate, or a crew that knows the local conditions.
+If you're in Ventura or Santa Barbara County and want glass that stays clear in coastal salt, dry wind, or hard-water conditions, **Aloha Window Bros** can handle the whole job, from windows and screens to frames, tracks, skylights, and exterior detailing. Visit [Aloha Window Bros](/contact/) to request a free estimate and see whether the best streak free window cleaner for your home is a bottle, a pro concentrate, or a crew that knows the local conditions.

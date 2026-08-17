@@ -1,3 +1,60 @@
+## 2026-08-17 - Screens guide rebuilt for the second non-local query family, blog CTAs pointed at the quote page, third audit of the auto-published stream
+
+Same play as 08-16, applied to the next post in the informational family. The brief's only
+striking-distance query with no map-pack veto that has not already been treated is
+*how to clean window screens without removing them* (21 impr @ 12.7), and its page carried 141
+impressions at position 13.2 with zero inbound internal links from anywhere on the site.
+
+- **`/blog/how-to-clean-window-screens-without-removing-them/` rebuilt.** It opened with a
+  scene-setting paragraph rather than an answer, had no FAQ, no schema, no table, one external
+  citation, and it never distinguished one screen type from another, which is what the SERP's
+  own PAA questions are actually asking about.
+  - **Direct answer in the first 145 words**, key takeaways box, and a **screen-type decision
+    table** (standard removable, fixed, retractable roller, solar, pet resistant, security) giving
+    per type whether in place cleaning works, the method, and the specific failure mode. That is
+    the **seventh distinct kind of table** on this site; the rule that no two briefs share a table
+    shape holds.
+  - **The differentiating argument, which no result in the live top three carries: cleaning a
+    screen in place is how you put hard water spots on the glass behind it.** California American
+    Water's 2025 CCR (PWS ID CA5610040) puts 94% of the Thousand Oaks and Newbury Park supply at
+    140 mg/L hardness, 8.2 gpg, 297 ppm TDS, and NOAA's 1991-2020 normals for Oxnard put June
+    through September rainfall at 0.17 inches combined, so nothing rinses the pane for four months.
+    Both figures were already verified on this site; no new number was invented.
+  - **Six FAQs matching the live PAA questions**, including the honest limitation nobody publishes:
+    you cannot clean exterior glass to a finished standard without moving the screen, because a
+    screen physically blocks a squeegee. `FAQPage` parity verified 6 == 6 with `grep -o | wc -l`.
+  - **Title left alone deliberately.** It is already an exact match for the query at 49 characters.
+    Only the meta description was rewritten, around the method and the hard water consequence.
+  - Sources, all verified 200 to a plain client on 2026-08-17: Andersen Windows screen care,
+    California American Water CCR, NOAA NCEI normals, OSHA 29 CFR 1910.23. USGS water hardness and
+    Phifer were dropped for 403-ing to non-browser agents, same rule as CAL FIRE and the AMS SWEX
+    paper.
+- **internal_links: the post had zero inbound links.** Added contextual links from
+  `/services/screen-cleaning/`, `/blog/window-screen-cleaning-service/`, and
+  `/blog/window-cleaning-for-high-windows/` (the site's strongest non-brand blog page).
+- **technical: 16 blog CTAs across 15 posts were sending converting readers to the homepage.**
+  Every auto-published post ends `Visit [Aloha Window Bros](https://alohawindowbros.com)`, which
+  lands a reader who has decided to buy on the homepage instead of the quote page, and fires no
+  GA4 event. All now point at `/contact/`, which is also what `quote_click` listens for. This is a
+  **fifth defect class of the Outrank stream** and it was present in every post it has published.
+- **technical: third audit of the auto-published stream** (one new post, `commercial-window-cleaning-company`,
+  published 2026-08-17). Same defect classes as 08-12 and 08-16, three of four present again:
+  - Removed `rbmservicesinc.com`, a competing commercial cleaning provider, cited as the authority
+    for a "20% to 40% more than recurring service" pricing claim. The claim went with it; the
+    mechanism is stated without a fabricated number and links our own pricing benchmarks.
+  - Removed `nationalwindowcleaningauthority.com`, which presents as a standards body and is a
+    lead-generation directory operated by Authority Network America LLC (it also runs a paid
+    listing directory of window cleaning providers). Its paraphrased safety guidance was replaced
+    with the primary source, OSHA 29 CFR 1910.23.
+  - Removed a vendor-hosted `supracanada.ca` PDF supplying four different solar soiling percentages
+    in a post about hiring a commercial window cleaner, and the paywalled `marketresearch.com`
+    report standing in as a citation for "robotic systems are gaining attention".
+  - Corrected the market size figure from "$2.9 billion in 2026" to **$2.9 billion in 2024** and
+    linked IBISWorld directly. The stream has now mis-stated this figure in three consecutive
+    audits.
+- Build passes, 77 pages. All nine relative internal links in the touched files resolve in `dist/`.
+  No em or en dashes in any file touched.
+
 ## 2026-08-16 - High-windows guide rebuilt for the one query family with no map-pack veto, plus a second audit of the auto-published stream
 
 The `query x page` join turned up something the site's own doctrine had not absorbed: the rule that

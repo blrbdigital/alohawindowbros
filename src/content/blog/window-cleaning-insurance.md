@@ -209,4 +209,4 @@ Ask these questions without apologizing. You're not being hard to please, you're
 
 ---
 
-Aloha Window Bros offers fully insured window cleaning for homes and businesses across Ventura County and Santa Barbara County, and they work in the same real-world conditions homeowners worry about, ladders, height, screens, frames, and coastal exposure. If you want a local team that treats insurance as part of the job, not a footnote, visit [Aloha Window Bros](https://alohawindowbros.com) and ask for a free on-site quote.
+Aloha Window Bros offers fully insured window cleaning for homes and businesses across Ventura County and Santa Barbara County, and they work in the same real-world conditions homeowners worry about, ladders, height, screens, frames, and coastal exposure. If you want a local team that treats insurance as part of the job, not a footnote, visit [Aloha Window Bros](/contact/) and ask for a free on-site quote.

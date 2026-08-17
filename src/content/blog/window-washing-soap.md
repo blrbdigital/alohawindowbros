@@ -152,4 +152,4 @@ A good window wash should leave the glass clear, the frames clean, and the next 
 
 ---
 
-Aloha Window Bros handles interior and exterior window cleaning, screen washing, frame and sill detailing, and purified-water work for hard-to-reach glass across Ventura County and Santa Barbara County. If your windows are fighting salt haze, inland dust, or stubborn residue from the wrong soap mix, visit [Aloha Window Bros](https://alohawindowbros.com) to request a quote and get a professional cleaning plan that fits your glass.
+Aloha Window Bros handles interior and exterior window cleaning, screen washing, frame and sill detailing, and purified-water work for hard-to-reach glass across Ventura County and Santa Barbara County. If your windows are fighting salt haze, inland dust, or stubborn residue from the wrong soap mix, visit [Aloha Window Bros](/contact/) to request a quote and get a professional cleaning plan that fits your glass.

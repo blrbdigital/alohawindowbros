@@ -212,4 +212,4 @@ If you're comparing providers, ask who is insured, how the crew will avoid stepp
 
 ---
 
-For skylight cleaning across Ventura County and Santa Barbara County, [Aloha Window Bros](https://alohawindowbros.com) provides purified water-fed pole cleaning for hard-to-reach glass, along with window, screen, frame, and sill detailing. Request an on-site quote and ask the crew to assess your skylight material, access conditions, and coastal or foothill exposure before work begins.
+For skylight cleaning across Ventura County and Santa Barbara County, [Aloha Window Bros](/contact/) provides purified water-fed pole cleaning for hard-to-reach glass, along with window, screen, frame, and sill detailing. Request an on-site quote and ask the crew to assess your skylight material, access conditions, and coastal or foothill exposure before work begins.

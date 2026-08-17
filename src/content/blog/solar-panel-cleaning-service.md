@@ -214,4 +214,4 @@ If you want a local provider overview, the service page for [solar panel cleanin
 
 ---
 
-If you're in Ventura County or Santa Barbara County and want a crew that cleans solar panels along with windows, screens, frames, and sills, Aloha Window Bros offers free quotes and fully insured service. Visit [Aloha Window Bros](https://alohawindowbros.com) to request an estimate and schedule a visit that fits your roof and your local conditions.
+If you're in Ventura County or Santa Barbara County and want a crew that cleans solar panels along with windows, screens, frames, and sills, Aloha Window Bros offers free quotes and fully insured service. Visit [Aloha Window Bros](/contact/) to request an estimate and schedule a visit that fits your roof and your local conditions.

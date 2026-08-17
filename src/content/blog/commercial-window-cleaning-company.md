@@ -43,7 +43,7 @@ The hiring question is not, “Who can clean glass?” It's, “Who can perform 
 
 You're buying a managed service, not just a finished appearance. The provider should arrive when promised, protect floors and furnishings, control runoff, communicate with the site contact, and report damaged or deteriorated glass instead of working around it.
 
-The commercial market is substantial rather than niche. In the United States, the window washing industry was estimated at **$2.9 billion in 2026**, with **35,344 businesses** operating in the sector, according to IBISWorld's window washing industry overview. That density gives property managers options, but it also means you must separate professional operators from crews that compete only on price.
+The commercial market is substantial rather than niche. In the United States, the window washing industry was estimated at **$2.9 billion in 2024**, with **35,344 businesses** operating in the sector, according to IBISWorld's 2024 window washing industry report ([IBISWorld](https://www.ibisworld.com/united-states/industry/window-washing/6458/)). That density gives property managers options, but it also means you must separate professional operators from crews that compete only on price.
 
 Start with a site walk, a written scope, verified insurance, and a service schedule that matches the building's exposure. Those four items reveal more than a polished sales pitch.
 
@@ -66,9 +66,7 @@ A complete proposal should match the service to the problem. Exterior glass faci
 
 A quote that excludes screens, frames, or sills isn't automatically wrong. It is incomplete if the provider doesn't clearly identify those exclusions. Ask whether the price covers removal and reinstallation of screens, spot treatment, interior protection, and cleanup around the work area.
 
-Solar-adjacent maintenance deserves a separate conversation. A study summarized in the [solar panel dirt study](https://www.supracanada.ca/wp-content/uploads/2017/07/Solar-Panel-Dirt-Study2.pdf) found average annual energy loss of **2% to 6% in dry climates without rainfall**, while broader reviews reported efficiency drops of **4% to 25%** and, in some high-dust environments, **20% to 30% or more** over extended exposure. The same source reports that water-based cleaning can restore **90% to 95% of power output**.
-
-Those figures don't mean every facility needs frequent panel cleaning. They do mean a property with skylights or on-site PV should ask whether solar maintenance belongs in the service plan, particularly where dust and bird residue accumulate.
+Solar-adjacent maintenance deserves a separate conversation. Soiling losses on photovoltaic arrays vary enormously by climate and site, from negligible where rain rinses the glass regularly to material in dry, dusty, or agricultural settings, so no single national percentage tells you what your roof is losing. A property with skylights or on-site PV should ask whether solar maintenance belongs in the service plan and judge it against its own monitoring data rather than a blanket figure. Our [solar panel cleaning service page](/services/solar-panel-cleaning/) sets out how that decision gets made on a specific property.
 
 <a id="safety-standards-and-compliance-that-protect-your-property"></a>
 ## Safety Standards and Compliance That Protect Your Property
@@ -95,7 +93,7 @@ Rules also vary by jurisdiction. In Ontario, a window-cleaning business must reg
 
 A low price may reflect an efficient method. More often, it deserves scrutiny when the proposal omits insurance, access planning, chemical handling, worker training, or protection for occupied areas.
 
-Chemical safety matters even when a crew uses a water-fed system. Guidance from the [National Window Cleaning Authority](https://nationalwindowcleaningauthority.com/window-cleaning-safety-standards/) notes that purified water delivered from ground level can reduce the need for ladders or suspended access when reach is sufficient. The same guidance says ladder requirements apply once ladders are introduced and emphasizes hazard communication for cleaning chemicals.
+Chemical safety matters even when a crew uses a water-fed system. Purified water delivered from ground level can remove the need for ladders or suspended access wherever the reach is sufficient, which is the safest outcome available on a low-rise building. Once a ladder is introduced, federal ladder rules apply in full, including the requirement that a worker not carry any object or load that could cause a loss of balance while climbing ([29 CFR 1910.23](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.23)).
 
 You don't need to run the crew's safety program yourself. You do need enough documentation to know one exists.
 
@@ -117,7 +115,7 @@ Access equipment determines how a job affects tenants, pedestrians, parking, lan
 
 **Rope access and suspended gondolas** suit taller buildings designed for those systems. They require specialized competence, building coordination, rescue planning, and strict weather judgment. They're not interchangeable with a water-fed pole.
 
-**Robotic systems and eco-friendly detergents** are gaining attention alongside poles, rope access, and aerial platforms, as described in [industry coverage of window cleaning methods](https://www.marketresearch.com/OG-Analysis-v3922/Window-Cleaning-Services-Outlook-Share-43149306/). Treat these as tools, not automatic upgrades. The provider still has to prove that the method fits your façade, schedule, finish requirements, and safety plan.
+**Robotic systems and eco-friendly detergents** are gaining attention alongside poles, rope access, and aerial platforms. Treat these as tools, not automatic upgrades. The provider still has to prove that the method fits your façade, schedule, finish requirements, and safety plan.
 
 For additional context on panes at height, review this guide to [window cleaning for high windows](https://alohawindowbros.com/blog/window-cleaning-for-high-windows/). Then ask one direct question: **What exact access method will you use on each elevation, and what will tenants see during the work?**
 
@@ -126,7 +124,7 @@ For additional context on panes at height, review this guide to [window cleaning
 
 Waiting until glass looks embarrassing is an expensive maintenance habit. By then, salt, dust, pollen, mineral residue, and traffic film may require more labor and more aggressive treatment than a routine visit would have needed.
 
-Independent pricing guidance indicates that one-time commercial window cleaning typically costs **20% to 40% more than scheduled recurring service**, as explained in this [commercial window washing cost guide](https://rbmservicesinc.com/rbm_blog/how-much-does-commercial-window-washing-cost/). The reason is straightforward. A recurring route gives the provider predictable scheduling, familiar access conditions, and a building that doesn't require a recovery clean every time.
+One-time commercial window cleaning generally prices higher per visit than scheduled recurring service, and the reason is straightforward. A recurring route gives the provider predictable scheduling, familiar access conditions, and a building that doesn't require a recovery clean every time. A one-off call buys none of that, so the quote has to absorb the setup and the backlog of soil in a single visit. Our [commercial window cleaning price benchmarks](/blog/commercial-window-cleaning-prices/) explain which variables actually move a commercial quote.
 
 ![A bar chart comparing the annual cost of recurring maintenance contracts versus ad-hoc cleaning services.](https://cdnimg.co/8387fe5a-1497-428d-a3af-57b68fc0bac4/9898825f-14e8-47f4-9ae3-9d9cdbd04a1b/commercial-window-cleaning-company-cost-comparison.jpg)
 
@@ -198,4 +196,4 @@ Choose the crew as you'd choose any risk-sensitive facilities contractor. When t
 
 ---
 
-Aloha Window Bros provides insured commercial cleaning for windows, screens, frames, sills, skylights, and solar panels across Ventura County and Santa Barbara County, with free on-site and virtual estimates. Visit [Aloha Window Bros](https://alohawindowbros.com) to request a property-specific quote and discuss a maintenance plan for your building.
+Aloha Window Bros provides insured commercial cleaning for windows, screens, frames, sills, skylights, and solar panels across Ventura County and Santa Barbara County, with free on-site and virtual estimates. Visit [Aloha Window Bros](/contact/) to request a property-specific quote and discuss a maintenance plan for your building.

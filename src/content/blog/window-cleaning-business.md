@@ -229,4 +229,4 @@ Keep the checklist simple:
 - **Turn every good customer into a repeat customer.**
 
 ---
-Aloha Window Bros serves Ventura County and Santa Barbara County with window, screen, frame, sill, and solar cleaning for homes and businesses, and that kind of route-based service is exactly what this business model depends on. If you want a practical example of how a local operator handles coastal conditions, recurring accounts, and full-scope cleaning, visit [Aloha Window Bros](https://alohawindowbros.com) and see how the work is structured in real neighborhoods.
+Aloha Window Bros serves Ventura County and Santa Barbara County with window, screen, frame, sill, and solar cleaning for homes and businesses, and that kind of route-based service is exactly what this business model depends on. If you want a practical example of how a local operator handles coastal conditions, recurring accounts, and full-scope cleaning, visit [Aloha Window Bros](/contact/) and see how the work is structured in real neighborhoods.

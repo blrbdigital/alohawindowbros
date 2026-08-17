@@ -204,7 +204,7 @@ High windows stay cleaner longer when the schedule matches the environment. Coas
 
 In coastal areas, salt aerosol can haze the glass and creep into frames, so shorter cleaning cycles make sense. After dry wind events, a quick rinse or clean helps keep grit from getting baked into the surface. In hard-water zones, weekly rinsing around sprinkler splash areas can slow mineral buildup before it turns into a stubborn stain.
 
-Screens matter too. Dirty screens trap dust and pollen, then throw it back onto freshly cleaned windows as soon as the wind shifts. I've also seen homeowners schedule high-window cleaning with solar panel cleaning when both surfaces are exposed to the same dust load, which keeps the exterior work more efficient.
+Screens matter too. Dirty screens trap dust and pollen, then throw it back onto freshly cleaned windows as soon as the wind shifts. On glass you can reach, our guide to [cleaning window screens without removing them](/blog/how-to-clean-window-screens-without-removing-them/) covers the in place method; above the ground floor, the screen comes out on the same visit as the pane rather than being wiped from a ladder. I've also seen homeowners schedule high-window cleaning with solar panel cleaning when both surfaces are exposed to the same dust load, which keeps the exterior work more efficient.
 
 <a id="use-the-season-instead-of-guessing"></a>
 ### Use the season instead of guessing

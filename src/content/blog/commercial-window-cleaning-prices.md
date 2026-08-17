@@ -212,4 +212,4 @@ I also tell property teams to ask one direct question every time, what exactly i
 
 A quote that seems low but won't explain access, scope, or safety usually isn't the better deal. The more expensive bid may just be the honest one.
 
-If you need a site-specific commercial estimate, [Aloha Window Bros](https://alohawindowbros.com) offers free on-site quotes for commercial properties and can walk a building to define the scope before pricing the work.
+If you need a site-specific commercial estimate, [Aloha Window Bros](/contact/) offers free on-site quotes for commercial properties and can walk a building to define the scope before pricing the work.

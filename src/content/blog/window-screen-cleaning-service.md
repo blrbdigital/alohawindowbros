@@ -124,6 +124,8 @@ The better method starts with dry removal of loose grit. Then a soft brush or sp
 
 Washing a delicate shirt instead of scouring a driveway is a good comparison. You want motion, soap, and rinse, but not pressure that changes the shape of the material. A screen that has been stretched or warped won't sit well in the frame, which means more rework later.
 
+Some screens never come out at all. Fixed exterior screens, retractable rollers, and bolted security screens have to be maintained where they hang, and each one fails in a different way if you treat it like standard insect mesh. Our guide to [cleaning window screens without removing them](/blog/how-to-clean-window-screens-without-removing-them/) sets out which types tolerate an in place wipe and which need a professional visit.
+
 The market has also shifted toward more efficient tools. One 2025 to 2026 market review reports that use of **water-fed pole systems has increased by 45% since 2019** Angi. That matters on multi-story homes and hard-to-reach panes, because these systems are often paired with careful screen, frame, and sill cleaning on the same visit.
 
 <a id="signs-the-method-was-too-aggressive"></a>
@@ -212,4 +214,4 @@ A good booking decision starts with a better question than â€œHow cheap is it?â€
 
 The day of the visit should feel organized. A technician should inspect first, explain any damage they find, and leave the screens seated correctly when the job is done. If frames look warped or edges don't sit properly afterward, that's a sign the work wasn't handled carefully.
 
-For homeowners who want a local provider that handles windows, screens, frames, and sills together, [Aloha Window Bros](https://alohawindowbros.com/blog/window-cleaning-insurance/) offers screen cleaning as part of its broader service mix, along with free on-site quotes and insured service. If your screens are dusty, hard to reach, or no longer performing the way they should, visit [Aloha Window Bros](https://alohawindowbros.com) to request a quote and get a clear recommendation on cleaning, repair, or replacement.
+For homeowners who want a local provider that handles windows, screens, frames, and sills together, [Aloha Window Bros](https://alohawindowbros.com/blog/window-cleaning-insurance/) offers screen cleaning as part of its broader service mix, along with free on-site quotes and insured service. If your screens are dusty, hard to reach, or no longer performing the way they should, visit [Aloha Window Bros](/contact/) to request a quote and get a clear recommendation on cleaning, repair, or replacement.

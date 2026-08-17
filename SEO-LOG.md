@@ -4,6 +4,116 @@
 
 ---
 
+### 2026-08-17
+
+**What we did:**
+- **refresh (primary): rebuilt `/blog/how-to-clean-window-screens-without-removing-them/`** with a
+  direct answer lede, a key-takeaways box, a **screen-type decision table**, six PAA-matched FAQs
+  with `FAQPage` JSON-LD, and four primary sources (Andersen Windows, California American Water's
+  2025 CCR, NOAA NCEI 1991-2020 normals, OSHA 29 CFR 1910.23).
+- **internal_links: gave that page its first inbound internal links**, from
+  `/services/screen-cleaning/`, `/blog/window-screen-cleaning-service/`, and
+  `/blog/window-cleaning-for-high-windows/`.
+- **technical: repointed 16 blog CTAs across 15 posts from the homepage to `/contact/`.**
+- **technical: third audit of the auto-published Outrank stream** (one new post since 08-16).
+- **Rejected new_content, city-page work, homepage work, and title_meta.**
+
+**Why we did it (brief numbers plus the standing joins):**
+- **The reality check holds for a fifteenth run: 72 clicks / 2,796 impressions, but 4 non-brand
+  clicks against 1,953 non-brand impressions at average position 10.8.** Click-winning is the
+  bottleneck. More content is not the lever and has not been for four months.
+- **The brief contains exactly one untreated striking-distance query with no map-pack veto**, and
+  the two-population doctrine says that is the only kind worth chasing in this repo.
+  *how to clean window screens without removing them* is 21 impr @ 12.7, informational and
+  non-local, and its page carries **141 impressions at position 13.2**. Every other striking
+  distance row is a city query where the GBP sits at 1.0 to 1.8 above us and the click goes to
+  Call or Directions, which GSC never counts as a website click.
+- **The live SERP clears the information-gain bar.** The top three are Martha Stewart, a Reddit
+  thread, and RiteScreen's blog. All three describe cleaning a *standard removable* screen. None
+  distinguishes fixed, retractable, solar, pet-resistant, or security screens, which is what three
+  of the four PAA questions are actually about ("How to clean a non-removable window screen?",
+  "How to clean a screen without taking it out?", "How to clean outside windows without removing
+  screens?"). The new decision table answers that directly and an AI overview is present on the
+  query, which is what the direct-answer lede and the FAQ schema are aimed at.
+- **The differentiator is local and sourced, and it is the kind of thing only an operator here
+  knows: an in place wash is how you trade a dusty screen for a spotted window.** Runoff carries
+  140 mg/L of dissolved minerals (8.2 gpg, 297 ppm TDS) onto the pane, per California American
+  Water's own 2025 CCR for PWS ID CA5610040, and NOAA's normals for station USW00093110 put June
+  through September rainfall at 0.17 inches, so nothing rinses it off for a third of the year.
+  Both numbers were already verified on this site. **No new number was invented.**
+- **Zero inbound internal links** is a real defect on a page at position 13.2, and unlike the city
+  pages (where internal links are proven NOT to be the constraint) this page is already crawled and
+  already ranking, so consolidation has something to act on.
+- **The CTA fix is the conversion half of the same problem the brief keeps naming.** Sixteen links
+  across fifteen auto-published posts sent a reader who had decided to buy to the homepage rather
+  than `/contact/`, and fired no `quote_click` event on the way. Two of those fifteen posts
+  (`best-streak-free-window-cleaner`, `commercial-window-cleaning-prices`) are in the informational
+  family that actually earns non-brand impressions. This costs nothing and cannot lose.
+- **The audit was mandated, not discretionary.** One publisher commit has landed since the 08-16
+  audit and it carried three of the four known defect classes: a competing commercial cleaning
+  provider cited as the authority for a pricing claim, a fake standards body
+  (`nationalwindowcleaningauthority.com`, in fact a paid provider directory run by Authority
+  Network America LLC) cited for safety guidance, an irrelevant vendor-hosted solar soiling PDF,
+  and the market size figure mis-stated as 2026 rather than 2024 for the third consecutive audit.
+
+**Why we rejected the other playbook actions:**
+- **new_content**: the service x city matrix is complete, and nothing in this brief clears the
+  information-gain bar as a new page. The one genuinely uncovered price sub-cluster
+  (`gutter cleaning prices <city>`) is still blocked by the no-invented-price rule pending real
+  gutter bands from the business. Asked for again below.
+- **title_meta**: the screens post's title is already an exact match for its query at 49
+  characters, so retitling it would be a downgrade dressed as an action; only the meta description
+  was rewritten. On the four indexed city pages the lever is still spent for the reason recorded on
+  08-07 and 08-10. This window's CTR outliers are the same map-pack losses as always:
+  *window cleaning* (147 impr @ 1.4), *commercial window cleaning* (52 @ 1.0) and *window cleaning
+  westlake village* (34 @ 2.8) are positions no title rewrite improves, and the click is going to
+  the pack.
+- **City-page work, including the geo-grid frontier**: the grid shows us ABSENT at Newbury Park
+  (lost since the last scan), Agoura Hills, Oak Park, and Camarillo. Those city landing pages are
+  **control pages in two running experiments** (`/santa-barbara/` and `/thousand-oaks/`
+  `localBrief`, review dates 2026-09-07 and 2026-09-09). Three weeks left. Treating a control is
+  how you lose the read.
+- **A fourth homepage locale section, or any homepage edit**: the 08-14 Santa Barbara deepening is
+  three days old and the whole cluster is still moving on it (*window cleaning santa barbara* 9.7
+  to 8.7, *santa barbara window cleaning* 12.0 to 9.0, *window washing santa barbara* 8.7 to 8.3).
+  Stacking a change onto `/` now contaminates the read on the site's only measured position win.
+- **Decaying pages**: all six flagged are geo-matrix posts, the population measured to earn no
+  non-brand clicks over 90 days. `screen-cleaning-ventura-coastal-salt-and-pollen-guide` at
+  position 33.0 on 3 impressions is a reshuffle, not a refresh candidate.
+- **Foreign and out-of-area noise, left alone again**: the Newbury Park exterior/cladding cluster
+  is United Kingdom traffic and `affordable window cleaners thousand palms` is Riverside County.
+- **gbp (logged, no code change, twelfth consecutive run)**: the geo-grid puts us ABSENT from the
+  pack for *window cleaning near me* at **Newbury Park (newly lost), Agoura Hills, Oak Park, and
+  Camarillo**, against incumbents holding 2 to 21 reviews versus our 201. Newbury Park is the one
+  to look at first, because we hold organic position 3 and pack position 1 on
+  *window cleaning newbury park* while being absent from the near-me grid point, which reads as a
+  service-area or proximity signal rather than a strength problem. Local-pack suspects this window:
+  *window cleaning* (147 impr @ 1.4, 0 clicks), *commercial window cleaning* (52 @ 1.0, 0 clicks),
+  *window cleaning westlake village* (34 @ 2.8, 0 clicks). Standing asks still open and unactioned:
+  **the GBP website field is still `http://`** (301s, highest-yield single fix, logged unfixed
+  since 07-24), **real gutter price bands**, and the outbound-link blocklist plus price-figure
+  review flag on `/root/services/aloha-publish/server.mjs`, which a third consecutive audit finding
+  the same defects makes hard to keep deferring.
+
+**Expected impact:**
+- *how to clean window screens without removing them* into positions 5 to 10 within 6 weeks, from
+  12.7, and the page's first non-brand clicks. Same structural bet as the 08-16 high-windows
+  rebuild: an informational, non-local query where a top-10 organic position actually converts.
+- The CTA repointing has no ranking prediction attached. It is a conversion path fix, and the
+  measurable signal is `quote_click` events firing from blog pages at all, which they currently
+  cannot.
+- The audit removals prevent harm rather than produce a gain.
+
+**Metrics at time of action (GSC, 2026-07-18..2026-08-14):**
+- Total 72 clicks / 2,796 impressions. Non-brand 4 clicks / 1,953 impressions / 324 queries /
+  avg position 10.8.
+- `/blog/how-to-clean-window-screens-without-removing-them/`: 141 impressions, 1 click, pos 13.2.
+- `how to clean window screens without removing them` 21 impr @ 12.7, 0 clicks.
+- `/blog/window-cleaning-for-high-windows/` 270 impr @ 11.8 (rebuilt 08-16, too early to read).
+- Geo-grid: in pack at 2 of 6 points; ABSENT Newbury Park, Agoura Hills, Oak Park, Camarillo.
+
+---
+
 ### 2026-08-16
 
 **What we did:**
