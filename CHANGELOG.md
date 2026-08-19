@@ -1,3 +1,77 @@
+## 2026-08-19 - Streak-free cleaner guide rebuilt (third member of the informational family), five inbound links, fourth audit of the auto-published stream
+
+The 08-16 and 08-17 runs treated the two highest-impression informational, non-local posts. This is
+the third and last one with real impressions, chosen by `query x page` position exactly as the site
+map instructs: `/blog/best-streak-free-window-cleaner/` carried **368 impressions, 1 click, position
+14.1** and the query *best streak free window cleaner* is informational, national, and carries no
+map-pack veto, so an organic click on it is genuinely winnable.
+
+- **`/blog/best-streak-free-window-cleaner/` rebuilt** (3,041 to about 3,900 words). It was an
+  Outrank listicle: a scene-setting lede, no FAQ, no schema, an emoji "implementation complexity"
+  comparison table, an unverifiable Consumer Reports quote with no link, five hotlinked `cdnimg.co`
+  product screenshots, and the Thousand Oaks price band presented as the countywide one.
+  - **Direct answer in the first 130 words**, and it is a genuinely contrarian one: the bottle is
+    rarely the variable. Consumer Reports evaluated nine popular glass cleaners and reported that
+    "all the glass cleaners we tried cleaned glass surfaces, but a few required less work than
+    others for a streak free, shiny finish". That sentence was **read off the live CR page** (200,
+    updated 18 March 2026) rather than paraphrased from the previous version's unverifiable
+    "cut through all of CR's messes" claim, which was deleted.
+  - **The differentiating argument the live top three lack** (Abigail Paige Designs, a Reddit
+    thread, and Consumer Reports all rank *brands*): the streak is usually the rinse water, not the
+    product. EPA's secondary standard for total dissolved solids is 500 mg/L with "hardness;
+    deposits; colored water; staining" listed as the effects above it, and California American
+    Water's 2025 CCR (PWS ID CA5610040) puts 94% of Thousand Oaks and Newbury Park supply at
+    140 mg/L hardness, 8.2 gpg, and **297 ppm TDS**. That is 60% of the EPA threshold, perfectly
+    drinkable, and still about **1.1 grams of dissolved solids per gallon** left on the glass when
+    it dries. The only new number is that gram figure, which is arithmetic on the CCR value.
+  - **An eighth distinct kind of table: a differential-diagnosis table.** Six rows of what you see,
+    what it actually is, what fixes it, and what will not fix it, covering residue haze, mineral
+    spotting, squeegee drag lines, returning film, lint, and etching. The existing seven tables are
+    data tables and decision matrices; this one maps a symptom to a cause and a remedy, so the rule
+    that no two briefs share a table shape still holds. The generic emoji table was replaced with a
+    plain seven-row product comparison.
+  - **Six FAQs matching the live PAA questions verbatim** (best cleaner that will not streak, what
+    professionals use, how to get crystal clear glass, what beats Windex, does vinegar streak, why
+    streaks get worse after cleaning). `FAQPage` parity verified **6 == 6** with `grep -o | wc -l`.
+  - **Price band corrected.** It read "typical residential jobs $150 to $400", the Thousand Oaks
+    band, on a page that also quoted $200 to $475 for Santa Barbara. Now $150 to $475, matching the
+    homepage `faqs[0]`, the pricing pillar, the skylight post, and the cost-per-window post.
+  - **All five `cdnimg.co` body hotlinks removed.** They were screenshots of third-party product
+    pages on Outrank's CDN and would have broken on the next rotation.
+  - Sources, all verified 200 to a plain client on 2026-08-19: Consumer Reports, EPA Secondary
+    Drinking Water Standards, California American Water 2025 CCR, NOAA NCEI 1991-2020 normals,
+    Montecito Water District, Goleta Water District, Ettore, Invisible Glass. Titan's dilution claim
+    is attributed in text as a manufacturer statement, with no link, because no Titan URL resolved.
+  - Title left alone: it is already an exact match at 53 characters. Meta description rewritten
+    around the water-not-brand thesis.
+- **internal_links: the page went from 1 inbound internal link to 5.** New contextual links from the
+  hard-water pillar (`/blog/how-to-remove-hard-water-stains-from-windows/`, the site's best-ranking
+  blog page at 4.2), `/blog/streak-free-window-cleaning-cloth/`, `/blog/window-washing-squeegee/`,
+  and `/blog/how-to-remove-hard-water-spots-from-windows/`.
+- **FOURTH AUDIT OF THE AUTO-PUBLISHED STREAM.** Two publisher commits since 08-17, and between
+  them they reproduced four of the five known defect classes. Details in `.claude-site-map.md`.
+  - `window-washing-cost-per-window.md` (published today) carried **four bad outbound links**:
+    `professionalwindowcleaning.com` (a competitor, removed for the second time in four days),
+    `nationalwindowcleaningauthority.com` (the fake standards body identified on 08-17, back again),
+    `homeadvisor.com` (contractor directory), and `gorilladesk.com` (trade software vendor). All
+    removed, along with the third-party dollar figures they supported, including the **$25 to $35
+    per skylight** figure that was deleted from `skylight-cleaning-service.md` on 08-16 under the
+    no-unverified-price rule. Its per-window numbers are now **derived from our own published
+    bands** ($150 to $475 over the 18 to 34 window homes we quote, so roughly $6 to $20 per window)
+    rather than from an aggregator, and its cost table now reports what each window type does to the
+    quote instead of inventing a rate for it.
+  - `solar-panel-cleaning-business.md`: removed a paywalled `researchandmarkets.com` market
+    projection, same class as the `marketresearch.com` removal on 08-17. Its academic sources
+    (IEA PVPS Task 13, Springer, Redalyc, the Renewable Energy record) were read and kept.
+  - Both posts ended their CTA at the homepage rather than `/contact/`. Both fixed;
+    `grep -rn '](https://alohawindowbros.com)' src/content/` is empty again.
+  - **Leftover from the 08-17 audit, found and fixed:** `window-cleaning-insurance.md` was still
+    citing `nationalwindowcleaningauthority.com` for its $1M/$2M liability benchmark plus a
+    lead-generation insurance blog (`mypolicyquote.com`). Both replaced with the Insurance
+    Information Institute's commercial general liability explainer and the California Contractors
+    State License Board (both 200). When removing a fake-authority domain, `grep -rn` the whole of
+    `src/`, not just the post that triggered the audit.
+
 ## 2026-08-17 - Screens guide rebuilt for the second non-local query family, blog CTAs pointed at the quote page, third audit of the auto-published stream
 
 Same play as 08-16, applied to the next post in the informational family. The brief's only

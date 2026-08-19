@@ -111,7 +111,7 @@ For a visual walk-through that helps connect blade movement to high interior pan
 <a id="a-step-by-step-routine-for-streak-free-glass"></a>
 ## A Step-by-Step Routine for Streak-Free Glass
 
-Start with glass that's ready to be cleaned, not just sprayed. Dust, grit, and dried residue can drag under the blade and make a good squeegee act like a bad one. A simple soap-and-water mix, wiped across the pane first, gives the rubber edge a chance to do its job.
+Start with glass that's ready to be cleaned, not just sprayed. Dust, grit, and dried residue can drag under the blade and make a good squeegee act like a bad one. A simple soap-and-water mix, wiped across the pane first, gives the rubber edge a chance to do its job. For the concentrates and sprays that suit blade work, see our roundup of the [best streak free window cleaner](/blog/best-streak-free-window-cleaner/) choices.
 
 Then move with purpose. Begin at the top of the glass, pull the blade in one steady motion, and wipe the blade after each pass so you're not dragging dirty water back onto the pane. The technique is less about speed than consistency, because rushed strokes tend to skip water and create uneven lines.
 

@@ -97,7 +97,7 @@ The easiest rule for a homeowner is simple. A **split-fiber microfiber glass clo
 <a id="the-two-pass-technique-that-works"></a>
 ## The Two-Pass Technique That Works
 
-A lot of streaking starts when one cloth is asked to do every job at once. That usually leads to too much cleaner, too much pressure, and not enough control. The cleaner should loosen grime. The cloth should lift what is left.
+A lot of streaking starts when one cloth is asked to do every job at once. That usually leads to too much cleaner, too much pressure, and not enough control. The cleaner should loosen grime. The cloth should lift what is left. If you are still choosing a product to pair with the cloth, our comparison of the [best streak free window cleaner](/blog/best-streak-free-window-cleaner/) options explains why the format matters more than the brand.
 
 <a id="pass-one-lifts-the-residue"></a>
 ### Pass one lifts the residue

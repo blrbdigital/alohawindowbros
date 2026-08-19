@@ -5,7 +5,7 @@ description: 'Discover the true window washing cost per window in 2026. Learn pr
 heroImage: '/img/blog/window-washing-cost-per-window.jpg'
 heroImageAlt: 'Window Washing Cost Per Window: 2026 Pricing Guide'
 ---
-Standard residential window washing costs **$8 to $16 per window** for interior-and-exterior service, or about **$4 to $8 per individual pane**. Most full-home visits cluster around **$220 to $266 nationally**, but Ventura and Santa Barbara homes can land outside that range when access, salt, dust, hard-water deposits, or neglected screens add labor.
+**Window washing works out to roughly $6 to $20 per window in Ventura County and Santa Barbara County, but almost nobody actually charges that way.** Aloha Window Bros publishes whole-visit bands of **$150 to $475** for a four-in-one clean covering exterior glass, interior glass, screens, frames, and sills ([our Ventura County window cleaning cost guide](/blog/how-much-does-window-cleaning-cost-in-ventura-county/) breaks that down city by city). Spread across the 18 to 34 window homes we typically quote, that band implies about $6 to $20 per window, and where a given home lands inside it depends on access, glass condition, and what the quote counts as one window.
 
 You may be looking at three quotes for the same house and wondering how one company can charge per window, another per pane, and a third offer a flat visit price. The glass hasn't changed, but the counting method and job condition might have. A double-hung window may contain two panes, while a divided-light unit can contain many separate cleaning surfaces.
 
@@ -37,7 +37,7 @@ That confusion matters in coastal and inland Southern California. A Montecito ho
 
 A homeowner in Ventura receives three quotes: **$10 per window**, **$6 per pane**, and one flat price for the visit. None is automatically wrong. The problem is comparing those figures before confirming what the company counts, cleans, and charges separately.
 
-For interior-and-exterior residential service, a practical U.S. benchmark is **$8 to $16 per standard window**, or roughly **$4 to $8 per individual pane**, according to the [Professional Window Cleaning price calculator](https://www.professionalwindowcleaning.com/post/window-washing-price-calculator). Larger picture windows commonly run about **$10 to $20 each**, while national full-home visits often fall near **$220 to $266**, as reported in Angi's 2026 window-cleaning cost guide.
+There is no reliable national per-window rate to compare against, and the figures circulated by contractor directories and lead-generation sites are self-reported averages rather than measured prices. What we can publish is our own: **$150 to $475 for a complete residential visit** across the two counties, which on a typical 18 to 34 window home works out to about **$6 to $20 per window** for all four surfaces. Treat any per-window number, ours included, as arithmetic after the fact rather than a rate card.
 
 Those numbers establish a starting point, not the final invoice. A one-story Thousand Oaks home with reachable glass and maintained screens should stay nearer the ordinary range. A Montecito property exposed to salt aerosol, or an Ojai home carrying dust from Sundowner winds, can require more labor for screens, tracks, access, or hard-water deposits.
 
@@ -51,7 +51,7 @@ Before accepting a per-window estimate, ask the provider to define the unit and 
 - **Screens and tracks:** Check whether screen washing and track detailing are bundled or billed separately.
 - **Access work:** Confirm whether ladders, water-fed poles, skylights, or difficult roofline access change the price.
 
-A home with **20 standard windows** creates a rough baseline of **$160 to $320** at the standard per-window range, before specialty glass, second-story access, screens, or tracks are added. The calculation uses the **$8 to $16 per-window range** cited by the Professional Window Cleaning calculator. It shows why a window count alone cannot predict the invoice.
+A home with **20 standard windows** at the implied **$6 to $20 per window** spans **$120 to $400**, and that spread exists before specialty glass, second-story access, or heavy mineral buildup enters the conversation. A window count alone cannot predict the invoice, which is why we quote on site rather than over the phone.
 
 Coastal exposure raises condition-based labor. Salt film may require extra rinsing, while inland pollen and windblown dust can leave screens and tracks needing separate attention. Ask for those items in writing before work begins.
 
@@ -66,7 +66,7 @@ A double-hung window can make two quotes look comparable when they are not. Its 
 
 ![An infographic explaining the cost difference between flat per-window pricing and per-pane window cleaning service rates.](https://cdnimg.co/8387fe5a-1497-428d-a3af-57b68fc0bac4/347f5c62-c0fe-4aab-adfd-b5f1f8209ec6/window-washing-cost-per-window-pricing-model.jpg)
 
-For example, a home with **20 standard windows** may receive a per-window quote of **$8 to $16**, creating a rough glass-service range of **$160 to $320**. If each double-hung unit contains two panes, the same home has **40 panes**. A per-pane quote of **$4 to $8** reaches the same baseline. The arithmetic matters less than knowing what the provider counted.
+For example, a home with **20 standard windows** quoted at **$6 to $20** per window spans **$120 to $400**. If each double-hung unit contains two panes, the same home has **40 panes**, and a per-pane quote of **$3 to $10** reaches the identical total. The arithmetic matters less than knowing what the provider counted.
 
 The comparison breaks down when a homeowner treats a per-window figure and a per-pane figure as equivalent. A rate of **$10 per pane** for 40 panes produces **$400**, while **$15 per window** for 20 assemblies produces **$300**. These examples show how pricing changes with the counting method, not what every company should charge. Scope still controls the final quote, including which glass surfaces, screens, tracks, and access work are included.
 
@@ -83,7 +83,7 @@ Get the count in writing:
 4. **Are screens removed, washed, dried, and reinstalled?**
 5. **Are tracks and sills wiped, or are they an add-on?**
 
-The [Professional Window Cleaning pricing explanation](https://www.professionalwindowcleaning.com/post/window-washing-price-calculator) distinguishes pane-based and window-based pricing. Pane counting can fit homes with mixed window designs, while assembly pricing may be simpler for uniform layouts. Approve the quote only after the company explains its count and lists condition-based charges separately.
+Pane counting fits homes with mixed window designs, where one assembly can hold six cleaning surfaces and the next holds one. Assembly pricing is simpler on uniform layouts. Neither is a trick, and neither is comparable to the other until you know which one you are reading. Approve the quote only after the company explains its count and lists condition-based charges separately.
 
 <a id="key-factors-that-drive-your-total-cost"></a>
 ## Key Factors That Drive Your Total Cost
@@ -93,27 +93,28 @@ A per-window quote often misses the work hiding behind the glass. In Ventura and
 <a id="height-and-access"></a>
 ### Height and access
 
-Second-floor windows commonly cost **$10 to $40 per window**. Third- and fourth-floor work may add **$3 to $5 per window**, depending on the equipment and setup, according to [HomeAdvisor's window-cleaning cost guide](https://www.homeadvisor.com/cost/cleaning-services/clean-windows/).
+Upper-story glass costs more because of setup time and safety work, not because the pane is dirtier. Every ladder move, pole extension, and repositioning around landscaping is unbilled time on a ground-floor quote and real time on a second-story one. In practice a two-story home sits toward the top of its city band and a single-story home with clear access sits toward the bottom.
 
 A ladder handles some upper-story glass, but landscaping, awnings, tile roofs, balconies, and narrow side yards can slow the job or make ladder placement impractical. Water-fed poles can reach suitable windows from the ground. Rope-access work requires separate planning, equipment, and safety procedures. Review [window cleaning for high windows](https://alohawindowbros.com/blog/window-cleaning-for-high-windows/) when a property includes difficult upper-story glass.
 
 <a id="specialty-glass-and-configuration"></a>
 ### Specialty glass and configuration
 
-Skylights commonly cost **$25 to $35 each**, while sunburst or storm windows can reach **$30 to $40 each**, based on the same [HomeAdvisor pricing reference](https://www.homeadvisor.com/cost/cleaning-services/clean-windows/). Large picture windows have more glass to clean. Divided-light units require extra edge work, even when each pane is small.
+Skylights, sunbursts, storm windows, and divided-light units are all priced on inspection rather than at a standard rate, because the cost is driven by roof access, pitch, and how the unit is glazed rather than by the glass area. We do not publish a per-skylight price for the same reason we do not publish a per-window one: the honest number comes from looking at the actual roof. Large picture windows simply have more glass, and divided-light units need edge work on every small pane.
 
-| Window Type | Floor Level | Typical Cost Range |
-|---|---:|---:|
-| Standard window | Ground level | $8 to $16 per window |
-| Standard window | Second floor | $10 to $40 per window |
-| Skylight | Any level | $25 to $35 each |
-| Sunburst or storm window | Any level | $30 to $40 each |
-| Third- or fourth-floor work | Upper-story access | Add $3 to $5 per window |
+| Window type | Access | What it does to the quote | Why |
+|---|---|---|---|
+| Standard window | Ground level, clear | Baseline for the city band | Squeegee reach from the ground, no setup |
+| Standard window | Second floor | Moves the visit toward the top of the band | Ladder or pole setup and repositioning time |
+| Standard window | Third floor or higher | Quoted separately after a site visit | Access planning and equipment, not glass area |
+| Skylight | Roof | Priced on inspection | Roof pitch, tile, and safe anchorage decide the method |
+| Sunburst, storm, or divided light | Any | Adds edge work per unit | Many small surfaces and perimeters in one assembly |
+| Any window, first clean after neglect | Any | Can double or treble the labor | Mineral deposits and packed tracks need passes, not wipes |
 
 <a id="condition-is-the-hidden-surcharge"></a>
 ### Condition is the hidden surcharge
 
-Maintenance cleaning and restoration are different services. First-time cleaning, construction debris, hard-water buildup, and neglected tracks can take **two to three times longer** than routine maintenance, according to [GorillaDesk's window-cleaning pricing guide](https://gorilladesk.com/learn/window-cleaning-pricing-guide-to-price-cleaning-jobs/).
+Maintenance cleaning and restoration are different services. In our own work, a first clean on glass that has gone years without one routinely takes two to three times as long as a maintenance visit on the same house, because construction debris, hard-water buildup, and packed tracks all have to be worked rather than wiped.
 
 That added labor can include razor-safe debris removal, mineral treatment, repeated scrubbing, track detailing, and careful work around oxidation. Coastal salt residue may need treatment before the glass can be polished. Inland dust and pollen can clog screens and tracks.
 
@@ -122,19 +123,19 @@ Ask the cleaner to identify every condition-based surcharge separately. The esti
 <a id="local-pricing-examples-for-ventura-and-santa-barbara-homes"></a>
 ## Local Pricing Examples for Ventura and Santa Barbara Homes
 
-A Thousand Oaks ranch, a Westlake Village two-story, and a Montecito coastal home can receive very different quotes even with similar glass counts. Local residential service commonly falls within **$150 to $400**, while Santa Barbara full cleans often range from **$200 to $475**, according to the [Ventura County window-cleaning cost guide](https://alohawindowbros.com/blog/how-much-does-window-cleaning-cost-in-ventura-county/). Those ranges are starting points, not promises. Pane count, access, glass type, screens, and condition decide the final price.
+A Thousand Oaks ranch, a Westlake Village two-story, and a Montecito coastal home can receive very different quotes even with similar glass counts. Local residential service falls within **$150 to $475** across the two counties, with Thousand Oaks at $150 to $400 and Santa Barbara and Ojai at $200 to $475, according to our [Ventura County window cleaning cost guide](/blog/how-much-does-window-cleaning-cost-in-ventura-county/). Those ranges are starting points, not promises. Pane count, access, glass type, screens, and condition decide the final price.
 
 <a id="a-thousand-oaks-ranch"></a>
 ### A Thousand Oaks ranch
 
-A single-story Thousand Oaks ranch with **18 standard windows** and clear ground access is usually an efficient job. Using the **$8 to $16** per-window benchmark cited earlier, the glass-only baseline comes to roughly **$144 to $288**. Interior and exterior cleaning on maintained windows may keep the quote near the ordinary local range.
+A single-story Thousand Oaks ranch with **18 standard windows** and clear ground access is usually an efficient job, and it sits at the lower end of our **$150 to $400** Thousand Oaks band. Interior and exterior cleaning on maintained windows keeps the visit predictable, because nothing on the property adds setup time.
 
 Dry-season grit can raise the labor. Dust collects on sills, screens, and tracks, then turns into streaking after the first rain. Pollen-clogged screens and neglected tracks require separate attention, so a per-window estimate based on glass alone can understate the work.
 
 <a id="a-westlake-village-two-story-home"></a>
 ### A Westlake Village two-story home
 
-A two-story Westlake Village colonial with picture windows and skylights carries a different labor profile. Large picture windows take more time because of their surface area. Second-floor access adds setup and safety work, while skylights are specialty items commonly priced at **$25 to $35 each**.
+A two-story Westlake Village colonial with picture windows and skylights carries a different labor profile. Large picture windows take more time because of their surface area. Second-floor access adds setup and safety work, and skylights are specialty items quoted after we have seen the roof.
 
 Request separate lines for standard glass, upper-floor windows, and skylights. Also ask whether the quote counts each window assembly or each individual pane. That comparison prevents a blended visit price from being measured against another company's per-pane calculation.
 
@@ -166,9 +167,9 @@ Screens add another common surcharge. Removing, washing, drying, and reinstallin
 <a id="maintenance-versus-remediation"></a>
 ### Maintenance versus remediation
 
-Recurring service is easier to price because the crew encounters less buildup. The [National Window Cleaning Authority cost guide](https://nationalwindowcleaningauthority.com/window-cleaning-cost-guide/) notes that recurring service commonly receives a **10% to 25% discount** compared with first-time or infrequent cleaning.
+Recurring service is easier to price because the crew encounters less buildup. Our own pricing reflects that directly: regular service is quoted at the low end of a city band, while neglected glass is quoted at the high end of the band above it.
 
-That discount does not remove the initial condition problem. It rewards keeping the glass, screens, and tracks maintainable after the heavier visit is finished.
+That structure does not remove the initial condition problem. It rewards keeping the glass, screens, and tracks maintainable after the heavier first visit is finished.
 
 Review a suspiciously low quote line by line. Ask whether it excludes:
 
@@ -228,4 +229,4 @@ For a provider comparison, ask what equipment and scope each company brings. **A
 
 ---
 
-If you want a quote that clearly separates panes, access, glass condition, screens, and tracks, visit [Aloha Window Bros](https://alohawindowbros.com). Request a free on-site or virtual estimate for your Ventura or Santa Barbara County home, and compare the written scope before you approve the work.
+If you want a quote that clearly separates panes, access, glass condition, screens, and tracks, [request a free estimate](/contact/). Request a free on-site or virtual estimate for your Ventura or Santa Barbara County home, and compare the written scope before you approve the work.

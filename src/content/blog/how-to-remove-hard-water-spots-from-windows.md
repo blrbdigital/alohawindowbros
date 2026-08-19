@@ -101,6 +101,7 @@ Start with the least aggressive step and only move up if the glass still feels s
 
 - **Keep the area wet.** Dry rubbing is what turns a removable spot into abrasion.
 - **Work in small sections.** That keeps the cleaner active where you need it.
+- **Finish with a glass cleaner, not an acid.** Once the minerals are gone, a finishing product takes over, and the [best streak free window cleaner](/blog/best-streak-free-window-cleaner/) comparison covers which ones suit which job.
 - **Use a mild acid first.** Vinegar is fine for many deposits, and it is the right place to begin.
 - **Switch to citric acid if vinegar stalls.** On heavier irrigation stains, citric acid can cut through mineral film that vinegar only loosens.
 - **Reserve abrasion for lubricated glass.** If you need a plastic razor blade or very fine steel wool, use it with almost no pressure and plenty of slip.

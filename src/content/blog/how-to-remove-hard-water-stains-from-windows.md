@@ -59,7 +59,7 @@ For light hard water spotting on Ventura County windows, the most reliable home 
 
 ### What NOT to Do
 
-- **Never use ammonia-based glass cleaners** like standard Windex on hard water stains - they do nothing for mineral deposits and can streak
+- **Never use ammonia-based glass cleaners** like standard Windex on hard water stains - they do nothing for mineral deposits and can streak. Glass cleaners are finishing products, and our guide to the [best streak free window cleaner](/blog/best-streak-free-window-cleaner/) sets out which marks a bottle can and cannot touch
 - **Do not use steel wool, scouring pads, or harsh abrasives** - these will scratch the glass permanently
 - **Do not let cleaning solutions dry on the window** - this can create a new layer of residue or chemical etching
 - **Do not clean in direct sunlight** - solutions evaporate too quickly and leave streaks

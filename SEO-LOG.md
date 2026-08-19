@@ -4,6 +4,108 @@
 
 ---
 
+### 2026-08-19
+
+**What we did:**
+- **refresh (primary): rebuilt `/blog/best-streak-free-window-cleaner/`** with a direct-answer lede,
+  a key-takeaways box, a **differential-diagnosis table** (symptom to cause to remedy), a plain
+  product comparison table replacing the emoji one, six PAA-matched FAQs with `FAQPage` JSON-LD, and
+  eight sources verified 200 today. Corrected the price band from $150 to $400 to $150 to $475 and
+  removed five `cdnimg.co` hotlinks.
+- **internal_links: took the page from 1 inbound internal link to 5**, from the hard-water pillar,
+  the cloth guide, the squeegee guide, and the hard-water-spots post.
+- **title_meta: meta description only.** The title is already an exact match for the query.
+- **technical: fourth audit of the auto-published Outrank stream** (2 new posts), plus a leftover
+  fake-authority citation from the 08-17 audit found in `window-cleaning-insurance.md`.
+- **Rejected new_content, city-page work, homepage work, and title_meta on the city pages.**
+
+**Why we did it (brief numbers plus the standing joins):**
+- **The reality check holds for a sixteenth run: 73 clicks / 2,984 impressions, but 4 non-brand
+  clicks against 2,134 non-brand impressions at average position 10.9.** Click-winning is still the
+  bottleneck and more content is still not the lever.
+- **The site map named this exact page as the next action and it is now done.** "The remaining
+  untreated member with real impressions is `/blog/best-streak-free-window-cleaner/`." This brief
+  puts it at **368 impressions, 1 click, position 14.1**, the fifth-largest page on the site and the
+  largest of the three informational posts. Its query, *best streak free window cleaner*, is
+  informational and non-local, so the map-pack veto that kills every city query does not apply.
+- **The live SERP clears the information-gain bar decisively.** The top three are a personal design
+  blog testing eight cleaners, a Reddit r/Detailing thread, and Consumer Reports. All three answer
+  "which brand". None addresses the rinse water, which is the actual cause of the streak in a hard
+  water region, and an AI overview is present on the query. The rebuilt page argues the opposite
+  case from the incumbents and backs it with EPA's 500 mg/L TDS secondary standard against our
+  utility's own 297 ppm, which is the kind of contrast an AI overview can quote in one sentence.
+- **The Consumer Reports finding is the single most useful sentence in the piece and it is verified,
+  not paraphrased**: nine cleaners evaluated, all of them cleaned glass, the difference was effort.
+  The previous version asserted an unverifiable "cut through all of CR's messes" quote with no link;
+  the paywall means that detail could not be confirmed, so it was deleted rather than kept.
+- **One inbound internal link on a page at position 14.1 is a real defect**, and unlike the city
+  pages, where internal links are proven not to be the constraint, this page is crawled, indexed and
+  ranking, so consolidation has something to act on. Its strongest new linker is the hard-water
+  pillar at position 4.2.
+- **The audit was mandated, not discretionary, and this time it caught a repeat offender.** Two
+  publisher commits landed since 08-17. The cost-per-window post republished the competitor
+  (`professionalwindowcleaning.com`) removed on 08-16, the fake standards body
+  (`nationalwindowcleaningauthority.com`) removed on 08-17, a contractor directory, a trade software
+  vendor, and the **$25 to $35 per skylight** figure deleted on 08-16. Its per-window figures are
+  now derived from our own published bands instead. This is four consecutive audits finding the same
+  defect classes, which is now an argument about the upstream service rather than about the posts.
+
+**Why we rejected the other playbook actions:**
+- **new_content**: the service x city matrix is complete and nothing in this brief clears the
+  information-gain bar as a new page. `gutter cleaning prices <city>` (~84 impressions) is still
+  blocked by the no-invented-price rule pending real gutter bands from the business.
+- **title_meta on the city pages**: the lever is still spent for the reason recorded on 08-07 and
+  08-10 (their metas already carry price bands). This window's CTR outliers are the same map-pack
+  losses as always: *window cleaning* (147 impr @ 1.4), *commercial window cleaning* (52 @ 1.0),
+  *window cleaning westlake village* (32 @ 2.3). No title rewrite improves a position of 1.4.
+- **City-page work, including the geo-grid frontier**: the ten city pages include the two
+  `localBrief` treatments and their eight controls, review dates 2026-09-07 and 2026-09-09. Nineteen
+  days left. Treating a control is how you lose the read.
+- **Homepage work**: the 08-14 Santa Barbara deepening is five days old and the whole cluster is
+  still moving on it in this brief (*window cleaning santa barbara* 9.5 to 8.7, *santa barbara
+  window cleaning* 11.9 to 9.0, *window cleaning thousand oaks* 8.3 to 6.9). Stacking another change
+  onto `/` now contaminates the read on the site's only measured position win.
+- **Decaying pages**: all six flagged are geo-matrix posts, the population measured to earn no
+  non-brand clicks over 90 days. `screen-cleaning-ventura-coastal-salt-and-pollen-guide` at position
+  33.0 on 3 impressions is a reshuffle, not a refresh candidate.
+- **Foreign and out-of-area noise, left alone again**: the Newbury Park exterior/cladding cluster is
+  United Kingdom traffic (*cladding cleaning newbury park* is in this brief's rising queries again)
+  and *affordable window cleaners thousand palms* is Riverside County.
+- **gbp (logged, no code change, thirteenth consecutive run)**: the geo-grid puts us ABSENT from the
+  pack for *window cleaning near me* at **Newbury Park, Agoura Hills, Oak Park, and Camarillo**,
+  against incumbents holding 2 to 21 reviews versus our 205. Newbury Park remains the anomaly worth
+  looking at first: pack position 1 and organic position 3 on *window cleaning newbury park*, yet
+  absent from the near-me grid point, which reads as a service-area or proximity signal rather than
+  a strength problem. Local-pack suspects this window: *window cleaning* (147 impr @ 1.4, 0 clicks),
+  *commercial window cleaning* (52 @ 1.0, 0 clicks), *window cleaning westlake village* (32 @ 2.3,
+  0 clicks), *window cleaning newbury park* (27 @ 4.7), *window washing service agoura hills*
+  (23 @ 3.7). Standing asks still open: **the GBP website field is still `http://`** (301s, highest
+  yield single fix, logged unfixed since 07-24), **real gutter price bands**, and the outbound-link
+  blocklist plus price-figure review flag on `/root/services/aloha-publish/server.mjs`, which a
+  fourth consecutive audit finding the same defects makes very hard to keep deferring.
+
+**Expected impact:**
+- *best streak free window cleaner* into positions 6 to 12 within 6 weeks, from 14.1, and the page's
+  first repeat non-brand clicks. Same structural bet as the 08-16 and 08-17 rebuilds: an
+  informational, non-local query where a top-10 organic position actually converts, and where the
+  page can be cited by an AI overview rather than only clicked.
+- The five inbound internal links should also lift the sibling cluster
+  (`streak-free-window-cleaning-cloth`, `window-washing-soap`, `window-washing-squeegee`), which
+  currently interlink to each other but had no hub.
+- The audit removals prevent harm rather than produce a gain. The cost-per-window rewrite has a
+  second purpose: the post now agrees with the pricing pillar instead of undercutting it with
+  aggregator numbers, which matters because both pages target price intent.
+
+**Metrics at time of action (GSC, 2026-07-20..2026-08-16):**
+- Total 73 clicks / 2,984 impressions. Non-brand 4 clicks / 2,134 impressions / 339 queries /
+  avg position 10.9.
+- `/blog/best-streak-free-window-cleaner/`: 368 impressions, 1 click, pos 14.1.
+- `/blog/window-cleaning-for-high-windows/` 270 impr @ 11.8 (rebuilt 08-16).
+- `/blog/how-to-clean-window-screens-without-removing-them/` 243 impr @ 12.9 (rebuilt 08-17).
+- Geo-grid: in pack at 2 of 6 points; ABSENT Newbury Park, Agoura Hills, Oak Park, Camarillo.
+
+---
+
 ### 2026-08-17
 
 **What we did:**

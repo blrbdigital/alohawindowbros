@@ -149,7 +149,7 @@ A pressure washer may look efficient, but high pressure can drive water into unw
 <a id="add-capacity-when-the-route-earns-it"></a>
 ### Add capacity when the route earns it
 
-Commercial crews may add larger deionization units, spare poles, water storage, transport tanks, and dedicated vehicle organization. Dry-brush robots become a separate investment decision, not an automatic upgrade. A [2026 market analysis of solar panel cleaning equipment](https://www.researchandmarkets.com/reports/6247041/solar-panel-cleaning-market-share-analysis) projects the global market to rise from **USD 1.41 billion in 2025 to USD 2.34 billion by 2031**, and reports that wet cleaning held **60% share in 2025** while dry-brush robots were gaining share. Those figures describe market direction, not a guarantee that automation will improve a particular route.
+Commercial crews may add larger deionization units, spare poles, water storage, transport tanks, and dedicated vehicle organization. Dry-brush robots become a separate investment decision, not an automatic upgrade, and the case for one has to be made on a specific route rather than on the direction of the equipment market.
 
 Water use deserves an honest explanation in California. Low-water methods can reduce runoff and improve customer acceptance, but “waterless” doesn't mean maintenance-free. Dry brushing may be suitable for loose dust on compatible arrays, while salt film, bird residue, and mineral deposits often require a controlled wet process or a targeted treatment. The correct method depends on what is on the panel, not on a slogan.
 
@@ -229,4 +229,4 @@ For customers still asking whether the service is financially justified, this ex
 
 ---
 
-Aloha Window Bros provides solar panel cleaning alongside window, screen, frame, and sill cleaning for homes and commercial properties across Ventura County and Santa Barbara County. Request a free on-site or virtual estimate through [Aloha Window Bros](https://alohawindowbros.com), and ask for a maintenance recommendation based on your property's coastal exposure, inland dust, access, and panel condition.
+Aloha Window Bros provides solar panel cleaning alongside window, screen, frame, and sill cleaning for homes and commercial properties across Ventura County and Santa Barbara County. [Request a free on-site or virtual estimate](/contact/), and ask for a maintenance recommendation based on your property's coastal exposure, inland dust, access, and panel condition.
