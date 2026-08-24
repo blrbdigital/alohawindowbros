@@ -59,7 +59,7 @@ Glass behaves the same way. Water evaporates, but dissolved minerals don't. Calc
 
 A crew's filtration system receives ordinary feed water and sends it through several treatment stages. Sediment and carbon filtration protect the system, the **reverse osmosis membrane rejects most dissolved material**, and the deionization resin polishes the remaining ions.
 
-The final reading matters at the point of use, not just at the tank. Water can test pure at the source and still pick up contamination from a dirty hose, frame, sill, or brush. Expert guidance notes that **0 ppm is ideal**, values above **10 ppm** can begin causing spotting, and water in the **10 to 50 ppm** range may still clean while leaving slight marks on sensitive or highly visible glass, according to [Streamline's explanation of pure-water cleaning](https://www.streamline.systems/2025/06/12/pure-water-cleaning-the-facts/).
+The final reading matters at the point of use, not just at the tank. Water can test pure at the source and still pick up contamination from a dirty hose, frame, sill, or brush. The reference point that matters is the mineral load of what comes out of the tap. The U.S. Environmental Protection Agency's secondary standard for total dissolved solids is **500 mg/L** ([EPA](https://www.epa.gov/sdwa/secondary-drinking-water-standards-guidance-nuisance-chemicals)), and California American Water's own 2025 report for Thousand Oaks and Newbury Park puts its main supply at **297 ppm TDS** ([Cal Am CCR](https://www.amwater.com/ccr/thousandoaks.pdf)). Purified water systems strip that toward zero, which is the entire point: whatever is dissolved in the rinse is what dries on the glass.
 
 <a id="why-the-brush-can-rinse-instead-of-wipe"></a>
 ### Why the brush can rinse instead of wipe
@@ -80,7 +80,7 @@ The process is therefore chemistry plus technique. Low TDS prevents new mineral 
 
 The strongest advantage isn't that purified water makes every dirty window magically perfect. It's that the method combines a clean rinse, mechanical agitation, and safer access in one workflow.
 
-On upper-story glass, a water-fed pole lets the technician remain on the ground while the brush reaches the pane. Industry descriptions commonly place practical cleaning reach at **about 70 feet, or 21 metres**, for buildings that can be serviced from the ground, as discussed in [work-at-height guidance on water-fed poles and window-cleaning risks](https://www.workingatheightscourse.co.uk/blog/window-cleaning-accident-statistics-uk). That doesn't mean every property can be cleaned from the driveway. Trees, overhangs, setbacks, pole weight, and water pressure still determine the working reach.
+On upper-story glass, a water-fed pole lets the technician remain on the ground while the brush reaches the pane. Practical cleaning reach from the ground is commonly described as around four to five storeys, though that is an equipment ceiling rather than a promise. It doesn't mean every property can be cleaned from the driveway. Trees, overhangs, setbacks, pole weight, and water pressure still determine the working reach.
 
 <a id="the-practical-wins"></a>
 ### The practical wins
@@ -193,7 +193,7 @@ A quote should tell you more than the number of windows. Ask how the crew produc
 - **Request the final TDS reading:** The useful reading is near the brush head or outlet, not only at the source tank.
 - **Confirm pole reach:** Ask whether the equipment can reach your upper panes from a safe ground position.
 - **Identify the brush:** Soft, non-scratch bristles suit many routine glass surfaces, while specialty work may call for a different head.
-- **Clarify the scope:** Confirm whether frames, sills, screens, tracks, interiors, and skylights are included or priced separately.
+- **Clarify the scope:** Confirm whether frames, sills, screens, tracks, interiors, and skylights are included or priced separately. Skylights in particular are worth naming out loud, because the [safe method depends on whether the unit is glass or an acrylic dome](/blog/skylight-cleaning-service/).
 - **Discuss stains before booking:** Ask how the company handles hard-water film, etching, paint, and neglected frames.
 
 ![A checklist infographic titled How to Choose a Purified Water Cleaning Service with five key considerations.](https://cdnimg.co/8387fe5a-1497-428d-a3af-57b68fc0bac4/cb84465c-2363-48fc-ace5-f2e24e247518/purified-water-window-cleaning-checklist.jpg)
@@ -207,7 +207,7 @@ Insurance and access procedures matter, too. Ask whether the crew has a ladder-f
 <a id="why-this-method-has-become-the-new-baseline"></a>
 ## Why This Method Has Become the New Baseline
 
-The method became commercially significant in the late 1990s and early 2000s. One industry history account describes the first commercially successful pure-water window-cleaning system as a UK development in the late 1990s, while broader adoption accelerated in the early 2000s as water-fed poles made ground-based cleaning practical for buildings up to **about 70 feet, or 21 metres**, according to [this history of window washing](https://sunclean.com/window-washing-history/).
+The method became commercially significant in the late 1990s and early 2000s. The first commercially successful pure-water window-cleaning systems were a UK development in the late 1990s, and adoption accelerated through the early 2000s as water-fed poles made ground-based cleaning practical on buildings that had previously needed ladders or rope access.
 
 That development solved several problems at once. Purification addressed mineral residue, the pole reduced dependence on ladders, and the brush-and-rinse workflow reduced the need for detergent and hand drying on suitable exterior glass.
 
@@ -216,10 +216,10 @@ That development solved several problems at once. Purification addressed mineral
 
 A purified-water system isn't a one-time purchase that guarantees perfect results. Crews have to monitor TDS, maintain resin and filtration stages, keep hoses and brushes clean, and recognize when a surface needs restoration. The system also has reach and access limits, and water quality varies by location.
 
-The business case is therefore more nuanced than “faster, safer, and chemical-free.” Market materials project the global water-fed pole cleaning-services market to rise from **USD 89.3 million in 2025 to USD 138 million by 2032**, with a projected **7.7% CAGR**, as reported by [HTF Market Insights](https://htfmarketinsights.com/report/4048970-waterfed-poles-clean-window-service-market). That projection points to growing adoption, but it doesn't remove the operating costs of resin, filters, water monitoring, equipment upkeep, training, and appropriate restoration work.
+The business case is therefore more nuanced than “faster, safer, and chemical-free.” Adoption keeps growing because the method removes ladder work from most residential jobs, but it does not remove the operating costs of resin, filters, water monitoring, equipment upkeep, training, and appropriate restoration work for glass that is already spotted.
 
 For homeowners, the decision is practical. Use purified water for routine exterior contamination and hard-to-reach glass. Ask for restoration when mineral deposits are baked on, when etching is visible, or when frames and sills are contaminating the rinse. The best result comes from matching the tool to the condition instead of treating every pane as the same job.
 
 ---
 
-For coastal salt haze, dusty foothill glass, higher panes, screens, frames, and sills, Aloha Window Bros provides insured residential and commercial cleaning across Ventura County and Santa Barbara County, with free on-site and virtual estimates. Visit [Aloha Window Bros](https://alohawindowbros.com) to request a quote and discuss whether your windows need routine purified-water maintenance or a separate restoration step.
+For coastal salt haze, dusty foothill glass, higher panes, screens, frames, and sills, Aloha Window Bros provides insured residential and commercial cleaning across Ventura County and Santa Barbara County, with free on-site and virtual estimates. [Request a free on site quote](/contact/) and discuss whether your windows need routine purified-water maintenance or a separate restoration step.

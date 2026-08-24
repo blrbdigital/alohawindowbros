@@ -132,7 +132,7 @@ A homeowner with new panels usually faces the same fork in the road. Grab a gard
 | --- | --- | --- | --- | --- |
 | DIY rinse | Low direct cost, but your time and roof risk are on you | Higher if you use the wrong pad, detergent, or pressure | Highest personal risk because you're climbing and working near wet surfaces | Basic hose, household tools |
 | Handyman | Varies by job scope | Mixed, depends on methods used | Better than DIY if the person is experienced, but still inconsistent | Often limited, may not include purified water or solar-specific poles |
-| Professional service | Typical residential ranges of **$150 to $400**, with Santa Barbara full cleans commonly **$200 to $475** according to Aloha Window Bros pricing guidance | Lower when the crew uses non-abrasive methods | Safer when insured techs handle access and fall protection | Purified water systems, water-fed poles, soft brushes |
+| Professional service | Window cleaning bands of **$150 to $475** by city are published; solar is quoted on site, not per panel | Lower when the crew uses non-abrasive methods | Safer when insured techs handle access and fall protection | Purified water systems, water-fed poles, soft brushes |
 
 <a id="what-youre-really-paying-for"></a>
 ### What you're really paying for

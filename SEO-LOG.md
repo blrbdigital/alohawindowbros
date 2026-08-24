@@ -4,6 +4,107 @@
 
 ---
 
+### 2026-08-24
+
+**What we did:**
+- **refresh (primary): rebuilt `/blog/skylight-cleaning-service/`** as the fourth member of the
+  informational, non-local post family. Direct-answer lede, key-takeaways box, a **glazing material
+  compatibility and prohibition matrix** (the ninth distinct kind of table on this site), an access
+  decision table, seven PAA-matched FAQs with `FAQPage` JSON-LD (parity 7 == 7 via `grep -o`), and
+  five sources verified 200 today. 3,069 to 2,431 words.
+- **internal_links: took the page from 1 inbound internal link to 5**, from
+  `how-to-remove-hard-water-spots-from-windows`, `best-streak-free-window-cleaner`,
+  `window-cleaning-for-high-windows`, and `purified-water-window-cleaning`.
+- **title_meta on the same page**: title now `Skylight Cleaning Service: Safe Methods by Material`
+  (50 chars), leading with the exact head query; meta rewritten around the differentiator.
+- **technical: fifth audit of the auto-published Outrank stream** (five new posts since 08-19).
+- **gbp: logged the local-pack losses** rather than writing anything for them.
+- **Rejected new_content, city-page work, homepage work, and title_meta on the city pages.**
+
+**Why we did it (brief numbers plus the joins run today):**
+- **The reality check holds for a seventeenth run: 77 clicks / 3,675 impressions, but 5 non-brand
+  clicks against 2,846 non-brand impressions at average position 12.** Click-winning is still the
+  bottleneck and more content is still not the lever.
+- **The site map told this run not to rebuild a fourth informational post, and the join disproved
+  the reason it gave.** The caution said the untreated members were single-impression rows. They are
+  not: `/blog/skylight-cleaning-service/` carries **129 non-brand impressions across about 20
+  distinct skylight queries**, with *skylight cleaning* at **61 impressions, position 13.2 in the
+  US**. A country probe returns **53 of 61 on `usa`**, which rules out a repeat of the
+  Newbury/Berkshire foreign-traffic trap before any writing started. That page is larger than
+  `/blog/window-cleaning-for-high-windows/` was when it was treated on 08-05.
+- **The family read is trending positive, not flat.** Five days after the 08-19 rebuild,
+  *best streak free window cleaner* sits at **8.7** where the page blend had been 14.1, and
+  `/blog/best-streak-free-window-cleaner/` took **357 non-brand impressions and its first non-brand
+  click**. That is the largest non-brand blog page on the site and the strongest evidence yet for
+  the standing hypothesis that an informational, non-local query is the only kind here where an
+  organic position can convert, because no map pack sits above it.
+- **The live SERP clears the information-gain bar.** The top three for *skylight cleaning* are a
+  VELUX manufacturer blog, an Amazon search page, and a YouTube short. The VELUX page was fetched
+  and read in full: it assumes a VELUX **glass** unit, and says nothing about acrylic or
+  polycarbonate domes, which are what sits on most older homes and additions here. Neither of the
+  other two results addresses material at all. The rebuilt page's thesis is that the material
+  decides the method and that the two manufacturers **contradict each other on the most common
+  household cleaner**, backed by a dome manufacturer's manual stating "DO NOT USE Windex or other
+  household cleaners." No incumbent makes that claim.
+- **One inbound internal link on a page at position 13.2 is a real defect**, and unlike the city
+  pages, where internal links are proven not to be the constraint, this page is crawled, indexed,
+  and ranking, so consolidation has something to act on. Its new linkers are the four blog pages
+  with the most non-brand impressions on the site.
+- **The audit was mandated and this one found the worst post the stream has produced.**
+  `solar-panel-cleaning-cost` opened its **direct-answer sentence** with "Most homeowners in Ventura
+  and Santa Barbara counties pay between **$150 and $475 per solar panel cleaning visit**". That is
+  the **window cleaning** band relabelled as a **solar** rate, and this site has never published a
+  solar price at all. It is a fabricated first-party price in the exact sentence AI engines quote
+  back as our rate. It also carried a `thumbtack.com` rate card ($5 to $15 per panel, $100 to $300
+  and $320 to $1,400 systems), a `solarcleanhub.com` annual budget ($390 to $720), two
+  `earthenergylog.com` citations, an invented "Estimated Visit Cost" table column, and a malformed
+  citation artifact carrying two euro-per-square-metre figures with no link.
+- **The market-size figure was wrong for the fourth consecutive audit** ("$2.9 billion in 2026",
+  sourced to a market-research vendor rather than IBISWorld, alongside an invented USD 151.18
+  billion global figure). All seven occurrences sitewide now read 2024 and point at IBISWorld.
+- **The Thousand Oaks band presented as countywide turned up in five more places**, its fourth
+  through eighth appearance. All now read $150 to $475.
+
+**Why we rejected the other playbook actions:**
+- **gbp, not content, for the CTR outliers.** *window cleaning* (147 impr @ 1.4) and *commercial
+  window cleaning* (52 @ 1.0) are the **GBP listing**, not the website: the join puts 143 of those
+  147 and all 52 on `http://alohawindowbros.com/` at position 1.0. No title rewrite improves a
+  position of 1.0, and the click that follows is Call or Directions, which GSC never counts as a
+  site click. Same for *window cleaning westlake village* (2.2), *window cleaning newbury park*
+  (4.0), *window washing service agoura hills* (3.3). Logged for the GBP workstream.
+- **title_meta on the city pages**: the lever is still spent for the reason recorded on 08-07 and
+  08-10, that their metas already carry price bands.
+- **refresh of the decaying pages**: all four are geo-matrix posts, which the 90-day measurement
+  says earn no non-brand traffic. `/blog/screen-cleaning-oxnard-salt-and-ag-dust-guide/` took 13
+  impressions this window; the join shows the whole geo blog is brand traffic.
+- **new_content**: the service x city matrix is complete and nothing here clears the bar as a new
+  page. `gutter cleaning prices <city>` is still blocked by the no-invented-price rule, and the
+  solar post above is a fresh demonstration of why that rule exists.
+- **Deliberately NOT treated, and named for the next run:**
+  `/blog/how-to-remove-hard-water-spots-from-windows/` has 168 non-brand impressions, the second
+  largest of any blog page, but all ~30 of its query variants sit at **position 19 to 34**, and it
+  **cannibalizes the older pillar** `/blog/how-to-remove-hard-water-stains-from-windows/`, which
+  took **zero** impressions in the same window, including for its own exact title query at 27.2.
+  Rebuilding either one before resolving which is canonical would deepen the split.
+
+**Expected impact:**
+- *skylight cleaning* from 13.2 to the top 10 within six weeks, and the page's first non-brand
+  clicks. The map pack on this query does not contain us, so the organic click is the whole prize.
+- The audit does not move rankings. It removes eleven outbound links to competitors, contractor
+  directories, and paid market reports, deletes a fabricated first-party solar price, and stops
+  eight pages contradicting the pricing pillar.
+
+**Metrics at time of action (GSC 2026-07-25..2026-08-21):**
+- Site: 77 clicks, 3,675 impressions. Non-brand: 5 clicks, 2,846 impressions, avg position 12.
+- `/blog/skylight-cleaning-service/`: 10 brand / **129 non-brand** impressions, 0 clicks.
+- *skylight cleaning*: 61 impressions, position 14.1 blended, **13.2 on `usa`** (53 of 61 impr).
+- *skylight window cleaning* 10 @ 19.8, *skylight cleaner* 9 @ 14.1, *cleaning skylights* 5 @ 15.8,
+  *skylight cleaning service* 3 @ 12.0.
+- `/blog/best-streak-free-window-cleaner/` (treated 08-19): 357 non-brand impressions, 1 non-brand
+  click, head query at **8.7**.
+
+---
+
 ### 2026-08-19
 
 **What we did:**

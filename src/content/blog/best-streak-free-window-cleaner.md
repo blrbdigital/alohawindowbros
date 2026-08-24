@@ -91,7 +91,7 @@ Professional window cleaners do not win by buying a better spray. Three things d
 <a id="1-aloha-window-bros-when-the-answer-is-not-a-bottle"></a>
 ## 1. Aloha Window Bros, when the answer is not a bottle
 
-Aloha Window Bros is a two brother window cleaning company serving Ventura County and Santa Barbara County, and it is on this list for the cases a bottle genuinely cannot solve: mineral spotting that has been building for years, second story and skylight glass, salt film on coastal exteriors, and the frames, tracks, and screens that put residue back onto glass you just cleaned.
+Aloha Window Bros is a two brother window cleaning company serving Ventura County and Santa Barbara County, and it is on this list for the cases a bottle genuinely cannot solve: mineral spotting that has been building for years, second story glass, [skylights](/blog/skylight-cleaning-service/) where the wrong cleaner can permanently craze an acrylic dome, salt film on coastal exteriors, and the frames, tracks, and screens that put residue back onto glass you just cleaned.
 
 Every visit is a four in one clean, glass plus screens plus frames plus sills, because cleaning only the pane is what makes a clean window look cloudy again two days later. Exterior and hard to reach glass is done with purified water fed poles, so there is no tap water left on the pane to dry.
 

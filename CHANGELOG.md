@@ -1,3 +1,46 @@
+## 2026-08-24 - Skylight guide rebuilt (fourth informational-family member), five inbound links, fifth audit of the auto-published stream
+
+The `query x page` join for 07-25..08-21 retired the site map's "no fourth informational post"
+caution by disproving its stated reason. `/blog/skylight-cleaning-service/` carries **129 non-brand
+impressions across about 20 distinct skylight queries**, head query *skylight cleaning* at **61
+impressions, position 13.2 in the US** (country probe: 53 of 61 `usa`, so not another
+Newbury/Berkshire case). That is larger than the high-windows post was when it was treated, and the
+family read is not flat: five days after the 08-19 rebuild, *best streak free window cleaner* had
+moved to **8.7** from a 14.1 page blend and took its first non-brand click.
+
+- **`/blog/skylight-cleaning-service/` rebuilt** (3,069 to 2,431 words, and the cut is the point).
+  It had no direct answer, no takeaways box, no `<details>` FAQ and therefore **no FAQPage node at
+  all**, three `cdnimg.co` hotlinks, a dangling "The video below offers a visual reference" sentence
+  with no video after it, and a duplicated city in the FAQ. It now opens with the answer, carries a
+  key-takeaways box, a **glazing material compatibility and prohibition matrix** (the ninth distinct
+  kind of table on the site), an access decision table, and seven PAA-matched FAQs with FAQPage
+  JSON-LD. Parity verified 7 == 7 with `grep -o` against `dist/`.
+- **Its differentiator.** The live top three for *skylight cleaning* are a VELUX manufacturer blog,
+  an Amazon search page, and a YouTube short. The VELUX page assumes a VELUX **glass** unit and says
+  nothing about acrylic or polycarbonate domes. The rebuilt page argues that the material decides
+  the method, and that the two manufacturers contradict each other on the most common household
+  cleaner: a dome manufacturer's manual states "DO NOT USE Windex or other household cleaners."
+- **Source correction on our own page.** The old version attributed acrylic warnings to the
+  skyspec.com care guide. That PDF is **VELUX's own guide and contains no acrylic guidance**. The
+  acrylic prohibitions come from the Architectural Specialties maintenance manual, which is now
+  cited for them. `stacks.cdc.gov` 403s to non-browser agents and was replaced with the primary
+  rule itself, 29 CFR 1910.28(b)(3)(i), fetched and read today.
+- **Internal links 1 to 5**, from the four strongest non-brand blog pages plus the existing linker.
+- **Fifth audit of the auto-published Outrank stream (five new posts, every defect class).** The
+  homepage-CTA defect was in all five, its fifth consecutive appearance. `solar-panel-cleaning-cost`
+  opened with "**$150 and $475 per solar panel cleaning visit**", which is the **window cleaning**
+  band relabelled as a solar rate; the site has never published a solar price. Removed three
+  `thumbtack.com` links with a $5-to-$15-per-panel rate card, `solarcleanhub.com` with a
+  $390-to-$720 annual budget, `earthenergylog.com` twice, an invented "Estimated Visit Cost" table
+  column, and a malformed citation carrying two euro-per-square-metre figures.
+- The market-size figure was wrong for the **fourth consecutive audit** ("$2.9 billion in 2026",
+  sourced to a market-research vendor); corrected to IBISWorld 2024 here and in a leftover in
+  `window-screen-cleaning-service`. The Thousand-Oaks-band-as-countywide error appeared in **five**
+  more places and now reads $150 to $475 everywhere. Also removed: `sparkletechwindowwashing.com`,
+  `clearviewservices.co.uk`, `sunclean.com`, `streamline.systems`, `htfmarketinsights.com`,
+  `bgateway.com`, `workingatheightscourse.co.uk`, and a **New York State** regulation cited on a
+  California site (replaced with California Title 8 and 29 CFR 1910.28).
+
 ## 2026-08-19 - Streak-free cleaner guide rebuilt (third member of the informational family), five inbound links, fourth audit of the auto-published stream
 
 The 08-16 and 08-17 runs treated the two highest-impression informational, non-local posts. This is

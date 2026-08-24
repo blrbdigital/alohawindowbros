@@ -127,7 +127,7 @@ A local company with regional experience can be useful here. **Aloha Window Bros
 
 California window cleaning prices usually depend on three things, property complexity, contamination level, and access. A small single-story house with easy access and standard screens is a different job from a larger home with upper-story glass, skylights, heavy salt exposure, or mineral spotting that needs extra attention.
 
-A practical quote has to reflect the work on site. On California-facing pricing guidance from Aloha Window Bros, typical residential ranges fall around **$150 to $400**, with **Santa Barbara full cleans commonly $200 to $475** because larger homes and coastal conditions take more labor. Those figures give homeowners a realistic starting point before they ask for an estimate. Free on-site quotes matter because a phone call can miss ladder access, screen condition, or the hard-water damage that shows up once a crew is in front of the glass.
+A practical quote has to reflect the work on site. Aloha Window Bros publishes per city bands running **$150 to $475**, from $150 to $400 in Thousand Oaks to $200 to $475 in Ojai and Santa Barbara, because larger homes and coastal conditions take more labor. Those figures give homeowners a realistic starting point before they ask for an estimate. Free on-site quotes matter because a phone call can miss ladder access, screen condition, or the hard-water damage that shows up once a crew is in front of the glass.
 
 | Typical California Window Cleaning Costs by Property Type |  |  |  |
 | --- | --- | --- | --- |

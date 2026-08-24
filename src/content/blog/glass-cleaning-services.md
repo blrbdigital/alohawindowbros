@@ -164,7 +164,7 @@ Not every window cleaner is insured or equipped for roof work, solar panels, or 
 
 A home near the beach, a property surrounded by dry inland dust, and a house reached by sprinkler spray need different window-cleaning schedules. The blanket advice to clean every six months ignores the material settling on the glass, frames, and sills.
 
-Coastal homes need shorter intervals because salt aerosol clings to panes and frames. **Every two to three months** is a practical schedule when the property sits near the beach, wind carries salt inland, or haze returns soon after cleaning. The [2026 UK window cleaning services market report](https://www.bgateway.com/media/q30oe5uq/market-report-window-cleaning-february-2026.pdf) also supports planning around environmental exposure instead of relying on one generic timetable.
+Coastal homes need shorter intervals because salt aerosol clings to panes and frames. **Every two to three months** is a practical schedule when the property sits near the beach, wind carries salt inland, or haze returns soon after cleaning. NOAA's 1991 to 2020 normals for the Oxnard station put June through September rainfall at **0.17 inches combined** ([NOAA NCEI](https://www.ncei.noaa.gov/access/us-climate-normals/)), so for a third of the year nothing rinses local glass at all. That is the argument for planning around exposure rather than around a generic timetable.
 
 ![An infographic showing recommended window cleaning frequencies for coastal, urban, suburban, and commercial building environments.](https://cdnimg.co/8387fe5a-1497-428d-a3af-57b68fc0bac4/51aa0eec-d63c-454e-87bc-a8b013202124/glass-cleaning-services-window-maintenance.jpg)
 
@@ -265,4 +265,4 @@ Compare the full maintenance plan, not just the cheapest one-time wash. A provid
 
 Aloha Window Bros offers interior and exterior window cleaning, screen, frame, track, and sill care, plus skylight and solar-panel cleaning for residential and commercial properties across Ventura County and Santa Barbara County. The company provides fully insured service and free on-site or virtual estimates, allowing homeowners, storefront owners, and property managers to request a scope based on their glass, access, and local exposure.
 
-If coastal salt, inland dust, or sprinkler spotting has made your windows harder to maintain, visit [Aloha Window Bros](https://alohawindowbros.com) to request a free estimate. Ask for a service plan that covers the glass and the neglected edges, screens, tracks, and sills that determine how long the clean lasts.
+If coastal salt, inland dust, or sprinkler spotting has made your windows harder to maintain, [request a free on site estimate](/contact/). Ask for a service plan that covers the glass and the neglected edges, screens, tracks, and sills that determine how long the clean lasts.

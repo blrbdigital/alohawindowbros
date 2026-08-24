@@ -172,7 +172,7 @@ The weak point is consistency. Many people start with a wet paper towel, spread 
 | Homeowner manages ladder and surface protection | Technician plans access and protects surrounding areas |
 | Results depend on careful drying | Drying is treated as part of the service, not an afterthought |
 
-Recent **2025 and 2026 guidance** increasingly emphasizes dry-first vacuuming, crevice tools, careful weep-hole treatment, and optional lubrication after cleaning, as described in [this window track maintenance guide](https://clearviewservices.co.uk/how-to-clean-window-sills-and-window-tracks/). The shift is useful because it frames the job around performance, not just making the channel look less dirty.
+The method that works is dry first: vacuum the channel with a crevice tool before any water touches it, clear the weep holes at the outer edge of the sill, then damp clean and dry. Wetting a loaded track first turns dust into a paste that packs into the corners. Framing the job around drainage performance rather than appearance is what keeps water out of the wall, because a blocked weep hole is a moisture problem long before it is a cosmetic one.
 
 <a id="when-a-professional-earns-the-call"></a>
 ### When a professional earns the call
@@ -186,7 +186,7 @@ DIY is less likely to create trouble when you use minimal liquid, avoid sharp to
 
 A window track cleaning service may be included with a broader window, screen, frame, and sill visit rather than quoted as a completely separate task. The final price depends on access, soil level, window style, screen quantity, raised glass, and whether the property needs interior and exterior work.
 
-For general residential window cleaning, the publisher's stated range is **$150 to $400**, while Santa Barbara full cleans commonly run **$200 to $475**, according to the provided service information. Those figures are not a substitute for an assessment, especially when tracks contain hardened residue or when a home includes multi-story glass. For context on cost factors, see this guide to [window washing cost per window](https://alohawindowbros.com/blog/window-washing-cost-per-window/).
+For general residential window cleaning, Aloha Window Bros publishes per city bands running **$150 to $475** across the two counties, from $150 to $400 in Thousand Oaks to $200 to $475 in Ojai and Santa Barbara. Those figures are not a substitute for an assessment, especially when tracks contain hardened residue or when a home includes multi-story glass. For context on cost factors, see this guide to [window washing cost per window](https://alohawindowbros.com/blog/window-washing-cost-per-window/).
 
 <a id="what-a-responsible-booking-process-looks-like"></a>
 ### What a responsible booking process looks like
@@ -233,4 +233,4 @@ Ask the company directly for confirmation of current coverage before work begins
 
 ---
 
-Aloha Window Bros provides window, screen, frame, sill, and track cleaning for homes and businesses across Ventura County and Santa Barbara County, including coastal and inland properties. Visit [Aloha Window Bros](https://alohawindowbros.com) to request a free on-site or virtual estimate and discuss the buildup, access, and drainage issues affecting your windows.
+Aloha Window Bros provides window, screen, frame, sill, and track cleaning for homes and businesses across Ventura County and Santa Barbara County, including coastal and inland properties. [Request a free on site estimate](/contact/) and discuss the buildup, access, and drainage issues affecting your windows.

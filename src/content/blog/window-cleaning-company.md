@@ -29,7 +29,7 @@ The cheapest quote is tempting. It's also where many property owners make an exp
 
 A window cleaning company can look like a simple cosmetic service until the job involves a second-story pane above a sloped roof, a skylight over delicate flooring, or solar glass covered in mineral residue. At that point, the difference between a trained crew and a person with a bucket becomes obvious.
 
-The market itself is substantial. One **2026 industry estimate values the global window cleaning services market at USD 151.18 billion in 2025 and projects USD 162.35 billion in 2026**, while a U.S.-focused estimate places window washing revenue at **$2.9 billion in 2026**, with **35,344 businesses** operating nationwide, as reported in this [window cleaning services market analysis](https://www.fortunebusinessinsights.com/window-cleaning-services-market-113725). That scale tells you two things: demand is real, and the field is fragmented. Plenty of companies operate professionally, but not all of them deliver the same level of training, protection, or workmanship.
+The market itself is substantial. IBISWorld puts U.S. window washing revenue at **$2.9 billion in 2024** across **35,344 businesses** ([IBISWorld](https://www.ibisworld.com/united-states/industry/window-washing/6458/)). That scale tells you two things: demand is real, and the field is fragmented. Plenty of companies operate professionally, but not all of them deliver the same level of training, protection, or workmanship.
 
 A window cleaning visit may include more than wiping glass. The crew might remove and wash screens, clear tracks, detail frames and sills, remove hard-water deposits, clean skylights, or maintain solar panels. Each task calls for different tools and different judgment.
 
@@ -77,11 +77,11 @@ A strong quote should identify:
 
 Window cleaning prices vary because the work varies. A company that quotes only from a street address or a rough phone description may miss screen quantity, difficult access, skylights, solar panels, interior obstacles, or mineral staining. A low number is meaningless until you know what the crew has agreed to clean.
 
-For a useful benchmark, Aloha Window Bros lists typical residential ranges of **$150 to $400**, with Santa Barbara full cleans commonly **$200 to $475**, according to the business information provided for this article. Use those figures as local context, not as a universal tariff. Property size, pane count, elevation, condition, and service scope can move a quote substantially.
+For a useful benchmark, Aloha Window Bros publishes per city bands running **$150 to $475** across Ventura County and Santa Barbara County, from $150 to $400 in Thousand Oaks to $200 to $475 in Ojai and Santa Barbara. The full [price breakdown by city](/blog/how-much-does-window-cleaning-cost-in-ventura-county/) sets out each one. Use those figures as local context, not as a universal tariff. Property size, pane count, elevation, condition, and service scope can move a quote substantially.
 
 | Service Area | Typical Price Range | Factors Affecting Cost |
 |---|---:|---|
-| Routine exterior washing | $150 to $400 | Access, glass area, stories, and buildup |
+| Routine exterior washing | $150 to $475, by city | Access, glass area, stories, and buildup |
 | Full residential cleaning | $200 to $475 in Santa Barbara context | Interior and exterior scope, screens, frames, and sills |
 | Solar panel cleaning | Quote required | Panel access, roof layout, residue, and safety controls |
 | Hard-water stain treatment | Quote required | Severity, glass condition, and restoration method |
@@ -104,7 +104,7 @@ Many buyers assume every window cleaning company carries adequate insurance. Tha
 
 Request a current certificate of insurance before approving the job. Confirm general liability coverage, workers' compensation where applicable, and protection for property damage connected to ladders, poles, access equipment, and working at height. If the company claims to be bonded, ask for proof of bonding rather than accepting the statement verbally.
 
-The legal distinction between ground-level residential work and elevated or commercial work matters. Recent U.S. state rules require specific fall-protection methods, approved anchors, and limits on how cleaners move between windows at height. New York's [window-cleaning safety regulation](https://regulations.justia.com/states/new-york/title-12/chapter-i/subchapter-a/part-21/section-21-6/) illustrates why a contractor's access plan deserves scrutiny. Canadian federal requirements also direct employers toward formal safety standards for window cleaning above ground level.
+The legal distinction between ground-level residential work and elevated work matters, and in California it is written down. [Title 8 of the California Code of Regulations](https://www.dir.ca.gov/title8/sb7g1a5.html) governs window cleaning operations, including when approved anchors are required and the written assurance a building owner must give the employer about anchor and load capacity. Federal rule [29 CFR 1910.28(b)(3)(i)](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.28) separately requires fall protection for work near any hole, including skylights, 4 feet or more above a lower level. Ask a contractor how their access plan meets those, not whether they own a ladder.
 
 ![A comparison chart showing essential insurance coverage for businesses versus the potential financial risks of skipping them.](https://cdnimg.co/8387fe5a-1497-428d-a3af-57b68fc0bac4/05f37f98-a032-46f3-9fdc-f5798243de92/window-cleaning-company-insurance-checklist.jpg)
 
@@ -128,7 +128,7 @@ The cleaning method affects more than appearance. It determines how much chemica
 
 A traditional squeegee-and-cloth process gives a technician precise control on accessible glass. It works well for interior panes and detailed edges, but the method can become inefficient or hazardous when exterior windows sit above landscaping, roofs, or uneven ground. Chemical solutions may help with grease and stubborn contamination, yet the company should explain what it uses and how it manages runoff.
 
-A purified-water system takes a different approach. Filtration removes dissolved minerals, allowing the rinse water to dry without the spotting associated with calcium and magnesium deposits. That makes the method particularly useful in hard-water areas and around glass that would be difficult to polish repeatedly, as explained in this [hard-water stain cleaning resource](https://sparkletechwindowwashing.com/cleaning-hard-water-spots-from-glass/).
+A purified-water system takes a different approach. Filtration removes dissolved minerals, allowing the rinse water to dry without the spotting associated with calcium and magnesium deposits. That makes the method particularly useful in hard-water areas and around glass that would be difficult to polish repeatedly. Our own guide to [removing hard water spots from windows](/blog/how-to-remove-hard-water-spots-from-windows/) covers what to do when the deposit has already etched in.
 
 ![A professional window cleaner using a water-fed pole system with a multi-stage filtration unit for spotless results.](https://cdnimg.co/8387fe5a-1497-428d-a3af-57b68fc0bac4/949a458a-8c49-4a76-a853-3a8092693f6a/window-cleaning-company-filtration-system.jpg)
 
@@ -190,4 +190,4 @@ The best window cleaning company isn't the one that arrives with a squeegee. It'
 
 ---
 
-Aloha Window Bros provides interior and exterior window cleaning, screen, frame, and sill detailing, skylight access with purified water systems, and solar panel cleaning for residential and commercial properties in Ventura County and Santa Barbara County. Request a free on-site or virtual estimate from [Aloha Window Bros](https://alohawindowbros.com) and compare the written scope, safety practices, and service method before you book.
+Aloha Window Bros provides interior and exterior window cleaning, screen, frame, and sill detailing, skylight access with purified water systems, and solar panel cleaning for residential and commercial properties in Ventura County and Santa Barbara County. [Request a free on site estimate](/contact/) and compare the written scope, safety practices, and service method before you book.
