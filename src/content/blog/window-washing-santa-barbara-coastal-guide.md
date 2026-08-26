@@ -116,7 +116,7 @@ Yes. Light rain after professional washing does not undo the work — the water 
 
 ### Can window washing remove old hard water stains?
 
-Standard washing removes light spotting, but stains older than six to twelve months may require specialized acid-based hard water restoration. For more detail, see our guide on [removing hard water stains from windows](/blog/how-to-remove-hard-water-stains-from-windows).
+Standard washing removes light spotting, but stains older than six to twelve months may require specialized acid-based hard water restoration. For more detail, see our guide on [removing hard water stains from windows](/blog/how-to-remove-hard-water-spots-from-windows/).
 
 ### Is it safe to wash windows on a two- or three-story Santa Barbara home?
 

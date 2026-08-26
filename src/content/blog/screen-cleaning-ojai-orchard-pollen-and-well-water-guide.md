@@ -37,7 +37,7 @@ A large share of Ojai Valley homes draw water from private wells, and Ojai groun
 
 That is why so many Ojai screens look permanently hazy and gray no matter how often they get hosed off. The homeowner is not failing to clean hard enough. They are cleaning with the substance causing the problem.
 
-The same well water is what causes the [etched hard water stains on Ojai glass](/blog/how-to-remove-hard-water-stains-from-windows), only on a screen the scale hides inside the mesh where no squeegee can reach it. The only real fix is purified water: water with the minerals stripped out, which dissolves and carries away existing scale rather than adding a new layer, and dries leaving nothing at all behind. That is what Aloha Window Bros uses on every screen.
+The same well water is what causes the [etched hard water stains on Ojai glass](/blog/how-to-remove-hard-water-spots-from-windows/), only on a screen the scale hides inside the mesh where no squeegee can reach it. The only real fix is purified water: water with the minerals stripped out, which dissolves and carries away existing scale rather than adding a new layer, and dries leaving nothing at all behind. That is what Aloha Window Bros uses on every screen.
 
 ## How Dirty Screens Affect Your Ojai Home
 

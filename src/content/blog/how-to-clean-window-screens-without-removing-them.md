@@ -36,7 +36,7 @@ The distinction matters because almost every screen cleaning guide describes a b
 
 Before any cloth comes out, work out what you are actually looking at. Open the window a few inches and look at the same view through the gap and then through the mesh. If the view is clear through the gap and hazy through the mesh, the screen is the problem and an in place clean will fix it.
 
-If the view is hazy both ways, the film is on the glass, and cleaning the screen will change nothing you can see. That second case is common in the Conejo Valley and along the coast, where sprinkler overspray and salt aerosol leave mineral spotting on the pane itself. Mineral deposits do not wipe off with a damp cloth, and scrubbing at them with a dry towel is how glass gets scratched. Our guide to [removing hard water stains from windows](/blog/how-to-remove-hard-water-stains-from-windows/) covers what actually lifts them.
+If the view is hazy both ways, the film is on the glass, and cleaning the screen will change nothing you can see. That second case is common in the Conejo Valley and along the coast, where sprinkler overspray and salt aerosol leave mineral spotting on the pane itself. Mineral deposits do not wipe off with a damp cloth, and scrubbing at them with a dry towel is how glass gets scratched. Our guide to [removing hard water stains from windows](/blog/how-to-remove-hard-water-spots-from-windows/) covers what actually lifts them.
 
 A third case is worth naming: dirt on the *outside* face of the mesh with a clean inside face. In place cleaning from indoors only reaches the inside face. You will improve the view somewhat and leave most of the material where it is.
 

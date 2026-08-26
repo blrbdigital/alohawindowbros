@@ -34,7 +34,7 @@ Newbury Park's municipal water arrives through the Calleguas Municipal Water Dis
 
 > "The lower portion of a Newbury Park window screen is often visibly dirtier than the top. That is not gravity. It is sprinkler overspray drying into mineral scale in the mesh, which then acts like flypaper for canyon dust."
 
-The important consequence: rinsing that screen with a garden hose makes it worse, because the hose is delivering the same hard water that created the scale in the first place. This is the same mineral problem that causes [hard water stains on the glass itself](/blog/how-to-remove-hard-water-stains-from-windows), only it is happening inside the screen mesh where you cannot squeegee it off.
+The important consequence: rinsing that screen with a garden hose makes it worse, because the hose is delivering the same hard water that created the scale in the first place. This is the same mineral problem that causes [hard water stains on the glass itself](/blog/how-to-remove-hard-water-spots-from-windows/), only it is happening inside the screen mesh where you cannot squeegee it off.
 
 The fix is purified water. Aloha Window Bros flushes screens with water that has had its minerals stripped out, so it dissolves and carries away existing scale rather than adding to it, and it dries leaving nothing behind.
 

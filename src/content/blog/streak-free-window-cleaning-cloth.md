@@ -44,7 +44,7 @@ The hard part is that a cloth can feel “good” in the hand and still be wrong
 
 > **Practical rule:** if the glass looks clean only until it dries, the cloth didn't finish the job, it spread the residue too evenly to see it at first.
 
-Hard-water spotting makes this even more confusing, because mineral film can hide behind a decent wipe and then reappear once the sun hits it. If that sounds familiar, a deeper cleaning approach may be needed first, like the kind discussed in [this guide to removing hard water stains from windows](https://alohawindowbros.com/blog/how-to-remove-hard-water-stains-from-windows/).
+Hard-water spotting makes this even more confusing, because mineral film can hide behind a decent wipe and then reappear once the sun hits it. If that sounds familiar, a deeper cleaning approach may be needed first, like the kind discussed in [this guide to removing hard water stains from windows](/blog/how-to-remove-hard-water-spots-from-windows/).
 
 <a id="what-makes-a-cloth-streak-free"></a>
 ## What Makes a Cloth Streak Free

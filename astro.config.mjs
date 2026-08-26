@@ -5,6 +5,7 @@ import { execFileSync } from 'node:child_process';
 import { existsSync, readFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import path from 'node:path';
+import { canonicalOverrideFor } from './src/lib/consolidated.mjs';
 
 const ROOT = path.dirname(fileURLToPath(import.meta.url));
 
@@ -63,6 +64,10 @@ export default defineConfig({
   site: 'https://alohawindowbros.com',
   integrations: [
     sitemap({
+      // A page that canonicalises to another URL must not also be submitted as its
+      // own sitemap entry; that is a mixed signal and undoes the consolidation. Same
+      // map as the <link rel="canonical"> the page emits (src/lib/consolidated.mjs).
+      filter: (page) => !canonicalOverrideFor(new URL(page).pathname),
       serialize(item) {
         const { pathname } = new URL(item.url);
         const lastmod = lastmodFor(pathname);

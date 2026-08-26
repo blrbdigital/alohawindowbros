@@ -5,6 +5,7 @@ import Footer from '../../components/Footer.astro';
 import '../../styles/global.css';
 import { getCollection, render } from 'astro:content';
 import { imageObject } from '../../lib/seo';
+import { canonicalOverrideFor } from '../../lib/consolidated.mjs';
 
 export async function getStaticPaths() {
   const posts = await getCollection('blog');
@@ -16,6 +17,15 @@ export async function getStaticPaths() {
 
 const { post } = Astro.props;
 const { Content } = await render(post);
+
+// A consolidated page points its canonical, and every self-referencing URL in its
+// JSON-LD, at the winner. Emitting a foreign canonical while Article.mainEntityOfPage
+// still claims this URL is the same defect class as the 08-05 aggregateRating and the
+// 08-10 FAQ price drift: one fact stated twice and updated once. Single source of
+// truth is src/lib/consolidated.mjs.
+const selfUrl = `https://alohawindowbros.com/blog/${post.id}/`;
+const canonicalOverride = canonicalOverrideFor(`blog/${post.id}`);
+const pageUrl = canonicalOverride || selfUrl;
 
 const PHONE = '(805) 341-4121';
 const PHONE_LINK = 'tel:+18053414121';
@@ -51,7 +61,7 @@ const jsonLd = {
       "datePublished": post.data.date,
       "author": { "@type": "Organization", "name": "Aloha Window Bros" },
       "publisher": { "@type": "Organization", "name": "Aloha Window Bros", "url": "https://alohawindowbros.com" },
-      "mainEntityOfPage": `https://alohawindowbros.com/blog/${post.id}/`,
+      "mainEntityOfPage": pageUrl,
       ...(post.data.heroImage ? { "image": imageObject({ path: post.data.heroImage, caption: post.data.heroImageAlt || post.data.title }) } : {})
     },
     {
@@ -59,7 +69,7 @@ const jsonLd = {
       "itemListElement": [
         { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://alohawindowbros.com/" },
         { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://alohawindowbros.com/blog/" },
-        { "@type": "ListItem", "position": 3, "name": post.data.title, "item": `https://alohawindowbros.com/blog/${post.id}/` }
+        { "@type": "ListItem", "position": 3, "name": post.data.title, "item": pageUrl }
       ]
     }
   ]
@@ -69,6 +79,7 @@ const jsonLd = {
   title={post.data.title}
   description={post.data.description}
   ogType="article"
+  canonical={pageUrl}
   jsonLd={jsonLd}
 >
   <Header slot="header" />

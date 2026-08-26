@@ -4,6 +4,89 @@
 
 ---
 
+### 2026-08-26
+
+**What we did:**
+- **technical (primary): resolved the hard-water cannibalization the site map named as the blocker.**
+  `/blog/how-to-remove-hard-water-stains-from-windows/` now carries a **cross-URL canonical** to
+  `/blog/how-to-remove-hard-water-spots-from-windows/`, and is filtered out of the sitemap. Wired
+  through one module (`src/lib/consolidated.mjs`) consumed by both the page template and
+  `astro.config.mjs`, so the canonical tag, `og:url`, JSON-LD `mainEntityOfPage`, breadcrumb `item`
+  and the sitemap cannot disagree. No 301: `.blrb/nginx_spa.conf` is not shipped by the Actions
+  deploy, so a redirect committed there would be inert.
+- **internal_links: repointed all 10 remaining inbound links** from the retired pillar to the
+  winner, across `ca-window-cleaning`, `best-streak-free-window-cleaner`,
+  `how-to-clean-window-screens-without-removing-them`, `window-cleaning-for-high-windows`,
+  `how-much-does-window-cleaning-cost-in-ventura-county`, `window-washing-squeegee`,
+  `streak-free-window-cleaning-cloth`, `window-washing-santa-barbara-coastal-guide`, and the Ojai
+  and Newbury Park screen guides. Winner goes from **4 inbound internal links to 14**.
+- **refresh: rebuilt `/blog/how-to-remove-hard-water-spots-from-windows/`** as the **fifth** member
+  of the informational, non-local family. Direct-answer lede, key-takeaways box, three new tables,
+  eight PAA-shaped FAQs with `FAQPage` JSON-LD (parity 8 == 8 via `grep -o`), eight sources all
+  verified 200 today.
+- **title_meta on the same page**: `How to Remove Hard Water Spots from Windows Safely` (49 chars).
+- **gbp: logged the local-pack losses** rather than writing anything for them.
+- **Rejected new_content, city-page work, and homepage work.**
+
+**Why we did it (brief numbers plus the join run today):**
+- **The reality check holds for an eighteenth run: 78 clicks / 3,770 impressions, but 4 non-brand
+  clicks against 2,921 non-brand impressions at average position 12.1.** Non-brand clicks went
+  **6 to 4**. Click-winning is still the bottleneck and more content is still not the lever.
+- **The join for 07-27..08-23 sized the cannibalization precisely: 154 impressions, 0 clicks, 42
+  query variants, every single row on the Outrank duplicate at position 19 to 34 and every single
+  row on the older pillar at zero** - including the pillar's own exact title query *how to remove
+  hard water stains from windows*, which the duplicate holds at 27.2. Page-level, the duplicate is
+  the site's **fifth largest page by non-brand impressions (172)** and the pillar does not appear
+  at all.
+- **The direction of consolidation was the counterintuitive one and it was chosen on evidence.**
+  The pillar had **11 inbound internal links and zero impressions**. The duplicate had **4 links
+  and every impression**. This site has already proved twice that internal links do not force
+  Google's hand (the six uncrawled city pages; the two most-linked city pages ranking worst), so
+  consolidating toward the better-linked page would have been asking Google to move a live 42-query
+  surface onto a URL it has already declined. We consolidated toward what ranks.
+- **The rebuild cleared the information-gain bar on a specific, checkable claim.** The competing
+  results for this query set (Reddit, Consumer Reports, retailer and manufacturer blogs) all
+  recommend an acid: vinegar, CLR, or a commercial hard-water restorer. The **NGA/IWCA Glass
+  Technical Paper FB01-00 (2023)**, the joint industry standard for cleaning architectural glass,
+  says "Glass cleaning solutions should not include acids, especially muriatic / hydrochloric and
+  Hydroflouric" and "razor blades should never be used on coated glass surfaces." The page also
+  lifts the standard's **pencil test** for locating an exposed coating, and its **20 ppm TDS**
+  pure-water rinse specification, which sits against the **297 ppm** California American Water
+  publishes for local supply. That 15x gap is the measurable answer to "why do the spots come
+  back," and no competing result states it.
+- **We did NOT act on the brief's five local-pack suspects.** *window cleaning* (147 impr, pos 1.4),
+  *commercial window cleaning* (52 @ 1.0), *window cleaning westlake village* (33 @ 2.2), *window
+  cleaning newbury park* (31 @ 2.6) and *window washing service agoura hills* (23 @ 3.3) resolve in
+  the join to the **GBP listing at position 1.0**, not to any page in this repo. The site map's
+  two-population rule applies: organic edits cannot win these, and the click that does happen goes
+  to Call or Directions, which GSC never counts as a website click. Logged for GBP.
+- **We did NOT re-run title_meta on the city pages.** That lever is documented spent (metas already
+  carry price bands, rewritten 07-15 and 07-20), and the brief's city CTR outliers are the same
+  map-pack rows.
+
+**Expected impact:**
+- The consolidation should move the cluster from two competing URLs to one. The honest prediction is
+  **positions, not clicks**: page 3 does not become clicks in six weeks. Target is the head queries
+  moving from 19-34 into **page 2 (11-20)** by mid-October, with the pillar's impressions either
+  transferring to the winner or staying at zero.
+- Grade this rebuild **separately from the mid-September cohort** (high-windows, streak-free,
+  screens, skylight). Those four started at position 11-14. This one starts at 19-34, one to two
+  pages worse, so it needs longer and is a weaker test of the same hypothesis.
+- If the head queries have not reached page 2 by late October, page-3 informational content is not
+  recoverable by rewriting, and the family experiment should be closed in favour of off-page work.
+
+**Metrics at time of action (GSC, 2026-07-27..2026-08-23):**
+- Sitewide: 78 clicks / 3,770 impressions. Non-brand: **4 clicks / 2,921 impressions**, avg position
+  12.1, 440 non-brand queries.
+- `/blog/how-to-remove-hard-water-spots-from-windows/`: **0 brand / 172 non-brand impressions, 0
+  clicks**, brief position 23.9.
+- `/blog/how-to-remove-hard-water-stains-from-windows/`: **absent from the page report entirely.**
+- Hard-water cluster: **154 impressions, 0 clicks, 42 query variants, all 19-34.**
+- Head queries: *how to get hard water stains off windows* 10 impr @ 24.0; *how to remove water
+  spots on windows* 7 @ 20.6; *remove water spots from windows* 7 @ 20.6; *how to remove hard water
+  stains from windows* 4 @ 27.2.
+- Inbound internal links: winner 4 -> 14; retired pillar 11 -> 0.
+
 ### 2026-08-24
 
 **What we did:**

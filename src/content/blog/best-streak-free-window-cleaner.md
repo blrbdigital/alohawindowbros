@@ -57,7 +57,7 @@ Streaks, spots, film, and etching all look like "dirty windows" when the light i
 | Lint and fibers visible at an angle | Paper towel, or microfiber washed in fabric softener | Waffle weave microfiber, washed without softener | More cleaner |
 | Cloudy patches that do not disappear when the glass is wet | Etching: minerals have already attacked the glass surface | Professional assessment for polishing or replacement | Any cleaner, and any amount of scrubbing |
 
-The wet test in the last row is the single most useful thing in this article. Wet the glass. If the mark vanishes while wet and returns as it dries, it is a deposit sitting on the surface and it can come off. If the mark is still visible while the glass is wet, the surface itself is damaged, and our guide to [removing hard water stains from windows](/blog/how-to-remove-hard-water-stains-from-windows/) explains where that line falls.
+The wet test in the last row is the single most useful thing in this article. Wet the glass. If the mark vanishes while wet and returns as it dries, it is a deposit sitting on the surface and it can come off. If the mark is still visible while the glass is wet, the surface itself is damaged, and our guide to [removing hard water stains from windows](/blog/how-to-remove-hard-water-spots-from-windows/) explains where that line falls.
 
 <a id="the-variable-most-product-guides-ignore-your-water"></a>
 ## The variable most product guides ignore: your water

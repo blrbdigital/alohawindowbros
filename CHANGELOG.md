@@ -1,3 +1,59 @@
+## 2026-08-26 - Hard-water cannibalization resolved by cross-URL canonical, spots guide rebuilt as fifth informational-family member, 10 internal links repointed
+
+The site map named this run's blocker: two of our own URLs were competing for the whole hard-water
+query surface and neither was earning a click. The `query x page` join for 07-27..08-23 sized it at
+**154 impressions / 0 clicks across 42 query variants**, with **every row on the Outrank duplicate
+`/blog/how-to-remove-hard-water-spots-from-windows/` at position 19 to 34** and **every row on the
+older pillar `/blog/how-to-remove-hard-water-stains-from-windows/` at zero**, including the
+pillar's own exact title query *how to remove hard water stains from windows* sitting on the
+duplicate at 27.2.
+
+**Consolidation direction was decided by what Google ranks, not by what we had invested in.** The
+pillar carried **11 inbound internal links and zero impressions**; the duplicate carried **4 links
+and all 172 non-brand impressions**. Asking Google to move a live 42-query surface onto a URL it
+has already declined is the same mistake the six uncrawled city pages already taught, so the
+pillar was canonicalised into the duplicate and all 11 links were repointed at the winner (now 14
+inbound).
+
+**Mechanism (new, reusable).** `src/lib/consolidated.mjs` is a single-source-of-truth map consumed
+by both `src/pages/blog/[slug].astro` (canonical tag, `og:url`, JSON-LD `mainEntityOfPage` and
+breadcrumb `item`) and `astro.config.mjs` (sitemap `filter`), so the canonical tag and the sitemap
+cannot drift apart. No 301 was used: `.blrb/nginx_spa.conf` is applied by `blrb-connect` on the VPS
+and is not shipped by the Actions deploy, so a redirect committed there would be inert. Verified in
+`dist/`: loser canonical and `mainEntityOfPage` both point at the winner, winner is self-canonical,
+loser absent from `sitemap-0.xml`, winner present, control page unaffected.
+
+**The winner was then rebuilt** from 2,378 words of unsourced Outrank prose (fabricated first
+person, three CDN stock images, a paragraph introducing a video that does not exist, zero tables,
+zero citations, zero FAQ) into a sourced guide whose information gain is the glass industry's own
+standard, which contradicts essentially every competing article on the query:
+
+- **NGA/IWCA Glass Technical Paper FB01-00 (2023)**: "Glass cleaning solutions should not include
+  acids, especially muriatic / hydrochloric and Hydroflouric," and "razor blades should never be
+  used on coated glass surfaces." Every top-ranking result for this query recommends vinegar, CLR,
+  or a commercial hard-water restorer.
+- **The pencil test** for locating an exposed coating, quoted from the same standard. Free,
+  three seconds, and absent from the consumer results.
+- **The 20 ppm TDS pure-water rinse specification**, against the **297 ppm** California American
+  Water reports for local supply: roughly **15x**, which is the measurable reason spots come back.
+- Three new tables: a **four-stage deposit ladder with a reversibility verdict** (film / spotting /
+  bonded scale / etch), a **cleaner-chemistry-versus-prohibition matrix**, and a **service-area
+  hardness table with the milligrams of calcium carbonate each litre leaves on the pane**, computed
+  from the districts' own published figures and cross-checked against the numbers already published
+  on this site so they cannot drift.
+- Eight PAA-shaped FAQs with `FAQPage` JSON-LD; parity verified 8 == 8 with `grep -o | wc -l`.
+- Eight external sources, every URL confirmed 200 on 2026-08-26. The ammonium bifluoride hazard
+  wording was corrected mid-run to match the SDS exactly after the first draft paraphrased a
+  different SDS.
+
+**title_meta on the winner**: `How to Remove Hard Water Spots from Windows Safely` (49 chars), exact
+head phrasing plus the differentiator; meta rewritten around the coating risk.
+
+**Not done, and why.** No city-page or homepage work: the brief's five local-pack suspects
+(*window cleaning* 147 impr @ 1.4, *commercial window cleaning* 52 @ 1.0, plus Westlake, Newbury
+and Agoura) are GBP listing rows in the join, and organic edits cannot win them. Logged for the
+GBP workstream instead.
+
 ## 2026-08-24 - Skylight guide rebuilt (fourth informational-family member), five inbound links, fifth audit of the auto-published stream
 
 The `query x page` join for 07-25..08-21 retired the site map's "no fourth informational post"

@@ -139,7 +139,7 @@ A squeegee is useful, but it isn't always the right answer. High foyer windows, 
 
 The decision should be outcome-based, not habit-based. If the glass is coated with stubborn mineral spotting, coastal residue, or layers of grime, a dry squeegee pass won't solve the root problem. In those situations, the prep work matters more than the blade, and some windows need a stronger method before the squeegee can leave a good finish.
 
-That's also where a service call can make sense. [Removing hard water stains from windows](https://alohawindowbros.com/blog/how-to-remove-hard-water-stains-from-windows/) often requires more than a quick wipe, especially when overspray or buildup has been left too long. For homeowners who'd rather not balance on a ladder or test different access methods, a local insured company can clean the glass, screens, frames, and sills in one visit.
+That's also where a service call can make sense. [Removing hard water stains from windows](/blog/how-to-remove-hard-water-spots-from-windows/) often requires more than a quick wipe, especially when overspray or buildup has been left too long. For homeowners who'd rather not balance on a ladder or test different access methods, a local insured company can clean the glass, screens, frames, and sills in one visit.
 
 > If you have to choose between a shaky ladder and a different cleaning method, choose the different method.
 

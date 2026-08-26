@@ -54,7 +54,7 @@ Water hardness is measured in grains per gallon (gpg). The U.S. Geological Surve
 
 The difference across our service area is bigger than most homeowners expect. According to the Ventura County Public Works Agency, Ojai water averages about 17 grains per gallon, drawn from wells in the Ojai Valley Groundwater Basin. Westlake Village, by contrast, is served entirely with imported water that both of its utilities report at 146 mg/L of calcium carbonate, about 8.5 gpg. Ojai homeowners are cleaning up after roughly double the mineral load of Westlake Village homeowners, which is the single clearest reason the Ojai band sits $50 higher at each end.
 
-If your glass already has visible cloudiness rather than spots, you are likely past cleaning and into restoration. That is a separate service at **$200 to $500**, because it involves polishing the mineral deposit out of the glass surface rather than washing something off it. Our guide to [removing hard water stains from windows](/blog/how-to-remove-hard-water-stains-from-windows/) explains how to tell the difference before you pay for the wrong service.
+If your glass already has visible cloudiness rather than spots, you are likely past cleaning and into restoration. That is a separate service at **$200 to $500**, because it involves polishing the mineral deposit out of the glass surface rather than washing something off it. Our guide to [removing hard water stains from windows](/blog/how-to-remove-hard-water-spots-from-windows/) explains how to tell the difference before you pay for the wrong service.
 
 ## What "Window Cleaning" Should Include
 

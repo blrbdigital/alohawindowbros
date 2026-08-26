@@ -112,7 +112,7 @@ A common failure on steep or recessed glass is using too much solution. Excess w
 
 Purified water-fed pole systems work differently from soap-and-squeegee setups. Instead of relying on a pulled blade, they use a brush head and purified rinse to lift dirt and leave the glass to dry without spotting. On exterior high glass, that can be a strong tradeoff because the operator stays on the ground, the reach is better, and the rinse is continuous instead of stop-start.
 
-For hard water staining, you still need the right cleaning sequence and patience. If mineral deposits are already bonded to the glass, a normal wash won't always solve it by itself. [This guide on removing hard water stains from windows](https://alohawindowbros.com/blog/how-to-remove-hard-water-stains-from-windows/) fits well with the kind of mineral-heavy buildup that shows up around sprinklers and coastal exposure.
+For hard water staining, you still need the right cleaning sequence and patience. If mineral deposits are already bonded to the glass, a normal wash won't always solve it by itself. [This guide on removing hard water stains from windows](/blog/how-to-remove-hard-water-spots-from-windows/) fits well with the kind of mineral-heavy buildup that shows up around sprinklers and coastal exposure.
 
 
 
