@@ -60,7 +60,7 @@ High windows also punish lazy technique. A blade that's too wet, a corner that's
 
 Roof glazing is its own case inside this category. A skylight is not a high window you can lean over, and federal rules class it as a hole rather than a surface, which is why [skylight cleaning](/blog/skylight-cleaning-service/) is handled from the ground wherever the reach allows.
 
-The work is also a distinct trade category, not a casual add-on. Industry data places the U.S. window-washing market at **$2.9 billion** across **35,344 businesses** ([IBISWorld](https://www.ibisworld.com/united-states/industry/window-washing/6458/)). That scale exists because high-window work needs special access, trained labor, and the right equipment, not just soap and paper towels.
+The work is also a distinct trade category, not a casual add-on. Industry data places the U.S. window-washing market at **$2.9 billion in 2024** across **35,344 businesses** ([IBISWorld](https://www.ibisworld.com/united-states/industry/window-washing/6458/)). That scale exists because high-window work needs special access, trained labor, and the right equipment, not just soap and paper towels.
 
 <a id="safety-changes-the-decision"></a>
 ### Safety changes the decision

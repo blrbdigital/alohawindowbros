@@ -43,7 +43,7 @@ Aloha's local relevance is equally important. The company adapts cleaning method
 <a id="pricing-and-trust-context"></a>
 ### Pricing and trust context
 
-Typical residential pricing is **$150 to $400** for many Ventura County homes, while full cleans in Santa Barbara and Montecito commonly range from **$200 to $475**, based on the company information supplied for this comparison. Exact pricing still requires an on-site or virtual assessment because access, pane count, screens, buildup, and restoration needs vary.
+Aloha Window Bros publishes per city bands running **$150 to $475** across the two counties, from $150 to $400 in Thousand Oaks to $200 to $475 in Ojai and Santa Barbara, with the [full breakdown by city](/blog/how-much-does-window-cleaning-cost-in-ventura-county/) covering all ten. Exact pricing still requires an on-site or virtual assessment because access, pane count, screens, buildup, and restoration needs vary.
 
 Aloha Window Bros offers free on-site or virtual estimates, online scheduling, fully insured service, an on-site walk-through, and a stated **100% satisfaction guarantee with on-the-spot rework**. Those policies turn a gallery image into stronger proof because the customer has a defined way to question incomplete scope or an unsatisfactory finish.
 
@@ -54,9 +54,9 @@ Aloha Window Bros offers free on-site or virtual estimates, online scheduling, f
 
 ![Next View Cleaning](https://cdnimg.co/8387fe5a-1497-428d-a3af-57b68fc0bac4/screenshots/f448ae0d-e149-4b43-880e-994d21f55c13/window-cleaning-before-and-after-results-gallery.jpg)
 
-[Next View Cleaning's interactive gallery](https://nextviewcleaning.com/gallery) uses sliders to compare real-looking service outcomes across leaded glass, multi-pane windows, and hard-water spot removal. The slider format lets the viewer move between states on the same visual field, which is more persuasive than two unrelated photographs with different framing or exposure.
+Next View Cleaning's interactive gallery uses sliders to compare real-looking service outcomes across leaded glass, multi-pane windows, and hard-water spot removal. The slider format lets the viewer move between states on the same visual field, which is more persuasive than two unrelated photographs with different framing or exposure.
 
-The hard-water examples matter because mineral deposits can change the job category. Routine cleaning removes ordinary soil and residue, but long-standing mineral buildup may need separate treatment or restoration. The [Aloha Window Bros guide to choosing a streak-free window cleaner](https://alohawindowbros.com/blog/best-streak-free-window-cleaner/) makes the same practical distinction useful for homeowners. A cleaning product or tool can't compensate for deposits that have bonded to the surface or caused etching.
+The hard-water examples matter because mineral deposits can change the job category. Routine cleaning removes ordinary soil and residue, but long-standing mineral buildup may need separate treatment or restoration. The [Aloha Window Bros guide to choosing a streak-free window cleaner](/blog/best-streak-free-window-cleaner/) makes the same practical distinction useful for homeowners. A cleaning product or tool can't compensate for deposits that have bonded to the surface or caused etching.
 
 Next View also highlights licensed and insured operations, eco-friendly products, professional equipment, online booking, and a defined Bay Area service area. Those are useful trust signals, but the gallery page doesn't publish a specific price menu. A customer can judge the visual result, then still needs a quote to understand how pane count, access, interior work, screens, and mineral treatment affect the scope.
 
@@ -100,7 +100,7 @@ For His Glory Window Cleaning uses purpose-built before-and-after sliders that k
 
 That consistent framing is the most important evidence feature. When the before and after images share the same boundaries, a viewer can inspect whether the film disappeared, whether debris left the sill, and whether the pane itself changed rather than just appearing brighter because of a different camera position.
 
-The company also presents water-fed pole work, project videos, residential and commercial cleaning, solar services, gutters, and pressure washing. The [Aloha Window Bros explanation of purified-water cleaning](https://alohawindowbros.com/blog/purified-water-window-cleaning/) provides useful context for readers comparing these methods. Pure-water systems are valued for ground-level access and residue-free rinsing, but they aren't automatically the correct treatment for every first clean or mineral-damaged pane.
+The company also presents water-fed pole work, project videos, residential and commercial cleaning, solar services, gutters, and pressure washing. The [Aloha Window Bros explanation of purified-water cleaning](/blog/purified-water-window-cleaning/) provides useful context for readers comparing these methods. Pure-water systems are valued for ground-level access and residue-free rinsing, but they aren't automatically the correct treatment for every first clean or mineral-damaged pane.
 
 A gallery that labels film and spotting helps set realistic expectations. Routine maintenance may restore clarity when the soil is within normal cleaning range. Heavy mineral deposits or etching may require restoration, and some damage may remain visible afterward. Providers build trust when they distinguish cleaning from restoration instead of presenting every condition as equally reversible.
 
@@ -126,7 +126,7 @@ For local businesses building their own galleries, Sunset Hill demonstrates the 
 
 NOVA Window Cleaning, doing business as DirtyNOVA, adds something many galleries omit: scope and price context. Its FAQ identifies typical inclusions such as interior and exterior glass, screens, tracks, and frames, while the gallery supplies static before-and-after photographs.
 
-The company publishes an indicative price range of **$5 to $10 per window** in its FAQ. That figure is useful because it gives customers an initial reference, but it shouldn't be treated as a universal benchmark. Window size, access, pane configuration, condition, interior work, screen handling, and restoration requirements can change the final quote. The [Aloha Window Bros guide to removing hard-water spots](https://alohawindowbros.com/blog/how-to-remove-hard-water-spots-from-windows/) is relevant here because mineral deposits can move a job beyond routine per-window cleaning.
+Aloha Window Bros publishes no per-window rate, and a before-and-after gallery is the clearest illustration of why. The two panes in a restoration example carry the same job the same number of minutes only if they arrived in the same condition, and they rarely do. Pricing is published as a per-visit band by city, and window size, access, pane configuration, condition, interior work, screen handling, and restoration requirements all move a quote inside that band. The [Aloha Window Bros guide to removing hard-water spots](/blog/how-to-remove-hard-water-spots-from-windows/) is relevant here because mineral deposits can move a job beyond routine per-window cleaning.
 
 NOVA also provides cleaning-frequency guidance and says quote inquiries receive a response within **24 hours**. The inclusion list is especially valuable for before-and-after interpretation. If the image shows a clearer pane but the customer expected clean tracks or screens, the visual outcome may look successful while the service feels incomplete.
 
@@ -171,4 +171,4 @@ Safety evidence deserves equal weight. In Great Britain, falls from height kille
 Homeowners and property managers should compare evidence, not image volume. Ask whether the provider serves your area, defines the included surfaces, explains difficult deposits, and gives you a way to review the work before the crew leaves. Ventura and Santa Barbara County readers can request a free on-site or virtual estimate from Aloha Window Bros, whose four-in-one service covers glass, screens, frames, and sills. The company's regional methods suit coastal salt, inland dust, pollen, and hard-water spotting, but heavily etched glass may still retain visible damage after cleaning.
 
 ---
-Request a free on-site or virtual estimate from [Aloha Window Bros](https://alohawindowbros.com) for windows, screens, frames, and sills across Ventura and Santa Barbara County. Their purified water-fed pole systems, regional cleaning knowledge, insured service, and satisfaction guarantee make the before-and-after result easier to verify.
+Request a free on-site or virtual estimate from [Aloha Window Bros](/contact/) for windows, screens, frames, and sills across Ventura and Santa Barbara County. Their purified water-fed pole systems, regional cleaning knowledge, insured service, and satisfaction guarantee make the before-and-after result easier to verify.

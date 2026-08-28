@@ -1,3 +1,59 @@
+## 2026-08-28 - Sixth Outrank audit (4 posts), third hard-water page consolidated on arrival, price spine of the quotes post rebuilt on first-party bands
+
+Four publisher posts arrived since the fifth audit (08-25 `window-cleaning-quotes`, 08-26
+`window-cleaning-before-and-after`, 08-27 `interior-and-exterior-window-cleaning`, 08-28
+`what-are-hard-water-stains`). **All four carried defects, and two removed domains came back
+again**, so the stream's defect rate is now six audits at 100%.
+
+**`what-are-hard-water-stains` (08-28) was consolidated on arrival, not after the fact.** It is a
+2,991-word third page on the hard-water surface that was deliberately collapsed to ONE URL two days
+earlier, and its headings duplicate the winner section for section (diagnostic test, chemistry,
+removal escalation, prevention, DIY vs pro). The `query x page` join for 07-29..08-25 says the
+winner `/blog/how-to-remove-hard-water-spots-from-windows/` holds **~180 non-brand impressions
+across 42 query variants and every one of them is removal intent**; there is not a single
+definitional row in the data, so the new page serves no measured demand the winner does not already
+serve. Added to `src/lib/consolidated.mjs`; all five dist checks verified.
+
+**`window-cleaning-quotes` was the most dangerous of the four**, because it is a price post whose
+entire numeric spine came from blocklisted aggregators: **Angi** by name twice ($220 average,
+$150 to $302 per visit, $100 to $250 minimum), **$8 to $16 per window** (the exact
+`professionalwindowcleaning.com` benchmark removed on 08-19, third appearance), plus links to
+**gorilladesk.com** (blocklisted 08-19, back), **servicepro.co** and **housecallpro.com**. A
+six-row national rate-card table published rates we do not charge. Replaced with the pattern
+established on 08-19: our own published per city bands, the $6 to $20 per window figure stated
+explicitly as arithmetic after the fact, and an **effect-on-the-quote** table.
+
+**`window-cleaning-before-and-after` carried a fabricated first-party price.** It stated "The
+company publishes an indicative price range of **$5 to $10 per window** in its FAQ." **The site has
+never published a per-window rate anywhere** (verified across `src/pages/`, `src/components/`, and
+`src/content/services/`). Same defect class as the 08-24 solar fabrication. Deleted. It also
+presented **$150 to $400** as the Ventura County band (ninth appearance) and linked
+`nextviewcleaning.com/gallery`, a direct competitor's gallery, from a post about galleries.
+
+**Other removals**: `fortunebusinessinsights.com` market figures (US$6,802.0M to US$10,049.6M,
+fifth consecutive audit on the market-size class, and irrelevant to a homeowner how-to),
+`eireshine.ie` and `freshframeswindows.com` (competitors), `sdglassrestoration.com` (glass
+restoration provider cited as the deposit-chemistry authority), `build-construct.com` (content
+farm). The 180 mg/L hardness claim was re-pointed to the **USGS water hardness scale**
+(https://www.usgs.gov/water-science-school/science/hardness-water, 200 on 2026-08-28) and tied to
+the utility figures already verified on this site.
+
+**Two pre-existing price contradictions found by the sweep and fixed.**
+`src/content/services/window-washing.md` (a service page, a stronger signal than any blog post) read
+"Most residential jobs run **$150 to $400**" as the general band, and
+`window-cleaning-santa-barbara-why-local-homeowners-trust-professional-service.md` quoted
+**$150 to $400** for **Santa Barbara**, whose published band is $200 to $475. Both now carry the
+$150 to $475 span with the per-city breakdown linked.
+
+**SIXTH DEFECT CLASS, new this audit: the stream ships prose Q&A with no `<details>` markup, so
+those posts emit NO FAQPage JSON-LD at all.** All four new posts have "common questions" sections
+and all four emitted zero FAQ schema. `window-cleaning-quotes` had five clean bold-question pairs;
+converted to `<details>`/`<summary>` (plus a sixth on price), so the template's regex now derives
+the node. Parity verified **6 == 6** with `grep -o` against `dist/`.
+
+All four homepage CTAs repointed to `/contact/` (this class has now appeared in every publisher
+commit since 08-17). Build passes; 88 pages.
+
 ## 2026-08-26 - Hard-water cannibalization resolved by cross-URL canonical, spots guide rebuilt as fifth informational-family member, 10 internal links repointed
 
 The site map named this run's blocker: two of our own URLs were competing for the whole hard-water

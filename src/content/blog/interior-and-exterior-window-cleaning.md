@@ -39,14 +39,14 @@ Outside glass needs a different approach. Wind carries dust and pollen onto the 
 
 > **Practical rule:** Clean the side with the more transferable grime first, usually the interior, and keep indoor tools away from exterior residue.
 
-That order matters. Generic cleaning guidance commonly recommends starting inside so outdoor dirt doesn't contaminate indoor tools, while also avoiding hot, sunny, or very cold conditions that make solution evaporate too quickly. The [guidance on streaky windows](https://freshframeswindows.com/why-windows-streak-after-cleaning) also highlights the safety and finish problems created by unstable access, overreaching, and contaminated equipment.
+That order matters. Generic cleaning guidance commonly recommends starting inside so outdoor dirt doesn't contaminate indoor tools, while also avoiding hot, sunny, or very cold conditions that make solution evaporate too quickly. The guidance on streaky windows also highlights the safety and finish problems created by unstable access, overreaching, and contaminated equipment.
 
 <a id="the-residue-decides-the-method"></a>
 ### The residue decides the method
 
 One rag and one solution rarely serve both sides equally. A cloth used on an exterior sill may carry grit back onto an indoor pane, while a heavily soapy interior mix can leave a film outside when the sun dries it before the blade finishes the pass. Combining both tasks in one careless pass often produces haze even when the glass looked clean during washing.
 
-Water chemistry adds another layer. Tap water contains dissolved calcium, magnesium, and other minerals that remain behind when the water evaporates. **Purified or deionized water dries with no mineral residue**, which is why professionals often use pure-water systems for exterior panes that are tall, broad, or difficult to access. The [explanation of mineral residue and streaking](https://www.eireshine.ie/guides/streaky-windows-after-cleaning/) makes the key point clear: final-contact water quality can be as important as the cleaning motion.
+Water chemistry adds another layer. Tap water contains dissolved calcium, magnesium, and other minerals that remain behind when the water evaporates. **Purified or deionized water dries with no mineral residue**, which is why professionals often use pure-water systems for exterior panes that are tall, broad, or difficult to access. The explanation of mineral residue and streaking makes the key point clear: final-contact water quality can be as important as the cleaning motion.
 
 The right plan therefore starts with three questions. What is on the glass, how safely can you reach it, and what will the rinse water leave behind? Once those answers are clear, the sequence, tools, and service frequency become much easier to choose.
 
@@ -87,7 +87,7 @@ Purified water-fed systems remove minerals from the water before sending it thro
 
 Traditional work uses a washer or scrubber, cleaning solution, and rubber squeegee blade. It gives the technician close control around edges and details, making it effective for interior glass, ground-floor windows, divided lites, and heavier greasy residue. The method also performs well when the operator can safely stand near the pane and remove the dirty solution before it dries.
 
-For a closer look at the [purified-water window cleaning method](https://alohawindowbros.com/blog/purified-water-window-cleaning/), match the rinse water and access plan to the surface. Equipment brand matters less than whether the method can remove the residue and finish without leaving minerals behind.
+For a closer look at the [purified-water window cleaning method](/blog/purified-water-window-cleaning/), match the rinse water and access plan to the surface. Equipment brand matters less than whether the method can remove the residue and finish without leaving minerals behind.
 
 | Factor | Purified Water-Fed Pole | Traditional Squeegee |
 |---|---|---|
@@ -111,7 +111,7 @@ A **hybrid crew** often gets the best balance. The outside receives purified-wat
 
 Exterior cleaning should follow the contamination cycle around your property, not an arbitrary calendar. A beachside home faces salt aerosol and windborne moisture, while an inland home may deal more with dry dust, pollen, irrigation minerals, and seasonal weather changes. Both environments can make glass look dull, but they leave different residues and call for different timing.
 
-The global exterior window cleaning segment was valued at **US$6,802.0 million in 2024** and is projected to reach **US$10,049.6 million by 2030**, representing a **6.8% CAGR from 2025 through 2030**, according to Fortune Business Insights' window cleaning services market data. That dataset treats exterior cleaning as a distinct service line, which fits what property owners see in practice. Exterior glass receives the first impact from rain, salt spray, airborne dust, and mineral deposits.
+The industry treats exterior cleaning as a distinct service line, which fits what property owners see in practice. Exterior glass receives the first impact from rain, salt spray, airborne dust, and mineral deposits, and it is the side that dictates how often the whole house needs attention.
 
 <a id="exposure-zones-need-different-decisions"></a>
 ### Exposure zones need different decisions
@@ -133,7 +133,7 @@ Use visible conditions as the final decision-maker:
 | Suburban inland property | Often twice yearly, adjusted for dust and pollen | Annual or deep-clean rotation | Dust bonding after dew or first rains |
 | Low-dust, low-pollen home | As needed for appearance and exposure | Annual or when residue becomes visible | Kitchen film, pets, smoke, or indoor haze |
 
-These intervals are practical starting points, not guarantees. The [California window cleaning service guidance](https://alohawindowbros.com/blog/ca-window-cleaning/) is most useful when paired with an on-site look at shade, wind direction, nearby roads, vegetation, and irrigation.
+These intervals are practical starting points, not guarantees. The [California window cleaning service guidance](/blog/ca-window-cleaning/) is most useful when paired with an on-site look at shade, wind direction, nearby roads, vegetation, and irrigation.
 
 A mature service plan separates exterior frequency from interior frequency. Most households don't need indoor glass washed every time the outside is serviced, but kitchens, pets, smoking, renovation dust, and high-touch doors can justify more frequent interior work.
 
@@ -164,7 +164,7 @@ Professional service makes more sense for:
 
 A professional contractor should be able to explain its access plan and provide written proof of **general liability insurance** and **workers' compensation coverage**. Liability coverage can address accidental property damage, while workers' compensation addresses covered employee injuries. Without a contractor's coverage, the homeowner may face difficult questions about responsibility after an accident.
 
-Ask for a certificate sent directly from the insurer or broker, not only a verbal assurance. Also ask about documented safety training, ladder procedures, and whether the crew uses water-fed poles to reduce time spent on access from ladders. The [window cleaning insurance checklist](https://alohawindowbros.com/blog/window-cleaning-insurance/) offers a useful starting point for that conversation.
+Ask for a certificate sent directly from the insurer or broker, not only a verbal assurance. Also ask about documented safety training, ladder procedures, and whether the crew uses water-fed poles to reduce time spent on access from ladders. The [window cleaning insurance checklist](/blog/window-cleaning-insurance/) offers a useful starting point for that conversation.
 
 
 
@@ -241,4 +241,4 @@ Find out whether the crew uses purified water-fed poles, traditional mop and squ
 
 Before approving the appointment, ask for comparable before-and-after photos and references from properties in your area. Clarify the weather policy, rescheduling process, satisfaction guarantee, repeat-service pricing, and whether a quarterly or semi-annual plan changes the service depth. A fair quote reflects **access difficulty, exposure conditions, and included detail work**, not just square footage.
 
-For a property in Ventura County or Santa Barbara County, request an on-site assessment so the company can see salt exposure, inland dust, irrigation spray, screens, tracks, and high-set panes before pricing the work. Visit [Aloha Window Bros](https://alohawindowbros.com) to request a free estimate for interior and exterior glass, screens, frames, sills, skylights, or hard-to-reach windows, and ask for a service plan matched to your property's actual exposure.
+For a property in Ventura County or Santa Barbara County, request an on-site assessment so the company can see salt exposure, inland dust, irrigation spray, screens, tracks, and high-set panes before pricing the work. Visit [Aloha Window Bros](/contact/) to request a free estimate for interior and exterior glass, screens, frames, sills, skylights, or hard-to-reach windows, and ask for a service plan matched to your property's actual exposure.

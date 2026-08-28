@@ -102,9 +102,9 @@ This is why a window can look acceptable after a few isolated splashes and cloud
 <a id="when-the-surface-itself-becomes-affected"></a>
 ### When the surface itself becomes affected
 
-Older deposits can include materials beyond calcium carbonate. Independent [glass restoration guidance on hard-water deposits](https://sdglassrestoration.com/hard-water-stain-removal-glass/) identifies calcium carbonate and silica as common components and explains that removal becomes more difficult when deposits bond to the surface or begin to etch it.
+Older deposits can include materials beyond calcium carbonate. Silica carried in the same water can deposit alongside the carbonate, and removal becomes progressively harder as a deposit bonds to the surface and begins to etch it. Our own [guide to removing hard water spots from windows](/blog/how-to-remove-hard-water-spots-from-windows/) sets out the four stages of that progression and which of them still come off.
 
-Silica is important because an etched pane isn't just carrying a layer of residue. The glass surface may have microscopic changes that remain after the deposit is removed. A technical explanation of [hard-water spotting and calcium carbonate concentration](https://build-construct.com/home-improvement-renovations/how-to-remove-hard-water-stains-from-glass-surfaces/) notes that water above roughly **180 mg/L as calcium carbonate** is considered very hard and that visible spotting can develop after only a few drying cycles.
+Silica is important because an etched pane isn't just carrying a layer of residue. The glass surface may have microscopic changes that remain after the deposit is removed. The [U.S. Geological Survey's water hardness scale](https://www.usgs.gov/water-science-school/science/hardness-water) classifies water above **180 mg/L as calcium carbonate** as very hard, and the local relevance is direct: California American Water's own 2025 report puts the supply serving Thousand Oaks and Newbury Park at 140 mg/L, while Montecito Water District publishes groundwater as high as 409 mg/L.
 
 The practical distinction is simple. A removable deposit sits on the glass. Etching changes the glass itself. Before choosing a stronger treatment, check which problem you're facing.
 
@@ -139,7 +139,7 @@ Most sprinkler-related “etching” is heavy deposit buildup that hasn't been d
 
 A window with fresh sprinkler spots needs a different approach from glass with bonded scale or true etching. Start with the least aggressive method suited to the stain. Calcium carbonate responds to acid because the acid reacts with the mineral deposit and helps loosen it. The same treatment may be unsafe for certain panes, coatings, frames, or seals.
 
-For light spotting, apply diluted white vinegar to a cool section of glass, let it sit briefly, then wipe with microfiber and rinse. This [guide to removing hard-water spots from windows](https://alohawindowbros.com/blog/how-to-remove-hard-water-spots-from-windows/) provides a basic process. Check first for tint, a factory coating, or manufacturer-specific care requirements.
+For light spotting, apply diluted white vinegar to a cool section of glass, let it sit briefly, then wipe with microfiber and rinse. This [guide to removing hard-water spots from windows](/blog/how-to-remove-hard-water-spots-from-windows/) provides a basic process. Check first for tint, a factory coating, or manufacturer-specific care requirements.
 
 <a id="escalate-carefully"></a>
 ### Escalate carefully
@@ -173,7 +173,7 @@ Start outside. Reposition spray heads so the pattern stops short of the glass, r
 - **Protect vulnerable glass:** A hydrophobic coating or rain-repellent treatment can make droplets less likely to spread and bond, but it won't replace source correction.
 - **Track the pattern:** Spots on one side of the house often point to overspray, while deposits across many fixtures suggest a broader water-hardness issue.
 
-For a method centered on rinsing glass with purified water, see [purified-water window cleaning](https://alohawindowbros.com/blog/purified-water-window-cleaning/). The chemistry is straightforward: remove the mineral-loaded droplet before evaporation, and there's less residue available to bond.
+For a method centered on rinsing glass with purified water, see [purified-water window cleaning](/blog/purified-water-window-cleaning/). The chemistry is straightforward: remove the mineral-loaded droplet before evaporation, and there's less residue available to bond.
 
 > **The durable fix is usually upstream.** A clean pane that keeps receiving hard-water droplets will keep needing attention.
 
@@ -200,7 +200,7 @@ The risk changes when the buildup is thick, the glass is coated or tinted, or th
 
 A professional window cleaner may use commercial-grade descaling agents, specialized pads, purified water systems, and controlled polishing methods. Ask what type of glass you have, whether the treatment is separate from standard cleaning, what test area will be used, and how the technician will protect frames and seals.
 
-A vague promise of a “quick clean” deserves caution if the pane has months of buildup or visible etching. For local service options, you can review [professional window-cleaning services](https://alohawindowbros.com/blog/window-cleaning-company/) and request an assessment before approving restoration work.
+A vague promise of a “quick clean” deserves caution if the pane has months of buildup or visible etching. For local service options, you can review [professional window-cleaning services](/blog/window-cleaning-company/) and request an assessment before approving restoration work.
 
 <a id="key-takeaways-and-common-questions"></a>
 ## Key Takeaways and Common Questions
@@ -233,4 +233,4 @@ Rinse whenever irrigation or another mineral-loaded water source wets the glass,
 
 ---
 
-If sprinkler overspray or bonded mineral deposits are clouding your windows, visit [Aloha Window Bros](https://alohawindowbros.com) to request a local assessment and quote. The company provides window, screen, frame, and sill cleaning, and can evaluate hard-water spotting to help determine whether standard cleaning or specialized restoration is appropriate.
+If sprinkler overspray or bonded mineral deposits are clouding your windows, visit [Aloha Window Bros](/contact/) to request a local assessment and quote. The company provides window, screen, frame, and sill cleaning, and can evaluate hard-water spotting to help determine whether standard cleaning or specialized restoration is appropriate.

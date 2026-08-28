@@ -45,7 +45,7 @@ The highest quote may include far more than glass. It might cover interior and e
 <a id="what-the-contractor-may-be-pricing"></a>
 ### What the contractor may be pricing
 
-Modern residential work is commonly quoted as a per-visit total, while guides place a typical U.S. job at about **$220**, with a common range of **$150 to $302 per visit**. The same market references list full interior-and-exterior service at about **$8 to $16 per window**, with higher charges for windows above the second floor and minimum job fees of **$100 to $250**. These benchmarks come from Angi's window-cleaning cost guide, but they're only useful when the quoted scope matches.
+Modern residential work is quoted as a per-visit total, not as a rate card. Aloha Window Bros publishes a per city band for all ten cities it serves, running **$150 to $475** across Ventura County and Santa Barbara County: $150 to $400 in Thousand Oaks, $175 to $425 across most of the Conejo Valley and the city of Ventura, $175 to $450 in Oxnard, and $200 to $475 in Ojai and Santa Barbara. The [full price breakdown by city](/blog/how-much-does-window-cleaning-cost-in-ventura-county/) sets out each one. Those are our own published bands for a complete four-in-one clean, given free and on site, and they are the figures to test a competing quote against here. National per-window averages pulled from a cost calculator are not, because they describe a different scope in a different labor market.
 
 A contractor who counts panes, inspects screens, checks water access, and studies the terrain is pricing the job in more detail. That doesn't automatically make the quote fair, but it does explain why two professionals can reach different totals without either one guessing.
 
@@ -54,7 +54,7 @@ The trade itself has always depended on tools and access. Early window cleaning 
 <a id="the-main-factors-that-shape-every-window-cleaning-quote"></a>
 ## The Main Factors That Shape Every Window Cleaning Quote
 
-Every credible estimate starts with the same question: how much time and equipment will this property require? Pricing guides describe the job-to-cost model as a combination of labor, materials, overhead, and access complexity. [GorillaDesk's window-cleaning pricing guide](https://gorilladesk.com/learn/window-cleaning-pricing-guide-to-price-cleaning-jobs/) also identifies labor markets, ladder or roof access, and specialized equipment as direct drivers of price.
+Every credible estimate starts with the same question: how much time and equipment will this property require? The answer is a combination of labor, access complexity, the condition of the glass, and the equipment the property forces the crew to bring. Nothing on that list is visible from a satellite image, which is why a scope review beats a phone quote.
 
 Use this inventory before requesting bids.
 
@@ -68,7 +68,7 @@ A large picture window also takes more care around seals and frames. French pane
 <a id="height-and-access"></a>
 ### Height and access
 
-Second-story glass changes the setup. A technician may use a stabilized ladder, extension equipment, or a purified water-fed pole system, depending on the surface, height, slope, and surrounding obstacles. Commercial benchmarks commonly place standard residential work around **$8 to $16 per window** or **$4 to $8 per pane**, while difficult access raises the labor estimate, according to [ServicePro's pricing analysis](https://servicepro.co/blog/window-cleaning-pricing).
+Second-story glass changes the setup. A technician may use a stabilized ladder, extension equipment, or a purified water-fed pole system, depending on the surface, height, slope, and surrounding obstacles. Height does not add a fixed surcharge per window; it adds setup time and equipment, which is why a two-story home lands toward the top of its city band rather than at a multiple of the ground-floor price.
 
 A window above a deck may be harder than one on a taller wall with clear ground access. Roof pitch, awnings, power lines, gates, and overhanging branches all affect safe positioning.
 
@@ -92,20 +92,22 @@ Fragile landscaping, steep lots, narrow side yards, and interior obstacles slow 
 <a id="typical-price-ranges-for-homes-and-commercial-properties"></a>
 ## Typical Price Ranges for Homes and Commercial Properties
 
-A quote is a translation of the property into labor, equipment, and access costs. National benchmarks help test whether the number is plausible, but they do not replace a local scope review. Residential jobs commonly average about **$220**, with many visits between **$150 and $302**, according to Angi's current pricing reference. Another guide lists **$8 to $16 per window** for interior-and-exterior service, **$10 to $40 per window above the second floor**, and minimum charges of **$100 to $250**.
+A quote is a translation of the property into labor, equipment, and access costs, so the only benchmark worth testing a bid against is one published by a company that actually works your streets. Aloha Window Bros publishes bands of **$150 to $475** per visit depending on the city, for interior and exterior glass plus screens, frames, and sills.
 
-Use those figures as a sanity check, not a promise. A small inland home with clear ground access may receive a simple flat-rate quote. A coastal property with salt film, tall glass, screens, or difficult terrain requires more labor and equipment, even when the pane count looks similar.
+Working backwards from those bands is more useful than a national per-window rate. Across the 18 to 34 window homes we typically quote, a $150 to $475 whole-visit band implies roughly **$6 to $20 per window**. That number is arithmetic after the fact, not a rate we charge, and it is the honest way to read any per-window figure: it is an output of the quote, never the input.
 
-| Property Type | Typical Price Range | Notes |
-|---|---:|---|
-| Residential home | About $150 to $302 per visit | Common national range for a typical residential job |
-| Residential per-window service | About $8 to $16 per window | Interior-and-exterior service |
-| Upper-story residential glass | About $10 to $40 per window | Height and access increase labor and safety demands |
-| Commercial glass by area | About $0.50 to $2.50 per square foot | Common approach for larger commercial properties |
-| Storefront and building glass | About $6 to $20 per window | Often used for storefront and commercial glass |
-| Minimum residential job | About $100 to $250 | Covers mobilization and minimum labor |
+Use the band as a sanity check, not a promise. A small inland home with clear ground access sits near the bottom of its city band. A coastal property with salt film, tall glass, screens, or difficult terrain sits near the top, even when the pane count looks similar.
 
-Commercial quotes use different models because businesses may have larger panes, more glass, restricted work hours, and tighter access conditions. Commercial guides commonly cite **$0.50 to $2.50 per square foot**, **$6 to $20 per window**, and roughly **$40 to $60 per hour** for standard service. High-rise or difficult access costs more. [This per-window cost guide](https://alohawindowbros.com/blog/window-washing-cost-per-window/) explains why residential and commercial bids should not be compared line by line.
+| What the property has | Effect on the quote | Why |
+|---|---|---|
+| Single story, clear ground access, average pane count | Baseline for your city band | Ladder work is minimal and setup is fast |
+| Two or more stories, or glass over a slope or hardscape | Toward the top of the band | Access equipment and setup time, not a per-window surcharge |
+| Heavy mineral spotting or existing etching | Priced on inspection | Restoration is a separate scope from routine cleaning |
+| Screens integrated into the frames rather than removable | Toward the top of the band | Each screen takes longer to remove, wash, and refit |
+| Skylights, French panes, or specialty glass | Priced on inspection | Method depends on the glazing material |
+| Coastal exposure, Ojai or Santa Barbara | $200 to $475 band | Salt film and harder water take more labor |
+
+Commercial quotes use different models because businesses may have larger panes, more glass, restricted work hours, and tighter access conditions. A storefront priced by the square foot and a house priced by the visit are not comparable line by line, which is the single most common reason a homeowner concludes that one of two bids must be wrong. [This per-window cost guide](/blog/window-washing-cost-per-window/) explains why.
 
 Ask the provider to separate storefront glass, doors, skylights, French panes, solar-panel-safe cleaning, and restoration. A recurring service may cost more per visit than the lowest one-time bid, yet deliver better value when the scope stays clear and the property avoids repeated buildup.
 
@@ -188,7 +190,7 @@ The lowest number usually wins only when every contractor includes the same work
 
 A discount operator may clean the visible glass and leave screens, tracks, and sills untouched. Another may use a basic soap-and-squeegee process where purified water and a water-fed pole would produce a cleaner rinse on exterior glass at a higher level. Neither choice is automatically wrong, but the quote needs to say what you're buying.
 
-Hard-water spotting is where cheap maintenance becomes expensive. Repeated irrigation overspray can leave mineral deposits that bond to glass, and neglected deposits may require restoration rather than routine cleaning. The market's recurring-service guidance describes one-time or deep cleans as more expensive than regular maintenance, particularly when access or specialty conditions increase the labor burden, as explained in [Housecall Pro's window-cleaning pricing guide](https://www.housecallpro.com/resources/how-to-price-window-cleaning-guide/).
+Hard-water spotting is where cheap maintenance becomes expensive. Repeated irrigation overspray leaves mineral deposits that bond to glass, and once a deposit has begun to etch the surface, no amount of routine washing brings the pane back. That is the mechanism behind the price gap between a maintenance visit and a restoration visit, and it is explained in detail in our guide to [removing hard water spots from windows](/blog/how-to-remove-hard-water-spots-from-windows/).
 
 <a id="the-recurring-service-argument"></a>
 ### The recurring-service argument
@@ -199,7 +201,7 @@ Don't accept a recurring plan because it sounds professional. Require a defined 
 
 > **Value test:** Ask which quote leaves the property easier to maintain after the next visit, not just which one costs less today.
 
-Safety also has a price. An uninsured crew can create exposure if a ladder damages siding, landscaping, or a vehicle, or if a worker is injured on the property. Before hiring, use this [guide to choosing a window-cleaning company](https://alohawindowbros.com/blog/how-to-choose-a-window-cleaning-company/) to organize questions about insurance, scope, equipment, and service terms.
+Safety also has a price. An uninsured crew can create exposure if a ladder damages siding, landscaping, or a vehicle, or if a worker is injured on the property. Before hiring, use this [guide to choosing a window-cleaning company](/blog/window-cleaning-company/) to organize questions about insurance, scope, equipment, and service terms.
 
 ![An infographic comparing the pros and cons of choosing the cheapest bid for window cleaning services.](https://cdnimg.co/8387fe5a-1497-428d-a3af-57b68fc0bac4/0bdf4e3f-901f-4ece-b86c-ef612e60bf22/window-cleaning-quotes-service-comparison.jpg)
 
@@ -220,7 +222,7 @@ Foothill homes face a different pattern. Sundowner winds can push dust and grit 
 | Santa Ynez foothills | Windblown grit and dry-season dust | Recurring service timed around wind exposure | Careful pre-rinse, controlled agitation, post-wind inspection |
 | Inland residential neighborhoods | Pollen, dust, and hard-water overspray | Routine maintenance based on property exposure | Screen washing, purified-water rinsing, spot treatment |
 
-The right frequency depends on the property, not a blanket calendar. A coastal home may need a shorter interval than a sheltered inland address, while a foothill property may need attention after major wind events. [Aloha Window Bros' California window-cleaning resource](https://alohawindowbros.com/blog/ca-window-cleaning/) provides regional context for homeowners deciding how local conditions should affect service planning.
+The right frequency depends on the property, not a blanket calendar. A coastal home may need a shorter interval than a sheltered inland address, while a foothill property may need attention after major wind events. [Aloha Window Bros' California window-cleaning resource](/blog/ca-window-cleaning/) provides regional context for homeowners deciding how local conditions should affect service planning.
 
 A low recurring quote that ignores salt, dust, and mineral buildup can become expensive when the crew eventually has to perform restoration-level work. Ask contractors to price both the initial clean and the maintenance visit, then compare the total scope rather than the opening appointment alone.
 
@@ -234,23 +236,33 @@ Request at least three written quotes from insured local operators. Give each co
 <a id="questions-homeowners-should-ask"></a>
 ### Questions homeowners should ask
 
-**Should tracks and sills be included?**  
-They should be listed clearly, whether included or priced separately. If the contractor says “full service,” ask exactly what that means for screens, tracks, frames, and sills.
-
-**When should I request a new quote after renovations?**  
-Request a fresh estimate whenever renovations change pane count, access, landscaping, window type, or glass condition. New construction residue, paint, adhesive, or concrete dust can require a different scope from routine maintenance.
-
-**What proof of insurance should I request?**  
-Ask for a current certificate of general liability and confirmation of workers' compensation coverage for employees performing work at height. The certificate should identify the business named on your proposal.
-
-**Is a virtual walkthrough good enough?**  
-It can work for straightforward, accessible homes when the video clearly shows every elevation and problem area. An in-person assessment is more reliable when the property has steep grades, tall glass, roofs, decks, fragile landscaping, or complicated staging.
-
-**Should I choose a flat rate or hourly quote?**  
-A flat rate is easier to budget when the scope is clearly defined. Hourly pricing can make sense for uncertain restoration or post-construction work, but require an estimate of labor time and approval rules before the crew begins.
+<details class="faq-item">
+<summary>Should tracks and sills be included in a window cleaning quote?</summary>
+<p>They should be listed clearly, whether they are included or priced separately. If a contractor says "full service," ask exactly what that means for screens, tracks, frames, and sills. Aloha Window Bros quotes glass, screens, frames, and sills together as one four-in-one clean, so there is nothing to add back on later.</p>
+</details>
+<details class="faq-item">
+<summary>When should I request a new window cleaning quote after renovations?</summary>
+<p>Request a fresh estimate whenever renovations change pane count, access, landscaping, window type, or glass condition. New construction residue, paint, adhesive, or concrete dust needs a different scope from routine maintenance and is priced on inspection.</p>
+</details>
+<details class="faq-item">
+<summary>What proof of insurance should I ask a window cleaner for?</summary>
+<p>Ask for a current certificate of general liability and confirmation of workers' compensation coverage for employees working at height. The certificate should name the same business that appears on your proposal.</p>
+</details>
+<details class="faq-item">
+<summary>Is a virtual walkthrough good enough for a window cleaning quote?</summary>
+<p>It can work for straightforward, accessible homes when the video clearly shows every elevation and problem area. An in-person assessment is more reliable when the property has steep grades, tall glass, roofs, decks, fragile landscaping, or complicated staging.</p>
+</details>
+<details class="faq-item">
+<summary>Should I choose a flat rate or an hourly window cleaning quote?</summary>
+<p>A flat rate is easier to budget when the scope is clearly defined, and it is how residential visits are normally priced. Hourly pricing can make sense for uncertain restoration or post-construction work, but ask for an estimate of labor time and an approval rule before the crew begins.</p>
+</details>
+<details class="faq-item">
+<summary>How much should a window cleaning quote be in Ventura County?</summary>
+<p>Aloha Window Bros publishes per city bands running $150 to $475 per visit across Ventura County and Santa Barbara County, from $150 to $400 in Thousand Oaks to $200 to $475 in Ojai and Santa Barbara. A quote well below that band usually means a narrower scope, not a better price.</p>
+</details>
 
 Your goal isn't the smallest number. It's a written scope that remains accurate through coastal winters, inland dust, irrigation spotting, and the maintenance visits that protect the glass.
 
 ---
 
-Aloha Window Bros provides free on-site and virtual estimates for residential and commercial window cleaning, including glass, screens, frames, and sills across Ventura and Santa Barbara counties. Visit [Aloha Window Bros](https://alohawindowbros.com) to request a transparent quote that reflects your property's access, condition, and recurring-service needs.
+Aloha Window Bros provides free on-site and virtual estimates for residential and commercial window cleaning, including glass, screens, frames, and sills across Ventura and Santa Barbara counties. Visit [Aloha Window Bros](/contact/) to request a transparent quote that reflects your property's access, condition, and recurring-service needs.

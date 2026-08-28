@@ -4,6 +4,90 @@
 
 ---
 
+### 2026-08-28
+
+**What we did:**
+- **technical (primary): consolidated a third hard-water page ON ARRIVAL.**
+  `/blog/what-are-hard-water-stains/` (published by Outrank 2026-08-28) now carries a cross-URL
+  canonical to `/blog/how-to-remove-hard-water-spots-from-windows/` and is filtered from the
+  sitemap, via the existing `src/lib/consolidated.mjs` map. All five dist checks verified.
+- **refresh: sixth Outrank audit across the four posts published 08-25 to 08-28.** Removed
+  `gorilladesk.com`, `servicepro.co`, `housecallpro.com`, `nextviewcleaning.com`,
+  `sdglassrestoration.com`, `build-construct.com`, `eireshine.ie`, `freshframeswindows.com`, and
+  the `fortunebusinessinsights.com` market figures. Deleted a **fabricated first-party price**
+  ("$5 to $10 per window in its FAQ" - the site publishes no per-window rate) and the entire
+  third-party rate card in the quotes post. Repointed four homepage CTAs to `/contact/`. Fixed a
+  broken internal link to a slug that does not exist.
+- **technical: FAQPage schema added to `/blog/window-cleaning-quotes/`** by converting its prose
+  Q&A to `<details>`/`<summary>` (6 items), which the template's regex turns into a FAQPage node.
+- **internal_links: the quotes post now links the pricing pillar twice**, plus the hard-water
+  winner and the per-window guide, instead of sending its authority to Angi and HouseCall Pro.
+- **gbp (logged, not actioned in repo): the two largest CTR outliers in the brief are GBP rows,
+  not site rows.**
+
+**Why we did it (brief numbers):**
+- The brief's #1 and #2 CTR outliers are *window cleaning* (147 impr, pos 1.4, 0 clicks) and
+  *commercial window cleaning* (52 impr, pos 1.0, 0 clicks). The `query x page` join for
+  07-29..08-25 resolves both almost entirely to the **GBP listing** (140 impr @ 1.0 and 52 @ 1.0
+  respectively), not to any page in this repo. **There is no title_meta action available for
+  either.** Same for the eight "local-pack suspects": every one is a map-pack row. Per the site
+  map's two-population rule, these are logged for the GBP workstream.
+- The brief's three biggest striking-distance informational queries are all on pages already
+  rebuilt and awaiting their review dates: *how to clean window screens without removing them*
+  (107 impr @ 10.8, treated 08-17), *skylight cleaning* (80 @ 14.8, treated 08-24), *best streak
+  free window cleaner* (31 @ 9.4, treated 08-19). **Re-treating them would destroy the read on the
+  informational-family experiment**, so none were touched.
+- That left the audit as the run's real work, and it was overdue: **four unaudited posts, and the
+  08-28 one re-fragments a query surface consolidated on 08-26.** The winner holds ~180 non-brand
+  impressions across 42 removal-intent variants; the 08-26 consolidation is under evaluation until
+  late October, and a third URL entering that surface mid-experiment destroys the read.
+- The quotes post published a national rate card ($150 to $302 per visit, $8 to $16 per window,
+  $100 to $250 minimums) that **contradicts our own published $150 to $475 bands** on a query
+  cluster where the pricing pillar already holds *window washing cost ventura county* at
+  **position 4.2 (24 impr)**. That is our best non-brand price asset and the quotes post was
+  actively undercutting it.
+
+**Expected impact:**
+- Consolidation: the hard-water winner keeps its ~180 impressions on one URL instead of splitting
+  three ways. Prediction: `/blog/what-are-hard-water-stains/` earns **fewer than 15 impressions**
+  and the winner's variant count stays at or above 40 by 2026-10-09. This is a protective action;
+  the winner's own recovery is still graded on the 08-26 late-October window.
+- Audit: no ranking prediction. Its value is removing eight competitor and vendor links, one
+  fabricated first-party price, and a rate card that contradicts our own bands, before they age
+  into the index and into AI answers.
+- FAQPage on the quotes post: eligibility for AI follow-up extraction (brief GEO priority #2, C09).
+  Prediction: the post registers **impressions on at least 3 distinct quote or price queries** by
+  2026-10-09, from zero today.
+
+**Metrics at time of action (GSC, 28d 2026-07-29..2026-08-25):**
+- Total clicks 73 (prior 74, -1%); impressions 3,944 (prior 2,585, +53%).
+- **Non-brand clicks 4** (prior 6); non-brand impressions 3,111 (prior 1,878, +66%); 466 non-brand
+  queries (prior 239, +95%). Non-brand avg position 12.2.
+- Join, non-brand impressions by page: `/` 699 (2 clicks), GBP listing 634 (1),
+  `/blog/best-streak-free-window-cleaner/` 374 (1), `/thousand-oaks/` 236, `/agoura/` 173,
+  `/blog/how-to-remove-hard-water-spots-from-windows/` 172, `/camarillo/` 73.
+- Santa Barbara cluster on `/`: *window cleaning santa barbara* 115 @ **8.4** (from 9.1),
+  *santa barbara window cleaning* 59 @ **9.4** (from 11.1), *window washing santa barbara* 49 @ 8.9.
+  Still zero clicks. Organic-only, GBP essentially absent (1 impression).
+- **New this window: `/camarillo/` and `/santa-barbara/` are earning impressions for the first
+  time**, so they are now indexed. `/camarillo/` took 73 non-brand impressions at position 8.2 on
+  *window cleaning camarillo*. See the site-map note; this changes the indexation picture from six
+  uncrawled city pages to four.
+- Geo-grid: our listing absent at all 6 "window cleaning near me" points, including Thousand Oaks
+  center and Westlake Village, both marked LOST since the last scan.
+
+**GBP queries to target (organic position is already good; the pack takes the click):**
+*window cleaning* (140 impr @ 1.0, GBP), *commercial window cleaning* (52 @ 1.0, GBP),
+*window cleaning agoura hills* (43 @ 4.8), *window cleaning newbury park* (35 @ 2.4),
+*window cleaning westlake village* (33 @ 1.8), *window cleaning cost thousand oaks* (27 @ 5.0),
+*window washing service agoura hills* (23 @ 3.3), *window cleaning agoura hills ca* (21 @ 4.1).
+Plus the six absent geo-grid points. Weakest beatable pack incumbents: Santa Barbara Window
+Cleaning (4 reviews), Brian's Window Service (11), HQ Window Cleaning & Maintenance (13).
+**Still unfixed and still Adam's highest-yield single action: the GBP website field is `http://`
+and 301-redirects.** Logged unfixed on 07-24, 07-27, and again today.
+
+---
+
 ### 2026-08-26
 
 **What we did:**
