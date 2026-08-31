@@ -1,3 +1,78 @@
+## 2026-08-31 - Seventh Outrank audit (3 posts), two consolidated on arrival, and the stream drifts off-topic
+
+Three publisher posts arrived in three days (08-29 `how-to-get-streak-free-windows`, 08-30
+`hard-water-stains-on-granite`, 08-31 `hard-water-stain-removal-from-glass`). **All three carried
+defects. Seven audits, 100% defect rate.** Two of the three landed on surfaces that are mid
+experiment, so both were consolidated the same day under the 08-28 rule.
+
+**`hard-water-stain-removal-from-glass` is the FOURTH URL the stream has put on one removal-intent
+surface**, five days after that surface was deliberately collapsed to a single URL. Its headings
+duplicate the winner section for section: deposit vs etched glass, safe tools, the vinegar dwell,
+professional polishing, prevention, DIY vs pro. Canonicalised into
+`/blog/how-to-remove-hard-water-spots-from-windows/`.
+
+**`how-to-get-streak-free-windows` was consolidated into `/blog/best-streak-free-window-cleaner/`,
+and that one matters most, because the winner is the strongest page on this site.** It took 1,455
+impressions and 7 clicks in the 08-01..08-28 GSC window, plus 216 and 1 on its non-slash variant,
+against 69 clicks sitewide, and it was rebuilt on 08-19 with a mid-September review still open. The
+new post reproduces the winner's argument and its structure: why glass streaks, the mineral check,
+diagnosing the mark, what professionals use, the drying sequence. The winner's own differentiator is
+that the streak is the rinse water rather than the product, which is the new post's thesis too. Its
+title looks like a separate method query, but Google already fuses method intent into that surface:
+the live PAA for *best streak free window cleaner* on 2026-08-31 asks "What is the best thing to use
+to clean windows without streaks?" and "How do you make your windows crystal clear?". Applying the
+site's own tiebreak, which URL Google actually ranks, the winner holds ~1,671 impressions and the new
+page holds none.
+
+**SEVENTH DEFECT CLASS, new here: the stream has begun publishing outside the service offering.**
+`hard-water-stains-on-granite` is 2,874 words about granite countertop restoration on a window
+cleaning site, and it closes by telling the reader to hire a stone restoration pro. It is not a
+duplicate of anything, so there is no winner to consolidate it into, and deleting it would be worse
+than keeping it. It was kept, cleaned, and given an FAQ that states plainly that we do not clean
+countertops and that the glass above the sink is the part that is ours. **Watch for more topical
+drift; if the stream keeps producing off-service topics, that is a brief to change upstream, not a
+thing to fix post hoc in this repo.**
+
+**Links removed, all confirmed by fetching them.** `reflektwindowwashing.com` (a Boise window
+cleaning company, a direct competitor, supplying a "one to two full irrigation seasons" etching
+timeline; the claim went with the link and no replacement timeline was invented),
+`northerncomfortwindows.com` (an Ontario replacement window manufacturer cited as the authority for
+vinegar dilution ratios), `watercureusa.com` (a Buffalo water softener company, vendor content
+marketing, same class as the `solarcleanhub.com` removal on 08-24), `helpwithdiy.com` (a DIY home
+decor content farm, same class as `lifetips.alibaba.com`), and `expertglassrepair.com` twice (a
+competing glass repair provider carrying the vinegar dwell procedure, and it 429s to non-browser
+agents, so it fails the source rule twice over). An unattributed `youtube.com/embed` link standing in
+as a citation was also removed from the granite post.
+
+**Kept as legitimate after checking each one:** `glassrenu.com` (a glass restoration system
+manufacturer's own technical damage specification sheet, the `archsp.com` / `ettore.com` class, not a
+competing service provider), `usa.ungerglobal.com`, `kaercher.com`, `usgs.gov`, and
+`naturalstoneinstitute.org` (trade body, the Federation of Window Cleaners class). Being an outside
+company is still not the test.
+
+**An unsourced "7 GPG or higher" hardness threshold was replaced with the USGS scale** (hard at 121
+to 180 mg/L, very hard above 180, verified 200 on 2026-08-31), which is the figure the rest of the
+site already uses.
+
+**All three posts carried the homepage-CTA defect** (every publisher commit since 08-17 has). Fixed.
+**All three emitted no FAQPage JSON-LD**, the sixth defect class. The granite post, the only one
+staying self-canonical, was given a 5-item `<details>` FAQ; parity verified 5 == 5 against `dist/`.
+No FAQ was authored for the two consolidated posts, because schema on a canonicalised URL is wasted
+effort.
+
+**A fabricated internal slug was found outside the new posts.**
+`glass-cleaning-services.md` linked `/blog/how-to-choose-a-commercial-window-cleaning-company/`,
+which does not exist; the real slug is `commercial-window-cleaning-company`. That is the 2026-07-06
+fabricated-slug gotcha for the second consecutive audit, and it was found by the slug-existence
+check the 08-28 audit added. The check now runs over all of `src/content/`, not just the new posts.
+
+**The site map's own FAQ audit grep was broken and is fixed here.** It said
+`grep -c '<details>'`, but the tag the stream and our rebuilds both emit is
+`<details class="faq-item">`, so the literal `<details>` never matches and the check returned 0 for
+every post on the site, including the five that do have FAQ schema. Use `grep -o '<details'` piped
+to `wc -l`. This is the same defect class as the `grep -c` on minified HTML trap already recorded
+against the homepage FAQ parity check: a verification command that cannot fail.
+
 ## 2026-08-28 - Sixth Outrank audit (4 posts), third hard-water page consolidated on arrival, price spine of the quotes post rebuilt on first-party bands
 
 Four publisher posts arrived since the fifth audit (08-25 `window-cleaning-quotes`, 08-26

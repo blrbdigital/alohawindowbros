@@ -118,7 +118,7 @@ Commercial properties operate on a different rhythm. A storefront may need frequ
 | Administration | Estimate and basic service confirmation | Recurring agreement, invoicing, insurance documents, and safety records |
 | Main concern | Protecting the home and completing the desired detail | Maintaining presentation while limiting disruption and access risk |
 
-Commercial buyers should read [this guide to choosing a commercial window cleaning company](https://alohawindowbros.com/blog/how-to-choose-a-commercial-window-cleaning-company/) before accepting the lowest quote. The company needs to understand your building's access story, customer hours, insurance requirements, and cleaning schedule.
+Commercial buyers should read [this guide to choosing a commercial window cleaning company](https://alohawindowbros.com/blog/commercial-window-cleaning-company/) before accepting the lowest quote. The company needs to understand your building's access story, customer hours, insurance requirements, and cleaning schedule.
 
 <a id="why-the-quote-cant-be-transferred-between-property-types"></a>
 ### Why the quote can't be transferred between property types

@@ -28,7 +28,7 @@ You step out to the patio, catch the afternoon light on the glass, and there the
 <a id="what-hard-water-stains-are-on-glass"></a>
 ## What Hard Water Stains Are on Glass
 
-Hard water stains begin as **mineral deposits** left behind when water evaporates. **Calcium, magnesium, and silica** are common contributors. Repeated wet-dry cycles concentrate that residue, especially where sprinklers repeatedly hit the lower part of a pane. Water hardness is commonly expressed in **grains per gallon**, and more mineral-rich water generally produces spotting more readily, as [WaterCure USA](https://watercureusa.com/blog/how-to-prevent-hard-water-stains-on-glass-and-get-rid-of-the-ones-already-there/) explains.
+Hard water stains begin as **mineral deposits** left behind when water evaporates. **Calcium, magnesium, and silica** are common contributors. Repeated wet-dry cycles concentrate that residue, especially where sprinklers repeatedly hit the lower part of a pane. Water hardness is commonly expressed in **grains per gallon**, and more mineral-rich water generally produces spotting more readily. The [U.S. Geological Survey](https://www.usgs.gov/water-science-school/science/hardness-water) classifies water as hard from **121 to 180 mg/L** and very hard above **180 mg/L**, which is roughly 7.1 to 10.5 grains per gallon and above.
 
 ![An infographic explaining the scientific process of how mineral deposits form hard water stains on glass surfaces.](https://cdnimg.co/8387fe5a-1497-428d-a3af-57b68fc0bac4/11b18907-65e6-497e-9528-2cb13eee21fd/hard-water-stain-removal-from-glass-mineral-deposits.jpg)
 
@@ -39,9 +39,9 @@ Read the stain before choosing a method. A haze sitting on top of the glass is a
 
 > **Practical rule:** if the glass looks different when wet, you are usually seeing surface mineral scale rather than a pane that needs replacement.
 
-**Etching** marks the point where residue has changed from removable buildup into damage within the glass surface. Sprinkler overspray left untreated can show visible etching after **one to two full irrigation seasons**, according to [Reflekt Window Washing](https://reflektwindowwashing.com/reference/hard-water-stains-on-glass-explained). That timing explains why a pane that looked easy to clean during its first season can later require professional polishing.
+**Etching** marks the point where residue has changed from removable buildup into damage within the glass surface. Sprinkler overspray left untreated is the usual route to it here, because the same lower section of the same pane is wetted and dried over and over. We publish no fixed timeline for that, because it depends on how often the head hits the glass and how mineral-rich the supply is, and a page that quotes a season count is guessing. The practical point is direction of travel: a pane that cleaned up easily last year can need polishing later.
 
-Water hardness also affects how quickly spotting becomes routine. Around **7 GPG or higher**, visible deposits are more common, leaving less time for easy removal. Light spots may respond to a controlled vinegar dwell and a white pad. Dense scale needs a stronger process, while etched areas may require abrasive restoration or replacement.
+Water hardness also affects how quickly spotting becomes routine. Once supply crosses the USGS **hard** threshold above, visible deposits become a maintenance item rather than an occasional one, which leaves less time for easy removal. Light spots may respond to a controlled vinegar dwell and a white pad. Dense scale needs a stronger process, while etched areas may require abrasive restoration or replacement.
 
 Heat speeds evaporation, concentrating minerals on hot glass. Cooler water can leave a softer film that is easier to lift before it bonds. Coastal salt aerosol can resemble white hard-water haze, yet salt residue behaves differently and should not automatically receive an acid treatment. Compare the exposure pattern and rinse response before selecting a method. For a regional example involving West Coast glass, see this [Ojai well-water hard-water stain guide](https://alohawindowbros.com/blog/hard-water-stains-ojai-well-water-guide/).
 
@@ -70,7 +70,7 @@ If you're working near frames, seals, or coatings, keep the chemical dwell contr
 
 Fresh spots on a shower door or window often respond well to vinegar. It loosens the surface carbonate layer before the deposit bonds more firmly. The working principle is **dwell time**, not harder scrubbing. A quick spray and wipe usually leaves much of the mineral film behind.
 
-Rinse the glass with clean water first. That removes loose grit before it can drag under the pad. Pour **undiluted white distilled vinegar at five percent acidity** into a spray bottle, saturate the stained area, then cover it with a vinegar-soaked paper towel or cloth. Leave it in contact for about **5 to 10 minutes**, following the guidance from [Expert Glass Repair](https://www.expertglassrepair.com/blog/water-spots-hard-water-glass/). A slightly longer dwell can help with a deposit that is still surface-level but more established.
+Rinse the glass with clean water first. That removes loose grit before it can drag under the pad. Pour **undiluted white distilled vinegar at five percent acidity** into a spray bottle, saturate the stained area, then cover it with a vinegar-soaked paper towel or cloth. Leave it in contact for about **5 to 10 minutes**. Dwell time is the working variable, not pressure. A slightly longer dwell can help with a deposit that is still surface-level but more established.
 
 Warm vinegar may act faster than cold vinegar, but apply it only to cool glass. Hot glass creates a thermal-shock risk. After the dwell, work the area gently with a **white non-abrasive pad**, using small circular motions and adding vinegar if the surface begins to dry. Rinse thoroughly, then squeegee the pane dry. Drying is part of the inspection, because remaining film is easier to see once the glass is clear.
 
@@ -81,7 +81,7 @@ A haze that softens or clears was surface mineral scale. Little change after two
 
 > **Practical rule:** vinegar loosens and lifts surface deposits. It is not a test of how hard you can scrub.
 
-Use this method for **light to moderate stains** and recent exposure. Avoid green abrasive pads, do not let acidic solution dry on the glass or seals, and complete the rinse and dry step. Those precautions are also included in the [Expert Glass Repair guidance on water spots and hard-water stains](https://www.expertglassrepair.com/blog/water-spots-hard-water-glass/).
+Use this method for **light to moderate stains** and recent exposure. Avoid green abrasive pads, do not let acidic solution dry on the glass or seals, and complete the rinse and dry step. Our own [guide to removing hard water spots from windows](/blog/how-to-remove-hard-water-spots-from-windows/) sets out the same precautions against the NGA and IWCA architectural glass cleaning standard, which is the document that actually governs this work.
 
 
 
@@ -134,7 +134,7 @@ Hydrophobic coatings help too, including consumer products like **Rain-X for Gla
 
 > **Practical rule:** if the glass gets hit by sprinklers, cleaning alone won't keep it clear. The spray pattern has to change.
 
-For a broader maintenance checklist on keeping glass clean between services, this [streak-free window guide](https://alohawindowbros.com/blog/how-to-get-streak-free-windows/) fits the same logic. A seasonal rhythm helps too, spring rinse, summer inspection, fall deep clean, winter prep. That habit keeps minor spotting from becoming the kind of buildup that needs polishing.
+For a broader maintenance checklist on keeping glass clean between services, this [guide to the best streak free window cleaner](https://alohawindowbros.com/blog/best-streak-free-window-cleaner/) fits the same logic. A seasonal rhythm helps too, spring rinse, summer inspection, fall deep clean, winter prep. That habit keeps minor spotting from becoming the kind of buildup that needs polishing.
 
 <a id="coastal-salt-spray-versus-inland-hard-water"></a>
 ## Coastal Salt Spray Versus Inland Hard Water
@@ -159,4 +159,4 @@ The mistake people make is treating every white stain like hard water. That lead
 
 ---
 
-If your glass is already past the vinegar stage, Aloha Window Bros can handle mineral spotting as part of a professional window-care visit in Ventura County and Santa Barbara County. They clean windows, screens, frames, and sills, and they also offer hard-water restoration when a pane needs more than routine washing. Visit [Aloha Window Bros](https://alohawindowbros.com) to request a quote and get the right method matched to the stain before the glass gets harder to save.
+If your glass is already past the vinegar stage, Aloha Window Bros can handle mineral spotting as part of a professional window-care visit in Ventura County and Santa Barbara County. They clean windows, screens, frames, and sills, and they also offer hard-water restoration when a pane needs more than routine washing. Visit [Aloha Window Bros](https://alohawindowbros.com/contact/) to request a quote and get the right method matched to the stain before the glass gets harder to save.

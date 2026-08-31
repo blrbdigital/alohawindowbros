@@ -25,11 +25,42 @@
 // escalation, prevention, DIY vs pro). Consolidated on arrival rather than after the fact,
 // because the 08-26 consolidation is still under evaluation until late October and a third
 // URL entering the same surface mid-experiment destroys the read. See SEO-LOG.md 2026-08-28.
+//
+// 2026-08-31: TWO MORE, both consolidated on arrival under the 08-28 rule. The stream
+// published three posts in three days (08-29, 08-30, 08-31) and two of them landed on
+// surfaces that are mid-experiment.
+//
+//   /blog/hard-water-stain-removal-from-glass/ -> the same hard-water winner. This is the
+//   FOURTH URL the stream has put on one removal-intent surface, five days after that
+//   surface was collapsed to a single URL. Its headings duplicate the winner section for
+//   section: deposit vs etched glass, safe tools, the vinegar dwell, professional
+//   polishing, prevention, DIY vs pro. It serves no query the winner does not already
+//   serve, and the 08-26 consolidation is under evaluation until late October.
+//
+//   /blog/how-to-get-streak-free-windows/ -> /blog/best-streak-free-window-cleaner/.
+//   The winner is the single strongest page on this site (1,455 impressions and 7 clicks
+//   in the 08-01..08-28 GSC window, plus 216 and 1 on its non-slash variant, against 69
+//   clicks sitewide) and it was rebuilt on 08-19 with a mid-September review still open.
+//   The new post reproduces its argument and its structure: why glass streaks, the
+//   mineral check, diagnosing the mark, what professionals use, and the drying sequence.
+//   The winner's own differentiator is that the streak is the rinse water rather than the
+//   product, which is the new post's thesis too. Its title looks like a distinct method
+//   query, but Google already fuses method intent into that surface: the live PAA for
+//   "best streak free window cleaner" on 2026-08-31 asks "What is the best thing to use to
+//   clean windows without streaks?" and "How do you make your windows crystal clear?".
+//   Applying the site's own tiebreak, which URL Google actually ranks, the winner holds
+//   ~1,671 impressions and the new page holds none. Splitting the site's only
+//   click-earning surface mid-experiment is the exact failure the 08-28 rule exists to
+//   prevent. See SEO-LOG.md 2026-08-31.
 export const CANONICAL_OVERRIDES = {
   'blog/how-to-remove-hard-water-stains-from-windows':
     'https://alohawindowbros.com/blog/how-to-remove-hard-water-spots-from-windows/',
   'blog/what-are-hard-water-stains':
     'https://alohawindowbros.com/blog/how-to-remove-hard-water-spots-from-windows/',
+  'blog/hard-water-stain-removal-from-glass':
+    'https://alohawindowbros.com/blog/how-to-remove-hard-water-spots-from-windows/',
+  'blog/how-to-get-streak-free-windows':
+    'https://alohawindowbros.com/blog/best-streak-free-window-cleaner/',
 };
 
 /** Absolute canonical for a built pathname, or null if the page is self-canonical. */

@@ -46,7 +46,7 @@ Three questions matter before you start again:
 <a id="tools-and-solutions-that-actually-make-a-difference"></a>
 ## Tools and Solutions That Actually Make a Difference
 
-The biggest upgrade is usually the least glamorous one: **use distilled water for the solution or final rinse**. Distilled water is made by boiling water and condensing the steam, a process that removes nearly all contaminants and minerals. With fewer minerals in the liquid touching the pane, there's less residue available to form spots as the glass dries. The chemistry and practical cleaning guidance are summarized in this [DIY window-cleaner guide](https://www.helpwithdiy.com/diy-window-cleaner/).
+The biggest upgrade is usually the least glamorous one: **use distilled water for the solution or final rinse**. Distilled water is made by boiling water and condensing the steam, a process that removes nearly all contaminants and minerals. With fewer minerals in the liquid touching the pane, there's less residue available to form spots as the glass dries. Distillation is why the water leaves so little behind: boiling and recondensing removes the dissolved solids that would otherwise dry onto the pane.
 
 A dependable kit doesn't need to be complicated:
 
@@ -60,7 +60,7 @@ A dependable kit doesn't need to be complicated:
 
 Blue paper towels and newspaper aren't reliable substitutes for this setup. They can shed fibers, become saturated quickly, or move dirty solution without controlling where it goes. A dry microfiber reserved for edge work gives you more control.
 
-For routine formulas, cleaning guidance commonly uses diluted vinegar with distilled water, including a **30% vinegar to 70% water ratio** or a **1:10 vinegar-to-distilled-water mix**, as outlined by [Northern Comfort Windows](https://www.northerncomfortwindows.com/blog/streak-free-windows). Don't assume an acidic mix suits every pane, though. On tinted or low-E glass, follow the manufacturer's care instructions and favor a compatible biodegradable surfactant instead of reaching automatically for ammonia or vinegar. For a broader product comparison, see this guide to the [best streak-free window cleaner](https://alohawindowbros.com/blog/best-streak-free-window-cleaner/).
+Household advice commonly reaches for diluted vinegar in distilled water. Treat those ratios with care rather than as a standard, because the architectural glass cleaning standard does not endorse acids on glazing at all. Don't assume an acidic mix suits every pane. On tinted or low-E glass, follow the manufacturer's care instructions and favor a compatible biodegradable surfactant instead of reaching automatically for ammonia or vinegar. For a broader product comparison, see this guide to the [best streak-free window cleaner](https://alohawindowbros.com/blog/best-streak-free-window-cleaner/).
 
 <a id="the-wiping-and-drying-sequence-that-prevents-streaks"></a>
 ## The Wiping and Drying Sequence That Prevents Streaks
@@ -135,4 +135,4 @@ Post-construction work deserves the same caution. Paint flecks, stickers, adhesi
 
 > If the job needs a lift, a scraper, or a polishing compound, it has moved beyond casual window washing.
 
-Use a simple filter. **Single-story glass with light soil** is a reasonable home project. If you need elevated access, mineral restoration, specialized screen handling, or renovation cleanup, a professional quote is usually the sensible next step. Aloha Window Bros provides interior and exterior window washing, screen cleaning, frame and sill detailing, and purified water-fed pole cleaning for hard-to-reach glass in Ventura County and Santa Barbara County. Visit [Aloha Window Bros](https://alohawindowbros.com) to request a free on-site or virtual estimate and discuss the mineral, screen, or access problem before you start.
+Use a simple filter. **Single-story glass with light soil** is a reasonable home project. If you need elevated access, mineral restoration, specialized screen handling, or renovation cleanup, a professional quote is usually the sensible next step. Aloha Window Bros provides interior and exterior window washing, screen cleaning, frame and sill detailing, and purified water-fed pole cleaning for hard-to-reach glass in Ventura County and Santa Barbara County. Visit [Aloha Window Bros](https://alohawindowbros.com/contact/) to request a free on-site or virtual estimate and discuss the mineral, screen, or access problem before you start.

@@ -4,6 +4,71 @@
 
 ---
 
+### 2026-08-31
+
+**What we did:**
+- **technical (primary): consolidated TWO newly published pages on arrival.**
+  `/blog/hard-water-stain-removal-from-glass/` (published 08-31) now canonicals to
+  `/blog/how-to-remove-hard-water-spots-from-windows/`, and `/blog/how-to-get-streak-free-windows/`
+  (published 08-29) canonicals to `/blog/best-streak-free-window-cleaner/`. Both are filtered from
+  the sitemap via `src/lib/consolidated.mjs`. All five dist checks verified for each.
+- **refresh: seventh Outrank audit across the three posts published 08-29 to 08-31.** Removed five
+  bad outbound sources with the claims they carried (`reflektwindowwashing.com`, a direct competitor;
+  `northerncomfortwindows.com`; `watercureusa.com`; `helpwithdiy.com`; `expertglassrepair.com` twice),
+  replaced an unsourced "7 GPG" threshold with the USGS hardness scale, fixed the homepage-CTA defect
+  on all three, and added a 5-item FAQ with FAQPage schema to the one post staying self-canonical.
+- **technical: fixed a fabricated internal slug** in `glass-cleaning-services.md`
+  (`how-to-choose-a-commercial-window-cleaning-company` does not exist; repointed to
+  `commercial-window-cleaning-company`), and corrected the site map's FAQ audit grep, which could
+  never have detected the defect it was written to catch.
+- **Deliberately NOT actioned: every query in the brief's CTR-outlier and striking-distance tables.**
+  Reasons below, per the playbook's instruction to weigh the scoreboard.
+
+**Why we did it (brief numbers):**
+- The playbook ranks `title_meta` first when the CTR-outlier section is non-empty, and it is. Every
+  row in it is nonetheless blocked for a documented reason. *window cleaning* (148 impr, pos 1.4,
+  0 clicks) and *commercial window cleaning* (52 impr, pos 1.0, 0 clicks) are local-pack suspects
+  where organic rank cannot win the click, and the scoreboard grades `gbp` **0 wins / 3 fails**.
+  The Santa Barbara, Thousand Oaks, Agoura and Camarillo rows sit in the map-pack half where the
+  site map records the `title_meta` lever as spent on already-tuned metas, and the scoreboard grades
+  `title_meta` **2 wins / 4 partial / 4 fails**, the worst record of any action type. The remaining
+  rows (*how to clean window screens without removing them* 107 impr @ 10.8, *skylight cleaning*
+  107 @ 16.7, *best streak free window cleaner* 43 @ 8.7) are the informational family, all treated
+  between 08-17 and 08-24 and all under evaluation with review dates from mid-September to late
+  October. Re-treating a page mid-experiment destroys the read.
+- **That is what made consolidation the highest-leverage action available today rather than a
+  housekeeping task.** `/blog/best-streak-free-window-cleaner/` is the site's top page at **1,455
+  impressions and 7 clicks** (plus 216 and 1 on the non-slash variant) against **69 clicks
+  sitewide**, and it is the clearest evidence yet for the informational-family hypothesis. Letting a
+  second URL onto that surface five weeks before its review would have split the site's only
+  click-earning page mid-experiment, which is precisely the failure the 08-28 rule exists to prevent.
+- The hard-water surface was collapsed to one URL on 08-26 and again on 08-28. This is now the
+  fourth stream page on it. The winner's measured demand is ~180 non-brand impressions across 42
+  query variants, all removal intent, which the new page duplicates section for section.
+- Non-brand clicks are 5 against 3,707 non-brand impressions. The bottleneck is click-winning, not
+  more content, and two more near-duplicate URLs make it worse rather than better.
+
+**Expected impact:**
+- No new rankings. The goal is protective: keep one URL per surface so the 08-19 and 08-26 rebuilds
+  can be graded cleanly, and stop equity splitting across four hard-water and two streak URLs.
+- Concretely: `/blog/best-streak-free-window-cleaner/` should hold or improve on its 08-01..08-28
+  baseline of 1,455 impressions / 7 clicks / pos 10.7, and *best streak free window cleaner* should
+  hold or improve on pos 8.7, with `/blog/how-to-get-streak-free-windows/` staying at zero
+  impressions. If the winner's clicks fall while the consolidated URL takes impressions, the
+  consolidation was wrong and `consolidated.mjs` is the one-line rollback.
+- The FAQPage node on `/blog/hard-water-stains-on-granite/` is the only additive change.
+
+**Metrics at time of action (GSC 2026-08-01..2026-08-28):**
+- Total clicks 69 (prior 83, -17%); impressions 4,526 (prior 2,610, +73%)
+- Non-brand clicks 5 (prior 6); non-brand impressions 3,707 (prior 1,850, +100%)
+- Non-brand avg position 12.2 (prior 11.1)
+- `/blog/best-streak-free-window-cleaner/` 7 clicks / 1,455 impr / pos 10.7 (top page on the site)
+- `/blog/how-to-remove-hard-water-spots-from-windows/` not listed in the brief's top pages this window
+- Map pack: ours in 6 of 12 snapshot queries, 212 reviews vs incumbent average 106
+- Review both consolidations **2026-10-12**, alongside the late-October hard-water read.
+
+---
+
 ### 2026-08-28
 
 **What we did:**

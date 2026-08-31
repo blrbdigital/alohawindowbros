@@ -146,7 +146,7 @@ Once dry, lift the paste with a plastic scraper. Don't use a metal blade on a po
 
 If the spot remains, repeat the process rather than scrubbing harder. A persistent dull patch after the deposit has lifted points back to the diagnosis: you may be dealing with etching or polish loss, not leftover mineral material.
 
-For a visual demonstration of progressive poultice cleaning, review this [stone-care cleaning demonstration](https://www.youtube.com/embed/kYJSusCZoLg). Treat any video method as a starting reference, and verify that the materials are approved for your specific granite and sealer.
+Whatever the source of your method, verify that the materials are approved for your specific granite and its sealer before you commit to a full application. The [Natural Stone Institute's stain-removal guidance](https://www.naturalstoneinstitute.org/consumers/stains/) is the reference to check a technique against, because it is written by the trade body rather than by a product seller.
 
 <a id="products-and-methods-worth-skipping"></a>
 ## Products and Methods Worth Skipping
@@ -221,5 +221,30 @@ For a typical kitchen, expect the work to be evaluated in terms of process and s
 
 Ask for a **written scope of work**, the products and methods the technician plans to use, and proof of insurance before booking. Confirm whether the company offers workmanship coverage, and make sure the document says what happens if the dullness or residue remains after the agreed treatment.
 
+## Frequently Asked Questions
+
+<div class="faq-list">
+<details class="faq-item">
+<summary>How do you remove hard water stains from granite?</summary>
+<p>Start with a pH neutral stone cleaner and a soft pad, not vinegar. Diagnose first: wet the mark and watch it dry, because a deposit sitting on top of the stone disappears when wet, while etching or polish loss looks the same wet and dry. Surface deposits usually lift with a neutral cleaner and a short dwell. Anything that survives that goes to a poultice, and anything that is etching is a refinishing job rather than a cleaning one.</p>
+</details>
+<details class="faq-item">
+<summary>Can you use vinegar on granite countertops?</summary>
+<p>No. Vinegar is acidic, and acid attacks the polished finish and the sealer on stone countertops. It can turn a removable mineral deposit into permanent etching, which is a far more expensive problem. Vinegar has a place on uncoated glass, which is a different material with different chemistry, and none on granite. Use a pH neutral stone cleaner instead.</p>
+</details>
+<details class="faq-item">
+<summary>What is the difference between a hard water stain and etching on granite?</summary>
+<p>A hard water stain is mineral material sitting on the surface, so it vanishes when the stone is wet and returns as it dries. Etching is damage to the finish itself, so it looks identical wet and dry and often feels slightly rough. The wet test is the fastest way to tell them apart, and it decides everything that follows, because cleaning removes a deposit but only refinishing corrects etching.</p>
+</details>
+<details class="faq-item">
+<summary>How long does a poultice take to work on granite?</summary>
+<p>Allow 24 to 48 hours of drying time under plastic wrap, and expect that difficult marks may need up to five applications, according to the Natural Stone Institute's stain removal guidance. The paste has to dry slowly to draw the deposit out, so shortening the dwell is the most common reason a poultice appears to fail. Repeat the cycle rather than scrubbing harder.</p>
+</details>
+<details class="faq-item">
+<summary>Does Aloha Window Bros clean granite countertops?</summary>
+<p>No. Aloha Window Bros is a window cleaning company serving Ventura County and Santa Barbara County, and our four in one service covers glass, screens, frames, and sills. Countertop refinishing is stone restoration work and belongs to a stone specialist. We publish this guide because the same hard water that spots a countertop spots the windows above the sink, and the glass side of that problem is ours.</p>
+</details>
+</div>
+
 ---
-Aloha Window Bros helps Ventura County and Santa Barbara County homeowners with professional window, screen, frame, sill, and hard-water spotting services using property-conscious methods. Visit [Aloha Window Bros](https://alohawindowbros.com) to request a free on-site or virtual estimate and discuss the mineral buildup affecting your home's glass and surrounding areas.
+Aloha Window Bros helps Ventura County and Santa Barbara County homeowners with professional window, screen, frame, sill, and hard-water spotting services using property-conscious methods. Visit [Aloha Window Bros](https://alohawindowbros.com/contact/) to request a free on-site or virtual estimate and discuss the mineral buildup affecting your home's glass and surrounding areas.
