@@ -1,3 +1,72 @@
+## 2026-09-02 - Rebuilt the screen cleaning service page, eighth Outrank audit, and a NEW defect class
+
+**Primary action: `/blog/window-screen-cleaning-service/` rebuilt as the SIXTH member of the
+informational family.** The `query x page` join for 08-03..08-30 puts it at **51 non-brand
+impressions, 0 clicks**, with its head query *window screen cleaning* at **40 impr @ 13.1** on the
+slash URL plus 6 @ 16.3 on the non-slash variant. That is the same profile as the five pages already
+treated: informational, non-local, ~100% non-brand, sitting at position 13.
+
+The brief reported *window screen cleaning* as "slipping, 2.8 to 12.6". **The join says that is a
+blend artifact and NOT a slip.** The 2.8 belonged to the GBP listing, which took 2 impressions this
+window; the movement is our blog page taking over the surface from a GBP row that lost volume. Do
+not refresh a page on a brief position without running the join.
+
+3,159 to ~2,300 words, and the cut is the point. What changed:
+- **Direct answer in the first 150 words** (there was none, it opened with a narrative scene).
+- **Key takeaways box** and a 3-item testable triage the reader can run before buying anything.
+- **The TENTH kind of table on this site: a field test matrix** (physical test, what you do, what
+  you observe, verdict). Distinct from the screen-type decision matrix on
+  `/blog/how-to-clean-window-screens-without-removing-them/`, which maps screen type to method.
+  This one maps a test you perform to whether the cleaning is worth buying at all.
+- **Its information-gain argument.** The live top 3 for *window screen cleaning* on 2026-09-02 are
+  Filtrete (3M), Andersen Windows, and a screen-care product collection. All three assume the screen
+  in front of you should be cleaned, because a screening manufacturer and a supply shop both have a
+  reason to assume that. None answers the top PAA question, *How much does it cost to clean window
+  screens?* This page answers when cleaning is the WRONG purchase.
+- **Phifer, the largest US insect screening manufacturer, is the new primary source**
+  (https://www.phifer.com/screening/faq/, 200 on 2026-09-02). Its own two-line rule is narrower than
+  homeowners assume: **rinse metal screening with water only, clean vinyl products with a mild soapy
+  solution, avoid hard scrubbing.** Its high-visibility grades (BetterVue, UltraVue2) trade strength
+  for clarity and are described by the manufacturer as more delicate, which inverts the usual
+  assumption that newer screening is tougher.
+- **The indoor-air-quality claim was LIMITED rather than expanded.** The page now says plainly that a
+  screen is not a filtration device and that cleaning it is not an IAQ intervention, citing EPA's
+  Introduction to Indoor Air Quality (200 on 2026-09-02), which treats open windows as natural
+  ventilation and not as air cleaning. Overstating this is standard in service marketing.
+- **Two Angi references removed**, including an unverified claim that water-fed pole use had
+  "increased by 45% since 2019" carried by a naked "Angi" attribution left behind when an earlier
+  audit stripped the link. Angi has been on the recommended blocklist since 08-19.
+- The truncated title (`Window Screen Cleaning Service: What''s Included & Why It`) and a broken
+  anchor (the words "Aloha Window Bros" pointing at the insurance guide) were both fixed.
+- **FAQPage JSON-LD now emits: 6 == 6 verified with `grep -o` against `dist/`.** It had none.
+- **Inbound internal links 2 to 6**, from the site's strongest non-brand pages:
+  `best-streak-free-window-cleaner` (939 NB impr), `how-to-remove-hard-water-spots-from-windows`
+  (172), `how-to-clean-window-screens-without-removing-them` (164), `/services/screen-cleaning/`,
+  plus the two pre-existing.
+
+**EIGHTH OUTRANK AUDIT (1 new post, `screen-cleaning-spray` published 09-01). Eight audits, 100%
+defect rate.** Carried the homepage-CTA defect and emitted no FAQPage node, both for the fifth and
+third consecutive commit respectively. Also fixed: a dangling "The following video shows..." sentence
+with no video after it (the 08-24 skylight defect), a malformed range `**5, <10%**` left by the
+publisher's em-dash sweep, a truncated frontmatter `description` cut off mid-sentence, and an
+internal link calling the blog post "Aloha Window Bros' screen cleaning team" (repointed at
+`/services/screen-cleaning/`). Prose Q&A converted to `<details>`, parity 5 == 5.
+- **Removed `indexbox.io`**, a paid market-report vendor standing in as a citation. Same class as
+  `researchandmarkets.com` (08-18), `marketresearch.com` (08-17), `htfmarketinsights.com` (08-24),
+  and `fortunebusinessinsights.com` (four separate audits).
+- **EIGHTH DEFECT CLASS, new here: HOMONYM SOURCING.** The post carried a ~350 word section, *How
+  Screen Cleaning Products Evolved*, whose entire spine came from easiway.com. **Easiway Systems is a
+  SCREEN PRINTING chemistry supplier, and the cited article is about removing ink and photo emulsion
+  from silkscreen printing frames** (fetched and read 2026-09-02: it discusses stencils, mesh counts,
+  emulsion removers, dip tanks, and ink degradants). It has nothing to do with window screens or
+  display screens. The stream matched on the word "screen" across an unrelated industry and wrote
+  five paragraphs of false product history on a window cleaning site. **Section deleted entirely.**
+  Add to the audit checklist: when a source explains the HISTORY or CHEMISTRY of something, confirm
+  the source is about the same noun.
+- Its electronics half was kept and bounded under the 08-31 granite precedent (keep, clean, and make
+  the page say what we actually do): a new FAQ item states plainly that Aloha Window Bros does not
+  clean televisions or computer displays.
+
 ## 2026-08-31 - Seventh Outrank audit (3 posts), two consolidated on arrival, and the stream drifts off-topic
 
 Three publisher posts arrived in three days (08-29 `how-to-get-streak-free-windows`, 08-30

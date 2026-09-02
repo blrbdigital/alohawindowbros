@@ -4,6 +4,87 @@
 
 ---
 
+### 2026-09-02
+
+**What we did:**
+- **refresh (primary): rebuilt `/blog/window-screen-cleaning-service/` as the SIXTH member of the
+  informational family.** Direct answer in the first 150 words, key takeaways box, a testable
+  3-check triage, the tenth kind of table on this site (field test, observation, verdict), Phifer
+  manufacturer sourcing, `<details>` FAQ answering the live PAA, and 3,159 to ~2,300 words.
+  Title `Window Screen Cleaning Service: What''s Included & Why It` (truncated by the publisher) to
+  `Window Screen Cleaning: What a Service Visit Includes` (52 chars), leading with the exact head
+  query. FAQPage parity verified 6 == 6 against `dist/` with `grep -o`.
+- **internal_links: inbound links to that page went 2 to 6**, from the three strongest non-brand
+  blog pages plus `/services/screen-cleaning/`. Same play that took the skylight rebuild 1 to 5.
+- **technical: eighth Outrank audit** of `screen-cleaning-spray` (published 09-01). Homepage-CTA
+  defect fixed, prose Q&A converted to `<details>` (parity 5 == 5, it had no FAQ schema),
+  `indexbox.io` paid market report removed, dangling video sentence removed, malformed `5, <10%`
+  range fixed, truncated frontmatter description rewritten, and a mislabelled internal link
+  repointed at `/services/screen-cleaning/`.
+- **A ~350 word section built on a SCREEN PRINTING source was deleted.** New defect class, logged.
+
+**Why we did it (brief numbers):**
+- The brief listed *window screen cleaning* at **53 impr, pos 12.6, prior 2.8** and called it
+  "slipping". **The `query x page` join for 08-03..08-30 says that is a blend artifact, not a slip.**
+  The 2.8 was the GBP listing, which took 2 impressions this window. The real rows are
+  `/blog/window-screen-cleaning-service/` **40 impr @ 13.1** and its non-slash variant 6 @ 16.3.
+  The page itself holds **51 non-brand impressions and 0 clicks**, ~100% non-brand.
+- That is the exact profile of the five pages already rebuilt in this family (informational,
+  non-local, no map-pack veto on the organic click), and **the family now has a measured win**:
+  `/blog/best-streak-free-window-cleaner/`, rebuilt 08-19, is the site's #1 non-brand page at
+  **939 non-brand impressions and 3 clicks**, against **7 non-brand clicks sitewide**. One rebuilt
+  page holds 43% of the site's non-brand clicks.
+- The brief's CTR-outlier and local-pack tables are led by *window cleaning* (148 impr @ 1.4, 0
+  clicks) and *commercial window cleaning* (52 @ 1.0, 0 clicks). The join confirms **both are the
+  GBP listing at position 1.0, not this site**. Per the map-pack rule and a **gbp scoreboard of
+  0 wins / 3 fails**, no content was written for those; they are logged for the GBP workstream.
+- No new content. The service x city matrix is complete and nothing cleared the information-gain
+  bar as a new page today.
+
+**Expected impact:**
+- *window screen cleaning* from **13.1 to 6-10** on `/blog/window-screen-cleaning-service/` within 6
+  weeks, with the page's non-brand impressions rising from 51.
+- A first non-brand click on the page is the real test. The four earlier rebuilds are still at zero
+  and only `best-streak-free-window-cleaner` has converted, so this is a replication, not a
+  certainty.
+- Both audited posts now emit FAQPage JSON-LD where they emitted none, which is the cheapest
+  AI-citation win available on this site.
+
+**Metrics at time of action (GSC 08-03..08-30 vs prior 28):**
+- Sitewide: 73 clicks (from 86, -15%), 4,803 impressions (from 2,581, +86%).
+- Non-brand: 7 clicks (from 6), 3,986 impressions (from 1,799, +122%), 536 queries (from 234).
+- `/blog/window-screen-cleaning-service/`: 51 non-brand impr, 0 clicks, head query 13.1.
+- `/blog/best-streak-free-window-cleaner/`: 939 non-brand impr, 3 clicks (+118 impr on non-slash).
+
+**Logged, NOT actioned, with reasons:**
+1. **The trailing-slash split has grown ~8x and the site map's "roughly 30 impressions, left alone"
+   note is now stale.** This window the non-slash duplicates carry **~258 non-brand impressions**:
+   `/blog/best-streak-free-window-cleaner` 118, `/blog/skylight-cleaning-service` 110,
+   `/blog/window-cleaning-business` 24, `/blog/window-screen-cleaning-service` 6. It is not merely
+   split, the two variants rank differently: *skylight cleaning* is 77 impr @ **14.4** on the slash
+   URL and 44 @ **22.6** on the non-slash, while *skylight cleaner* is 18 @ **6.4** non-slash against
+   11 @ **13.9** slash. **There is no in-repo lever.** Canonicals already point at the slash form and
+   the sitemap already lists only that form; the fix is a 301 in the NPM proxy host on the VPS
+   (`/root/npm/data/nginx/proxy_host/34.conf`), which is a live-nginx edit and needs Adam.
+2. **GBP workstream queries** (organic position is already won, the pack is taking the click):
+   *window cleaning* 139 impr @ 1.0 on the GBP listing, *commercial window cleaning* 52 @ 1.0,
+   *window cleaning near me* 39 @ 1.0 on `/` plus 8 @ 3.6 on the GBP, *window cleaning newbury park*
+   16 @ 1.0 on `/`, *window cleaning agoura hills ca* 7 @ 1.0. The geo-grid shows us ABSENT at
+   Newbury Park, Agoura Hills, Oak Park and Camarillo against incumbents with 2 to 21 reviews, while
+   our listing carries 212. **The `http://` to `https://` fix in the GBP website field is still
+   unfixed and is still the single highest-yield action available**, logged unfixed since 07-24.
+3. **A FOURTH non-actionable query population, now the largest on the board.** The brief lists five
+   *"what are the top affordable glass cleaner options that don't leave streaks in <country>?"* rows
+   in striking distance. The join finds **eight** country variants (israel, germany, japan,
+   netherlands, spain, france, great britain, united states) totalling **~354 impressions at
+   positions 7.8 to 9.6, every one on `/blog/best-streak-free-window-cleaner/`, and ZERO clicks**.
+   The templated phrasing and the country list make this synthetic or agent traffic, not Ventura
+   County homeowners. Same rule as the Newbury/Berkshire and Thousand Palms populations: do not act.
+4. **The `grep -rno '/blog/<slug>'` check the site map added on 08-28 produces false positives.**
+   It matches external URLs that happen to contain a `/blog/` path (ungerglobal, marvin, estimatty)
+   and reported 6 phantom missing slugs today. Anchor it to our own domain or to root-relative links.
+   Re-run correctly, there are zero broken internal slugs.
+
 ### 2026-08-31
 
 **What we did:**

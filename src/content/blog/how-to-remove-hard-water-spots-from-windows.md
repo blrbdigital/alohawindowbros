@@ -112,7 +112,7 @@ Three conditions move a pane out of do it yourself territory, and none of them a
 - **A coating is exposed.** Once the pencil test says the coating is on the outside, the tools that would shift a stage 3 deposit are all prohibited on it. Coating damage shows as a permanent change in light transmittance and cannot be reapplied on site.
 - **The glass is high, sloped, or over hard landscaping.** Hard water spotting concentrates exactly where sprinklers reach and where ladders are least stable. Upward facing glazing is the worst version of this, because rinse water evaporates in place instead of running off; the [skylight cleaning guide](/blog/skylight-cleaning-service/) covers those surfaces specifically.
 
-Aloha Window Bros runs the wet test and the coating check before touching a spotted pane, cleans with purified water so the rinse is not adding the next deposit, and says plainly when a window has crossed into etching rather than selling another round of cleaning that cannot work. Windows, screens, frames, and sills are all handled in the same visit as part of our [window washing service](/services/window-washing).
+Aloha Window Bros runs the wet test and the coating check before touching a spotted pane, cleans with purified water so the rinse is not adding the next deposit, and says plainly when a window has crossed into etching rather than selling another round of cleaning that cannot work. Windows, [screens](/blog/window-screen-cleaning-service/), frames, and sills are all handled in the same visit as part of our [window washing service](/services/window-washing).
 
 ## Frequently asked questions
 
