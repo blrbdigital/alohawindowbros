@@ -1,3 +1,48 @@
+## 2026-09-04 - Trailing-slash 301s (the "no in-repo lever" premise was false), relative redirects, two orphan pages linked
+
+**Primary action: `.blrb/nginx_spa.conf` now 301s every slashless URL onto its trailing-slash form.**
+Since launch, `/blog/x` and `/blog/x/` both returned HTTP 200 with byte-identical HTML, because
+`try_files $uri $uri/index.html` resolves the slashless form to the same file. Google indexed both
+and, worse than splitting them evenly, **ranked them differently per query**. The `query x page`
+join for 08-05..09-01: *skylight cleaning* is 77 impr @ **14.4** on `/blog/skylight-cleaning-service/`
+and 44 @ **22.6** on the slashless variant, while *skylight cleaner* is 18 @ **6.4** slashless
+against 11 @ **13.9** on the slash form. **~258 non-brand impressions** sit on slashless duplicates
+(`best-streak-free-window-cleaner` 118, `skylight-cleaning-service` 110, `window-cleaning-business`
+24, `window-screen-cleaning-service` 6) out of 3,986 non-brand sitewide.
+
+**The site map said for five weeks that there was no in-repo lever for this and that
+`.blrb/nginx_spa.conf` was inert. That was false.** `/usr/local/bin/deploy_alohawindowbros_com.real`
+lines 47-77 read the repo-committed conf on every deploy, sed the root, mount it at
+`/etc/nginx/conf.d/default.conf` and reload. That file IS the site's live nginx config and every
+`git push` ships it. Three places in the site map repeated the wrong claim; all three are corrected.
+
+**Also fixed: `absolute_redirect off;`.** SSL terminates upstream at the NPM proxy, so nginx built
+every Location header as `http://alohawindowbros.com/...`. Verified live before the change:
+`/agoura.html` returned `location: http://alohawindowbros.com/agoura/`. Every 301 this site serves
+was costing an extra http-to-https hop. Location headers are now relative and scheme-preserving.
+
+**Verified in a scratch nginx container over a copy of `dist/` before pushing**, 34-route matrix:
+homepage 200 (no `//` loop), `/blog/x` and `/thousand-oaks` 301 to the slash form with the query
+string preserved, `robots.txt` / `sitemap-index.xml` / `llms.txt` / the IndexNow key still 200,
+`/blog/nope` still 404 (not 301-to-404), all six WordPress 301s and both `.html` city redirects
+unchanged, and `/wp-admin` still 410. The four bare `wp-*` prefix locations were changed to `^~`,
+because a plain prefix location loses to a regex location and they would otherwise have stopped
+returning 410.
+
+**Secondary action: two orphaned informational posts went from 0 inbound internal links to 3 each.**
+`/blog/streak-free-window-cleaning-cloth/` (45 non-brand impr, *streak free glass cloth* 27 @ 13.1)
+is now linked from `best-streak-free-window-cleaner`, `window-washing-squeegee` and
+`window-washing-soap`. `/blog/commercial-window-cleaning-company/` (37 non-brand impr) is now linked
+from `commercial-window-cleaning-prices`, `window-cleaning-company` and `window-cleaning-quotes`.
+Both had **zero** inbound links while every other informational-family page had 2 to 5.
+`internal_links` is the only action type on the scoreboard with a clean record (2 wins, 0 fails).
+
+**No new content.** The service x city matrix is complete and nothing cleared the information-gain
+bar today. No `title_meta` and no `gbp`: the entire CTR-outlier table is either the GBP listing at
+position 1.0 (*window cleaning* 139 impr, *commercial window cleaning* 52 impr, both map-pack
+suspects where organic rank cannot win the click) or pages mid-experiment with review dates still
+open.
+
 ## 2026-09-02 - Rebuilt the screen cleaning service page, eighth Outrank audit, and a NEW defect class
 
 **Primary action: `/blog/window-screen-cleaning-service/` rebuilt as the SIXTH member of the

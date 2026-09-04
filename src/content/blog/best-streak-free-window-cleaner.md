@@ -38,7 +38,7 @@ A streak is not dirt. It is something left on the glass after the cleaning, and 
 1. **Too much product.** Surfactants and dyes have to go somewhere. If you spray until the pane runs and then wipe with a saturated cloth, you are spreading a thin film of cleaner rather than removing it.
 2. **Mineral deposits from the water.** Sprinkler overspray, a garden hose rinse, or a bucket mixed with tap water all put dissolved solids on the glass. They stay when the water evaporates.
 3. **Flash drying.** Glass in direct sun can be 30 to 40 degrees hotter than the air. The solution dries before the wipe reaches it, and the residue sets where it landed.
-4. **The wrong cloth.** Paper towel sheds lint. A microfiber cloth washed with fabric softener is coated in exactly the kind of film you are trying to remove.
+4. **The wrong cloth.** Paper towel sheds lint. A microfiber cloth washed with fabric softener is coated in exactly the kind of film you are trying to remove. Our [streak free window cleaning cloth guide](/blog/streak-free-window-cleaning-cloth/) covers which weaves finish glass and how to wash them without ruining the fiber.
 5. **Contamination you did not clean.** Frames, tracks, and screens hold dust and mineral crust. The next dew or drizzle runs that down a clean pane overnight.
 
 Notice that only one of those five is influenced by which cleaner you buy. That is the core finding of this guide, and it is why the picks further down are organised by job rather than ranked one to seven.

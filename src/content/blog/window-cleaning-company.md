@@ -174,7 +174,7 @@ Use this checklist before you approve any window cleaning company. It keeps the 
 
 2. **Inspect the difficult areas.** Identify second-story windows, roof-adjacent panes, steep landscaping, fragile surfaces, and locked or restricted areas. Ask the company to explain its access method before the appointment.
 
-3. **Request documents.** Obtain current insurance evidence and bonding information when relevant. For commercial properties, HOAs, and managed buildings, confirm that the contractor can meet the site's documentation requirements.
+3. **Request documents.** Obtain current insurance evidence and bonding information when relevant. For commercial properties, HOAs, and managed buildings, confirm that the contractor can meet the site's documentation requirements. Our [commercial window cleaning company guide](/blog/commercial-window-cleaning-company/) walks through those requirements in detail.
 
 4. **Compare written scopes.** Get estimates that state what is included, what costs extra, and what conditions could change the price. A free estimate isn't useful if the final invoice depends on undefined add-ons.
 

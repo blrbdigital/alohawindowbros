@@ -130,7 +130,7 @@ Coastal glass and inland glass fail for different reasons. Near the ocean, salt 
 
 Along the coast, I see homeowners reach for extra soap because the glass looks stubborn. That instinct usually backfires. Salt film needs a controlled wash and careful squeegee work, and too much product leaves a gummy edge that attracts more airborne dust on the next breezy day.
 
-A local service page for [California window cleaning conditions](https://alohawindowbros.com/blog/ca-window-cleaning/) fits this reality well, because coastal intervals are shorter and the window needs attention before the buildup gets baked on. That's also why I prefer cleaner frames, fresh microfiber, and a measured bucket over a bubbling solution.
+A local service page for [California window cleaning conditions](https://alohawindowbros.com/blog/ca-window-cleaning/) fits this reality well, because coastal intervals are shorter and the window needs attention before the buildup gets baked on. That's also why I prefer cleaner frames, fresh microfiber, and a measured bucket over a bubbling solution. Which microfiber you finish with is its own decision, and our [streak free window cleaning cloth guide](/blog/streak-free-window-cleaning-cloth/) breaks down the weaves and the wash routine.
 
 <a id="inland-dust-and-sprinkler-minerals-need-different-tactics"></a>
 ### Inland dust and sprinkler minerals need different tactics

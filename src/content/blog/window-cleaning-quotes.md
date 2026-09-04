@@ -107,7 +107,7 @@ Use the band as a sanity check, not a promise. A small inland home with clear gr
 | Skylights, French panes, or specialty glass | Priced on inspection | Method depends on the glazing material |
 | Coastal exposure, Ojai or Santa Barbara | $200 to $475 band | Salt film and harder water take more labor |
 
-Commercial quotes use different models because businesses may have larger panes, more glass, restricted work hours, and tighter access conditions. A storefront priced by the square foot and a house priced by the visit are not comparable line by line, which is the single most common reason a homeowner concludes that one of two bids must be wrong. [This per-window cost guide](/blog/window-washing-cost-per-window/) explains why.
+Commercial quotes use different models because businesses may have larger panes, more glass, restricted work hours, and tighter access conditions. A storefront priced by the square foot and a house priced by the visit are not comparable line by line, which is the single most common reason a homeowner concludes that one of two bids must be wrong. [This per-window cost guide](/blog/window-washing-cost-per-window/) explains why, and our guide to [choosing a commercial window cleaning company](/blog/commercial-window-cleaning-company/) covers what to ask once the bids are in.
 
 Ask the provider to separate storefront glass, doors, skylights, French panes, solar-panel-safe cleaning, and restoration. A recurring service may cost more per visit than the lowest one-time bid, yet deliver better value when the scope stays clear and the property avoids repeated buildup.
 

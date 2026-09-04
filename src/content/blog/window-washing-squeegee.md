@@ -122,7 +122,7 @@ Then move with purpose. Begin at the top of the glass, pull the blade in one ste
 2. **Wet the glass evenly.** Use enough solution to loosen dirt, but not so much that it floods the frame.
 3. **Pull from the top down.** Gravity helps, and you're less likely to leave water sitting in the path of the next stroke.
 4. **Wipe the blade often.** A dirty rubber edge leaves the same marks you were trying to remove.
-5. **Detail the edges and sill.** A dry cloth catches the drips that the blade can't reach.
+5. **Detail the edges and sill.** A dry cloth catches the drips that the blade can't reach, and the weave matters here more than people expect. See our [streak free window cleaning cloth guide](/blog/streak-free-window-cleaning-cloth/) for which cloth to finish with.
 
 The pressure matters as much as the path. Too much force can cause chatter lines, while too little can leave a thin film behind. The goal is a light, steady contact that keeps the rubber edge sealed to the glass without scraping it.
 

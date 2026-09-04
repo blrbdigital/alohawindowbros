@@ -4,6 +4,137 @@
 
 ---
 
+### 2026-09-04
+
+**What we did:**
+- **technical (primary): shipped the trailing-slash 301 in `.blrb/nginx_spa.conf`.** Two regex
+  locations 301 any slashless path that resolves to a directory onto its `/`-terminated form.
+  `/blog/skylight-cleaning-service` and `/thousand-oaks` now redirect instead of both answering 200
+  with identical HTML.
+- **technical: `absolute_redirect off;`.** Every 301 this site served built its Location header as
+  `http://alohawindowbros.com/...` because SSL terminates upstream; verified live before the change
+  on `/agoura.html` and `/sitemap.xml`. Redirects are now relative and scheme-preserving.
+- **technical: the four bare `wp-*` prefix locations became `^~`**, so they keep returning 410 now
+  that regex locations exist above them.
+- **internal_links: two orphaned informational posts went from 0 inbound internal links to 3 each.**
+  `/blog/streak-free-window-cleaning-cloth/` from `best-streak-free-window-cleaner`,
+  `window-washing-squeegee`, `window-washing-soap`.
+  `/blog/commercial-window-cleaning-company/` from `commercial-window-cleaning-prices`,
+  `window-cleaning-company`, `window-cleaning-quotes`.
+- **Corrected a false claim in three places in `.claude-site-map.md`** (see below). No new content.
+
+**Why we did it (brief numbers):**
+- **The premise that blocked this for five weeks was false.** The site map said in three separate
+  places that `.blrb/nginx_spa.conf` "is inert", is "not shipped by the GitHub Actions site deploy",
+  and that the only fix was a live edit to the NPM proxy host needing Adam. Reading
+  `/usr/local/bin/deploy_alohawindowbros_com.real` lines 47-77 shows the deploy reads the
+  repo-committed conf, seds the root, mounts it at `/etc/nginx/conf.d/default.conf` and reloads, on
+  **every push**. The comment in the deploy script itself reads "a repo-committed conf always wins".
+  This was an in-repo, no-approval-needed, zero-content action the whole time.
+- **The split is now the largest single unforced loss on the board.** The `query x page` join for
+  08-05..09-01 puts **~258 non-brand impressions** on slashless duplicates against **3,986 non-brand
+  impressions sitewide**, so roughly **6.5% of all non-brand impressions** are on URLs that should
+  not exist. `/blog/best-streak-free-window-cleaner` 118, `/blog/skylight-cleaning-service` 110,
+  `/blog/window-cleaning-business` 24, `/blog/window-screen-cleaning-service` 6.
+- **The two variants rank differently, which is worse than a clean split.** *skylight cleaning*:
+  77 impr @ **14.4** on the slash URL, 44 @ **22.6** on the slashless. *skylight cleaner*: 18 @
+  **6.4** slashless against 11 @ **13.9** on the slash. Google is choosing a different variant per
+  query on the same page, which is exactly the signal-dilution the canonical tag was supposed to
+  prevent and has not.
+- **The brief's #1 and #2 pages are both affected.** `/blog/best-streak-free-window-cleaner/` is the
+  site's strongest page (1,025 non-brand impr, 3 of the site's 7 non-brand clicks) and it is leaking
+  118 impressions to its own duplicate. `/blog/skylight-cleaning-service/` is leaking 110, and its
+  head query *skylight cleaning* leads the striking-distance table at 121 impr @ 17.4.
+- **This does not disturb any open experiment.** Six informational rebuilds are under evaluation
+  (mid-September through late October). A 301 that removes a duplicate URL strengthens the page
+  being graded rather than adding a competing surface, which is the opposite of the failure the
+  08-28 consolidate-on-arrival rule exists to prevent.
+- **`internal_links` chosen for the secondary action because it is the only type with a clean
+  scoreboard** (2 wins, 0 partial, 0 fails). `/blog/streak-free-window-cleaning-cloth/` (45 non-brand
+  impr, *streak free glass cloth* 27 @ 13.1) and `/blog/commercial-window-cleaning-company/` (37
+  non-brand impr) both had **zero** inbound internal links, while every other page in the
+  informational family had 2 to 5. Those were the only two true orphans with real impressions.
+- **No `title_meta` and no `gbp`, deliberately.** The playbook ranks `title_meta` first when the
+  CTR-outlier table is non-empty and it is, but the join disqualifies every row: *window cleaning*
+  (139 impr @ 1.0) and *commercial window cleaning* (52 @ 1.0) are the **GBP listing**, not this
+  site, and `gbp` grades **0 wins / 3 fails**; the Santa Barbara, Thousand Oaks, Agoura and Camarillo
+  rows are map-pack queries where `title_meta` grades **2 wins / 4 partial / 4 fails**, its worst
+  record; and the informational rows are all mid-experiment. Re-treating a page mid-experiment
+  destroys the read.
+- **No new content.** The service x city matrix is complete and nothing cleared the information-gain
+  bar today.
+
+**How it was verified (do this for any future nginx change):**
+- Built `dist/`, then booted a scratch `nginx:alpine` container over a copy of it with the same sed
+  transform the deploy applies, and ran a 34-route matrix.
+- Homepage **200** with no `//` loop; `/blog/skylight-cleaning-service` and `/thousand-oaks`
+  **301** to the slash form; `?utm=x` preserved through the redirect; `robots.txt`,
+  `sitemap-index.xml`, `llms.txt`, `favicon.ico` and the IndexNow key still **200**; `/blog/nope`
+  and `/nonexistent` still **404** rather than 301-ing to a 404; all six WordPress blog 301s, the
+  three service 301s, the four `.html` city 301s, `= /index.html`, `= /service`, `= /schedule` and
+  `= /sitemap.xml` unchanged; `/wp-admin`, `/wp-admin/x`, `/wp-json`, `/xmlrpc.php` still **410**.
+- `Location: /blog/skylight-cleaning-service/` confirmed relative after `absolute_redirect off`.
+- Gotcha logged in the site map: **put the scratch mount under `$HOME`, not `/tmp`.** Colima does
+  not mount `/tmp`, which silently yields an empty `/etc/nginx/conf.d`; `nginx -t` still passes and
+  every request is refused, which looks like a broken config and is not one.
+
+**Expected impact:**
+- The slashless duplicates should go to **zero impressions within 4 to 6 weeks** as Google processes
+  the 301s, with their ~258 non-brand impressions consolidating onto the slash URLs.
+- *skylight cleaning* on `/blog/skylight-cleaning-service/` from **17.4** (brief) / **14.4** (join)
+  to **10 to 14**, as the 44 impressions ranking at 22.6 stop competing with it.
+- `/blog/best-streak-free-window-cleaner/` should hold or improve on 1,025 non-brand impr and 3
+  clicks while `/blog/best-streak-free-window-cleaner` (no slash) falls to zero.
+- **Honest risk, stated up front:** *skylight cleaner* currently ranks BETTER on the slashless URL
+  (6.4) than the slash URL (13.9), and the 301 sends it to the weaker-ranking variant. Consolidation
+  is still correct (the canonical and the sitemap have named the slash form all along, so this
+  removes an inconsistency rather than creating one), but if that query drops below ~14 and does not
+  recover by the review date, the honest read is that Google's per-query variant choice was worth
+  more than consolidation and the rule should be revisited.
+- Every redirect on the site also loses one http-to-https hop, which is small but free.
+- The two orphan pages: modest. 3 inbound links on a 45-impression page is a push, not a
+  transformation. The measurable expectation is *streak free glass cloth* from 13.1 into the top 10
+  and the pages holding or growing their impression base.
+
+**Metrics at time of action (GSC 2026-08-05..2026-09-01 vs prior 28d):**
+- Sitewide: 71 clicks (from 83, -14%), 4,954 impressions (from 2,580, +92%).
+- Non-brand: **7 clicks** (from 3), 4,192 impressions (from 1,739, +141%), 559 queries (from 233).
+- Non-brand impressions on slashless duplicate URLs: **~258 (6.5% of all non-brand impressions)**.
+- `/blog/best-streak-free-window-cleaner/` 1,025 non-brand impr / 3 clicks, plus 118 / 0 slashless.
+- `/blog/skylight-cleaning-service/` 154 non-brand impr / 0 clicks, plus 110 / 0 slashless.
+- `/blog/streak-free-window-cleaning-cloth/` 45 non-brand impr / 0 clicks, 0 inbound links.
+- `/blog/commercial-window-cleaning-company/` 37 non-brand impr / 0 clicks, 0 inbound links.
+- Map pack: ours in 5 of 11 snapshot queries; 213 reviews vs incumbent average 114.
+- **Review 2026-10-16** (6 weeks), alongside the open informational-family reads.
+
+**Logged, NOT actioned, with reasons:**
+1. **GBP remains the largest unaddressed surface and it is not in this repo.** *window cleaning* 139
+   impr @ 1.0, *commercial window cleaning* 52 @ 1.0, *window cleaning near me* 8 @ 3.6 on the GBP
+   listing plus 45 @ 1.0 on `/`, *window cleaning newbury park* 16 @ 1.0 on `/`, *window cleaning
+   agoura hills ca* 7 @ 1.0. The geo-grid has us **ABSENT at Newbury Park, Agoura Hills, Oak Park
+   and Camarillo** against incumbents holding 2 to 21 reviews while our listing carries 213. **The
+   `http://` to `https://` fix in the GBP website field is still unfixed since 2026-07-24 and is
+   still the single highest-yield action available to Adam.**
+2. **`/camarillo/` is new on the board and worth watching, not treating yet.** It took **117
+   non-brand impressions** this window from nothing prior, with *window cleaning camarillo* 41 @ 8.4
+   and *window washing camarillo* 19 @ 9.8. It already has 9 inbound internal links (mid-pack) and
+   full `CityLanding` content, so there is no cheap lever; the Camarillo pack incumbents are
+   beatable (Guerrero 13 reviews) but that is GBP work. Re-read at the next brief.
+3. **`/santa-barbara/` is being ignored by Google in favour of the homepage.** Santa Barbara queries
+   put **225 impressions on `/` at positions 8.4 to 9.7** and only 19 on `/santa-barbara/`, whose own
+   rows sit at 35.8 and 44.0. This is the same shape as the hard-water case resolved on 08-26, where
+   the tiebreak was which URL Google actually ranks. Do not treat `/santa-barbara/` as the SB page on
+   the assumption that it should be; run the join first.
+4. **The eight-country "top affordable glass cleaner ... in <country>?" population is unchanged and
+   still not actionable.** ~365 impressions at positions 7.8 to 9.6, every row on
+   `/blog/best-streak-free-window-cleaner/`, zero clicks. Templated phrasing plus a country list is
+   synthetic or agent traffic, not Ventura County homeowners. Same rule as the Newbury/Berkshire and
+   Thousand Palms populations.
+5. **`best window cleaner`: 59 impressions at position 37.6.** Page 4 on a national head term. Not
+   recoverable by anything available in this repo; noted so it is not mistaken for striking distance.
+
+---
+
 ### 2026-09-02
 
 **What we did:**
