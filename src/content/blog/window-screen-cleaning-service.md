@@ -45,7 +45,7 @@ The reason this matters financially is simple. A cleaning is the cheapest of the
 The order of operations is the whole difference between a service and a rinse.
 
 1. **Removal and inspection.** Screens come out one at a time and are checked for tears, bent corners, loose spline, and frame damage before any water touches them. Damaged units get flagged rather than washed blindly.
-2. **Dry pass first.** Loose debris comes off with a soft brush before the screen is wet. Skipping this step turns dry grit into mud and drives it into the weave.
+2. **Dry pass first.** Loose debris comes off with a soft brush before the screen is wet. Skipping this step turns dry grit into mud and drives it into the weave. If you are buying your own, the [window screen cleaner brush guide](/blog/window-screen-cleaner-brush/) explains why bristle material and face size decide whether the pass cleans or damages the mesh.
 3. **Low-pressure wash.** A mild solution and a soft brush or mitt, with rinsing volume rather than jet force. Pressure is what stretches mesh and pops spline out of the channel.
 4. **Full drying.** Screens need time to dry before they go back. A damp screen reinstalled into an opening traps moisture against the frame and the sill.
 5. **Square reinstallation.** The screen is seated so it does not rattle, bow, or pop loose later, which is also what makes it easy to remove next time.

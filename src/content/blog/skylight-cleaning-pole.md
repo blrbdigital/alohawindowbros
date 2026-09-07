@@ -199,6 +199,31 @@ A residential pole may be reasonable when the skylight is accessible from level 
 
 For homeowners comparing service options, [professional skylight cleaning](https://alohawindowbros.com/blog/skylight-cleaning-service/) can be arranged as part of a broader window-care visit rather than treated as an isolated reach problem. A qualified crew should explain the access method, protect the surrounding area, and provide a clear estimate before work begins.
 
+## Frequently Asked Questions
+
+<div class="faq-list">
+<details class="faq-item">
+<summary>How long a pole do you need to reach a skylight?</summary>
+<p>Measure the vertical distance to the top edge of the glazing and add working slack, because a pole held at full extension at a steep angle is hard to control. Lightweight telescopic poles in the 18 to 30-foot range cover most single and two-story residential skylights and typically weigh about 1.15 to 2.10 kilograms, while professional water-fed systems reach roughly 25 metres, or about 80 to 90 feet ([Ionic Systems technical guidance](https://ionicsystems.com.au/frequently-asked-questions-how-to-do/)). Those upper figures describe capability, not a recommendation for a homeowner.</p>
+</details>
+<details class="faq-item">
+<summary>Can you use a water-fed pole on a skylight?</summary>
+<p>Yes, and it is the preferred method for exterior skylight glass. The pole feeds purified water through the shaft to a brush head, so the glass is agitated and rinsed in one pass and left to dry without a squeegee. Because the water has had its dissolved minerals removed, it evaporates without leaving the spotting that ordinary hose water deposits. That matters more overhead than at eye level, since a skylight cannot be quickly re-wiped once the operator has moved the pole.</p>
+</details>
+<details class="faq-item">
+<summary>How far should a cleaning pole stay from power lines?</summary>
+<p>At least 10 feet under OSHA rules, and 15 feet is the safer working figure because it allows for pole flex, wind, and the water running down the shaft ([power-line safety guidance for window cleaners](https://jracenstein.com/expert-advice-learning/power-line-safety-for-window-cleaners)). Use the larger separation whenever the property allows it. Carbon and wet poles both conduct, and the Federation of Window Cleaners identifies contact with overhead lines as a severe electrocution risk in water-fed pole work.</p>
+</details>
+<details class="faq-item">
+<summary>Is a carbon-fiber pole worth it for skylight cleaning?</summary>
+<p>It depends on how long the brush stays overhead. Carbon-fiber systems can reduce weight by up to 30 percent compared with traditional aluminum, and carbon fiber now accounts for roughly 25 percent of professional-grade telescopic poles, up from 8 percent five years earlier ([equipment and care guide](https://images.thdstatic.com/catalog/pdfImages/a4/a4229b2e-d061-45e5-9547-91380d075835.pdf)). For one or two skylights a few times a year, aluminum is usually sufficient. For sustained overhead work, the weight saving is the difference between control and fatigue.</p>
+</details>
+<details class="faq-item">
+<summary>Can you clean a skylight with a regular extension pole and a squeegee?</summary>
+<p>On glass you can reach at a workable angle, yes, but two things make it harder than a wall window. A skylight sits at a pitch, so the squeegee blade meets the glass at an angle that sheds water sideways rather than down, and the solution flash dries faster on a sun-facing pane. Work early or late in the day, soak the glass first, and pull in overlapping passes toward the low edge. For anything above single-story reach, a water-fed system removes the squeegee problem entirely.</p>
+</details>
+</div>
+
 ---
 
 Aloha Window Bros cleans skylights and hard-to-reach glass with purified water-fed pole systems, serving homes and properties across Ventura County and Santa Barbara County. Visit [Aloha Window Bros](https://alohawindowbros.com) to request a free estimate and discuss the safest ground-based approach for your skylight.

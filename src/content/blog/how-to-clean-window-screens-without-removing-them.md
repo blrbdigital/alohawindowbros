@@ -61,7 +61,7 @@ Two rows deserve emphasis. **Retractable screens must be completely dry before t
 <a id="the-five-step-method"></a>
 ## The five step method
 
-Set out a soft brush vacuum attachment, two or three clean microfiber cloths, a spray bottle, and a towel or drop cloth for under the window. Skip the stiff brush, the hose, and anything with bleach or ammonia in it.
+Set out a soft brush vacuum attachment, two or three clean microfiber cloths, a spray bottle, and a towel or drop cloth for under the window. Skip the stiff brush, the hose, and anything with bleach or ammonia in it. Bristle choice matters more than most people expect, because steel and brass shred fiberglass mesh; the [window screen cleaner brush buyer's guide](/blog/window-screen-cleaner-brush/) sets out which material and face size suit each screen type.
 
 1. **Protect underneath.** Lay the towel across the sill and the floor below. Dust that comes off the mesh has to land somewhere, and so does any moisture you use.
 2. **Dry pass, top to bottom.** Run the soft brush attachment down the mesh with light pressure, letting gravity carry the debris away from what you have already cleaned. Slow down at the corners and along the frame edges, where the buildup is heaviest. No vacuum handy? A dry microfiber cloth or a soft paint brush does the same job more slowly.
@@ -123,6 +123,10 @@ For the local detail on what lands on your mesh and when, see our [screen cleani
 <details class="faq-item">
 <summary>Can you clean outside windows without removing the screens?</summary>
 <p>Not to a finished standard. A screen blocks a squeegee from reaching the exterior pane, so the best you can achieve through the mesh is a partial wipe that leaves the glass streaked. If the goal is clean glass rather than a clean screen, the screen has to come out for the pane and go back afterwards. That is one visit for a professional and the reason full service window cleaning includes screen removal.</p>
+</details>
+<details class="faq-item">
+<summary>Does Windex outdoor window cleaner work through screens?</summary>
+<p>It is designed to, but it solves a different problem than the one most people have. Hose-end outdoor cleaners are built to rinse the exterior pane without a squeegee, and spraying one through an intact screen wets the mesh and the glass together. The catch is the rinse: the product is carried off by ordinary tap water, and across most of Ventura County that water leaves about 140 milligrams per liter of dissolved minerals behind as it dries. You trade a dusty screen for a spotted pane. For a finished result the screen comes out, the glass is squeegeed, and the screen goes back.</p>
 </details>
 <details class="faq-item">
 <summary>How often should window screens be cleaned?</summary>

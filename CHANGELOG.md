@@ -1,3 +1,47 @@
+## 2026-09-07 - FAQPage schema for the three newest posts, orphan links closed, one live PAA answered
+
+**Primary action: the three most recently published posts all shipped with zero FAQ schema and
+zero-to-one inbound internal links. Both defects are now fixed.**
+`how-to-clean-skylights` (published 09-06), `skylight-cleaning-pole` (09-06) and
+`window-screen-cleaner-brush` (09-03) each had **no `<details>/<summary>` block at all**, so the
+blog template's schema deriver emitted **no `FAQPage` node** for any of them. Each now carries a
+five-question FAQ written against the live PAA for its target query, verified in `dist/` with the
+`grep -o` form (Q == summary parity, 5 == 5 on all three; the site map's earlier `grep -c` advice is
+degenerate on minified output and must not be used).
+
+**Inbound internal links: `how-to-clean-skylights` 0 -> 2, `window-screen-cleaner-brush` 0 -> 3,
+`skylight-cleaning-pole` 1 -> 3.** Donors are the strongest pages in each cluster:
+`skylight-cleaning-service` (288 impr) and `window-cleaning-for-high-windows` (452 impr, pos 10.7)
+into the skylight pair; `how-to-clean-window-screens-without-removing-them` (432 impr),
+`window-screen-cleaning-service` and `screen-cleaning-spray` into the brush guide. This is the same
+action that graded a **win** on 09-04 and it is the only action type on this site with a clean
+record (internal_links 2-0-0).
+
+**`how-to-clean-window-screens-without-removing-them` gained the one live PAA it was missing**
+("Does Windex outdoor window cleaner work through screens?"), taking it 6 -> 7 FAQ items. That page
+holds **103 US impressions at position 10.4** for its exact-match head query, the best real
+striking-distance target on the board.
+
+**Why these clusters and not the ones at the top of the brief.** A country probe
+(`gsc-country-probe.py`, 08-08..09-04) was run before choosing, and it disqualified most of the
+brief's headline rows:
+- The brief's #1 CTR outlier, *window cleaning* at 132 impr / pos 1.5 / 0 clicks, is **the Google
+  Business Profile listing, not the website**: the join splits it `GBP:/` 114 impr @ 1.0 against
+  `/` 15 @ 1.0. Same for *commercial window cleaning* (52 @ 1.0). No on-site title can win these.
+- *best no streak window cleaner* is **276 US impr @ 1.8 with zero clicks**, on the same page that
+  carries the documented synthetic country-template population, plus literal ChatGPT persona
+  prompts appearing as queries ("i am a 35-44 or 45-54 year old male in the automotive..."). Every
+  streak-free SERP in the snapshot shows an AI Overview and we are **not in the top 10** on the two
+  head variants. Treated as non-clickable, consistent with the standing rule on that page.
+- By contrast the **skylight** and **screen** clusters probe as essentially **100% `usa`** with
+  ordinary human phrasing, and both sit at page-2 positions where movement is worth clicks.
+
+**Also verified:** the 09-04 trailing-slash 301 is live and correct in production
+(`/blog/skylight-cleaning-service` and `/thousand-oaks` both return 301, relative Location).
+
+**No new content.** The service x city matrix is complete and nothing cleared the information-gain
+bar today. No em or en dashes; build passes; all internal links resolve.
+
 ## 2026-09-04 - Trailing-slash 301s (the "no in-repo lever" premise was false), relative redirects, two orphan pages linked
 
 **Primary action: `.blrb/nginx_spa.conf` now 301s every slashless URL onto its trailing-slash form.**

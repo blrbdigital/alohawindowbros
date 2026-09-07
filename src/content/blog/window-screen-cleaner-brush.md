@@ -202,6 +202,31 @@ You can make a sound purchase without memorizing every brush style. Start with t
 
 A properly matched brush helps remove the material that blocks airflow and holds allergens, while gentle technique protects the screen's actual structure.
 
+## Frequently Asked Questions
+
+<div class="faq-list">
+<details class="faq-item">
+<summary>What is the best brush for cleaning window screens?</summary>
+<p>A soft-to-medium synthetic nylon brush with a broad face is the right general-purpose choice for fiberglass and vinyl-coated mesh. Steel and brass bristles should be avoided entirely because they shred fiberglass fibers ([mesh-safe screen brush guidance](https://gardeningbeyond.com/best-cleaner-for-window-screens/)). A face of at least about 7 by 3 inches covers open panels efficiently, and a smaller head is worth keeping for tracks, corners, and the frame channel where most of the trapped grit actually sits.</p>
+</details>
+<details class="faq-item">
+<summary>What is the easiest way to clean window screens?</summary>
+<p>Dry-brush first, then wash only if the dry pass leaves a film. Most screen soil is loose dust and pollen that lifts off with a soft brush or a vacuum brush attachment in under a minute per screen, and skipping that step means the first splash of water turns the dust into mud that has to be worked out of the mesh. If a wash is needed, take the screen out, lay it flat, brush with mild dish soap and water, rinse at low pressure, and dry it fully before it goes back.</p>
+</details>
+<details class="faq-item">
+<summary>What is the best spray for cleaning window screens?</summary>
+<p>Plain water handles most maintenance cleaning, and mild dish soap in water is the standard step up. Skip anything harsher: ammonia can degrade fiberglass mesh over time and abrasive products damage both the mesh coating and the frame ([screen maintenance guidance](https://www.beakbusterwindowcleaning.com/post/easy-ways-to-maintain-clean-screens-on-your-windows)). No solution compensates for a brush that is too stiff, which is the more common cause of damage. Our [screen cleaning spray guide](/blog/screen-cleaning-spray/) compares the options in more detail.</p>
+</details>
+<details class="faq-item">
+<summary>How do you make old window screens look new again?</summary>
+<p>Clean them flat, then judge whether the mesh is dirty or simply aged. A removed screen washed on a flat surface with a soft brush and rinsed at low pressure recovers most of its appearance and nearly all of its airflow. What cleaning cannot fix is mesh that has gone brittle and grey from UV exposure, a shrunken spline that lets the mesh sag, or a frame that no longer sits square. Those are rescreening jobs, and paying to wash them buys nothing.</p>
+</details>
+<details class="faq-item">
+<summary>How often should you brush window screens?</summary>
+<p>A soft-bristle cleaning every three months is the general recommendation, and more often in dusty or high-pollen settings ([screen maintenance advice](https://www.beakbusterwindowcleaning.com/post/easy-ways-to-maintain-clean-screens-on-your-windows)). Ventura County and Santa Barbara County homes usually sit at the more frequent end, because coastal properties collect salt aerosol and inland properties collect wind-driven dust, and there is very little summer rain to rinse either one away. Routine brushing is what stops dust becoming a compacted crust of pollen, grit, and moisture.</p>
+</details>
+</div>
+
 ---
 
 Aloha Window Bros cleans, rinses, dries, and reinstalls window screens using soft brushes and purified water for homes and businesses in Ventura County and Santa Barbara County. Visit [Aloha Window Bros](https://alohawindowbros.com) to request a free on-site quote for screen, frame, sill, and window cleaning.

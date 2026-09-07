@@ -176,6 +176,31 @@ Hire a professional when the skylight is fixed, very high, difficult to reach, h
 
 A clear quote should identify the access method, surface materials, included detailing, and any conditions that would require repair rather than cleaning. That information helps you choose the right solution instead of paying for repeated cleaning when condensation, seal failure, or damaged glazing is the underlying problem.
 
+## Frequently Asked Questions
+
+<div class="faq-list">
+<details class="faq-item">
+<summary>How do you clean skylights without getting on the roof?</summary>
+<p>Use a telescopic or water-fed pole from level ground and clean the exterior pane top down. This is the recommended approach for most homes because OSHA classes a skylight as a hole rather than a walking surface and requires fall protection for work above four feet ([29 CFR 1910.28(b)(3)(i)](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.28)). Ground-based water-fed systems can support work at roughly 20 metres, or about 65 to 70 feet, which covers the great majority of residential skylights without anyone leaving the ground.</p>
+</details>
+<details class="faq-item">
+<summary>How do you clean plastic or polycarbonate skylights?</summary>
+<p>Use liquid dish detergent diluted in water with a soft cloth or chamois, then rinse and blot dry. Nothing stronger. The Architectural Specialties dome maintenance manual explicitly prohibits Windex and other household cleaners on plastic domes, along with acetone, gasoline, benzene, carbon tetrachloride, and lacquer thinner ([Architectural Specialties](https://archsp.com/wp-content/uploads/2019/12/Skylight-Maintenance.pdf)). Those solvents craze acrylic and polycarbonate, and unlike surface dirt the resulting clouding is permanent because a crazed dome cannot be polished back to clear.</p>
+</details>
+<details class="faq-item">
+<summary>How do you clean the inside of a skylight without drips?</summary>
+<p>Control how much liquid is on the tool rather than how much is on the glass. Spray the cloth, never the pane, so nothing can run down the shaft and onto the ceiling or floor below. Work in overlapping passes from the top edge downward, keep a dry lint-free cloth in your other hand to catch the bottom edge, and cover the floor beneath the opening first. On a high ceiling, a pole-mounted microfiber pad holds far less water than a sponge and is the safer choice.</p>
+</details>
+<details class="faq-item">
+<summary>How do you clean a skylight screen?</summary>
+<p>Dry first, damp second, dry again, and do not hose it in place. Vacuum the mesh with a soft brush attachment, wipe it with a barely damp microfiber cloth, then blot it dry before closing the unit. Water that runs off a screen lands on the glass beneath it, and across most of Ventura County that water carries about 140 milligrams per litre of dissolved minerals ([California American Water Consumer Confidence Report](https://www.amwater.com/ccr/thousandoaks.pdf)), which dry as spotting on the pane you just cleaned. The full method is in our guide to [cleaning window screens without removing them](/blog/how-to-clean-window-screens-without-removing-them/).</p>
+</details>
+<details class="faq-item">
+<summary>Can you pressure wash a skylight?</summary>
+<p>No. Force directed at the perimeter can dislodge gaskets and flashing and drive water into the roof assembly, and on a plastic dome it abrades the surface. A skylight is also a designed opening rather than a solid surface, so pressure applied from above carries a fall-through risk that a wall window does not. Low-pressure rinsing with a soft brush and purified water achieves a better finish with none of that exposure.</p>
+</details>
+</div>
+
 ---
 
 Aloha Window Bros cleans skylights and hard-to-reach glass with purified water-fed pole systems, while also detailing windows, screens, frames, and sills for residential and commercial properties. Visit [Aloha Window Bros](https://alohawindowbros.com) to request a free on-site or virtual estimate and discuss the safest approach for your skylights in Ventura County or Santa Barbara County.

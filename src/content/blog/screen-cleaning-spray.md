@@ -135,7 +135,7 @@ A spray-and-cloth routine makes sense for a laptop, monitor, or television when 
 <a id="when-soap-and-water-win"></a>
 ### When soap and water win
 
-Removable screens can often benefit from a mild soap solution, soft brush or microfiber mitt, and a clean rinse. This approach lets water carry loosened pollen and dust away instead of merely redistributing them. Drying matters because trapped moisture can leave marks on frames and can encourage grime to stick again.
+Removable screens can often benefit from a mild soap solution, soft brush or microfiber mitt, and a clean rinse. No solution compensates for the wrong bristle, which is what the [window screen cleaner brush guide](/blog/window-screen-cleaner-brush/) covers in detail. This approach lets water carry loosened pollen and dust away instead of merely redistributing them. Drying matters because trapped moisture can leave marks on frames and can encourage grime to stick again.
 
 Avoid treating a window screen like a delicate television panel, but don't treat it like a concrete patio either. Mesh can bend, seals can loosen, and painted or coated frames can show damage if scrubbed with abrasive tools or exposed to unsuitable chemicals.
 

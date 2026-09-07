@@ -4,6 +4,78 @@
 
 ---
 
+### 2026-09-07
+
+**What we did:**
+- **technical/GEO (primary): added FAQ sections that emit `FAQPage` JSON-LD to the three newest
+  posts, which had none.** `/blog/how-to-clean-skylights/`, `/blog/skylight-cleaning-pole/` and
+  `/blog/window-screen-cleaner-brush/` had zero `<details>/<summary>` blocks, and because
+  `src/pages/blog/[slug].astro` derives the schema from that markup, all three were publishing with
+  no FAQ node at all. Five questions each, written against the live PAA in the brief's SERP
+  snapshot. Verified in `dist/` with `grep -o`: FAQPage=1 and Question==summary on all three.
+- **internal_links: closed two orphans and one near-orphan.** `how-to-clean-skylights` 0 -> 2
+  inbound, `window-screen-cleaner-brush` 0 -> 3, `skylight-cleaning-pole` 1 -> 3. Donors chosen by
+  impressions from the brief's Top pages: `window-cleaning-for-high-windows` (452 impr, pos 10.7),
+  `how-to-clean-window-screens-without-removing-them` (432 impr), `skylight-cleaning-service`
+  (288 impr), plus `window-screen-cleaning-service` and `screen-cleaning-spray`.
+- **refresh: one live-PAA gap closed on the best real striking-distance page.**
+  `how-to-clean-window-screens-without-removing-them` now answers "Does Windex outdoor window
+  cleaner work through screens?", the one PAA from its live SERP it did not cover. 6 -> 7 FAQ items.
+- **Verified the 09-04 trailing-slash 301 is live** (301 + relative Location on
+  `/blog/skylight-cleaning-service` and `/thousand-oaks`).
+- **No new content, no GBP action, no title rewrite on the streak-free cluster.**
+
+**Why we did it (brief numbers):**
+- **A country probe was run before choosing, and it disqualified the top of the brief.** The
+  playbook says do title_meta first when the CTR-outlier section is non-empty. That section is
+  non-empty but mostly not addressable on-site:
+  - **`window cleaning` (132 impr, pos 1.5, 0 clicks) is the GBP listing, not the site.** The
+    `query x page` join splits it `GBP:/` **114 impr @ 1.0** vs `/` **15 @ 1.0**. Same shape for
+    `commercial window cleaning` (52 @ 1.0). A `<title>` cannot move a map-pack impression, and
+    **gbp is 0 wins / 4 fails on the scoreboard**, so no GBP action was taken either.
+  - **`best no streak window cleaner` (280 impr, pos 1.9, 0 clicks) is real US traffic
+    (276 impr `usa` @ 1.8) but is not clickable.** It sits on
+    `/blog/best-streak-free-window-cleaner/`, the same page carrying the documented synthetic
+    country-template population, and the probe surfaced literal LLM persona prompts as queries on
+    it. Every streak-free SERP in the snapshot has an AI Overview, and the snapshot puts us **NOT
+    in the top 10** for both `best streak free glass cleaner` and `best streak free window
+    cleaner` despite GSC positions of 8.0 and 7.3. Three windows of good positions and zero clicks
+    is sufficient evidence. Not acted on.
+- **The two clusters acted on probe clean and sit at winnable depth.**
+  - Skylight: head `skylight cleaning` **121 impr @ 17.4**, plus ~60 impr of US long-tail
+    (`cleaning skylight windows` 11 @ 15.0, `cleaning polycarbonate skylights` 7 @ 8.7,
+    `how to clean skylight screen` 7 @ 9.9, `cleaning skylights` 8 @ 15.4). Effectively all `usa`.
+  - Screens: `how to clean window screens without removing them` **103 impr `usa` @ 10.4**, page
+    /blog/how-to-clean-window-screens-without-removing-them/ at 432 impr / 1 click / pos 11.7. Its
+    live SERP is ritescreen.com, a Reddit thread and a Facebook post: beatable.
+- **Action type chosen on the scoreboard.** internal_links is **2-0-0**, refresh **2-0-0**; those
+  are the only clean records. title_meta is 2-4-4, technical 0-2-2, gbp 0-0-4. The FAQ work is a
+  schema gap rather than a speculative rewrite, and it is verifiable in `dist/` rather than only in
+  GSC.
+- **No new content:** the service x city matrix is complete and nothing cleared the
+  information-gain bar today.
+
+**Expected impact:**
+- FAQPage schema on three pages where AI Overviews and PAA boxes dominate the SERP should surface
+  them for follow-up questions; the skylight cluster is the likeliest beneficiary because its head
+  term is at 17.4 and the AI Overview is present.
+- Internal links from 452/432/288-impression donors should lift the three orphans off page 2.
+  Precedent: the 09-04 orphan-link action graded a win.
+- The screens page is the one page here that could produce actual non-brand clicks this cycle:
+  position 10.4 needs roughly two places to reach the fold.
+
+**Metrics at time of action (GSC 2026-08-08..2026-09-04):**
+- Total clicks 77 (prior 73). Non-brand clicks **7** (prior 2). Non-brand impressions 4748.
+- Non-brand avg position 11.4.
+- `how to clean window screens without removing them`: 107 impr, pos 10.8, 0 clicks (103 `usa` @ 10.4).
+- `skylight cleaning`: 121 impr, pos 17.4, 0 clicks.
+- `/blog/how-to-clean-window-screens-without-removing-them/`: 432 impr, 1 click, pos 11.7.
+- `/blog/skylight-cleaning-service/`: 288 impr, 0 clicks, pos 12.1.
+- Inbound internal links before: how-to-clean-skylights 0, window-screen-cleaner-brush 0,
+  skylight-cleaning-pole 1. FAQPage nodes before: 0 on all three.
+
+---
+
 ### 2026-09-04
 
 **What we did:**
