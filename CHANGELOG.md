@@ -1,3 +1,64 @@
+## 2026-09-09 - Three Outrank posts consolidated on arrival, ninth source audit, /thousand-oaks/ link push
+
+**Primary action: all three posts published since the last run landed on surfaces that already have
+a measured winner, and all three are now canonicalized onto that winner.** The `query x page` join
+for 2026-08-10..2026-09-06 is the evidence in each case, and the reasoning is recorded in
+`src/lib/consolidated.mjs` (the single source of truth for both the canonical tag and the sitemap
+filter, so the two cannot disagree).
+
+- `/blog/streak-free-window-cleaning/` (published 09-09) -> `/blog/best-streak-free-window-cleaner/`.
+  The winner holds **1,592 non-brand impressions and 3 of the site's 6 non-brand clicks**, its 08-19
+  rebuild is under evaluation until mid-October, and the new post's own head phrasing
+  (*streak-free window cleaning*, 19 impr @ 10.5) **already ranks on the winner**. Fifth URL the
+  stream has put on the streak surface.
+- `/blog/window-cleaning-thousand-oaks/` (09-08) -> `/thousand-oaks/`. First consolidation onto a
+  city landing page rather than another post, because the join says the Thousand Oaks blog surface
+  is dead: `/thousand-oaks/` carries twelve query rows (*window washing thousand oaks* 39 @ 7.7,
+  *window cleaning thousand oaks* 38 @ 12.9, *window cleaning cost thousand oaks* 34 @ 5.2) while
+  `/blog/window-cleaning-thousand-oaks-a-complete-guide-for-homeowners/` takes **zero**. The money
+  query is already split between `/thousand-oaks/` and `/` and slipping on the landing page
+  (12.9 from a prior 9.3); a third own-URL with an exact-match slug is the 08-28 failure exactly.
+- `/blog/how-much-does-professional-window-cleaning-cost/` (09-07) ->
+  `/blog/how-much-does-window-cleaning-cost-in-ventura-county/`. The title reads national, the body
+  is this region ("Sample Costs in Ventura and Santa Barbara", Westlake Village and Montecito
+  bands). A cost/price cluster probe found **no non-geo residential demand on this site**:
+  *professional window cleaning* 1 impression, *residential window cleaning* 4, both on `/`.
+
+Verified in `dist/`: correct `<link rel="canonical">` on all three, **zero** self-URL leaks into the
+JSON-LD, all three dropped from the sitemap (93 URLs, was 96), all three targets still present.
+
+**Ninth Outrank source audit.** Removed six sources and the claims they carried:
+`glidecleaners.com` (a **direct competitor window cleaning company**, same defect class as
+`reflektwindowwashing.com` removed 08-31), `nationalwindowcleaningauthority.com` (twice, not a
+verifiable standards body), `gorilladesk.com` and `housecallpro.com` (field-service SaaS sales
+pages, not cost authorities), `binx.ca` (patent aggregator), `hi-pointscaffolding.co.uk` (UK
+scaffolding firm's blog, carrying a 70 ft reach claim), and `tbdavies.co.uk` (UK ladder PDF used
+for a Great Britain fatality statistic on a US-audience page). Each was replaced with a source this
+site has already verified: Unger, the EPA secondary standard, the Cal Am CCR, OSHA 1926.1053, or
+our own pillar pages.
+
+**Two price contradictions fixed.** The cost post's lede led with **$150 to $450**, a vendor's
+national figure, against the **$150 to $475** this site publishes on the pricing pillar, the ten
+city pages and the homepage FAQ; the lede now leads with the site's own band. Its commercial
+section claimed **$40 to $60 per hour** against the **$35 to $60** on
+`/blog/commercial-window-cleaning-prices/`. Same defect class as the 08-10 FAQ price drift. Also
+removed an unsourced median-household-income assertion from the Thousand Oaks post.
+
+**Homepage-CTA defect fixed on eight posts.** The closing CTA on all three new posts plus
+`how-to-clean-skylights`, `residential-window-cleaning-prices`, `skylight-cleaning-pole`,
+`solar-panel-cleaning-brush-and-pole` and `window-screen-cleaner-brush` pointed at the homepage
+instead of `/contact/`. That is the conversion path on every one of these pages. Zero remain.
+
+**internal_links: `/thousand-oaks/` from 6 inbound to 9.** Its money query is slipping (9.3 -> 12.9)
+while `/` climbs on the same term, and the landing page is the URL that should hold the cluster.
+Donors: the Thousand Oaks matrix post (which violated the site's own city-article rule by linking
+to the city page **neither** in the body nor in the closing CTA, and now does both), the Thousand
+Oaks solar guide, and `/blog/purified-water-window-cleaning/`.
+
+**No new content, no title rewrite, no GBP action.** The service x city matrix is complete; the
+CTR-outlier table is led by GBP-listing rows that a `<title>` cannot move, and `gbp` grades
+0 wins / 4 fails.
+
 ## 2026-09-07 - FAQPage schema for the three newest posts, orphan links closed, one live PAA answered
 
 **Primary action: the three most recently published posts all shipped with zero FAQ schema and

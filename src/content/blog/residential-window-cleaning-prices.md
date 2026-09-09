@@ -229,4 +229,4 @@ Bring your questions, request the complete scope in writing, and don't commit un
 
 ---
 
-Aloha Window Bros provides residential window cleaning for glass, screens, frames, tracks, and sills, with free on-site and virtual estimates for Ventura and Santa Barbara County homes. Visit [Aloha Window Bros](https://alohawindowbros.com) to request a clear, no-obligation estimate matched to your home's access, condition, and coastal or foothill exposure.
+Aloha Window Bros provides residential window cleaning for glass, screens, frames, tracks, and sills, with free on-site and virtual estimates for Ventura and Santa Barbara County homes. [Request a clear, no-obligation estimate](https://alohawindowbros.com/contact/) matched to your home's access, condition, and coastal or foothill exposure.

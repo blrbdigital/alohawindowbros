@@ -229,4 +229,4 @@ A properly matched brush helps remove the material that blocks airflow and holds
 
 ---
 
-Aloha Window Bros cleans, rinses, dries, and reinstalls window screens using soft brushes and purified water for homes and businesses in Ventura County and Santa Barbara County. Visit [Aloha Window Bros](https://alohawindowbros.com) to request a free on-site quote for screen, frame, sill, and window cleaning.
+Aloha Window Bros cleans, rinses, dries, and reinstalls window screens using soft brushes and purified water for homes and businesses in Ventura County and Santa Barbara County. [Request a free on-site quote](https://alohawindowbros.com/contact/) for screen, frame, sill, and window cleaning.

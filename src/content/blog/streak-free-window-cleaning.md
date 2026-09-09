@@ -43,7 +43,7 @@ The common assumption is that streaks mean you chose the wrong cleaner or failed
 <a id="mineral-residue-is-already-in-the-rinse-water"></a>
 ### Mineral residue is already in the rinse water
 
-Tap water can look perfectly clear while carrying calcium and magnesium. The [National Window Cleaning Authority's explanation of pure-water cleaning](https://nationalwindowcleaningauthority.com/pure-water-window-cleaning/) notes that water purity is central to the result, with professional workflows commonly targeting **0 to 10 ppm TDS**, and **0 to 5 ppm** considered optimal. At that level, the water dries without depositing the same mineral film.
+Tap water can look perfectly clear while carrying calcium and magnesium. Professional pure-water workflows commonly target **0 to 10 ppm** total dissolved solids, with resin replacement recommended once outlet TDS rises above roughly **10 ppm** for window work, according to [Unger's guidance on common pure-water cleaning mistakes](https://usa.ungerglobal.com/blog/10-common-mistakes-in-pure-water-window-cleaning/). For local context, the U.S. Environmental Protection Agency's secondary standard for TDS is **500 mg/L** ([EPA](https://www.epa.gov/sdwa/secondary-drinking-water-standards-guidance-nuisance-chemicals)), and California American Water's 2025 report for Thousand Oaks and Newbury Park puts the main supply at **297 ppm** ([Cal Am CCR](https://www.amwater.com/ccr/thousandoaks.pdf)). Whatever is dissolved in the rinse is what dries on the glass.
 
 This is especially noticeable in hard-water areas. The same guidance cites U.S. Geological Survey information stating that **85% of American homes have hard water** containing dissolved calcium and magnesium. Coastal humidity, sprinkler overspray, and salt-laden air can make the residue more obvious, but the mechanism is straightforward: water evaporates, minerals remain.
 
@@ -140,7 +140,7 @@ The final check should happen from more than one angle. If a mark moves when you
 
 A water-fed pole succeeds because of water quality, not pole length alone. The system combines **water with very low dissolved solids**, a brush head, hose, and meter. A [purified-water window cleaning system](https://alohawindowbros.com/blog/purified-water-window-cleaning/) removes much of the mineral load that leaves spots as tap water dries.
 
-Tap water can still carry enough minerals to mark glass, especially on sunny elevations where droplets evaporate quickly. An [industry technical guide to reverse-osmosis and water-fed pole cleaning](https://www.binx.ca/tech/reverse-osmosis-water-fed-pole-window-cleaning-us20120325733/) explains that RO removes roughly **95 to 99% of dissolved solids** before DI polishing. Check the meter during work. If the reading rises, the final rinse may start leaving the spotting the system was meant to prevent.
+Tap water can still carry enough minerals to mark glass, especially on sunny elevations where droplets evaporate quickly. Reverse osmosis strips most of the dissolved load and a deionizing resin polishes what remains, which is why the meter, not the tank, is the thing to watch. Our [purified-water window cleaning guide](https://alohawindowbros.com/blog/purified-water-window-cleaning/) sets out the component-by-component numbers. Check the meter during work. If the reading rises, the final rinse may start leaving the spotting the system was meant to prevent.
 
 <a id="the-workflow-matters-more-than-the-gadget"></a>
 ### The workflow matters more than the gadget
@@ -155,7 +155,7 @@ Work from the top of the pane downward. Agitate the glass thoroughly with the br
 | 5 to 10 | Purified system output | Low when monitored | Exterior cleaning and high glass |
 | Above 10 | Water with insufficient purification | Results become less reliable | Recheck filters and purify further |
 
-A water-fed pole can keep the operator on the ground for reaches up to about **70 feet**, as described in the [history and development of purified-water window cleaning](https://hi-pointscaffolding.co.uk/blog/a-brief-history-of-window-cleaning/). That reduces ladder use, but it does not remove every hazard. Keep both feet on a stable surface, avoid overreaching, and stop when the pole becomes difficult to control.
+A water-fed pole keeps the operator on the ground across most residential elevations, which is the whole reason professional crews reach for one before a ladder. Our [guide to cleaning high windows](https://alohawindowbros.com/blog/window-cleaning-for-high-windows/) maps height bands to the tool that actually suits them. That reduces ladder use, but it does not remove every hazard. Keep both feet on a stable surface, avoid overreaching, and stop when the pole becomes difficult to control.
 
 <a id="know-when-the-pole-is-the-wrong-tool"></a>
 ### Know when the pole is the wrong tool
@@ -214,8 +214,8 @@ That usually indicates a failed insulated-glass seal rather than surface dirt. C
 Use an ammonia-free product and a soft tool. Avoid abrasive pads and aggressive scrubbing, especially when the manufacturer's coating or film is unknown.
 
 **When should I stop using a ladder?**  
-Use a ground-based pole system where practical for high or awkward panes. Ladder falls remain a serious window-cleaning hazard. A UK safety manual reports about **2 to 7 window cleaners killed each year in Great Britain** and roughly **20 to 30 suffering major injuries** from ladder falls, as documented in this [window-cleaning ladder safety manual](https://www.tbdavies.co.uk/pdfs/hse/window-cleaning-ladder-safety.pdf). CDC-cited U.S. data also record **836 ladder-fall fatalities from 2011 to 2016** and about **164,000 emergency or medical visits annually**.
+Use a ground-based pole system where practical for high or awkward panes. When a ladder is unavoidable, the placement rules are not advisory: OSHA requires the base of a non-self-supporting ladder to sit out from the wall at roughly one quarter of its working length, and the side rails to extend at least 3 feet above any landing you step onto ([OSHA 1926.1053](https://www.osha.gov/laws-regs/regulations/standardnumber/1926/1926.1053)). The same standard is explicit that a worker "shall not carry any object or load that could cause the employee to lose balance and fall," which rules out carrying a bucket up.
 
 If your property in Ventura County or Santa Barbara County has salt haze, hard-water spotting, dirty screens, or high glass that makes DIY risky, Aloha Window Bros provides window, screen, frame, and sill cleaning with purified-water systems and eco-friendly solutions.
 
-Visit [Aloha Window Bros](https://alohawindowbros.com) to request a free on-site or virtual estimate. The right method depends on the actual source of the streaks, not on using more cleaning solution.
+Request a [free on-site or virtual estimate](https://alohawindowbros.com/contact/) from Aloha Window Bros. The right method depends on the actual source of the streaks, not on using more cleaning solution.

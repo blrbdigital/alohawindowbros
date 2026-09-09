@@ -6,7 +6,7 @@ heroImage: "/img/solar_1.png"
 heroImageAlt: "Professional solar panel cleaning by Aloha Window Bros"
 ---
 
-Dirty solar panels in Thousand Oaks lose between 15% and 25% of their energy output due to dust, pollen, and bird droppings that accumulate on panel surfaces. Aloha Window Bros provides professional solar panel cleaning throughout Thousand Oaks and the Conejo Valley, using purified water systems that safely remove buildup without scratching panels or voiding manufacturer warranties. Most Thousand Oaks homeowners should schedule solar panel cleaning at least twice per year — once in spring before peak production season and once in fall after fire season.
+Dirty solar panels in Thousand Oaks lose between 15% and 25% of their energy output due to dust, pollen, and bird droppings that accumulate on panel surfaces. Aloha Window Bros provides professional solar panel cleaning throughout [Thousand Oaks](https://alohawindowbros.com/thousand-oaks/) and the Conejo Valley, using purified water systems that safely remove buildup without scratching panels or voiding manufacturer warranties. Most Thousand Oaks homeowners should schedule solar panel cleaning at least twice per year: once in spring before peak production season and once in fall after fire season.
 
 ## How Dirty Solar Panels Affect Energy Production in Thousand Oaks
 

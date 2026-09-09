@@ -203,4 +203,4 @@ A clear quote should identify the access method, surface materials, included det
 
 ---
 
-Aloha Window Bros cleans skylights and hard-to-reach glass with purified water-fed pole systems, while also detailing windows, screens, frames, and sills for residential and commercial properties. Visit [Aloha Window Bros](https://alohawindowbros.com) to request a free on-site or virtual estimate and discuss the safest approach for your skylights in Ventura County or Santa Barbara County.
+Aloha Window Bros cleans skylights and hard-to-reach glass with purified water-fed pole systems, while also detailing windows, screens, frames, and sills for residential and commercial properties. [Request a free on-site or virtual estimate](https://alohawindowbros.com/contact/) and discuss the safest approach for your skylights in Ventura County or Santa Barbara County.

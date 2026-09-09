@@ -226,4 +226,4 @@ For homeowners comparing service options, [professional skylight cleaning](https
 
 ---
 
-Aloha Window Bros cleans skylights and hard-to-reach glass with purified water-fed pole systems, serving homes and properties across Ventura County and Santa Barbara County. Visit [Aloha Window Bros](https://alohawindowbros.com) to request a free estimate and discuss the safest ground-based approach for your skylight.
+Aloha Window Bros cleans skylights and hard-to-reach glass with purified water-fed pole systems, serving homes and properties across Ventura County and Santa Barbara County. [Request a free estimate](https://alohawindowbros.com/contact/) and discuss the safest ground-based approach for your skylight.

@@ -33,7 +33,7 @@ That's a common homeowner frustration, but it isn't always a sign that you need 
 <a id="introduction-to-window-cleaning-in-thousand-oaks"></a>
 ## Introduction to Window Cleaning in Thousand Oaks
 
-Thousand Oaks has the kind of residential base that supports regular home-maintenance services. The U.S. Census Bureau recorded **126,966 residents in the 2020 census**, compared with **126,683 in 2010**, a modest change over the decade. Demographic profiles also place the city in the mid-120,000s during the mid-2020s and report median household income of about **$135,603**. You can review the population figures in the U.S. Census Bureau's Thousand Oaks QuickFacts.
+Thousand Oaks has the kind of residential base that supports regular home-maintenance services. The U.S. Census Bureau recorded **126,966 residents in the 2020 census**, compared with **126,683 in 2010**, a modest change over the decade. Those figures come from the U.S. Census Bureau's Thousand Oaks QuickFacts. A stable, largely owner-occupied housing stock is why maintenance intervals here are driven by exposure rather than turnover.
 
 For a homeowner, those figures matter less as abstract demographics than as a description of the local service environment. Thousand Oaks combines suburban homes, multi-room residences, owner-occupied properties, storefronts, and a broad Ventura County service area. That creates recurring opportunities for maintenance rather than relying only on one-time cleanups.
 
@@ -89,9 +89,9 @@ The remedy also depends on the surface. A professional may adjust the solution, 
 <a id="sprinklers-and-hard-water-deposits"></a>
 ### Sprinklers and hard-water deposits
 
-Sprinkler overspray leaves mineral-bearing water on the pane. Once the water evaporates, the minerals remain behind. If the haze looks different when the glass is wet compared with when it's dry, that can indicate a bonded mineral deposit rather than loose dirt, as explained in this [hard-water stain removal guide](https://glidecleaners.com/blog/hard-water-stains-removal-guide).
+Sprinkler overspray leaves mineral-bearing water on the pane. Once the water evaporates, the minerals remain behind. If the haze looks different when the glass is wet compared with when it's dry, that can indicate a bonded mineral deposit rather than loose dirt, which is the wet-versus-dry test set out in our [guide to removing hard water spots from windows](https://alohawindowbros.com/blog/how-to-remove-hard-water-spots-from-windows/).
 
-That distinction changes the treatment path. Mild acidity, including cleaners based on citric acid or vinegar, can dissolve carbonate-based deposits, while ordinary washing is designed for surface grime. Purified water systems also help during the final rinse because water filtered through reverse osmosis or deionization can dry with total dissolved solids near **0 ppm**, reducing mineral residue. The technical explanation appears in this [water-fed pole cleaning resource](https://nationalwindowcleaningauthority.com/water-fed-pole-window-cleaning).
+That distinction changes the treatment path. Mild acidity, including cleaners based on citric acid or vinegar, can dissolve carbonate-based deposits, while ordinary washing is designed for surface grime. Purified water systems also help during the final rinse because water filtered through reverse osmosis or deionization can dry with total dissolved solids near **0 ppm**, reducing mineral residue. The component-by-component explanation, with the U.S. Environmental Protection Agency's 500 mg/L secondary standard and California American Water's published 297 ppm figure for Thousand Oaks, is in our [purified-water window cleaning guide](https://alohawindowbros.com/blog/purified-water-window-cleaning/).
 
 <a id="residential-and-commercial-window-cleaning-options"></a>
 ## Residential and Commercial Window Cleaning Options
@@ -206,4 +206,4 @@ A clear view doesn't require constant attention. It requires a schedule that mat
 
 ---
 
-Aloha Window Bros provides interior and exterior window cleaning for Thousand Oaks homes and businesses, including screens, frames, tracks, and sills, with purified-water equipment for glass above ground level. Visit [Aloha Window Bros](https://alohawindowbros.com) to request a free estimate and choose a maintenance plan that fits your property's dust, wind, salt, or sprinkler exposure.
+Aloha Window Bros provides interior and exterior window cleaning for Thousand Oaks homes and businesses, including screens, frames, tracks, and sills, with purified-water equipment for glass above ground level. Request a [free estimate](https://alohawindowbros.com/contact/) from Aloha Window Bros and choose a maintenance plan that fits your property's dust, wind, salt, or sprinkler exposure.

@@ -208,4 +208,4 @@ The best setup isn't the one with the greatest reach. It's the one that keeps yo
 
 ---
 
-If your panels, skylights, or hard-to-reach glass are difficult to access safely, visit [Aloha Window Bros](https://alohawindowbros.com) to request a free on-site or virtual quote. Their insured team serves Ventura County and Santa Barbara County with purified-water equipment and soft cleaning tools designed for hard-to-reach surfaces.
+If your panels, skylights, or hard-to-reach glass are difficult to access safely, [request a free on-site or virtual quote](https://alohawindowbros.com/contact/). Their insured team serves Ventura County and Santa Barbara County with purified-water equipment and soft cleaning tools designed for hard-to-reach surfaces.

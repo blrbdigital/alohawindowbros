@@ -12,7 +12,7 @@ However, dust, pollen, and environmental debris can quickly collect on window gl
 
 Professional window cleaning services help homeowners maintain clear glass and protect their windows from long-term damage.
 
-This guide explains why window cleaning in Thousand Oaks is important and how professional services keep homes looking their best.
+This guide explains why window cleaning in Thousand Oaks is important and how professional services keep homes looking their best. For service details, pricing, and the neighborhoods we cover, see our [Thousand Oaks window cleaning page](https://alohawindowbros.com/thousand-oaks/).
 
 ## Why Window Cleaning Is Important in Thousand Oaks
 
@@ -143,6 +143,6 @@ Clean windows make homes in Thousand Oaks look brighter and more inviting. Regul
 
 Maintaining clean windows also protects the glass and helps preserve clear outdoor views.
 
-If you need window cleaning in Thousand Oaks, the team at Aloha Window Bros is ready to help.
+If you need [window cleaning in Thousand Oaks](https://alohawindowbros.com/thousand-oaks/), the team at Aloha Window Bros is ready to help.
 
-We provide professional window cleaning, screen cleaning, and solar panel cleaning throughout Ventura County.
+We provide professional window cleaning, screen cleaning, and solar panel cleaning throughout Ventura County. [Request a free estimate](https://alohawindowbros.com/contact/) and we will confirm the scope, access, and schedule before any work begins.

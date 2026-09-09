@@ -138,7 +138,7 @@ A method earns its place on a route by handling the conditions crews encounter. 
 
 At a beachfront condo in Ventura, salt haze may return quickly because marine air repeatedly deposits a fine film on exterior glass. A water-fed pole can reach high panes from the ground, and the purified final rinse removes the loosened salt without adding a new mineral tide line. The method is well suited to repeat maintenance because the contamination is usually loose and rinse-able rather than permanently bonded.
 
-A different result appears at an inland home near Thousand Oaks where sprinklers have aimed at south-facing windows for a long time. Purified water can remove loose dust and surface contamination around the affected area, but the pale calcium rings may remain. If the deposits have bonded to the surface or caused etching, the homeowner needs a separate assessment and restoration step.
+A different result appears at an inland home near [Thousand Oaks](https://alohawindowbros.com/thousand-oaks/) where sprinklers have aimed at south-facing windows for a long time. Purified water can remove loose dust and surface contamination around the affected area, but the pale calcium rings may remain. If the deposits have bonded to the surface or caused etching, the homeowner needs a separate assessment and restoration step.
 
 <a id="three-conditions-three-expectations"></a>
 ### Three conditions, three expectations

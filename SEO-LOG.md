@@ -4,6 +4,125 @@
 
 ---
 
+### 2026-09-09
+
+**What we did:**
+- **technical (primary): consolidated ALL THREE posts published since the last run, on arrival,
+  under the 08-28 rule.** `/blog/streak-free-window-cleaning/` (09-09) ->
+  `/blog/best-streak-free-window-cleaner/`; `/blog/window-cleaning-thousand-oaks/` (09-08) ->
+  `/thousand-oaks/`; `/blog/how-much-does-professional-window-cleaning-cost/` (09-07) ->
+  `/blog/how-much-does-window-cleaning-cost-in-ventura-county/`. Reasoning recorded in
+  `src/lib/consolidated.mjs`. Verified in `dist/`: correct canonical on each, **zero** self-URL
+  leaks into the JSON-LD, all three dropped from the sitemap (93 URLs from 96), all three targets
+  still present. The Thousand Oaks one is the first consolidation onto a **city landing page**
+  rather than another blog post.
+- **refresh: ninth Outrank source audit.** Six sources and the claims they carried removed:
+  `glidecleaners.com` (a direct competitor window cleaning company), `nationalwindowcleaningauthority.com`
+  (twice), `gorilladesk.com` and `housecallpro.com` (SaaS vendor sales pages), `binx.ca` (patent
+  aggregator), `hi-pointscaffolding.co.uk` and `tbdavies.co.uk` (UK scaffolding blog and a UK ladder
+  PDF carrying a Great Britain fatality statistic on a US-audience page). Each replaced with a
+  source this site has already verified: Unger, the EPA secondary standard, the Cal Am CCR, OSHA
+  1926.1053, or our own pillars.
+- **Two price contradictions and one unsourced assertion fixed.** The cost post led with
+  **$150 to $450** (a vendor's national figure) against the **$150 to $475** this site publishes in
+  three other places, and claimed **$40 to $60 per hour** commercial against our own published
+  **$35 to $60**. An unsourced median-household-income figure was removed from the Thousand Oaks post.
+- **Homepage-CTA defect fixed on EIGHT posts** (the three new ones plus `how-to-clean-skylights`,
+  `residential-window-cleaning-prices`, `skylight-cleaning-pole`, `solar-panel-cleaning-brush-and-pole`,
+  `window-screen-cleaner-brush`). Zero remain sitewide.
+- **internal_links: `/thousand-oaks/` from 6 inbound internal links to 9.**
+- **No new content, no title rewrite, no GBP action.**
+
+**Why we did it (brief numbers):**
+- **The playbook ranks `title_meta` first when the CTR-outlier table is non-empty, and every row in
+  it is again disqualified by the join.** *best no streak window cleaner* (335 impr @ 1.8) and
+  *window cleaning* (132 @ 1.5) are the two largest rows: the join splits *window cleaning* into
+  **GBP:/ 113 @ 1.0** vs `/` 16 @ 1.0, and *commercial window cleaning* is **GBP:/ 52 @ 1.0**. A
+  `<title>` cannot move a map-pack impression, and `gbp` grades **0 wins / 4 fails**. The remaining
+  rows (*skylight cleaning*, *window screen cleaning*, *how to clean window screens without removing
+  them*, the streak cluster) are the informational family, treated between 08-17 and 09-07 with
+  review dates from mid-September to late October. Re-treating a page mid-experiment destroys the read.
+- **That left consolidation as the highest-leverage action, and it is time-critical rather than
+  housekeeping.** Three posts arrived in three days and each landed on an occupied surface:
+  - **Streak.** The winner holds **1,592 non-brand impressions and 3 of the site's 6 non-brand
+    clicks** against 4,928 non-brand impressions sitewide. Roughly 50 streak variants sit on it and
+    none anywhere else. The new post's own head phrasing, *streak-free window cleaning*, **already
+    ranks on the winner** at 19 impr @ 10.5, and its thesis (the streak is the rinse water and the
+    frame, not the product) is the winner's own differentiator restated. Fifth URL on that surface.
+  - **Thousand Oaks.** `/thousand-oaks/` carries the whole cluster: *window washing thousand oaks*
+    39 @ 7.7, *window cleaning thousand oaks* 38 @ 12.9, *window cleaning cost thousand oaks*
+    34 @ 5.2, *residential window washing thousand oaks* 24 @ 7.8, plus eight further rows.
+    `/blog/window-cleaning-thousand-oaks-a-complete-guide-for-homeowners/` takes **zero impressions
+    on any of them**, so the blog surface for this city is already dead. *window cleaning thousand
+    oaks* is also **already split** between `/thousand-oaks/` (38 @ 12.9, prior 9.3, slipping) and
+    `/` (31 @ 4.2, prior 9.1, improving). Adding a third own-URL with an exact-match slug to a money
+    query that is already splitting is the precise failure the 08-28 rule exists to prevent, and a
+    swap would be a downgrade: the post has no LocalBusiness schema and no conversion structure.
+  - **Cost.** The title reads national; the body is this region. A cost/price cluster probe over
+    2026-08-10..2026-09-06 returns **no non-geo residential demand on this site** (*professional
+    window cleaning* 1 impression, *residential window cleaning* 4, both on `/`), while the pillar
+    holds *window washing cost ventura county* 34 @ 3.9 and *window cleaning prices ventura county*
+    8 @ 4.9 and is **#2 organic in the 09-09 SERP snapshot** for its head query. The brief also has
+    the pillar rising hard, 116 -> 570 impressions.
+- **Action type chosen on the scoreboard.** `internal_links` is **2-0-0** and `refresh` **2-0-0**,
+  the only clean records. The consolidation work is verifiable in `dist/` rather than only in GSC,
+  which is why it is preferred over a speculative `title_meta` rewrite (2-4-4, the worst record).
+- **The `/thousand-oaks/` link push exists because that page is the one slipping.** It had 6 inbound
+  internal links and its own matrix post linked to it **neither** in the body nor in the closing
+  CTA, in direct violation of this client's city-article rule. Now 9, and the matrix post does both.
+- **No new content:** the service x city matrix is complete and nothing cleared the information-gain
+  bar today.
+
+**Expected impact:**
+- The three consolidated URLs should hold at **zero impressions** while their targets keep or grow
+  their base. That is the whole point: this is protective, not a ranking play.
+- `/blog/best-streak-free-window-cleaner/` should hold or improve on 1,592 non-brand impressions and
+  3 clicks, with its 08-19 rebuild still readable in mid-October.
+- *window cleaning thousand oaks* on `/thousand-oaks/` from **12.9** back toward **8 or better**, as
+  the exact-match blog URL stops competing and three inbound links land. This is the clearest
+  falsifiable prediction on the board this run.
+- The source audit is a trust and AI-citation play, not a ranking one. Linking to a direct
+  competitor from a Thousand Oaks page was actively harmful and is the single worst defect found.
+- The eight CTA fixes are the only change here that can plausibly produce a conversion this cycle.
+
+**Metrics at time of action (GSC 2026-08-10..2026-09-06 vs prior 28d):**
+- Sitewide: 82 clicks (from 74, +11%), 5,667 impressions (from 2,528, +124%).
+- Non-brand: **6 clicks** (from 3), 4,928 impressions (from 1,639, +201%), 587 queries (from 256).
+- Non-brand avg position 11.3 (from 11.2).
+- `/blog/best-streak-free-window-cleaner/`: 1,592 non-brand impr, 3 clicks (+118 on the slashless).
+- `/thousand-oaks/`: 255 non-brand impr, 0 clicks; *window cleaning thousand oaks* 38 @ 12.9.
+- `/blog/how-much-does-window-cleaning-cost-in-ventura-county/`: 108 non-brand impr, 0 clicks.
+- Inbound internal links to `/thousand-oaks/` before: 6. Sitemap URLs before: 96.
+- Map pack: ours in 5 of 11 snapshot queries; 219 reviews vs incumbent average 122.
+- **Review 2026-10-21** (6 weeks).
+
+**Logged, NOT actioned, with reasons:**
+1. **`/blog/residential-window-cleaning-prices/` (published 09-03) is the fourth residential-price
+   URL and takes ZERO impressions.** It was left self-canonical deliberately: it is the one page
+   holding the non-geo residential price phrasing, and six days is too short a read to consolidate
+   it against the pillar without data. It was audited (CTA fixed) rather than collapsed. **If it is
+   still at zero at the next brief, consolidate it onto the pillar.**
+2. **GBP remains the largest unaddressed surface and is not in this repo.** *window cleaning*
+   113 impr @ 1.0 and *commercial window cleaning* 52 @ 1.0 are the listing, not the site. The
+   geo-grid has us **ABSENT at Newbury Park, Agoura Hills, Oak Park and Camarillo** against
+   incumbents holding 2 to 21 reviews while our listing carries 219 (incumbent average 122, review
+   gap 0). **The `http://` to `https://` fix in the GBP website field has been unfixed since
+   2026-07-24 and is still the single highest-yield action available to Adam.**
+3. **The eight-country "top affordable glass cleaner ... in <country>?" population is now ~395
+   impressions at positions 7.8 to 9.6, every row on `/blog/best-streak-free-window-cleaner/`, zero
+   clicks.** Unchanged read: synthetic or agent traffic, not Ventura County homeowners. The same
+   probe surfaced a literal LLM persona prompt as a query on that page. Do not act.
+4. **`best window cleaner`: 59 impressions at position 37.6**, and *best no streak window cleaner*
+   331 @ 1.7 with zero clicks across three windows. The first is unrecoverable from this repo; the
+   second is three windows of a good position producing nothing, which is evidence the query is not
+   clickable rather than evidence of a title problem.
+5. **`/santa-barbara/` is still being ignored in favour of the homepage** (*window cleaning santa
+   barbara* 116 @ 8.3 on `/` vs 3 @ 45.0 on `/santa-barbara/`; *santa barbara window cleaning*
+   54 @ 10.6 vs 5 @ 36.0). Unchanged since 09-04. The pack there is held by Time to Shine (376
+   reviews) and A & A (136), so this is GBP ground, not organic ground.
+
+---
+
 ### 2026-09-07
 
 **What we did:**

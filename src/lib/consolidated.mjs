@@ -52,6 +52,50 @@
 //   ~1,671 impressions and the new page holds none. Splitting the site's only
 //   click-earning surface mid-experiment is the exact failure the 08-28 rule exists to
 //   prevent. See SEO-LOG.md 2026-08-31.
+//
+// 2026-09-09: THREE MORE, all consolidated on arrival under the 08-28 rule. The stream
+// published three posts in three days (09-07, 09-08, 09-09) and every one of them landed
+// on a surface that already has a measured winner. The `query x page` join for
+// 2026-08-10..2026-09-06 is the evidence in each case.
+//
+//   /blog/streak-free-window-cleaning/ -> /blog/best-streak-free-window-cleaner/.
+//   The winner is still the single strongest page on this site: 1,592 non-brand
+//   impressions and 3 of the site's 6 non-brand clicks, against 4,928 non-brand
+//   impressions sitewide. Its 08-19 rebuild is under evaluation until mid-October. The
+//   new post's own head phrasing ALREADY RANKS on the winner: `streak-free window
+//   cleaning` takes 19 impressions at 10.5 on it, and ~50 further streak variants
+//   (`best no streak window cleaner` 331 @ 1.7, `streak free glass cleaner` 28 @ 19.0,
+//   `streakless window cleaner` 23 @ 11.0) are all on the winner and none on anything
+//   else. Its thesis, that the streak is the rinse water and the frame rather than the
+//   product, is the winner's own differentiator restated. This is the FIFTH URL the
+//   stream has put on the streak surface.
+//
+//   /blog/window-cleaning-thousand-oaks/ -> /thousand-oaks/. This one is consolidated
+//   onto a CITY LANDING PAGE rather than another post, because the join says the blog
+//   surface for Thousand Oaks is dead and the landing page is the whole cluster:
+//   /thousand-oaks/ holds `window washing thousand oaks` 39 @ 7.7, `window cleaning
+//   thousand oaks` 38 @ 12.9, `window cleaning cost thousand oaks` 34 @ 5.2,
+//   `residential window washing thousand oaks` 24 @ 7.8 plus eight more rows, while
+//   /blog/window-cleaning-thousand-oaks-a-complete-guide-for-homeowners/ takes ZERO
+//   impressions on any of them. `window cleaning thousand oaks` is also already SPLIT
+//   between two of our own URLs and slipping on the landing page (12.9 from a prior
+//   9.3) while / climbs (4.2 from 9.1). Adding a third own-URL with an exact-match slug
+//   to a money query that is already splitting is the precise failure the 08-28 rule
+//   exists to prevent, and if Google swapped the post in for the landing page it would
+//   be a downgrade: the post has no LocalBusiness schema, no service-area block and no
+//   conversion structure.
+//
+//   /blog/how-much-does-professional-window-cleaning-cost/ ->
+//   /blog/how-much-does-window-cleaning-cost-in-ventura-county/. The title looks like a
+//   distinct national query, but the BODY is this region: its sections are "Sample Costs
+//   in Ventura and Santa Barbara", Westlake Village and Montecito bands, and a
+//   per-scenario table. That is the pricing pillar's surface. The pillar holds the
+//   measured demand (`window washing cost ventura county` 34 @ 3.9, `window cleaning
+//   prices ventura county` 8 @ 4.9, plus per-city price rows) and is #2 organic in the
+//   09-09 SERP snapshot for its head query. A cluster probe over the whole cost/price
+//   vocabulary returns essentially NO non-geo residential demand on this site:
+//   `professional window cleaning` takes 1 impression and `residential window cleaning`
+//   4, both on /. There is no national price audience here to serve.
 export const CANONICAL_OVERRIDES = {
   'blog/how-to-remove-hard-water-stains-from-windows':
     'https://alohawindowbros.com/blog/how-to-remove-hard-water-spots-from-windows/',
@@ -61,6 +105,12 @@ export const CANONICAL_OVERRIDES = {
     'https://alohawindowbros.com/blog/how-to-remove-hard-water-spots-from-windows/',
   'blog/how-to-get-streak-free-windows':
     'https://alohawindowbros.com/blog/best-streak-free-window-cleaner/',
+  'blog/streak-free-window-cleaning':
+    'https://alohawindowbros.com/blog/best-streak-free-window-cleaner/',
+  'blog/window-cleaning-thousand-oaks':
+    'https://alohawindowbros.com/thousand-oaks/',
+  'blog/how-much-does-professional-window-cleaning-cost':
+    'https://alohawindowbros.com/blog/how-much-does-window-cleaning-cost-in-ventura-county/',
 };
 
 /** Absolute canonical for a built pathname, or null if the page is self-canonical. */
