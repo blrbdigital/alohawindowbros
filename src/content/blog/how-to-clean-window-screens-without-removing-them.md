@@ -105,6 +105,8 @@ Local exposure moves the interval in both directions. Homes within a mile or two
 
 For the local detail on what lands on your mesh and when, see our [screen cleaning guide for Ventura County](/blog/screen-cleaning-ventura-county-why-clean-screens-matter/) and the [coastal salt and oak pollen guide for Santa Barbara](/blog/screen-cleaning-santa-barbara-coastal-salt-and-oak-pollen-guide/).
 
+A clean screen in front of dirty glass is only half the job, and washing the panes afterwards will re-dust the mesh if you work in the wrong order. Our guide to [how to clean windows streak free](https://alohawindowbros.com/blog/how-to-get-streak-free-windows/) sets out the sequence: frames and screens first, glass second, rinse water last.
+
 ## Frequently Asked Questions
 
 <div class="faq-list">

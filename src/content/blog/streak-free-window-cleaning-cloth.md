@@ -179,6 +179,8 @@ Microfiber is strong, but it's not a substitute for prep on dirty exterior panes
 The myth-busting part matters because it saves time. Once you stop expecting a random cloth to solve every glass problem, the right tool for each job becomes obvious.
 
 <a id="choosing-the-right-cloth-for-your-home"></a>
+The cloth is one variable in a sequence, and it is rarely the one that decides the outcome. If you have upgraded the cloth and the glass still dries streaky, the next thing to change is the water: see [how to clean windows streak free](https://alohawindowbros.com/blog/how-to-get-streak-free-windows/).
+
 ## Choosing the Right Cloth for Your Home
 
 The easiest way to buy once and buy well is to look for four things at the same time. Choose a **split-fiber microfiber**, aim for a cloth in the **300+ GSM** range when possible, make sure the weave is tight and lint-free, and plan to wash it without softener. That combination lines up with the way streak-free glass cleaning works.

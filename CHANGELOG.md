@@ -1,3 +1,73 @@
+## 2026-09-11 - Streak-free method consolidation REVERSED, FAQ schema + 5 inbound links, tenth audit
+
+**Primary action: the 2026-08-31 canonical from `/blog/how-to-get-streak-free-windows/` onto
+`/blog/best-streak-free-window-cleaner/` has been REVERSED.** That 08-31 entry set the exact
+condition for undoing it, "do not re-split this surface without a fresh join showing the two
+ranking separately", and the `query x page` join for 2026-09-01..09-08 is that join:
+
+| Query | Page | Impr | Pos |
+|---|---|---|---|
+| how to clean windows streak free | `/blog/how-to-get-streak-free-windows/` | **732** | **5.3** |
+| how to clean windows streak free | `/blog/best-streak-free-window-cleaner/` | 2 | 9.0 |
+| best no streak window cleaner | `/blog/best-streak-free-window-cleaner/` | 317 | 1.3 |
+| best glass cleaner for windows 2025 | `/blog/best-streak-free-window-cleaner/` | 104 | 10.9 |
+| best streak free glass cleaner | `/blog/best-streak-free-window-cleaner/` | 69 | 8.1 |
+| best streak free window cleaner | `/blog/best-streak-free-window-cleaner/` | 53 | 6.1 |
+
+The two URLs hold **disjoint query sets**: the "loser" owns method intent, the winner owns product
+intent, and **each ranks worse than the other on the other's query**. All 732 of the method page's
+28-day impressions fell inside the 8 days *after* the canonical shipped, so it is surging and Google
+is declining the canonical rather than not having seen it. Position 5.3 is the best position any
+large non-brand surface on this site holds; honouring the canonical would have traded it for 9.0.
+
+**The lesson, now recorded in `src/lib/consolidated.mjs`: "the new page has no impressions" is not
+evidence a surface is duplicated, it is evidence the page is new.** The 08-28 consolidate-on-arrival
+rule stays right for a section-for-section duplicate (the three hard-water URLs and
+`streak-free-window-cleaning` remain consolidated and were verified untouched), but it must not be
+applied to a page whose *headings* serve a different intent before that page has been measured.
+Compare headings first: this one is a technique walkthrough (wiping and drying sequence, mark by
+mark diagnosis, coastal and sprinkler fixes) against a ranked seven-product roundup with a
+comparison table.
+
+**Supporting work on the restored page** (it was the site's #3 non-brand page and had none of this):
+- **`FAQPage` JSON-LD now emits, parity 6 == 6** verified with `grep -o` against `dist/`. It had
+  **zero** `<details>` blocks and therefore no FAQ node at all, on a query whose live SERP carries
+  an AI Overview. Questions are written against that SERP's actual PAA box.
+- **Inbound internal links 0 to 5**, from the site's strongest non-brand pages:
+  `best-streak-free-window-cleaner` (1,957 NB impr, a reciprocal link that states the split in
+  prose), `how-to-remove-hard-water-spots-from-windows` (172),
+  `how-to-clean-window-screens-without-removing-them` (164), `window-screen-cleaning-service` (145),
+  `streak-free-window-cleaning-cloth` (45).
+- **A fabricated authority was removed.** The page claimed "the architectural glass cleaning
+  standard does not endorse acids on glazing at all". No such standard could be fetched
+  (glass.org, Vitro and Guardian technical documents all 404 or 403). Same defect class as the Cal
+  Title 8 section 3282 claims and the skyspec/archsp swap. **The claim was deleted and no
+  replacement authority was invented**; the surviving text makes the verifiable point instead, that
+  the manufacturer's care sheet governs coated and low-E glass.
+- **Direct answer rebuilt around a sourced, quotable number**: Unger's 0 to 10 ppm spot-free TDS
+  target against the **297 ppm** the local utility actually delivers (Cal Am 2025 CCR, PWS ID
+  CA5610040), which is about **thirty times** the target. Both figures were already verified on this
+  site; the arithmetic is stated as arithmetic.
+- **Four `cdnimg.co` hotlinks localized** to `public/img/blog/streak-free-windows-fig[1-4].jpg`.
+  The stream hotlinks body images and they break whenever Outrank rotates the CDN.
+- A dangling orphan paragraph (left by the publisher's element strip) and a `description` that
+  stated the head query twice were fixed. **The `<title>` was deliberately NOT touched** despite the
+  0.0% CTR, because the site map's 09-07 finding is that this cluster's GSC positions are not
+  blue-link positions and title_meta grades 2 wins / 4 partial / 4 fails.
+
+**Tenth source audit, two defects in the two newest publisher posts:**
+- **Homepage-CTA defect back again** (`cleaning-companies-in-santa-barbara` 09-10 twice,
+  `how-to-clean-window-sills-and-tracks` 09-11). Swept clean on 09-09, reaccumulated in two days.
+  `grep -rn 'Aloha Window Bros](https://alohawindowbros.com)' src/content/` returns **0**.
+- **Tenth appearance of the Thousand Oaks band presented as the general one**, and the worst
+  instance yet: `cleaning-companies-in-santa-barbara.md` said "General residential work commonly
+  runs $150 to $400, while Santa Barbara and Montecito full cleans commonly fall between $200 and
+  $475" **in a single sentence**, contradicting itself and the pricing pillar inline. Now $150 to
+  $475 with the per-city breakdown and a link to the pillar rather than to the homepage.
+
+Build passes (102 pages). Canonical, `mainEntityOfPage`, `og:url` and sitemap membership all
+verified against `dist/`; the other five consolidations confirmed unchanged.
+
 ## 2026-09-09 - Three Outrank posts consolidated on arrival, ninth source audit, /thousand-oaks/ link push
 
 **Primary action: all three posts published since the last run landed on surfaces that already have

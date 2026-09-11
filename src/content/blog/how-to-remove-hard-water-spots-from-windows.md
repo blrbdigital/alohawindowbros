@@ -114,6 +114,8 @@ Three conditions move a pane out of do it yourself territory, and none of them a
 
 Aloha Window Bros runs the wet test and the coating check before touching a spotted pane, cleans with purified water so the rinse is not adding the next deposit, and says plainly when a window has crossed into etching rather than selling another round of cleaning that cannot work. Windows, [screens](/blog/window-screen-cleaning-service/), frames, and sills are all handled in the same visit as part of our [window washing service](/services/window-washing).
 
+Once the deposits are off, the job becomes keeping them off, and that is a washing and rinsing problem rather than a chemical one. Our guide to [getting streak free windows](https://alohawindowbros.com/blog/how-to-get-streak-free-windows/) covers the squeegee sequence and the rinse water change that stops fresh spotting from forming.
+
 ## Frequently asked questions
 
 <details class="faq-item">

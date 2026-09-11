@@ -38,20 +38,37 @@
 //   serve, and the 08-26 consolidation is under evaluation until late October.
 //
 //   /blog/how-to-get-streak-free-windows/ -> /blog/best-streak-free-window-cleaner/.
-//   The winner is the single strongest page on this site (1,455 impressions and 7 clicks
-//   in the 08-01..08-28 GSC window, plus 216 and 1 on its non-slash variant, against 69
-//   clicks sitewide) and it was rebuilt on 08-19 with a mid-September review still open.
-//   The new post reproduces its argument and its structure: why glass streaks, the
-//   mineral check, diagnosing the mark, what professionals use, and the drying sequence.
-//   The winner's own differentiator is that the streak is the rinse water rather than the
-//   product, which is the new post's thesis too. Its title looks like a distinct method
-//   query, but Google already fuses method intent into that surface: the live PAA for
-//   "best streak free window cleaner" on 2026-08-31 asks "What is the best thing to use to
-//   clean windows without streaks?" and "How do you make your windows crystal clear?".
-//   Applying the site's own tiebreak, which URL Google actually ranks, the winner holds
-//   ~1,671 impressions and the new page holds none. Splitting the site's only
-//   click-earning surface mid-experiment is the exact failure the 08-28 rule exists to
-//   prevent. See SEO-LOG.md 2026-08-31.
+//   **REVERSED 2026-09-11. This entry is gone from the map below; the page is
+//   self-canonical again and back in the sitemap.** The 08-31 note reasoned from the
+//   only evidence available that day, that the winner held ~1,671 impressions and the
+//   new page held none, and it set the exact condition for reversal: "Do not re-split
+//   this surface without a fresh join showing the two ranking separately." The
+//   2026-09-01..09-08 join is that evidence and it is unambiguous:
+//
+//     how to clean windows streak free  /blog/how-to-get-streak-free-windows/  732 @ 5.3
+//     how to clean windows streak free  /blog/best-streak-free-window-cleaner/   2 @ 9.0
+//     best no streak window cleaner     /blog/best-streak-free-window-cleaner/ 317 @ 1.3
+//     best glass cleaner for windows..  /blog/best-streak-free-window-cleaner/ 104 @ 10.9
+//     best streak free glass cleaner    /blog/best-streak-free-window-cleaner/  69 @ 8.1
+//     best streak free window cleaner   /blog/best-streak-free-window-cleaner/  53 @ 6.1
+//
+//   All 732 of that page's 28-day impressions fell inside the 8 days AFTER the canonical
+//   shipped, so this is a surging page, not a decaying one, and Google is declining the
+//   canonical rather than not having seen it. The two URLs hold DISJOINT query sets:
+//   the loser owns method intent ("how to clean windows streak free") and the winner owns
+//   product intent ("best ... cleaner"), and each ranks WORSE than the other on the other's
+//   query. Position 5.3 is the best position any large non-brand surface on this site
+//   holds. Honouring the canonical would have traded 5.3 for the winner's 9.0 on that query.
+//
+//   **The lesson for future consolidations: "the new page holds no impressions" is not
+//   evidence that a surface is duplicated, it is evidence that the page is new.** The
+//   08-28 consolidate-on-arrival rule is still right for a section-for-section duplicate
+//   (the three hard-water URLs remain consolidated and are not in dispute), but it must
+//   not be applied to a page whose HEADINGS serve a different intent before that page has
+//   had a window to be measured. Check the headings against the winner's first: this one's
+//   are a technique walkthrough (wiping and drying sequence, diagnosing the mark, coastal
+//   and sprinkler fixes) against a ranked seven-product roundup with a comparison table.
+//   The two are now explicitly cross-linked as complements rather than left to compete.
 //
 // 2026-09-09: THREE MORE, all consolidated on arrival under the 08-28 rule. The stream
 // published three posts in three days (09-07, 09-08, 09-09) and every one of them landed
@@ -103,8 +120,6 @@ export const CANONICAL_OVERRIDES = {
     'https://alohawindowbros.com/blog/how-to-remove-hard-water-spots-from-windows/',
   'blog/hard-water-stain-removal-from-glass':
     'https://alohawindowbros.com/blog/how-to-remove-hard-water-spots-from-windows/',
-  'blog/how-to-get-streak-free-windows':
-    'https://alohawindowbros.com/blog/best-streak-free-window-cleaner/',
   'blog/streak-free-window-cleaning':
     'https://alohawindowbros.com/blog/best-streak-free-window-cleaner/',
   'blog/window-cleaning-thousand-oaks':

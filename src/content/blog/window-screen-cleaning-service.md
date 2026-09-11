@@ -100,6 +100,8 @@ We do not publish a per-screen rate, because the honest number depends on what t
 - **Get the findings in writing.** A torn spline or brittle mesh found mid-visit should be documented, not mentioned on the way out.
 
 <a id="common-questions"></a>
+If you are washing the glass yourself and only want help with the screens, the order still matters, because screens and frames should be cleaned before the panes are. Our guide to [getting streak free windows](https://alohawindowbros.com/blog/how-to-get-streak-free-windows/) explains why, and what to change when the glass dries streaky anyway.
+
 ## Common questions
 
 <details class="faq-item">

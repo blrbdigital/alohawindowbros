@@ -4,6 +4,79 @@
 
 ---
 
+### 2026-09-11
+
+**What we did:**
+- **technical (primary): REVERSED the 2026-08-31 consolidation of
+  `/blog/how-to-get-streak-free-windows/` into `/blog/best-streak-free-window-cleaner/`.** Removed
+  from `CANONICAL_OVERRIDES`; the page is self-canonical and back in the sitemap.
+- **refresh: rebuilt the restored page for GEO.** Added a 6-item `<details>` FAQ (it had none, so it
+  emitted **no `FAQPage` node at all**), rebuilt the direct answer around a sourced numeric spine,
+  deleted a fabricated authority claim, localized 4 hotlinked body images, fixed an orphan
+  paragraph and a duplicated `description`.
+- **internal_links: 0 to 5 inbound links** to the restored page from the site's strongest non-brand
+  pages, including a reciprocal link from the product roundup that states the split in prose.
+- **audit (tenth): 3 homepage-CTA defects and a self-contradicting price band** fixed in the two
+  posts published since the last run.
+- **gbp (logged, no work): the map-pack suspects are logged for the GBP workstream, not actioned.**
+
+**Why we did it (brief numbers + the join):**
+- The brief's #1 CTR outlier is *how to clean windows streak free*, **735 impr @ 5.3, 0 clicks**. The
+  `query x page` join for 2026-09-01..09-08 puts **732 of those impressions at 5.3 on
+  `/blog/how-to-get-streak-free-windows/`** and just **2 @ 9.0** on the page it was canonicalised
+  into. The 08-31 entry that made the consolidation set the explicit reversal condition ("do not
+  re-split this surface without a fresh join showing the two ranking separately") and this join
+  meets it: the two URLs hold **disjoint** query sets (method vs product: *best no streak window
+  cleaner* 317 @ 1.3, *best glass cleaner for windows 2025* 104 @ 10.9, *best streak free glass
+  cleaner* 69 @ 8.1, *best streak free window cleaner* 53 @ 6.1, all on the winner and none on the
+  method page). **All 732 impressions landed in the 8 days AFTER the canonical shipped**, so the
+  page is surging and Google is declining the canonical, not failing to see it.
+- **Position 5.3 is the best position any large non-brand surface on this site holds.** Honouring
+  the canonical would have traded it for the winner's 9.0 on that query. The page is also the site's
+  **#3 page by non-brand impressions** (732 of 6,191 sitewide).
+- **Why not title_meta on it, despite 0.0% CTR at position 5.3:** the site map's 09-07 finding is
+  that this cluster's GSC positions are not blue-link positions (the live SERP snapshot has us NOT
+  in the top 10 with an AI Overview present), and title_meta grades **2 wins / 4 partial / 4 fails**.
+  The `<title>` was left alone on purpose. What an AI Overview surface *does* reward is FAQ schema
+  and a quotable sourced answer, which is what was added instead.
+- **Why not gbp, despite 9 local-pack suspects in the brief:** gbp grades **0 wins / 4 fails**, and
+  the join shows the two biggest "position 1, zero clicks" rows are the **GBP listing itself**
+  (*window cleaning* `GBP:/` 113 @ 1.0; *commercial window cleaning* likewise), which no `<title>`
+  in this repo can move. Logged, not worked.
+- **Why not new_content:** the service x city matrix is complete and nothing on the board clears the
+  information-gain bar. The 5 largest striking-distance queries already have a ranking page.
+- **The localBrief differentiation experiment is now gradeable and it did not work.** Both review
+  dates have passed (SB 09-07, TO 09-09). Treated `/santa-barbara/` sits at **44.8 / 36.0** on its
+  own city queries with 33 NB impressions; its untreated control `/camarillo/` sits at **8.5** with
+  182. Treated `/thousand-oaks/` went 9.4 to **12.7** on *window cleaning thousand oaks* while
+  untreated `/agoura/` held flat at 8.0. **Do not spend a future run adding localBriefs to the
+  remaining eight city pages.**
+
+**Expected impact:**
+- `/blog/how-to-get-streak-free-windows/` **keeps** its 730+ impressions per 28 days at position 4
+  to 7 for *how to clean windows streak free* instead of decaying toward zero as the canonical took
+  effect. This is a **loss-prevention** action, so the success test is retention, not growth.
+- The 6-item `FAQPage` node plus the 0 to 5 inbound links give the page its first AI-citation
+  surface on a query whose SERP carries an AI Overview.
+- No non-brand click prediction is made for this cluster. Three consecutive windows show excellent
+  positions and near-zero clicks, and the honest expectation is that it stays impression-heavy.
+
+**Metrics at time of action (GSC 2026-08-12..2026-09-08 unless noted):**
+- Sitewide: 77 clicks, 6,905 impressions; non-brand **6 clicks**, 6,191 impressions, 622 queries.
+- `/blog/best-streak-free-window-cleaner/` 1,957 NB impr / **3 NB clicks** (half the site's total).
+- `/blog/how-to-get-streak-free-windows/` **732 NB impr / 0 clicks**, all of it in 09-01..09-08.
+- `/` 1,048 NB impr / 2 NB clicks. `GBP:/` 321 / 1. `/camarillo/` 182 / 0. `/thousand-oaks/` 266 / 0.
+- Target query *how to clean windows streak free*: **732 impr @ 5.3**.
+- Trailing-slash 301s verified live (all three test URLs 301 to the slash form), so the ~270 split
+  impressions in this window are residual from before the 09-04 fix, not an open defect.
+
+**Review after 42 days (2026-10-23):** if *how to clean windows streak free* still sits at position
+4 to 7 with 500+ impressions on `/blog/how-to-get-streak-free-windows/`, the reversal was correct.
+If the page has decayed below 200 impressions anyway, Google consolidated the surface on its own and
+the 08-31 call was right on a longer horizon than the data showed.
+
+---
+
 ### 2026-09-09
 
 **What we did:**

@@ -37,7 +37,7 @@ Aloha Window Bros is a locally owned, brother-run company serving **Santa Barbar
 
 The company uses **eco-friendly, biodegradable cleaning solutions**, purified water systems, and pressurized screen-cleaning tools. Its water-fed pole equipment can reach skylights and high panes while reducing reliance on excessive ladders. Purified water is also relevant in coastal neighborhoods, where salt aerosol and mineral residue can affect exterior glass. Aloha's own guidance discusses coastal salt and oak pollen buildup in [this Santa Barbara screen-cleaning guide](https://alohawindowbros.com/blog/screen-cleaning-santa-barbara-coastal-salt-and-oak-pollen-guide/).
 
-Published residential pricing provides more planning information than most providers in this roundup. General residential work commonly runs **$150 to $400**, while Santa Barbara and Montecito full cleans commonly fall between **$200 and $475**, depending on the property and requested scope, according to [Aloha Window Bros' pricing information](https://alohawindowbros.com). These are ranges, not guaranteed quotes.
+Published residential pricing provides more planning information than most providers in this roundup. Published bands run **$150 to $475** across the two counties, from $150 to $400 in Thousand Oaks up to **$200 to $475** for Santa Barbara and Montecito full cleans, depending on the property and requested scope, according to the [Aloha Window Bros pricing guide](https://alohawindowbros.com/blog/how-much-does-window-cleaning-cost-in-ventura-county/). These are ranges, not guaranteed quotes.
 
 <a id="why-the-operating-model-stands-out"></a>
 ### Why the operating model stands out
@@ -59,7 +59,7 @@ Its published social proof includes a **4.9-star Google rating from 185 reviews 
 - **Price variation:** Santa Barbara, Montecito, and Ojai jobs may cost more than simpler residential work elsewhere in the service area.
 - **Regional coverage:** The company serves Ventura and Santa Barbara counties, so it may not suit properties outside those regions.
 
-Website: [Aloha Window Bros](https://alohawindowbros.com)
+Website: [Aloha Window Bros](https://alohawindowbros.com/)
 
 <a id="2-santa-barbara-window-cleaning"></a>
 ## 2. Santa Barbara Window Cleaning
@@ -309,4 +309,4 @@ Frequency deserves particular attention in Santa Barbara. Coastal exposure can j
 
 ---
 
-Aloha Window Bros provides four-in-one window cleaning for glass, screens, frames, and sills, with purified-water systems, solar and gutter options, free estimates, and service across Santa Barbara and Ventura counties. For a quote matched to your property's access, coastal exposure, and maintenance needs, visit [Aloha Window Bros](https://alohawindowbros.com) and schedule online or request an estimate.
+Aloha Window Bros provides four-in-one window cleaning for glass, screens, frames, and sills, with purified-water systems, solar and gutter options, free estimates, and service across Santa Barbara and Ventura counties. For a quote matched to your property's access, coastal exposure, and maintenance needs, visit [Aloha Window Bros](https://alohawindowbros.com/contact/) to request a free estimate.

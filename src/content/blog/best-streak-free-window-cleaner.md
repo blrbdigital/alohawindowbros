@@ -171,7 +171,7 @@ The catch is the same as with every concentrate: get the dilution wrong and you 
 <a id="the-routine-that-beats-every-bottle"></a>
 ## The routine that beats every bottle
 
-Whichever product you choose, the method decides the result. This sequence produces a better finish with a cheap cleaner than a careless pass does with an expensive one.
+Whichever product you choose, the method decides the result. This sequence produces a better finish with a cheap cleaner than a careless pass does with an expensive one. It is the short version; the long version, with the squeegee pull pattern and a mark by mark diagnosis of what you are looking at, is our guide to [how to clean windows streak free](https://alohawindowbros.com/blog/how-to-get-streak-free-windows/).
 
 1. **Work in shade.** Follow the shade around the house, or start early. Sun on the glass is the reason a good cleaner leaves a haze.
 2. **Dust the frame, track, and sill first.** Dry, before any liquid. Otherwise you make mud and it runs onto finished glass.
