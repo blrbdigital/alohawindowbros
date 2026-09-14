@@ -6,7 +6,7 @@ heroImage: "/img/water_pole_2.jpg"
 heroImageAlt: "Professional window cleaning by Aloha Window Bros"
 ---
 
-Homeowners in Simi Valley searching for professional window cleaning should expect to pay between $150 and $400 for a full-home service, based on window count and access. Aloha Window Bros provides window cleaning throughout Simi Valley using purified water systems and eco-friendly methods that leave glass streak-free. Most Simi Valley homes benefit from cleaning every three to four months because the inland valley location traps dust, pollen, and wildfire ash while exposing windows to Santa Ana wind events that accelerate buildup.
+Homeowners in Simi Valley searching for professional window cleaning should expect to pay between $150 and $400 for a full-home service, based on window count and access. Aloha Window Bros provides [window cleaning in Simi Valley](/simi-valley/) using purified water systems and eco-friendly methods that leave glass streak-free. Most Simi Valley homes benefit from cleaning every three to four months because the inland valley location traps dust, pollen, and wildfire ash while exposing windows to Santa Ana wind events that accelerate buildup.
 
 ## Why Simi Valley Homes Need Regular Window Cleaning
 
@@ -119,6 +119,10 @@ Yes. Aloha Window Bros serves all Simi Valley neighborhoods including hillside c
 ### How do I get a free quote for window cleaning in Simi Valley?
 
 Aloha Window Bros offers free on-site quotes for all Simi Valley homes. [Schedule a free estimate](/contact/) online or call (805) 341-4121 to book a convenient time.
+
+## Book Window Cleaning in Simi Valley
+
+Aloha Window Bros cleans windows, screens, frames, and sills in one visit for homes across Simi Valley. See local pricing, service details, and reviews on our [Simi Valley window cleaning page](/simi-valley/), or [book your free quote](/contact/) for a no-obligation on-site estimate.
 
 <script type="application/ld+json">
 {

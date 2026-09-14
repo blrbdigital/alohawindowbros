@@ -38,12 +38,12 @@ Consider a two-story home with tall panes above a planted patio. Yellow pollen h
 
 The equipment pumps purified water through a telescoping pole to a brush head. Small jets release the water at the brush, while soft bristles agitate dirt on the pane and surrounding frame. The loosened material runs downward with the rinse water, and the glass is left to air-dry rather than being wiped with a squeegee.
 
-![A woman looks at her house windows covered in yellow pollen, while using a water-fed cleaning brush.](https://cdnimg.co/8387fe5a-1497-428d-a3af-57b68fc0bac4/3a5eafb9-df6a-40da-956e-eb79e55a777c/how-does-a-water-fed-pole-system-work-window-cleaning.jpg)
+![A woman looks at her house windows covered in yellow pollen, while using a water-fed cleaning brush.](/img/blog/water-fed-pole-fig1.jpg)
 
 <a id="what-the-pole-does-and-what-it-doesnt"></a>
 ### What the pole does, and what it doesn't
 
-A commercial water-fed pole commonly extends to **about 70 feet, roughly six stories from the ground**, according to the [National Window Cleaning Authority's explanation of water-fed pole cleaning](https://nationalwindowcleaningauthority.com/water-fed-pole-window-cleaning). That reach makes the system useful for multi-story homes, storefronts, skylights, and glass above conservatories.
+A water-fed pole lets the cleaner wash second- and third-story glass while standing on the ground, which takes the ladder out of most residential jobs. That reach makes the system useful for multi-story homes, storefronts, skylights, and glass above conservatories. Where a ladder is still used, [OSHA 1910.23](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.23) sets the requirements it has to meet, which is part of why professionals prefer to keep their feet on the ground.
 
 The pole itself doesn't dissolve grime. It also isn't a steam cleaner, a chemical sprayer, or a pressure washer. The brush makes physical contact with the surface, and the water provides lubrication and flushing. The important work happens when those actions continue together.
 
@@ -59,7 +59,7 @@ A water-fed setup works as a connected chain. Purified water must reach the brus
 <a id="purification-removes-the-spotting-material"></a>
 ### Purification removes the spotting material
 
-Tap water carries dissolved minerals. A purification train uses **reverse osmosis, deionization, or both** to remove substances such as calcium and magnesium before the water reaches the pole. The target is about **0 parts per million, or ppm, total dissolved solids**, so the rinse can dry without depositing hard-water residue. The [National Window Cleaning Authority guide](https://nationalwindowcleaningauthority.com/water-fed-pole-window-cleaning) explains why purified water supports a spot-free finish.
+Tap water carries dissolved minerals. A purification train uses **reverse osmosis, deionization, or both** to remove substances such as calcium and magnesium before the water reaches the pole. The practical target is roughly **0 to 10 parts per million, or ppm, of total dissolved solids**, with many cleaners preferring 0 to 5 ppm, so the rinse can dry without depositing hard-water residue. [Unger's guide to pure-water cleaning mistakes](https://usa.ungerglobal.com/blog/10-common-mistakes-in-pure-water-window-cleaning/) explains why readings above about 10 ppm start to leave spots.
 
 The system may draw from a customer's outdoor spigot or from a storage tank. Either way, purification comes first. Water with too many dissolved solids can leave spots even when the technician uses sound scrubbing technique.
 
@@ -68,7 +68,7 @@ The system may draw from a customer's outdoor spigot or from a storage tank. Eit
 
 The pump draws purified water from the source and pushes it through the hose. It needs enough flow to keep the brush wet and flush loosened soil downward. Weak delivery can leave the brush scrubbing without properly washing contamination from the pane.
 
-The [Baside Water Technologies explanation of water-fed pole operation](https://www.basidewt.com/how-does-a-water-fed-pole-work/) describes how purification, pumping, hose delivery, and brush action operate together. The pump handles movement and pressure. It does not improve water quality.
+Purification, pumping, hose delivery, and brush action operate as one system. The pump handles movement and pressure. It does not improve water quality.
 
 <a id="the-hose-carries-water-up-the-pole"></a>
 ### The hose carries water up the pole
@@ -84,7 +84,7 @@ At the tip, the brush head combines bristles with rinse jets. Bristles agitate p
 
 That distinction matters near the coast, where salt aerosol can cling to exterior glass, and in homes with hard-water scale, where mineral deposits may already be bonded to the surface. Brush movement and continuous rinsing handle loose film, but purified water alone does not dissolve every stubborn deposit.
 
-![A four-part infographic explaining the water fed pole window cleaning process from purification to final glass rinse.](https://cdnimg.co/8387fe5a-1497-428d-a3af-57b68fc0bac4/80c15495-61b9-495a-889c-2280ad759746/how-does-a-water-fed-pole-system-work-cleaning-process.jpg)
+![A four-part infographic explaining the water fed pole window cleaning process from purification to final glass rinse.](/img/blog/water-fed-pole-fig2.jpg)
 
 Troubleshooting follows the same chain. Soil left behind may indicate weak brush contact or insufficient rinse flow. Spots after drying may point to water quality or bonded residue. Checking each component separately makes the result easier to understand.
 
@@ -93,7 +93,7 @@ Troubleshooting follows the same chain. Soil left behind may indicate weak brush
 
 A pane can look clean while drying into spots. The reason is often dissolved material in the water, not dirt left by the brush. **TDS** means total dissolved solids, including minerals and other substances carried by water. Tap water evaporates from the glass, while those solids remain as spots, a film, or scale.
 
-Purification removes much of that residue before the rinse reaches the window. Reverse osmosis sends water through a membrane that rejects many dissolved substances. Deionization resin then removes remaining charged particles. The finished water has very low mineral content, ideally around **0 ppm TDS**, as described in [a walkthrough of RO and DI purification for window cleaning](https://www.getmywindowsclean.com/water-fed-pole-hose/). See our [guide to purified water window cleaning](https://alohawindowbros.com/blog/purified-water-window-cleaning/) for how RO and DI stages are maintained in the field.
+Purification removes much of that residue before the rinse reaches the window. Reverse osmosis sends water through a membrane that rejects many dissolved substances. Deionization resin then removes remaining charged particles. The finished water has very low mineral content, ideally **under 10 ppm TDS and closer to 0 to 5 ppm**, according to [Unger's guidance on common pure-water cleaning mistakes](https://usa.ungerglobal.com/blog/10-common-mistakes-in-pure-water-window-cleaning/). See our [guide to purified water window cleaning](/blog/purified-water-window-cleaning/) for how RO and DI stages are maintained in the field.
 
 <a id="the-rinse-matters-as-much-as-the-water"></a>
 ### The rinse matters as much as the water
@@ -139,7 +139,7 @@ The first look at the property also matters. A cleaner checks the glass, frames,
 
 Flow rate is one of the variables behind that rinse. An industry guide lists common residential setups at **about 0.25 to 0.4 gallons per minute for a two-jet brush**, with **0.5 to 0.8 gallons per minute through 1/4-inch pole hose**. Higher-output systems can reach **2 to 3 gallons per minute** when the pump and purification capacity are sized for it. See the [window-cleaning flow-rate guide](https://jracenstein.com/expert-advice-learning/understanding-water-flow-rates-in-window-cleaning-systems-1) for the relationship between flow, flushing, and purification contact time.
 
-![A six-step infographic detailing the water-fed pole window cleaning process, from equipment setup to final inspection.](https://cdnimg.co/8387fe5a-1497-428d-a3af-57b68fc0bac4/38ad8d07-1297-4968-9e85-2220658443ee/how-does-a-water-fed-pole-system-work-cleaning-process.jpg)
+![A six-step infographic detailing the water-fed pole window cleaning process, from equipment setup to final inspection.](/img/blog/water-fed-pole-fig3.jpg)
 
 The homeowner may see water running down the pane and assume the cleaner has stopped too early. In this method, the wet finish is intentional. The relevant check is whether the glass has been properly agitated, thoroughly rinsed, and left with water that can dry without mineral residue.
 
@@ -177,7 +177,7 @@ Ladders remain useful for interior glass, restricted courtyards, architectural p
 
 Purified water can provide a spot-free rinse, but it does not dissolve every deposit. Calcium drip lines from sprinkler overspray, oxidized insect marks, and baked-on residue may need slower brushing, treatment, or hand detailing. Coastal homes may carry salt aerosol, while foothill properties can collect windblown dust and grit. Brush agitation and continuous rinsing remove ordinary surface soil, but mineral scale can remain bonded to the pane.
 
-Skylights show why access must match the glass and structure. This guide to [skylight cleaning with a pole](https://alohawindowbros.com/blog/skylight-cleaning-pole/) explains the access concerns around angle, surrounding surfaces, and tool control. The choice is not a fixed ladder-versus-pole rule. It is the method that allows safe positioning, proper brush contact, thorough rinsing, and a finish the cleaner can inspect.
+Skylights show why access must match the glass and structure. This guide to [skylight cleaning with a pole](/blog/skylight-cleaning-pole/) explains the access concerns around angle, surrounding surfaces, and tool control. The choice is not a fixed ladder-versus-pole rule. It is the method that allows safe positioning, proper brush contact, thorough rinsing, and a finish the cleaner can inspect.
 
 <a id="why-local-pros-like-aloha-window-bros-rely-on-pure-water"></a>
 ## Why Local Pros Like Aloha Window Bros Rely on Pure Water
@@ -234,7 +234,7 @@ The technician also checks which side is dirty. Interior haze from household res
 
 Pole reach does not guarantee access to every pane. Roof geometry, enclosed courtyards, overhead lines, wind, and the angle needed to keep the brush flat can restrict practical reach. A high window may still require a ladder, another access method, or a return visit with suitable equipment.
 
-The [guide to window cleaning for high windows](https://alohawindowbros.com/blog/window-cleaning-for-high-windows/) explains why height is only one part of planning. A professional should identify which glass the pole can reach, which surfaces it can clean effectively, and where manual detailing or specialized access is more appropriate.
+The [guide to window cleaning for high windows](/blog/window-cleaning-for-high-windows/) explains why height is only one part of planning. A professional should identify which glass the pole can reach, which surfaces it can clean effectively, and where manual detailing or specialized access is more appropriate.
 
 When the method struggles, a good cleaner changes the diagnosis rather than repeating the same rinse. They identify the residue, adjust the process, add an appropriate tool when needed, and tell the homeowner what may remain. Purified water supports the cleaning process, but brush contact and correct treatment determine whether the residue leaves.
 

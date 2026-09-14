@@ -6,7 +6,7 @@ heroImage: "/img/water_pole_2.jpg"
 heroImageAlt: "Professional window cleaning by Aloha Window Bros"
 ---
 
-Homeowners in Agoura Hills searching for reliable window cleaning should expect to pay between $150 and $400 for a full-home service, depending on the number of windows and accessibility. Aloha Window Bros provides professional window cleaning throughout Agoura Hills and the surrounding Ventura County communities, using purified water systems and eco-friendly solutions that leave glass streak-free without chemical residue. Most homes in the area benefit from cleaning every three to six months due to the local climate conditions that cause rapid buildup on exterior glass.
+Homeowners in Agoura Hills searching for reliable window cleaning should expect to pay between $175 and $425 for a full single-family home, depending on the number of windows and accessibility. Aloha Window Bros provides professional [window cleaning in Agoura Hills](/agoura/) and the surrounding Ventura County communities, using purified water systems and eco-friendly solutions that leave glass streak-free without chemical residue. Most homes in the area benefit from cleaning every three to six months due to the local climate conditions that cause rapid buildup on exterior glass.
 
 ## Why Agoura Hills Homes Need Regular Window Cleaning
 
@@ -14,7 +14,7 @@ Agoura Hills sits at the edge of the Santa Monica Mountains, where the natural l
 
 ### Dust and Pollen from the Santa Monica Mountains
 
-The proximity to open space and hiking trails means homes in Agoura Hills are exposed to higher-than-average dust levels. According to the [South Coast Air Quality Management District](https://www.aqmd.gov/), particulate matter concentrations in foothill communities of Southern California can be 20–40% higher than coastal areas during dry months. This fine dust settles on windows and creates a hazy film that reduces natural light transmission.
+The proximity to open space and hiking trails means homes in Agoura Hills are exposed to higher-than-average dust levels. According to the [South Coast Air Quality Management District](https://www.aqmd.gov/), particulate matter concentrations in foothill communities of Southern California can be 20 to 40% higher than coastal areas during dry months. This fine dust settles on windows and creates a hazy film that reduces natural light transmission.
 
 ### Hard Water Stains from Sprinkler Systems
 
@@ -42,10 +42,10 @@ Window cleaning costs in Agoura Hills vary based on home size, window count, and
 
 | Home Size | Window Count | Estimated Cost |
 |---|---|---|
-| 1–2 bedroom | 10–15 windows | $150–$200 |
-| 3 bedroom | 15–25 windows | $200–$300 |
-| 4+ bedroom | 25–40 windows | $300–$400 |
-| Multi-story premium | Varies | Add $50–$100 |
+| 1 to 2 bedroom | 10 to 15 windows | $150 to $200 |
+| 3 bedroom | 15 to 25 windows | $200 to $300 |
+| 4+ bedroom | 25 to 40 windows | $300 to $425 |
+| Multi-story premium | Varies | Add $50 to $100 |
 
 According to the [International Window Cleaning Association](https://www.iwca.org/), professional window cleaning typically costs between $4 and $12 per pane nationwide. Agoura Hills prices fall within this range, with slight premiums for hillside properties that require ladder work or specialized access equipment.
 
@@ -65,11 +65,11 @@ Aloha Window Bros has built a reputation across the Conejo Valley for consistent
 
 ### Purified Water System
 
-Aloha Window Bros uses a reverse osmosis water purification system that removes minerals before they touch the glass. This eliminates water spots entirely — something that regular garden hose water cannot achieve, especially with the hard water common throughout the [Calleguas Municipal Water District](https://www.calleguas.com/) service area.
+Aloha Window Bros uses a reverse osmosis water purification system that removes minerals before they touch the glass. This eliminates water spots entirely, which regular garden hose water cannot achieve on the hard imported water the [Las Virgenes Municipal Water District](https://www.lvmwd.com/) delivers to Agoura Hills.
 
 ### Fully Insured and Locally Operated
 
-Every Aloha Window Bros technician carries full liability insurance. For hillside homes in areas like Malibu Canyon or Lindero Canyon, this matters — working at heights on multi-story properties requires proper safety training and insurance coverage.
+Every Aloha Window Bros technician carries full liability insurance. For hillside homes in areas like Malibu Canyon or Lindero Canyon, this matters, because working at heights on multi-story properties requires proper safety training and insurance coverage.
 
 ### Satisfaction Guarantee
 
@@ -84,10 +84,10 @@ Aloha Window Bros provides window cleaning throughout all Agoura Hills neighborh
 - Agoura Oaks
 - Liberty Canyon
 - Malibu Junction
-- Lindero Canyon (bordering [Westlake Village](/blog/window-cleaning-westlake-village-guide-for-homeowners))
+- Lindero Canyon (bordering [Westlake Village](/westlake/))
 - Cornell (unincorporated)
 
-The team also serves [Thousand Oaks](/blog/window-cleaning-thousand-oaks-a-complete-guide-for-homeowners), [Westlake Village](/blog/window-cleaning-westlake-village-guide-for-homeowners), Newbury Park, and communities throughout [Ventura County](/blog/window-cleaning-ventura-county-what-homeowners-should-know-before-hiring-professionals).
+The team also serves [Thousand Oaks](/thousand-oaks/), [Westlake Village](/westlake/), [Newbury Park](/newbury/), and communities throughout [Ventura County](/blog/window-cleaning-ventura-county-what-homeowners-should-know-before-hiring-professionals).
 
 ## Frequently Asked Questions
 
@@ -110,6 +110,10 @@ Professional window cleaners use techniques appropriate for all window types, in
 ### How do I get a free quote for window cleaning in Agoura Hills?
 
 Aloha Window Bros offers free on-site quotes for all Agoura Hills homes. [Schedule a free estimate](/contact/) online or call (805) 341-4121 to book a convenient time.
+
+## Book Window Cleaning in Agoura Hills
+
+Aloha Window Bros cleans windows, screens, frames, and sills in one visit for homes from Morrison Ranch to Old Agoura. See local pricing, service details, and reviews on our [Agoura Hills window cleaning page](/agoura/), or [book your free quote](/contact/), usually scheduled within 24 hours.
 
 <script type="application/ld+json">
 {

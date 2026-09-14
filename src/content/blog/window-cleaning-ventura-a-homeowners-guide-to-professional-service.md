@@ -6,7 +6,7 @@ heroImage: "/img/clean_window_pic.png"
 heroImageAlt: "Professional window cleaning by Aloha Window Bros"
 ---
 
-Professional window cleaning in Ventura, California costs between $175 and $375 for most homes and should be done two to four times per year. Aloha Window Bros provides full-service window cleaning throughout the city of Ventura, including interior and exterior glass, screens, frames, tracks, and sills. Ventura's coastal climate creates unique challenges — salt spray, marine fog, and seasonal Santa Ana winds deposit grime on windows faster than in inland communities. Regular professional cleaning prevents permanent damage and keeps homes looking their best.
+Professional window cleaning in Ventura, California costs between $175 and $375 for most homes and should be done two to four times per year. Aloha Window Bros provides full-service [window cleaning in Ventura](/ventura/), including interior and exterior glass, screens, frames, tracks, and sills. Ventura's coastal climate creates unique challenges: salt spray, marine fog, and seasonal Santa Ana winds deposit grime on windows faster than in inland communities. Regular professional cleaning prevents permanent damage and keeps homes looking their best.
 
 ## Why Ventura's Coastal Climate Is Hard on Windows
 
@@ -190,4 +190,4 @@ Every season has benefits. Spring cleaning removes winter salt and fog buildup. 
 
 ## Get Your Free Quote Today
 
-Aloha Window Bros has helped hundreds of Ventura homeowners maintain crystal-clear windows in one of California's most beautiful coastal cities. [Schedule your free quote online](/contact/) or call **(805) 341-4121** and we'll come to you for an on-site estimate with no obligation.
+Aloha Window Bros has helped hundreds of Ventura homeowners maintain crystal-clear windows in one of California's most beautiful coastal cities. See local pricing and service details on our [Ventura window cleaning page](/ventura/), then [schedule your free quote online](/contact/) or call **(805) 341-4121** and we'll come to you for an on-site estimate with no obligation.

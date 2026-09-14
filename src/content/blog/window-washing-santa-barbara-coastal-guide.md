@@ -6,7 +6,7 @@ heroImage: "/img/window_washing_image.png"
 heroImageAlt: "Professional window washing by Aloha Window Bros"
 ---
 
-Window washing in Santa Barbara requires a different approach than inland cleaning because salt spray, marine fog, and Santa Barbara's notoriously hard water create a mineral film that standard squeegee work cannot remove. Aloha Window Bros uses purified water-fed pole systems and professional-grade solutions designed for coastal conditions, serving homes from Carpinteria to Goleta. Most Santa Barbara homeowners pay between $175 and $400 for professional window washing, with quarterly service recommended for properties within five miles of the coast.
+Window washing in Santa Barbara requires a different approach than inland cleaning because salt spray, marine fog, and Santa Barbara's notoriously hard water create a mineral film that standard squeegee work cannot remove. Aloha Window Bros provides [window washing in Santa Barbara](/santa-barbara/) with purified water-fed pole systems and professional-grade solutions designed for coastal conditions, serving homes from Carpinteria to Goleta. Most Santa Barbara homeowners pay between $175 and $400 for professional window washing, with quarterly service recommended for properties within five miles of the coast.
 
 ## Why Window Washing in Santa Barbara Is Different
 
@@ -128,7 +128,7 @@ Yes. Aloha Window Bros services storefronts, restaurants, offices, and short-ter
 
 ## Schedule Your Free Santa Barbara Window Washing Quote
 
-Aloha Window Bros offers free on-site quotes for homes and businesses throughout Santa Barbara County. [Book your free quote online](/contact/) or call **(805) 341-4121** to get crystal-clear, streak-free glass on your timeline.
+Aloha Window Bros offers free on-site quotes for homes and businesses throughout Santa Barbara County. See local pricing and service details on our [Santa Barbara window washing page](/santa-barbara/), then [book your free quote online](/contact/) or call **(805) 341-4121** to get crystal-clear, streak-free glass on your timeline.
 
 <script type="application/ld+json">
 {

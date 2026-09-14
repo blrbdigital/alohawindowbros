@@ -7,6 +7,8 @@ heroImageAlt: 'How to Clean Solar Panels on Roof Safely'
 ---
 You notice it from the driveway first. The panels look hazy after a dry Santa Ana week, and a dark line of dust has collected along the lower frames. Near the coast, salt film may be sitting on the glass even when the array looks only slightly dull. A few bird droppings or sprinkler spots can block more light than their size suggests.
 
+To clean solar panels on a roof safely, stay on the ground whenever you can: rinse cool panels early in the morning with a soft brush on a water-fed pole, use purified or low-mineral water, and never pressure wash, walk on the panels, or climb in wind. [Unger's safety instructions for cleaning PV systems with water-fed poles](https://usa.ungerglobal.com/safety-warning-instructions-for-cleaning-pv-and-solar-systems-with-water-fed-poles/) are a good baseline before any rooftop work.
+
 Cleaning rooftop solar panels isn't mainly a scrubbing chore. It's a decision about **soiling, access, roof conditions, and electrical safety**. The right method removes contamination without scratching the glass, forcing water into seals, or putting you at fall risk. The wrong method can leave mineral rings, damage coatings, or turn a manageable maintenance job into a roof repair.
 
 ## Table of Contents
@@ -63,7 +65,7 @@ A thin layer of dust in a semi-arid neighborhood may sit near the ordinary annua
 | Desert conditions | **20% or more annually** in some locations | Frequently visible, with severe buildup after dust storms |
 | Worldwide PV fleet | At least **3% to 4% annually** in the IEA PVPS estimate for 2018 | Varies widely by dust, snow, rainfall, and site conditions |
 
-The [solar panel cleaning value guide](https://alohawindowbros.com/blog/is-solar-panel-cleaning-worth-it/) can help frame the question around output rather than appearance. In practice, compare recent production with your normal weather-adjusted pattern, then inspect the array. If output drops while sunlight conditions remain similar and the glass has obvious deposits, cleaning becomes easier to justify.
+The [solar panel cleaning value guide](/blog/is-solar-panel-cleaning-worth-it/) can help frame the question around output rather than appearance. In practice, compare recent production with your normal weather-adjusted pattern, then inspect the array. If output drops while sunlight conditions remain similar and the glass has obvious deposits, cleaning becomes easier to justify.
 
 Don't translate a percentage loss into dollars using an invented utility rate. Your electricity price, system size, shading, battery behavior, and export agreement determine the actual value of recovered production. The practical conclusion is simpler: **coastal and high-dust homes reach the cleaning threshold sooner**, while cleaner, wetter locations can often wait longer.
 
@@ -72,7 +74,7 @@ Don't translate a percentage loss into dollars using an invented utility rate. Y
 
 Treat the roof as a workplace, not an extension of the backyard. The basic cleaning tools are simple, but safe access is not. A soft-bristle brush on a telescoping pole, a garden hose with a gentle nozzle, a non-abrasive sponge for isolated spots, and a bucket of clean water are usually enough for light contamination. A squeegee with a suitable extension can help remove rinse water, especially where hard water would otherwise leave rings.
 
-![A checklist infographic illustrating essential tools and safety precautions for cleaning residential solar panels on a roof.](https://cdnimg.co/8387fe5a-1497-428d-a3af-57b68fc0bac4/bad94abe-b557-424c-b39e-01ebc45fb310/how-to-clean-solar-panels-on-roof-safety-checklist.jpg)
+![A checklist infographic illustrating essential tools and safety precautions for cleaning residential solar panels on a roof.](/img/blog/solar-roof-fig1.jpg)
 
 <a id="check-the-hazards-before-the-glass"></a>
 ### Check the hazards before the glass
@@ -96,9 +98,9 @@ Start with a cool, low-wind window and confirm the system shutdown procedure in 
 
 Begin with a gentle roof-hose rinse from the upper portion of the array toward the lower edge. The first rinse should remove loose dust, grit, pollen, and ash before a brush touches the glass. Don't use a pressure washer. High-pressure water can stress seals, wiring, and frame edges, and it can drive water where it shouldn't go.
 
-Apply clean water with a soft-bristle brush and work in straight strokes along the panel length. The goal is to loosen salt film and pollen while moving contamination toward the lower edge, not to grind loose particles across the glass. The [solar panel cleaning brush and pole guide](https://alohawindowbros.com/blog/solar-panel-cleaning-brush-and-pole/) covers the equipment choice, but the technique matters just as much as the pole itself.
+Apply clean water with a soft-bristle brush and work in straight strokes along the panel length. The goal is to loosen salt film and pollen while moving contamination toward the lower edge, not to grind loose particles across the glass. The [solar panel cleaning brush and pole guide](/blog/solar-panel-cleaning-brush-and-pole/) covers the equipment choice, but the technique matters just as much as the pole itself.
 
-![An infographic showing a five-step process for cleaning solar panels on a roof, labeled one through five.](https://cdnimg.co/8387fe5a-1497-428d-a3af-57b68fc0bac4/2060c0d8-d295-4b3c-b9f1-3b2ac20c4011/how-to-clean-solar-panels-on-roof-cleaning-process.jpg)
+![An infographic showing a five-step process for cleaning solar panels on a roof, labeled one through five.](/img/blog/solar-roof-fig2.jpg)
 
 <a id="handle-stubborn-deposits-without-forcing-them"></a>
 ### Handle stubborn deposits without forcing them
@@ -136,7 +138,7 @@ DIY cleaning makes sense only when the access is genuinely safe. A single-story 
 
 The calculation changes on a two-story home, a steep roof, or fragile tile. Walking on roof tiles can crack them, and walking on panels can damage glass, frames, or mounting points. Some modules aren't rated for foot traffic at all. Manufacturers may also specify approved cleaning methods and restrict detergents, so check the warranty documents before introducing soap or chemicals.
 
-![A comparison chart showing the benefits of hiring professional solar panel cleaners versus performing DIY cleaning.](https://cdnimg.co/8387fe5a-1497-428d-a3af-57b68fc0bac4/87dbec0b-f5f1-4846-9dff-1d528f15f87e/how-to-clean-solar-panels-on-roof-comparison-chart.jpg)
+![A comparison chart showing the benefits of hiring professional solar panel cleaners versus performing DIY cleaning.](/img/blog/solar-roof-fig3.jpg)
 
 <a id="use-clear-stop-signs"></a>
 ### Use clear stop signs
@@ -151,7 +153,7 @@ The following conditions end the DIY discussion:
 
 A professional crew brings fall-protection procedures, panel-safe tools, purified water options, and experience working around roofing and electrical components. That doesn't mean every job requires a service visit. It means the price of cleaning should be compared with the cost of a fall, cracked tile, damaged panel, or warranty dispute.
 
-For homeowners who want a service rather than roof access, [Aloha Window Bros solar panel cleaning service](https://alohawindowbros.com/blog/solar-panel-cleaning-service/) is one local option. The company describes inspections, soft tools, purified-water cleaning, and no pressure washing or abrasives as part of its solar panel work.
+For homeowners who want a service rather than roof access, [Aloha Window Bros solar panel cleaning service](/blog/solar-panel-cleaning-service/) is one local option. The company describes inspections, soft tools, purified-water cleaning, and no pressure washing or abrasives as part of its solar panel work.
 
 <a id="key-takeaways-and-common-questions"></a>
 ## Key Takeaways and Common Questions
@@ -161,19 +163,29 @@ Safe rooftop cleaning follows a controlled order: **inspect, cool the panels, ri
 <a id="field-questions-homeowners-ask"></a>
 ### Field questions homeowners ask
 
-**Should I clean during a Santa Ana wind event?**  
-No. Wind makes ladder, harness, hose, and telescoping-pole work less predictable. Wait until conditions settle, then inspect for deposited dust before choosing a cleaning day.
+<details class="faq-item">
+<summary>Should I clean during a Santa Ana wind event?</summary>
+<p>No. Wind makes ladder, harness, hose, and telescoping-pole work less predictable. Wait until conditions settle, then inspect for deposited dust before choosing a cleaning day.</p>
+</details>
 
-**Can roof moss spread beneath panels?**  
-It can signal persistent moisture or poor drainage around the array. Don't pull at growth or push tools under the frame. Have the roof and mounting area inspected.
+<details class="faq-item">
+<summary>Can roof moss spread beneath panels?</summary>
+<p>It can signal persistent moisture or poor drainage around the array. Don't pull at growth or push tools under the frame. Have the roof and mounting area inspected.</p>
+</details>
 
-**What if I find a crack while cleaning?**  
-Stop immediately, keep water and tools away from the damaged area, and contact the installer or a qualified solar professional. Don't scrub over cracked glass or touch nearby wiring.
+<details class="faq-item">
+<summary>What if I find a crack while cleaning?</summary>
+<p>Stop immediately, keep water and tools away from the damaged area, and contact the installer or a qualified solar professional. Don't scrub over cracked glass or touch nearby wiring.</p>
+</details>
 
-**Is rainwater enough near the beach?**  
-Not always. A home close to the coast may still retain salt haze, bird deposits, and mineral residue after rain. Inspect the lower edges and compare production before deciding.
+<details class="faq-item">
+<summary>Is rainwater enough near the beach?</summary>
+<p>Not always. A home close to the coast may still retain salt haze, bird deposits, and mineral residue after rain. Inspect the lower edges and compare production before deciding.</p>
+</details>
 
-**Can I walk on the panels?**  
-No, unless the manufacturer specifically rates them for foot traffic. Even then, follow the installation guidance. A panel is a working electrical component, not a step.
+<details class="faq-item">
+<summary>Can I walk on the panels?</summary>
+<p>No, unless the manufacturer specifically rates them for foot traffic. Even then, follow the installation guidance. A panel is a working electrical component, not a step.</p>
+</details>
 
-For Ventura County and Santa Barbara County homeowners, Aloha Window Bros provides solar panel cleaning alongside window, screen, frame, and sill cleaning, with free on-site or virtual estimates. If coastal salt, Santa Ana dust, bird droppings, or difficult roof access are affecting your array, visit [Aloha Window Bros](https://alohawindowbros.com) to request an assessment and discuss a safe cleaning approach.
+For Ventura County and Santa Barbara County homeowners, Aloha Window Bros provides solar panel cleaning alongside window, screen, frame, and sill cleaning, with free on-site estimates. If coastal salt, Santa Ana dust, bird droppings, or difficult roof access are affecting your array, see our [solar panel cleaning service](/services/solar-panel-cleaning/) or [request a free quote](/contact/) to discuss a safe cleaning approach.

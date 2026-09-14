@@ -6,7 +6,7 @@ heroImage: "/img/hero-window-cleaning.jpg"
 heroImageAlt: "Professional window cleaning by Aloha Window Bros"
 ---
 
-Santa Barbara homeowners need professional window cleaning more often than most California residents due to the coastal environment. Salt spray, marine fog, and mineral-rich hard water create a stubborn film on glass that standard household cleaning cannot remove effectively. Aloha Window Bros provides professional window cleaning throughout Santa Barbara County, using purified water systems and eco-friendly solutions designed specifically for coastal conditions. Most Santa Barbara homes benefit from cleaning every 3 to 4 months, and our published Santa Barbara band is $200 to $475 per visit depending on home size and window accessibility.
+Santa Barbara homeowners need professional window cleaning more often than most California residents due to the coastal environment. Salt spray, marine fog, and mineral-rich hard water create a stubborn film on glass that standard household cleaning cannot remove effectively. Aloha Window Bros provides professional [window cleaning in Santa Barbara](/santa-barbara/) and throughout Santa Barbara County, using purified water systems and eco-friendly solutions designed specifically for coastal conditions. Most Santa Barbara homes benefit from cleaning every 3 to 4 months, and our published Santa Barbara band is $200 to $475 per visit depending on home size and window accessibility.
 
 ## Why Santa Barbara Windows Get Dirty Faster
 
@@ -111,4 +111,4 @@ Yes. Aloha Window Bros offers quarterly and semi-annual plans with priority sche
 
 ## Schedule Your Free Quote
 
-Ready for crystal-clear windows? Aloha Window Bros provides free on-site quotes for homes throughout Santa Barbara County. [Book your free quote online](/contact/) or call **(805) 341-4121** today.
+Ready for crystal-clear windows? Aloha Window Bros provides free on-site quotes for homes throughout Santa Barbara County. See local pricing and service details on our [Santa Barbara window cleaning page](/santa-barbara/), then [book your free quote online](/contact/) or call **(805) 341-4121** today.

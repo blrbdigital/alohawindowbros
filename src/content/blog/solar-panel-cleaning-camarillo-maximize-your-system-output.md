@@ -6,7 +6,7 @@ heroImage: "/img/solar_1.png"
 heroImageAlt: "Professional solar panel cleaning by Aloha Window Bros"
 ---
 
-Solar panels in Camarillo lose between 15% and 25% of their output each year to agricultural dust, coastal salt fog, and pollen unique to the Oxnard Plain. Aloha Window Bros provides professional solar panel cleaning throughout Camarillo using purified water systems that safely remove buildup without scratching panels or voiding manufacturer warranties. Most Camarillo homeowners should schedule professional solar panel cleaning at least twice per year — once in early spring before peak production season and again in late fall after the dry season ends.
+Solar panels in Camarillo lose between 15% and 25% of their output each year to agricultural dust, coastal salt fog, and pollen unique to the Oxnard Plain. Aloha Window Bros provides professional solar panel cleaning throughout [Camarillo](/camarillo/) using purified water systems that safely remove buildup without scratching panels or voiding manufacturer warranties. Most Camarillo homeowners should schedule professional solar panel cleaning at least twice per year: once in early spring before peak production season and again in late fall after the dry season ends.
 
 ## Why Camarillo Solar Panels Get Dirty Faster Than Most California Cities
 
@@ -112,14 +112,14 @@ Timing affects how much energy your cleaning recovers.
 
 Aloha Window Bros provides solar panel cleaning across Ventura County, including:
 
-- Camarillo (all neighborhoods including Mission Oaks, Las Posas Estates, Spanish Hills, Camarillo Springs)
-- [Thousand Oaks](/blog/solar-panel-cleaning-thousand-oaks-protect-your-investment)
-- [Westlake Village](/blog/window-cleaning-westlake-village-guide-for-homeowners)
-- [Newbury Park](/blog/window-cleaning-newbury-park-a-homeowners-guide)
-- [Oxnard](/blog/window-cleaning-oxnard-coastal-homeowners-guide)
-- [Ventura](/blog/window-cleaning-ventura-a-homeowners-guide-to-professional-service)
-- [Simi Valley](/blog/window-cleaning-simi-valley-a-homeowners-guide)
-- [Santa Barbara](/blog/window-cleaning-santa-barbara-why-local-homeowners-trust-professional-service)
+- [Camarillo](/camarillo/) (all neighborhoods including Mission Oaks, Las Posas Estates, Spanish Hills, Camarillo Springs)
+- [Thousand Oaks](/thousand-oaks/)
+- [Westlake Village](/westlake/)
+- [Newbury Park](/newbury/)
+- [Oxnard](/oxnard/)
+- [Ventura](/ventura/)
+- [Simi Valley](/simi-valley/)
+- [Santa Barbara](/santa-barbara/)
 
 In addition to [solar panel cleaning](/services/solar-panel-cleaning), Aloha Window Bros offers [professional window washing](/services/window-washing) and [screen cleaning](/services/screen-cleaning) for Camarillo homes — the same purified water system used on panels also produces streak-free windows and salt-free screens.
 
@@ -147,7 +147,7 @@ Aloha Window Bros offers free quotes for solar panel cleaning throughout Camaril
 
 ## Get Your Free Quote Today
 
-Aloha Window Bros has cleaned solar arrays for hundreds of Ventura County homeowners. The same purified water system that keeps Camarillo windows streak-free also restores solar panel output without scratching glass or voiding warranties. [Schedule your free quote online](/contact/) or call **(805) 341-4121** for a no-obligation on-site assessment.
+Aloha Window Bros has cleaned solar arrays for hundreds of Ventura County homeowners. The same purified water system that keeps Camarillo windows streak-free also restores solar panel output without scratching glass or voiding warranties. See pricing and local details on our [Camarillo window and solar cleaning page](/camarillo/), then [schedule your free quote online](/contact/) or call **(805) 341-4121** for a no-obligation on-site assessment.
 
 <script type="application/ld+json">
 {

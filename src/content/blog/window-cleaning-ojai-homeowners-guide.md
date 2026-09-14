@@ -6,7 +6,7 @@ heroImage: "/img/before_after.png"
 heroImageAlt: "Professional window cleaning by Aloha Window Bros"
 ---
 
-Ojai homeowners need professional window cleaning more often than most Ventura County residents because of the unique combination of orchard dust, well-water mineral content, and wildfire-season ash that settles on glass throughout the year. Aloha Window Bros provides professional window cleaning across the Ojai Valley, from East End estates to Mira Monte, using purified water systems and eco-friendly methods that protect both the home and the surrounding agricultural environment. Most Ojai homes pay between $175 and $400 for full-service cleaning, with quarterly visits recommended for properties near active orchards or oak canopies.
+Ojai homeowners need professional window cleaning more often than most Ventura County residents because of the unique combination of orchard dust, well-water mineral content, and wildfire-season ash that settles on glass throughout the year. Aloha Window Bros provides professional [window cleaning across the Ojai Valley](/ojai/), from East End estates to Mira Monte, using purified water systems and eco-friendly methods that protect both the home and the surrounding agricultural environment. Most Ojai homes pay between $175 and $400 for full-service cleaning, with quarterly visits recommended for properties near active orchards or oak canopies.
 
 ## Why Ojai Windows Get Dirty Faster Than You Think
 
@@ -127,7 +127,7 @@ Yes. Aloha Window Bros offers quarterly and semi-annual plans with priority sche
 
 ## Schedule Your Free Ojai Window Cleaning Quote
 
-Whether you're hosting an event at an East End estate or just want the marine-layer haze off your Mira Monte bungalow, Aloha Window Bros provides free on-site quotes throughout the Ojai Valley. [Book your free quote online](/contact/) or call **(805) 341-4121** to get crystal-clear, valley-view glass.
+Whether you're hosting an event at an East End estate or just want the marine-layer haze off your Mira Monte bungalow, Aloha Window Bros provides free on-site quotes throughout the Ojai Valley. See local pricing and service details on our [Ojai window cleaning page](/ojai/), then [book your free quote online](/contact/) or call **(805) 341-4121** to get crystal-clear, valley-view glass.
 
 <script type="application/ld+json">
 {

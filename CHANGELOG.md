@@ -1,3 +1,34 @@
+## 2026-09-14 - City-link rule fixed on 13 posts (3 geo-grid ABSENT cities first), eleventh audit
+
+**Primary action (internal_links): 13 city blog posts had ZERO links to their own city landing
+page**, breaking the client rule (city page link in the first 300 words AND the closing CTA). They
+were the pre-Outrank `window-cleaning-<city>` posts for Westlake Village, Agoura Hills, Newbury Park,
+Santa Barbara (x2), Camarillo, Simi Valley, Oxnard, Ventura and Ojai, plus Camarillo solar, Oxnard
+screen repair and the 09-10 `cleaning-companies-in-santa-barbara`. Each now links its city page in
+the lead and in the closing CTA (new `## Book Window Cleaning in <City>` section where the post
+ended on its FAQ). Neighbour-city mentions on the Camarillo, Agoura and Newbury posts now point at
+landing pages instead of other blog posts (one pointed at the dead Thousand Oaks guide).
+
+Why these three first: the brief's geo-grid has the listing ABSENT from the pack at Newbury Park,
+Agoura Hills and Camarillo, *window washing camarillo* slipped 6.7 to 9.5, and `/newbury/` lost
+over half its impressions (647 to 317). Those three posts also got full em dash sweeps.
+
+- **Price contradictions fixed:** Camarillo and Agoura posts led with $150 to $400 against the
+  $175 to $425 on their city pages and the pricing pillar; leads and tables aligned.
+- **Factual fix:** Agoura post credited Calleguas MWD in one section and Las Virgenes MWD (correct)
+  in another.
+- **FAQPage added** to `window-screen-repair-oxnard-ca` (had a FAQ section but no `<details>` markup,
+  so no schema) and its CTA, which linked nothing, now links `/oxnard/` and `/contact/`.
+
+**Eleventh audit:** `how-does-a-water-fed-pole-system-work` (09-12) and
+`how-to-clean-solar-panels-on-roof` (09-13). Homepage-CTA defect fixed on the solar post; FAQ block
+converted to `<details>` (FAQPage 5 == summary 5 in `dist/`); direct-answer paragraph added; four
+competitor/vendor citations removed (`nationalwindowcleaningauthority.com` x2, `getmywindowsclean.com`,
+`basidewt.com`) with TDS claims re-cited to Unger; six `cdnimg.co` hotlinks localized; self-links
+made relative. No consolidation: the solar and pure-water cluster holds 112 impressions total.
+
+Build passes (104 pages). No added em/en dashes.
+
 ## 2026-09-11 - Streak-free method consolidation REVERSED, FAQ schema + 5 inbound links, tenth audit
 
 **Primary action: the 2026-08-31 canonical from `/blog/how-to-get-streak-free-windows/` onto

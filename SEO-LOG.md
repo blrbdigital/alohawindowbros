@@ -4,6 +4,94 @@
 
 ---
 
+### 2026-09-14
+
+**What we did:**
+- **internal_links (primary): fixed a client-rule violation on 13 city blog posts that had ZERO
+  links to their own city landing page.** The rule requires the city page link in the first 300
+  words AND the closing CTA. Offenders: the pre-Outrank window posts for Camarillo, Agoura Hills,
+  Newbury Park, Westlake Village, Santa Barbara (x2), Simi Valley, Oxnard, Ventura and Ojai, plus
+  Camarillo solar, Oxnard screen repair and `cleaning-companies-in-santa-barbara` (09-10). Every one
+  now links its city page in the lead and in a closing CTA. On the Camarillo, Agoura and Newbury
+  posts the "team also serves" neighbour-city links were re-pointed from other blog posts (one was
+  the dead Thousand Oaks guide) to the landing pages.
+- **refresh (secondary, the three geo-grid ABSENT cities only):** Camarillo and Agoura posts led with
+  **$150 to $400** against the **$175 to $425** published on their own city pages and the pricing
+  pillar; leads and tables aligned. Agoura's water supplier contradiction (Calleguas vs Las Virgenes
+  MWD) fixed. All em dashes swept from those three posts.
+- **technical/GEO:** `window-screen-repair-oxnard-ca` had a 5-question FAQ with no `<details>` markup,
+  so it emitted no `FAQPage`; converted. Its CTA linked nothing and now links `/oxnard/` + `/contact/`.
+- **Eleventh publisher audit** on `how-does-a-water-fed-pole-system-work` (09-12) and
+  `how-to-clean-solar-panels-on-roof` (09-13): homepage-CTA defect fixed (sitewide count back to 0),
+  FAQ converted to schema-emitting markup on the solar post, direct answer added to its lead, four
+  competitor/vendor sources removed with TDS claims re-cited to Unger, six hotlinked images localized.
+- **gbp: logged, not worked.** No title rewrites. No new content.
+
+**Why we did it (brief numbers + the join, 2026-08-15..09-11):**
+- **The brief names the winnable ground explicitly:** the "window cleaning near me" geo-grid has us
+  **ABSENT at Newbury Park, Agoura Hills and Camarillo**, with weak incumbents at two of them
+  (Guerrero Window Cleaning 13 reviews in Camarillo, Golden Window Washing 2 reviews in Newbury Park)
+  against our 222. Its instruction is to strengthen those city landing pages with internal links
+  and content, not to chase proximity-locked #1 spots. The city posts for exactly those three cities
+  were among the ones sending the landing page no signal at all.
+- **The three landing pages are the ones slipping or decaying.** *window washing camarillo* **67 impr
+  @ 9.5, prior 6.7** (join: `/camarillo/` 39 @ 9.1, `/` 27 @ 10.2); *window cleaning camarillo*
+  75 @ 8.0 (join: `/camarillo/` 63 @ 8.2); `/camarillo/` holds **227 non-brand impressions and 0
+  clicks**. `/newbury/` is on the decaying list at **317 impressions from 647**. `/agoura/` 202 NB
+  impr / 0 clicks with *window cleaning agoura hills* **51 @ 7.9**.
+- **Action type chosen on the scoreboard.** `internal_links` grades **2 wins / 0 partial / 0 fails**
+  and `refresh` **2-0-0**, the only clean records. `title_meta` is 2-4-4, `technical` 0-2-2, `gbp`
+  0-0-4. This is also a documented client rule, verifiable in `dist/`, not a speculative change.
+- **Why not title_meta, despite a non-empty CTR-outlier table.** The join disqualifies every row again:
+  *how to clean windows streak free* (**1,944 @ 5.2** on the method page) is the page reversed on
+  09-11 and mid-read until 10-23; *best no streak window cleaner* (343 @ 1.9) is documented since
+  09-07 as US traffic that does not click; *window cleaning near me* (122 @ 3.7) splits `/` 60 @ 1.2
+  and four city pages at 4.4 to 5.8, which is map-pack ground; *window screen cleaning* (147 @ 12.6
+  "from 6.6") was 8 impressions last window, so the "slip" is impression expansion on
+  `/blog/window-screen-cleaning-service/` (126 @ 13.3), rebuilt 09-02 and under review until 10-14.
+- **Why not gbp:** 0 wins / 4 fails. Logged for the GBP workstream: *window cleaning westlake
+  village* 33 @ 1.5, *window cleaning newbury park* 32 @ 2.2, *window washing thousand oaks* 61 @
+  3.7, *window cleaning agoura hills ca* 22 @ 4.1, *window cleaning cost thousand oaks* 35 @ 4.9, and
+  the pack gaps at Newbury Park, Agoura Hills and Camarillo named above.
+- **Why no consolidation of the two new posts:** a `solar|water.fed|purified|roof` cluster dump holds
+  112 impressions total and nothing on a method query, so neither lands on an occupied surface.
+- **Why not new_content:** the service x city matrix is complete and nothing on the board clears the
+  information-gain bar.
+
+**Expected impact:**
+- *window washing camarillo* back to **position 8 or better** and *window cleaning camarillo* to
+  **7.5 or better** on `/camarillo/`, and `/newbury/` stops decaying (**300+ impressions** in the
+  next 28-day brief window). Modest by design: the donor posts are old and low-impression (the
+  Camarillo window post is not in the join's top 25 pages), so this is signal consolidation, not a
+  step change.
+- No non-brand click prediction beyond **at least 1 non-brand click on one of `/camarillo/`,
+  `/agoura/`, `/newbury/`** over 42 days (currently 0 on all three).
+- The price and supplier fixes are an AI-citation trust play: the lead paragraph is what engines
+  quote, and it contradicted the landing page it now links to.
+
+**Metrics at time of action (GSC 2026-08-15..2026-09-11):**
+- Sitewide: 75 clicks, 8,913 impressions; non-brand **10 clicks**, 8,238 impressions, 632 queries,
+  avg position 9.7.
+- `/camarillo/` 227 NB impr / 0 clicks. `/agoura/` 202 / 0. `/newbury/` 83 NB (317 page-level, prior
+  647). `/westlake/` 131 / 0. `/simi-valley/` 61 / 0. `/santa-barbara/` 37 / 0.
+- *window washing camarillo* 67 @ 9.5 (prior 6.7). *window cleaning camarillo* 75 @ 8.0.
+  *window cleaning newbury park* 32 @ 2.2 (`/newbury/` 32 @ 4.5). *window cleaning agoura hills*
+  `/agoura/` 51 @ 7.9.
+- Posts with zero links to their own city page before: 13. After: 0 (audit one-liner in the site map).
+
+**Logged, NOT actioned:**
+1. **Four more lead-paragraph price contradictions against the pillar:** Westlake post $175 to $350,
+   Simi Valley $150 to $400, Ventura $175 to $375 (pillar $175 to $425 for all three), Santa Barbara
+   washing $175 to $400 (pillar $200 to $475). Their tables need rework too, so left for a refresh run.
+2. **`solar-panel-cleaning-camarillo-...` carries two unattributed blockquotes styled as expert
+   quotes** with specific soiling percentages. Fabricated-authority class. Delete or source next time.
+3. **`/santa-barbara/` still loses its own queries to `/`** (*window cleaning santa barbara* `/` 123 @
+   8.1 vs 5 @ 45.0). Unchanged. Pack held by Time to Shine (377 reviews): GBP ground.
+
+**Review after 42 days (2026-10-26).**
+
+---
+
 ### 2026-09-11
 
 **What we did:**

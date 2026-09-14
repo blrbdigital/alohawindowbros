@@ -6,7 +6,7 @@ heroImage: "/img/before_after.png"
 heroImageAlt: "Professional window cleaning by Aloha Window Bros"
 ---
 
-Homeowners in Camarillo searching for professional window cleaning should expect to pay between $150 and $400 for a full-home service, depending on window count and accessibility. Aloha Window Bros provides window cleaning throughout Camarillo, using purified water systems and eco-friendly solutions that leave glass streak-free. Most Camarillo homes need cleaning every three to four months because of the city's unique combination of coastal salt air from the Oxnard Plain, agricultural dust from surrounding farmland, and hard water from local irrigation systems.
+Homeowners in Camarillo searching for professional window cleaning should expect to pay between $175 and $425 for a full single-family home, depending on window count and accessibility, with small condos starting lower. Aloha Window Bros provides [window cleaning in Camarillo](/camarillo/) and the surrounding Oxnard Plain, using purified water systems and eco-friendly solutions that leave glass streak-free. Most Camarillo homes need cleaning every three to four months because of the city's unique combination of coastal salt air from the Oxnard Plain, agricultural dust from surrounding farmland, and hard water from local irrigation systems.
 
 ## Why Camarillo Homes Need Regular Window Cleaning
 
@@ -42,10 +42,10 @@ Pricing varies by home size, window count, and accessibility. Here is a general 
 
 | Home Size | Window Count | Estimated Cost |
 |---|---|---|
-| 1–2 bedroom condo | 8–12 windows | $125–$175 |
-| Standard 3 bedroom | 15–25 windows | $200–$300 |
-| 4+ bedroom single-story | 25–35 windows | $275–$375 |
-| Two-story home | 25–40 windows | $325–$450 |
+| 1 to 2 bedroom condo | 8 to 12 windows | $125 to $175 |
+| Standard 3 bedroom | 15 to 25 windows | $200 to $300 |
+| 4+ bedroom single-story | 25 to 35 windows | $275 to $375 |
+| Two-story home | 25 to 40 windows | $325 to $425 |
 
 According to the [International Window Cleaning Association](https://www.iwca.org/), professional window cleaning averages $4 to $12 per pane nationwide. Camarillo prices fall within this range, with slight premiums for homes in hillside neighborhoods like Camarillo Heights or the Las Posas Estates area where access requires extension equipment.
 
@@ -63,7 +63,7 @@ The [National Association of Home Builders](https://www.nahb.org/) recommends cl
 
 ### Purified Water System
 
-Aloha Window Bros uses a reverse osmosis water purification system that removes minerals before they ever touch the glass. This eliminates water spots entirely — something regular hose water cannot achieve in a hard-water city like Camarillo.
+Aloha Window Bros uses a reverse osmosis water purification system that removes minerals before they ever touch the glass. This eliminates water spots entirely, which regular hose water cannot achieve in a hard-water city like Camarillo.
 
 ### Experience with Coastal-Adjacent Properties
 
@@ -90,7 +90,7 @@ Aloha Window Bros provides window cleaning throughout Camarillo and surrounding 
 - Sterling Hills
 - Leisure Village (55+ community)
 
-The team also serves [Thousand Oaks](/blog/window-cleaning-thousand-oaks-a-complete-guide-for-homeowners), [Ventura](/blog/window-cleaning-ventura-a-homeowners-guide-to-professional-service), Newbury Park, and communities throughout [Ventura County](/blog/window-cleaning-ventura-county-what-homeowners-should-know-before-hiring-professionals).
+The team also serves [Thousand Oaks](/thousand-oaks/), [Ventura](/ventura/), [Oxnard](/oxnard/), [Newbury Park](/newbury/), and communities throughout [Ventura County](/blog/window-cleaning-ventura-county-what-homeowners-should-know-before-hiring-professionals).
 
 ## Beyond Windows: Screen and Solar Panel Cleaning
 
@@ -119,6 +119,10 @@ No, not for exterior-only service. For interior cleaning, someone needs to be ho
 ### How do I get a free quote for window cleaning in Camarillo?
 
 Aloha Window Bros offers free on-site quotes for all Camarillo homes. [Schedule a free estimate](/contact/) online or call (805) 341-4121 to book a convenient time.
+
+## Book Window Washing in Camarillo
+
+Aloha Window Bros cleans windows, screens, frames, and sills in one visit for homes from Mission Oaks to Camarillo Heights. See local pricing, service details, and reviews on our [Camarillo window washing page](/camarillo/), or [book your free quote](/contact/), usually scheduled within 24 hours.
 
 <script type="application/ld+json">
 {
