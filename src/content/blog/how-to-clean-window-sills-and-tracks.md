@@ -128,7 +128,7 @@ Hard-water spots need patience rather than a razor. Place a cloth lightly dampen
 
 For isolated biological spots on a compatible surface, mechanically lift the residue first, then apply an appropriate disinfecting or fungicidal product. A **3% hydrogen peroxide** treatment may be suitable for some surfaces with **about a ten-minute dwell**, but test first and never combine it with bleach, vinegar, ammonia, or other cleaners.
 
-Pollen is simpler if you don't wet it too soon. Vacuum or brush away the loose layer, then use a damp microfiber with a small amount of dish soap. Salt and efflorescence should be brushed dry, wiped with minimal moisture, and dried immediately.
+Pollen is simpler if you don't wet it too soon. Vacuum or brush away the loose layer, then use a damp microfiber with a small amount of dish soap. The screen above the track is usually the source of that pollen, so clear it in the same pass using the [window screen cleaning method](/blog/how-to-clean-window-screens-without-removing-them/). Salt and efflorescence should be brushed dry, wiped with minimal moisture, and dried immediately.
 
 Bleach can pit or discolor anodized aluminum. Undiluted vinegar can soften painted edges, and abrasive powders can scar fiberglass. If a white cloth picks up a greasy yellow film, use a surfactant. If it picks up a chalky powder, use dry removal first. That small test prevents a large finish repair.
 

@@ -4,6 +4,131 @@
 
 ---
 
+### 2026-09-16
+
+**What we did:**
+- **title_meta (primary) on `/blog/how-to-clean-window-screens-without-removing-them/`.** Title
+  `How to Clean Window Screens Without Removing Them` to
+  **`How to Clean Window Screens, With or Without Removing Them`** (58 chars), and the meta
+  description rewritten around the two-method answer. The new title leads with the broad query and
+  still contains the narrow phrase verbatim, so nothing is traded away.
+- **refresh on the same page.** New section "How to wash a screen you have taken out" (6 steps,
+  sourced to Phifer), the lead's direct answer rebuilt to cover both methods, a new first key
+  takeaway, and the "how often" section rewritten around the manufacturer disagreement. 2,951 to
+  3,868 words.
+- **Three FAQ items added, chosen off the live PAA sets**: WD-40 (present in the PAA for BOTH
+  *how to clean window screens* and *window screen cleaning*, and with zero coverage anywhere in
+  `src/`), vinegar and Dawn, and what to spray. FAQPage parity re-verified in `dist/` at **10 == 10**
+  with `grep -o | wc -l`.
+- **internal_links: 6 inbound to 9**, from `/blog/best-streak-free-window-cleaner/`,
+  `/blog/how-to-get-streak-free-windows/` and `/blog/how-to-clean-window-sills-and-tracks/`.
+- **Twelfth audit:** removed **five citations to beakbusterwindowcleaning.com, a direct competitor
+  window cleaning company**, from `window-screen-cleaner-brush.md`, and fixed the cross-page
+  contradiction they carried (see below). Zero competitor citations remain in `src/`.
+- **gbp: logged, not worked.** No new content. No title change on the site's click engine.
+
+**Why we did it (brief numbers + the `query x page` join, 2026-08-17..2026-09-13):**
+- **This is the one CTR-outlier row the join does NOT disqualify, and the disqualifying fact from
+  2026-08-25 has expired.** The join puts **451 of the page's 547 non-brand impressions on the broad
+  query *how to clean window screens* at position 9.9 (prior 15.8)** and just **52** on its own
+  exact-match phrase. The 08-25 entry rejected a retitle because "the screens post's title is
+  already an exact match for its query" - true then, when the narrow phrase was the dominant query.
+  The mix has flipped **9:1** and the title now leads with the minority intent. Brief agrees:
+  *how to clean window screens* 451 impr, 0 clicks, CTR 0.0% vs ~3.0% expected, and it is the
+  brief's #2 rising query (impr 5 to 451).
+- **No map pack on that query and no "position is not a blue link" excuse.** The 09-16 SERP snapshot
+  has **ours at rank 5** for *how to clean window screens*, above the fold, against Martha Stewart,
+  a Reddit thread and RiteScreen. This is the opposite of the rows that have been rejected run after
+  run (*best no streak window cleaner*, *window cleaning near me*, *window cleaning westlake
+  village*), which are AI-Overview or map-pack surfaces no `<title>` in this repo can move.
+- **The refresh is the necessary other half.** A retitle that promises both methods on a page that
+  only documents one is a bait. The page had no wash-a-removed-screen method at all, which is the
+  half every competing top-10 result carries. Adding it also gives the page the parity it was
+  missing while keeping the two things it has that they do not: the screen-type decision matrix and
+  the hard-water runoff mechanism.
+- **Action types chosen on the scoreboard.** `refresh` **2-0-0** and `internal_links` **2-0-0** are
+  the only clean records and both are used here. `title_meta` is **2-4-4**, which is why it is
+  attached to a page whose query mix demonstrably changed rather than fired speculatively.
+- **Why NOT title_meta on `/blog/best-streak-free-window-cleaner/`, despite it owning five of the
+  brief's CTR-outlier rows.** The join says it takes **2,742 non-brand impressions and 7 non-brand
+  clicks, which is 7 of the site's 13**. It sits at **position 2.0 on *best no streak window
+  cleaner*** (344 impr). It is the single most productive asset on the domain and its SERPs all
+  carry AI Overviews, the documented non-clicking surface. Its title stays untouched.
+  **NOTE: the brief lists this page as "decaying, 5 impressions from 376". That is a URL-variant
+  artifact and it is wrong.** The join shows the canonical form at 2,742 impressions and a
+  slash-less duplicate at 118. Do not act on that row.
+- **Why NOT anything on `/blog/how-to-get-streak-free-windows/`** (1,945 impr @ 5.2, 0 clicks): the
+  09-11 reversal is under review until 2026-10-23 and its prediction has already been beaten (735 to
+  1,945 impressions retained). The live SERP has us **not in the top 10** with an AI Overview, so the
+  GSC position is a citation slot, not a blue link. Leave it to finish its read.
+- **Why NOT gbp:** **0 wins / 4 fails**, and the join again shows the biggest position-1 zero-click
+  rows sitting on the **GBP listing itself** (`GBP:/`), which no change in this repo reaches.
+- **Why NOT technical on the trailing-slash split** (about 265 non-brand impressions across
+  slash-less duplicates: `best-streak-free-window-cleaner` 118, `skylight-cleaning-service` 110):
+  all three test URLs were re-checked live on 2026-09-16 and return **301 to the slash form**. This
+  is residual indexing from before the 09-04 fix decaying on its own, not an open defect.
+- **Why NOT new_content:** the service x city matrix is complete and nothing on the board clears the
+  information-gain bar.
+
+**The audit finding, because it is the same defect class the log keeps recording:**
+`window-screen-cleaner-brush.md` cited **beakbusterwindowcleaning.com five times** (a direct
+competitor window cleaning company, exactly what `glidecleaners.com` was when it was removed on
+09-09). The claim it carried was "soft-bristle cleaning every three months" - which put the site in
+**contradiction with both manufacturers it cites elsewhere** (Phifer: once a year; Andersen: twice a
+year). All five replaced with Phifer, and the interval re-based honestly as a quarterly dry-brush
+pass *between* the manufacturers' washes. Same failure mode as the 07-17 hardness sweep and the
+08-10 homepage price band: one number sourced in one place and left to contradict another.
+
+**Expected impact:**
+- **First non-brand clicks on this page.** At 451 impressions and position 9.9 with a title that now
+  matches the query typed, the honest target is **2 or more non-brand clicks on
+  `/blog/how-to-clean-window-screens-without-removing-them/` within 42 days** (currently 0, and the
+  whole site earns 13). The site has exactly one page clearing 2 non-brand clicks today.
+- **Position on *how to clean window screens* to 8.0 or better** within 42 days, from 9.9. The query
+  is already climbing (15.8 to 9.9) and the page now answers it completely rather than partially.
+- **The three new FAQ items are an AI-citation play.** WD-40 appears in the PAA for two different
+  queries and the site said nothing about it; the FAQPage node now carries a direct verdict.
+- No prediction is made for the brush post. The audit fix is a trust and consistency correction, not
+  a ranking action.
+
+**Metrics at time of action (GSC join, 2026-08-17..2026-09-13):**
+- Sitewide: 76 clicks, 9,524 impressions; non-brand **13 clicks**, 8,878 impressions, 652 queries,
+  avg position 9.6 (prior 10.8).
+- Non-brand clicks by page, the whole list: `/blog/best-streak-free-window-cleaner/` **7**, `/` 3,
+  `/blog/residential-window-cleaning-prices/` 2, `/ventura/` 1.
+- Target page: **547 NB impressions, 0 clicks**. *how to clean window screens* **451 @ 9.9** (prior
+  15.8); *how to clean window screens without removing them* **52 @ 10.3**; all other
+  "without removing" variants combined about 30.
+- `/blog/how-to-get-streak-free-windows/` 1,945 @ 5.2, 0 clicks.
+  `/blog/best-streak-free-window-cleaner/` 2,742 impr / 7 clicks, *best no streak window cleaner*
+  344 @ 2.0.
+- Inbound internal links to the target page: 6 before, 9 after. Words 2,951 to 3,868. FAQ 7 to 10.
+
+**Logged, NOT actioned (for the GBP workstream and future runs):**
+1. **gbp, the specific pack queries this window:** *best no streak window cleaner* 344 @ 2.0,
+   *window cleaning near me* 105 @ 4.0, *window washing thousand oaks* 58 @ 3.4, *gutter cleaning*
+   39 @ 2.1, *window cleaning westlake village* 34 @ 1.5, *window cleaning newbury park* 25 @ 2.5.
+   Geo-grid still **ABSENT at Newbury Park, Agoura Hills, Oak Park and Camarillo**; the weak
+   incumbents there are Golden Window Washing (2 reviews) and Guerrero Window Cleaning (13) against
+   our 224. Review velocity is the lever and it is not in this repo.
+2. **The `glass cleaner` phrasing gap on `/blog/best-streak-free-window-cleaner/`.** 613 non-brand
+   impressions this window arrive on glass-cleaner wording (*best glass cleaner for windows 2025*
+   409 @ 9.7, *best streak free glass cleaner* 161 @ 8.2, *streak free glass cleaner* 43 @ 17.1)
+   on a page whose title says "window cleaner". Deliberately left alone this run because that page
+   is the site's click engine at position 2.0. If a future window shows it losing the product
+   cluster, the meta description is the safe place to add the phrase, not the title.
+3. **Four lead-paragraph price contradictions against the pricing pillar** still open from 09-14:
+   Westlake $175 to $350, Simi Valley $150 to $400, Ventura $175 to $375 (pillar $175 to $425),
+   Santa Barbara washing $175 to $400 (pillar $200 to $475).
+4. **`solar-panel-cleaning-camarillo-...` still carries two unattributed blockquotes** styled as
+   expert quotes with specific soiling percentages. Fabricated-authority class. Delete or source.
+5. **`/santa-barbara/` still loses its own queries to `/`**: *window cleaning santa barbara* `/` 112
+   @ 8.1 vs `/santa-barbara/` 5 @ 45.0. Pack held by Time to Shine (377 reviews). GBP ground.
+
+**Review after 42 days (2026-10-28).**
+
+---
+
 ### 2026-09-14
 
 **What we did:**

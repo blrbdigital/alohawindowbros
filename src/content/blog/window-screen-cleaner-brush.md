@@ -136,7 +136,7 @@ A screen with both dust and grime benefits from two stages. Brush off the loose 
 <a id="keep-water-and-chemicals-under-control"></a>
 ### Keep water and chemicals under control
 
-Use a low-pressure rinse, not a concentrated blast. Harsh cleaners such as ammonia can degrade fiberglass mesh over time, and abrasive products can damage surfaces and frame components, according to this [screen maintenance guidance](https://www.beakbusterwindowcleaning.com/post/easy-ways-to-maintain-clean-screens-on-your-windows).
+Use a low-pressure rinse, not a concentrated blast. Phifer, which manufactures the screening itself, tells homeowners to keep the hose "on light pressure" and warns that "window screens can be damaged using a hard bristle brush" ([Phifer, How to Clean Window Screens](https://www.phifer.com/blog/how-to-clean-window-screens/)). Harsh cleaners are the other half of it: ammonia and solvents attack the vinyl coating on pet resistant mesh, and abrasive products damage both the mesh finish and the frame.
 
 Don't use bleach, ammonia, metal pads, or stiff metal bristles. Mild dish soap is a safer starting point when plain water doesn't remove the film. For a removal-free approach, follow this [guide to cleaning window screens without removing them](https://alohawindowbros.com/blog/how-to-clean-window-screens-without-removing-them/), while keeping water away from interior trim and electrical components.
 
@@ -149,7 +149,7 @@ After rinsing, let the screen dry completely before reinstalling it. Prop it in 
 <a id="keeping-screens-clean-between-deep-washes"></a>
 ## Keeping Screens Clean Between Deep Washes
 
-Screen care works better as a rhythm than as a rescue project. Routine brushing prevents a thin layer of dust from becoming a compacted mixture of pollen, grit, and moisture. Guidance from window-care professionals recommends a soft-bristle cleaning every **three months**, or more often in dusty or high-pollen settings, as described in this [screen maintenance advice](https://www.beakbusterwindowcleaning.com/post/easy-ways-to-maintain-clean-screens-on-your-windows).
+Screen care works better as a rhythm than as a rescue project. Routine brushing prevents a thin layer of dust from becoming a compacted mixture of pollen, grit, and moisture. The manufacturers set the baseline and they do not agree on it: Phifer recommends washing screens **once a year**, and more often "if they are exposed to frequent wind, rain, dust, or other weather conditions" ([Phifer, How to Clean Window Screens](https://www.phifer.com/blog/how-to-clean-window-screens/)), while Andersen Windows recommends twice a year. A dry soft-bristle pass sits between those washes and is worth doing **quarterly** in this region, because the exposure caveat is the operative clause here. Our guide to [cleaning window screens with or without removing them](/blog/how-to-clean-window-screens-without-removing-them/) reconciles the two baselines against local conditions.
 
 A homeowner near the coast may notice a different pattern from someone inland. Salt film can cling to the surface after humid weather, while dry wind can carry fine dust into the weave. Both conditions make later washing more demanding because the debris has more time to adhere.
 
@@ -196,7 +196,7 @@ You can make a sound purchase without memorizing every brush style. Start with t
 - **Check the face:** Choose a broad face for open panels and a smaller head for narrow tracks, corners, and detailed work. A face of at least about **7 by 3 inches** is a useful broad-brush benchmark, based on this [brush design guidance](https://gardeningbeyond.com/best-cleaner-for-window-screens/).
 - **Match the handle:** Use a short ergonomic grip for removed screens and an extension shaft for safe reach, but don't use extra length as a reason to apply more pressure.
 - **Select the method:** Dry brush loose dust. Use slight moisture and mild soap for adhered grime. Rinse gently.
-- **Set a reminder:** Plan routine soft-brush care every **three months**, with more frequent attention where dust or pollen is heavy, following this [maintenance recommendation](https://www.beakbusterwindowcleaning.com/post/easy-ways-to-maintain-clean-screens-on-your-windows).
+- **Set a reminder:** Plan a dry soft-brush pass every **three months** between washes, with more frequent attention where dust or pollen is heavy, and a full wash on the [manufacturer baseline](https://www.phifer.com/blog/how-to-clean-window-screens/) of once to twice a year.
 - **Inspect the brush:** Replace it when bristles splay, the ferrule bends, or the handle loosens.
 - **Know when to stop:** Call a professional for unsafe heights, mineral buildup, crumbling spline, torn mesh, or a frame that won't seat correctly.
 
@@ -215,7 +215,7 @@ A properly matched brush helps remove the material that blocks airflow and holds
 </details>
 <details class="faq-item">
 <summary>What is the best spray for cleaning window screens?</summary>
-<p>Plain water handles most maintenance cleaning, and mild dish soap in water is the standard step up. Skip anything harsher: ammonia can degrade fiberglass mesh over time and abrasive products damage both the mesh coating and the frame ([screen maintenance guidance](https://www.beakbusterwindowcleaning.com/post/easy-ways-to-maintain-clean-screens-on-your-windows)). No solution compensates for a brush that is too stiff, which is the more common cause of damage. Our [screen cleaning spray guide](/blog/screen-cleaning-spray/) compares the options in more detail.</p>
+<p>Plain water handles most maintenance cleaning, and mild dish soap in water is the standard step up. Skip anything harsher: ammonia can degrade fiberglass mesh over time and abrasive products damage both the mesh coating and the frame ([Phifer, How to Clean Window Screens](https://www.phifer.com/blog/how-to-clean-window-screens/)). No solution compensates for a brush that is too stiff, which is the more common cause of damage. Our [screen cleaning spray guide](/blog/screen-cleaning-spray/) compares the options in more detail.</p>
 </details>
 <details class="faq-item">
 <summary>How do you make old window screens look new again?</summary>
@@ -223,7 +223,7 @@ A properly matched brush helps remove the material that blocks airflow and holds
 </details>
 <details class="faq-item">
 <summary>How often should you brush window screens?</summary>
-<p>A soft-bristle cleaning every three months is the general recommendation, and more often in dusty or high-pollen settings ([screen maintenance advice](https://www.beakbusterwindowcleaning.com/post/easy-ways-to-maintain-clean-screens-on-your-windows)). Ventura County and Santa Barbara County homes usually sit at the more frequent end, because coastal properties collect salt aerosol and inland properties collect wind-driven dust, and there is very little summer rain to rinse either one away. Routine brushing is what stops dust becoming a compacted crust of pollen, grit, and moisture.</p>
+<p>Phifer, the screening manufacturer, recommends a full wash once a year and more often where there is frequent wind or dust, and Andersen Windows recommends twice a year. A dry soft-bristle pass every three months sits between those washes and is what keeps the interval honest. Ventura County and Santa Barbara County homes usually sit at the more frequent end, because coastal properties collect salt aerosol and inland properties collect wind-driven dust, and there is very little summer rain to rinse either one away. Routine brushing is what stops dust becoming a compacted crust of pollen, grit, and moisture.</p>
 </details>
 </div>
 

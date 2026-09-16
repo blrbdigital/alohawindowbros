@@ -113,7 +113,7 @@ Coastal homes have a particular problem: salt aerosol settles as a fine haze and
 
 Sprinkler overspray leaves a recognizable pattern on lower panes, often an arc or cluster of rings. The lasting fix isn't only on the glass. Adjust or reroute the sprinkler head so the window stops receiving mineral-heavy droplets. For existing spots, soften the affected area with a **50/50 white vinegar and water pre-soak**, then wash and rinse carefully. If the spotting has remained for a long time, a household wipe may not remove the etched portion.
 
-Screens create a different failure. A dusty mesh can release pollen and grit onto clean glass as soon as air moves through the opening. Remove the screen, vacuum it gently from the inside, wash it according to its material, and let it dry before reinstalling. Wipe the frame track as well, because a clean screen can still pick up debris from a dirty channel.
+Screens create a different failure. A dusty mesh can release pollen and grit onto clean glass as soon as air moves through the opening. Remove the screen, vacuum it gently from the inside, wash it according to its material, and let it dry before reinstalling. If the screen is fixed, retractable, or simply too high to take out safely, our guide to [cleaning window screens with or without removing them](/blog/how-to-clean-window-screens-without-removing-them/) sets out which types survive an in place pass and which do not. Wipe the frame track as well, because a clean screen can still pick up debris from a dirty channel.
 
 <a id="match-the-maintenance-to-the-exposure"></a>
 ### Match the maintenance to the exposure

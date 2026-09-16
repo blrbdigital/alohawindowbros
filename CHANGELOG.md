@@ -1,3 +1,57 @@
+## 2026-09-16 - Screens how-to retitled and completed for the broad query, twelfth audit
+
+**Primary action (title_meta + refresh): `/blog/how-to-clean-window-screens-without-removing-them/`
+was titled for the wrong query.** The `query x page` join for 2026-08-17..09-13 puts **451 of its
+547 non-brand impressions on the broad query *how to clean window screens* (position 9.9, up from
+15.8)** and only 52 on its own exact-match phrase *how to clean window screens without removing
+them*. That is a 9:1 flip inside one window, and it is what retires the 2026-08-25 decision that the
+title was "already an exact match for its query".
+
+- **Title**: `How to Clean Window Screens Without Removing Them` to
+  `How to Clean Window Screens, With or Without Removing Them` (58 chars). Leads with the broad
+  query, still contains the narrow phrase verbatim, and stops reading as a constraint the searcher
+  did not ask for.
+- **Meta description** rewritten around the two-method answer rather than the in place method alone.
+- **Refresh, so the page actually answers the broad query.** It was framed end to end around in
+  place cleaning and never explained how to wash a screen once it is out, which is the half every
+  competing top-10 result has. New section "How to wash a screen you have taken out" (6 steps,
+  sourced to Phifer), direct answer in the lead rewritten to cover both paths, new first key
+  takeaway. 2,951 to 3,868 words.
+- **Three new FAQ items matching the live People Also Ask sets** for *how to clean window screens*
+  and *window screen cleaning*: WD-40 (in both PAA sets, zero coverage anywhere on the site),
+  vinegar and Dawn, and what to spray. FAQPage parity re-verified in `dist/` with `grep -o | wc -l`:
+  **10 == 10**.
+
+**New source, verified 200 on 2026-09-16**: Phifer, *How to Clean Window Screens*,
+https://www.phifer.com/blog/how-to-clean-window-screens/ . Mesh manufacturer, not a service
+competitor, same class as the Andersen and Unger citations already on the site.
+
+**Information gain over the live top 3** (Martha Stewart, a Reddit thread, RiteScreen): none of them
+reconciles the two manufacturer intervals that contradict each other (Phifer once a year, Andersen
+twice), and none says that the rinse water is what decides whether a washed screen goes back clean.
+
+**internal_links: 6 inbound to 9**, from the site's two largest non-brand surfaces
+(`/blog/best-streak-free-window-cleaner/` 2,742 impressions, `/blog/how-to-get-streak-free-windows/`
+1,945) plus `/blog/how-to-clean-window-sills-and-tracks/`.
+
+**Twelfth audit, and it found a live instance of a known defect class.**
+`window-screen-cleaner-brush.md` cited **beakbusterwindowcleaning.com, a direct competitor window
+cleaning company, five times** (same class as the `glidecleaners.com` removal on 09-09). Worse, the
+claim it carried, "soft-bristle cleaning every three months", was **the site contradicting the
+manufacturers**: Phifer says once a year, Andersen twice. All five replaced with Phifer, and the
+frequency re-based as a quarterly dry-brush pass *between* the manufacturers' washes, which is both
+true and consistent with the screens guide it now links to. Zero competitor citations remain in
+`src/`.
+
+**Not actioned, deliberately.** No GBP work (0 wins / 4 fails; logged in SEO-LOG.md). No new content
+(the service x city matrix is complete and nothing clears the information-gain bar). No title change
+on `/blog/best-streak-free-window-cleaner/`: it holds position 2.0 on *best no streak window
+cleaner* and earns 7 of the site's 13 non-brand clicks, so it is the one page on the site not worth
+experimenting on.
+
+**Verified:** `npm run build` passes, 107 pages, FAQPage 10 == 10 in `dist/`, trailing-slash 301s
+re-checked live and correct (the slash-less rows in the join are residual indexing, not a defect).
+
 ## 2026-09-14 - City-link rule fixed on 13 posts (3 geo-grid ABSENT cities first), eleventh audit
 
 **Primary action (internal_links): 13 city blog posts had ZERO links to their own city landing

@@ -97,6 +97,8 @@ Every visit is a four in one clean, glass plus screens plus frames plus sills, b
 
 > **Practical rule:** if the haze comes back within a day or two of a careful clean, the residue is not on the glass. It is on the frame, the track, or the screen above it.
 
+That is a cleaning order problem rather than a product problem, and the fix is the [method for cleaning window screens, with or without removing them](/blog/how-to-clean-window-screens-without-removing-them/), done before the glass rather than after it.
+
 Jobs are priced after a free on site or virtual estimate. Across the two counties residential work generally falls between **$150 and $475**, with Santa Barbara full cleans commonly **$200 to $475** and Conejo Valley homes at the lower end of that span. Our [Ventura County window cleaning cost guide](/blog/how-much-does-window-cleaning-cost-in-ventura-county/) breaks the bands down city by city.
 
 **Best for:** coastal homes collecting salt aerosol; homes with visible sprinkler spotting; property managers and HOAs who need repeatable results; anything above the first floor; real estate preparation on a deadline.
