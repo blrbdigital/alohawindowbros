@@ -11,7 +11,7 @@ Every window washing includes a complete four-in-one clean:
 - **Interior & exterior glass**: streak-free, crystal clear
 - **Screens**: removed, cleaned, and reinstalled
 - **Frames & sills**: wiped down and detailed
-- **Skylights & hard-to-reach windows**: water-fed pole system
+- **Skylights & hard-to-reach windows**: water-fed pole system (see how we handle [skylight cleaning](/blog/skylight-cleaning-service/) by material)
 
 We handle residential and commercial properties of all sizes.
 

@@ -1,3 +1,37 @@
+## 2026-09-18 - Skylight and exterior-cost arrivals consolidated on arrival, thirteenth audit
+
+**Primary action (technical, consolidation under the 08-28 rule): two of the four posts published
+since 09-14 landed on surfaces one page already owns.** Both added to `src/lib/consolidated.mjs`;
+their canonicals point at the winner, and both have left the sitemap (102 to 100 URLs). Both pages stay live.
+- `/blog/skylight-cleaning-solution/` (09-17) -> `/blog/skylight-cleaning-service/`. The join for
+  2026-08-19..09-15 puts every skylight impression on the service page, including the product wording
+  the new post targets (*skylight cleaner* 27 impr @ 6.4 to 13.4). *skylight cleaning* is slipping
+  (brief 18.1 from 13.4), and the 08-24 rebuild is still under review.
+- `/blog/exterior-window-cleaning-cost/` (09-14) -> the pricing pillar. The exterior cost/price
+  cluster had zero impressions, and the pillar owns the cost surface (*window washing cost ventura
+  county* 37 @ 3.6).
+
+**internal_links:** `/services/window-washing/` now links `/blog/skylight-cleaning-service/` from
+its skylights bullet (a service page as donor), and the consolidated solution post links it twice.
+
+**Thirteenth publisher audit (all four arrivals):**
+- Homepage-CTA defect on all four, now `/contact/` (sitewide count 0).
+- 13 `cdnimg.co` hotlinks localized to `public/img/blog/`.
+- Exterior cost post: priced our complete four-in-one band as "exterior glass only", invented
+  crew-hour sub-bands, re-imported Angi figures and the $8 to $16 per window benchmark. Rewritten
+  around the real per-city bands.
+- Storefront post: printed-prompt leak ("examples from the requested comparison") removed; the 21
+  billion sq ft statistic re-pointed from `dataintelo.com` to the actual Guidehouse/NFRC study on
+  OSTI (text-verified); `oxmaint.com`, `sgcglass.com` removed.
+- Worth-it post: `$150 to $400` general band corrected to $150 to $475 with per-city breakdown;
+  Great Britain fatality stats via a law firm replaced with OSHA 1926.1053; vendor-hosted solar
+  soiling PDF removed; link to the now-consolidated exterior post re-pointed to the pillar.
+- Skylight solution post: Hawaii procurement PDF replaced by the Architectural Specialties manual,
+  GB fatality stat and an unlinked "OSHA comment record" replaced by OSHA 1910.28(b)(3)(i), the 50 ppm
+  TDS claim (which contradicted our own 20 ppm page) re-sourced to Unger and FB01-00, SaaS and
+  roofing-contractor links removed.
+- 10 domains added to the blocklist in the site map.
+
 ## 2026-09-16 - Screens how-to retitled and completed for the broad query, twelfth audit
 
 **Primary action (title_meta + refresh): `/blog/how-to-clean-window-screens-without-removing-them/`

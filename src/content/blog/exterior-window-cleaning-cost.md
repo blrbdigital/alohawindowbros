@@ -5,9 +5,9 @@ description: 'Learn what drives exterior window cleaning cost for Ventura and Sa
 heroImage: '/img/blog/exterior-window-cleaning-cost.jpg'
 heroImageAlt: 'Exterior Window Cleaning Cost: What Homeowners Really Pay'
 ---
-Most Ventura and Santa Barbara homeowners pay between **$150 and $475** for a full exterior window clean, with the job size, story count, glass condition, and access pushing the price up or down from there. A simple exterior-only visit may sit near the lower end, while a larger home with upper-level glass, mineral staining, or difficult access can move well beyond the base rate.
+Aloha Window Bros quotes **$150 to $475** for a residential window cleaning in Ventura County and Santa Barbara County, and that band covers the **complete four-in-one clean** (exterior glass, interior glass, screens, and frames and sills), not exterior glass alone. Where a home lands inside it depends on pane count, story count, glass condition, and access. The per-city breakdown lives in our [Ventura County window cleaning cost guide](/blog/how-much-does-window-cleaning-cost-in-ventura-county/). An exterior-only quote from another company can look lower, but it is usually pricing a smaller job.
 
-That local range makes more sense when you compare it with current U.S. pricing benchmarks. [HomeGuide's 2026 pricing guide](https://homeguide.com/costs/window-cleaning-prices) lists roughly **$4 to $8 per pane** for simple exterior-only work and **$8 to $16 per window** for full interior-and-exterior service. It also notes that windows above the second floor can reach **$10 to $40 per window**, while commercial work may be quoted at **$0.50 to $2.50 per square foot** because building type and access change the job completely.
+Height is the one exterior factor national guides agree moves the number sharply: higher-story or hard-to-reach windows can cost **$10 to $40 per window** because of added equipment and safety measures, according to [HomeGuide's window-cleaning price guidance](https://homeguide.com/costs/window-cleaning-prices). Commercial buildings are priced on a different basis entirely; see our [commercial window cleaning prices guide](/blog/commercial-window-cleaning-prices/).
 
 The useful question isn't whether a quote matches one magic number. It's whether the quote makes sense for the amount of glass, the work required to reach it, and the condition the crew will find when they arrive.
 
@@ -20,8 +20,8 @@ The useful question isn't whether a quote matches one magic number. It's whether
   - [What access changes on site](#what-access-changes-on-site)
 - [How Glass Condition and Local Climate Affect the Quote](#how-glass-condition-and-local-climate-affect-the-quote)
   - [Condition is more than visible dirt](#condition-is-more-than-visible-dirt)
-- [Comparing National Averages to Local Price Ranges](#comparing-national-averages-to-local-price-ranges)
-  - [National vs Ventura and Santa Barbara exterior window cleaning price ranges](#national-vs-ventura-and-santa-barbara-exterior-window-cleaning-price-ranges)
+- [Why Exterior-Only Quotes Are Not Comparable](#comparing-national-averages-to-local-price-ranges)
+  - [Ventura and Santa Barbara window cleaning price bands by city](#national-vs-ventura-and-santa-barbara-exterior-window-cleaning-price-ranges)
   - [A simple quote pressure test](#a-simple-quote-pressure-test)
 - [Cost vs Value and Why the Cheapest Quote Can Cost More](#cost-vs-value-and-why-the-cheapest-quote-can-cost-more)
   - [What insured service changes](#what-insured-service-changes)
@@ -34,7 +34,7 @@ The useful question isn't whether a quote matches one magic number. It's whether
 <a id="what-exterior-window-cleaning-typically-costs-in-ventura-and-santa-barbara"></a>
 ## What Exterior Window Cleaning Typically Costs in Ventura and Santa Barbara
 
-For a typical Ventura or Santa Barbara residence, a full exterior window cleaning commonly falls between **$150 and $475**. Most single-story homes land around **$150 to $275**, while two-story homes more often fall between **$250 and $475**, assuming standard exterior glass without extensive restoration work.
+Aloha Window Bros publishes one band per city, and each band is for the complete clean: **$150 to $400** in Thousand Oaks, **$175 to $425** across Agoura Hills, Newbury Park, Westlake Village, Camarillo, Simi Valley, and Ventura, **$175 to $450** in Oxnard, and **$200 to $475** in Ojai and Santa Barbara. Single-story homes with easy access sit toward the low end of their city's band, and larger two-story homes toward the high end.
 
 That starting point gives homeowners something better than a vague “it depends.” A small, accessible home with clean standard panes should not receive the same quote as a hillside property with tall glass, narrow side yards, and salt or mineral buildup.
 
@@ -49,7 +49,7 @@ That starting point gives homeowners something better than a vague “it depends
 
 **Travel and regional overhead** also influence pricing. A company serving a wide area has to account for driving time, fuel, insurance, equipment, and the practical cost of moving between Ventura County and Santa Barbara County appointments.
 
-The range above covers **standard exterior glass only**. Screens, tracks, sills, skylights, patio doors, and hard-water removal are separate scope decisions and can push a project above **$500** when several add-ons or difficult conditions appear.
+Those bands already include screens, frames, and sills, because every Aloha Window Bros visit is a four-in-one clean. The items that most often move a job past its band are **hard-water restoration** (etched or heavily spotted glass), skylights, and unusual access. Ask any company you are comparing which of those its number includes.
 
 > **Practical rule:** A credible quote should explain which of these drivers applies to your property, not just provide a total with no context.
 
@@ -60,21 +60,19 @@ Use the national per-pane and per-window benchmarks as a reasonableness check, t
 
 A home's square footage matters, but **pane count controls the work more directly**. Every pane requires a wetting pass, agitation, squeegee work, edge detailing, and a final inspection. A large picture window may be quick, while a French-pane unit with many divided sections can take far longer than its footprint suggests.
 
-Consider a small Ventura bungalow of about 1,200 square feet with 10 to 14 standard panes. If the exterior glass is easy to reach and reasonably maintained, a two-person crew may finish the glass in about 90 minutes, supporting a base quote around **$150 to $200**. Those figures are a local planning example, not a universal rate, so the final number still depends on access and condition.
+Consider a small Ventura bungalow with 10 to 14 standard panes, all reachable from the ground and reasonably maintained. That job sits near the bottom of the Ventura band because it is short, simple work with no specialty glass.
 
-Now compare it with a 3,000-square-foot Santa Barbara home carrying 25 to 35 panes, several French-pane units, and divided-light windows. The same crew may need three to four hours, placing the job around **$325 to $450** before unusual access or restoration work is added.
-
-The national benchmarks support the underlying pricing logic. [HomeGuide's 2026 guide](https://homeguide.com/costs/window-cleaning-prices) places simple exterior service around **$4 to $8 per pane**, while Angi's 2026 pricing data cites an average professional visit of about **$220**, with a common range of **$150 to $302** and an estimated **$10 per window** for standard residential cleaning.
+Now compare it with a large Santa Barbara home carrying 25 to 35 panes, several French-pane units, and divided-light windows. The same crew spends several times as long on it, which places it toward the top of the Santa Barbara band before any unusual access or restoration work is added.
 
 <a id="base-price-by-home-size-and-pane-count"></a>
 ### Base price by home size and pane count
 
-| Home Size | Approx. Pane Count | Crew Hours | Typical Price Range |
-|---|---:|---:|---:|
-| Small Ventura bungalow | 10 to 14 | About 90 minutes | $150 to $200 |
-| Typical single-story residence | Varies by layout | Varies by access | $150 to $275 |
-| Larger Santa Barbara home | 25 to 35 | Three to four hours | $325 to $450 |
-| Two-story residence | Varies by height and access | Varies by equipment | $250 to $475 |
+| Home profile | Approx. pane count | Where it tends to land in the city band |
+|---|---:|---|
+| Small single-story home, ground access | 10 to 14 | Low end |
+| Typical single-story residence | 15 to 25 | Low to middle |
+| Two-story residence, standard access | 20 to 30 | Middle to high |
+| Large home with French or divided-light panes | 25 to 35+ | High end, or a project quote |
 
 These examples show why square footage alone produces weak estimates. A compact home with many divided panes can take longer than a larger home with broad, unobstructed glass.
 
@@ -87,14 +85,14 @@ A single-story ranch on a flat lot usually presents a straightforward access pro
 
 A second-story home changes the calculation. In the Santa Barbara foothills or a Ventura hillside neighborhood, the crew may need longer extension poles, taller ladders, extra stabilizing equipment, and a second technician positioned below. Windows above decks, overhanging roofs, steep landscaping, and narrow side passages can create more difficulty than the story count alone suggests.
 
-![A comparison graphic showing how single-story homes have lower exterior window cleaning costs than complex two-story homes.](https://cdnimg.co/8387fe5a-1497-428d-a3af-57b68fc0bac4/e2b8e153-d28a-45e7-ab75-61cc16d14e2c/exterior-window-cleaning-cost-window-pricing.jpg)
+![A comparison graphic showing how single-story homes have lower exterior window cleaning costs than complex two-story homes.](/img/blog/exterior-window-cleaning-cost-window-pricing.jpg)
 
 <a id="what-access-changes-on-site"></a>
 ### What access changes on site
 
-A second-story job can add **30 to 60 minutes of setup time per side** in challenging conditions. Longer poles must be positioned without striking roof edges or landscaping, ladders need secure footing, and the crew has to protect siding, tile, plants, and outdoor furniture.
+A second-story job adds setup time on every side of the house in challenging conditions. Longer poles must be positioned without striking roof edges or landscaping, ladders need secure footing, and the crew has to protect siding, tile, plants, and outdoor furniture.
 
-That added work commonly contributes **$75 to $150** to a local quote. The amount isn't a universal surcharge, but it illustrates why a two-story property shouldn't be priced like a single-level cottage. Above the second floor, [HomeGuide reports pricing of $10 to $40 per window](https://homeguide.com/costs/window-cleaning-prices), reflecting the added access, equipment, and safety burden.
+That added work is why a two-story property shouldn't be priced like a single-level cottage. Above the second floor, [HomeGuide reports pricing of $10 to $40 per window](https://homeguide.com/costs/window-cleaning-prices), reflecting the added access, equipment, and safety burden.
 
 Water-fed poles can reduce ladder use on many high panes, but they don't eliminate every access issue. Read about [how a water-fed pole system works](https://alohawindowbros.com/blog/how-does-a-water-fed-pole-system-work/) before assuming the method will reach every window on a steep or obstructed property.
 
@@ -123,20 +121,22 @@ For homes that need both sides addressed, compare the scope with [interior and e
 Homeowners can also reduce avoidable labor. Trim sprinklers away from the glass, clear branches from access paths, and rinse dusty screens before the crew arrives if the service includes screen handling. Those small preparations won't remove established mineral staining, but they can make a routine visit more efficient.
 
 <a id="comparing-national-averages-to-local-price-ranges"></a>
-## Comparing National Averages to Local Price Ranges
+## Why Exterior-Only Quotes Are Not Comparable
 
-National guides provide a useful baseline, but local quotes reflect the property in front of the technician. Angi's 2026 pricing guide places many full residential jobs between **$150 and $450**, with a broader national average of **$184 to $387** depending on pane count, height, and whether both sides are cleaned.
-
-[HomeGuide's current pricing information](https://homeguide.com/costs/window-cleaning-prices) gives a more task-specific comparison, with simple exterior work at approximately **$4 to $8 per pane** and full interior-and-exterior service at **$8 to $16 per window**. These figures aren't a local price sheet, but they help identify whether a quote reflects ordinary glass cleaning or a more demanding project.
+National averages mix exterior-only visits with full-service jobs, so they rarely tell you whether a local quote is fair. The better test is scope. A price that covers exterior glass only is not cheaper than one that covers glass, screens, frames, and sills; it is a different product. Line up two quotes on the same scope before comparing the totals.
 
 <a id="national-vs-ventura-and-santa-barbara-exterior-window-cleaning-price-ranges"></a>
-### National vs Ventura and Santa Barbara exterior window cleaning price ranges
+### Ventura and Santa Barbara window cleaning price bands by city
 
-| Home Profile | U.S. National Average | Ventura County | Santa Barbara County |
-|---|---:|---:|---:|
-| Small, accessible single-story home | $150 to $300 | $175 to $400 in coastal areas | $175 to $400 in coastal areas |
-| Typical full residential visit | $184 to $387 | $150 to $475, depending on scope | $200 to $475 for many full cleans |
-| Two-story home with complex access | $250 to $500 | Can rise with hillside or elevated access | Can rise with hillside or elevated access |
+| Area | Aloha Window Bros band (complete four-in-one clean) |
+|---|---:|
+| Thousand Oaks | $150 to $400 |
+| Agoura Hills, Newbury Park, Westlake Village | $175 to $425 |
+| Camarillo, Simi Valley, Ventura | $175 to $425 |
+| Oxnard | $175 to $450 |
+| Ojai, Santa Barbara | $200 to $475 |
+
+Source: our published per-city bands, kept in one place in the [Ventura County window cleaning cost guide](/blog/how-much-does-window-cleaning-cost-in-ventura-county/).
 
 The local coastal and inland distinction matters. Ventura, Oxnard, and Santa Barbara properties exposed to marine air may need more attention to salt film and access conditions. Camarillo, Moorpark, and Santa Paula homes can have different travel, terrain, dust, and water-exposure profiles, so a quote may not track a coastal property one-for-one.
 
@@ -157,7 +157,7 @@ The lowest quote often reflects a narrower scope rather than a better deal. One 
 
 That difference matters because grit and moisture collect around window assemblies, not only on the center of the pane. If a homeowner expects a complete window cleaning but receives a glass-only wash, disappointment is almost guaranteed.
 
-Safety makes the comparison sharper. A homeowner who climbs a second-story ladder to save roughly **$80 to $200** is trading a modest price difference against the possibility of a broken window, damaged roof tile, or serious injury. The exact risk can't be priced from a national guide, but the work itself requires stable equipment, sound judgment, and control around fragile property.
+Safety makes the comparison sharper. A homeowner who climbs a second-story ladder to save the cost of the upper windows is trading a modest price difference against the possibility of a broken window, damaged roof tile, or serious injury. The exact risk can't be priced from a national guide, but the work itself requires stable equipment, sound judgment, and control around fragile property.
 
 <a id="what-insured-service-changes"></a>
 ### What insured service changes
@@ -178,7 +178,7 @@ For a clearer picture of what to ask a provider, review this guide to choosing a
 
 Phone-only ballparks are useful for a first conversation, but they aren't enough for a hillside home, a property with divided-light windows, or a residence with visible mineral staining. A defensible quote starts with an on-site visit or a detailed photo survey.
 
-![A four-step infographic illustrating how to get an accurate window cleaning quote for your property.](https://cdnimg.co/8387fe5a-1497-428d-a3af-57b68fc0bac4/2834f5fd-7cf0-4ebc-8315-ae45ef506cf7/exterior-window-cleaning-cost-quote-guide.jpg)
+![A four-step infographic illustrating how to get an accurate window cleaning quote for your property.](/img/blog/exterior-window-cleaning-cost-quote-guide.jpg)
 
 <a id="prepare-the-property-details"></a>
 ### Prepare the property details
@@ -217,11 +217,11 @@ A quote built from these details gives you a number tied to your actual property
 <a id="putting-it-all-together-before-you-book"></a>
 ## Putting It All Together Before You Book
 
-The **exterior window cleaning cost** for most Ventura and Santa Barbara homes starts with a practical benchmark of **$150 to $475** for standard exterior work. From there, four variables determine where your property falls: window quantity, accessibility and height, glass condition, and the local operating environment.
+The **exterior window cleaning cost** for most Ventura and Santa Barbara homes starts with Aloha Window Bros' published band of **$150 to $475** for the complete clean, exterior glass included. From there, four variables determine where your property falls: window quantity, accessibility and height, glass condition, and the local operating environment.
 
 A one-story cottage near Oxnard with 12 to 15 cleanable panes and clear ground access should sit closer to the lower end. A two-story Mission-style home on a Santa Barbara hillside with 30 or more windows, salt exposure, and pole work should sit closer to the upper end or require a more detailed project quote.
 
-![An infographic detailing the four key factors influencing exterior window cleaning costs and the local pricing range.](https://cdnimg.co/8387fe5a-1497-428d-a3af-57b68fc0bac4/4841d318-777e-404d-9ffe-6be122167f7b/exterior-window-cleaning-cost-pricing-guide.jpg)
+![An infographic detailing the four key factors influencing exterior window cleaning costs and the local pricing range.](/img/blog/exterior-window-cleaning-cost-pricing-guide.jpg)
 
 <a id="use-this-booking-routine"></a>
 ### Use this booking routine
@@ -235,4 +235,4 @@ Confirm licensing and insurance in writing, then ask how the company handles mis
 
 A maintenance plan can make the cost predictable. Coastal homes may need service every four months, while inland homes may suit a six-month routine, depending on exposure and visible buildup. The right cadence is the one that prevents a routine wash from turning into a heavy restoration visit.
 
-Aloha Window Bros provides residential and commercial window cleaning, including exterior and interior glass, screens, frames, sills, skylights, and hard-to-reach panes, with free on-site and virtual estimates. Visit [Aloha Window Bros](https://alohawindowbros.com) to request a quote based on your window count, access conditions, and cleaning scope.
+Aloha Window Bros provides residential and commercial window cleaning, including exterior and interior glass, screens, frames, sills, skylights, and hard-to-reach panes, with free on-site and virtual estimates. Compare the per-city bands in our [Ventura County window cleaning cost guide](/blog/how-much-does-window-cleaning-cost-in-ventura-county/), then [request a free quote](/contact/) based on your window count, access conditions, and cleaning scope.

@@ -9,7 +9,7 @@ You open the shop in Ventura before the first customers arrive and immediately n
 
 That's the common mistake with commercial storefront windows. Owners treat them as a surface to wash, while the building relies on them as its public face, daylight source, thermal barrier, and part of the weather envelope. A reliable program has to connect **glass performance**, **coastal exposure**, **cleaning rhythm**, and **inspection quality**.
 
-The U.S. commercial and multifamily building stock contains approximately **21 billion square feet of glass vision area**, including about **14 billion square feet in commercial and institutional properties**, according to the [Commercial Building Fenestration Market Study](https://dataintelo.com/report/commercial-storefront-window-market). Storefront systems are included alongside curtain wall and punched windows, which means this isn't a niche maintenance concern. It's a recurring operating issue across retail, restaurants, healthcare, education, offices, and other public buildings.
+The U.S. commercial and multifamily building stock contains approximately **21 billion square feet of glass vision area**, including about **14 billion square feet in commercial and institutional properties**, according to the [Commercial Building Fenestration Market Study](https://www.osti.gov/servlets/purl/1886333) prepared by Guidehouse for the National Fenestration Rating Council (August 2021). Storefront systems are included alongside curtain wall and punched windows, which means this isn't a niche maintenance concern. It's a recurring operating issue across retail, restaurants, healthcare, education, offices, and other public buildings.
 
 ## Table of Contents
 - [Why Storefront Windows Deserve More Attention](#why-storefront-windows-deserve-more-attention)
@@ -43,7 +43,7 @@ A dull pane can reduce visual impact before anyone notices a technical failure. 
 <a id="the-installed-base-makes-small-failures-expensive"></a>
 ### The installed base makes small failures expensive
 
-Modern storefront glazing became practical because industrial flat-glass manufacturing replaced scarce, handmade panes. Sir Alastair Pilkington's **1959 float glass process** became the global standard for flat glass, while earlier American glazing history included **1739**, when Caspar Wistar founded Wistar Glass Works in New Jersey, described in the [U.S. glass manufacturing history](https://www.osti.gov/servlets/purl/1886333) as the first successful commercial glass factory in the American colonies.
+Modern storefront glazing became practical because industrial flat-glass manufacturing replaced scarce, handmade panes. Sir Alastair Pilkington's **float glass process**, introduced commercially in **1959**, became the global standard for flat glass and made large, distortion-free storefront panes affordable.
 
 That history matters because today's transparent commercial frontage is ordinary only because production, framing, and installation became scalable. A small maintenance failure now affects a standard component of a very large built environment.
 
@@ -109,7 +109,7 @@ That matters beyond appearance. A window's **U-factor** describes heat flow, whi
 
 Salt residue is most troublesome near the coast and around exposed corners. After water evaporates, crystals remain and can contribute to pitting or etching. Routine washing removes loose residue. Hardened deposits need a method suited to the glass condition. Aggressive scraping is poor diagnosis and can scratch the pane.
 
-![A diagram illustrating three major coastal climate threats to commercial storefront windows: salt corrosion, mineral deposits, and UV stress.](https://cdnimg.co/8387fe5a-1497-428d-a3af-57b68fc0bac4/d19f3c8d-2e51-4b98-b75d-a2e3e49101fa/commercial-storefront-windows-climate-threats.jpg)
+![A diagram illustrating three major coastal climate threats to commercial storefront windows: salt corrosion, mineral deposits, and UV stress.](/img/blog/commercial-storefront-windows-climate-threats.jpg)
 
 <a id="what-the-symptoms-are-telling-you"></a>
 ### What the symptoms are telling you
@@ -124,7 +124,7 @@ Look for these clues:
 - **Streaks at corners:** Salt, dust, and water collect where wind and drainage concentrate them.
 - **Interior fogging:** Moisture between panes indicates a sealed-unit problem, not a dirty exterior.
 
-Contamination also reduces transmitted light. The [commercial glass maintenance guidance](https://sgcglass.com/blog/how-to-maintain-glass-installations-in-high-traffic-commercial-spaces/) reports that cleaning recovered about **50% of the transmission lost to contamination**. Clear glass supports daylight, merchandise visibility, and the condition customers associate with the business.
+Contamination also reduces transmitted light, the same property ENERGY STAR measures as visible transmittance (covered below). Clear glass supports daylight, merchandise visibility, and the condition customers associate with the business.
 
 <a id="exposure-should-set-the-schedule"></a>
 ### Exposure should set the schedule
@@ -150,7 +150,7 @@ A beachfront restaurant or exposed ground-floor business needs closer attention 
 | Interior mall or sheltered storefront | Quarterly to semi-annually | Quarterly to semi-annually | Frame joints, sill drainage, glazing beads, door alignment |
 | Inland property near active irrigation | Based on spotting and runoff | Routine tenant-area service | Sprinkler overspray, mineral deposits, weep holes, sealant |
 
-Every visit should include a quick system inspection. Cleaners should check sealant joints, perimeter gaskets, frame corrosion, water staining, misalignment, weep holes, tracks, sills, and peeling tint or film. Inspect the door closers, pivots, locks, and thresholds as well. A pane can look clear while drainage or hardware problems continue behind the cleaning work. The [commercial window maintenance checklist](https://oxmaint.com/industries/facility-management/commercial-window-glass-system-maintenance-checklist) highlights these envelope details and supports annual ground-level façade surveys, with closer attention for busy storefronts.
+Every visit should include a quick system inspection. Cleaners should check sealant joints, perimeter gaskets, frame corrosion, water staining, misalignment, weep holes, tracks, sills, and peeling tint or film. Inspect the door closers, pivots, locks, and thresholds as well. A pane can look clear while drainage or hardware problems continue behind the cleaning work. An annual ground-level survey of the whole façade, with closer attention on busy entrances, catches most of these before they become repairs.
 
 <a id="deal-with-mineral-deposits-early"></a>
 ### Deal with mineral deposits early
@@ -184,14 +184,14 @@ Ask for a written service report containing:
 - **Access and safety details:** Ladder, lift, water-fed pole, or other equipment used for work at height.
 - **Completion confirmation:** Areas serviced, exclusions, and issues requiring a glazier or envelope contractor.
 
-![A comparison chart showing the differences between basic janitorial glass cleaning and professional commercial glass services.](https://cdnimg.co/8387fe5a-1497-428d-a3af-57b68fc0bac4/81de364a-89d2-4e58-9066-c0ae7bbc3802/commercial-storefront-windows-glass-cleaning.jpg)
+![A comparison chart showing the differences between basic janitorial glass cleaning and professional commercial glass services.](/img/blog/commercial-storefront-windows-glass-cleaning.jpg)
 
 <a id="safety-and-accountability-belong-in-the-quote"></a>
 ### Safety and accountability belong in the quote
 
 Two-story Ventura storefronts create access and liability questions. Verify that the company carries liability insurance and uses appropriate ladder or lift practices consistent with OSHA requirements. Don't let a low bid hide unsafe access, unprotected merchandise, or a crew that cannot explain how it will reach the glass.
 
-A handyman charging **$15 per visit** and a commercial provider quoting **$4 per pane** are not automatically offering comparable scopes. Those figures are examples from the requested comparison, not a market benchmark. The important question is what each price includes, who carries the risk, and whether the work maintains only the glass or the surrounding glazing system.
+A handyman's per-visit price and a commercial provider's per-pane quote are not automatically comparable scopes. The important question is what each price includes, who carries the risk, and whether the work maintains only the glass or the surrounding glazing system.
 
 For a broader service-scope reference, review this guide to choosing a [commercial window cleaning company](https://alohawindowbros.com/blog/commercial-window-cleaning-company/).
 
@@ -233,7 +233,7 @@ Give this checklist to an assistant, maintenance coordinator, or janitorial supe
 - **Photo records:** Request before-and-after images of representative storefront elevations and previously flagged defects.
 - **Prompt spot cleaning:** Remove bird droppings, plant residue, grease, and coastal deposits before they harden.
 
-![A maintenance checklist for commercial storefront windows featuring five essential tasks for long-term glass care.](https://cdnimg.co/8387fe5a-1497-428d-a3af-57b68fc0bac4/1fa12c44-2db4-4fae-954f-72c9b56098f0/commercial-storefront-windows-maintenance-checklist.jpg)
+![A maintenance checklist for commercial storefront windows featuring five essential tasks for long-term glass care.](/img/blog/commercial-storefront-windows-maintenance-checklist.jpg)
 
 Use the checklist with a written scope, not as a substitute for qualified repair work. A cleaner can identify a failed seal, corroded frame, or damaged glazing bead, but replacement and resealing may require a glazing contractor or building-envelope specialist.
 
@@ -241,4 +241,4 @@ Before a lease renewal, tenant turnover, or buildout, schedule a professional st
 
 ---
 
-Aloha Window Bros provides commercial cleaning for storefront glass, frames, sills, tracks, screens, and hard-to-reach panes across Ventura County and Santa Barbara County, with purified water-fed pole equipment and free on-site quotes. Visit [Aloha Window Bros](https://alohawindowbros.com) to request an assessment, document your storefront condition, and set a maintenance plan that fits your coastal or inland exposure.
+Aloha Window Bros provides commercial cleaning for storefront glass, frames, sills, tracks, screens, and hard-to-reach panes across Ventura County and Santa Barbara County, with purified water-fed pole equipment and free on-site quotes. [Request a free quote](/contact/) to book an assessment, document your storefront condition, and set a maintenance plan that fits your coastal or inland exposure.

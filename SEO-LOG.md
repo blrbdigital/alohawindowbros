@@ -4,6 +4,108 @@
 
 ---
 
+### 2026-09-18
+
+**What we did:**
+- **technical (primary): consolidated two of the four posts published since 09-14 onto the pages
+  that already own their surfaces, under the 08-28 rule.** `/blog/skylight-cleaning-solution/`
+  (09-17) -> `/blog/skylight-cleaning-service/`; `/blog/exterior-window-cleaning-cost/` (09-14) ->
+  `/blog/how-much-does-window-cleaning-cost-in-ventura-county/`. Verified in `dist/`: the canonical
+  points at the winner, zero self-URL leaks, both out of the sitemap (102 to 100 URLs), and both
+  pages stay live.
+- **internal_links:** `/services/window-washing/` now links `/blog/skylight-cleaning-service/`
+  (a service page as donor, anchor "skylight cleaning"). The consolidated solution post now links it
+  twice instead of zero times. Inbound to the winner: 7 pages before, 9 after.
+- **Thirteenth publisher audit, all four arrivals** (the 09-16 run audited none of them): homepage-CTA
+  defect x4, 13 `cdnimg.co` hotlinks localized, 10 bad domains removed, a price-scope misstatement,
+  a prompt leak, two misattributions, a TDS contradiction, and the 11th appearance of `$150 to $400`
+  as the general band. Detail in the site map, THIRTEENTH AUDIT.
+- **No title_meta, no new content, no GBP action.**
+
+**Why we did it (brief numbers + the `query x page` join, 2026-08-19..2026-09-15):**
+- **Skylight is a striking-distance query that is slipping, and it just gained a fourth own-URL.** The brief has
+  *skylight cleaning* at **103 impr, position 18.1, prior 13.4, "slipping"**. The join puts **every
+  skylight impression on the site on one page** (about 30 query rows): *skylight cleaning* 59 @ 14.7
+  (slash) + 44 @ 22.6 (slashless residue), *skylight cleaner* 18 @ 6.4 + 9 @ 13.4, *skylight window
+  cleaner* 5 @ 10.8. The other skylight posts: `how-to-clean-skylights` takes zero skylight
+  impressions and `skylight-cleaning-pole` takes 8, all on its own exact phrase. The new post
+  targets exactly the product wording the winner already ranks for (*skylight cleaner*). Its
+  sections duplicate the winner's one for one (material matching, purified rinse, access decides the
+  method, what causes haze). The winner's 08-24 rebuild is still under review. A fourth URL
+  on a one-page surface splits a slipping query instead of pushing it.
+- **Exterior cost is the 09-09 professional-cost case again.** A cluster probe for exterior
+  cost/price wording returns **0 impressions**, while the pillar owns the cost surface (*window
+  washing cost ventura county* **37 @ 3.6**, plus 16 on `/`). The post was also actively harmful: it
+  presented our **complete four-in-one band ($150 to $475) as "standard exterior glass only"**, which
+  contradicts the pillar's own FAQ answer and the "four-in-one" positioning. That is the exact string AI engines lift.
+- **The other two arrivals stay self-canonical.** `commercial|storefront` probes at 140 impressions,
+  all on *how to choose / vet a commercial company* and *commercial prices*, with **zero storefront
+  rows**. `worth|professional window clean|hire` probes at 18 impressions total. Neither lands on an
+  occupied surface. Both were audited and fixed.
+- **Why the scoreboard allows this.** `technical` is 0-2-2. But those grades belong to a stale
+  duplicate-domain fix, a `/.claude-site-map.md` entry and a homepage change. None of them was a consolidation, and the
+  consolidations are still pending. The link half uses `internal_links` (2-0-0). The audit is a trust
+  fix, verifiable in `dist/`, and makes no ranking claim.
+- **Why NOT title_meta, row by row:**
+  - *how to clean window screens* (5,630 @ 9.4) was retitled on 09-16 and is two days into its read.
+  - *how to clean windows streak free* (1,944 @ 5.2 on `/blog/how-to-get-streak-free-windows/`) is
+    under review until 10-23, and the live SERP has it outside the top 10 behind an AI Overview.
+  - *best no streak window cleaner* (349 @ 1.9) and the glass-cleaner rows are on
+    `/blog/best-streak-free-window-cleaner/`. That page now earns **12 of the site's 19 non-brand clicks**
+    (up from 7). It is the click engine, and its title stays untouched.
+  - *window cleaning near me*, *window washing thousand oaks* and *window cleaning westlake village*
+    split across `/`, four city pages and `GBP:/`. That is map-pack ground.
+- **Why NOT gbp:** 0 wins / 4 fails. Logged below.
+- **Why NOT new_content:** the service x city matrix is complete and nothing on the board clears the
+  information-gain bar.
+
+**Expected impact:**
+- `/blog/skylight-cleaning-solution/` and `/blog/exterior-window-cleaning-cost/` each take **fewer
+  than 10 impressions** in any 28-day window from here (canonical honoured). The two winners keep
+  **100% of their clusters' impressions** (skylight on `/blog/skylight-cleaning-service/`, cost on
+  the pillar).
+- *skylight cleaning* stops slipping: **position 15.0 or better** in the brief within 42 days (from
+  18.1). The page-level ceiling is modest: the SERP has a map pack and a VELUX how-to at #1.
+- No click prediction for skylight. The query has earned 0 clicks at every position it has held, so
+  this protects position rather than buying clicks.
+- The audit is a citation-trust fix. It carries no ranking prediction.
+
+**Metrics at time of action (GSC join 2026-08-19..2026-09-15, brief for the same window):**
+- Sitewide: 83 clicks, 15,384 impressions; non-brand **19 clicks**, 14,747 impressions, 698 queries,
+  avg position 9.4 (prior 11.2).
+- `/blog/skylight-cleaning-service/` 125 NB impr + 110 slashless, 0 clicks. *skylight cleaning*
+  103 @ 18.1 (brief). *skylight cleaner* 27.
+- Pricing pillar: 110 NB impr (+162 brand), 1 click; *window washing cost ventura county* 37 @ 3.6.
+- `/blog/best-streak-free-window-cleaner/` 3,034 NB impr / **12 NB clicks** (+118 slashless / 0).
+- Sitemap 102 -> 100 URLs. Homepage-CTA defect count sitewide: 4 -> 0. `cdnimg.co` hotlinks in the
+  four arrivals: 13 -> 0.
+
+**Logged, NOT actioned (for the GBP workstream and future runs):**
+1. **gbp, pack queries this window:** *window cleaning near me* 112 @ 4.3 (`/` 44 @ 1.3, city pages
+   4.0 to 5.7), *window washing thousand oaks* 57 @ 3.1, *window cleaning westlake village* 31 @ 1.5,
+   *window cleaning newbury park* 24 @ 3.3, *gutter cleaning* 44 @ 2.9 (`/` 31 @ 1.0). Geo-grid
+   still **ABSENT at Newbury Park, Agoura Hills, Oak Park and Camarillo**. Weakest incumbents there are
+   Golden Window Washing (2 reviews, Newbury Park) and Guerrero Window Cleaning (13, Camarillo)
+   against our 226.
+2. **`glass cleaner` phrasing on the click engine** (*best glass cleaner for windows 2025* 409 @ 9.7,
+   *best streak free glass cleaner* 193 @ 8.1, *streak free glass cleaner* 72 @ 14.2). Its clicks
+   rose from 7 to 12, which argues harder against touching the title. If it is ever
+   touched, use the meta description only.
+3. **Still open from 09-14:** four lead-paragraph price contradictions (Westlake, Simi Valley,
+   Ventura, Santa Barbara washing), and the two unattributed "expert" blockquotes on
+   `solar-panel-cleaning-camarillo-...`.
+4. **`/thousand-oaks/` keeps slipping on its own head query:** *window cleaning thousand oaks*
+   57 @ **11.5** (prior 9.3) while `/` holds 46 @ 3.2. The 09-09 link push is under review until
+   late October. Re-check then before acting.
+5. **No FAQ on any of the four arrivals.** None had a prose Q&A block to convert, so FAQ schema
+   would have to be written from scratch. `commercial-storefront-windows` and
+   `is-professional-window-cleaning-worth-it` are the self-canonical ones worth doing if either
+   starts taking impressions.
+
+**Review after 42 days (2026-10-30).**
+
+---
+
 ### 2026-09-16
 
 **What we did:**

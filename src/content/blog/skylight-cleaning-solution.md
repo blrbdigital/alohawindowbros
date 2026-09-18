@@ -48,23 +48,23 @@ Coastal California adds several complications. Ocean air can leave a salt film, 
 <a id="the-surface-may-be-more-delicate-than-it-looks"></a>
 ### The surface may be more delicate than it looks
 
-Tempered glass is generally forgiving, but coated glass has an invisible functional layer that can be damaged by aggressive chemicals or abrasive scrubbing. Acrylic and polycarbonate domes can scratch and haze more easily than glass, so a gritty cloth or unsuitable solvent may cause permanent optical damage. Manufacturer guidance warns against abrasives, alkaline cleaners, solvents, metal blades, and unsuitable detergents for certain skylight materials, as detailed in the [skylight cleaning and maintenance manual](https://hiepro.ehawaii.gov/resources/58709/Attachment%204%20SkyLight%20Cleaning%20and%20Maintenance%20Manual.pdf).
+Tempered glass is generally forgiving, but coated glass has an invisible functional layer that can be damaged by aggressive chemicals or abrasive scrubbing. Acrylic and polycarbonate domes can scratch and haze more easily than glass, so a gritty cloth or unsuitable solvent may cause permanent optical damage. Manufacturer guidance warns against abrasives, alkaline cleaners, solvents, metal blades, and unsuitable detergents for certain skylight materials, as detailed in the [Architectural Specialties skylight maintenance manual](https://archsp.com/wp-content/uploads/2019/12/Skylight-Maintenance.pdf), which tells owners not to use Windex or other household cleaners on its domes and prohibits acetone, gasoline, lacquer thinner, and kitchen scouring compounds.
 
 The frame matters too. Cleaner can wick into silicone joints, gaskets, screens, and drainage channels. A solvent that removes a mark may weaken the surrounding seal or leave residue where you can't rinse it completely.
 
 <a id="access-changes-the-risk"></a>
 ### Access changes the risk
 
-Height is often the main hazard, not the stain. Great Britain recorded **31 worker deaths from falls from height across all industries in 2025/26**, and falls from height have led workplace deaths in almost every year since 2001/02, according to the [window-cleaning accident statistics summary](https://www.workingatheightscourse.co.uk/blog/window-cleaning-accident-statistics-uk). A U.S. OSHA comment record also notes that skylight falls have been studied for more than **25 years**, with reported skylight-fall dynamics involving **60% backward falls onto the buttocks and 40% onto a wrist** in the cited record.
+Height is often the main hazard, not the stain. Federal rule [29 CFR 1910.28(b)(3)(i)](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.28) requires that workers be protected from falling through **any hole, including skylights, that is 4 feet or more above a lower level**. It is an employer standard rather than a homeowner rule, but the classification is the point: to a safety regulator, a skylight is an opening a person can fall through, not a surface to stand on. The same manufacturer manual cited above says plainly: do not stand or crawl directly on skylights.
 
-Those figures explain why purified-water systems and long-handled tools have become so useful. If a ground-level water-fed pole can loosen and rinse the soil, you may not need to step onto the roof at all.
+That is why purified-water systems and long-handled tools have become so useful. If a ground-level water-fed pole can loosen and rinse the soil, you may not need to step onto the roof at all.
 
 <a id="how-purified-water-became-the-backbone-of-streak-free-skylight-cleaning"></a>
 ## How Purified Water Became the Backbone of Streak-Free Skylight Cleaning
 
 **Total dissolved solids, or TDS,** is a practical way to think about rinse water. The reading represents dissolved material such as calcium, sodium, and other mineral salts. When water evaporates from a warm exterior pane, those solids stay behind as dots, rings, or a dull veil.
 
-Deionized water has no dissolved minerals, while reverse-osmosis systems reduce mineral content before a final purification stage. Professional window cleaners often monitor the water with a TDS meter because the glass can look clean while the rinse water is already carrying enough residue to create spotting. Industry guidance describes ideal cleaning water as near **0 TDS**, and water above about **50 parts per million** is more likely to leave visible streaks and deposits, as explained in this [pure-water window-cleaning guide](https://sudbuds.ca/blog/what-is-pure-water-window-cleaning/).
+Deionized water has no dissolved minerals, while reverse-osmosis systems reduce mineral content before a final purification stage. Professional window cleaners often monitor the water with a TDS meter because the glass can look clean while the rinse water is already carrying enough residue to create spotting. Window cleaners working with purified water aim for roughly **0 to 10 parts per million of TDS**, and prefer 0 to 5 ppm, according to [Unger's guide to pure-water cleaning mistakes](https://usa.ungerglobal.com/blog/10-common-mistakes-in-pure-water-window-cleaning/). The glass industry's own cleaning paper, [NGA/IWCA Glass Technical Paper FB01-00](https://www.glass.org/sites/default/files/2023-12/FB01-00_2023_Proper_Procedures_Cleaning_Architectural_Glass_Products.pdf), sets the outer limit at **20 ppm or less** and states that tap water is not acceptable for the pure-water pole method.
 
 <a id="what-the-reading-means-on-cleaning-day"></a>
 ### What the reading means on cleaning day
@@ -78,7 +78,7 @@ If you're washing an interior pane, tap water can work because you can wipe the 
 | Tap water | Varies by local supply | Higher on warm exterior glass | Interior glass, initial loosening, or situations where you'll dry the pane |
 | Hard water affected by irrigation | Varies and may carry concentrated salts | High for exterior rinsing | Avoid as the final rinse when spot-free drying matters |
 
-For product-selection background, the [Estimatty blog for cleaning pros](https://www.estimatty.com/blog/professional-cleaning-chemicals) offers broader context on how professional cleaners evaluate chemical formulations. For the water-fed method itself, this explanation of [purified-water window cleaning](https://alohawindowbros.com/blog/purified-water-window-cleaning/) shows why a low-residue rinse is useful on exterior glass that is hard to reach.
+For how a professional visit handles each skylight material, from glass to acrylic domes, see our [skylight cleaning service guide](/blog/skylight-cleaning-service/). For the water-fed method itself, this explanation of [purified-water window cleaning](https://alohawindowbros.com/blog/purified-water-window-cleaning/) shows why a low-residue rinse is useful on exterior glass that is hard to reach.
 
 <a id="watch-the-purification-system"></a>
 ### Watch the purification system
@@ -158,7 +158,7 @@ The seal around the frame also needs protection. Solvent-heavy products can migr
 
 The stain tells you how much chemistry you need. A skylight covered in loose pollen doesn't need the same treatment as glass marked by irrigation minerals, and an oxidation stain won't respond to a routine spray. Start with the least aggressive method that matches the deposit.
 
-![A helpful infographic guide explaining the best cleaning solutions for common stains like hard water, pollen, and mold.](https://cdnimg.co/8387fe5a-1497-428d-a3af-57b68fc0bac4/bf3a5fdc-fd12-40d5-a58f-e9a17084cb36/skylight-cleaning-solution-stain-guide.jpg)
+![A helpful infographic guide explaining the best cleaning solutions for common stains like hard water, pollen, and mold.](/img/blog/skylight-cleaning-solution-stain-guide.jpg)
 
 <a id="dust-and-pollen"></a>
 ### Dust and pollen
@@ -170,7 +170,7 @@ Keep the solution mild and prevent it from drying before you rinse. Drying deter
 <a id="coastal-salt-film"></a>
 ### Coastal salt film
 
-Salt aerosol can form a thin haze along exposed glass and frames. A purified-water rinse is useful because it removes dissolved salt without replacing it with fresh mineral residue. On an exterior pane, water above about **50 ppm TDS** carries a higher spotting risk, as described in the [hard-water spot removal guide for windows](https://alohawindowbros.com/blog/how-to-remove-hard-water-spots-from-windows/).
+Salt aerosol can form a thin haze along exposed glass and frames. A purified-water rinse is useful because it removes dissolved salt without replacing it with fresh mineral residue. On an exterior pane, rinse water above the **20 ppm TDS** professional standard carries a real spotting risk, and local tap water runs far above it, as described in the [hard-water spot removal guide for windows](https://alohawindowbros.com/blog/how-to-remove-hard-water-spots-from-windows/).
 
 Work from the top down, rinse generously, and inspect from several angles. Salt film can look gone from one viewing position while remaining as a dull band when sunlight crosses the pane.
 
@@ -200,7 +200,7 @@ A single-story pitched skylight may be reachable with an extension pole or water
 
 A steep second-story skylight is not an invitation to improvise. Skylight surfaces can fail under load, and a pane that looks solid from below may not be designed to support a person. Fall protection, suitable footwear, harness systems, scaffolding, and trained access procedures belong in the plan when ground-level tools can't reach.
 
-![A diagram illustrating how access type and materials influence the choice of cleaning solutions for various skylights.](https://cdnimg.co/8387fe5a-1497-428d-a3af-57b68fc0bac4/8987f87d-6d4f-495b-b580-42ab34d423f3/skylight-cleaning-solution-cleaning-guide.jpg)
+![A diagram illustrating how access type and materials influence the choice of cleaning solutions for various skylights.](/img/blog/skylight-cleaning-solution-cleaning-guide.jpg)
 
 A pole changes more than reach. It reduces ladder repositioning, limits roof exposure, and supports a simpler rinse-based process. A traditional mop and squeegee can still make sense on a safely accessible, roof-walkable unit, but the worker must control runoff, protect the frame, and avoid dragging grit across the pane.
 
@@ -216,7 +216,7 @@ Use a mild solution for interior or close-range work, purified water for many gr
 
 Cleaning day becomes much easier when you make three decisions in order: **material, stain, and access**. First identify the pane as glass, acrylic or polycarbonate, or coated glass. Then look closely at the soil. Finally decide whether a microfiber extension tool, water-fed pole, interior access setup, or trained professional access method can complete the work without stepping on an unsafe surface.
 
-![A decision guide infographic for selecting materials, addressing specific stains, and choosing safe access for cleaning skylights.](https://cdnimg.co/8387fe5a-1497-428d-a3af-57b68fc0bac4/455645df-8b05-4617-9f33-b7d2ac584148/skylight-cleaning-solution-decision-guide.jpg)
+![A decision guide infographic for selecting materials, addressing specific stains, and choosing safe access for cleaning skylights.](/img/blog/skylight-cleaning-solution-decision-guide.jpg)
 
 <a id="use-this-workflow"></a>
 ### Use this workflow
@@ -247,6 +247,6 @@ Cleaning day becomes much easier when you make three decisions in order: **mater
 - **Use ammonia by default:** Unknown acrylic and coated glass need a material check first.
 - **Mix vinegar and bleach:** Keep cleaning agents separate and follow each label.
 - **Reach beyond your safe position:** A stubborn mark isn't worth a fall.
-- **Ignore the assembly:** If you see leaking, failed flashing, damaged seals, or condensation between panes, cleaning won't correct the underlying issue. For repair planning, this guide to [estimate skylight flashing repair](https://hibcoroof.com/2026/07/skylight-flashing-repair-cost/) can help you understand what information a roofing professional may need.
+- **Ignore the assembly:** If you see leaking, failed flashing, damaged seals, or condensation between panes, cleaning won't correct the underlying issue. That is a job for a licensed roofer or the skylight manufacturer.
 
-Aloha Window Bros provides residential and commercial window, screen, frame, sill, skylight, and solar-panel cleaning in Ventura County and Santa Barbara County, using purified water-fed poles for hard-to-reach glass where appropriate. If your skylight needs a material-safe cleaning plan and safer access than a ladder can provide, visit [Aloha Window Bros](https://alohawindowbros.com) to request a free on-site or virtual estimate.
+Aloha Window Bros provides residential and commercial window, screen, frame, sill, skylight, and solar-panel cleaning in Ventura County and Santa Barbara County, using purified water-fed poles for hard-to-reach glass where appropriate. If your skylight needs a material-safe cleaning plan and safer access than a ladder can provide, see what a [professional skylight cleaning visit](/blog/skylight-cleaning-service/) covers, then [request a free quote](/contact/).

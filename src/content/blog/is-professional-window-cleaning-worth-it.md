@@ -44,7 +44,7 @@ For window cleaning, the complete service often has four connected parts:
 
 4. **Specialty reach:** Skylights, high panes, and awkward exterior windows may require extension tools or a purified water-fed pole system. The objective is to reach the glass without placing a homeowner on an unstable ladder.
 
-![An infographic detailing the four key steps included in a professional window cleaning service for homes.](https://cdnimg.co/8387fe5a-1497-428d-a3af-57b68fc0bac4/7c924674-d343-442d-9cbf-2b2f8867e493/is-professional-window-cleaning-worth-it-window-service.jpg)
+![An infographic detailing the four key steps included in a professional window cleaning service for homes.](/img/blog/is-professional-window-cleaning-worth-it-window-service.jpg)
 
 <a id="why-the-small-parts-matter"></a>
 ### Why the small parts matter
@@ -65,7 +65,7 @@ The crew should also protect floors, furnishings, landscaping, walls, and nearby
 
 Local window cleaning quotes work more like a small construction estimate than a fixed menu price. Two homes in the same neighborhood can have very different totals because one has accessible panes and light dust, while the other has multiple stories, delicate screens, mineral spots, and limited ladder access.
 
-A local provider's published residential guidance places typical jobs in the **$150 to $400** range, with full Santa Barbara cleans commonly listed at **$200 to $475**. Those figures come from Aloha Window Bros' service information, not a universal regional tariff, so treat them as planning context rather than a guaranteed price. A property assessment remains the reliable way to compare your actual job.
+Aloha Window Bros publishes **$150 to $475** for a complete residential clean (exterior glass, interior glass, screens, and frames and sills): **$150 to $400** in Thousand Oaks, **$175 to $425** across most of the Conejo Valley and Ventura, **$175 to $450** in Oxnard, and **$200 to $475** in Ojai and Santa Barbara, per our [Ventura County window cleaning cost guide](/blog/how-much-does-window-cleaning-cost-in-ventura-county/). Treat those bands as planning context rather than a guaranteed price. A property assessment remains the reliable way to compare your actual job.
 
 <a id="the-main-quote-variables"></a>
 ### The main quote variables
@@ -89,7 +89,7 @@ A local provider's published residential guidance places typical jobs in the **$
 | Glass condition | Recent cleaning and loose dirt | Salt film, hard-water spots, or embedded grime |
 | Access | Clear paths and open windows | Tight spaces, landscaping, locked areas, or awkward openings |
 
-For a useful comparison, ask whether the estimate includes both sides of the glass, screens, frames, tracks, sills, skylights, and hard-water treatment. The [guide to exterior window cleaning cost](https://alohawindowbros.com/blog/exterior-window-cleaning-cost/) can also help you understand why exterior access and condition affect the quote.
+For a useful comparison, ask whether the estimate includes both sides of the glass, screens, frames, tracks, sills, skylights, and hard-water treatment. The [Ventura County window cleaning cost guide](/blog/how-much-does-window-cleaning-cost-in-ventura-county/) explains why access and glass condition move the quote within each band.
 
 > **Practical rule:** Compare the scope first, then compare the price. A cheaper quote may simply leave out the parts you expected to be cleaned.
 
@@ -117,20 +117,20 @@ Time is only one part of the comparison. You also need to account for setup, mov
 <a id="why-exterior-work-can-become-hazardous"></a>
 ### Why exterior work can become hazardous
 
-Falls from height remain the leading cause of fatal workplace accidents in Great Britain. They accounted for **over a quarter of fatal injuries at work in 2024 to 25**, and over the previous five years they caused **28% of all work deaths**, according to the safety history summarized by [Weitz & Luxenberg's window-washer accident resource](https://www.weitzlux.com/personal-injury/accidents/window-washer-accidents/). The same source notes parliamentary records of **eight window-cleaning incidents involving falls from height**, including **five fatalities**, during that period.
+Ladder work is where the risk concentrates. Federal rule [29 CFR 1926.1053](https://www.osha.gov/laws-regs/regulations/standardnumber/1926/1926.1053) requires an extension ladder's side rails to extend at least **3 feet above** the upper landing surface and the ladder to be set on a stable, level base, conditions a sloped yard or planter bed below a second-story window often cannot meet.
 
-Those figures aren't a prediction about your house. They explain why window cleaning deserves more respect than an ordinary wipe-down. California rules can require approved anchors or other protection when a worker may fall through an opening or from a sill-based cleaning position, and OSHA has documented a case involving a window washer who fell four stories after going outside without proper fall protection. The [OSHA citation record for that case](https://www.osha.gov/ords/imis/generalsearch.citation_detail?id=983579.015&cit_id=01001) shows why access planning matters.
+None of that is a prediction about your house. They explain why window cleaning deserves more respect than an ordinary wipe-down. California rules can require approved anchors or other protection when a worker may fall through an opening or from a sill-based cleaning position, and OSHA has documented a case involving a window washer who fell four stories after going outside without proper fall protection. The [OSHA citation record for that case](https://www.osha.gov/ords/imis/generalsearch.citation_detail?id=983579.015&cit_id=01001) shows why access planning matters.
 
 For technique and water quality, a [purified-water window cleaning explanation](https://alohawindowbros.com/blog/purified-water-window-cleaning/) can help you compare a professional pole system with a household hose or tap-water rinse. The sensible choice isn't about pride. It's about whether the job can be completed safely, thoroughly, and without turning your weekend into repeated rework.
 
-![A comparison chart showing the time, safety, and results benefits of hiring professional window cleaners versus DIY.](https://cdnimg.co/8387fe5a-1497-428d-a3af-57b68fc0bac4/451eefb8-e254-4555-a717-2338dc6b2298/is-professional-window-cleaning-worth-it-comparison-chart.jpg)
+![A comparison chart showing the time, safety, and results benefits of hiring professional window cleaners versus DIY.](/img/blog/is-professional-window-cleaning-worth-it-comparison-chart.jpg)
 
 <a id="the-real-benefits-beyond-a-streak-free-shine"></a>
 ## The Real Benefits Beyond a Streak Free Shine
 
 Clean glass changes how a room feels because it changes how much light and detail reach your eyes. That improvement is easy to dismiss as cosmetic until you compare a pane with salt haze, dust, and mineral film against one that has been properly washed and rinsed.
 
-Soiling also affects transparent surfaces technically. Independent solar-soiling research has reported average transmittance losses of about **40% in one abrasive and soiling test scenario**, while a **five-year photovoltaic coupon study** reported recovery to roughly **91.4% of baseline after wiping**. These findings are summarized in the [solar-soiling study PDF](https://www.solideas.com/wp-content/uploads/2024/07/energies-2029477.pdf). Ordinary home windows aren't photovoltaic coupons, so you shouldn't transfer those results directly to a household energy calculation. The broader lesson is that particulate films and mineral residue can block light until someone removes them.
+Particulate films and mineral residue can block light until someone removes them.
 
 <a id="clarity-and-surface-care"></a>
 ### Clarity and surface care
@@ -139,7 +139,7 @@ A professional process can remove material that household wiping spreads across 
 
 Regular attention may help prevent gritty buildup from remaining around frames and moving parts. It won't reverse existing damage, but it can make maintenance easier and keep neglected areas from becoming harder to restore.
 
-![An infographic comparing the pros and cons of professional window cleaning with benefits like clarity and durability.](https://cdnimg.co/8387fe5a-1497-428d-a3af-57b68fc0bac4/0bd10186-be72-4a0c-9aab-84934e2bbae5/is-professional-window-cleaning-worth-it-pros-cons.jpg)
+![An infographic comparing the pros and cons of professional window cleaning with benefits like clarity and durability.](/img/blog/is-professional-window-cleaning-worth-it-pros-cons.jpg)
 
 <a id="curb-appeal-without-overpromising"></a>
 ### Curb appeal without overpromising
@@ -161,7 +161,7 @@ That difference should guide the cleaning interval. Coastal homes often need att
 
 Use the glass as the practical signal rather than following a fixed calendar. If the view looks hazy from inside, screens appear gray, or water spots remain after ordinary rain, the interval is already too long for the finish you want.
 
-![A professional illustration showing the benefits of window cleaning for homes in coastal and inland communities.](https://cdnimg.co/8387fe5a-1497-428d-a3af-57b68fc0bac4/6bff349f-b31f-4897-b1df-460b4008aff2/is-professional-window-cleaning-worth-it-window-maintenance.jpg)
+![A professional illustration showing the benefits of window cleaning for homes in coastal and inland communities.](/img/blog/is-professional-window-cleaning-worth-it-window-maintenance.jpg)
 
 <a id="where-the-return-is-easiest-to-see"></a>
 ### Where the return is easiest to see
@@ -192,4 +192,4 @@ For homeowners from Thousand Oaks through Santa Barbara, the best next step is t
 
 ---
 
-Aloha Window Bros provides interior and exterior window cleaning, screen washing, frames and sills detailing, purified-water access for glass, and solar panel cleaning across Ventura County and Santa Barbara County. Request a free on-site or virtual estimate from [Aloha Window Bros](https://alohawindowbros.com) to match the service scope and cleaning interval to your property.
+Aloha Window Bros provides interior and exterior window cleaning, screen washing, frames and sills detailing, purified-water access for glass, and solar panel cleaning across Ventura County and Santa Barbara County. [Request a free quote](/contact/) to match the service scope and cleaning interval to your property.

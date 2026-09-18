@@ -113,6 +113,24 @@
 //   vocabulary returns essentially NO non-geo residential demand on this site:
 //   `professional window cleaning` takes 1 impression and `residential window cleaning`
 //   4, both on /. There is no national price audience here to serve.
+//
+// 2026-09-18: TWO MORE on arrival under the 08-28 rule (join 2026-08-19..2026-09-15).
+//
+//   /blog/skylight-cleaning-solution/ -> /blog/skylight-cleaning-service/. The winner
+//   takes EVERY skylight impression on the site (~30 query rows, including the product
+//   wording this post targets: `skylight cleaner` 27 @ 6.4 to 13.4, `skylight window
+//   cleaner` 5 @ 10.8). Its head query `skylight cleaning` is SLIPPING (brief 18.1 from
+//   13.4; join 59 @ 14.7 on the slash URL) and the winner's 08-24 rebuild is under
+//   review until early October. The new post's sections (material matching, purified
+//   rinse, access decides method, haze causes) duplicate the winner section for section.
+//   It would be the fourth own-URL on a one-page surface, which is how a slipping query
+//   gets split rather than pushed.
+//
+//   /blog/exterior-window-cleaning-cost/ -> the pricing pillar. Same shape as the 09-09
+//   professional-cost arrival: regional body, cost surface already owned by the pillar
+//   (`window washing cost ventura county` 37 @ 3.6), and a cluster probe for exterior
+//   cost/price wording returns ZERO impressions. It also priced our complete four-in-one
+//   band as "exterior only", a scope contradiction with the pillar (fixed in the post).
 export const CANONICAL_OVERRIDES = {
   'blog/how-to-remove-hard-water-stains-from-windows':
     'https://alohawindowbros.com/blog/how-to-remove-hard-water-spots-from-windows/',
@@ -125,6 +143,10 @@ export const CANONICAL_OVERRIDES = {
   'blog/window-cleaning-thousand-oaks':
     'https://alohawindowbros.com/thousand-oaks/',
   'blog/how-much-does-professional-window-cleaning-cost':
+    'https://alohawindowbros.com/blog/how-much-does-window-cleaning-cost-in-ventura-county/',
+  'blog/skylight-cleaning-solution':
+    'https://alohawindowbros.com/blog/skylight-cleaning-service/',
+  'blog/exterior-window-cleaning-cost':
     'https://alohawindowbros.com/blog/how-much-does-window-cleaning-cost-in-ventura-county/',
 };
 
