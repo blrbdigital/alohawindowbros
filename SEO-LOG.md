@@ -4,6 +4,89 @@
 
 ---
 
+### 2026-09-21
+
+**What we did:**
+- **none (deliberate).** No content, title, link or schema change this run. The brief's headline
+  movement is contaminated, and every clean row on the board is either mid-review or map-pack ground.
+- **Diagnosed and documented the impression spike** on `/blog/how-to-clean-window-screens-without-removing-them/`
+  so this run, the next runs, and the grader do not read it as demand.
+
+**Why we did it (brief numbers + ad-hoc GSC pulls by date, country and device, run 2026-09-21):**
+- **The +1,040% impressions are almost all one page, and that page's traffic is not human search.**
+  The brief shows 41,877 sitewide impressions (prior 3,675), and 32,613 of them sit on the screens post.
+  Take that page out and the site did about 9,264 impressions, which is the normal run rate.
+  Daily data for the page: **1 to 17 impressions per day from 09-01 to 09-12**, then 487 (09-13),
+  2,216, 3,551, 5,963, 9,044, **11,272 (09-18)**.
+  - **Country:** 08-15..09-12 had **140 impressions from 3 countries** (134 US). 09-13..09-18 had
+    **32,164 from 171 countries** (US 25,189, Brazil 1,840, India 532, Bangladesh 371).
+  - **Device:** 31,347 desktop vs 558 mobile. Normal how-to demand on this site is mobile-led.
+  - **Query shape:** the brief's own rows include *+how to clean window screens* (209) and
+    *%how to clean window screens* (156). Those operator-prefixed strings are what scrapers and rank
+    trackers send, not what people type.
+  - **Clicks:** 1 click on about 32,000 impressions at position 8 to 10. A real query at that
+    position would earn roughly 3% (brief's own expected CTR), which would be several hundred clicks.
+  - **Timing:** the spike began **09-13, three days before the 09-16 retitle**, so the title change did not cause it.
+    Reading it as the retitle's effect in either direction would be wrong.
+- **Most likely cause: automated SERP scraping of desktop Google on this query family.** Nothing in
+  this repo can stop it, and nothing should be built for it. The actions that follow from it are:
+  do not write a sibling page, do not retitle again, and grade this page on clicks, not impressions.
+- **The other headline rows, checked one by one:**
+  - *how to clean window screens* / *cleaning a window screen* / *how to clean a window screen?*:
+    same contaminated page. Its 09-16 retitle + refresh is 5 days into a 42-day read (review 10-28).
+  - *how to clean windows streak free* (1,947 @ 5.2) on `/blog/how-to-get-streak-free-windows/`:
+    under review until 10-23. The live SERP has us outside the top 10 behind an AI Overview.
+  - *best no streak window cleaner* (361 @ 2.0) and the glass-cleaner rows are on
+    `/blog/best-streak-free-window-cleaner/`, the site's click engine (**50 clicks / 6,516 impr for
+    08-22..09-20** on the canonical URL). Its title stays untouched, as in the last three runs.
+  - **The "decaying" `/blog/best-streak-free-window-cleaner/` row (35 from 775) is the URL-variant
+    artifact again.** The canonical form is at 6,516 impressions. Do not act on it.
+  - **The "decaying" `/newbury/` row (213 from 630) is mostly brand.** *aloha window bros* on that URL
+    fell 200 to 63. The page's non-brand head query *window cleaning newbury park* moved
+    **31 @ 6.0 to 19 @ 4.2**, which is better position on less volume. That is not a refresh case.
+  - `/`, `/blog`: brand and navigational impressions shifting between URLs, positions around 4.1. Nothing to fix.
+- **Scoreboard.** `gbp` is 0-0-13 and stays logged-only. `technical` is 3-2-10 and there is no
+  defect to fix: the spike is external. `internal_links` (5-0-0) and `refresh` (3-0-1) are the good
+  records, but every target they could serve is either mid-review (screens 10-28, streak 10-23,
+  skylight 10-30, Thousand Oaks late October) or has no decay once you split brand from non-brand
+  (Newbury). Spending a clean record on a page mid-read would spoil both reads.
+- **Why NOT new_content:** the service x city matrix is complete and nothing clears the
+  information-gain bar.
+
+**Expected impact:**
+- None claimed from a change. This entry protects four open reads from being confounded.
+- **Grading note for the 09-16 screens prediction** (2+ non-brand clicks, position 8.0 or better on
+  *how to clean window screens*): the position half is now measured against scraper impressions, which
+  sit mostly at 8 to 10 on desktop. Grade it on **US mobile rows or on clicks only**. If the spike
+  continues, the impression-weighted position is not a valid test of the retitle.
+- Prediction for the spike itself: it **ends or collapses within 28 days** without any action from us,
+  and the screens page's share of sitewide impressions drops back below 20%.
+
+**Metrics at time of action (brief window 2026-08-22..2026-09-18 unless stated):**
+- Sitewide 86 clicks / 41,877 impr; non-brand **23 clicks** / 41,230 impr, 724 queries, avg pos 8.9.
+- Sitewide excluding the screens post: about **9,264 impressions** (41,877 minus 32,613).
+- Screens post: 32,613 impr / 1 click @ 8.9; daily 09-13..09-18: 487 / 2,216 / 3,551 / 5,963 / 9,044 / 11,272.
+- `/blog/best-streak-free-window-cleaner/` (canonical, 08-22..09-20): 50 clicks / 6,516 impr @ 7.8.
+- `/newbury/`: *window cleaning newbury park* 19 @ 4.2 (prior 31 @ 6.0).
+
+**Logged, NOT actioned (for the GBP workstream and future runs):**
+1. **gbp, pack queries this window:** *window cleaning near me* 114 @ 4.2, *window washing thousand oaks*
+   55 @ 3.1, *gutter cleaning* 49 @ 3.3, *window cleaning westlake village* 32 @ 2.0,
+   *window cleaning newbury park* 21 @ 4.3, *residential window washing thousand oaks* 20 @ 4.5.
+   Geo-grid still **ABSENT at Newbury Park, Agoura Hills, Oak Park and Camarillo**. The weakest incumbents are
+   Golden Window Washing (2 reviews, Newbury Park #1) and Guerrero Window Cleaning (13 and 1, Camarillo #2 and #3),
+   against our 229. Review velocity and GBP service-area/category setup are the levers, and neither is in this repo.
+2. **Brief tooling:** the striking-distance, CTR-outlier and rising tables should drop queries
+   starting with `+`, `%` or other operators, and flag any page whose country count jumps by more than 10x.
+   Five of this brief's top ten rows are one scraped page.
+3. Still open from 09-14 and 09-18: four lead-paragraph price contradictions (Westlake, Simi Valley,
+   Ventura, Santa Barbara washing), and the two unattributed "expert" blockquotes on
+   `solar-panel-cleaning-camarillo-...`.
+
+**Review after 28 days (2026-10-19).**
+
+---
+
 ### 2026-09-18
 
 **What we did:**

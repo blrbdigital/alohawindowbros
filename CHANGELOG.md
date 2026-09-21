@@ -1,3 +1,14 @@
+## 2026-09-21 - No-action run: screens-page impression spike diagnosed as scraper traffic
+
+**Primary action: none.** No site files changed. Most of the brief's +1,040% impressions (32,613 of
+41,877) sit on `/blog/how-to-clean-window-screens-without-removing-them/`. That traffic began 09-13,
+three days before the 09-16 retitle, and went from 3 countries to 171. It is 98% desktop, includes
+`+`/`%` operator-prefixed queries, and earned 1 click. It is not real demand, so there is nothing to
+build or retitle for it. Every clean row on the board is mid-review (screens 10-28, streak 10-23,
+skylight 10-30) or map-pack ground. The "decaying" rows for `best-streak-free-window-cleaner` (URL variant)
+and `/newbury/` (brand-query shift; non-brand head query improved 6.0 to 4.2) are not real decay.
+Full reasoning and a grading note for the 09-16 prediction are in SEO-LOG.md.
+
 ## 2026-09-18 - Skylight and exterior-cost arrivals consolidated on arrival, thirteenth audit
 
 **Primary action (technical, consolidation under the 08-28 rule): two of the four posts published
