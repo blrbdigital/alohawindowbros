@@ -18,7 +18,7 @@ The frequency of solar panel cleaning depends on several environmental factors. 
 
 Bird activity can also contribute to the need for more frequent cleaning because droppings can create thick spots that block sunlight completely. Tree pollen, leaves, and pollution particles can also accumulate on the panels over time.
 
-Because of these factors, solar panel cleaning schedules may vary from one location to another.
+Because of these factors, solar panel cleaning schedules may vary from one location to another. For intervals by environment and the research on soiling losses, see our longer guide on [how often solar panels should be cleaned](/blog/how-often-should-solar-panels-be-cleaned/).
 
 ## Recommended Solar Panel Cleaning Schedule
 

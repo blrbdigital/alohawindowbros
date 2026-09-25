@@ -93,7 +93,7 @@ The same window count can produce very different quotes depending on the buildin
 <a id="ground-level-storefronts-and-low-rise-offices"></a>
 ### Ground-level storefronts and low-rise offices
 
-One-story retail usually lands near the lower end of commercial pricing because access is direct and setup is simple. A basic storefront can sit in the **$150 to $300** neighborhood under simple conditions, while standard retail and restaurant visits often move higher depending on scope and foot traffic. Low-rise office space usually costs more because crews have to work around lobby entries, interior glass, and repeated access points, which adds time even before the cleaning starts.
+One-story retail usually lands near the lower end of commercial pricing because access is direct and setup is simple. (For what a commercial visit should cover before you compare prices, see [what commercial window cleaning is](/blog/what-is-commercial-window-cleaning/).) A basic storefront can sit in the **$150 to $300** neighborhood under simple conditions, while standard retail and restaurant visits often move higher depending on scope and foot traffic. Low-rise office space usually costs more because crews have to work around lobby entries, interior glass, and repeated access points, which adds time even before the cleaning starts.
 
 Exterior-only service is the cheapest version of that job. Once interior glass gets added, labor goes up because crews need to coordinate with staff, tenants, and occupied spaces. That is why the same property can produce two very different proposals, even when the window count looks similar on paper.
 

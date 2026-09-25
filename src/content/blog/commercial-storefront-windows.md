@@ -36,7 +36,7 @@ The U.S. commercial and multifamily building stock contains approximately **21 b
 <a id="why-storefront-windows-deserve-more-attention"></a>
 ## Why Storefront Windows Deserve More Attention
 
-A storefront does several jobs at once. It presents merchandise, admits daylight, separates conditioned space from the outdoors, resists wind and rain, and helps control indoor comfort. When a property manager assigns only a quick glass wipe-down, most of that system receives no attention.
+A storefront does several jobs at once. It presents merchandise, admits daylight, separates conditioned space from the outdoors, resists wind and rain, and helps control indoor comfort. When a property manager assigns only a quick glass wipe-down, most of that system receives no attention. The entrance is part of it too: see our guide to [commercial storefront glass doors](/blog/commercial-storefront-glass-doors/) for door glass, hardware, and safety glazing.
 
 A dull pane can reduce visual impact before anyone notices a technical failure. Customers see a tired entrance, while the building owner may be dealing with degraded sealant, blocked drainage paths, corroded aluminum, or a film that ordinary soap can't remove. The glass may look acceptable from across the sidewalk and still deserve a closer inspection at the perimeter.
 

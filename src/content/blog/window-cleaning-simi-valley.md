@@ -9,7 +9,7 @@ For many Simi Valley homes, the practical baseline is **three cleanings per year
 
 If you're looking at your back windows right now and thinking, “I just had these cleaned,” you're probably not dealing with a bad cleaning. You're dealing with the wrong diagnosis. In inland Ventura County, a lot of glass looks dirty when the problem is mineral film.
 
-That matters when you're comparing quotes for **window cleaning in Simi Valley**. A basic spray-and-wipe job can remove loose dirt and still leave behind the thing that makes the glass look cloudy a week later. If your sprinklers hit the pane, if you've got pool splash near the patio, or if the same sunny side of the house always looks worse than the rest, treat this like a water and exposure problem first. Then hire accordingly.
+That matters when you're comparing quotes for **window cleaning in Simi Valley** (our [Simi Valley service page](/simi-valley/) lists what a visit covers and the local price band). A basic spray-and-wipe job can remove loose dirt and still leave behind the thing that makes the glass look cloudy a week later. If your sprinklers hit the pane, if you've got pool splash near the patio, or if the same sunny side of the house always looks worse than the rest, treat this like a water and exposure problem first. Then hire accordingly.
 
 ## Table of Contents
 - [Why Simi Valley Windows Haze So Quickly](#why-simi-valley-windows-haze-so-quickly)
@@ -42,14 +42,14 @@ That matters when you're comparing quotes for **window cleaning in Simi Valley**
 
 You get a quote, the windows get cleaned, and a week later the same back sliders still look cloudy by noon. That usually traces back to where the water is coming from and where it lands, not to whether someone wiped hard enough.
 
-![An infographic explaining why residential windows in Simi Valley frequently develop a hazy mineral buildup.](https://cdnimg.co/8387fe5a-1497-428d-a3af-57b68fc0bac4/b597f35f-f25e-4a34-91ff-6ad1d68690c3/window-cleaning-simi-valley-hazy-windows.jpg)
+![An infographic explaining why residential windows in Simi Valley frequently develop a hazy mineral buildup.](/img/blog/window-cleaning-simi-valley-hazy-windows.jpg)
 
 <a id="what-youre-actually-seeing-on-the-glass"></a>
 ### What you're actually seeing on the glass
 
 On a lot of Simi Valley homes, haze shows up on repeat offenders. The patio door near the lawn zone. The side-yard window that gets tagged by irrigation every morning. The sunny pane that dries fast and shows every spot. Those windows are collecting mineral residue in layers.
 
-One reason is the water itself. Simi Valley service content often points to imported Metropolitan water, and one local page describes Colorado River water at roughly **16 grains per gallon** on arrival [Aloha Window Bros](https://alohawindowbros.com/). Pair that with overspray, hose splash, roof runoff, or pool water, and the glass stops behaving like a simple dusting job. It starts behaving like a hard-water surface.
+One reason is the water itself. Much of Simi Valley runs on imported water, and whatever minerals it carries stay on the glass when a sprinkler mist or hose splash dries in the sun. Pair that with overspray, hose splash, roof runoff, or pool water, and the glass stops behaving like a simple dusting job. It starts behaving like a hard-water surface.
 
 Here's the practical difference:
 
@@ -91,7 +91,7 @@ On a coastal house, marine moisture can soften what lands on the glass. Inland, 
 <a id="the-wind-factor-homeowners-ignore"></a>
 ### The wind factor homeowners ignore
 
-There's also the timing problem. Local climate guidance for the area places average wind around **14.29 mph** and gusts around **23.61 mph**, which matters because wind-driven grit loads screens and glass fast, and active gusts can ruin a cleaning if someone works at the wrong time, as explained in this local discussion of [hard water spots and wind-related window issues](https://www.socalhousewashers.com/blog/window-cleaning/remove-hard-water-spots-windows).
+There's also the timing problem. Wind-driven grit loads screens and glass fast, and active gusts can ruin a cleaning if someone works at the wrong time.
 
 > Clean glass in Simi Valley doesn't stay clean because the weather is nice. It stays clean when the home's exposure is managed and the cleaning rhythm matches the climate.
 
@@ -102,7 +102,7 @@ If your house faces open lots, foothills, or a road that kicks up dust, you need
 
 A real residential visit should cover more than the shiny part you can see from the street. If a quote only mentions “windows,” ask what that means. In this trade, homeowners get burned when one company is quoting complete service and another is quoting exterior glass only.
 
-![A five-step infographic showing the professional residential window cleaning process performed in Simi Valley.](https://cdnimg.co/8387fe5a-1497-428d-a3af-57b68fc0bac4/66c1dea6-0f01-41d7-a728-6e181986636b/window-cleaning-simi-valley-cleaning-process.jpg)
+![A five-step infographic showing the professional residential window cleaning process performed in Simi Valley.](/img/blog/window-cleaning-simi-valley-cleaning-process.jpg)
 
 <a id="the-normal-order-of-work"></a>
 ### The normal order of work
@@ -144,7 +144,7 @@ The other thing I'd tell any homeowner in Simi Valley is to ask what method they
 
 Traditional soap-and-squeegee work still has its place, especially inside. But outside, on Simi Valley homes dealing with sprinkler overspray and mineral residue, **purified water** is the method that fits the problem.
 
-![A diagram explaining the five-step process of using a purified water system for spot-free window cleaning.](https://cdnimg.co/8387fe5a-1497-428d-a3af-57b68fc0bac4/ab574947-08aa-487c-ac65-5fdc6b244fad/window-cleaning-simi-valley-water-purification.jpg)
+![A diagram explaining the five-step process of using a purified water system for spot-free window cleaning.](/img/blog/window-cleaning-simi-valley-water-purification.jpg)
 
 <a id="what-purified-water-actually-means"></a>
 ### What purified water actually means
@@ -222,7 +222,7 @@ Most inland homes here don't need random cleanings. They need a repeat rhythm th
 
 The practical baseline for many Simi Valley homes is **three cleanings a year**. That local recommendation shows up in Simi Valley service content focused on hard-water spotting, sprinkler exposure, and the way haze returns on inland glass. It fits what homeowners deal with much better than the lazy advice to “just do it when it looks dirty.”
 
-![A visual guide illustrating the ideal window cleaning schedule for homes in Simi Valley by season.](https://cdnimg.co/8387fe5a-1497-428d-a3af-57b68fc0bac4/872e57e6-69ac-43fa-8f5e-f3277c9c15cb/window-cleaning-simi-valley-cleaning-schedule.jpg)
+![A visual guide illustrating the ideal window cleaning schedule for homes in Simi Valley by season.](/img/blog/window-cleaning-simi-valley-cleaning-schedule.jpg)
 
 <a id="a-realistic-schedule-for-a-typical-home"></a>
 ### A realistic schedule for a typical home
@@ -283,10 +283,10 @@ When the crew arrives, walk the house with them and point out the known problem 
 
 Don't copy your neighbor's schedule unless your exposure is the same. A shady interior street and a dusty corner lot are not the same maintenance job.
 
-If you're cleaning partly for resale, photos, or general appearance, this piece on [Central California home curb appeal](https://edinhart.com/how-to-boost-curb-appeal/) is a useful reminder that visible exterior details shape first impressions fast. Clean windows are one of the few curb-appeal upgrades that people notice immediately without you saying a word.
+If you're cleaning partly for resale, photos, or general appearance, remember that visible exterior details shape first impressions fast. Clean windows are one of the few curb-appeal upgrades that people notice immediately without you saying a word.
 
 For most homes here, start with three visits a year. If your lot takes heavier dust, stronger wind exposure, or constant sprinkler overspray, consider stepping up the frequency. And if a wind event is rolling through, reschedule. Cleaning in bad gusts is how streaks get blamed on the crew when the weather caused the problem.
 
 ---
 
-If your windows in Simi Valley keep turning hazy again, the fix is to clean for the cause: mineral spotting, dust-loaded screens, and exposure from sprinklers and inland wind. [Aloha Window Bros](https://alohawindowbros.com) handles exterior and interior glass, screens, frames, and sills with methods that fit those local conditions. If you want a quote that reflects your actual windows instead of a guess, start there and get the house looked at properly.
+If your windows in Simi Valley keep turning hazy again, the fix is to clean for the cause: mineral spotting, dust-loaded screens, and exposure from sprinklers and inland wind. [Aloha Window Bros](/simi-valley/) handles exterior and interior glass, screens, frames, and sills with methods that fit those local conditions. If you want a quote that reflects your actual windows instead of a guess, start there and get the house looked at properly.

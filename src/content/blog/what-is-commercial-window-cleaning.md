@@ -33,7 +33,7 @@ A busy Ventura restaurant can look clean from the dining room while salt spray d
 
 A residential cleaner can often work around a few rooms and a flexible appointment. A commercial crew may clean a long storefront before opening, protect planted areas from runoff, work around diners and pedestrians, and reach upper panes without interrupting tenants. The difference is **coordination and access**.
 
-![An infographic detailing the benefits of commercial window cleaning for restaurants, retail stores, and corporate buildings.](https://cdnimg.co/8387fe5a-1497-428d-a3af-57b68fc0bac4/b36523eb-8680-46dd-8595-b4237036d5c7/what-is-commercial-window-cleaning-benefits-infographic.jpg)
+![An infographic detailing the benefits of commercial window cleaning for restaurants, retail stores, and corporate buildings.](/img/blog/what-is-commercial-window-cleaning-benefits-infographic.jpg)
 
 <a id="the-building-changes-the-job"></a>
 ### The building changes the job
@@ -44,7 +44,7 @@ The crew must also match the schedule to the business. A restaurant may require 
 
 Glass condition determines the technique and the time involved. Light dust is straightforward; sprinkler minerals, adhesive residue, bird deposits, and salt aerosol require different treatment. On properties near the coast, salt film can return quickly even after a careful wash. In Santa Barbara, Sundowner dust may settle on glass and frames before the next scheduled visit.
 
-The window-washing market reflects this specialization. **IBISWorld estimated 35,344 U.S. window-washing businesses in 2024**, with average industry revenue growth of **2.3% annually from 2019 to 2024**. Its forecast projected revenue of **$2.9 billion in 2024** rising to **$3.2 billion by 2029**, as reported in the [IBISWorld window-washing industry overview](https://www.ibisworld.com/united-states/industry/window-washing/6458/).
+The window-washing market reflects this specialization. **IBISWorld estimated 35,344 U.S. window-washing businesses and $2.9 billion in industry revenue in 2024**, as reported in the [IBISWorld window-washing industry overview](https://www.ibisworld.com/united-states/industry/window-washing/6458/).
 
 > **Practical rule:** A commercial quote should explain how the crew will reach every included pane, protect the site, and handle its specific glass conditions, not just count the windows.
 
@@ -62,7 +62,7 @@ Ventura properties can collect salt spray that returns soon after cleaning. Sant
 
 Ground-level glass often suits a washer-and-squeegee method. The technician can inspect the surface closely and respond to deposits while working. High exterior panes may be better suited to a water-fed pole. The system sends purified water through a brush, and the pane dries without the dissolved minerals found in ordinary tap water. That reduces spotting when water evaporates under direct sunlight. Kärcher describes traditional squeegee work and purified-water systems in its [commercial window-cleaning resource](https://www.kaercher.com/int/professional/know-how/commercial-window-cleaning.html).
 
-![A list showing four essential steps for commercial window cleaning services including glass polishing and stain removal.](https://cdnimg.co/8387fe5a-1497-428d-a3af-57b68fc0bac4/f3b3f22f-811d-4345-810d-68d23b192703/what-is-commercial-window-cleaning-service-breakdown.jpg)
+![A list showing four essential steps for commercial window cleaning services including glass polishing and stain removal.](/img/blog/what-is-commercial-window-cleaning-service-breakdown.jpg)
 
 <a id="the-surrounding-parts-determine-the-finish"></a>
 ### The surrounding parts determine the finish
@@ -91,7 +91,7 @@ A manual crew remains flexible. Technicians can adjust pressure, recognize a fai
 
 Automated systems are more compelling when the surface is broad, consistent, and accessible to the machine. A flat glass elevation with repeated panels may offer a predictable route and pace. A façade with deep reveals, decorative trim, heavy mineral buildup, or fragile finishes may require manual intervention before or after automated cleaning.
 
-![A comparison graphic showing human window cleaners on ropes versus a robotic window cleaning system on glass.](https://cdnimg.co/8387fe5a-1497-428d-a3af-57b68fc0bac4/d296e39f-9318-4db6-b0a4-080a4a9c60ac/what-is-commercial-window-cleaning-manual-vs-automated.jpg)
+![A comparison graphic showing human window cleaners on ropes versus a robotic window cleaning system on glass.](/img/blog/what-is-commercial-window-cleaning-manual-vs-automated.jpg)
 
 <a id="evaluate-the-whole-operating-model"></a>
 ### Evaluate the whole operating model
@@ -117,7 +117,7 @@ The decision isn't “people or robots.” It's whether each building has enough
 
 A uniform quarterly schedule is easy to administer, but it often misses the property's real exposure. A restaurant entrance, a medical lobby, and an industrial warehouse collect different soils and serve different visibility needs. The right interval starts with how quickly the glass becomes unacceptable, not with a calendar habit.
 
-Recent commercial-cleaning coverage identifies **weekly to biweekly exterior service for some retail storefronts**, **monthly to quarterly service for offices**, more frequent attention at healthcare entry points, and less frequent but more debris-focused work at industrial sites. Those ranges are starting points, not promises. The [commercial window-cleaning frequency guidance from Ziva Cleaning](https://zivacleaning.com/blog/importance-of-commercial-window-cleaning) also highlights the importance of business type, exposure, and environmental conditions.
+Recent commercial-cleaning coverage identifies **weekly to biweekly exterior service for some retail storefronts**, **monthly to quarterly service for offices**, more frequent attention at healthcare entry points, and less frequent but more debris-focused work at industrial sites. Those ranges are starting points, not promises. Business type, exposure, and local conditions set the real interval.
 
 | Site Type | Baseline Interval | Coastal Adjustment | Industrial Adjustment |
 |---|---|---|---|
@@ -140,7 +140,7 @@ A maintenance contract helps the property manager respond to those patterns. The
 
 A two-story storefront may need only controlled ground access, while a taller façade can involve roof edges, suspended equipment, public walkways, and fall exposure. Both jobs involve glass, but they are classified work rather than simple chores. Salt spray in Ventura can affect frames and anchors, while Sundowner dust around Santa Barbara can reduce visibility and leave crews working on contaminated surfaces.
 
-Independent safety guidance recommends permanent edge protection where feasible. Where that cannot be provided, workers should use arrest systems anchored to components capable of supplying at least **7.5 kN of arresting force**, according to the [facility-manager safety checklist from Innotech](https://www.innotech-safety.com/en/newsroom-detail/checklist-regulations-for-facility-managers). The guidance also identifies protection heights of **100 cm and 110 cm** for specified fall-height situations. Window ledges should be used only when they are at least **25 cm wide and load-bearing**.
+In the United States, OSHA's general industry rule requires fall protection wherever a worker is exposed to a fall of **4 feet or more** ([29 CFR 1910.28(b)(1)](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.28)), and anchorages for personal fall arrest must support at least **5,000 pounds per attached worker** ([29 CFR 1910.140](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.140)). Building owners must also certify rope descent anchorages before rope work begins (1910.27(b)(1)).
 
 <a id="access-starts-with-the-roof-and-the-ground"></a>
 ### Access starts with the roof and the ground
@@ -158,7 +158,7 @@ Request current proof of liability and workers' compensation coverage, then chec
 
 Specialized access work carries different safety and insurance considerations from ordinary janitorial service. The comparison chart below helps clarify why the contractor's method, equipment, and coverage should match the building's access conditions.
 
-![A comparison chart outlining the safety and insurance differences between specialized access work and janitorial services.](https://cdnimg.co/8387fe5a-1497-428d-a3af-57b68fc0bac4/18cd6690-d1e4-4f28-b737-d53dfd124802/what-is-commercial-window-cleaning-safety-chart.jpg)
+![A comparison chart outlining the safety and insurance differences between specialized access work and janitorial services.](/img/blog/what-is-commercial-window-cleaning-safety-chart.jpg)
 
 > **Before approval:** Require the scope, access method, insurance documents, training records, and site-specific safety controls in writing.
 
@@ -206,4 +206,4 @@ The best program is specific enough that the crew, manager, and owner share the 
 
 ---
 
-Ask a qualified provider to walk your Ventura or Santa Barbara property, identify the glass, screens, frames, access conditions, and local exposure concerns, then build a recurring or one-time scope around the site. Visit [Aloha Window Bros](https://alohawindowbros.com) to request a commercial quote and discuss a window-cleaning program that fits your building.
+Ask a qualified provider to walk your Ventura or Santa Barbara property, identify the glass, screens, frames, access conditions, and local exposure concerns, then build a recurring or one-time scope around the site. Visit [Aloha Window Bros](/contact/) to request a commercial quote and discuss a window-cleaning program that fits your building.

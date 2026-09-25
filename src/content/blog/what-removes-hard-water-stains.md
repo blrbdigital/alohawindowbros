@@ -11,7 +11,7 @@ The important question isn't what removes hard water stains. It's **whether you'
 
 In Ventura and Santa Barbara homes, I see both problems. Sprinkler overspray creates concentrated spotting, while salt air and dry foothill winds leave a broader film on panes, screens, frames, and tracks. This guide starts with diagnosis, then matches vinegar, citric acid, commercial descalers, or polishing to the damage level. You'll also find a safe DIY workflow and prevention habits that help protect glass before the next round of water dries.
 
-![A hand wiping a circular clean patch on a dirty window glass with hard water stains.](https://cdnimg.co/8387fe5a-1497-428d-a3af-57b68fc0bac4/37755d0f-2c94-48e8-b59a-645b03a69a29/what-removes-hard-water-stains-window-cleaning.jpg)
+![A hand wiping a circular clean patch on a dirty window glass with hard water stains.](/img/blog/what-removes-hard-water-stains-window-cleaning.jpg)
 
 ## Table of Contents
 - [Introduction Why Hard Water Spots Keep Coming Back](#introduction-why-hard-water-spots-keep-coming-back)
@@ -49,9 +49,9 @@ The sections below explain the mineral cause, compare removal options, give a sa
 <a id="what-causes-hard-water-stains-on-glass-and-frames"></a>
 ## What Causes Hard Water Stains on Glass and Frames
 
-When a wet pane dries, the water disappears but dissolved material remains. Hard water stains can contain **calcium carbonate, magnesium carbonate, or silica**, according to this [guide to hard-water stain removal on windows](https://nationalwindowcleaningauthority.com/hard-water-stain-removal-windows/). Calcium and magnesium carbonate create much of the familiar white crust or cloudy film, while silica can form a tighter, more stubborn residue.
+When a wet pane dries, the water disappears but dissolved material remains. Hard water stains are mostly **calcium and magnesium carbonate**, with silica in some supplies, as our [hard water spot removal guide](/blog/how-to-remove-hard-water-spots-from-windows/) explains. Calcium and magnesium carbonate create much of the familiar white crust or cloudy film, while silica can form a tighter, more stubborn residue.
 
-![An infographic showing that calcium carbonate, magnesium carbonate, and silica cause hard water stains on glass.](https://cdnimg.co/8387fe5a-1497-428d-a3af-57b68fc0bac4/e456c16f-cfb7-49e2-8488-439de311e8dd/what-removes-hard-water-stains-hard-water-stains.jpg)
+![An infographic showing that calcium carbonate, magnesium carbonate, and silica cause hard water stains on glass.](/img/blog/what-removes-hard-water-stains-hard-water-stains.jpg)
 
 The chemistry determines what removes hard water stains. Carbonate deposits respond to acids because the acid reacts with carbonate in the mineral structure. White vinegar is typically around **pH 2.4 to 3.4**, while citric acid is around **pH 2.2**, as documented in the same window-cleaning reference. Vinegar's acetic acid is specifically noted as effective against calcium carbonate because it protonates carbonate ions and helps break down the mineral matrix.
 
@@ -82,7 +82,7 @@ Citric acid is another mild-acid option. It can be useful when you want an alter
 
 Commercial limescale removers can be more aggressive and may work on mineral deposits that respond slowly to vinegar. The trade-off is a higher risk of damage to frames, finishes, seals, coatings, tint, or window film. Use only a product whose label allows glass and follow its instructions. Never combine acidic cleaners with bleach.
 
-Mechanical polishing belongs in a different category. It doesn't dissolve the deposit. It removes or smooths material through controlled abrasion, which may be appropriate for etched glass but is risky in untrained hands. A green Scotch-Brite pad, steel wool, gritty powder, or excessive pressure can leave scratches that become more visible in sunlight. For related mineral buildup on plumbing fixtures, this resource on [how to remove limescale from water taps](https://ringhotwater.com.au/tag/limescale-removal/) provides useful surface-specific context, but window glass requires softer tools and stricter caution.
+Mechanical polishing belongs in a different category. It doesn't dissolve the deposit. It removes or smooths material through controlled abrasion, which may be appropriate for etched glass but is risky in untrained hands. A green Scotch-Brite pad, steel wool, gritty powder, or excessive pressure can leave scratches that become more visible in sunlight. Window glass requires softer tools and stricter caution than a tile or fixture.
 
 <a id="choosing-the-right-remover-for-your-stain-level"></a>
 ### Choosing the right remover for your stain level
@@ -103,9 +103,9 @@ For a typical surface deposit, use a controlled **50/50 mixture of distilled whi
 
 Start in shade, not on a pane that's hot enough to dry the solution immediately. Remove loose grit first with a clean rinse or soft wash, because rubbing sand and dust across glass can create scratches before the stain treatment even begins. Protect nearby frames, painted surfaces, and sills with tape or a cover, and don't let the acidic mixture pool in tracks.
 
-![A six-step infographic guide demonstrating how to safely remove hard water stains from glass using vinegar.](https://cdnimg.co/8387fe5a-1497-428d-a3af-57b68fc0bac4/4851c3aa-e250-49b3-84aa-78cc4b47e4c3/what-removes-hard-water-stains-cleaning-guide.jpg)
+![A six-step infographic guide demonstrating how to safely remove hard water stains from glass using vinegar.](/img/blog/what-removes-hard-water-stains-cleaning-guide.jpg)
 
-Mix equal parts distilled white vinegar and water in a clean spray bottle. Apply enough to wet the affected area completely, then maintain contact for **5 to 15 minutes**, consistent with practical guidance from [Expert Glass Repair](https://www.expertglassrepair.com/blog/water-spots-hard-water-glass/). The shorter end may suit a light film, while heavier deposits need closer attention and may require a second controlled application.
+Mix equal parts distilled white vinegar and water in a clean spray bottle. Apply enough to wet the affected area completely, then maintain contact for **5 to 15 minutes**. The shorter end may suit a light film, while heavier deposits need closer attention and may require a second controlled application.
 
 Don't allow the solution to dry on the pane. Re-mist lightly if the surface starts drying, especially around edges or in warm conditions. Continuous wet contact gives the acid time to work. Letting it dry reduces that benefit and can leave dissolved minerals behind in another patchy film.
 
@@ -163,4 +163,4 @@ Ask for an on-site assessment before agreeing to restoration work. The technicia
 
 ---
 
-Aloha Window Bros cleans windows, screens, frames, and sills across Ventura County and Santa Barbara County, including hard-water spotting from sprinkler overspray and coastal exposure. If your panes still look hazy after a careful vinegar treatment, visit [Aloha Window Bros](https://alohawindowbros.com) to request a free on-site or virtual estimate and have the glass condition assessed before it gets worse.
+Aloha Window Bros cleans windows, screens, frames, and sills across Ventura County and Santa Barbara County, including hard-water spotting from sprinkler overspray and coastal exposure. If your panes still look hazy after a careful vinegar treatment, visit [Aloha Window Bros](/contact/) to request a free on-site or virtual estimate and have the glass condition assessed before it gets worse.

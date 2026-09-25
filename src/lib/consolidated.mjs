@@ -131,6 +131,28 @@
 //   (`window washing cost ventura county` 37 @ 3.6), and a cluster probe for exterior
 //   cost/price wording returns ZERO impressions. It also priced our complete four-in-one
 //   band as "exterior only", a scope contradiction with the pillar (fixed in the post).
+//
+// 2026-09-25: THREE MORE on arrival under the 08-28 rule (join 2026-08-26..2026-09-22).
+//
+//   /blog/what-removes-hard-water-stains/ -> the hard-water winner. FIFTH URL the
+//   stream has put on the removal surface. Its headings duplicate the winner section for
+//   section (causes, deposit vs etched, what removes it, safe method, prevention, when to
+//   call a pro). The whole hard-water cluster is down to 22 impressions this window and
+//   the 08-26 consolidation is still under review until late October.
+//
+//   /blog/window-cleaning-simi-valley/ -> /simi-valley/. The 09-09 Thousand Oaks case
+//   exactly: /simi-valley/ holds every Simi head query at positions 5 to 7 (`window
+//   cleaning simi valley` 22 @ 6.7, `window washing simi valley` 17 @ 5.2, `window
+//   cleaning company simi valley` 10 @ 5.1 plus ~15 more rows), and an exact-match
+//   slug post would be a THIRD own-URL on that money surface alongside the older
+//   Simi guide. The landing page carries LocalBusiness schema and conversion structure.
+//
+//   /blog/santa-barbara-windows/ -> /santa-barbara/. Santa Barbara cluster (~250 non-brand
+//   impressions) sits on / at 8 to 10 with /santa-barbara/ at 35 to 42. That fight is
+//   between the homepage and the landing page; a fourth Santa Barbara blog URL (after the
+//   two SB window guides and the SB companies post) cannot help it and could only
+//   split it further. Canonical goes to the city landing page, the client's designated
+//   conversion page, same direction as Thousand Oaks.
 export const CANONICAL_OVERRIDES = {
   'blog/how-to-remove-hard-water-stains-from-windows':
     'https://alohawindowbros.com/blog/how-to-remove-hard-water-spots-from-windows/',
@@ -148,6 +170,12 @@ export const CANONICAL_OVERRIDES = {
     'https://alohawindowbros.com/blog/skylight-cleaning-service/',
   'blog/exterior-window-cleaning-cost':
     'https://alohawindowbros.com/blog/how-much-does-window-cleaning-cost-in-ventura-county/',
+  'blog/what-removes-hard-water-stains':
+    'https://alohawindowbros.com/blog/how-to-remove-hard-water-spots-from-windows/',
+  'blog/window-cleaning-simi-valley':
+    'https://alohawindowbros.com/simi-valley/',
+  'blog/santa-barbara-windows':
+    'https://alohawindowbros.com/santa-barbara/',
 };
 
 /** Absolute canonical for a built pathname, or null if the page is self-canonical. */

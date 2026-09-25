@@ -56,7 +56,7 @@ A sliding door is the **space-saving commuter**. Its panels travel along a track
 
 A bifold door is the **wide bay**. Folding leaves can open a large section of the frontage when a restaurant, showroom, or hospitality space wants a stronger connection to the sidewalk. That broad opening comes with more hinges, carriers, seals, and moving joints. Wind exposure and panel alignment matter because the system has more parts that must remain synchronized.
 
-![An infographic comparing three types of commercial doors: swinging, sliding, and bifold, highlighting their primary uses and benefits.](https://cdnimg.co/8387fe5a-1497-428d-a3af-57b68fc0bac4/29ab643d-0331-4b5b-92a4-654f168a90a6/commercial-storefront-glass-doors-door-types.jpg)
+![An infographic comparing three types of commercial doors: swinging, sliding, and bifold, highlighting their primary uses and benefits.](/img/blog/commercial-storefront-glass-doors-door-types.jpg)
 
 <a id="match-the-format-to-the-entrance"></a>
 ### Match the format to the entrance
@@ -65,7 +65,7 @@ Think about how people arrive. A small service shop with one customer at a time 
 
 Wind changes the calculation. Swinging leaves receive direct pressure at the hinges and closer. Sliding panels transfer forces through tracks and guides. Bifold leaves distribute movement across several connected sections. In every case, the glass must suit the moving panel, and larger or impact-exposed panels commonly lead specifiers toward tempered or laminated safety glazing.
 
-Door operation also intersects with building security. If you need controlled entry, alarms, monitoring, or electronic release, review the system as a whole rather than adding a lock after installation. A resource covering [integrated security for commercial door entry](https://amaxfireandsecurity.co.uk/door-entry-systems/) can help property teams think through access control alongside the physical door format.
+Door operation also intersects with building security. If you need controlled entry, alarms, monitoring, or electronic release, review the system as a whole rather than adding a lock after installation.
 
 <a id="glass-options-beyond-a-single-pane-of-clear-glass"></a>
 ## Glass Options Beyond a Single Pane of Clear Glass
@@ -119,9 +119,9 @@ For busy shops, narrow-stile doors are generally easier to service and replace a
 
 A durable cleaning routine starts with the least aggressive method. Remove loose dust with a clean **microfiber cloth** before applying liquid, then use a neutral pH glass cleaner and a clean squeegee. Spraying onto the cloth instead of flooding the door helps keep liquid away from pivots, locks, sensors, and edge seals.
 
-Ammonia-based products can damage low-emissivity coatings and contribute to gasket deterioration. If the glass keeps streaking, the cleaner may be leaving residue, the squeegee blade may be dirty, or the operator may be dragging grit across the pane. Practical product-handling ideas are also covered in these [glass cleaner spray tips from Evo Dyne Products](https://evodyne.us/blogs/news/glass-cleaner-spray).
+Ammonia-based products can damage low-emissivity coatings and contribute to gasket deterioration. If the glass keeps streaking, the cleaner may be leaving residue, the squeegee blade may be dirty, or the operator may be dragging grit across the pane. Our comparison of [streak-free glass cleaners](/blog/best-streak-free-window-cleaner/) covers which products leave the least residue.
 
-![A helpful infographic outlining three essential tips for cleaning and maintaining commercial storefront glass doors and hardware.](https://cdnimg.co/8387fe5a-1497-428d-a3af-57b68fc0bac4/25f3f77f-06f8-429b-bbc9-d2101070ef01/commercial-storefront-glass-doors-maintenance-guide.jpg)
+![A helpful infographic outlining three essential tips for cleaning and maintaining commercial storefront glass doors and hardware.](/img/blog/commercial-storefront-glass-doors-maintenance-guide.jpg)
 
 <a id="clean-each-material-differently"></a>
 ### Clean each material differently
@@ -171,7 +171,7 @@ Entrance decisions work better when accessibility, security, and energy performa
 
 Begin with the public path. Review maneuvering clearance, threshold transitions, door opening force, and operable hardware with the applicable accessibility professional or authority having jurisdiction. Handles, panic devices, push plates, electronic releases, and automatic operators must be placed and selected so people can use the entrance without excessive force or awkward reach.
 
-Security comes next. Laminated glass can retain fragments after impact, while access-control components can regulate who enters. Cameras need a clear sightline to the approach, lock, and handle area. Frameless doors may look uninterrupted, but their patch fittings and lock locations require careful coordination. For a practical discussion of [door access choices for property managers](https://www.overtonsecurity.com/access-control-for-doors/), review the access-control components before selecting the final hardware package.
+Security comes next. Laminated glass can retain fragments after impact, while access-control components can regulate who enters. Cameras need a clear sightline to the approach, lock, and handle area. Frameless doors may look uninterrupted, but their patch fittings and lock locations require careful coordination. Review the access-control components before selecting the final hardware package.
 
 Thermal performance depends on the complete opening. **U-factor** addresses heat transfer, **SHGC** addresses solar heat gain, and air leakage depends heavily on perimeter seals, sweeps, thresholds, and installation quality. Insulated glazing, thermal breaks, warm-edge spacers, and sound weatherstripping can support comfort, but local energy requirements vary by climate zone and compliance path, so the design team must verify the applicable criteria. Industry coverage also describes growing use of laminated and bullet-resistant storefront glazing for security, while emphasizing that energy decisions still need separate code review [in this security glazing discussion](https://www.riotglass.com/2025-security-trends/).
 
@@ -189,7 +189,7 @@ When money is tight, don't cut the components that protect access, egress, or gl
 
 Treat the entrance as a small maintenance program, not a last-minute cleaning task. Clear glass makes cracks and edge damage easier to spot. A clean threshold makes water pooling visible. Legible safety markings help a contractor identify the replacement specification before ordering a pane.
 
-![A maintenance checklist graphic titled Putting It All Together with a Simple Care Checklist for windows.](https://cdnimg.co/8387fe5a-1497-428d-a3af-57b68fc0bac4/9f5d5ef6-a25f-4c15-88e9-219e827eb33e/commercial-storefront-glass-doors-maintenance-checklist.jpg)
+![A maintenance checklist graphic titled Putting It All Together with a Simple Care Checklist for windows.](/img/blog/commercial-storefront-glass-doors-maintenance-checklist.jpg)
 
 <a id="weekly-care"></a>
 ### Weekly care
@@ -218,4 +218,4 @@ Call a qualified contractor promptly if the **door won't latch**, the **glass fo
 
 ---
 
-If your storefront needs clearer glass, cleaner frames and tracks, or a closer look at salt, dust, and buildup around the entrance, [Aloha Window Bros](https://alohawindowbros.com) provides professional commercial window, screen, frame, and sill cleaning in Ventura County and Santa Barbara County. Request a free on-site quote and make your storefront maintenance routine support both a welcoming appearance and easier compliance checks.
+If your storefront needs clearer glass, cleaner frames and tracks, or a closer look at salt, dust, and buildup around the entrance, [Aloha Window Bros](/contact/) provides professional commercial window, screen, frame, and sill cleaning in Ventura County and Santa Barbara County. Request a free on-site quote and make your storefront maintenance routine support both a welcoming appearance and easier compliance checks.

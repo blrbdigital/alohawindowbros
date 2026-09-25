@@ -5,7 +5,7 @@ description: 'Discover how to clean and maintain Santa Barbara windows against c
 heroImage: '/img/blog/santa-barbara-windows.jpg'
 heroImageAlt: 'Santa Barbara Windows: A Coastal Homeowner Guide'
 ---
-A typical Santa Barbara full window clean runs **$200 to $475**, and oceanfront or highly exposed homes may need service every **4 to 8 weeks** during active onshore-wind season. If your glass looked clear last week but turned hazy after the morning marine layer, the culprit usually isn't ordinary dust alone.
+A typical Santa Barbara full window clean runs **$200 to $475** (see our [Santa Barbara window cleaning page](/santa-barbara/) for what a visit covers), and oceanfront or highly exposed homes may need service every **4 to 8 weeks** during active onshore-wind season. If your glass looked clear last week but turned hazy after the morning marine layer, the culprit usually isn't ordinary dust alone.
 
 A homeowner in the Mesa or San Roque can wipe a pane on Sunday and still see a dull film by the next weekend. Salt aerosol settles on glass, mineral-rich rinse water leaves its own residue, and older wood assemblies need more care than a modern vinyl frame. Santa Barbara windows demand a maintenance plan that respects both the coast and the city's architectural history.
 
@@ -48,7 +48,7 @@ The result is a local maintenance problem with two sides. You need chemistry sui
 
 Four conditions usually leave the clearest fingerprints on Santa Barbara windows. Learning their signatures helps you decide whether a simple rinse is enough or whether the glass needs mineral-spot treatment and frame detailing.
 
-![An infographic showing how coastal conditions like salt, wind, UV exposure, and moisture impact windows.](https://cdnimg.co/8387fe5a-1497-428d-a3af-57b68fc0bac4/ae4055c2-af6a-4cd9-8250-6da14aeac77b/santa-barbara-windows-coastal-damage.jpg)
+![An infographic showing how coastal conditions like salt, wind, UV exposure, and moisture impact windows.](/img/blog/santa-barbara-windows-coastal-damage.jpg)
 
 <a id="salt-aerosol-and-marine-moisture"></a>
 ### Salt aerosol and marine moisture
@@ -74,7 +74,7 @@ Strong sunlight dries coatings, fades finishes, and stresses old putty and untre
 
 Wind pushes fine dust into tracks and screen mesh. A gritty slider can scratch glass when the sash moves, especially if someone drags it without vacuuming first. The visual clue is a rough-feeling channel, dust packed into corners, or fine lines that follow the direction of travel.
 
-For property managers or service teams, documenting these conditions helps crews return with the right tools. A clear record can also [boost efficiency with RealEstateCRM](https://realestatecrm.io/blog/crm-and-helpdesk) when recurring maintenance, access notes, and frame conditions need to stay organized.
+For property managers or service teams, documenting these conditions helps crews return with the right tools.
 
 <a id="whats-included-in-a-professional-santa-barbara-window-cleaning"></a>
 ## What's Included in a Professional Santa Barbara Window Cleaning
@@ -88,7 +88,7 @@ For second- and third-story panes, a **deionized water-fed pole** pushes purifie
 
 A technician should inspect the frame before washing. Salt crust inside aluminum weep holes can block drainage, while calcium often collects near skylight flashing. Skylights can receive the same pole-and-brush treatment, with careful attention to the seal and flashing line.
 
-![An infographic detailing the five-step professional window cleaning process offered in Santa Barbara, featuring equipment and descriptions.](https://cdnimg.co/8387fe5a-1497-428d-a3af-57b68fc0bac4/2ee2f711-f6c6-463c-ba57-c40a6e305a30/santa-barbara-windows-cleaning-process.jpg)
+![An infographic detailing the five-step professional window cleaning process offered in Santa Barbara, featuring equipment and descriptions.](/img/blog/santa-barbara-windows-cleaning-process.jpg)
 
 <a id="screens-tracks-and-interior-panes"></a>
 ### Screens, tracks, and interior panes
@@ -105,8 +105,6 @@ For a visual walkthrough of equipment and sequencing, watch the embedded demonst
 
 
 
-For listing preparation, clean windows also work best alongside accurate property presentation. Agents handling multiple vendors may want to [compare AI photo editors for property listings](https://videotour.ai/blog/ai-real-estate-photo-editor) after the physical cleaning is complete, so edited images don't exaggerate haze or hide frame conditions.
-
 <a id="diy-methods-versus-professional-coastal-cleaning"></a>
 ## DIY Methods Versus Professional Coastal Cleaning
 
@@ -114,7 +112,7 @@ A bucket, blue glass cleaner, microfiber cloth, and step ladder can handle a rea
 
 The DIY trade-off isn't price. It involves **finish quality, time, and exposure to risk**. A homeowner may spend a morning cleaning accessible panes and still leave tracks, screens, and mineral deposits untouched. Ladder placement adds another concern around sloped ground, hillside decks, balconies, and delicate landscaping.
 
-![A comparison infographic showing the disadvantages of DIY window cleaning versus the benefits of professional coastal cleaning services.](https://cdnimg.co/8387fe5a-1497-428d-a3af-57b68fc0bac4/ac472ed4-9dd7-497d-ab5b-1882c8d2f845/santa-barbara-windows-cleaning-comparison.jpg)
+![A comparison infographic showing the disadvantages of DIY window cleaning versus the benefits of professional coastal cleaning services.](/img/blog/santa-barbara-windows-cleaning-comparison.jpg)
 
 <a id="where-each-method-makes-sense"></a>
 ### Where each method makes sense
@@ -155,7 +153,7 @@ A single-story home with accessible glass usually takes a different crew plan fr
 | Multi-story or hillside home | Qualitative estimate needed | Height, decks, recessed glass, and equipment setup |
 | Historic home with divided lights | Qualitative estimate needed | Muntin detail, delicate materials, and careful hand work |
 
-A recurring schedule may reduce the per-visit price by roughly **15 to 25%** compared with a one-off booking, according to the service information provided for this market. For a broader explanation of residential quote variables, review [residential window-cleaning prices](https://alohawindowbros.com/blog/residential-window-cleaning-prices/).
+A recurring schedule may reduce the per-visit price by roughly **15 to 25%** compared with a one-off booking. For a broader explanation of residential quote variables, review [residential window-cleaning prices](https://alohawindowbros.com/blog/residential-window-cleaning-prices/).
 
 Photos help, but they rarely show track buildup, second-story exposure, or the condition of old wood. A free on-site or virtual estimate is the reliable way to separate routine cleaning from restoration-style detail work.
 
@@ -197,4 +195,4 @@ Screen care deserves its own attention in a coastal home because salt and airbor
 
 If streaks appear soon after a completed service, photograph the affected pane with a timestamp and contact the cleaner promptly. A clear image, window location, and description of the condition make a satisfaction-guarantee review much easier, and a follow-up visit can often fit into the next available route.
 
-Aloha Window Bros provides interior and exterior window cleaning, screen cleaning, frames and sills, skylights, and solar-panel care for Santa Barbara and Ventura County properties, with free on-site and virtual estimates. Visit [Aloha Window Bros](https://alohawindowbros.com) to request a quote and describe your home's salt exposure, historic windows, access challenges, or hard-water spotting.
+Aloha Window Bros provides interior and exterior window cleaning, screen cleaning, frames and sills, skylights, and solar-panel care for Santa Barbara and Ventura County properties, with free on-site and virtual estimates. Visit our [Santa Barbara window cleaning page](/santa-barbara/) to request a quote and describe your home's salt exposure, historic windows, access challenges, or hard-water spotting.

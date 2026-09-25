@@ -1,3 +1,28 @@
+## 2026-09-25 - Three arrivals consolidated on arrival, fourteenth publisher audit, orphan links
+
+**Primary action (technical, consolidation under the 08-28 rule): three of the seven posts published
+09-18 to 09-24 landed on surfaces another URL already owns.** Added to `src/lib/consolidated.mjs`;
+canonicals point at the winner, all three left the sitemap (104 URLs), and all three stay live.
+- `/blog/what-removes-hard-water-stains/` -> `/blog/how-to-remove-hard-water-spots-from-windows/`
+  (fifth URL on the hard-water removal surface; section-for-section duplicate).
+- `/blog/window-cleaning-simi-valley/` -> `/simi-valley/`. The join for 2026-08-26..09-22 puts every Simi
+  head query on the landing page at positions 5 to 7 (*window cleaning simi valley* 22 @ 6.7,
+  *window washing simi valley* 17 @ 5.2). Same case as Thousand Oaks on 09-09.
+- `/blog/santa-barbara-windows/` -> `/santa-barbara/`. The SB cluster sits on `/` at 8 to 10; a fourth
+  SB blog URL can only split it.
+
+**Audit fixes on all seven** (detail in the site map, FOURTEENTH AUDIT): 25 `cdnimg.co` hotlinks
+localized; homepage CTA links pointed at `/contact/` (Simi and SB CTAs at their landing pages); a
+prompt leak removed; the twelfth `$150 to $400` general-band misuse corrected to $150 to $475; a fake
+self-citation (16 gpg attributed to our homepage) removed; 17 wrong-country, competitor, vendor or
+blocklisted links removed or replaced; European fall-protection figures replaced with OSHA 1910.28,
+1910.140 and 1910.27.
+
+**internal_links (secondary):** the four live arrivals had zero inbound links; each now has 2 or 3
+(from residential prices, interior-and-exterior, the older solar-frequency post, the solar service
+FAQ, commercial company, storefront windows and commercial prices). A naked Angi claim on the
+residential prices post was replaced in the same edit.
+
 ## 2026-09-21 - No-action run: screens-page impression spike diagnosed as scraper traffic
 
 **Primary action: none.** No site files changed. Most of the brief's +1,040% impressions (32,613 of

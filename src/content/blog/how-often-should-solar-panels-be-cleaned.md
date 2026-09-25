@@ -11,8 +11,6 @@ That's usually when the same question pops up: **Will the next rain clean this o
 
 The honest answer is that there isn't one fixed rule for every home. A big operations and maintenance guide for photovoltaic systems says the right cleaning interval is **site-specific** and should be based on local rainfall, dust, and a cost-benefit analysis instead of a fixed national schedule, with annual soiling losses reported in the **4.3% to 7.5%** range and many studies clustering around about **6% per year** in that guide's review of the field ([ScienceDirect guide summary](https://www.sciencedirect.com/science/article/abs/pii/S0306261921000039)). That lines up with what local homeowners see in real life. A panel in Goleta near marine air doesn't collect grime the same way a panel in Thousand Oaks near dry winds does.
 
-If you've looked at maintenance advice from other regions, you've probably noticed the same pattern. Even resources focused on places far from California, like this practical guide on [Brisbane solar panel maintenance 2026](https://advoltageelectrical.com.au/blog/solar-panel-maintenance-near-me/), point back to the same basic truth: climate and local grime matter more than a generic calendar reminder.
-
 ## Table of Contents
 - [Introduction Why Cleaning Frequency Matters for Your Home](#introduction-why-cleaning-frequency-matters-for-your-home)
   - [Two Ventura area homes can need different schedules](#two-ventura-area-homes-can-need-different-schedules)
@@ -55,8 +53,6 @@ Those differences change how much self-cleaning your system gets from normal wea
 
 That is why a fixed six month rule only gets you part of the way. It is easy to remember, but it overlooks the main variable. A panel in Montecito that sees coastal moisture and salt film may need a different rhythm than one in inland Ventura County that mostly deals with dry dust.
 
-Even guides from other climates land on the same idea. This practical resource on [Brisbane solar panel maintenance 2026](https://advoltageelectrical.com.au/blog/solar-panel-maintenance-near-me/) also points back to local conditions, not a one-size-fits-all schedule.
-
 For California homeowners, the better approach is simple and reassuring. Start with your location, notice what tends to land on the glass, and build a cleaning plan around the amount of help rain provides. In Ventura and Santa Barbara, that usually leads to a more accurate schedule than any blanket rule.
 
 <a id="how-soiling-builds-up-and-blocks-sunlight"></a>
@@ -64,7 +60,7 @@ For California homeowners, the better approach is simple and reassuring. Start w
 
 Solar panels don't have to look filthy to lose performance. Often the problem is a thin layer of residue that spreads evenly across the glass and cuts the amount of sunlight getting through. Driving into the sun with a dusty windshield lets you see through it, but not as clearly.
 
-![An infographic showing how different types of soiling buildup block sunlight from reaching solar panels.](https://cdnimg.co/8387fe5a-1497-428d-a3af-57b68fc0bac4/72d5023f-f688-463c-bd0c-3c0a68b58d2d/how-often-should-solar-panels-be-cleaned-solar-soiling.jpg)
+![An infographic showing how different types of soiling buildup block sunlight from reaching solar panels.](/img/blog/how-often-should-solar-panels-be-cleaned-solar-soiling.jpg)
 
 <a id="what-actually-lands-on-the-glass"></a>
 ### What actually lands on the glass
@@ -109,7 +105,7 @@ A dirty panel does not have to look terrible to lose production. Solar glass wor
 
 Research reviewed in a major U.S. solar best-practices guide reported annual soiling losses in the **4.3% to 7.5%** range, with many studies clustering around about **6% per year** (ScienceDirect best-practices review).
 
-![A chart showing the decrease in solar panel energy output over 12 months due to dirt buildup.](https://cdnimg.co/8387fe5a-1497-428d-a3af-57b68fc0bac4/5a5b1cd4-90d8-4649-9132-33560a1d62ce/how-often-should-solar-panels-be-cleaned-solar-efficiency.jpg)
+![A chart showing the decrease in solar panel energy output over 12 months due to dirt buildup.](/img/blog/how-often-should-solar-panels-be-cleaned-solar-efficiency.jpg)
 
 For a California homeowner, the practical takeaway is simple. The question is not whether dirt matters. The question is how much natural washing your roof gets before that thin layer turns into a steady drag on output.
 
@@ -184,7 +180,7 @@ If your site gets real washdown, you can usually stretch the interval. If it kee
 
 You look up after a winter storm and your panels seem clean from the driveway. Then spring pollen hits, summer brings long dry weeks, and the glass starts to lose that clear shine again. Around Ventura and Santa Barbara, that pattern is common because the schedule depends less on the calendar and more on how much real self-cleaning your roof gets from weather.
 
-![A seasonal infographic explaining when to clean solar panels based on weather conditions and time of year.](https://cdnimg.co/8387fe5a-1497-428d-a3af-57b68fc0bac4/11c7f53a-928f-45f4-906a-6be1844e31b0/how-often-should-solar-panels-be-cleaned-seasonal-maintenance.jpg)
+![A seasonal infographic explaining when to clean solar panels based on weather conditions and time of year.](/img/blog/how-often-should-solar-panels-be-cleaned-seasonal-maintenance.jpg)
 
 A simple way to judge your timing is to treat rain like a garden hose without a brush. A solid rinse can remove loose dust. It usually does less against salty film, sticky pollen, ash, bird droppings, or mineral spots. That is why two homes a few miles apart can need very different cleaning schedules even if they get the same forecast.
 
@@ -230,7 +226,7 @@ A lot of homeowners expect dirty panels to look obviously filthy. Often, they do
 
 That is why the best trigger is not a fixed date. It is the combination of what your panels look like and what your home has been exposed to. Near the Ventura or Santa Barbara coast, sticky salt film can hold onto dust. Inland, pollen, ash, and windblown grit are more common troublemakers. The question is simple: did your last stretch of weather wash the panels, or just leave a new layer behind?
 
-![A checklist infographic illustrating five common signs indicating that residential solar panels need professional cleaning services.](https://cdnimg.co/8387fe5a-1497-428d-a3af-57b68fc0bac4/f9d3b228-6375-49bc-af5f-fcd871c0913e/how-often-should-solar-panels-be-cleaned-solar-maintenance.jpg)
+![A checklist infographic illustrating five common signs indicating that residential solar panels need professional cleaning services.](/img/blog/how-often-should-solar-panels-be-cleaned-solar-maintenance.jpg)
 
 <a id="what-to-look-for-from-the-ground"></a>
 ### What to look for from the ground
@@ -297,4 +293,4 @@ A good plan should feel calm and manageable. Your panels don't need constant att
 
 ---
 
-If your panels are starting to look hazy after wind, salt air, pollen, or ash, Aloha Window Bros offers professional solar panel cleaning for Ventura County and Santa Barbara County homeowners using purified water and safe exterior methods. If you want help choosing the right interval for your location, or you'd like a seasonal assessment for your roof, visit [Aloha Window Bros](https://alohawindowbros.com).
+If your panels are starting to look hazy after wind, salt air, pollen, or ash, Aloha Window Bros offers professional solar panel cleaning for Ventura County and Santa Barbara County homeowners using purified water and safe exterior methods. If you want help choosing the right interval for your location, or you'd like a seasonal assessment for your roof, visit [Aloha Window Bros](/contact/).

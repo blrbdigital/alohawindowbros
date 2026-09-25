@@ -109,7 +109,7 @@ A **hybrid crew** often gets the best balance. The outside receives purified-wat
 <a id="coastal-versus-inland-cleaning-frequency"></a>
 ## Coastal Versus Inland Cleaning Frequency
 
-Exterior cleaning should follow the contamination cycle around your property, not an arbitrary calendar. A beachside home faces salt aerosol and windborne moisture, while an inland home may deal more with dry dust, pollen, irrigation minerals, and seasonal weather changes. Both environments can make glass look dull, but they leave different residues and call for different timing.
+Exterior cleaning should follow the contamination cycle around your property, not an arbitrary calendar. A beachside home faces salt aerosol and windborne moisture, while an inland home may deal more with dry dust, pollen, irrigation minerals, and seasonal weather changes. Both environments can make glass look dull, but they leave different residues and call for different timing. Our guide on [how often windows should be cleaned](/blog/how-often-should-windows-be-cleaned/) gives intervals by exposure type and a seasonal calendar for Ventura and Santa Barbara counties.
 
 The industry treats exterior cleaning as a distinct service line, which fits what property owners see in practice. Exterior glass receives the first impact from rain, salt spray, airborne dust, and mineral deposits, and it is the side that dictates how often the whole house needs attention.
 

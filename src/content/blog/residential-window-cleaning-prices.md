@@ -174,7 +174,7 @@ Purified water systems help technicians rinse glass without introducing addition
 <a id="frequency-changes-annual-value"></a>
 ### Frequency changes annual value
 
-The cheapest single visit isn't always the cheapest maintenance strategy. Homes exposed to **salt aerosol, sprinkler mineral buildup, or heavy dust** may need more frequent cleaning and more intensive restoration when neglected. Angi's regional pricing discussion notes that periodic service plans or bundled maintenance can cost less overall than sporadic deep cleans, even when the recurring visit appears similar in price.
+The cheapest single visit isn't always the cheapest maintenance strategy. Homes exposed to **salt aerosol, sprinkler mineral buildup, or heavy dust** may need more frequent cleaning and more intensive restoration when neglected. A recurring plan usually costs less over a year than sporadic deep cleans, because each visit removes a lighter load. Our guide on [how often windows should be cleaned](/blog/how-often-should-windows-be-cleaned/) sets the interval by exposure.
 
 That logic is practical. Regular cleaning prevents residue from becoming a thick, bonded layer, keeps screens and tracks manageable, and reduces the chance that the crew must spend most of the appointment correcting buildup instead of performing routine maintenance. For a deeper look at regional conditions, [California window-cleaning guidance](https://alohawindowbros.com/blog/ca-window-cleaning/) offers context for coastal and inland homes.
 

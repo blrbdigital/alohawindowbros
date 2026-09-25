@@ -33,7 +33,7 @@ Depends on number of panels and roof accessibility. Most residential jobs are qu
 </details>
 <details class="faq-item">
 <summary>How often should solar panels be cleaned?</summary>
-<p>Once or twice a year for most homes. More often in dusty or high-pollen areas.</p>
+<p>Once or twice a year for most homes. More often in dusty or high-pollen areas. Our guide on <a href="/blog/how-often-should-solar-panels-be-cleaned/">how often solar panels should be cleaned</a> breaks the interval down by coastal, inland, and foothill exposure.</p>
 </details>
 <details class="faq-item">
 <summary>Do you use chemicals?</summary>

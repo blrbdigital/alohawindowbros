@@ -30,7 +30,7 @@ Choosing a **commercial window cleaning company** is a hiring decision with prop
 <a id="what-a-commercial-window-cleaning-company-actually-does"></a>
 ## What a Commercial Window Cleaning Company Actually Does
 
-A commercial crew does more than spray glass and run a squeegee across the most visible panes. On a storefront, the work may include interior and exterior glass, entry doors, screens, frames, tracks, and sills. At an office park, it may also involve skylights, higher panes, restricted work zones, tenant coordination, and solar panels.
+A commercial crew does more than spray glass and run a squeegee across the most visible panes. On a storefront, the work may include interior and exterior glass, entry doors, screens, frames, tracks, and sills (our overview of [what commercial window cleaning includes](/blog/what-is-commercial-window-cleaning/) walks through the full scope, and the [storefront glass doors guide](/blog/commercial-storefront-glass-doors/) covers door glass and hardware care). At an office park, it may also involve skylights, higher panes, restricted work zones, tenant coordination, and solar panels.
 
 That distinction matters because windows often look dirty after a partial job. Exterior mineral spotting can remain after the inside is cleaned, while fingerprints and haze can remain indoors after an exterior-only visit. A complete proposal identifies both sides of the glass and states what happens to the surrounding components.
 

@@ -4,6 +4,81 @@
 
 ---
 
+### 2026-09-25
+
+**What we did:**
+- **technical (primary): consolidated three of the seven posts published 09-18 to 09-24 onto the pages
+  that already own their surfaces** (08-28 rule): `what-removes-hard-water-stains` -> the hard-water
+  winner, `window-cleaning-simi-valley` -> `/simi-valley/`, `santa-barbara-windows` -> `/santa-barbara/`.
+  Verified in `dist/`: canonicals point at the winners, zero self-URL leaks, all three out of the
+  sitemap (104 URLs), pages stay live.
+- **Fourteenth publisher audit, all seven arrivals** (the 09-21 run audited none): homepage-CTA defect x7,
+  25 `cdnimg.co` hotlinks localized, 17 bad outbound links removed (Australian, British, a Vancouver
+  realtor, spam SaaS, a SoCal house-washing competitor, two blocklisted domains back again), a prompt
+  leak, the twelfth `$150 to $400` general-band misuse, a fabricated self-citation, and European safety
+  figures on a US page. Detail in the site map, FOURTEENTH AUDIT.
+- **internal_links (secondary):** the four live arrivals went from 0 inbound links to 2 or 3 each.
+- **No title_meta, no new content, no GBP change, no edit to any page under review.**
+
+**Why we did it (brief numbers + the `query x page` join, 2026-08-26..2026-09-22):**
+- **Simi Valley is the 09-09 Thousand Oaks case.** `/simi-valley/` holds every Simi head query at 5 to 7:
+  *window cleaning simi valley* 22 @ 6.7, *window washing simi valley* 17 @ 5.2, *window cleaning company
+  simi valley* 10 @ 5.1, *window cleaning service simi valley* 6 @ 5.5, plus about 15 smaller rows. The older
+  Simi blog guide already takes a few (*window cleaning simi valley* 5 @ 7.6). An exact-match slug post
+  would be a third own-URL on a city money surface; if Google swapped it in for the landing page we would
+  lose LocalBusiness schema and conversion structure. The client rule is that city content consolidates
+  signal to the city landing page.
+- **Santa Barbara:** *window cleaning santa barbara* 121 @ 8.3, *santa barbara window cleaning* 67 @ 9.6,
+  *window washing santa barbara* 33 @ 8.4, all on `/`, against `/santa-barbara/` at 35 to 42. That is a
+  homepage-vs-landing-page problem already documented in this log. A fourth SB blog URL cannot fix it and
+  could only split it more.
+- **Hard water:** the whole removal cluster is down to **22 impressions** this window, and the 08-26
+  consolidation is under review until late October. A fifth URL whose headings copy the winner's one for
+  one would confound that read.
+- **Left live and NOT consolidated (the 09-11 lesson: different headings mean measure first):**
+  `what-is-commercial-window-cleaning` (definitional scope vs the company post's vendor-selection intent),
+  `commercial-storefront-glass-doors` (doors, not windows), `how-often-should-windows-be-cleaned` (no
+  existing frequency page for windows), and `how-often-should-solar-panels-be-cleaned` (same intent as the
+  608-word 2026-03 solar-frequency post, but neither URL takes any "how often" impressions, so there is no
+  winner to point at yet; cross-linked, recheck late October).
+- **Scoreboard.** `technical` is 3-2-10, so I am not claiming ranking gains from this. Consolidation on
+  arrival is protective: it keeps new URLs off surfaces with measured winners and open reviews. `refresh`
+  (3-0-1) and `internal_links` (5-0-0) targets on the board are still mid-review (screens 10-28, streak
+  10-23, skylight 10-30), same as 09-21. `gbp` is 0-0-13 and stays logged-only. The screens-post
+  impressions (54,468 @ 9.2, 0 clicks, plus the `+`/`%` operator rows) are still the scraper pattern from
+  09-21. Nothing to build or retitle for them.
+- **Why NOT new_content:** the matrix is complete, and the publisher stream added seven posts in seven days.
+
+**Expected impact:**
+- The three consolidated URLs stay at or near zero impressions and drop out of the query set for their
+  winners' queries; `/simi-valley/` keeps its Simi head queries at position 7 or better with no
+  own-URL splitting on them.
+- The four live arrivals get crawled via their new inbound links. No ranking prediction on them: none has
+  measured demand yet.
+
+**Metrics at time of action (join 2026-08-26..2026-09-22 unless stated):**
+- Sitewide (brief): 88 clicks / 69,046 impr; non-brand **23 clicks** / 68,402 impr, avg pos 9.2.
+- `/simi-valley/` 123 non-brand impr / 0 clicks; *window cleaning simi valley* 22 @ 6.7, *window washing simi valley* 17 @ 5.2.
+- `/santa-barbara/` 46 non-brand impr; SB cluster on `/`: 121 @ 8.3, 67 @ 9.6, 33 @ 8.4.
+- Hard-water cluster: 22 impr / 0 clicks sitewide.
+- Sitemap: 104 URLs after this change.
+
+**Logged, NOT actioned (for the GBP workstream and future runs):**
+1. **gbp, pack queries this window:** *window cleaning near me* 127 @ 4.4, *gutter cleaning* 56 @ 3.8,
+   *window washing thousand oaks* 51 @ 3.1, *window cleaning westlake village* 32 @ 2.3. Geo-grid still
+   **ABSENT at Newbury Park, Agoura Hills, Oak Park and Camarillo**. Weakest incumbents: Golden Window
+   Washing (2 reviews, Newbury Park #1), Guerrero Window Cleaning (13, Camarillo #2), Assets Window
+   Cleaning (20, Agoura Hills and Oak Park #1), against our 232.
+2. About 20 older posts still hotlink `cdnimg.co`; localize a few per run.
+3. Still open: the four lead-paragraph price contradictions (Westlake, Simi Valley, Ventura, Santa Barbara
+   washing) and the two unattributed "expert" blockquotes on `solar-panel-cleaning-camarillo-...`.
+4. Publisher-side fix (outside this repo): the stream's CTA, hotlinks, outbound-link blocklist and
+   zero-inbound-link defects have now appeared in every commit for six weeks.
+
+**Review after 42 days (2026-11-06).**
+
+---
+
 ### 2026-09-21
 
 **What we did:**

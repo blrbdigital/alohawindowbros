@@ -75,7 +75,7 @@ A better approach is to match your schedule to where you live, what surrounds yo
 
 A good starting rule for a typical home is simple: clean the windows at least twice a year. National home-maintenance guidance often points to a spring and fall rhythm, and one independent guide gives the same baseline while noting that some residential settings need shorter intervals because grime builds faster ([Invisible Glass guidance on residential and commercial intervals](https://invisibleglass.com/blogs/news/how-often-should-you-clean-your-windows-a-guide-for-homes-and-buildings)).
 
-![An infographic showing recommended window cleaning frequencies for different home environments and locations.](https://cdnimg.co/8387fe5a-1497-428d-a3af-57b68fc0bac4/3a19db50-2a68-480f-b556-0e930cdb26e2/how-often-should-windows-be-cleaned-cleaning-frequency.jpg)
+![An infographic showing recommended window cleaning frequencies for different home environments and locations.](/img/blog/how-often-should-windows-be-cleaned-cleaning-frequency.jpg)
 
 That twice-a-year rule works like a basic oil-change sticker on a car. It gives you a safe default. It does not account for how you drive, or in this case, where your home sits and what hits the glass between cleanings.
 
@@ -132,14 +132,14 @@ Local window schedules make more sense when you stop thinking in months first an
 | Higher-load residential exposure | **3 to 4 times per year** | Pollen, traffic, construction dust, or tree debris shorten the gap between cleanings |
 | Storefront or highly visible commercial glass | **Monthly** or **bi-weekly** in the most exposed public-facing settings | Appearance standards are stricter and traffic-related soil shows up faster |
 
-The shortest interval in that table surprises many people. Independent guidance aimed at coastal homes says exterior window cleaning may need to tighten to **every 2 to 4 weeks** near the coast because salt spray and sea mist accelerate spotting and corrosion, while inland and suburban homes can often wait **6 to 8 weeks or longer** ([Pure Seal coastal and inland schedule guidance](https://puresealservices.co.uk/how-often-should-windows-be-cleaned-full-uk-guide-with-costs-and-schedules/)).
+The shortest interval in that table surprises many people. For the most exposed oceanfront glass, one coastal cleaning guide puts the exterior rhythm at **every 4 to 8 weeks** during onshore-wind season because salt aerosol keeps redepositing ([coastal window cleaning guidance](https://windowwashingguide.com/articles/salt-spray-and-coastal-window-cleaning)), while sheltered inland homes often hold up for months between visits.
 
 <a id="coastal-homes-deal-with-invisible-buildup-first"></a>
 ### Coastal homes deal with invisible buildup first
 
 Salt doesn't always announce itself with thick grime. Sometimes it starts as a faint veil. Morning light makes the glass look cloudy even when the pane seemed fine the day before. Ocean-facing or breeze-exposed windows usually show it first.
 
-For commercial and high-visibility glass, independent guidance commonly points to **quarterly cleaning as a benchmark**, with **monthly or even bi-weekly service** for storefronts, lobbies, restaurants, and coastal properties because deposition rates and appearance demands are higher ([Withers commercial interval guidance](https://witherssolutions.com.au/2026/03/24/how-often-commercial-windows-should-be-cleaned/)).
+For commercial and high-visibility glass, independent guidance commonly points to **quarterly cleaning as a benchmark**, with **monthly or even bi-weekly service** for storefronts, lobbies, restaurants, and coastal properties because deposition rates and appearance demands are higher.
 
 <a id="inland-homes-have-a-different-trigger-pattern"></a>
 ### Inland homes have a different trigger pattern
@@ -164,7 +164,7 @@ That's why a local schedule works better than a generic national one. A condo ne
 
 You open the blinds on a bright Ventura County morning, and the room still feels a little dim. The sun is there. The glass is what changed.
 
-![An infographic titled Signs Your Windows Are Overdue for a Cleaning showing six common signs needing attention.](https://cdnimg.co/8387fe5a-1497-428d-a3af-57b68fc0bac4/1afb5aba-a2da-482c-ae19-76fff177ee01/how-often-should-windows-be-cleaned-window-signs.jpg)
+![An infographic titled Signs Your Windows Are Overdue for a Cleaning showing six common signs needing attention.](/img/blog/how-often-should-windows-be-cleaned-window-signs.jpg)
 
 That dull look usually shows up before windows look obviously dirty. Glass rarely jumps from clear to grimy overnight. It collects a thin layer at a time, much like a windshield that looks fine until low-angle sun hits it and suddenly every speck shows up.
 
@@ -215,7 +215,7 @@ A simple rule helps. If you can see the buildup from a few steps back, or if the
 
 A local schedule works best when it follows weather patterns instead of a generic national reminder. In this area, the useful question isn't just “spring or fall?” It's **what season brings the kind of buildup your home gets**.
 
-![A seasonal window cleaning calendar for Ventura and Santa Barbara counties showcasing cleaning tips for each season.](https://cdnimg.co/8387fe5a-1497-428d-a3af-57b68fc0bac4/8edc4c84-16d5-49c5-9612-2fc6f273e990/how-often-should-windows-be-cleaned-cleaning-calendar.jpg)
+![A seasonal window cleaning calendar for Ventura and Santa Barbara counties showcasing cleaning tips for each season.](/img/blog/how-often-should-windows-be-cleaned-cleaning-calendar.jpg)
 
 <a id="late-winter-and-spring"></a>
 ### Late winter and spring
@@ -253,14 +253,14 @@ A practical local rhythm looks like this:
 | Summer into dry wind periods | Dust, grit, screen loading | Exterior and screen cleaning on shorter intervals |
 | Fall before wetter weather | Dust streaking, leaf debris, seasonal reset | Deep clean before winter |
 
-For commercial spaces, the rhythm compresses. Market and industry coverage point toward more recurring, bundled care and more scheduling tied to weather and environmental conditions rather than only fixed annual habits ([British cleaning market report and trend coverage](https://www.bgateway.com/media/q30oe5uq/market-report-window-cleaning-february-2026.pdf)). That same logic works for homeowners too. If a storm, wind event, or heavy pollen period just rolled through, the “right” time may be sooner than the date on your calendar.
+For commercial spaces, the rhythm compresses, and scheduling follows weather and exposure rather than a fixed annual habit. That same logic works for homeowners too. If a storm, wind event, or heavy pollen period just rolled through, the “right” time may be sooner than the date on your calendar.
 
 <a id="simple-maintenance-tips-and-what-to-expect-from-professional-service"></a>
 ## Simple Maintenance Tips and What to Expect From Professional Service
 
 Between professional visits, small habits make a real difference. Not because they replace a full cleaning, but because they slow the kind of buildup that turns easy maintenance into stubborn residue.
 
-![A hand wiping a windowsill with a cloth next to a spray bottle and cleaning bucket.](https://cdnimg.co/8387fe5a-1497-428d-a3af-57b68fc0bac4/4e519e86-3323-4f79-be5d-1ce22e525938/how-often-should-windows-be-cleaned-window-cleaning.jpg)
+![A hand wiping a windowsill with a cloth next to a spray bottle and cleaning bucket.](/img/blog/how-often-should-windows-be-cleaned-window-cleaning.jpg)
 
 <a id="smart-upkeep-between-visits"></a>
 ### Smart upkeep between visits
@@ -279,14 +279,14 @@ For high panes, skylights, or hard-to-reach glass, this is usually where DIY sta
 
 A proper service shouldn't focus on the pane alone. The whole window system gets dirty together.
 
-Aloha Window Bros, for example, provides a **four-in-one visit** that covers windows, screens, frames, and sills, along with free on-site or virtual estimates, fully insured service, and a walk-through before the crew leaves. For budgeting, the company lists **typical residential ranges of $150 to $400**, with **Santa Barbara full cleans commonly $200 to $475**, based on property conditions and scope.
+Aloha Window Bros, for example, provides a **four-in-one visit** that covers windows, screens, frames, and sills, along with free on-site or virtual estimates, fully insured service, and a walk-through before the crew leaves. For budgeting, the company publishes a residential band of **$150 to $475** across its service area: **$150 to $400** in Thousand Oaks, **$175 to $425** across most of the Conejo Valley and Ventura, and **$200 to $475** in Ojai and Santa Barbara ([full price breakdown](/blog/how-much-does-window-cleaning-cost-in-ventura-county/)).
 
 That wider approach matters because clean glass next to dusty screens or gritty tracks still looks unfinished.
 
 <a id="when-clean-windows-matter-for-resale"></a>
 ### When clean windows matter for resale
 
-Homeowners prepping a property for market often underestimate how much small maintenance details affect first impressions. The same mindset shows up in guides for [selling a Vancouver home](https://www.jackylevi.com/preparing-your-home-for-sale), where presentation choices support how buyers experience the space room by room. Clean windows don't just photograph better. They also change how bright and cared-for a home feels in person.
+Homeowners prepping a property for market often underestimate how much small maintenance details affect first impressions. Clean windows don't just photograph better. They also change how bright and cared-for a home feels in person.
 
 If you're maintaining your home for everyday living, the same logic still applies. Better light, cleaner airflow through washed screens, and less visible residue around the frames all make the house feel more settled.
 
@@ -305,10 +305,8 @@ Start simple. If your home is protected and lightly exposed, a **twice-yearly** 
 - **Adjust for events:** Wind, nearby construction, and the first moisture on dusty glass can all move a cleaning forward.
 - **Adjust for visibility:** Front-facing windows and business glass usually need more frequent care than side or rear panes.
 
-If you're comparing upkeep priorities before a move or remodel, it also helps to think about features people often regret neglecting after the fact. This piece from [Virtual Tour Easy on buyer regrets](https://virtualtoureasy.com/articles/premium-home-features-buyers-reconsider-after-moving-in/) is a useful reminder that beautiful features only stay valuable when people maintain them.
-
 For homeowners who want a practical next step, compare your expected cadence with local service costs using this guide to [residential window cleaning prices](https://alohawindowbros.com/blog/residential-window-cleaning-prices/). That makes it easier to decide whether your home belongs on a seasonal, quarterly, or event-triggered plan.
 
 ---
 
-If your windows deal with coastal salt, dry wind, pollen, or hard-water spotting, Aloha Window Bros can help you match the cleaning schedule to the way your property gets dirty. They serve Ventura County and Santa Barbara County with window, screen, frame, and sill cleaning, plus free quotes and insured service. To see local service details or request an estimate, visit [Aloha Window Bros](https://alohawindowbros.com).
+If your windows deal with coastal salt, dry wind, pollen, or hard-water spotting, Aloha Window Bros can help you match the cleaning schedule to the way your property gets dirty. They serve Ventura County and Santa Barbara County with window, screen, frame, and sill cleaning, plus free quotes and insured service. To see local service details or request an estimate, visit [Aloha Window Bros](/contact/).
