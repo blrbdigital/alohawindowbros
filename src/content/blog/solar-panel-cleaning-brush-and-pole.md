@@ -159,7 +159,7 @@ Use water to soften bonded material before brushing. Make deliberate passes rath
 
 Lower-contact and automated approaches are gaining attention, including electrostatic repulsion cleaning, solar panel cleaning drones, and portable semi-automatic robots. These methods don't automatically suit every home, but they change the buying question from “How long should my pole be?” to “How much surface contact does this job require?”
 
-A brush-and-pole system may stop being the right tool when the array is large, access is awkward, the coating is especially sensitive, or repeated cleaning would expose the surface to unnecessary abrasion. In those situations, purified-water rinsing, a specialist service, or a suitable automated method may offer better control.
+A brush-and-pole system may stop being the right tool when the array is large, access is awkward, the coating is especially sensitive, or repeated cleaning would expose the surface to unnecessary abrasion. In those situations, purified-water rinsing, a specialist service, or a suitable automated method may offer better control. Our guide to choosing a [solar panel cleaning system](/blog/solar-panel-cleaning-system/) compares brush and hose, water-fed poles, robotic units and soft-wash side by side.
 
 > The cleanest-looking pass isn't always the safest pass. Remove the contamination, not the coating.
 

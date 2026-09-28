@@ -157,7 +157,7 @@ Every visit should include a quick system inspection. Cleaners should check seal
 
 In Camarillo and Ojai, irrigation overspray creates a repeatable spotting pattern. Calcium and other minerals remain after water dries, and repeated deposits can etch the surface. Correct the sprinkler or runoff source before the glass becomes permanently cloudy.
 
-Purified-water methods can reduce residue during routine service. A guide to [purified water window cleaning](https://alohawindowbros.com/blog/purified-water-window-cleaning/) explains why treated water can leave less mineral residue than ordinary tap water.
+Purified-water methods can reduce residue during routine service. A guide to [purified water window cleaning](https://alohawindowbros.com/blog/purified-water-window-cleaning/) explains why treated water can leave less mineral residue than ordinary tap water. For the hands-on side, our step-by-step guide on [how to clean storefront windows](/blog/how-to-clean-storefront-windows/) covers the toolkit, the top-down wash sequence, and safe ground-level work around customers.
 
 > **Scheduling rule:** Clean before you inspect, inspect before you replace.
 

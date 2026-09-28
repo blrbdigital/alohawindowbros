@@ -146,10 +146,11 @@ These may include:
 
 - Screen cleaning
 - Solar panel cleaning
+- Gutter cleaning
 - Roof cleaning
 - Pressure washing
 
-Combining multiple services during one visit often saves time and money for homeowners.
+Combining multiple services during one visit often saves time and money for homeowners. Aloha Window Bros handles [screen cleaning](/services/screen-cleaning/), [solar panel cleaning](/services/solar-panel-cleaning/) and [gutter cleaning](/services/gutter-cleaning/) alongside the windows, with gutters best booked before the first winter storms.
 
 ## Frequently Asked Questions
 

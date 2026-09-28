@@ -153,6 +153,20 @@
 //   two SB window guides and the SB companies post) cannot help it and could only
 //   split it further. Canonical goes to the city landing page, the client's designated
 //   conversion page, same direction as Thousand Oaks.
+//
+// 2026-09-28: ONE more on arrival (90-day join 2026-06-29..2026-09-25).
+//
+//   /blog/how-to-clean-second-story-windows/ -> /blog/window-cleaning-for-high-windows/.
+//   Passes the 09-11 HEADING test as a duplicate: five of its six H2s map one to one onto
+//   the older guide (why height changes the job, ground-based water-fed pole method,
+//   ladder as last resort, DIY vs hire, maintenance rhythm + FAQ). The winner already
+//   takes the second-story rows (`clean second story windows`, `cleaning second floor
+//   windows`, `how to wash second story windows`), and a 90-day probe for every height,
+//   second-story, ladder and pole wording totals 127 impressions sitewide, so a second
+//   URL could only split a small surface. REVERSAL
+//   CONDITION (the 09-11 streak-free precedent): if Google declines this canonical and
+//   the second-story URL ranks second-story queries better than the winner does, remove
+//   this entry and cross-link the two instead.
 export const CANONICAL_OVERRIDES = {
   'blog/how-to-remove-hard-water-stains-from-windows':
     'https://alohawindowbros.com/blog/how-to-remove-hard-water-spots-from-windows/',
@@ -176,6 +190,8 @@ export const CANONICAL_OVERRIDES = {
     'https://alohawindowbros.com/simi-valley/',
   'blog/santa-barbara-windows':
     'https://alohawindowbros.com/santa-barbara/',
+  'blog/how-to-clean-second-story-windows':
+    'https://alohawindowbros.com/blog/window-cleaning-for-high-windows/',
 };
 
 /** Absolute canonical for a built pathname, or null if the page is self-canonical. */

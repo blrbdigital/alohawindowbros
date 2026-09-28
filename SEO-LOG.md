@@ -4,6 +4,113 @@
 
 ---
 
+### 2026-09-28
+
+**What we did:**
+- **internal_links (primary): `/services/gutter-cleaning/` is now linked from all 10 city landing
+  pages and from three county-wide posts.** For eight weeks its only inbound links were the footer,
+  the homepage and the blog sidebar: no city page and no post linked it. The `<CityLanding>` services
+  grid gets a fourth card, "Gutter Cleaning", with the city name in its copy ("Troughs and downspouts
+  in Camarillo cleared before the rain season..."). The grid is 4-up on desktop, 2x2 at 1024px and
+  below, and one column on phones; I rendered it at 1440, 900 and 390 px with no overflow. Contextual
+  links were added to the pricing pillar (one sentence: gutters are quoted separately, free and on site,
+  and can be added to the same visit), `window-washing-ventura-county-...` and
+  `window-cleaning-ventura-county-...`. Those two posts' "other services" lists named roof cleaning
+  and pressure washing but left out gutters, a service the business actually sells.
+- **technical (secondary): consolidated `how-to-clean-second-story-windows` (09-26) on arrival**
+  onto `/blog/window-cleaning-for-high-windows/`. Verified in `dist/`: canonical and
+  `mainEntityOfPage` point at the winner, the winner is self-canonical, the loser is out of the
+  sitemap (106 URLs), and the page stays live.
+- **Fifteenth publisher audit, all three arrivals** (09-25 to 09-27): homepage-CTA defect x3, 12
+  `cdnimg.co` hotlinks localized, FAQ markup added (5 items each, schema parity 5 == 5), 17 bad outbound
+  links removed (two blocklisted domains back again), **five figures falsely attributed to real
+  authorities** (NREL, IEA PVPS, HSE), one infographic carrying invented figures dropped, and two
+  contradictions of our own hard-water and frequency guides fixed. Detail in the site map, FIFTEENTH AUDIT.
+- **internal_links (secondary): the two live arrivals went from 0 to 2 inbound links each.**
+- **No title_meta, no new content, no GBP change, no edit to any page under review.**
+
+**Why we did it (brief numbers + the `query x page` join, 2026-08-29..2026-09-25):**
+- **Gutter queries are the only commercial, local-intent surface on page 1 that has no open review.** The brief lists
+  `/services/gutter-cleaning/` in Top pages at **529 impr / 0 clicks / pos 10.4**. The join: **369
+  non-brand impressions**, and the page's gutter rows total **350 impr, 0 clicks, impression-weighted
+  position 9.6**. The head rows are buying queries at 6 to 8: *gutter cleaning ventura county* **47 @ 7.6**,
+  *gutter cleaning ventura* **45 @ 6.7**, *gutter cleaning* **31 @ 7.4**, *ventura gutter cleaning* 21 @ 7.9,
+  *gutter cleaning services* 18 @ 7.8, *gutter cleaning near me* 18 @ 10.1, *gutter maintenance ventura
+  county* 13 @ 6.1, *residential gutter cleaning* 11 @ 4.1. City-named gutter rows sit on the wrong URLs
+  or deep: *gutter cleaning camarillo* 34 @ 4.5 on `/`, 10 @ 17.4 on `/camarillo/`; *gutter cleaning
+  thousand oaks* 10 @ 12.0. The page reached this with **no contextual inbound links at all**, and the
+  city pages, our strongest local URLs, never mentioned the service.
+- **Scoreboard.** `internal_links` is **5-0-0**, the best record on the board, and this is the textbook
+  case for it: a page already on page 1 whose signal has never been consolidated. `gbp` is 0-0-13 and
+  stays logged-only. `technical` is 3-2-10, so the consolidation is protective, not a ranking claim.
+- **Why the second-story post was consolidated:** heading test (the 09-11 rule). Five of its six H2s map
+  one to one onto the older guide (why height changes the job, ground-based water-fed pole, ladder as last
+  resort, DIY vs hire, maintenance + FAQ). The winner already takes the second-story rows (*clean second
+  story windows*, *cleaning second floor windows*, *how to wash second story windows*), and a 90-day probe
+  for every height, second-story, ladder and pole wording totals **127 impressions sitewide**. Reversal
+  condition is written in `src/lib/consolidated.mjs`.
+- **Why the other two arrivals stay live:** `how-to-clean-storefront-windows` is a cleaning how-to, while
+  `commercial-storefront-windows` ranks for architectural/product wording (*storefront windows* 73 @ 18.0,
+  *retail storefront glass systems* 10 @ 6.7). Different intents, now cross-linked. `solar-panel-cleaning-system`
+  is a methods comparison (hose, water-fed pole, robot, soft-wash) and duplicates neither the roof how-to
+  nor the brush-and-pole equipment guide.
+- **Why NOT title_meta on the CTR outliers:** every row is one of two things.
+  (1) The screens post, now **68,078 non-brand impr / 0 clicks**, with the `+`/`%` operator rows. That is the
+  09-21 scraper pattern, still growing, and the page is under review until 10-28.
+  (2) The streak-free cluster (*how to clean windows streak free* 1,944 @ 5.2, *best no streak window cleaner*
+  795 @ 2.0, *best glass cleaner for windows 2025* 1,148 @ 9.1). Its pages are under review until 10-23,
+  every live SERP shows an AI Overview, and the site map classes it as impression-only.
+- **The "decaying" rows are artifacts again.** `/blog/best-streak-free-window-cleaner/` (51 from 1,455) is the
+  URL-variant split: the canonical form holds **5,440 non-brand impr / 18 clicks** in the join.
+  `/newbury/` is mostly brand (42 non-brand impressions).
+- **Next candidate, NOT actioned:** `/blog/how-to-clean-solar-panels-on-roof/` (09-13) took **367
+  non-brand impr** in its first full window, *how to clean solar panels on roof* **147 @ 10.2**, 0 clicks. It is
+  15 days old, and the live SERP is Reddit plus an AI Overview. I didn't want to stack a second push in
+  the same run. Re-check after its next window. The new solar-system post links to it.
+- **Why NOT new_content:** the matrix is complete, and the stream added three posts in three days.
+
+**Expected impact:**
+- **Primary:** by 2026-11-09, `/services/gutter-cleaning/` earns **at least 2 non-brand clicks in a
+  28-day window** (0 today), *gutter cleaning ventura county* moves from 7.6 to **6.5 or better**, and the
+  page's gutter-row impression-weighted position moves from 9.6 to **8.5 or better**. Gutter demand here
+  peaks with the Nov to Mar rain season, so impressions should rise too. Grade the position claims, not impressions.
+- Secondary: at least one city-named gutter query (*gutter cleaning camarillo* / *thousand oaks* /
+  *ventura*) starts ranking on a city landing page or the service page inside the top 10.
+- The consolidated second-story URL stays under 20 impressions; `window-cleaning-for-high-windows` keeps
+  the second-story rows. If Google declines the canonical and the second-story URL ranks those rows better,
+  reverse it.
+- No ranking prediction for the two live arrivals: neither has measured demand yet.
+
+**Metrics at time of action (brief window 2026-08-29..2026-09-25 unless stated):**
+- Sitewide (brief): 91 clicks / 80,628 impr; non-brand **25 clicks** / 79,965 impr, 892 queries, avg pos 9.4.
+- `/services/gutter-cleaning/`: brief 0 clicks / 529 impr / pos 10.4; join 369 non-brand impr; gutter rows
+  350 impr / 0 clicks / wpos 9.6; *gutter cleaning ventura county* 47 @ 7.6, *gutter cleaning ventura* 45 @ 6.7,
+  *gutter cleaning* 31 @ 7.4 (plus 45 @ 1.0 on `/`).
+- Screens post 68,078 non-brand impr / 0 clicks. Canonical best-streak page 5,440 / 18 clicks.
+- Sitemap: 106 URLs after this change.
+
+**Logged, NOT actioned (for the GBP workstream and future runs):**
+1. **gbp, pack queries this window (brief):** *window cleaning near me* 126 @ 4.5, *gutter cleaning* 76 @ 3.6,
+   *window washing thousand oaks* 52 @ 2.9, *screen cleaning service* 44 @ 4.0, *window cleaning westlake
+   village* 33 @ 2.3. Geo-grid still **ABSENT at Newbury Park, Agoura Hills, Oak Park and Camarillo**.
+   Weakest incumbents: Golden Window Washing (2 reviews, Newbury Park #1), Guerrero Window Cleaning (13,
+   Camarillo #2), Assets Window Cleaning (20, Agoura Hills #1), against our 234. The gutter page is now
+   linked from every city page, so the GBP's "Gutter cleaning service" category has a matching landing page.
+2. **Hero image with sparkle glyphs:** `/img/blog/how-to-clean-storefront-windows.jpg` (three star glyphs).
+   Heroes are auto-injected, so it needs replacing at the source.
+3. `/services/solar-panel-cleaning/` carries an unsourced "15% to 25%" loss figure and a "once or twice a
+   year" interval that conflicts with the frequency guide.
+4. Still open: the four lead-paragraph price contradictions (Westlake, Simi Valley, Ventura, Santa Barbara
+   washing), the two unattributed "expert" blockquotes on `solar-panel-cleaning-camarillo-...`, ~20 older
+   posts hotlinking `cdnimg.co`, and real gutter price bands from the business (still blocking
+   *gutter cleaning prices <city>*).
+5. Publisher-side fix (outside this repo): the CTA, hotlink, blocklist, no-FAQ and orphan defects have now
+   appeared in every commit for seven weeks, and this batch added fabricated attributions to real .gov/IEA pages.
+
+**Review after 42 days (2026-11-09).**
+
+---
+
 ### 2026-09-25
 
 **What we did:**

@@ -65,7 +65,7 @@ Price comparisons in this trade break down because two companies quoting "window
 3. **Screens**, washed rather than brushed off, because a dirty screen makes clean glass look dirty within days.
 4. **Frames and sills**, wiped down so debris does not wash back onto the glass in the first rain.
 
-That last point is where most low quotes hide. A $6 per window price that covers exterior glass only is not cheaper than a $10 per window price that covers all four, it is a different product. Our [screen cleaning guide](/blog/screen-cleaning-ventura-county-why-clean-screens-matter/) covers why screens in particular are the piece homeowners most often discover was excluded.
+That last point is where most low quotes hide. A $6 per window price that covers exterior glass only is not cheaper than a $10 per window price that covers all four, it is a different product. Our [screen cleaning guide](/blog/screen-cleaning-ventura-county-why-clean-screens-matter/) covers why screens in particular are the piece homeowners most often discover was excluded. Gutters are not part of the four-in-one clean: [gutter cleaning](/services/gutter-cleaning/) is quoted separately, free and on site, and can be added to the same visit.
 
 ## Annual Cost Beats Job Cost
 

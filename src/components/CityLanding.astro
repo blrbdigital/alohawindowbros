@@ -216,7 +216,7 @@ const jsonLd = {
   <!-- Services Offered -->
   <section class="city-services-section">
     <h2>Services We Offer in {city.shortName}</h2>
-    <p class="city-section-sub">Professional residential cleaning for every part of your window system, and your solar.</p>
+    <p class="city-section-sub">Professional residential cleaning for every part of your window system, plus your solar panels and gutters.</p>
     <div class="services-grid">
       <a href="/services/window-washing/" class="service-card">
         <img src="/img/window_washing_image.png" alt="Window Washing" />
@@ -229,6 +229,10 @@ const jsonLd = {
       <a href="/services/solar-panel-cleaning/" class="service-card">
         <img src="/img/solar_1.png" alt="Solar Panel Cleaning" />
         <div class="service-card-body"><h3>Solar Panel Cleaning</h3><p>Restore lost production from dust, ash, and bird droppings.</p></div>
+      </a>
+      <a href="/services/gutter-cleaning/" class="service-card">
+        <img src="/img/water_pole_2.jpg" alt="Gutter Cleaning" />
+        <div class="service-card-body"><h3>Gutter Cleaning</h3><p>Troughs and downspouts in {city.shortName} cleared before the rain season, so winter storms drain where they should.</p></div>
       </a>
     </div>
   </section>
@@ -471,6 +475,17 @@ const jsonLd = {
   .city-services-section {
     padding: 4rem 1.5rem;
     background: #fff;
+  }
+  /* Four service cards (gutter cleaning added 2026-09-28): 4-up, then 2x2, then one column */
+  .city-services-section .services-grid {
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 1200px;
+  }
+  @media (max-width: 1024px) {
+    .city-services-section .services-grid { grid-template-columns: repeat(2, 1fr); }
+  }
+  @media (max-width: 768px) {
+    .city-services-section .services-grid { grid-template-columns: 1fr; }
   }
   /* City-exclusive local brief */
   .city-brief-section {

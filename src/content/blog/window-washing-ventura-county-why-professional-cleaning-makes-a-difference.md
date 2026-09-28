@@ -122,9 +122,10 @@ Many window washing companies offer additional services.
 
 - Screen cleaning
 - Solar panel cleaning
+- Gutter cleaning
 - Roof cleaning
 
-Scheduling multiple services at the same time allows homeowners to keep the entire exterior of the home looking clean.
+Scheduling multiple services at the same time allows homeowners to keep the entire exterior of the home looking clean. Aloha Window Bros can add [gutter cleaning in Ventura County](/services/gutter-cleaning/) to a window visit, and that page explains why local gutters tend to clog in late winter rather than in the fall.
 
 ## Frequently Asked Questions
 

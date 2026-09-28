@@ -1,3 +1,31 @@
+## 2026-09-28 - Gutter service page linked from all 10 city pages, fifteenth publisher audit, one arrival consolidated
+
+**Primary action (internal_links): `/services/gutter-cleaning/` gets its first contextual inbound links.**
+The page has grown to ~350 impressions on commercial gutter queries at positions 6 to 10 (*gutter
+cleaning ventura county* 47 @ 7.6, *gutter cleaning ventura* 45 @ 6.7) with 0 clicks. Until today only the
+footer, the homepage and the blog sidebar linked to it.
+- `src/components/CityLanding.astro`: a fourth "Gutter Cleaning" card in the "Services We Offer in {city}"
+  grid (city name in the card copy), subtitle updated, and scoped CSS for a 4-up / 2x2 / 1-column grid.
+  Rendered at 1440, 900 and 390 px with no overflow. All 10 city pages now link the gutter page.
+- Contextual links from the pricing pillar (gutters are quoted separately, on site),
+  `window-washing-ventura-county-...` and `window-cleaning-ventura-county-...` ("other services" lists).
+
+**Secondary (technical): `how-to-clean-second-story-windows` (09-26) consolidated on arrival** onto
+`/blog/window-cleaning-for-high-windows/` in `src/lib/consolidated.mjs` (section-for-section duplicate).
+The canonical and mainEntityOfPage are verified in `dist/`, the post is out of the sitemap (106 URLs) and stays live.
+
+**Fifteenth publisher audit, all three arrivals** (detail in the site map, FIFTEENTH AUDIT): homepage CTAs
+fixed x3, 12 `cdnimg.co` hotlinks localized, 15 FAQ items added (schema parity 5 == 5 each), and 17
+outbound links removed (competitors, foreign sources, vendors, blocklisted domains, and a supplier
+page that did not say what it was cited for). Four figures falsely attributed to NREL/IEA
+and one to HSE were cut. One infographic with invented figures was dropped, and two contradictions of our
+own hard-water and frequency guides were fixed. Replacements are OSHA, CDC NIOSH, EPA, USGS, Unger,
+NGA/IWCA FB01-00, First Solar and REC.
+
+**internal_links (secondary):** the two live arrivals went from 0 to 2 inbound links each (storefront from
+`commercial-storefront-windows` and `what-is-commercial-window-cleaning`; solar system from
+`solar-panel-cleaning-brush-and-pole` and `professional-solar-panel-cleaning-vs-diy-cleaning`).
+
 ## 2026-09-25 - Three arrivals consolidated on arrival, fourteenth publisher audit, orphan links
 
 **Primary action (technical, consolidation under the 08-28 rule): three of the seven posts published
