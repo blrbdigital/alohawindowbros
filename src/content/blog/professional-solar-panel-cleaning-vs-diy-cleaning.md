@@ -18,7 +18,7 @@ Many homeowners attempt solar panel cleaning using basic household tools such as
 
 DIY cleaning can also be risky if the panels are installed on a steep roof. Climbing onto rooftops without proper safety equipment increases the risk of accidents.
 
-In addition, using incorrect tools or harsh chemicals during solar panel cleaning can damage the glass coating and reduce panel efficiency.
+In addition, using incorrect tools or harsh chemicals during solar panel cleaning can damage the glass coating and reduce panel efficiency. If you do clean your own array, our guide on [how to clean solar panels on a roof](/blog/how-to-clean-solar-panels-on-roof/) lists what the major panel manufacturers permit and prohibit.
 
 ## Professional Solar Panel Cleaning Services
 

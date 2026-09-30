@@ -137,7 +137,7 @@ A homeowner with new panels usually faces the same fork in the road. Grab a gard
 <a id="what-youre-really-paying-for"></a>
 ### What you're really paying for
 
-The cost in this choice is roof access and finish quality. Once someone is climbing on wet or steep surfaces, the margin for error gets thin fast. A homeowner with a hose can knock off loose dust, but that does not guarantee residue-free glass, and it does not protect warranties if the wrong material touches the panels.
+The cost in this choice is roof access and finish quality. Once someone is climbing on wet or steep surfaces, the margin for error gets thin fast. A homeowner with a hose can knock off loose dust, but that does not guarantee residue-free glass, and it does not protect warranties if the wrong material touches the panels. Panel makers disagree on details as basic as dish soap, which our guide to [how to clean solar panels on a roof](/blog/how-to-clean-solar-panels-on-roof/) lays out brand by brand.
 
 A professional crew brings more than a bucket and a squeegee. It brings the right pole length, purified water, and a process that keeps time on the roof down. That matters when the array sits above a driveway, a second story, or a steep pitch where the safer path is to avoid walking panels entirely.
 

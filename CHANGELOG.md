@@ -1,3 +1,40 @@
+## 2026-09-30 - Solar roof guide refreshed around panel-manufacturer manuals, 2 to 8 inbound links
+
+**Primary action (refresh + internal_links): `/blog/how-to-clean-solar-panels-on-roof/`.** It is the only solar
+page with real demand: 463 non-brand impressions, 0 clicks, head query *how to clean solar panels on roof*
+190 @ 10.5 (98% US by country probe, so this is not the scraper traffic hitting the screens post). Before this run
+only two pages linked to it.
+- **Information gain:** a new section, "What Panel Manufacturers Actually Allow", sets the cleaning sections of
+  the REC (UL) manual, the Qcells Q.PEAK DUO ML-G9 manual and First Solar's module cleaning guidelines side by
+  side (timing, water, soap, pressure, tools, alcohol, standing on panels) and lists where they disagree (dish
+  soap, microfiber, drying). The current top 3 (a Reddit thread, a Facebook group, a vendor blog) have none of this.
+- Direct answer now leads, followed by a key-takeaways box. The FAQ went from 5 to 8 and now answers the SERP's
+  People Also Ask questions (turn off before cleaning, what not to use, best thing to use, is Dawn soap safe,
+  without a ladder). FAQPage parity is 8 == 8 in `dist/`.
+- **Two unsourced claims removed.** "NREL: Southern California 5% or less, peaks over 15%" and "80% after dust
+  storms per IEA PVPS" appear in neither source. They were replaced with NREL's actual figure (up to 7% US, 50%
+  Middle East) and the UC San Diego study of 186 California sites (7.4% after 145 dry days, under 0.05% a day,
+  bird droppings and tilt under 5 degrees as the exceptions). An IEA sentence said "dust and snow" where the source
+  says soiling, and that was corrected.
+- **Leaked publisher text removed:** "That threshold appears in the site guidance for this article".
+- **Three infographics removed and deleted** (`solar-roof-fig1..3.jpg`). One recommended buying a pressure washer
+  for DIY and said to hire a pro only above 2 stories. One showed scrubbing with soapy water in circles, which
+  Qcells prohibits. One carried a sparkle glyph and a stepladder.
+- Every figure was fetched and checked on 2026-09-30: IEA PVPS exec summary, NREL/NLR, UC San Diego, REC, Qcells,
+  First Solar, Unger, OSHA portable ladder card.
+- **Six new contextual inbound links** (2 to 8): `/services/solar-panel-cleaning/`, `solar-panel-cleaning-brush-and-pole`,
+  `is-solar-panel-cleaning-worth-it`, `solar-panel-cleaning-cost`, `professional-solar-panel-cleaning-vs-diy-cleaning`,
+  `solar-panel-cleaning-service`.
+
+**Secondary (refresh, accuracy): `/services/solar-panel-cleaning/`.** The unsourced "dirty panels lose 15% to 25%"
+(stated twice) is now the UC San Diego finding. The "once or twice a year" FAQ contradicted the frequency guide
+and now uses its ranges. There is a new "Can I clean my solar panels myself?" FAQ that links the roof guide
+(parity 6 == 6).
+
+**Found in passing and fixed:** `is-solar-panel-cleaning-worth-it` cited "$200 to $400 ... according to the research
+brief's summary", which is leaked publisher text and contradicts our own cost page (no flat rate). It now defers to
+the cost guide.
+
 ## 2026-09-28 - Gutter service page linked from all 10 city pages, fifteenth publisher audit, one arrival consolidated
 
 **Primary action (internal_links): `/services/gutter-cleaning/` gets its first contextual inbound links.**

@@ -4,6 +4,100 @@
 
 ---
 
+### 2026-09-30
+
+**What we did:**
+- **refresh + internal_links (primary): `/blog/how-to-clean-solar-panels-on-roof/`.** This was the "next candidate"
+  logged on 09-28. It now has a full window of data behind it and is the only solar page with real demand.
+  - **Information gain over the live top 3** (a Reddit r/solar thread, a Facebook group post, a clean.direct vendor
+    blog, with an AI Overview on top): a sourced comparison of what the **REC (UL) manual, the Qcells Q.PEAK DUO ML-G9
+    manual and First Solar's module cleaning guidelines** actually allow. Rows cover timing, water, soap, pressure,
+    wiping tools, alcohol and standing on panels, plus Unger's PV safety rules and the three points where the manuals
+    disagree (dish soap, microfiber, drying). None of the top 3 cites a single manufacturer document.
+  - Direct answer first, key-takeaways box, and FAQ 5 to 8 built around the SERP's People Also Ask questions
+    (*Do you need to turn off solar panels before cleaning?*, *What should you not clean solar panels with?*,
+    *What is the best thing to clean solar panels?*, *Is Dawn soap safe for solar panels?*) plus the
+    *without a ladder* variant. FAQPage parity is 8 == 8 in `dist/`.
+  - **Two unverifiable soiling figures removed.** "NREL: semi-arid SoCal 5% or less, peaks over 15%" and "desert
+    80% after dust storms per IEA PVPS" appear in neither source. They were replaced with NREL's real figure and the
+    UC San Diego 186-site California study. One leaked publisher sentence ("appears in the site guidance for this
+    article") was also removed.
+  - **Three infographics deleted.** One listed a pressure washer as DIY equipment, which the post's own advice and
+    every manufacturer forbid. One showed soapy-water scrubbing in circles, which Qcells prohibits. One had a
+    sparkle glyph and a stepladder.
+  - **Inbound contextual links went from 2 to 8**: the solar service page, `solar-panel-cleaning-brush-and-pole`
+    (64 impr @ 5.2, the strongest solar blog page after this one), `is-solar-panel-cleaning-worth-it`,
+    `solar-panel-cleaning-cost`, `professional-solar-panel-cleaning-vs-diy-cleaning` and `solar-panel-cleaning-service`.
+- **refresh (secondary, accuracy): `/services/solar-panel-cleaning/`.** Removed the unsourced "15% to 25%" loss (open
+  since 09-28) and the "once or twice a year" FAQ that contradicted the frequency guide, and added a DIY FAQ linking
+  the roof guide. `is-solar-panel-cleaning-worth-it` also lost a leaked "$200 to $400 ... according to the research
+  brief" line that contradicted our cost page.
+- **No title change** on the roof post (its title already exact-matches the head query). There was no new content,
+  no GBP change, and no edit to any page under review.
+
+**Why we did it (brief numbers + the `query x page` join and a country probe, 2026-08-31..2026-09-27):**
+- **The roof post is the cleanest striking-distance target on the board.** Brief: `/blog/how-to-clean-solar-panels-on-roof/`
+  **573 impr / 0 clicks / pos 12.3** in Top pages, and *how to clean solar panels on roof* **190 impr @ 10.5, 0 clicks**
+  in striking distance. Join: **463 non-brand impressions, zero brand** across about 35 query variants, including
+  *cleaning solar panels on roof* 55 @ 11.2, *how to clean solar panels on a roof* 42 @ 11.8,
+  *how to clean solar panels on the roof* 36 @ 13.7 and *how to wash solar panels on roof* 23 @ 16.4.
+  **Country probe: 188 of 190 head-query impressions are `usa`** (position 10.3), and the whole cluster is about 98% US.
+  That is human demand, not the scraper pattern on the screens post. The query is informational and non-local and
+  has no map pack in the snapshot, so the map-pack veto does not apply.
+- **Scoreboard:** `internal_links` **5-0-0** and `refresh` **3-0-1** are the two clean records, and this is the playbook's
+  textbook case: a page on the edge of page 1 whose signal was never consolidated (2 inbound links). `title_meta`
+  (2-4-4) was not needed. `gbp` (0-0-13) stays logged-only.
+- **Why this page and not the CTR-outlier rows:** every CTR outlier is either the screens post (**68,287 non-brand
+  impr / 0 clicks** in the join, the 09-21 scraper pattern with `+` and `%` operator rows, under review until 10-28) or
+  the streak-free cluster (*how to clean windows streak free* 1,944 @ 5.2, *best no streak window cleaner* 879 @ 2.5,
+  *best glass cleaner for windows 2025* 1,162 @ 9.1). The streak-free pages are under review until 10-23 and have been
+  impression-only for four windows. Neither gets touched.
+- **The "decaying" rows are the same artifacts as last run.** `/blog/best-streak-free-window-cleaner/` (265 from 1,817)
+  is the URL-variant split: the canonical URL holds **5,781 non-brand impressions / 18 clicks** in the join.
+- **Other candidates checked and passed on:** `/blog/commercial-storefront-windows/` (311 non-brand impr) ranks at
+  18 to 20 for architectural wording (*storefront windows* 83 @ 18.3). That is page 2 and off-intent for a window
+  cleaner. `/camarillo/` *window cleaning camarillo* 57 @ 7.5 (prior 8.3) is improving without treatment.
+  `/thousand-oaks/` *window cleaning thousand oaks* 71 @ 9.4 (prior 12.1) is under review until late October.
+- **Why NOT new_content:** the matrix is complete, and the roof post already owns the solar how-to surface.
+  A sibling page would compete with it.
+
+**Expected impact (review 2026-11-11, 42 days):**
+- **Primary:** *how to clean solar panels on roof* moves from **10.5 to 8.0 or better** (grade on US rows), and the roof post
+  earns **at least 2 non-brand clicks in a 28-day window** (0 today).
+- Secondary: the PAA-shaped questions start landing on this page. **At least 3 new query rows containing "soap",
+  "dawn", "turn off", "shut off" or "what to use"** appear on this URL (today only *what to use to clean solar panels on
+  roof* 11 @ 11.0 exists).
+- Impressions are not claimed. Solar-cleaning interest may soften into winter, so grade on position and clicks.
+- Service page: accuracy fix only. *solar panel cleaning ventura county* (38 @ 10.1) should hold at **11 or better**,
+  with no click claim.
+
+**Metrics at time of action (brief window 2026-08-31..2026-09-27 unless stated):**
+- Sitewide: 91 clicks / 81,475 impr. Non-brand **26 clicks** / 80,809 impr, 969 queries, avg pos 9.4.
+- Roof post: brief 0 clicks / 573 impr / pos 12.3. Join 463 non-brand / 0 clicks. Head query 190 @ 10.5 (US 188 @ 10.3).
+  Cluster "solar" 603 impr / 0 clicks sitewide. 2 inbound contextual links before, 8 after.
+- `/services/solar-panel-cleaning/`: 0 clicks / 111 impr / pos 12.2. *solar panel cleaning ventura county* 38 @ 10.1.
+- Screens post 68,287 non-brand / 0 clicks. Canonical best-streak page 5,781 / 18 clicks.
+
+**Logged, NOT actioned (for the GBP workstream and future runs):**
+1. **gbp, pack queries this window (brief):** *window cleaning near me* 129 @ 4.6, *gutter cleaning* 77 @ 3.6
+   (join: `/` 45 @ 1.0, service page 32 @ 7.2), *window washing thousand oaks* 56 @ 2.8, *window cleaning agoura
+   hills* 42 @ 3.4, *screen cleaning service* 42 @ 4.0, *window cleaning westlake village* 34 @ 2.3.
+   **Geo-grid: Westlake Village is newly ABSENT ("LOST since last scan")**, joining Newbury Park, Agoura Hills, Oak
+   Park and Camarillo. Weakest incumbents: Golden Window Washing (2 reviews, Newbury Park #1), Guerrero Window
+   Cleaning (13, Camarillo #2), ARC Window Cleaning (14, #1 on *window cleaning near me* in Thousand Oaks), Assets
+   Window Cleaning (20, Agoura Hills and Oak Park #1). We have 235 reviews. Review velocity and category setup are the levers.
+2. Other solar posts still carry Outrank-era claims worth checking against the verified sources now in the site map:
+   `solar-panel-cleaning-service` cites an "All Seasons Window Solar review" (a competitor) for ">20%", and
+   `solar-panel-cleaning-brush-and-pole` attributes a "35 to 40 foot pole range" to Unger's PV page (not found in the
+   text extracted today).
+3. Still open: the storefront hero with sparkle glyphs, the four lead-paragraph price contradictions, the two
+   unattributed "expert" blockquotes on `solar-panel-cleaning-camarillo-...`, about 20 older posts hotlinking
+   `cdnimg.co`, and real gutter price bands from the business.
+
+**Review after 42 days (2026-11-11).**
+
+---
+
 ### 2026-09-28
 
 **What we did:**

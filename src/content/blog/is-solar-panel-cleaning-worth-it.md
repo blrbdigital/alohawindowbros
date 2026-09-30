@@ -100,9 +100,9 @@ If your panels look dirty enough to matter, the next decision is how to clean th
 <a id="where-the-cost-gap-opens-up"></a>
 ### Where the cost gap opens up
 
-A professional visit in California commonly lands in the **$200 to $400** range, according to the research brief's summary of current guidance. That fee usually covers purified water, soft brushes, safe reach equipment, and a crew that does not need to walk fragile tile roofs to get the job done.
+Aloha Window Bros does not publish a flat rate, because roof access sets the price more than panel count does; the [solar panel cleaning cost guide](/blog/solar-panel-cleaning-cost/) explains what moves a quote. A professional fee usually covers purified water, soft brushes, safe reach equipment, and a crew that does not need to walk fragile tile roofs to get the job done.
 
-DIY only makes sense when the array is reachable from the ground, the tilt is forgiving, and you know how to avoid scratching the glass. The minute you need to climb, stretch, or improvise, the risk jumps. A fall costs more than any cleaning visit.
+DIY only makes sense when the array is reachable from the ground, the tilt is forgiving, and you know how to avoid scratching the glass. If that describes your roof, follow our guide to [cleaning solar panels on a roof safely](/blog/how-to-clean-solar-panels-on-roof/), including what your panel manual says about soap. The minute you need to climb, stretch, or improvise, the risk jumps. A fall costs more than any cleaning visit.
 
 The hidden cost is surface damage. Solar panels have coatings for a reason. Scratch them with an abrasive pad or the wrong brush, and the light loss stays with you.
 

@@ -82,7 +82,7 @@ The attachment mechanism deserves inspection. A reliable clamp or swivel joint s
 <a id="how-to-use-a-cleaning-pole-safely-on-your-roof-array"></a>
 ## How to Use a Cleaning Pole Safely on Your Roof Array
 
-The safest solar cleaning position is usually **on the ground, with the system de-energized when possible**. Solar equipment can still produce electricity in daylight, so follow the panel manufacturer, inverter, and installer instructions before touching the array. If you can't confirm the correct shutdown procedure, don't guess.
+The safest solar cleaning position is usually **on the ground, with the system de-energized when possible**. Solar equipment can still produce electricity in daylight, so follow the panel manufacturer, inverter, and installer instructions before touching the array. If you can't confirm the correct shutdown procedure, don't guess. Our step-by-step guide to [how to clean solar panels on a roof](/blog/how-to-clean-solar-panels-on-roof/) compares what the REC, Qcells, and First Solar manuals allow on soap, water pressure, and standing on panels.
 
 Guidance for water-fed pole work recommends avoiding ladder-based cleaning where possible, working only in low sunlight if shutdown isn't possible, and avoiding excessive pressure or point loading on hot panels. It also places pitched-roof residential systems commonly in the roughly **35 to 40 foot pole range** when that reach is needed to maintain stand-off distance and maneuverability. ([water-fed pole safety guidance for photovoltaic systems](https://usa.ungerglobal.com/safety-warning-instructions-for-cleaning-pv-and-solar-systems-with-water-fed-poles/))
 

@@ -12,7 +12,7 @@ Safe, thorough cleaning that restores your panels to peak performance:
 - **Bird dropping & grime removal**: stubborn buildup safely cleared
 - **Performance check**: we make sure panels are spotless and unobstructed
 
-Dirty panels can lose **15% to 25% efficiency**. Regular cleaning pays for itself.
+Cleaning pays most where rain does not do the job. A [UC San Diego study of 186 California solar sites](https://today.ucsd.edu/story/cleaning_solar_panels_often_not_worth_the_cost_engineers_at_uc_san_diego_fi) found that ordinary dust cost only **7.4%** after a 145-day dry spell, but that **bird droppings block essentially all light and do not wash away in rain**, and that low-tilt arrays and homes downwind of highways or farm fields lose more.
 
 ## Our Process
 
@@ -29,11 +29,11 @@ Depends on number of panels and roof accessibility. Most residential jobs are qu
 <div class="faq-list">
 <details class="faq-item">
 <summary>Do dirty panels really affect energy output?</summary>
-<p>Yes. Dirt, dust, and bird droppings block sunlight and can reduce output by 15% to 25%.</p>
+<p>Yes, but how much depends on what is on the glass. UC San Diego measured a 7.4% loss from ordinary dust after 145 dry days in California, while bird droppings block essentially all light where they sit and do not rinse off in rain. Coastal salt film and wildfire ash can cling the same way.</p>
 </details>
 <details class="faq-item">
 <summary>How often should solar panels be cleaned?</summary>
-<p>Once or twice a year for most homes. More often in dusty or high-pollen areas. Our guide on <a href="/blog/how-often-should-solar-panels-be-cleaned/">how often solar panels should be cleaned</a> breaks the interval down by coastal, inland, and foothill exposure.</p>
+<p>It depends on exposure: roughly every 2 to 4 months for coastal and near-beach homes, every 4 to 6 months inland, and every 6 to 12 months for low-soiling roofs, adjusted by what the glass and your production data show. Our guide on <a href="/blog/how-often-should-solar-panels-be-cleaned/">how often solar panels should be cleaned</a> breaks the interval down by coastal, inland, and foothill exposure.</p>
 </details>
 <details class="faq-item">
 <summary>Do you use chemicals?</summary>
@@ -42,6 +42,10 @@ Depends on number of panels and roof accessibility. Most residential jobs are qu
 <details class="faq-item">
 <summary>Is it safe for the panels?</summary>
 <p>100%. Our methods are designed specifically for solar panels: no abrasives, no pressure washing.</p>
+</details>
+<details class="faq-item">
+<summary>Can I clean my solar panels myself?</summary>
+<p>If the array is on a single-story roof you can reach from the ground, often yes. Use cool panels, low-pressure water, a soft brush, and purified water, and check your panel manual before using any soap. Our guide on <a href="/blog/how-to-clean-solar-panels-on-roof/">how to clean solar panels on a roof</a> compares what REC, Qcells, and First Solar allow. If you would need to climb onto the roof, book a visit instead.</p>
 </details>
 <details class="faq-item">
 <summary>Can I combine this with window washing?</summary>

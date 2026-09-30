@@ -70,7 +70,7 @@ The technician also has to work around skylights, vents, fragile roofing materia
 
 Coastal salt film often needs more careful rinsing to prevent spotting. Inland dust and pollen may look loose but can cling after moisture settles. Sprinkler overspray creates hard-water mineral deposits that won't always disappear with a quick rinse.
 
-A professional may use a purified water-fed pole system, soft brushes, and a controlled rinse rather than aggressive pressure. The method should match the residue. Pressure washing, abrasive tools, and harsh chemicals create unnecessary risk for the panel surface and surrounding roof.
+A professional may use a purified water-fed pole system, soft brushes, and a controlled rinse rather than aggressive pressure. The method should match the residue. Pressure washing, abrasive tools, and harsh chemicals create unnecessary risk for the panel surface and surrounding roof. If a single-story array is reachable from the ground and you would rather do it yourself, see [how to clean solar panels on a roof](/blog/how-to-clean-solar-panels-on-roof/) before buying any cleaner.
 
 Watch this short visual overview before comparing quotes. It helps show why the same number of panels can produce different labor requirements.
 
