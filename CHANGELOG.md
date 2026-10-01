@@ -1,3 +1,14 @@
+## 2026-10-01 - Website quote requests now text Ely, Adam and Sam and land on the lead board
+
+No site code changed; this is the `aloha-forms` backend on the VPS plus the lead board.
+- Every `/contact/` submission is now texted (Twilio, same numbers and sender as the Meta lead alerts) in
+  addition to the email. Before this, website leads were email-only, so Aisha Barnes' 10-01 request never
+  texted; it was re-sent by hand.
+- Every submission also becomes a row on leads.alohawindowbros.com tagged Website, with city, service and
+  message on the card. The board has a new All / FB/IG ads / Website switch that filters the cards, counts
+  and revenue stats. Today's two website leads (Jori Bitterolf, Aisha Barnes) were added; older ones were not.
+- Details: "Texts + lead board" under "Contact form + backend" in `.claude-site-map.md`.
+
 ## 2026-09-30 - Solar roof guide refreshed around panel-manufacturer manuals, 2 to 8 inbound links
 
 **Primary action (refresh + internal_links): `/blog/how-to-clean-solar-panels-on-roof/`.** It is the only solar
