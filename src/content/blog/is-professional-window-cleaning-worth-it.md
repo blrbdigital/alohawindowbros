@@ -42,7 +42,7 @@ For window cleaning, the complete service often has four connected parts:
 
 3. **Frames, tracks, and sills detailing:** These areas collect debris that can be dragged back onto clean glass or pushed into moving parts. Brushes, cloths, and controlled rinsing help remove the buildup around the pane.
 
-4. **Specialty reach:** Skylights, high panes, and awkward exterior windows may require extension tools or a purified water-fed pole system. The objective is to reach the glass without placing a homeowner on an unstable ladder.
+4. **Specialty reach:** Skylights, high panes, and awkward exterior windows may require extension tools or a purified water-fed pole system. The objective is to reach the glass without placing a homeowner on an unstable ladder. If you want to try a reachable unit yourself first, here is [how to clean a skylight from inside and from the ground](/blog/how-to-clean-skylights/).
 
 ![An infographic detailing the four key steps included in a professional window cleaning service for homes.](/img/blog/is-professional-window-cleaning-worth-it-window-service.jpg)
 

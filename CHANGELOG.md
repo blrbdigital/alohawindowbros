@@ -1,3 +1,38 @@
+## 2026-10-02 - Skylight how-to refreshed around three skylight manuals, 2 to 9 inbound links, tables no longer clipped on phones
+
+**Primary action (refresh + internal_links): `/blog/how-to-clean-skylights/`.** Starting 09-17, Google moved the whole
+skylight query cluster onto this page on its own. In 09-02..09-29 it held 95% of the cluster: 877 impressions @ 8.1,
+1 click, 91% US, mobile and desktop about even. Head rows: *skylight cleaning* 74 @ 14.7, *how to clean skylights*
+46 @ 9.0, *how to clean skylights without getting on roof* 25 @ 6.2. Only two pages linked to it.
+- Direct answer and key takeaways now lead. A new table, "What Three Skylight Manuals Say, Step by Step", compares
+  the VELUX care guide, the Super Sky glass skylight manual and the Architectural Specialties dome manual (timing,
+  order, cleaner on glass and on plastic, tools, drying, blades, pressure washing, standing on the unit) and names
+  the two places they disagree. It also covers VELUX's Neat glass coatings and its 2 to 3 year professional interval.
+- Sources corrected: the Home Depot-hosted PDF is relabelled as VELUX's care guide, and the Hawaii PDF as Super
+  Sky's manual. A dead UK "method statement" link (with its "25 mph" and "65 to 70 feet" figures) was removed, and
+  so was an off-topic ASTM E2112 paragraph. A dangling "the following demonstration" line was cut.
+- FAQ answers updated from the manuals: VELUX's no-brush rule on plastic domes, the remove-and-hose method for
+  skylight insect screens, and VELUX's statement that window cleaners reach skylights from the ground. 5 FAQ
+  items, FAQPage parity 5 == 5.
+- Two hotlinked `cdnimg.co` images removed: one showed a fabricated person on a stepladder, the other had sparkle glyphs.
+- **Inbound contextual links 2 -> 9:** `how-does-a-water-fed-pole-system-work`, `interior-and-exterior-window-cleaning`,
+  `is-professional-window-cleaning-worth-it`, `window-washing-squeegee`, `skylight-cleaning-pole`,
+  `streak-free-window-cleaning-cloth`, `skylight-cleaning-solution`. The how-to also links the gutter service page
+  (VELUX says to clear skylight flashing when gutters are cleaned).
+
+**Secondary (technical): tables on 27 posts were clipped on phones.** `html, body { overflow-x: hidden }` cut off
+any table wider than the article column at 390px instead of letting it scroll. That included the site's top click
+page, `best-streak-free-window-cleaner` (149px hidden). A small rehype plugin in `astro.config.mjs` now wraps every
+markdown table in a keyboard-focusable scroll region. `global.css` gives blog tables borders, a header tint and
+tighter mobile padding (they had no styling at all before). Result: 216 tables, 0 clipped, 36 scroll inside their frame.
+
+**Tooling:** `scripts/gsc-page-probe.py` (page totals including anonymized queries, plus per-page query rows).
+`scripts/gsc-join.py`'s `main()` is now import-safe.
+
+**Findings documented, no action taken:** the brief's click totals are query-row sums (95 vs a true 205). The
+1,947 impressions on `how-to-get-streak-free-windows` are 0% US desktop traffic from 97 countries that ended 09-16.
+The screens-post scraper spike ended 09-24. Detail is in `.claude-site-map.md` and `SEO-LOG.md`.
+
 ## 2026-10-01 - Website quote requests now text Ely, Adam and Sam and land on the lead board
 
 No site code changed; this is the `aloha-forms` backend on the VPS plus the lead board.

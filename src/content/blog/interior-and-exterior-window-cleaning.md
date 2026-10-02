@@ -154,7 +154,7 @@ Professional service makes more sense for:
 - **Upper-story glass:** Reach and body position become harder to control.
 - **Sloped grades:** Ladder feet can shift even when the ladder appears stable.
 - **Windows over decks or hard surfaces:** A fall can cause severe injury and property damage.
-- **Roof access or skylights:** The access route itself may create the primary hazard.
+- **Roof access or skylights:** The access route itself may create the primary hazard. Our guide to [cleaning skylights without getting on the roof](/blog/how-to-clean-skylights/) shows which parts are safe to do yourself.
 - **Large fixed panes:** Handling tools and water becomes awkward at height.
 
 ![A comparison infographic showing the safety and risk differences between DIY and professional window cleaning services.](https://cdnimg.co/8387fe5a-1497-428d-a3af-57b68fc0bac4/18d4a468-4dbf-4612-b0fd-4be0ff7ba6c1/interior-and-exterior-window-cleaning-safety-risks.jpg)

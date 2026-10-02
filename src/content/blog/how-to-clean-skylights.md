@@ -1,17 +1,27 @@
 ---
 title: 'How to Clean Skylights Safely Without Streaks or Damage'
-date: '2026-09-06'
-description: 'Learn how to clean skylights safely inside and out with streak-free methods, water-fed pole tips, and when to call a pro.'
+date: '2026-10-02'
+description: 'Clean skylights inside and out without getting on the roof, plus what the VELUX, Super Sky and dome-maker manuals allow on glass and acrylic.'
 heroImage: '/img/blog/how-to-clean-skylights.jpg'
 heroImageAlt: 'How to Clean Skylights Safely Without Streaks or Damage'
 ---
-You notice it from the room below first. Daylight looks muted, the skylight has a gray film across it, and a few stubborn marks remain even after you wipe the interior pane. Outside, dust, pollen, salt spray, bird debris, and sprinkler mist have baked onto glass that sits nearly horizontal. The temptation is to climb up, scrub harder, and finish quickly. That's where many skylight-cleaning jobs become dangerous or permanently damage the glazing.
+**To clean a skylight, treat the two sides as two different jobs. Inside, work on a cool, shaded pane from a stable ladder: wet it with water and a little mild soap, wipe with a soft cloth or sponge, and pull the solution off with a squeegee or lint-free cloth before it dries. Outside, stay on the ground: rinse loose grit off first, brush gently with a soft head on a telescopic or water-fed pole, start with the highest skylight and work down, and finish with purified water so minerals do not dry on the glass.** Never stand or kneel on a skylight, never pressure wash one, and never drag a scraper or abrasive pad across the pane. Each of those rules comes from a skylight manufacturer's own care manual, compared in the table below. Plastic domes follow stricter rules than flat glass: one dome maker bans Windex outright, and VELUX says no brushes at all on acrylic or polycarbonate.
 
-Learning **how to clean skylights** safely means treating the job as two separate tasks. Interior cleaning is controlled, low-mess detail work. Exterior cleaning is an access and fall-protection problem before it's a glass-cleaning problem. The reliable approach uses mild chemistry, soft tools, immediate drying, and a ground-based water-fed pole whenever the installation allows it.
+Most people notice the problem from the room below. Daylight looks muted and a gray film sits across the glass. Outside, dust, pollen, salt spray, bird debris, and sprinkler mist bake onto glass that sits nearly flat, so rain does not carry it away. The temptation is to climb up and scrub harder, and that is where skylight cleaning becomes dangerous or permanently damages the glazing.
+
+## Key takeaways
+
+- **Two sides, two methods.** Room side: water and mild soap, a soft cloth, then a squeegee before it dries. Roof side: rinse, a soft brush on a pole from the ground, and a purified water finish.
+- **A skylight is not a surface.** OSHA classes it as a hole and requires fall protection when it sits 4 feet or more above a lower level ([29 CFR 1910.28(b)(3)(i)](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.28)). Super Sky and Architectural Specialties both tell owners not to walk, stand, or crawl on one.
+- **No pressure washer.** Architectural Specialties warns that pressure washing can dislodge the gaskets, which turns a cleaning job into a leak.
+- **Blades are for spots, not panes.** VELUX prohibits metal scrapers, blades, and knives on large areas of glass and allows a new 1-inch razor blade only on small spots such as tree sap, scraped in one direction.
+- **Domes follow different rules.** On acrylic and polycarbonate, VELUX prohibits brushes and solvents such as acetone and gasoline, which soften the plastic and cause crazing.
+- **Some haze is not dirt.** VELUX says condensation streaks that stay between the panes after cleaning can mean sealant failure, which no cleaner can fix.
 
 ## Table of Contents
 - [Why Skylights Get Dirty Faster Than Other Windows](#why-skylights-get-dirty-faster-than-other-windows)
   - [Interior and exterior glass need different handling](#interior-and-exterior-glass-need-different-handling)
+- [What Three Skylight Manuals Say, Step by Step](#what-three-skylight-manuals-say-step-by-step)
 - [What to Gather and Check Before You Start](#what-to-gather-and-check-before-you-start)
   - [Interior kit](#interior-kit)
   - [Exterior kit and access check](#exterior-kit-and-access-check)
@@ -37,11 +47,32 @@ I've seen skylights that looked clear at eye level but showed heavy residue once
 <a id="interior-and-exterior-glass-need-different-handling"></a>
 ### Interior and exterior glass need different handling
 
-For the inside, protect the floor and surrounding trim, use a small amount of cleaning solution, and remove it immediately. For the outside, loose grit should be rinsed away before a soft brush touches the pane. Manufacturer guidance recommends mild, non-abrasive cleaners and warns against metal scrapers, blades, and knives because they can permanently scratch glass. The [skylight cleaning and maintenance manual](https://hiepro.ehawaii.gov/resources/54503/Attachment%204%20%20SkyLight%20Cleaning%20and%20Maintenance%20Manual.pdf) also emphasizes fall protection and says users shouldn't walk on skylight glass after installation.
+For the inside, protect the floor and surrounding trim, use a small amount of cleaning solution, and remove it immediately. For the outside, loose grit should be rinsed away before a soft brush touches the pane. Manufacturer guidance recommends mild, non-abrasive cleaners and warns against metal scrapers, blades, and knives because they can permanently scratch glass. Super Sky's [skylight cleaning and maintenance manual](https://hiepro.ehawaii.gov/resources/54503/Attachment%204%20%20SkyLight%20Cleaning%20and%20Maintenance%20Manual.pdf) says no one should walk on skylight glass once it is installed, and that anyone working on or near a skylight must wear OSHA-approved fall protection.
 
 > **Practical rule:** Clear glass isn't worth stepping onto a skylight. Protect the worker first, then protect the glazing.
 
 Coastal homes around Ventura, Oxnard, Goleta, Montecito, and Santa Barbara often need closer observation after salt-laden air or wind. Inland homes around Thousand Oaks, Simi Valley, and the foothills may collect dry dust and windborne grit instead. In both settings, streak-free results come from low-impact tools and proper sequencing, not harsh chemicals or aggressive pressure.
+
+<a id="what-three-skylight-manuals-say-step-by-step"></a>
+## What Three Skylight Manuals Say, Step by Step
+
+Most skylight cleaning advice online is generic window advice with the word "skylight" added. The manufacturers publish their own instructions, and they are more specific. The table compares the [VELUX skylight, roof window and sun tunnel care guide](https://images.thdstatic.com/catalog/pdfImages/6a/6a99e636-9501-425f-97da-8b2ba9bb0ce7.pdf), the Super Sky glass skylight manual linked above, and the [Architectural Specialties dome skylight maintenance manual](https://archsp.com/wp-content/uploads/2019/12/Skylight-Maintenance.pdf).
+
+| Step | VELUX (glass and plastic units) | Super Sky (glass skylights) | Architectural Specialties (plastic domes) |
+|---|---|---|---|
+| When to clean | Avoid the hottest part of the day | Not while the glass is in direct sunlight | Not specified |
+| Order | Highest row of skylights first, then work down | Start at the top and work down | Not specified |
+| Cleaner on glass | Soak with water and soap, then a mild, non-abrasive glass cleaner | The mildest that works: commercial glass cleaner, mild soap and water, or a 50/50 mix of isopropyl alcohol and water | Warm soapy water only; no Windex or other household cleaners |
+| Cleaner on acrylic or polycarbonate | Mild soap or detergent in lukewarm water; household ammonia diluted in water is also acceptable | Not covered (glass manual) | Liquid detergent such as Ivory or Joy, in water |
+| Tools | Soft brush or non-abrasive applicator on glass; no brushes, abrasives, or gritty cloths on plastic | Clean, grit-free cloth or sponge; keep metal parts of the equipment off the glass | Soft cloth, sponge, and chamois |
+| Drying | Remove the solution at once with a squeegee or lint-free cloth | Rinse with plenty of clean water, then a squeegee or lint-free cloth | Not specified |
+| Blades and scrapers | Never on large areas; a new 1-inch razor blade on small spots only, one direction | Razor blades, putty knives, and metal parts can scratch reflective coatings | No harsh abrasives |
+| Pressure washing | Not specified | Not specified | Never; it can dislodge gaskets |
+| Standing on the skylight | Use fall protection when applicable | Do not walk on the glass; OSHA-approved fall protection required | Do not stand or crawl on skylights |
+
+The manuals disagree in two places, and both are on plastic domes. VELUX accepts household ammonia diluted in water on acrylic and polycarbonate, while Architectural Specialties bans Windex and every other household cleaner on its domes. VELUX also lists gasoline among the solvents that soften plastic and cause crazing, while Architectural Specialties, which bans ordinary gasoline too, allows white gasoline, kerosene, or naphtha on acrylic, but only to lift grease and oil spots. When you do not know who made your skylight, use the common ground all three accept: mild detergent, plenty of water, and a soft cloth. If you are not sure whether you have glass or a dome, the [material table in our skylight cleaning service guide](/blog/skylight-cleaning-service/) shows how to tell from the ground.
+
+Newer VELUX units carry Neat glass, which VELUX describes as two exterior coatings: titanium dioxide, which breaks down organic dirt in sunlight, and silicon dioxide, which helps rain sheet off with fewer spots. VELUX's [skylight cleaning tips](https://www.veluxusa.com/inspiration/blog/4-tips-for-cleaning-skylights-from-the-inside-to-the-outside) say its skylights should be cleaned professionally every two to three years, and its interior advice is short: apply water first, use no chemical products on the pane, and keep sharp or abrasive objects, including jewelry, off the glass.
 
 <a id="what-to-gather-and-check-before-you-start"></a>
 ## What to Gather and Check Before You Start
@@ -66,9 +97,9 @@ For reachable exterior work, gather a telescopic or water-fed pole with a soft b
 
 Before exterior work:
 
-1. **Check the weather and wind.** A pole becomes difficult to control as wind rises. The water-fed pole safety procedure says not to use the system above **25 mph** and warns against leaving a raised pole unattended. [Read the water-fed pole method statement](https://windowcleaners.uk.com/wp-content/uploads/2022/08/2022-pole_method_statement.pdf) before using this equipment.
+1. **Check the weather, the wind, and the wires.** A raised pole catches wind and gets harder to steer as gusts rise, so pick a calm, cool morning. Look up before you extend it: a carbon or aluminum pole near an overhead power line is an electrocution risk, and our [skylight pole guide](/blog/skylight-cleaning-pole/) covers the clearance distances.
 2. **Cone off the area below.** Keep people, pets, vehicles, and outdoor furniture away from falling water or loosened debris.
-3. **Choose the shortest safe pole.** Professional systems can reach roughly **65 to 70 feet**, but longer isn't automatically safer or easier to control. Select only what reaches the skylight from a stable position.
+3. **Choose the shortest pole that reaches.** A longer pole is heavier, flexes more, and is harder to steer, so extend only what reaches the skylight from a stable position.
 4. **Plan fall protection.** Never walk on skylight glass. If roof access is unavoidable, use appropriate OSHA-approved fall protection and follow the manufacturer's safety requirements.
 5. **Protect the interior.** Close nearby furniture, cover floors, and make sure the frame's drainage paths aren't blocked before adding water.
 
@@ -87,8 +118,6 @@ Start when the glass and surrounding room are cool and shaded. Cleaning in direc
 5. **Dry immediately.** Pull a clean squeegee across the pane, then detail the edges with a lint-free cloth.
 
 The key is to remove the solution before it evaporates. The maintenance guidance from [VELUX's skylight cleaning instructions](https://www.veluxusa.com/inspiration/blog/4-tips-for-cleaning-skylights-from-the-inside-to-the-outside) recommends a clean water-and-soap soak, a non-abrasive cleaner, a soft brush, and immediate drying with a squeegee or lint-free cloth.
-
-![A woman standing on a stepladder cleaning a skylight window with a squeegee and blue cloth.](https://cdnimg.co/8387fe5a-1497-428d-a3af-57b68fc0bac4/8dc52fb8-3b12-4344-bb3e-53bb8a887306/how-to-clean-skylights-window-cleaning.jpg)
 
 <a id="handle-high-ceilings-and-frames-carefully"></a>
 ### Handle high ceilings and frames carefully
@@ -111,8 +140,6 @@ Exterior skylight cleaning should begin from the ground whenever the pole can re
 
 Check the forecast and current wind before raising the equipment. Cone off the work zone, keep both hands on the pole, and stand where you won't need to lean or overreach. The shortest pole that safely reaches the skylight is usually easier to guide than a longer pole extended unnecessarily.
 
-![A five-step instructional guide on how to safely clean exterior skylights using a telescoping pole.](https://cdnimg.co/8387fe5a-1497-428d-a3af-57b68fc0bac4/ca120bf2-e164-4c20-8b41-5aad8fa3eecc/how-to-clean-skylights-cleaning-guide.jpg)
-
 Use this sequence:
 
 1. **Rinse first.** Wash away loose dust, grit, pollen, and bird debris before brushing. Dragging dry particles across glass is a common source of scratches.
@@ -121,15 +148,11 @@ Use this sequence:
 4. **Rinse completely.** Remove soap and suspended dirt before moving to the next pane.
 5. **Finish with spot-free water.** Purified water can dry with less visible residue, particularly where ordinary water leaves mineral spotting.
 
-Manufacturer guidance also recommends avoiding the hottest part of the day. Rapid drying creates streaks and can stress sensitive surfaces. The [skylight cleaning pole guide](https://alohawindowbros.com/blog/skylight-cleaning-pole/) provides further detail on water-fed pole technique for hard-to-reach glazing.
+VELUX says to avoid the hottest part of the day and Super Sky says not to clean glass in direct sunlight, because the solution dries before you can remove it. The [skylight cleaning pole guide](https://alohawindowbros.com/blog/skylight-cleaning-pole/) provides further detail on water-fed pole technique for hard-to-reach glazing.
 
-Keep the pole moving when it's raised, and never leave it unattended. Don't use it in wind above **25 mph**, as specified by the [water-fed pole safety procedure](https://windowcleaners.uk.com/wp-content/uploads/2022/08/2022-pole_method_statement.pdf). If gusts make the brush unpredictable, lower the pole and postpone the work.
+Keep the pole moving when it's raised, and never leave it standing unattended. If gusts make the brush unpredictable, lower the pole and postpone the work.
 
 A pole isn't a substitute for fall protection when someone must access the roof. If the skylight sits behind an obstruction, on a steep roof, or beyond safe ground reach, professional access planning is safer than improvisation.
-
-The following demonstration shows the general pole-cleaning motion and sequencing:
-
-
 
 <a id="when-cleaning-is-not-the-fix-and-how-often-to-clean"></a>
 ## When Cleaning Is Not the Fix and How Often to Clean
@@ -150,14 +173,14 @@ Interior condensation often points to humid air, weak ventilation, blocked weep 
 | Cloudiness that never changes | Coating, acrylic damage, or aging glazing | Check product guidance and request an assessment |
 | Water staining around the opening | Possible leak or flashing issue | Stop treating it as a cleaning problem and arrange repair |
 
-Material compatibility matters. Current maintenance guidance warns against abrasives, solvents such as gasoline or acetone, metal tools, and harsh chemicals that can soften plastic or cause crazing. The [maintenance instructions for exterior windows, doors, and skylights](https://images.thdstatic.com/catalog/pdfImages/6a/6a99e636-9501-425f-97da-8b2ba9bb0ce7.pdf) also advise avoiding the hottest part of the day because fast drying can streak the surface.
+Material compatibility matters as much as the symptom. The manufacturer rules in the table above are the ones to check before treating any stubborn mark, because the fix for a glass pane can permanently cloud a plastic dome.
 
 <a id="adjust-timing-to-local-conditions"></a>
 ### Adjust timing to local conditions
 
 Coastal homes in Ventura and Santa Barbara County can collect salt aerosol and damp residue, so inspect the glass after marine air, storms, or prolonged humidity. Inland homes may see more dry dust after Sundowner winds or Santa Ana conditions. In either location, clean when the pane is cool, the wind is manageable, and the weather gives the surface time to rinse and dry cleanly.
 
-Skylight maintenance has also become more formalized through manufacturer manuals and exterior fenestration standards. The [ASTM E2112 history](https://www.document-center.com/standards/show/ASTM-E2112/history/) records editions in **2001, 2007, and 2018**, along with revisions in **2018 and 2019**, reflecting continued development of installation and maintenance practices. Those standards don't replace the skylight manufacturer's instructions, but they reinforce the need to treat glazing, seals, access, and drainage as one system.
+The flashing around the skylight needs attention too. VELUX's cleaning tips say to clear the leaves and debris around a skylight's flashing whenever the gutters are cleaned, so rainwater keeps flowing around the unit instead of pooling against it; a leaf blower is usually enough. If someone is already on a ladder for [gutter cleaning](/services/gutter-cleaning/), that is the moment to have the skylight perimeter checked.
 
 <a id="keeping-skylights-clear-longer-and-knowing-when-to-hire-a-pro"></a>
 ## Keeping Skylights Clear Longer and Knowing When to Hire a Pro
@@ -181,11 +204,11 @@ A clear quote should identify the access method, surface materials, included det
 <div class="faq-list">
 <details class="faq-item">
 <summary>How do you clean skylights without getting on the roof?</summary>
-<p>Use a telescopic or water-fed pole from level ground and clean the exterior pane top down. This is the recommended approach for most homes because OSHA classes a skylight as a hole rather than a walking surface and requires fall protection for work above four feet ([29 CFR 1910.28(b)(3)(i)](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.28)). Ground-based water-fed systems can support work at roughly 20 metres, or about 65 to 70 feet, which covers the great majority of residential skylights without anyone leaving the ground.</p>
+<p>Use a telescopic or water-fed pole from level ground and clean the exterior pane top down. This is the recommended approach for most homes because OSHA classes a skylight as a hole rather than a walking surface and requires fall protection for work above four feet ([29 CFR 1910.28(b)(3)(i)](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.28)). VELUX's own advice to owners is that most window cleaning companies carry telescoping brushes and squeegees that reach a skylight's exterior without anyone getting on the roof, so include your skylights in the window count when you ask for a quote.</p>
 </details>
 <details class="faq-item">
 <summary>How do you clean plastic or polycarbonate skylights?</summary>
-<p>Use liquid dish detergent diluted in water with a soft cloth or chamois, then rinse and blot dry. Nothing stronger. The Architectural Specialties dome maintenance manual explicitly prohibits Windex and other household cleaners on plastic domes, along with acetone, gasoline, benzene, carbon tetrachloride, and lacquer thinner ([Architectural Specialties](https://archsp.com/wp-content/uploads/2019/12/Skylight-Maintenance.pdf)). Those solvents craze acrylic and polycarbonate, and unlike surface dirt the resulting clouding is permanent because a crazed dome cannot be polished back to clear.</p>
+<p>Use liquid dish detergent diluted in water with a soft cloth or chamois, then rinse and blot dry. Nothing stronger. The Architectural Specialties dome maintenance manual explicitly prohibits Windex and other household cleaners on plastic domes, along with acetone, gasoline, benzene, carbon tetrachloride, and lacquer thinner ([Architectural Specialties](https://archsp.com/wp-content/uploads/2019/12/Skylight-Maintenance.pdf)). Those solvents craze acrylic and polycarbonate, and unlike surface dirt the resulting clouding is permanent because a crazed dome cannot be polished back to clear. VELUX adds two rules for its own acrylic and polycarbonate products: no brushes, abrasives, or gritty cloths, and as much liquid as possible when you wash.</p>
 </details>
 <details class="faq-item">
 <summary>How do you clean the inside of a skylight without drips?</summary>
@@ -193,7 +216,7 @@ A clear quote should identify the access method, surface materials, included det
 </details>
 <details class="faq-item">
 <summary>How do you clean a skylight screen?</summary>
-<p>Dry first, damp second, dry again, and do not hose it in place. Vacuum the mesh with a soft brush attachment, wipe it with a barely damp microfiber cloth, then blot it dry before closing the unit. Water that runs off a screen lands on the glass beneath it, and across most of Ventura County that water carries about 140 milligrams per litre of dissolved minerals ([California American Water Consumer Confidence Report](https://www.amwater.com/ccr/thousandoaks.pdf)), which dry as spotting on the pane you just cleaned. The full method is in our guide to [cleaning window screens without removing them](/blog/how-to-clean-window-screens-without-removing-them/).</p>
+<p>On a venting VELUX skylight, the manufacturer's instruction is to take the insect screen out, spray it with a garden hose, and let it dry completely before putting it back. If the screen does not come out, go dry first, damp second, dry again, and do not hose it in place. Vacuum the mesh with a soft brush attachment, wipe it with a barely damp microfiber cloth, then blot it dry before closing the unit. Water that runs off a screen lands on the glass beneath it, and across most of Ventura County that water carries about 140 milligrams per litre of dissolved minerals ([California American Water Consumer Confidence Report](https://www.amwater.com/ccr/thousandoaks.pdf)), which dry as spotting on the pane you just cleaned. The full method is in our guide to [cleaning window screens without removing them](/blog/how-to-clean-window-screens-without-removing-them/).</p>
 </details>
 <details class="faq-item">
 <summary>Can you pressure wash a skylight?</summary>

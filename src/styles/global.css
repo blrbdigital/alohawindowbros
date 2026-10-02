@@ -1748,6 +1748,40 @@ a.service-card:hover {
 .article-content li {
   margin-bottom: 8px;
 }
+/* Markdown tables arrive wrapped in .table-scroll (rehypeTableScroll in astro.config.mjs).
+   Wide tables scroll inside the column instead of being clipped by body overflow-x. */
+.article-content .table-scroll {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  margin: 8px 0 24px;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+}
+.article-content .table-scroll:focus-visible {
+  outline: 2px solid #4f46e5;
+  outline-offset: 2px;
+}
+.article-content table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 15px;
+  line-height: 1.55;
+}
+.article-content th,
+.article-content td {
+  padding: 8px 10px;
+  text-align: left;
+  vertical-align: top;
+  border-bottom: 1px solid #e2e8f0;
+}
+.article-content th {
+  background: #f1f5f9;
+  color: #1a1a2e;
+  font-weight: 600;
+}
+.article-content tr:last-child td {
+  border-bottom: 0;
+}
 .article-cta {
   margin-top: 48px;
   padding: 36px;
@@ -1780,6 +1814,8 @@ a.service-card:hover {
   .blog-post-hero { padding: 32px 20px; }
   .blog-post-hero h1 { font-size: 26px; }
   .article-content { font-size: 16px; }
+  .article-content table { font-size: 14px; }
+  .article-content th, .article-content td { padding: 6px 8px; }
   .article-cta { padding: 24px; }
 }
 

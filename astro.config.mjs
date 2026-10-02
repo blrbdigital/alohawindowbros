@@ -60,8 +60,37 @@ function lastmodFor(pathname) {
   return value;
 }
 
+// Wrap every markdown table in a focusable horizontal-scroll region (2026-10-02).
+// html/body carry overflow-x: hidden (mobile-first rule), so a table wider than the
+// ~350px article column on a phone was silently CLIPPED: its right-hand columns could
+// be neither seen nor scrolled to. Measured at 390px that day: 27 posts, including the
+// site's top click page, worst case 485px. role/tabindex/aria-label make the scroll
+// region reachable by keyboard (axe: scrollable-region-focusable). Styling lives in
+// global.css under `.table-scroll`. No dependency: a plain walk over the hast tree.
+function rehypeTableScroll() {
+  const wrap = (node) => {
+    if (!node.children) return;
+    node.children = node.children.map((child) => {
+      if (child.type === 'element' && child.tagName === 'table') {
+        return {
+          type: 'element',
+          tagName: 'div',
+          properties: { className: ['table-scroll'], role: 'region', tabIndex: 0, ariaLabel: 'Scrollable table' },
+          children: [child],
+        };
+      }
+      wrap(child);
+      return child;
+    });
+  };
+  return (tree) => wrap(tree);
+}
+
 export default defineConfig({
   site: 'https://alohawindowbros.com',
+  markdown: {
+    rehypePlugins: [rehypeTableScroll],
+  },
   integrations: [
     sitemap({
       // A page that canonicalises to another URL must not also be submitted as its

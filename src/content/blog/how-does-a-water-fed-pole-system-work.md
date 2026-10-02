@@ -177,7 +177,7 @@ Ladders remain useful for interior glass, restricted courtyards, architectural p
 
 Purified water can provide a spot-free rinse, but it does not dissolve every deposit. Calcium drip lines from sprinkler overspray, oxidized insect marks, and baked-on residue may need slower brushing, treatment, or hand detailing. Coastal homes may carry salt aerosol, while foothill properties can collect windblown dust and grit. Brush agitation and continuous rinsing remove ordinary surface soil, but mineral scale can remain bonded to the pane.
 
-Skylights show why access must match the glass and structure. This guide to [skylight cleaning with a pole](/blog/skylight-cleaning-pole/) explains the access concerns around angle, surrounding surfaces, and tool control. The choice is not a fixed ladder-versus-pole rule. It is the method that allows safe positioning, proper brush contact, thorough rinsing, and a finish the cleaner can inspect.
+Skylights show why access must match the glass and structure. This guide to [skylight cleaning with a pole](/blog/skylight-cleaning-pole/) explains the access concerns around angle, surrounding surfaces, and tool control, and our walkthrough of [how to clean skylights](/blog/how-to-clean-skylights/) covers the rinse, brush, and dry sequence on both sides of the glass. The choice is not a fixed ladder-versus-pole rule. It is the method that allows safe positioning, proper brush contact, thorough rinsing, and a finish the cleaner can inspect.
 
 <a id="why-local-pros-like-aloha-window-bros-rely-on-pure-water"></a>
 ## Why Local Pros Like Aloha Window Bros Rely on Pure Water

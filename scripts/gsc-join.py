@@ -106,4 +106,5 @@ def main():
         print(f"cluster totals: {tot_i} impr / {tot_c} clicks")
 
 
-main()
+if __name__ == "__main__":
+    main()

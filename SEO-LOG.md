@@ -4,6 +4,106 @@
 
 ---
 
+### 2026-10-02
+
+**What we did:**
+- **refresh + internal_links (primary): `/blog/how-to-clean-skylights/`.** Google moved the skylight cluster onto
+  this URL by itself on 09-17. It now holds 95% of the cluster's impressions and has only 2 inbound links.
+  - **Information gain over the generic how-tos** (none of which cites a manufacturer): a new table, "What Three
+    Skylight Manuals Say, Step by Step", compares the **VELUX care and maintenance guide, the Super Sky glass skylight
+    manual and the Architectural Specialties dome manual** across 9 rows: when, order, cleaner on glass, cleaner on
+    plastic, tools, drying, blades, pressure washing and standing on the unit. It names the two places they disagree:
+    diluted ammonia on acrylic (VELUX yes, Architectural Specialties no household cleaners), and gasoline (VELUX bans
+    it on plastic; Architectural Specialties bans ordinary gasoline but allows white gasoline, kerosene or naphtha
+    for grease spots). It adds VELUX's Neat glass coatings, its "professionally every two to three years" interval
+    and its remove-and-hose method for skylight insect screens. Every manual figure was checked against the source text today.
+  - Direct answer first, plus a key-takeaways box. The description was rewritten (142 chars). The **title was not
+    changed** because it already matches *how to clean skylights*.
+  - **Accuracy fixes:** two real manuals were mislabelled ("maintenance instructions for exterior windows, doors, and
+    skylights" is VELUX; the Hawaii PDF is Super Sky). A dead UK source carried "25 mph" and "65 to 70 feet" and is
+    removed in both places. An off-topic ASTM E2112 paragraph and a dangling "the following demonstration" line were
+    cut. Two hotlinked images were removed: one showed a fabricated person on a stepladder, the other had sparkle glyphs.
+  - **Inbound contextual links 2 -> 9**, from `how-does-a-water-fed-pole-system-work` (160 impr @ 7.4),
+    `is-professional-window-cleaning-worth-it` (181 @ 3.2), `streak-free-window-cleaning-cloth` (218 @ 8.9),
+    `window-washing-squeegee` (108 @ 9.5), `interior-and-exterior-window-cleaning` (54 @ 5.6), `skylight-cleaning-pole`
+    and `skylight-cleaning-solution`. Anchors vary, and none uses the bare "skylight cleaning".
+- **technical (secondary): markdown tables no longer clip on phones.** At 390px, 27 posts had tables wider than the
+  column, and `body { overflow-x: hidden }` cut them off instead of letting them scroll. That included
+  `best-streak-free-window-cleaner`, the site's top click page (149px hidden). A rehype plugin wraps every table in a
+  keyboard-focusable scroll region, and blog tables got basic styling (they had none). Verified in `dist/` at 390px
+  across all blog and service pages: 216 tables, **0 clipped**, 36 scroll inside their frame.
+- **No title_meta, no new content, no GBP change, and no edit to any page under review as a target.** The two
+  donors with open reads (`skylight-cleaning-pole`, review 10-19; `skylight-cleaning-solution`, 10-30) only gained
+  an outbound sentence, which cannot move their own graded numbers.
+
+**Why we did it (brief window 2026-09-02..2026-09-29, plus the join, a page probe and device/country/date pulls):**
+- **The skylight how-to is the largest clean, untreated, real-demand striking-distance surface on the board.**
+  Page-level: **877 impr / 1 click @ 8.1** (brief Top pages #3 blog page), plus 70 slashless. Query rows: *skylight
+  cleaning* **74 @ 14.7**, *how to clean skylights* **46 @ 9.0**, *how to clean skylights without getting on roof*
+  **25 @ 6.2**, *how to clean skylight calendar screen* 20 @ 8.7, *how to clean a skylight* 18 @ 9.5, *from inside*
+  11 @ 7.5, and about 35 more. **Country: 91% US (289 of 316). Device: mobile 154 / desktop 160.** That is the human
+  pattern, unlike the screens and streak-method pages. Daily: 0 through 09-15, then 41 (09-17) rising to about
+  100 a day from 09-20.
+- **It is the URL Google chose, so it gets the signal** (the 08-26 lesson). In 08-05..09-01 every skylight row
+  (257 impr) sat on `skylight-cleaning-service`. In this window 95% of 338 sit on the how-to, at better positions
+  (*how to clean skylights* 14.7 -> 9.0, *without getting on roof* 12.0 -> 6.2). Not consolidated: under the 09-11
+  heading test the two pages are complementary (DIY procedure vs service scope and material table), and they cross-link.
+- **Scoreboard:** `internal_links` **5-0-0** and `refresh` **3-0-1** are the only clean records. This is the playbook
+  case: a page at 8 to 15 with 2 inbound links. `title_meta` (2-4-4) is not needed, since the title already matches.
+  `technical` (3-2-10) is used only for a defect verifiable in `dist/`, with no ranking claim. `gbp` (0-0-13) is logged only.
+- **Why not the rows the brief ranks higher:**
+  - *how to clean window screens* (64,603 @ 9.5) and the `+`/`%` rows: the 09-21 scraper spike **ended 09-24**,
+    as predicted. Post-spike (09-25..09-30) the page draws **484 impr, 95% US, 0 clicks @ ~8.6**. That is real
+    demand, but the page is under review until 10-28 and is left alone.
+  - *how to clean windows streak free* (1,949 @ 5.2, 0 clicks): **not human.** 1,945 of the page's 1,947
+    impressions are desktop, 97 countries, **0% US** (Ukraine 242, Turkey 231, South Africa 186...), all before
+    09-16, and 0 to 3 a day since. Written into the site map for the 10-23 grader.
+  - The streak-product rows (*best no streak window cleaner* 996 @ 2.9, *best glass cleaner for windows 2025* 1,162 @
+    9.1) are on the click engine. **Its real page total is 68 clicks / 10,820 impr @ 7.6 (prior 10 / 2,053)**, not the
+    brief's "decaying" 0 / 593. The title stays untouched; the only change there is the table fix.
+  - **Camarillo** (pack ABSENT): *window cleaning camarillo* 54 @ 7.3 and *window washing camarillo* 36 @ 7.5 already
+    beat the 09-14 targets (7.5 / 8.0), and that read runs until 10-26. Newbury Park's non-brand demand is 14 impr.
+  - `how-to-clean-window-sills-and-tracks` (467 / 3 clicks) and `residential-window-cleaning-prices` (453 / 4) are
+    76 to 89% anonymized queries, and their visible rows are scattered foreign or long-tail. There is no head query to push.
+- **Why NOT new_content:** the matrix is complete, and skylights already have four own-URLs.
+
+**Expected impact (review 2026-11-13, 42 days):**
+- **Primary:** *how to clean skylights* moves from **9.0 to 6.0 or better**, *skylight cleaning* from **14.7 to 11.0 or
+  better**, and `/blog/how-to-clean-skylights/` earns **at least 4 page-level clicks in a 28-day window** (1 today).
+  Impressions are not claimed: skylight demand may soften into winter, and the daily series has already dipped
+  twice (09-25 and 09-26: 6 and 11).
+- Secondary: the "manuals" content starts drawing material-specific rows on this URL. At least 2 new query rows
+  containing "acrylic", "plastic", "polycarbonate", "dome", "velux" or "screen" (today: *how to clean plastic
+  skylights* 3 @ 5.0, *how to clean skylight screen* 3 @ 6.0).
+- Table fix: no ranking claim. `best-streak-free-window-cleaner` holds **at least 60 page-level clicks per 28 days**
+  (68 today) and its US mobile clicks hold at 11 or more.
+
+**Metrics at time of action (2026-09-02..2026-09-29):**
+- Brief: 95 clicks / 82,572 impr; non-brand **27 clicks** / 81,886 impr, 1,067 queries, avg pos 9.4.
+  True sitewide (`date` dimension): **205 clicks / 95,224 impr.**
+- `/blog/how-to-clean-skylights/`: 1 click / 877 impr @ 8.1 (page level), 316 visible / 561 anonymized. Inbound links 2 -> 9.
+- Skylight cluster: 338 visible impr / 0 clicks, 95% on the how-to. `skylight-cleaning-service` 1 / 159 @ 7.8 (prior 0 / 277 @ 12.3).
+- `best-streak-free-window-cleaner`: 68 clicks / 10,820 impr @ 7.6 page level; US mobile 2,272 impr / 11 clicks (filtered pull).
+- Tables at 390px: 27 posts clipped before; 216 tables, 0 clipped, 36 scrolling after.
+
+**Logged, NOT actioned (for the GBP workstream and future runs):**
+1. **gbp, pack queries (brief):** *window cleaning near me* 132 @ 4.5, *gutter cleaning* 80 @ 3.8, *window washing
+   thousand oaks* 54 @ 2.7, *screen cleaning service* 40 @ 3.9, *window cleaning agoura hills* 39 @ 3.5, *window
+   cleaning westlake village* 35 @ 2.3. **Geo-grid: Agoura Hills and Westlake Village GAINED (ours #2 at both).**
+   Still ABSENT at **Newbury Park** (Golden Window Washing #1 with 2 reviews), **Camarillo** (Guerrero #2 with 13)
+   and **Oak Park** (Assets #2 with 20), against our 237 reviews. Review velocity and categories are the levers.
+2. Dead sources: the FWC water-fed pole PDF on `skylight-cleaning-service`, and `skylight-cleaning-pole`'s "20 metres
+   / 65 to 70 feet" claim from UK guidance. The how-to hero has two sparkle glyphs (replace at source, like the
+   storefront hero). `glass-cleaning-services` and `streak-free-window-cleaning-cloth` still hotlink `cdnimg.co`.
+3. Screens post: post-spike it is a real US page with 0 clicks at ~8.6. If the 10-28 review shows no clicks,
+   look at the snippet next (*cleaning a window screen* sits at 1.2 with 0 clicks, a likely AI Overview citation).
+4. Still open: the four lead-paragraph price contradictions, the two unattributed "expert" blockquotes on
+   `solar-panel-cleaning-camarillo-...`, and real gutter price bands from the business.
+
+**Review after 42 days (2026-11-13).**
+
+---
+
 ### 2026-09-30
 
 **What we did:**
