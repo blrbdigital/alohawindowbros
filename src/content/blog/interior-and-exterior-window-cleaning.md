@@ -67,7 +67,7 @@ The cleaning method may vary by material and condition. A soft brush can loosen 
 <a id="step-two-and-three-protect-the-glass"></a>
 ### Step two and three protect the glass
 
-Frames and tracks collect grit in corners, drainage channels, and weep holes. A detailing brush and mild solution break up that buildup without forcing abrasive particles across the glass. Sills and ledges then need wiping or rinsing, because rain can carry their residue down over a clean pane.
+Frames and tracks collect grit in corners, drainage channels, and weep holes. A detailing brush and mild solution break up that buildup without forcing abrasive particles across the glass. Sills and ledges then need wiping or rinsing, because rain can carry their residue down over a clean pane. Our guide to [cleaning window sills and tracks](/blog/how-to-clean-window-sills-and-tracks/) covers the dry-first order and a one-cup test for the weep holes.
 
 A quick glass-only appointment often looks unfinished. The glass may shine at departure, but dirty tracks and sills remain visible whenever the window opens. They can also make the next exterior wash harder by releasing old grime into the rinse water.
 

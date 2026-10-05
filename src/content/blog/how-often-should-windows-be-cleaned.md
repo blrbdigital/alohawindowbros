@@ -267,7 +267,7 @@ Between professional visits, small habits make a real difference. Not because th
 
 You don't need a full DIY setup to help your windows stay cleaner longer.
 
-- **Wipe sills and tracks lightly:** Dry dust becomes muddy grime once moisture hits it.
+- **Wipe sills and tracks lightly:** Dry dust becomes muddy grime once moisture hits it, so vacuum first ([sill and track cleaning, step by step](/blog/how-to-clean-window-sills-and-tracks/)).
 - **Watch sprinkler overspray:** If a lower pane keeps spotting, fixing the spray pattern helps more than wiping the glass again.
 - **Rinse screens gently when needed:** Dirty screens can make clean glass still look dingy from inside.
 - **Use the right cloth:** A clean microfiber cloth is safer than old paper towels that can smear residue around.

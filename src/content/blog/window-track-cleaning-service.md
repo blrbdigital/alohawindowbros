@@ -157,7 +157,7 @@ The practical indicators are straightforward:
 <a id="diy-window-track-cleaning-versus-hiring-a-professional-service"></a>
 ## DIY Window Track Cleaning Versus Hiring a Professional Service
 
-DIY cleaning can work when the track is accessible, lightly soiled, and dry. A homeowner can vacuum loose debris, use a narrow brush, apply a compatible detergent, wipe the channel, and dry it. That routine is reasonable for maintenance between deeper visits, provided the person can reach the entire track safely and understands where the drainage openings are.
+DIY cleaning can work when the track is accessible, lightly soiled, and dry. A homeowner can vacuum loose debris, use a narrow brush, apply a compatible detergent, wipe the channel, and dry it. Our [DIY window track cleaning guide](/blog/how-to-clean-window-sills-and-tracks/) walks through that routine, including what the JELD-WEN, Milgard, Pella and Andersen care manuals allow. That routine is reasonable for maintenance between deeper visits, provided the person can reach the entire track safely and understands where the drainage openings are.
 
 The weak point is consistency. Many people start with a wet paper towel, spread the dirt into a paste, and stop once the visible sill looks better. The lower corners remain loaded with residue, the weep holes go untouched, and moisture stays trapped under the frame lip.
 

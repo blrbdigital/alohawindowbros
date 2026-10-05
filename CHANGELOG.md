@@ -1,3 +1,36 @@
+## 2026-10-05 - Sills and tracks guide refreshed around four window makers' manuals, 0 to 5 inbound links, FAQ schema added
+
+**Primary action (refresh + internal_links): `/blog/how-to-clean-window-sills-and-tracks/`.** Google started ranking
+this post on 09-23 with no help from the site: in 09-05..10-02 it drew 650 impressions and 4 clicks at position 9.4,
+89% of its visible query rows from the US. The head row, *how to clean window sills and tracks*, sits at 9.7. The
+tracks-only rows sit at 27 to 28 (*window track cleaning* 38 impressions, *how to clean window tracks* 16). It had
+no inbound internal links and no FAQ markup, so it emitted no FAQPage schema. It is not under any open review.
+- Direct answer and key takeaways now lead the post.
+- New section "What Four Window Manufacturers Say About Track Cleaning": a 9-row table comparing JELD-WEN's vinyl
+  care guide (JCM002), Milgard's care guide, Pella's owner's manual and Andersen's care sheet (debris, washing,
+  vinegar, solvents, weep holes, lubricant, water pressure, abrasives, coastal homes), plus where they disagree:
+  JELD-WEN allows a vinegar solution on vinyl, while Milgard bans acidic cleaners on its frames. None of the live top
+  results (Thompson Creek, Molly Maid, Homeaglow, Magic Window and similar) cites a manufacturer manual.
+- JELD-WEN's one-cup drain test and its offset-passage warning replace the vague "small test amount of water".
+- Accuracy fixes: the lead-dust paragraph now uses the verified NSLAH means (troughs 1,991, sills 195, floors 14
+  µg/ft²) and EPA's 2024 limits (5 / 40 / 100 µg/ft²). The old "200 ng/ft² for floors" had the wrong unit.
+  Removed a PubMed citation captioned "wood-frame cleaning guidance" that is actually a UK house dust mite study,
+  two Australian `windowstech.com.au` citations, an unlinked BISSELL claim, a dangling "video below" line and the
+  Magic Eraser advice, since every manual bans abrasives.
+- Three `cdnimg.co` infographics deleted (a "blow out fine dust" step the post itself warns against, a sparkle glyph,
+  and a "monthly vinegar rinse" that Milgard's manual prohibits). The fourth was localized to `public/img/blog/`.
+- 6 FAQ items built around how people ask (best way, vinegar, weep holes, WD-40, standing water, how often). FAQPage
+  parity is 6 == 6 in `dist/`.
+- **Inbound contextual links 0 -> 5:** `interior-and-exterior-window-cleaning`, `is-professional-window-cleaning-worth-it`,
+  `how-often-should-windows-be-cleaned`, `window-cleaning-quotes` (FAQ answer) and `window-track-cleaning-service`.
+  Anchors vary, and none is the bare head query.
+- The title is unchanged because it already matches the head query. The meta description was rewritten (144 chars).
+  Mobile check at 390px: no horizontal scroll, and all three tables scroll inside their frames.
+
+**No other changes.** Every other row in the brief is mid-review (screens post until 10-28, streak pages until 10-23,
+Thousand Oaks 10-21, Camarillo 10-26, gutters 11-09, solar roof 11-11, skylights 11-13), on map-pack ground, or
+off-intent. Detail in `SEO-LOG.md`.
+
 ## 2026-10-02 - Skylight how-to refreshed around three skylight manuals, 2 to 9 inbound links, tables no longer clipped on phones
 
 **Primary action (refresh + internal_links): `/blog/how-to-clean-skylights/`.** Starting 09-17, Google moved the whole

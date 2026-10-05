@@ -4,6 +4,110 @@
 
 ---
 
+### 2026-10-05
+
+**What we did:**
+- **refresh + internal_links (primary): `/blog/how-to-clean-window-sills-and-tracks/`.** Google started ranking this
+  Outrank post (09-11) on **09-23**, with no inbound links, no FAQ markup and four hotlinked images. It is the
+  largest human, informational surface on the board with no open review.
+  - **Information gain over the live top results** (Thompson Creek, Magic Window, Homeaglow, Molly Maid, Exovations,
+    none of which cites a window maker): a new section, "What Four Window Manufacturers Say About Track Cleaning".
+    It is a 9-row table comparing **JELD-WEN's vinyl care guide (JCM002), Milgard's Care and Maintenance Guide,
+    Pella's Owner's Manual and Andersen's care sheet** on loose debris, washing solution, vinegar, solvents, weep
+    holes, lubricant, water pressure, abrasives and coastal schedules. A "where the manuals disagree" list covers
+    vinegar (JELD-WEN allows 1 1/2 cups per gallon on vinyl; Milgard bans acidic cleaners; Pella keeps its vinegar
+    glass solution off frames), solvents (Pella allows mineral spirits; JELD-WEN warns they attack weatherstrip;
+    Milgard bans petroleum products) and how to apply silicone. JELD-WEN's **one-cup drain test** and its offset-passage
+    wire warning replace a vague "small test amount of water". Every figure was checked against the source PDFs today.
+  - Direct answer first (the first ~95 words answer the head query), plus a key-takeaways box. **6 FAQ items** (best
+    way, vinegar, weep holes, WD-40, standing water, how often), FAQPage parity 6 == 6 in `dist/`. Description
+    rewritten (144 chars). **The title was not changed** because it already matches the head query.
+  - **Accuracy fixes:** "200 ng/ft² for floors" (wrong unit) and the unverifiable 1990 HUD paragraph were replaced
+    with EPA's 2024 limits (5 / 40 / 100 µg/ft²) and the verified NSLAH means (troughs 1,991, sills 195, floors 14
+    µg/ft²). Removed: a **PubMed link captioned "wood-frame cleaning guidance" that is a UK dust mite study**
+    (fabricated attribution), two Australian `windowstech.com.au` citations, an unlinked BISSELL claim, a dangling
+    "video below" line, and Magic Eraser advice that every manual's abrasive ban rules out. Three `cdnimg.co`
+    infographics were deleted: one showed a "blow out fine dust" step the post warns against, one had a sparkle
+    glyph, and one prescribed a "monthly vinegar rinse" that Milgard prohibits. The fourth was localized.
+  - **Inbound contextual links 0 -> 5**, from `interior-and-exterior-window-cleaning`, `is-professional-window-cleaning-worth-it`,
+    `how-often-should-windows-be-cleaned`, `window-cleaning-quotes` (FAQ answer) and `window-track-cleaning-service`
+    (the service-side twin). Anchors vary: "cleaning window sills and tracks", "how to clean window tracks",
+    "sill and track cleaning, step by step", "how to clean window sills and tracks", "DIY window track cleaning guide".
+- **No title_meta, no new content, no GBP change, and no edit to any page under review.** None of the five donors has
+  an open read. Each only gained an outbound sentence.
+
+**Why we did it (brief window 2026-09-05..2026-10-02, plus the join, a page probe and country/device/date pulls):**
+- **The page is real, human, and untreated.** Page level: **650 impr / 4 clicks @ 9.4** (brief Top pages: 650 / 4 /
+  9.4), 168 visible and 482 anonymized. Visible rows: *how to clean window sills and tracks* **47 @ 9.7** (US 44),
+  *window track cleaning* **38 @ 28.3**, *how to clean window tracks* **16 @ 27.4** (US 14), *frame and sill cleaning*
+  15 @ 10.5, *window sill cleaning* 5 @ 22.2, *cleaning window sills of mold* 2 @ 4.0. **Country: 150 of 168 visible
+  impressions are US (89%). Device: desktop 100 / mobile 67.** Daily: 0 through 09-21, then 43 to 93 a day from
+  09-23, with all 4 clicks after that (09-23, 09-24, 09-25, 09-30). That is the skylight pattern from 10-02:
+  Google chose the URL on its own and the site never consolidated signal behind it.
+- **The tracks-only rows at 27 to 28 are the content gap.** The head query is on page 1, but the post ranked on
+  page 3 for track wording. The added content (weep holes, drain test, lubricants, manufacturer rules) is all
+  track-specific.
+- **Scoreboard:** `internal_links` **5-0-0** and `refresh` **3-0-1** remain the only clean records. A page at 9 to 10
+  with zero inbound links is the textbook case. `title_meta` (2-4-4) is not needed. `gbp` (0-0-13) stays logged-only.
+  `technical` (3-2-10) is not used.
+- **Why not the rows the brief ranks higher:**
+  - *how to clean window screens* (64,641 @ 9.5) and the `+`/`%`/variant rows: the screens post (68,750 non-brand
+    impressions / 0 clicks in the join) is under review until **10-28**.
+  - *how to clean windows streak free* (1,944 @ 5.2 on `how-to-get-streak-free-windows`): diagnosed 10-02 as 0% US
+    desktop traffic from 97 countries that ended 09-16. Under review until 10-23.
+  - The streak-product rows (*best glass cleaner for windows 2025* 1,162 @ 9.1, *best no streak window cleaner* 763 @
+    3.6, *streak free window cleaner* 834 @ 7.0) sit on the site's click engine, `best-streak-free-window-cleaner`
+    (21 non-brand clicks on query rows alone). Its title stays untouched.
+  - **Decaying pages are not decay:** `/newbury/` 390 -> 105 is brand rows plus UK cladding rows (*window cleaning
+    newbury park* holds 14 @ 4.1). `window-cleaning-for-high-windows` 452 -> 251 improved position 10.7 -> 9.1 and is
+    the 09-28 consolidation winner under read. `how-to-remove-hard-water-spots-from-windows` 226 -> 133 moved from
+    22.0 to **7.7**. `skylight-cleaning-service` lost rows to the how-to, which is documented. The slashless
+    `/blog/best-streak-free-window-cleaner` row is the URL-variant split (the 301 is live; re-checked today).
+  - `hard-water-stains-on-granite` (829 impr / 4 clicks with its slashless twin, all anonymized) is granite
+    countertops, which this business does not sell. `residential-window-cleaning-prices` (475 / 4 @ 6.4) is 89%
+    anonymized, and its visible rows are long-tail with no head query.
+  - `commercial-storefront-windows` (533 non-brand): *commerical storefront windows* 205 @ 19.5 and *storefront
+    windows* 126 @ 17.3 are architectural intent, and the map pack there is glass contractors.
+- **Why NOT new_content:** the matrix is complete, and tracks already have two own-URLs (this guide and
+  `window-track-cleaning-service`), which are complementary (DIY procedure vs service scope) and now cross-link.
+
+**Expected impact (review 2026-11-16, 42 days):**
+- **Primary:** *how to clean window sills and tracks* moves from **9.7 to 7.5 or better**, and *how to clean window
+  tracks* / *window track cleaning* move from **27 to 28 to 18 or better** (either row). The page earns **at least 12
+  clicks in the 28-day window before review**. Caution for the grader: the page only ranked for 10 days of this
+  window, so its untreated run rate is already about 11 per 28 days. **Position is the real claim.**
+- Secondary: at least **2 new query rows** on this URL containing "weep", "vinegar", "wd-40", "lubric", "silicone",
+  "jeld", "milgard", "pella" or "andersen" (today: none).
+- Impressions are not claimed. Daily impressions have eased from 93 (09-24) to about 59 (10-02) as the page settles.
+
+**Metrics at time of action (2026-09-05..2026-10-02):**
+- Brief: 97 clicks / 83,991 impr; non-brand **33 clicks** / 83,289 impr, 1,198 queries, avg pos 9.4.
+- `/blog/how-to-clean-window-sills-and-tracks/`: 4 clicks / 650 impr @ 9.4 page level; 41 query rows, 168 visible /
+  482 anonymized; head 47 @ 9.7; US 150 of 168 visible. Inbound contextual links 0 -> 5. FAQ items 0 -> 6.
+- `window-track-cleaning-service`: 0 / 13 @ 7.6.
+
+**Logged, NOT actioned (for the GBP workstream and future runs):**
+1. **gbp, pack queries (brief):** *gutter cleaning* 86 @ 4.0 (join: `/` 47 @ 1.0, service page 39 @ 7.6), *window
+   washing thousand oaks* 55 @ 2.6, *window cleaning agoura hills* 42 @ 4.0, *screen cleaning service* 39 @ 3.8
+   (join: `/services/screen-cleaning/` 20 @ 3.7, `window-screen-cleaning-service` 14 @ 4.9), *window cleaning
+   westlake village* 37 @ 2.3, *window cleaning prices thousand oaks* 20 @ 2.5, *window washing service agoura hills*
+   20 @ 4.0. **Geo-grid ("window cleaning near me"): Thousand Oaks center #1, Agoura Hills #2, Westlake Village #3;
+   ABSENT at Camarillo** (Guerrero Window Cleaning 13 and 1 reviews at #2 and #3), **Newbury Park** (Golden Window
+   Washing, 2 reviews, at #1) and **Oak Park** (Assets, 20 reviews, at #2), against our **241** reviews (237 on
+   10-02). Review velocity and categories are the levers.
+2. **Hero images with sparkle glyphs:** this post's auto-injected hero now joins the storefront and skylight heroes.
+   Replace all three at the source.
+3. Santa Barbara is unchanged: *window cleaning santa barbara* `/` 114 @ 8.4 vs `/santa-barbara/` 7 @ 41.4.
+4. Any other post that recommends vinegar on window frames or tracks without a brand caveat now contradicts this
+   page and Milgard's manual. Check when those posts come up for refresh.
+5. Still open: the four lead-paragraph price contradictions, the two unattributed "expert" blockquotes on
+   `solar-panel-cleaning-camarillo-...`, `skylight-cleaning-pole`'s UK "20 metres" claim and the dead FWC link on
+   `skylight-cleaning-service`, and real gutter price bands from the business.
+
+**Review after 42 days (2026-11-16).**
+
+---
+
 ### 2026-10-02
 
 **What we did:**

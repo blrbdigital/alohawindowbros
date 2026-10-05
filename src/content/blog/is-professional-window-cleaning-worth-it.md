@@ -49,7 +49,7 @@ For window cleaning, the complete service often has four connected parts:
 <a id="why-the-small-parts-matter"></a>
 ### Why the small parts matter
 
-Dirty tracks and sills can make a freshly washed pane feel unfinished. Screens can also limit the visual improvement because the mesh remains coated with fine debris. Cleaning those components improves the overall appearance and can help windows operate more cleanly, although it won't repair damaged hardware or failed seals.
+Dirty tracks and sills can make a freshly washed pane feel unfinished. Screens can also limit the visual improvement because the mesh remains coated with fine debris. Cleaning those components improves the overall appearance and can help windows operate more cleanly, although it won't repair damaged hardware or failed seals. If you would rather handle that part between visits, here is [how to clean window tracks](/blog/how-to-clean-window-sills-and-tracks/) without plugging the weep holes.
 
 Ask each company whether its quote includes these items or treats them as add-ons. A low glass-only quote may not be comparable with a four-in-one service.
 

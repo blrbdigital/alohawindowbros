@@ -238,7 +238,7 @@ Request at least three written quotes from insured local operators. Give each co
 
 <details class="faq-item">
 <summary>Should tracks and sills be included in a window cleaning quote?</summary>
-<p>They should be listed clearly, whether they are included or priced separately. If a contractor says "full service," ask exactly what that means for screens, tracks, frames, and sills. Aloha Window Bros quotes glass, screens, frames, and sills together as one four-in-one clean, so there is nothing to add back on later.</p>
+<p>They should be listed clearly, whether they are included or priced separately. If a contractor says "full service," ask exactly what that means for screens, tracks, frames, and sills. Aloha Window Bros quotes glass, screens, frames, and sills together as one four-in-one clean, so there is nothing to add back on later. For upkeep between visits, see <a href="/blog/how-to-clean-window-sills-and-tracks/">how to clean window sills and tracks</a>.</p>
 </details>
 <details class="faq-item">
 <summary>When should I request a new window cleaning quote after renovations?</summary>
