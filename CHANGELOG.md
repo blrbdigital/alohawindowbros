@@ -1,3 +1,11 @@
+## 2026-10-06
+### Services: gutter cleaning listed everywhere the site names its services
+- `/services/gutter-cleaning/` has been live since 2026-08-03, but four places still listed only windows, screens, and solar. Fixed all four:
+  - Homepage "What's included" FAQ (`src/pages/index.astro` `faqs`), which also feeds the FAQPage JSON-LD. Parity re-verified 11 == 11.
+  - `public/llms.txt`: gutters added to the intro line and the Services list. Its stale "$150 to $400" price line now matches the site's $150 to $475 window band, and it says gutters are quoted on site (no gutter price is published).
+  - `CityLanding.astro` Service node description now includes gutter cleaning (all 10 city pages).
+  - `src/lib/seo.ts`: new `SERVICES` array and a `hasOfferCatalog` on the shared business node, listing all four service pages. Emitted on every page that uses `businessNode()`.
+
 ## 2026-10-05 - Sills and tracks guide refreshed around four window makers' manuals, 0 to 5 inbound links, FAQ schema added
 
 **Primary action (refresh + internal_links): `/blog/how-to-clean-window-sills-and-tracks/`.** Google started ranking

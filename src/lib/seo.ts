@@ -82,6 +82,14 @@ export const AREA_SERVED = [
  * business. bbb.org 403s to non-browser agents (same rule that dropped CAL FIRE
  * and the AMS SWEX paper) and its profile is unclaimed, so it is left out.
  */
+/** Every service with its own page under /services/: [name, slug]. */
+export const SERVICES = [
+  ['Window Washing', 'window-washing'],
+  ['Screen Cleaning', 'screen-cleaning'],
+  ['Solar Panel Cleaning', 'solar-panel-cleaning'],
+  ['Gutter Cleaning', 'gutter-cleaning'],
+];
+
 export const SAME_AS = [
   'https://maps.google.com/?cid=4483745950804238350',
   'https://www.provenexpert.com/en-us/aloha-window-bros/',
@@ -121,6 +129,16 @@ export function businessNode(description?: string) {
       closes: '23:59',
     }],
     priceRange: '$150-$475',
+    // The four services with their own page under /services/. Add a line here
+    // whenever a service page is added, so the entity lists what it sells.
+    hasOfferCatalog: {
+      '@type': 'OfferCatalog',
+      name: 'Exterior cleaning services',
+      itemListElement: SERVICES.map(([name, slug]) => ({
+        '@type': 'Offer',
+        itemOffered: { '@type': 'Service', name, url: `${SITE}/services/${slug}/` },
+      })),
+    },
     aggregateRating: { '@type': 'AggregateRating', ...GBP },
     sameAs: SAME_AS,
   };
