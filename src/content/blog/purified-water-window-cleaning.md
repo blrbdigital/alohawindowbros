@@ -43,7 +43,7 @@ Two terms matter:
 
 The purpose is simple. If the rinse water contains very little dissolved material, evaporation has far less to deposit on the glass. Industry guidance commonly places the effective window-cleaning target at **0 to 10 ppm**, with some guidance recommending resin replacement when outlet TDS rises above about **10 ppm** for window work, as described by [Unger's guidance on common pure-water cleaning mistakes](https://usa.ungerglobal.com/blog/10-common-mistakes-in-pure-water-window-cleaning/).
 
-![A four-step infographic illustrating how purified water is used for streak-free window cleaning compared to tap water.](https://cdnimg.co/8387fe5a-1497-428d-a3af-57b68fc0bac4/726b53c5-337f-480d-9d2d-15ae5c5de54d/purified-water-window-cleaning-cleaning-process.jpg)
+For scale, the [City of Ventura](https://www.usbr.gov/drought/docs/2024/DRP-041_City_of_San_Buenaventura_508.pdf) reports that the groundwater making up about half of its supply runs **1,200 to 1,600 mg/L** of total dissolved solids before it is blended, more than 100 times that 10 ppm target (1 mg/L equals 1 ppm). That is why every job on our [Ventura window cleaning](/ventura/) route ends with a purified rinse, never a tap-water one.
 
 This guide focuses on **exterior glass at homes and low-rise commercial properties**, including difficult upper panes, frames, and reachable sills. It isn't a guide to interior pane detailing, skylight restoration, stucco washing, or removing permanent glass damage. The useful question is narrower: can purified water maintain this glass, or does the property need restoration first?
 
@@ -95,8 +95,6 @@ Coastal California makes those differences easy to see. Salt aerosol and sprinkl
 
 > **Practical rule:** Purified water is strongest as a maintenance method. It keeps routine contamination from becoming a new spotting problem, but it doesn't reverse every old stain.
 
-![A comparison chart showing the benefits of purified water for window cleaning versus traditional chemical-based cleaning methods.](https://cdnimg.co/8387fe5a-1497-428d-a3af-57b68fc0bac4/03e1f775-8987-4062-b04f-0b33864f3b34/purified-water-window-cleaning-comparison-chart.jpg)
-
 A water-fed pole also changes how a crew plans a route. The operator can clean glass, frames, and sills in a consistent sequence without carrying a bucket up and down a property. The result is less about a single “spot-free” promise and more about repeatable exterior maintenance.
 
 
@@ -119,8 +117,6 @@ A TDS meter confirms whether the output is suitable for glass. A careful operato
 Purified water travels through a hose to a water-fed pole. Poles may be made from carbon fiber or aluminum, and the right choice depends on reach, weight, stiffness, and the operator's ability to control the brush accurately.
 
 At the top, a soft-bristle brush provides the contact. The bristles loosen dust and film, while jets distribute water across the surface. A pump, pressure tank, or flow controller helps regulate delivery, but more water isn't automatically better. Excessive flow can waste water and make it harder to observe whether the rinse is clearing the pane.
-
-![A six-step infographic illustrating the professional purified water window cleaning process from filtration to final rinse.](https://cdnimg.co/8387fe5a-1497-428d-a3af-57b68fc0bac4/0db5bd93-40f9-4223-83f6-f171a44fde51/purified-water-window-cleaning-water-filtration.jpg)
 
 <a id="what-the-equipment-cannot-replace"></a>
 ### What the equipment cannot replace
@@ -195,8 +191,6 @@ A quote should tell you more than the number of windows. Ask how the crew produc
 - **Identify the brush:** Soft, non-scratch bristles suit many routine glass surfaces, while specialty work may call for a different head.
 - **Clarify the scope:** Confirm whether frames, sills, screens, tracks, interiors, and skylights are included or priced separately. Skylights in particular are worth naming out loud, because the [safe method depends on whether the unit is glass or an acrylic dome](/blog/skylight-cleaning-service/).
 - **Discuss stains before booking:** Ask how the company handles hard-water film, etching, paint, and neglected frames.
-
-![A checklist infographic titled How to Choose a Purified Water Cleaning Service with five key considerations.](https://cdnimg.co/8387fe5a-1497-428d-a3af-57b68fc0bac4/cb84465c-2363-48fc-ace5-f2e24e247518/purified-water-window-cleaning-checklist.jpg)
 
 Photos from similar properties can help, especially if your home faces the ocean or receives sprinkler overspray. A company that has handled comparable Ventura or Santa Barbara conditions should be able to explain what the crew expects to remove and what might require restoration.
 

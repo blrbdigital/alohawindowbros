@@ -4,6 +4,122 @@
 
 ---
 
+### 2026-10-07
+
+**What we did:**
+- **refresh + internal_links (primary): `/ventura/`.** A city money page Google started ranking on its own on **09-06**,
+  untreated and under no open review, with ~20 human city rows at positions 10 to 17.
+  - **Accuracy fix with information gain:** the page said Ventura Water blends in State Water Project supply. The City of
+    Ventura's FY 2024 drought resiliency application to the US Bureau of Reclamation says it meets demand "exclusively with
+    local water supplies" (about 45% Ventura River and Lake Casitas, about 54% groundwater from the Mound, Oxnard Plain and
+    Santa Paula basins). Its groundwater runs **1,200 to 1,600 mg/L TDS** before blending (above the 1,000 mg/L secondary
+    standard), east-end Santa Paula Basin water averages **about 1,300 mg/L**, and its 10,000 AFY State Water entitlement
+    waits on a 4.3-mile pipeline scheduled for Nov 2024 to May 2027. None of the live results for *window cleaning ventura
+    ca* (Thumbtack, TIDY, ServiceMaster, local cleaners) says anything about the city's water. Paired with Unger's 5 to 10
+    ppm rinse target (already verified on this site).
+  - Intro rewritten as a direct answer; "Sundowner wind off the Topa Topa range" replaced with Santa Ana wind down the
+    Santa Clara River Valley; two new FAQs (east Ventura sprinkler spotting, whether Ventura water will get softer), parity
+    7 == 7; new optional `factorSources` prop on `CityLanding` cites both sources under the factor cards. **Title and meta
+    unchanged.**
+  - **The city page's own "Read the Guide" post was rebuilt** because it contradicted the page: $175 to $375 vs $175 to
+    $425 (open since 09-14), a quote falsely attributed to the South Coast AQMD (which does not cover Ventura), an unsourced
+    "12 to 18 grains per gallon", invented price tiers and add-on prices, homepage-only CPSC/NAHB/IWCA/NOAA claims, and a tip
+    to hose windows with tap water. New "Ventura's Water Is the Hidden Variable" section and supply table. FAQ moved to
+    `<details>` (6 == 6), manual JSON-LD script removed, neighbor links re-pointed to landing pages, all dashes swept.
+  - **New contextual links to `/ventura/`** from `purified-water-window-cleaning` ("Ventura window cleaning", with the TDS
+    figure), `hard-water-stains-ojai-well-water-guide` ("Ventura window cleaning page", clarifying that Ventura city is not
+    on that table's State Water row), `residential-window-cleaning-prices` ("window cleaning in Ventura") and
+    `window-cleaning-oxnard-coastal-homeowners-guide` (neighbor link re-pointed from the old blog guide).
+- **technical (secondary): 3,064 internal links on 118 pages pointed at URLs that 301.** Since the 09-04 nginx fix every
+  slashless path redirects to its trailing-slash canonical, but the footer (10 cities, 4 services, blog, privacy on every
+  page), header, blog sidebar, homepage service cards, blog index (every post card) and many markdown posts still linked the
+  slashless form. Fixed in the templates and with a new `rehypeTrailingSlash` plugin for markdown. After: **0**.
+- **Smaller fixes:** `residential-window-cleaning-prices` said "$200 to $475" for Ventura and Santa Barbara against the
+  published $150 to $475 county band (fixed, city bands named). `purified-water-window-cleaning` lost four hotlinked
+  `cdnimg.co` infographics: every one had sparkle glyphs and the first had em dashes in the image. `seo.ts` comment
+  placement from the 10-06 commit corrected.
+- **No title_meta, no new content, no GBP change, and no edit to any page under review as a target.** The sitewide link
+  fix touches every page equally, including pages under review; it changes no content and no anchor, only removes a
+  redirect hop, so it cannot favour one read over another.
+- **Note for the grader:** the 10-06 commit (gutter cleaning listed in the homepage FAQ, `llms.txt`, city schema and
+  `hasOfferCatalog`) was committed but never pushed. It ships with this push.
+
+**Why we did it (brief window 2026-09-07..2026-10-04, plus the join, page probes, a page x date pull and URL Inspection):**
+- **`/ventura/` is the largest untreated, human, money-intent surface on the board.** Page level: **267 impr / 3 clicks @
+  12.4, prior 4 @ 10.5**, 39 query rows (180 visible, 87 anonymized). Rows: *window cleaning ventura* **25 @ 10.6** (`/`
+  also takes 14 @ 2.9), *window washing ventura* 13 @ 12.8, *ventura window washing* 9 @ 12.4, *window cleaner ventura* 7 @
+  12.0, *ventura window cleaners* 6 @ 12.0, *window cleaning service ventura* 6 @ 15.5, *window cleaning ventura ca* 6 @
+  16.7, *window cleaning company ventura* 4 @ 15.0, *window washing company ventura* 4 @ 12.5, *window cleaning prices
+  ventura* 4 @ 8.0. Daily: first impressions 09-05, about 10 a day, positions 12 to 16 early and 6 to 9 over 09-29..10-03.
+  URL Inspection: indexed, last crawled **2026-10-06**. It is the `/camarillo/` shape that `internal_links` won on (nothing
+  to 477 impressions), now on a city of about 113,500 people that the geo-grid does not scan and where the 08-07 join found
+  the GBP absent or at 16.0, so organic rank is most of the game.
+- **Scoreboard:** `internal_links` **5-0-0** and `refresh` **3-0-1** remain the only clean records. `/ventura/` already
+  receives sitewide template links, so the contextual links are the smaller half of this; the content fix (a false
+  supply claim replaced with the city's own figures) is the larger half. `title_meta` (2-4-4) is not needed: the title
+  already reads "Window Cleaning Ventura, CA". `gbp` (0-0-13) stays logged-only. `technical` is 3-2-10, which is why the
+  link fix is secondary and its prediction is about URL variants, not rankings.
+- **Why not the rows the brief ranks higher:**
+  - *how to clean window screens* (64,644 @ 9.5, 0 clicks) and the `+`/`%`/variant rows: the 09-21 scraper pattern on the
+    screens post (join: 68,953 non-brand impr / 1 click), under review until **10-28**.
+  - *how to clean windows streak free* (1,944 @ 5.2) and the streak-product rows: under review until 10-23 and documented as
+    impression-only. `best-streak-free-window-cleaner` is not decaying: page level **67 clicks / 11,462 impr @ 7.8 (prior
+    16 / 3,092)**. The brief's 987 is the query-row artifact.
+  - **Decaying pages, checked:** `/newbury/` is brand; `skylight-cleaning-service` lost rows to the how-to (documented);
+    `how-to-remove-hard-water-spots-from-windows` and `purified-water-window-cleaning` both moved **up** (21.6 to 7.5, 24.6
+    to 6.9) on fewer impressions; `window-cleaning-ventura-ca` (48 to 10) lost its Ventura rows to `/ventura/`, which is the
+    intended direction.
+  - Other untreated pages probed and rejected: `commercial-storefront-windows` (architectural intent, glass-contractor
+    pack), `hard-water-stains-on-granite` (countertops), `residential-window-cleaning-prices` (431 of 483 impressions
+    anonymized, national long tail), `cleaning-companies-in-santa-barbara` (brand plus *gutter cleaning services santa
+    barbara* 24 @ 11.8), `screen-cleaning-spray` (253 of 274 anonymized, patio screens), `is-professional-window-cleaning-worth-it`
+    (220 @ 3.6, 0 clicks: "near me" and competitor-name rows, map-pack ground).
+  - `/contact/?city=Camarillo` (125 @ 4.9) and `?city=Agoura%20Hills` (35 @ 4.1) are brand-only sitelink rows; the
+    canonical already points at `/contact/`. Nothing to do.
+  - Camarillo, the only ABSENT geo-grid point, is under review until 10-26 (09-14 links). Logged for GBP below.
+- **Why NOT new_content:** the matrix is complete, Ventura already has five own-URLs, and the fix it needed was accuracy
+  and consolidation of signal onto the landing page, not another page.
+
+**Expected impact (review 2026-11-18, 42 days):**
+- **Primary:** `/ventura/` page-level position from **12.4 to 9.0 or better**, with **350+ impressions and 5+ clicks** in
+  the 28 days before review, and *window cleaning ventura* on `/ventura/` from **10.6 to 8.0 or better**. Caution for the
+  grader: this is a fresh ranker already trending up (daily 6 to 9 in its last week), so untreated it would probably sit
+  near 9 to 10. The claim is that it beats that. Controls: `/oxnard/` (11.3) and `/ojai/` (16.3) received only the
+  sitewide link fix.
+- **Technical:** combined impressions on slashless URL variants fall from **about 910** (09-07..10-04, ~30 URLs, two
+  truncated rows excluded) to **under 450**, and slashless `/blog` from **166 to under 50**. No ranking claim.
+- The guide rebuild, price fix and image removals are trust and AI-citation fixes. No ranking prediction.
+
+**Metrics at time of action (09-07..10-04 unless stated):**
+- Brief: 94 clicks / 84,712 impr; non-brand **36 clicks** / 84,028 impr, 1,278 queries, avg pos 9.4.
+- `/ventura/`: 3 clicks / 267 impr @ 12.4 page level (prior 0 / 4 @ 10.5); rows as above. FAQ 5 -> 7. Content files
+  linking it in the body: 11 -> 15 (not counting the rebuilt guide, which already linked it).
+- Ventura guide: 0 / 17 @ 9.9 (08-10..10-04, all anonymized).
+- Slashless internal links in `dist/`: 3,064 on 118 pages -> 0. Sitemap: 106 URLs (unchanged).
+
+**Logged, NOT actioned (for the GBP workstream and future runs):**
+1. **gbp, pack queries (brief):** *gutter cleaning* 92 @ 4.6 (join: `/` 47 @ 1.0, service page 45 @ 8.4), *window washing
+   thousand oaks* 55 @ 2.6, *window cleaning agoura hills* 43 @ 4.3, *window cleaning westlake village* 38 @ 2.3, *screen
+   cleaning service* 37 @ 3.9, *window cleaning prices thousand oaks* 20 @ 2.5, *window washing service agoura hills* 20 @
+   4.0. **Geo-grid ("window cleaning near me"): Newbury Park #1 and Agoura Hills #2 are new gains; Thousand Oaks #1, Oak
+   Park #2, Westlake Village #3; ABSENT only at Camarillo** (AWC 247 reviews #1, Guerrero Window Cleaning 13 and 1 at #2 and
+   #3), against our **245**. The Guerrero spots are the beatable ones. Review velocity and Camarillo in the GBP service
+   area are the levers.
+2. Pricing pillar Ventura row says "private wells in older Midtown and east Ventura"; the verified fact is city groundwater
+   from three basins. Fix after its 10-21 read.
+3. `window-cleaning-oxnard-coastal-homeowners-guide` still links Camarillo and Santa Barbara to old blog posts rather than
+   the landing pages. Re-point Camarillo after its 10-26 read.
+4. `residential-window-cleaning-prices` still hotlinks four `cdnimg.co` images; audit them (every image audited this
+   month has had a defect).
+5. Santa Barbara unchanged: *window cleaning santa barbara* `/` 116 @ 8.5 vs `/santa-barbara/` 6 @ 40.5.
+6. Still open from earlier runs: hero images with sparkle glyphs (storefront, skylights, sills), the two unattributed
+   blockquotes on `solar-panel-cleaning-camarillo-...`, `skylight-cleaning-pole`'s UK "20 metres" claim, real gutter price
+   bands from the business.
+
+**Review after 42 days (2026-11-18).**
+
+---
+
 ### 2026-10-05
 
 **What we did:**

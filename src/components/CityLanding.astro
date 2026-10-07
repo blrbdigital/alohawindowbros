@@ -21,6 +21,13 @@ export interface CityProps {
   faq: { q: string; a: string }[];
   geo?: { lat: number; lon: number };  // optional GeoCoordinates for LocalBusiness JSON-LD
   /**
+   * Optional citations for the figures in `intro` / `soilingFactors` (added 2026-10-07).
+   * Those fields render as plain text, so without this a sourced number on a city page
+   * had nowhere to link its source. Rendered as one small line under the factor cards,
+   * only on cities that supply it. This is NOT a localBrief (see the 2026-09-09 log).
+   */
+  factorSources?: { label: string; url: string }[];
+  /**
    * Optional long-form, city-exclusive section (added 2026-07-27).
    *
    * WHY THIS EXISTS: six of the ten city pages sit in "Discovered - currently not
@@ -160,6 +167,14 @@ const jsonLd = {
           </div>
         ))}
       </div>
+      {city.factorSources && (
+        <p class="city-factor-sources">
+          Sources:{' '}
+          {city.factorSources.map((s, i) => (
+            <>{i > 0 && ', '}<a href={s.url} target="_blank" rel="noopener noreferrer">{s.label}</a></>
+          ))}
+        </p>
+      )}
     </div>
   </section>
 
@@ -471,6 +486,17 @@ const jsonLd = {
     line-height: 1.55;
     color: #475569;
     margin: 0;
+  }
+  .city-factor-sources {
+    font-size: 0.88rem;
+    color: #64748b;
+    line-height: 1.6;
+    margin: 1.5rem 0 0;
+    text-align: center;
+  }
+  .city-factor-sources a {
+    color: #1e3a5f;
+    text-decoration: underline;
   }
   .city-services-section {
     padding: 4rem 1.5rem;

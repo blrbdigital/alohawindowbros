@@ -94,7 +94,7 @@ Aloha Window Bros provides window cleaning throughout Oxnard and surrounding Ven
 - El Rio
 - The Esplanade
 
-The team also serves [Camarillo](/blog/window-cleaning-camarillo-what-homeowners-need-to-know), [Ventura](/blog/window-cleaning-ventura-a-homeowners-guide-to-professional-service), [Santa Barbara](/blog/window-cleaning-santa-barbara-why-local-homeowners-trust-professional-service), and communities throughout [Ventura County](/blog/window-cleaning-ventura-county-what-homeowners-should-know-before-hiring-professionals).
+The team also serves [Camarillo](/blog/window-cleaning-camarillo-what-homeowners-need-to-know), [Ventura](/ventura/), [Santa Barbara](/blog/window-cleaning-santa-barbara-why-local-homeowners-trust-professional-service), and communities throughout [Ventura County](/blog/window-cleaning-ventura-county-what-homeowners-should-know-before-hiring-professionals).
 
 ## Beyond Windows: Screen and Solar Panel Cleaning
 

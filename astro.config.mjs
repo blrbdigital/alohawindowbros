@@ -86,10 +86,33 @@ function rehypeTableScroll() {
   return (tree) => wrap(tree);
 }
 
+// Point every internal markdown link at the canonical trailing-slash URL (2026-10-07).
+// Since the 2026-09-04 nginx fix, `/path` answers 301 -> `/path/`, so a slashless link
+// costs a redirect hop and links a URL that is not the canonical. On 10-07, 3,064 links
+// on 118 built pages did this (markdown posts plus the footer/header/sidebar templates,
+// which were fixed by hand). Only paths with no file extension are touched, so images,
+// PDFs, llms.txt and the sitemap keep their exact href; ?query and #hash are preserved.
+function rehypeTrailingSlash() {
+  const fix = (href) => {
+    if (typeof href !== 'string' || !href.startsWith('/') || href.startsWith('//')) return href;
+    const m = href.match(/^([^?#]*)(.*)$/);
+    const pathPart = m[1];
+    if (pathPart === '/' || pathPart.endsWith('/') || /\.[a-z0-9]{2,5}$/i.test(pathPart)) return href;
+    return `${pathPart}/${m[2]}`;
+  };
+  const walk = (node) => {
+    if (node.type === 'element' && node.tagName === 'a' && node.properties) {
+      node.properties.href = fix(node.properties.href);
+    }
+    if (node.children) node.children.forEach(walk);
+  };
+  return (tree) => walk(tree);
+}
+
 export default defineConfig({
   site: 'https://alohawindowbros.com',
   markdown: {
-    rehypePlugins: [rehypeTableScroll],
+    rehypePlugins: [rehypeTableScroll, rehypeTrailingSlash],
   },
   integrations: [
     sitemap({

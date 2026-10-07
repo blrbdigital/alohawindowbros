@@ -23,7 +23,7 @@ const posts = (await getCollection('blog')).sort((a, b) => new Date(b.data.date)
   <section class="blog-list-section">
     <div class="blog-grid">
       {posts.map((post) => (
-        <a href={`/blog/${post.id}`} class="blog-card">
+        <a href={`/blog/${post.id}/`} class="blog-card">
           <div class="blog-card-accent"></div>
           <div class="blog-card-body">
             <time datetime={post.data.date}>{new Date(post.data.date + 'T12:00:00').toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}</time>

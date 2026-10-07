@@ -33,6 +33,8 @@ Water hardness is measured in grains per gallon (gpg) or in milligrams per liter
 
 This is the practical takeaway: a cleaning routine that keeps glass clear in Westlake Village is not enough in Ojai. Same sun, same sprinklers, double the minerals.
 
+The city of Ventura, downriver, is not on that State Water row either. It imports no water, and the groundwater behind about half of its supply runs 1,200 to 1,600 mg/L of total dissolved solids before blending, according to the [City of Ventura's 2024 grant application](https://www.usbr.gov/drought/docs/2024/DRP-041_City_of_San_Buenaventura_508.pdf). Our [Ventura window cleaning page](/ventura/) covers what that does to sprinkler-side glass.
+
 ## How Hard Water Actually Damages Ojai Glass
 
 A hard water stain is not dirt sitting on the surface. It is what stays behind after the water leaves.

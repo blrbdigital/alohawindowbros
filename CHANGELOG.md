@@ -1,3 +1,54 @@
+## 2026-10-07 - Ventura landing page refreshed around the city's own water data, Ventura guide rebuilt, 3,064 redirecting internal links fixed
+
+**Primary action (refresh + internal_links): `/ventura/`.** Google started ranking the Ventura landing page on its own on
+09-06. In 09-07..10-04 it drew 267 impressions and 3 clicks at position 12.4 (prior window: 4 impressions), across about 20
+human city queries sitting at 10 to 17: *window cleaning ventura* 25 @ 10.6, *window washing ventura* 13 @ 12.8, *ventura
+window washing* 9 @ 12.4, *window cleaner ventura* 7 @ 12.0, *ventura window cleaners* 6 @ 12.0. It is not under any open
+review. Indexed, last crawled 2026-10-06.
+- **Accuracy fix:** the page said Ventura Water blends in State Water Project supply. It does not. The City of Ventura's
+  FY 2024 drought resiliency application to the US Bureau of Reclamation says the city meets demand "exclusively with local
+  water supplies" (about 45% Ventura River and Lake Casitas, about 54% groundwater from the Mound, Oxnard Plain and Santa
+  Paula basins) and that its 10,000 AFY State Water entitlement needs a pipeline scheduled for Nov 2024 to May 2027.
+- **New sourced figures:** that groundwater runs 1,200 to 1,600 mg/L TDS before blending (above the 1,000 mg/L secondary
+  standard), and east-end Santa Paula Basin water averages about 1,300 mg/L. Paired with Unger's 5 to 10 ppm rinse target.
+  None of the live results for the head query (Thumbtack, TIDY, ServiceMaster, local cleaners) says anything about
+  Ventura's water.
+- Intro rewritten as a direct answer (who, where, $175 to $425, why Ventura glass spots). "Hillside Sundowner wind off the
+  Topa Topa range" replaced with Santa Ana wind down the Santa Clara River Valley (Sundowners are a Santa Barbara wind).
+- Two new FAQs (east Ventura sprinkler spotting; whether Ventura water will get softer). FAQPage parity 7 == 7.
+- `CityLanding.astro`: new optional `factorSources` prop renders a small "Sources:" line under the factor cards. Only
+  Ventura supplies it. It is not a `localBrief`.
+- Title and meta description unchanged.
+
+**Ventura guide rebuilt** (`/blog/window-cleaning-ventura-a-homeowners-guide-to-professional-service/`, the city page's
+"Read the Guide" target): its $175 to $375 price contradicted the city page and pillar ($175 to $425, open since 09-14) and
+is fixed in the lead, table and FAQ. Removed a quote falsely attributed to the South Coast AQMD (which does not cover
+Ventura), an unsourced "12 to 18 grains per gallon", "80 to 100 foggy mornings", invented price tiers and add-on prices, and
+CPSC/NAHB/IWCA/NOAA claims that linked only to homepages. A tip telling readers to hose windows with tap water after Santa
+Anas now says the opposite. New section "Ventura's Water Is the Hidden Variable" with a supply table. Neighbor links now go
+to the landing pages. FAQ moved to schema-emitting `<details>` (6 == 6), manual JSON-LD script removed. All dashes swept.
+
+**Internal links to `/ventura/` (contextual, descriptive anchors):** `purified-water-window-cleaning` (with the Ventura TDS
+figure), `hard-water-stains-ojai-well-water-guide` (clarifies Ventura city is not on the State Water row),
+`residential-window-cleaning-prices`, and `window-cleaning-oxnard-coastal-homeowners-guide` (neighbor link re-pointed from
+the old blog guide).
+
+**technical: every internal link now points at the canonical trailing-slash URL.** Since the 09-04 nginx fix, `/path`
+answers 301 to `/path/`. On 10-07 the built site still had **3,064 internal links on 118 pages** pointing at the slashless
+form: the footer (10 cities, 4 services, blog, privacy on every page), the header `/blog` link, the blog sidebar, the
+homepage service cards, the blog index (every post card) and many markdown posts. Fixed by hand in the templates and with a
+new `rehypeTrailingSlash` plugin in `astro.config.mjs` for markdown. After: **0**. Paths with a file extension, `?query`
+and `#hash` are left intact.
+
+**Also:**
+- `residential-window-cleaning-prices`: "$200 to $475" for Ventura and Santa Barbara contradicted the published bands
+  ($150 to $475 county-wide). Now matches, with the Thousand Oaks, Ventura and Ojai/Santa Barbara bands named.
+- `purified-water-window-cleaning`: four hotlinked `cdnimg.co` infographics removed. All four had sparkle glyphs and the
+  first had em dashes baked into the image.
+- `src/lib/seo.ts`: the 10-06 `SERVICES` array had been inserted between the `SAME_AS` docblock and `SAME_AS`. Comment
+  moved back above the constant it describes.
+- Mobile check at 390px on `/ventura/`, the Ventura guide and the purified-water post: no horizontal scroll, no page errors.
+
 ## 2026-10-06
 ### Services: gutter cleaning listed everywhere the site names its services
 - `/services/gutter-cleaning/` has been live since 2026-08-03, but four places still listed only windows, screens, and solar. Fixed all four:

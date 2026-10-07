@@ -5,7 +5,7 @@ description: 'Compare residential window cleaning prices in Ventura and Santa Ba
 heroImage: '/img/blog/residential-window-cleaning-prices.jpg'
 heroImageAlt: 'Residential Window Cleaning Prices: 2026 Cost Guide'
 ---
-A typical residential window cleaning visit averages around **$220 nationally**, with most jobs falling between **$150 and $302**. In Ventura and Santa Barbara, a full residential clean commonly ranges from **$200 to $475**, depending on home size, window access, and the amount of detailing required.
+A typical residential window cleaning visit averages around **$220 nationally**, with most jobs falling between **$150 and $302**. In Ventura and Santa Barbara counties, a full residential clean ranges from **$150 to $475**, depending on the city, home size, window access, and the amount of detailing required.
 
 You notice it first on the windows facing the ocean or foothills. The glass looks hazy even after you wipe the inside, screens carry a layer of dust, and sprinkler overspray has left pale mineral marks that won't disappear with ordinary glass cleaner. Then you start searching residential window cleaning prices and find broad national ranges that don't explain why one nearby home receives a modest quote while another costs several hundred dollars more.
 
@@ -40,7 +40,7 @@ A homeowner in Montecito may stand at a living-room window, looking past a film 
 
 The national answer is straightforward. A broader market snapshot places the average residential visit around **$220**, with most jobs between **$150 and $302**; other estimates put the national average range at **$184 to $387**, with the most common quoted total near **$266**. [Thumbtack's residential window-cleaning price guide](https://www.thumbtack.com/p/window-cleaning-prices) shows why homeowners should think in ranges rather than expect one universal price.
 
-For local planning, a full clean in Ventura and Santa Barbara commonly lands between **$200 and $475**. A small, accessible home with standard glass may sit near the lower end. A larger property with multiple stories, hard-to-reach panes, screens, tracks, mineral deposits, or difficult landscaping can move toward the upper end.
+For local planning, a full clean in Ventura and Santa Barbara counties lands between **$150 and $475**, and the city moves the band: $150 to $400 in Thousand Oaks, $175 to $425 for [window cleaning in Ventura](/ventura/), and $200 to $475 in Ojai and Santa Barbara. A small, accessible home with standard glass may sit near the lower end. A larger property with multiple stories, hard-to-reach panes, screens, tracks, mineral deposits, or difficult landscaping can move toward the upper end.
 
 <a id="what-the-visit-should-include"></a>
 ### What the visit should include

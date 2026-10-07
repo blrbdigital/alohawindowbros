@@ -74,14 +74,6 @@ export const AREA_SERVED = [
   'Ventura County', 'Santa Barbara County',
 ];
 
-/**
- * Authoritative external profiles for the same entity. Only URLs that have been
- * fetched and confirmed to carry this business's NAP belong here. The Google
- * Business Profile is the important one: it outranks this website on most local
- * queries, so `sameAs` is what tells Google and AI engines the two are one
- * business. bbb.org 403s to non-browser agents (same rule that dropped CAL FIRE
- * and the AMS SWEX paper) and its profile is unclaimed, so it is left out.
- */
 /** Every service with its own page under /services/: [name, slug]. */
 export const SERVICES = [
   ['Window Washing', 'window-washing'],
@@ -90,6 +82,14 @@ export const SERVICES = [
   ['Gutter Cleaning', 'gutter-cleaning'],
 ];
 
+/**
+ * Authoritative external profiles for the same entity. Only URLs that have been
+ * fetched and confirmed to carry this business's NAP belong here. The Google
+ * Business Profile is the important one: it outranks this website on most local
+ * queries, so `sameAs` is what tells Google and AI engines the two are one
+ * business. bbb.org 403s to non-browser agents (same rule that dropped CAL FIRE
+ * and the AMS SWEX paper) and its profile is unclaimed, so it is left out.
+ */
 export const SAME_AS = [
   'https://maps.google.com/?cid=4483745950804238350',
   'https://www.provenexpert.com/en-us/aloha-window-bros/',
