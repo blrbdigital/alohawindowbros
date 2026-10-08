@@ -1,3 +1,17 @@
+## 2026-10-07 - Gutter cleaning page gets its own photos (AI-generated)
+
+- `/services/gutter-cleaning/` hero, the homepage gutter card and the `CityLanding` gutter card (all 10 city pages) now use
+  `public/img/gutter-cleaning-hero.jpg` instead of `water_pole_2.jpg`, which was a window-pole shot. Also the page's OG image.
+- Two inline photos added to the markdown body: `gutter-oak-leaves-clogged.jpg` (after the coast live oak paragraph, the
+  page's core argument) and `gutter-cleared-trough.jpg` (after "What Is Included"). Raw `<img class="service-photo">` with
+  width/height and `loading="lazy"`; new `.service-photo` rule in `global.css` (14px radius + hairline border, matches the
+  service cards).
+- Made with codex `$imagegen` (gpt-image-2) at Adam's request, styled after the real service photos (iPhone daylight,
+  stucco + clay tile homes). No people, hands, logos, uniforms or trucks, so none of them reads as a fabricated job photo,
+  and no before/after pair. 6 candidates generated, 3 kept (a second hero had the wrong leaf species and broken roof
+  geometry, two trough variants had odd gutter construction).
+- Verified: build passes, FAQPage parity 6 == 6, no horizontal overflow at 375px, desktop + mobile renders checked.
+
 ## 2026-10-07 - Ventura landing page refreshed around the city's own water data, Ventura guide rebuilt, 3,064 redirecting internal links fixed
 
 **Primary action (refresh + internal_links): `/ventura/`.** Google started ranking the Ventura landing page on its own on

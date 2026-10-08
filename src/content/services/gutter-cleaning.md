@@ -1,7 +1,7 @@
 ---
 title: 'Gutter Cleaning'
 description: 'Gutter cleaning in Ventura County by Aloha Window Bros. Why local gutters clog in late winter, not fall, and when to schedule. Free on-site quotes.'
-image: '/img/water_pole_2.jpg'
+image: '/img/gutter-cleaning-hero.jpg'
 ---
 
 Gutter cleaning is the removal of leaves, grit, and roof debris from the troughs and downspouts that carry rainwater off a roof, so water reaches the ground instead of overflowing at the fascia. **In Ventura County the standard advice to clean gutters once in the fall is wrong.** Coast live oak, the dominant native canopy tree across the Conejo Valley and the Ojai Valley, is evergreen and sheds its old leaves in late winter and spring, not autumn. That drop lands in the middle of the rain season. Aloha Window Bros cleans gutters across Ventura County and Santa Barbara County, and we schedule most homes twice: once before the first storms, and once again after the oaks finish dropping. Quotes are free and on-site.
@@ -35,6 +35,8 @@ June through September together average **0.17 inches**, about 1.3% of the year.
 
 **The trees drop at the wrong end of that season.** Coast live oak (*Quercus agrifolia*) is an evergreen, which leads a lot of homeowners to assume it does not shed. It does. The US Forest Service Fire Effects Information System describes its phenology plainly: "Leaves emerge from February to April; and old leaves are shed at the same time." Roughly 90% of the tree's stem elongation happens in March. So the year's heaviest leaf load arrives in February and March, which are the first and third wettest months on the table above.
 
+<img class="service-photo" src="/img/gutter-oak-leaves-clogged.jpg" alt="Rain gutter under a clay tile roof packed with dry coast live oak leaves, twigs, and acorn caps" width="1200" height="800" loading="lazy" decoding="async" />
+
 The practical consequence is that a homeowner who cleans gutters in November has clean gutters for the December and January storms and clogged ones for the February storms. That is the single most common gutter failure we see in Thousand Oaks, Westlake Village, Agoura Hills, and Ojai, and it is not carelessness. It is national advice applied to a local tree.
 
 ## What Is Included
@@ -44,6 +46,8 @@ The practical consequence is that a homeowner who cleans gutters in November has
 - **Flow check at the outlets** to confirm water is discharging away from the foundation
 - **Roofline and fascia report** so you know about a sagging hanger or a rusted seam before the next storm finds it
 - **Cleanup** of the ground below the work area
+
+<img class="service-photo" src="/img/gutter-cleared-trough.jpg" alt="Cleared rain gutter under a clay tile roof with clean water running toward the downspout outlet, coast live oak in the background" width="1200" height="800" loading="lazy" decoding="async" />
 
 Gutter cleaning pairs naturally with our [window washing](/services/window-washing/) and [screen cleaning](/services/screen-cleaning/), and doing them in one visit means one trip, one setup, and one appointment to keep.
 

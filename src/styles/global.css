@@ -1946,6 +1946,14 @@ a.service-card:hover {
 .service-article .article-content li {
   margin-bottom: 6px;
 }
+.service-article .article-content .service-photo {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 24px 0 28px;
+  border-radius: 14px;
+  border: 1px solid #e5e7eb;
+}
 
 /* ===== SERVICE SIDEBAR ===== */
 .service-sidebar {
