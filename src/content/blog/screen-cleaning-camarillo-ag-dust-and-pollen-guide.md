@@ -63,9 +63,8 @@ Many homeowners try to hose down screens in place, which rarely clears clogged m
 | Water type | Purified, spot-free rinse | Camarillo tap water (hard) leaves spots |
 | Salt removal | Full | Partial — salt redistributes |
 | Reinstallation | Correct fit, labeled by window | Often forced or mismatched |
-| Effectiveness | 95–100% | 40–60% |
 
-Camarillo's water provider, the [Camrosa Water District](https://www.camrosa.com/), reports water hardness commonly between 12 and 18 grains per gallon. Rinsing screens with that water and letting them air-dry leaves mineral spots on both the mesh and the glass behind it.
+Camarillo's water is hard. The Camrosa Water District, which serves part of the city, reported 375 to 540 ppm total hardness at its own wells and 148 ppm in its imported water in its [2024 water quality report](https://www.camrosa.com/wp-content/uploads/2025/06/CCR2024.pdf), and about 55% of its 2024 supply came from those wells. Rinsing screens with that water and letting them air-dry leaves mineral spots on both the mesh and the glass behind it.
 
 ## What's Included in an Aloha Window Bros Screen Cleaning
 

@@ -22,7 +22,7 @@ The farmland surrounding Camarillo, including the Oxnard Plain to the west, gene
 
 ### Hard Water from Local Irrigation
 
-Camarillo is served by the City of Camarillo Public Works, the Camrosa Water District, and imported supply through the [Calleguas Municipal Water District](https://www.calleguas.com/). Camrosa reports hardness commonly between 10 and 15 grains per gallon on its local blend, while the imported Calleguas supply runs about 8.5 grains per gallon, so what comes out of a Camarillo hose depends on the neighborhood. Either way the [Water Quality Association](https://www.wqa.org/) puts that in hard territory, and sprinkler overspray and exterior hose rinsing leave mineral deposits that become permanently etched into glass within 30 to 60 days.
+Camarillo is served by the City of Camarillo Public Works, the Camrosa Water District, and imported supply through the [Calleguas Municipal Water District](https://www.calleguas.com/). Camrosa's [2024 water quality report](https://www.camrosa.com/wp-content/uploads/2025/06/CCR2024.pdf) shows how much that water varies: about 55% of its 2024 supply came from its own wells, which measured 375 to 540 ppm total hardness (about 22 to 32 grains per gallon), while its imported Calleguas water measured 148 ppm (about 8.7). Some well water is blended with imported water and some goes straight into the system, so what comes out of a Camarillo hose depends on the neighborhood. Either way it is hard enough that sprinkler overspray and hose rinsing leave white mineral spots on glass, and spots left for months can etch.
 
 ## What Professional Window Cleaning Includes in Camarillo
 

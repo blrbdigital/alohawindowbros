@@ -90,7 +90,7 @@ Most Thousand Oaks homeowners eventually try one of two DIY methods — spraying
 | Hard water spots on glass | None | Tap water sprayed at screens hits adjacent windows |
 | Effectiveness | Restores original mesh color and airflow | Often makes screens dingier |
 
-The [Calleguas Municipal Water District](https://www.calleguas.com/), which supplies most of the Conejo Valley including Thousand Oaks, reports water hardness commonly between 10 and 15 grains per gallon. Spraying that water at screens guarantees mineral deposits on adjacent window glass — the reason DIY screen cleaning often leaves windows looking worse than before.
+Thousand Oaks water is only moderately hard: California American Water, which serves Thousand Oaks and Newbury Park, reports about 140 mg/L, roughly 8.2 grains per gallon, in its [2025 water quality report](https://www.amwater.com/ccr/thousandoaks.pdf). That is still enough to leave spots. Spraying tap water at screens puts mineral deposits on the window glass next to them, which is why DIY screen cleaning often leaves windows looking worse than before.
 
 ## What's Included in an Aloha Window Bros Screen Cleaning
 

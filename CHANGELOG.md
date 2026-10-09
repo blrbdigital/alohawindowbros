@@ -1,3 +1,49 @@
+## 2026-10-09 - No ranking action; four city posts rebuilt for accuracy, Camarillo hardness corrected, US-only GSC tooling
+
+**No ranking action this run, on purpose.** Every page with real US demand in the brief (screens how-to, the streak
+cluster, solar roof, skylights, sills, `/ventura/`, `/camarillo/`, `/thousand-oaks/`, gutter service) is mid-read, and
+the brief's other rows are off-intent (storefront architecture, "start a window cleaning business") or machine-shaped
+queries. Live SERPs pulled from inside Simi Valley, Ventura and Camarillo showed we are not in the top 18 to 20 for
+each city's own "window cleaning [city]" query there, even though GSC averages 6.7 to 10.6: the impressions come from
+searchers near Thousand Oaks. City pages cannot win resident clicks through content alone (site map, new block).
+
+**Accuracy rebuilds (no ranking claim), all four had open defects logged since 09-14:**
+- `window-cleaning-simi-valley-a-homeowners-guide`: lead said $150 to $400 (city page and pillar: $175 to $425); per-size
+  table up to $450; fabricated IWCA "$4 to $12 per pane", NAHB, EPA and NREL "15 to 25 percent" claims; an unverified
+  "State Water blended with groundwater, 8.5 gpg" water claim. Rebuilt with a direct answer, key takeaways, a soiling
+  table (Santa Ana dust, wildfire ash, overspray, pollen), NGA/IWCA FB01-00 (20 ppm rinse, "tap water is not
+  acceptable") and Unger's 10 ppm, UC San Diego's 7.4% solar figure. Neighbour links now go to landing pages and the
+  Simi screen and solar guides. FAQ moved to `<details>` (6 == 6), manual JSON-LD removed.
+- `window-cleaning-westlake-village-guide-for-homeowners`: lead and FAQ said $175 to $350 (pillar $175 to $425);
+  fabricated South Coast AQMD "30 to 50%" quote, IWCA claim, "etching permanent after 6 to 12 months, $300 to $800
+  replacement" quote, NAHB lifespan table. Rebuilt around Cal Water's 2023 Westlake report (146 ppm, "moderately hard")
+  and the overspray mechanism. FAQ 0 -> 6 with schema (it had none).
+- `window-washing-santa-barbara-coastal-guide`: lead said $175 to $400 (pillar $200 to $475); fabricated EPA "salt 10
+  miles inland", IWCA "0.1% vs 4%" and three unattributed quotes; "acid-based" restoration (contradicts FB01-00);
+  "notoriously hard water" with no number. Rebuilt with a hardness-by-agency table re-verified today (Montecito 19 to
+  26 / 19 to 38 gpg, Goleta 20, Carpinteria 17 to 22) and the City of Santa Barbara's WY2025 supply mix (why the city
+  has no single figure). FAQ moved to `<details>` (6 == 6).
+- `solar-panel-cleaning-camarillo-maximize-your-system-output`: three unattributed "expert" quotes, an unsourced "15% to
+  25%" lead, invented soiling-cost and solar price tables, "rotating brushes" (Qcells bans them). Rebuilt on UC San Diego
+  (7.4% after 145 dry days, and its named exceptions: birds, flat arrays, homes downwind of fields or highways), NREL/NLR
+  and the Camrosa report. FAQ moved to `<details>` (5 == 5).
+- All four: dates set to 2026-10-09, descriptions rewritten (147 to 154 chars), every em/en dash removed.
+
+**Camrosa hardness, verified from its 2024 CCR:** imported water 148 ppm, local wells 375 to 540 ppm, 55% of 2024
+supply from wells. The old 10 to 15 and 12 to 18 gpg figures were both wrong. Fixed in the Camarillo window and screen
+guides (the screen guide also lost an invented "95 to 100% vs 40 to 60%" effectiveness row). `/camarillo/` and the
+hard-water winner's table keep the old figure until their reads end (10-26, late October).
+
+**Thousand Oaks screen guide:** said Calleguas water is 10 to 15 gpg for Thousand Oaks. California American Water's 2025
+report says 140 mg/L, 8.2 gpg (re-verified today). Fixed; the line's em dash went with it.
+
+**Tooling:** `scripts/gsc-join.py` takes `COUNTRY=usa` (also used by `gsc-page-probe.py`), because the brief is US-only
+from this run.
+
+Verified: build passes (118 pages, sitemap 106), FAQPage parity on all four posts, 0 dashes and 0 slashless internal
+links in their `dist/` HTML, every internal link resolves, every external source returns 200, no horizontal overflow at
+390px (all 14 tables in scroll regions).
+
 ## 2026-10-07 - Gutter cleaning page gets its own photos (AI-generated)
 
 - `/services/gutter-cleaning/` hero, the homepage gutter card and the `CityLanding` gutter card (all 10 city pages) now use

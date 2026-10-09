@@ -4,6 +4,112 @@
 
 ---
 
+### 2026-10-09
+
+**What we did:**
+- **none (primary): no ranking action on any target.** Every surface with real US demand is mid-read, and the one new
+  candidate (`/simi-valley/`) turned out to be location-locked (below). A push now would either confound an open read or
+  aim at clicks the page cannot win.
+- **refresh (secondary, accuracy only, no ranking claim): four posts rebuilt.** These defects had been logged in every
+  run since 09-14. None of the four pages has an open read of its own.
+  - `window-cleaning-simi-valley-a-homeowners-guide` (the `/simi-valley/` "Read the Guide" post): $150 to $400 lead vs
+    $175 to $425 on the city page and pillar, a table up to $450, a fabricated IWCA "$4 to $12 per pane", NAHB and EPA
+    claims, NREL "15 to 25 percent" (NREL's real figure is up to 7%), and an unverified water blend claim. Rebuilt with
+    a direct answer, key takeaways, a soiling table, NGA/IWCA FB01-00 and Unger rinse figures, UC San Diego's 7.4%.
+  - `window-cleaning-westlake-village-guide-for-homeowners`: $175 to $350 vs $175 to $425, a fabricated South Coast AQMD
+    quote, an IWCA claim, an "etching is permanent, $300 to $800 replacement" quote, an NAHB lifespan table, and no FAQ
+    schema at all. Rebuilt around Cal Water's 2023 Westlake report (146 ppm, "moderately hard") and overspray.
+  - `window-washing-santa-barbara-coastal-guide`: $175 to $400 vs $200 to $475, fabricated EPA and IWCA figures, three
+    unattributed quotes, "acid-based" restoration (FB01-00 says no acids). Rebuilt with a hardness-by-agency table
+    re-verified today (Montecito 19 to 26 / 19 to 38 gpg, Goleta 20, Carpinteria 17 to 22) and the City of Santa
+    Barbara's water year 2025 supply mix.
+  - `solar-panel-cleaning-camarillo-maximize-your-system-output`: three unattributed "expert" quotes, an unsourced "15%
+    to 25%" lead, invented cost and price tables, "rotating brushes" (Qcells bans them). Rebuilt on UC San Diego, NREL/NLR
+    and the Camrosa report.
+  - All four: FAQ in `<details>` with FAQPage parity (6, 6, 6, 5), every dash removed, neighbour links on landing pages.
+- **Camrosa hardness verified** from its 2024 CCR (imported 148 ppm, wells 375 to 540 ppm, 55% from wells). Both old
+  figures were wrong. Fixed in the Camarillo window and screen guides; the screen guide also lost an invented
+  effectiveness row. `/camarillo/` and the hard-water winner keep the old figure until their reads end.
+- **Thousand Oaks screen guide:** "Calleguas, 10 to 15 gpg" replaced with California American Water's 140 mg/L (8.2 gpg),
+  re-verified today.
+- **Tooling:** `gsc-join.py` and `gsc-page-probe.py` take `COUNTRY=usa`, so they can match the brief, which is US-only
+  from this run.
+- **No title_meta, no new content, no GBP change, no edit to any page under review.**
+
+**Why we did it (brief window 2026-09-09..2026-10-06, US only, plus US joins, page probes and live SERPs):**
+- **The brief's top rows are all open reads or known artifacts:**
+  - *how to clean window screens* 31,828 @ 9.0, 0 clicks: the US daily series has the spike from **09-13 to 09-24** (peak
+    8,605 on 09-17), then about 100 a day with 1 click. Same scraper pattern as before, and the scrapers are in the US
+    too, so the US filter does not remove them. Under review until 10-28.
+  - The streak-free rows (*best glass cleaner for windows 2025* 1,057 @ 8.9, *streak free window cleaner* 1,022 @ 7.4,
+    *best no streak window cleaner* 698 @ 3.6): under review until 10-23 and documented as AI Overview positions. The
+    page is still the click engine: **22 of 39 US non-brand clicks**, 6,091 US page impressions @ 8.0 (prior 1,912).
+    It is not decaying; the brief's 585 is the query-row artifact.
+  - *how to clean solar panels on roof* 282 @ 10.3 (read until 11-11), skylights (11-13), sills (11-16), `/ventura/`
+    (11-18), `/camarillo/` (10-26), `/thousand-oaks/` (late October), gutter service (11-09).
+  - *commerical storefront windows* 285 @ 19.4 and *storefront windows* 164 @ 17.0: architectural intent with a
+    glass-contractor pack, rejected for the fifth time.
+- **`/simi-valley/` looked like the next `/ventura/`, and it is not.** It went from **5 to 225 US impressions** @ 7.3 with
+  every Simi head row at 5 to 7 (*window cleaning simi valley* 35 @ 6.7, *window washing simi valley* 25 @ 5.4) and **0
+  clicks**. Live DataForSEO SERPs from inside Simi Valley, desktop and mobile, have us **outside the top 20**; from
+  Thousand Oaks we are **#4**. The same check from Ventura and Camarillo has us outside the top 19 and 18 for their own
+  city queries. **GSC averages position over the people who saw us, and they are mostly near our base.** Residents of
+  those cities do not see us, which is why every city page shows good positions and no non-brand clicks. A content push
+  cannot fix proximity. `/simi-valley/` is also inside the 09-25 consolidation read (11-06).
+- **Santa Barbara:** the homepage is **#7 organic from inside Santa Barbara**, behind three local firms with 59 to 381
+  reviews. It is the one out-of-base city where residents see us, but the page that ranks is `/`, and the homepage
+  record is 0-1-1.
+- **A US gap scan outside the known clusters found nothing with demand:** the largest rows are LLM-shaped (*how to
+  choose a commercial window cleaning company* 17 @ 1.1, "evaluate the windex company..." strings), Ontario CA
+  (out of area), and single digits.
+- **Scoreboard:** `internal_links` 5-0-0 and `refresh` 3-0-1 have no clean target left. `title_meta` (2-4-4) has no
+  CTR outlier that is not an open read or an AI Overview position. **`gbp` is 0-0-13; every row grades "never appeared in
+  GSC", so I am not putting a gbp row in the ledger.** The pack items are logged below for the GBP workstream.
+- **Why the accuracy rebuilds, and why now:** they were the oldest open defects on the site (logged 09-14, 09-16, 09-18,
+  09-21, 09-28), all four pages are linked from city pages or rank for city rows, none is under review, and the price
+  lines are the exact sentences AI engines quote. They were left for "a refresh run"; with no ranking target this run,
+  this is that run. **No ranking prediction is made for them.**
+
+**Expected impact (review 2026-11-20, 42 days):**
+- **None (primary):** nothing to grade. The open reads (10-23, 10-26, 10-28, 11-06 to 11-18) stay clean.
+- **Refresh:** no ranking claim. The Simi guide stays a small page (**under 100 US impressions per 28 days**; 45 today)
+  and `/simi-valley/` keeps its Simi head rows at **7.5 or better**, i.e. the rebuild does not start competing with the
+  landing page it links. The other three rebuilt posts have **0 to 5 US impressions**, so nothing is predicted for them.
+- **Expect city pages to keep showing near-zero non-brand clicks regardless of position.** If a future run wants to
+  treat a city page, it should predict position and impressions only.
+
+**Metrics at time of action (US, 09-09..10-06 unless stated):**
+- Brief: 99 clicks / 48,138 impr; non-brand **39 clicks** / 47,458 impr, 1,173 queries, avg pos 9.2.
+- `/simi-valley/` 0 / 225 @ 7.3 (prior 0 / 5 @ 17.4). Simi guide 0 / 45 @ 31.1 (prior 0 / 77 @ 31.5).
+  `/camarillo/` 0 / 225 @ 11.3. `/thousand-oaks/` 4 / 590 @ 5.6 (all 4 clicks brand).
+- Camarillo window guide 0 / 18 @ 14.7; Camarillo screen guide 0 / 94 @ 11.6 (prior 0 / 22 @ 6.5); Camarillo solar
+  post 0 / 5 @ 13.2; Westlake guide, Santa Barbara washing guide, Thousand Oaks screen guide 0.
+- Screens post (US): 1 / 34,824 @ 9.1. Best-streak page (US): 22 / 6,091 @ 8.0.
+- Sitemap 106 URLs (unchanged). Build 118 pages.
+
+**Logged, NOT actioned (for the GBP workstream and future runs):**
+1. **gbp, pack queries (brief):** *window cleaning agoura hills* 42 @ 4.9, *screen cleaning service* 39 @ 3.8, *window
+   cleaning westlake village* 38 @ 2.3, *window cleaning prices thousand oaks* 20 @ 2.5, *window washing service agoura
+   hills* 20 @ 4.0. **Geo-grid ("window cleaning near me"): ABSENT at Newbury Park and Oak Park (both "LOST since last
+   scan"; we were #1 and #2 there on 10-07, so this flips scan to scan) and Camarillo** (AWC 247, Guerrero 13, Golden
+   Boy's 138). Ours at #1 Thousand Oaks, #2 Agoura Hills and Westlake Village, with **249 reviews**. The proximity
+   finding above applies to the pack as much as to organic: cities away from the base need a GBP presence there.
+2. **Still open since 07-27: the GBP website field is `http://alohawindowbros.com/`** (the join still reports `GBP:/`
+   rows on the http URL this window). It 301-redirects; the profile should say `https://alohawindowbros.com/`. A
+   one-field fix in the GBP dashboard that only Adam or Sam can make.
+3. `/camarillo/` factor card: replace "10 and 15 grains per gallon" with the Camrosa figures after 10-26.
+   `how-to-remove-hard-water-spots-from-windows`: same for its "12 to 18 gpg" row after its read.
+4. `/simi-valley/` geography error (Las Llajas and Tapo Canyons are north; Wood Ranch is southwest) plus unsourced "290+
+   sunny days" and "etching past 60 days". Fix after 11-06.
+5. Las Virgenes MWD's current report says 142 mg/L (119 to 176), not 146 (137 to 157), on five pages. Sweep when they open.
+6. Pricing pillar's Ventura row reason ("private wells in older Midtown and east Ventura") after its 10-21 read.
+7. Still open: hero images with sparkle glyphs (storefront, skylights, sills), `skylight-cleaning-pole`'s UK "20 metres"
+   claim, `residential-window-cleaning-prices` hotlinks, real gutter price bands from the business.
+
+**Review after 42 days (2026-11-20).**
+
+---
+
 ### 2026-10-07
 
 **What we did:**

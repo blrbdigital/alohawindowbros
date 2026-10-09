@@ -1,112 +1,113 @@
 ---
 title: 'Window Cleaning Westlake Village: A Homeowner Guide to Cleaner Glass Year-Round'
-date: '2026-04-01'
-description: 'Window cleaning in Westlake Village, CA — costs, frequency, and what to expect from professional service. Free quotes from Aloha Window Bros.'
+date: '2026-10-09'
+description: 'Window cleaning in Westlake Village, CA: what it costs ($175 to $425), how often to book it, and why sprinkler overspray, not hard water, spots the glass.'
 heroImage: "/img/clean_window_pic.png"
 heroImageAlt: "Professional window cleaning by Aloha Window Bros"
 ---
 
-Westlake Village homeowners typically need professional window cleaning two to four times per year to maintain clear glass and protect their investment. Aloha Window Bros provides [window cleaning in Westlake Village](/westlake/) and the surrounding Conejo Valley with full-service window cleaning, including interior and exterior glass, screens, frames, and sills. Most homes in Westlake Village cost between $175 and $350 for a complete professional cleaning, depending on window count and home layout.
+Professional window cleaning in Westlake Village, California costs **$175 to $425** for most homes, and most homes need it every three to four months. Aloha Window Bros provides full-service [window cleaning in Westlake Village](/westlake/) and the surrounding Conejo Valley, covering interior and exterior glass, screens, frames, tracks, and sills, with a free on-site quote. Westlake prices sit toward the upper half of that band more often than in other Conejo Valley cities because so many homes here are larger two-story houses with high window counts.
 
-## Why Westlake Village Homes Need Regular Window Cleaning
+## Key takeaways
 
-Westlake Village sits in the Conejo Valley between the Santa Monica Mountains and the Simi Hills. This geography creates specific conditions that affect window clarity:
+- **Price:** $175 to $425 for the full four-in-one clean, quoted free on site. That is the band on our [Westlake Village window cleaning page](/westlake/) and in our [Ventura County price guide](/blog/how-much-does-window-cleaning-cost-in-ventura-county/).
+- **Frequency:** every 3 to 4 months for most homes, every 3 months for homes with heavy sprinkler contact or hillside exposure.
+- **Water:** Westlake's water is only moderately hard. California Water Service reports an average of **146 ppm** for its Westlake district, about 8.5 grains per gallon.
+- **The real cause of spots is overspray.** Moderately hard water still leaves white spots when sprinklers hit the glass every day.
 
-- **Santa Ana winds** — carry fine dust and debris from inland valleys, coating windows in hours
-- **Oak and sycamore pollen** — heavy spring pollen loads from native Conejo Valley trees
-- **Hard water mineral deposits** — the [Calleguas Municipal Water District](https://www.calleguas.com/) supplies Westlake Village with water containing elevated calcium and magnesium levels, which leave white spots on glass
-- **Sprinkler overspray** — many Westlake Village properties have irrigation systems that hit windows, compounding mineral buildup
+## Why Westlake Village Windows Get Dirty
 
-> "Homes in Southern California's inland valleys accumulate 30–50% more window-surface particulate than coastal properties due to lower humidity and frequent wind events, according to air quality data from the South Coast Air Quality Management District."
+Westlake Village sits at the foot of the Santa Monica Mountains, with open hillside on several sides and mature landscaping in almost every yard. Four things land on its glass:
 
-These factors mean that DIY cleaning with household products rarely produces the streak-free results that professional service delivers.
+- **Sprinkler overspray:** the biggest cause of spotting here. Irrigation that hits windows dries in the sun and leaves its minerals behind, day after day.
+- **Santa Ana winds:** dry fall and winter winds coat exterior glass in fine dust within a day or two, and carry ash in fire season.
+- **Oak and sycamore pollen:** native coast live oaks and sycamores release heavy spring pollen that sticks to glass and screens.
+- **Hillside dust:** homes that back onto open space or trails collect more dust than interior streets.
 
-## What Professional Window Cleaning Costs in Westlake Village
+## Westlake Village Water: Moderately Hard, Not Very Hard
 
-Pricing depends on home size, window count, accessibility, and whether interior cleaning is included. Here are typical ranges for Westlake Village properties:
+Water softener ads often describe Conejo Valley water as very hard. The utilities' own testing says otherwise. California Water Service, which serves the Ventura County side of Westlake, lists total hardness averaging **146 ppm, with a range of 138 to 153 ppm**, in its [Westlake district water quality report](https://www.calwater.com/ccrs/wlk-wlk-2023/), and describes water between 75 and 150 ppm as "moderately hard." The Las Virgenes Municipal Water District, which serves the Los Angeles County side, reports a similar figure. Our [Westlake Village hard water guide](/blog/hard-water-stains-westlake-village-guide/) compares both utilities in detail.
 
-| Home Size | Typical Window Count | Estimated Cost |
-|-----------|---------------------|----------------|
-| Townhome or condo | 8–15 windows | $150–$200 |
-| Single-story home | 15–20 windows | $200–$275 |
-| Two-story home | 20–30 windows | $275–$350 |
-| Large estate | 30+ windows | Custom quote |
+| What you see on the glass | Likely cause in Westlake Village | What fixes it |
+|---|---|---|
+| White rings on lower panes | Sprinkler overspray drying in the sun | Redirect sprinkler heads, then a professional wash |
+| Even gray film | Santa Ana dust or ash | Rinse first, then wash, so grit is not dragged across the glass |
+| Sticky yellow film, spring | Oak and sycamore pollen | Glass and screen cleaning in the same visit |
+| Haze that stays after cleaning | Mineral etching from years of overspray | Assessment for hard water restoration, quoted separately |
 
-Aloha Window Bros provides free on-site quotes for every Westlake Village home. The price is confirmed before any work begins — no hidden fees or surprises.
+Moderately hard water is still enough to spot glass when it dries. That is why the rinse matters more than the soap. [Unger](https://usa.ungerglobal.com/blog/10-common-mistakes-in-pure-water-window-cleaning/), which makes pure-water cleaning systems, says rinse water above **10 ppm** of total dissolved solids may not give a spot-free finish, so we finish every Westlake job with purified water, never the hose. Our [purified water window cleaning guide](/blog/purified-water-window-cleaning/) explains how that works.
 
-## How Often Should You Clean Windows in Westlake Village?
+## What Window Cleaning Costs in Westlake Village
 
-The right frequency depends on your home's exposure to dust, pollen, and irrigation:
+Most Westlake Village homes pay **$175 to $425** for the complete four-in-one clean: exterior glass, interior glass, screens, frames, and sills. Where your home lands inside that band depends on a few things:
 
-| Situation | Recommended Frequency |
-|-----------|----------------------|
-| Standard residential home | Every 4–6 months |
-| Home near open hillside or trail | Every 3–4 months |
-| Property with heavy landscaping/sprinklers | Every 3 months |
-| After Santa Ana wind events | As needed (spot cleaning available) |
+| Factor | Effect on price |
+|---|---|
+| Number of windows | The largest driver: each pane is a fixed unit of labor, inside and out |
+| Stories and height | Two-story and vaulted glass needs water-fed pole work or a ladder setup |
+| Mineral buildup | Glass that has taken years of overspray takes extra passes |
+| Screens, tracks, and access | Fixed screens, steep lots, and dense landscaping add time |
+| Recurring vs. one-time | Recurring customers receive discounted rates |
+| Large estates | Homes with 40 or more windows are custom quoted |
 
-According to the [International Window Cleaning Association](https://www.iwca.org/), homes that receive professional cleaning at least twice per year maintain glass integrity significantly longer than those cleaned only when visibly dirty. Regular cleaning prevents mineral etching — a type of permanent glass damage caused by hard water deposits that bond to the surface over time.
+Aloha Window Bros provides free on-site quotes for every Westlake Village home. The price is confirmed before any work begins, with no hidden fees.
 
-> "Hard water etching becomes permanent after approximately 6–12 months of exposure on untreated glass. Once etched, the only fix is glass replacement — which costs $300–$800 per window. Preventive cleaning is dramatically more cost-effective."
+## How Often to Clean Windows in Westlake Village
+
+| Situation | Recommended frequency |
+|---|---|
+| Standard residential home | Every 3 to 4 months |
+| Home backing onto open hillside or a trail | Every 3 months |
+| Heavy landscaping or daily sprinklers near glass | Every 3 months |
+| Protected glass or interior-only service | Every 6 months |
+| After a Santa Ana wind event | As needed, spot cleaning available |
 
 ## What's Included in a Westlake Village Window Cleaning
 
-Aloha Window Bros provides a comprehensive service for every appointment:
-
-1. **Property assessment** — Walk the home with the owner, identify problem areas, protect landscaping
-2. **Exterior window washing** — Purified water-fed pole system eliminates streaks and mineral spots
-3. **Interior window cleaning** — Professional squeegee technique for spotless interior glass
-4. **Screen cleaning** — Screens removed, hand-washed, dried, and reinstalled
-5. **Frame and track detailing** — Dust, cobwebs, and debris removed from all frames and sills
-6. **Walk-through inspection** — Every window reviewed with the homeowner before the crew leaves
-
-> "Our purified water system filters out 99.9% of dissolved minerals before the water contacts glass. That is what separates professional results from tap-water DIY cleaning. Westlake Village water is only moderately hard, about 8.5 grains per gallon, but a hose rinse still deposits every one of those minerals back onto the glass as it dries in the sun."
+1. **Property walkthrough:** we walk the home with you, identify problem areas, and protect landscaping.
+2. **Exterior window washing:** a purified water-fed pole system cleans without leaving new mineral spots.
+3. **Interior window cleaning:** professional squeegee technique for streak-free interior glass.
+4. **Screen cleaning:** screens removed, washed, dried, and reinstalled.
+5. **Frame and track detailing:** dust, cobwebs, and debris removed from frames, tracks, and sills.
+6. **Final walk-through:** every window reviewed with you before the crew leaves.
 
 ## Westlake Village Neighborhoods We Serve
 
-Aloha Window Bros provides window cleaning throughout Westlake Village and the Conejo Valley:
+- **North Ranch:** large custom homes with extensive glass and high ceilings
+- **Westlake Island:** waterfront properties that need careful, detailed work
+- **Westlake Hills:** hillside homes with panoramic views
+- **The Landing:** townhomes and condos near the Westlake Village town center
+- **Lake Sherwood (nearby):** estate properties with oversized windows
 
-- **North Ranch** — Large custom homes with extensive glass and high ceilings
-- **Westlake Island** — Waterfront properties requiring careful, detailed work
-- **Westlake Hills** — Hillside homes with panoramic views
-- **The Landing** — Townhomes and condos near Westlake Village Town Center
-- **Lake Sherwood** (nearby) — Estate properties with oversized windows
-- **Thousand Oaks, Agoura Hills, Newbury Park** — All communities in the Conejo Valley
-
-## Window Cleaning vs. Window Replacement: Protecting Your Investment
-
-Many homeowners don't realize that neglected windows degrade faster. The [National Association of Home Builders](https://www.nahb.org/) estimates the average lifespan of residential windows at 15–30 years — but that range depends heavily on maintenance.
-
-| Maintenance Level | Expected Window Lifespan | Annual Cost |
-|-------------------|-------------------------|-------------|
-| No professional cleaning | 12–18 years | $0 (but early replacement costs $5,000–$15,000+) |
-| Annual cleaning | 20–25 years | ~$250–$350/year |
-| Quarterly cleaning | 25–30+ years | ~$800–$1,200/year |
-
-Professional cleaning is one of the lowest-cost, highest-return maintenance tasks for any Westlake Village home.
+We also serve the rest of the Conejo Valley, including [Thousand Oaks](/thousand-oaks/), [Agoura Hills](/agoura/), and [Newbury Park](/newbury/).
 
 ## Frequently Asked Questions
 
-### How much does window cleaning cost in Westlake Village?
-
-Most Westlake Village homes cost between $175 and $350 for a full interior and exterior cleaning. The price depends on window count, home size, and accessibility. Aloha Window Bros provides free on-site quotes with no obligation.
-
-### Do you clean second-story windows in Westlake Village?
-
-Yes. Aloha Window Bros uses water-fed pole systems that safely reach second and third-story windows from the ground. For higher access points, we use professional ladders and safety equipment. All work is fully insured.
-
-### What if it rains after my windows are cleaned?
-
-Rain actually helps keep professionally cleaned windows clear. Because we use purified water that leaves zero mineral residue, rainwater sheets off cleanly rather than leaving spots. Dirty windows collect rain spots because existing grime gives water droplets something to cling to.
-
-### Can you remove hard water stains from my Westlake Village windows?
-
-In most cases, yes. Our purified water system and professional cleaning solutions dissolve mineral deposits that haven't yet etched the glass. For severe hard water damage, we can assess whether restoration or replacement is the better option during your free quote visit.
-
-### Do you offer recurring service for Westlake Village homes?
-
-Yes. Aloha Window Bros offers quarterly and semi-annual cleaning plans with priority scheduling and discounted per-visit rates. Recurring customers also receive our 100% satisfaction guarantee on every visit.
+<details class="faq-item">
+<summary>How much does window cleaning cost in Westlake Village?</summary>
+<p>Most Westlake Village homes pay between $175 and $425 for a complete cleaning of interior and exterior glass, screens, frames, and sills. Larger two-story homes with high window counts land toward the upper half of that band. Aloha Window Bros provides free on-site quotes with no obligation.</p>
+</details>
+<details class="faq-item">
+<summary>How often should I clean my windows in Westlake Village?</summary>
+<p>Aloha Window Bros recommends every 3 to 4 months for most Westlake Village homes, and every 3 months for homes with sprinklers that reach the glass or homes that back onto open hillside.</p>
+</details>
+<details class="faq-item">
+<summary>Is Westlake Village water hard?</summary>
+<p>Moderately. California Water Service reports total hardness averaging 146 ppm, with a range of 138 to 153 ppm, for its Westlake district, about 8.5 grains per gallon, and labels water between 75 and 150 ppm moderately hard. The white spots most Westlake homes see come from sprinkler overspray drying on the glass every day, not from unusually hard water.</p>
+</details>
+<details class="faq-item">
+<summary>Do you clean second-story windows in Westlake Village?</summary>
+<p>Yes. Aloha Window Bros uses water-fed pole systems that reach second and third-story windows from the ground. For higher access points the crew uses professional ladders and safety equipment. All work is fully insured.</p>
+</details>
+<details class="faq-item">
+<summary>What if it rains after my windows are cleaned?</summary>
+<p>Light rain on clean glass usually dries with little spotting, because rainwater carries far fewer dissolved minerals than tap water. Most spots that show up after rain are dust and pollen that were already on the glass, or soil splashed up onto the lower panes.</p>
+</details>
+<details class="faq-item">
+<summary>Can you remove hard water stains from my windows?</summary>
+<p>In most cases, yes. Mineral deposits that have not etched the glass come off with professional cleaning and a purified-water rinse. If the haze stays after cleaning, the glass may be etched, and we will assess whether hard water restoration is worth it during your free quote visit.</p>
+</details>
 
 ## Get Your Free Quote Today
 
-Aloha Window Bros has helped hundreds of Westlake Village homeowners maintain crystal-clear windows. See local pricing and service details on our [Westlake Village window cleaning page](/westlake/), then [schedule your free quote online](/contact/) or call **(805) 341-4121** and we'll come to you for an on-site estimate with no obligation.
+Aloha Window Bros cleans windows for homes across Westlake Village, from North Ranch to Westlake Island. See local pricing and service details on our [Westlake Village window cleaning page](/westlake/), then [schedule your free quote online](/contact/) or call **(805) 341-4121** and we'll come to you for an on-site estimate with no obligation.

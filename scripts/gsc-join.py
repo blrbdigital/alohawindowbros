@@ -4,6 +4,8 @@
 Usage: gsc-join.py START END [PRIOR_START PRIOR_END]
 Prints: (1) page-level brand vs non-brand, (2) query x page rows for the
 top non-brand queries, (3) any query cluster passed via CLUSTER env grep.
+COUNTRY=usa limits every pull (here and in gsc-page-probe.py) to one country;
+the brief has been US-only since 2026-10-09, so use it when comparing to the brief.
 Run on the VPS (needs /root/.gsc-tokens.json).
 """
 import json
@@ -34,6 +36,10 @@ def q(tok, start, end, dims, limit=25000):
     url = ("https://www.googleapis.com/webmasters/v3/sites/"
            + urllib.parse.quote(PROP, safe="") + "/searchAnalytics/query")
     body = {"startDate": start, "endDate": end, "dimensions": dims, "rowLimit": limit}
+    if os.environ.get("COUNTRY"):  # e.g. COUNTRY=usa, to match the US-only brief
+        body["dimensionFilterGroups"] = [{"filters": [
+            {"dimension": "country", "operator": "equals",
+             "expression": os.environ["COUNTRY"].lower()}]}]
     req = urllib.request.Request(
         url, data=json.dumps(body).encode(),
         headers={"Authorization": "Bearer " + tok, "Content-Type": "application/json"})
