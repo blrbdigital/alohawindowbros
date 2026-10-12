@@ -1,232 +1,163 @@
 ---
 title: 'How to Start a Window Cleaning Business: Essential Guide'
-date: '2026-08-03'
-description: 'Learn how to start a window cleaning business with proven strategies for services, equipment, insurance, pricing, and local marketing in 2026.'
+date: '2026-10-12'
+description: 'How to start a window cleaning business: California filings checked against the law, real price bands, pure-water costs by water TDS, and a 90-day plan.'
 heroImage: '/img/blog/window-cleaning-business.jpg'
 heroImageAlt: 'How to Start a Window Cleaning Business: Essential Guide'
 ---
-**The U.S. window cleaning industry generated $2.9 billion in 2024 across 35,344 businesses, which means there's plenty of demand but very little room for sloppy operations.** That fragmentation is the opening, because in this trade, the winner usually isn't the company with the loudest ad spend, it's the one that keeps routes tight, jobs profitable, and crews moving.
+**To start a window cleaning business, pick a compact service area, register the business, insure it before the first paid job, and buy equipment sized to your local water. In California that means a fictitious business name statement within 40 days of trading under a name that leaves out your surname, the $800 annual tax if you form an LLC, general liability insurance, and workers' compensation from the day you hire your first employee. Then price by the route, not just by the pane, and turn every first job into a recurring one.**
 
-A window cleaning business can look simple from the outside. A bucket, a squeegee, a truck, a few flyers, and a website can get you started. The part that separates a real business from a busy hobby is how well you control travel time, job size, and add-on work, because those three things decide whether each stop on the route pays.
+Most of the guides ranking for this question come from software vendors, franchisors, insurers and supply stores. This one comes from Aloha Window Bros, a two-brother window cleaning company working Ventura County and Santa Barbara County, and it adds two things those guides leave out: the California rules checked against the statutes themselves, and our own published price sheet, which shows route economics in real numbers. The trade is worth entering with care. According to [IBISWorld](https://www.ibisworld.com/united-states/industry/window-washing/6458/), U.S. window washing revenue grew about 2.3% a year to **$2.9 billion in 2024**, while the number of businesses fell about 4.9% a year from 2019 to **35,344**. Fewer operators now share a market that grew over the same period.
+
+## Key takeaways
+
+- **File before you trade.** California requires a fictitious business name statement "not later than 40 days" after you start doing business under that name, and a California LLC owes **$800 a year** even in a year with no work.
+- **Insure before the first invoice.** California employers need workers' compensation "even if they have only one employee," according to the state Department of Industrial Relations.
+- **Hiring means paperwork.** Cal/OSHA requires every employer to keep a written Injury and Illness Prevention Program, and window work has its own safety order, Title 8 §3282.
+- **Your water sets your pure-water cost.** Unger's production chart for a one-stage deionizing unit gives over 500 gallons per fill on water under 100 ppm TDS, but only 100 to 350 gallons at 250 to 400 ppm.
+- **Price the route.** Our own published band runs $150 to $400 at our Thousand Oaks home base and $200 to $475 in Santa Barbara, where the drive is longer.
 
 ## Table of Contents
-- [Why Starting a Window Cleaning Business Makes Sense](#why-starting-a-window-cleaning-business-makes-sense)
-  - [A route business, not a billboard business](#a-route-business-not-a-billboard-business)
-  - [What healthy operations look like](#what-healthy-operations-look-like)
-- [Core Services That Drive Revenue](#core-services-that-drive-revenue)
-  - [The base service should do more than wipe glass](#the-base-service-should-do-more-than-wipe-glass)
-  - [Bundles beat single-line quoting](#bundles-beat-single-line-quoting)
-  - [Premium work belongs in the lineup](#premium-work-belongs-in-the-lineup)
-- [Essential Equipment for Professional Results](#essential-equipment-for-professional-results)
-  - [Start with the tools that protect time](#start-with-the-tools-that-protect-time)
-  - [Pro-grade equipment changes the workflow](#pro-grade-equipment-changes-the-workflow)
-- [Insurance, Licensing, and Legal Protections](#insurance-licensing-and-legal-protections)
-  - [Cover the obvious risks before they happen](#cover-the-obvious-risks-before-they-happen)
-  - [Contracts should be plain and specific](#contracts-should-be-plain-and-specific)
-- [Pricing Strategies That Protect Margins](#pricing-strategies-that-protect-margins)
-  - [Price the route, not just the glass](#price-the-route-not-just-the-glass)
-  - [Know when to pass](#know-when-to-pass)
-- [Local Marketing and Client Retention](#local-marketing-and-client-retention)
-  - [Build around neighborhoods, not broad geography](#build-around-neighborhoods-not-broad-geography)
-  - [Retention is the cheapest lead source](#retention-is-the-cheapest-lead-source)
-- [Real-World Case Study Building a Profitable Route](#real-world-case-study-building-a-profitable-route)
-  - [Start with a narrow service radius](#start-with-a-narrow-service-radius)
-  - [Match equipment to local conditions](#match-equipment-to-local-conditions)
-- [Your First 90 Days A Practical Action Plan](#your-first-90-days-a-practical-action-plan)
+- [The California Paperwork, Checked Against the Source](#the-california-paperwork-checked-against-the-source)
+- [Insurance Comes Before the First Invoice](#insurance-comes-before-the-first-invoice)
+- [Equipment: Your Water Sets the Cost of Pure-Water Cleaning](#equipment-your-water-sets-the-cost-of-pure-water-cleaning)
+- [Pricing: What a Working Company Actually Charges](#pricing-what-a-working-company-actually-charges)
+  - [How many jobs make $100,000 a year](#how-many-jobs-make-100000-a-year)
+- [Route Density Beats Ad Spend](#route-density-beats-ad-spend)
+- [Your First 90 Days](#your-first-90-days)
+- [Frequently Asked Questions](#frequently-asked-questions)
 
-<a id="why-starting-a-window-cleaning-business-makes-sense"></a>
-## Why Starting a Window Cleaning Business Makes Sense
+<a id="the-california-paperwork-checked-against-the-source"></a>
+## The California Paperwork, Checked Against the Source
 
-The appeal starts with scale and fragmentation. The U.S. market hit **$2.9 billion in 2024**, and IBISWorld counted **35,344 businesses** in the space, which shows this is a real industry without a few giant players controlling the field ([IBISWorld window washing industry report](https://www.ibisworld.com/united-states/industry/window-washing/6458/)). That mix matters because it rewards local dominance, not national name recognition.
+A window cleaning business needs very little to open, which is exactly why the paperwork gets skipped. Every rule below was read in the source on October 12, 2026. All but one are California rules; the rope descent row is the federal OSHA standard, the national baseline for high-rise work.
 
-<a id="a-route-business-not-a-billboard-business"></a>
-### A route business, not a billboard business
-
-Window cleaning is a route business first and a marketing business second. If your jobs are scattered, you burn time in the truck, and the truck does not pay the bills. If your jobs sit in the same neighborhoods, the work gets easier, the schedule gets tighter, and each stop costs less to service.
-
-> **Practical rule:** a small, dense route with repeat customers is worth more than a bigger service area with one-off calls.
-
-The economics reinforce that reality. The average U.S. window cleaner earns about **$29,697 per year** or **$14.28 per hour**, while a typical residential job for a **1,500-square-foot house** costs about **$260** and commonly falls in the **$150 to $370** range ([GetJobber industry statistics](https://www.getjobber.com/academy/window-cleaning/window-cleaning-industry-statistics/)). Those numbers make one thing obvious, the business is people-intensive, so the way you use technician time matters more than owning expensive gear.
-
-If you want a practical example of how a service is framed for customers, [Aloha Window Bros' window washing service](https://alohawindowbros.com/services/window-washing/) shows how the offer can stay straightforward while still leaving room for repeat work and add-ons.
-
-<a id="what-healthy-operations-look-like"></a>
-### What healthy operations look like
-
-Industry KPI guidance puts **technician utilization** at **70% to 85%+** for a healthy operation, with residential **average revenue per job** commonly benchmarked at **$200 to $500** and **net profit margin** at **20% to 50%** ([Startup Financial Projection KPI guide](https://startupfinancialprojection.com/blogs/kpis/window-cleaning-service)). That is not a promise. It is a reality check. If your crews spend too much time driving, quoting, rescheduling, or redoing work, those numbers get harder to hit.
-
-![An infographic highlighting the benefits, market size, and growth potential of starting a window cleaning business.](https://cdnimg.co/8387fe5a-1497-428d-a3af-57b68fc0bac4/09b6d465-a911-4cc1-9459-63fd33b877d8/window-cleaning-business-infographic.jpg)
-
-The opportunity is that the barrier to entry is low, but the barrier to profitability is operational discipline. Route density, job size, and add-on pricing decide whether a window cleaning business stays busy or stays profitable. That is good news for a new owner who is willing to think like a route manager from day one.
-
-<a id="core-services-that-drive-revenue"></a>
-## Core Services That Drive Revenue
-
-A window cleaning business that only sells glass cleaning leaves money on the table. The stronger model is built around a visit that solves multiple problems at once, so the technician's time covers more revenue without forcing extra drive time or setup.
-
-<a id="the-base-service-should-do-more-than-wipe-glass"></a>
-### The base service should do more than wipe glass
-
-Start with **interior and exterior window washing** using eco-friendly solutions, because that's the core request most clients understand. But don't treat it as a one-item job. Frames, sills, and tracks should be evaluated on every visit, because those surfaces change the final result and shape what the customer feels was cleaned.
-
-> Glass sells the appointment, detail work protects the margin.
-
-Screen cleaning is another obvious add-on that too many operators underprice. A proper screen service means removing each screen, washing it, drying it, and reinstalling it. That takes time, but it also adds real value for homeowners who notice dust, pollen, and grime every time they open a window.
-
-<a id="bundles-beat-single-line-quoting"></a>
-### Bundles beat single-line quoting
-
-The most useful way to think about revenue is by package, not by isolated line item. A four-in-one visit that includes glass, screens, frames, and tracks makes the route more profitable because the extra work rides on top of a job that's already scheduled and already on-site.
-
-| Service | Typical Residential Price | Typical Commercial Price | Add-On Potential |
-|---|---:|---:|---|
-| Interior and exterior window washing | Varies by home size and access | Varies by building type and frequency | High |
-| Screen cleaning | As an add-on to window service | Often bundled into recurring service | High |
-| Frame and track detailing | Usually packaged with a full clean | Often quoted as part of a scope | High |
-| Water-fed pole exterior cleaning | Used for larger or harder-to-reach properties | Common on multi-story accounts | Medium to High |
-
-For a service menu example, the structure used by [Aloha Window Bros' window washing service](https://alohawindowbros.com/services/window-washing/) shows how a full visit can include multiple surfaces instead of just the pane itself.
-
-<a id="premium-work-belongs-in-the-lineup"></a>
-### Premium work belongs in the lineup
-
-High-access work using purified water-fed pole systems belongs in a serious service list because it changes how safely and efficiently a crew can work on multi-story glass. Solar panel cleaning also fits as a premium line, especially where dust and residue build up between scheduled visits. The businesses that do best usually don't chase every possible job, they build repeatable packages that fit their routes and their equipment.
-
-<a id="essential-equipment-for-professional-results"></a>
-## Essential Equipment for Professional Results
-
-The gear stack tells you a lot about whether a business is built to last. Cheap tools can get you through a few jobs, but they usually cost more later in rework, slower jobs, and avoidable strain on the crew.
-
-<a id="start-with-the-tools-that-protect-time"></a>
-### Start with the tools that protect time
-
-A solid starter setup still needs the basics, **squeegees**, scrubbers, buckets, microfiber cloths, extension poles, and safe, reliable cleaning solutions. Those tools do the visible work, but the more important decision is whether they support a repeatable process that keeps each job moving without constant resets.
-
-For harder-to-reach glass, a **water-fed pole system** becomes a serious efficiency tool. It lets you clean exterior windows positioned high up without the ladder time that slows crews down and adds risk. That matters in route work, because every minute spent moving equipment is a minute not spent billing for cleaning.
-
-<a id="pro-grade-equipment-changes-the-workflow"></a>
-### Pro-grade equipment changes the workflow
-
-Pressurized screen cleaning tools are useful because they let crews clean screens without turning every panel into a separate disassembly project. That can make a big difference on homes with lots of openings or on jobs where pollen and dust are part of the repeat cycle. The point isn't to buy everything at once, it's to buy the pieces that let you finish jobs faster and with fewer callbacks.
-
-The equipment choice also shapes **technician utilization**, which healthy operations aim to keep at **70% to 85%+** ([Startup Financial Projection KPI guide](https://startupfinancialprojection.com/blogs/kpis/window-cleaning-service)). If the truck is packed poorly, tools get buried, and technicians spend their paid time looking for gear instead of cleaning glass. That's a hidden labor cost.
-
-![A comparison chart showing essential window cleaning equipment for entry-level versus professional-grade setups for cleaning businesses.](https://cdnimg.co/8387fe5a-1497-428d-a3af-57b68fc0bac4/11a5dd40-af23-4618-9ce0-1a9e68fe15ac/window-cleaning-business-cleaning-equipment.jpg)
-
-A clean truck layout matters almost as much as the tools themselves. If you're moving from residential to commercial, or from one neighborhood to the next, your setup should let you unload quickly, stage efficiently, and leave without a mess.
-
-The right order is simple. Buy for the work you already know you can win, not for the fantasy job you might get someday. A small, well-used kit beats a huge, disorganized inventory every time.
-
-Before a ladder goes on the truck, watch the workflow in action.
-
-
-
-<a id="insurance-licensing-and-legal-protections"></a>
-## Insurance, Licensing, and Legal Protections
-
-Insurance isn't overhead you grudgingly pay, it's what keeps one bad incident from swallowing a month of revenue. Window cleaning looks low-risk until a ladder slips, a screen gets damaged, or a client says a surface was scratched after the job.
-
-<a id="cover-the-obvious-risks-before-they-happen"></a>
-### Cover the obvious risks before they happen
-
-The baseline protections are **general liability insurance**, **workers' compensation** if you have employees, and **commercial auto coverage** for vehicles used in the business. Those policies don't make the work safer by themselves, but they do keep a claim from becoming a cash-flow crisis. Licensing rules vary by state and municipality, so the right move is to verify local requirements before you take paid work, not after.
-
-Commercial clients usually care about documentation more than homeowners do. HOAs, property managers, and some office accounts often want proof of insurance and may expect bonding or written contract terms before they sign anything. That paperwork slows the start, but it also filters out bad-fit jobs.
-
-> Put the protections in place before the first invoice, not after the first complaint.
-
-<a id="contracts-should-be-plain-and-specific"></a>
-### Contracts should be plain and specific
-
-A strong service agreement should define scope, access, timing, and what counts as completed work. If a client expects interior panes, screens, and tracks but the quote only covered exterior glass, the job becomes a dispute instead of an appointment. Access agreements matter too, especially for gated communities, keyed entries, and commercial spaces with limited hours.
-
-For a deeper look at coverage basics, the [Aloha Window Bros insurance guide](https://alohawindowbros.com/blog/window-cleaning-insurance/) is a useful reference point for how a window-cleaning company frames protection around the work. The takeaway is simple. These costs belong in your pricing model from the start, because they're part of the business, not an optional add-on.
-
-<a id="pricing-strategies-that-protect-margins"></a>
-## Pricing Strategies That Protect Margins
-
-Pricing misses in a **window cleaning business** usually start with the route, not the estimate. A quote can look fair on the page and still hurt the day if the property sits far from the rest of the schedule, takes extra time to access, or is too small to justify the truck roll.
-
-<a id="price-the-route-not-just-the-glass"></a>
-### Price the route, not just the glass
-
-Residential pricing works best when it stays clear and repeatable. A typical residential job for a **1,500-square-foot house** runs about **$260** and commonly sits in the **$150 to $370** range. That gives you a practical frame, but the final number still needs to reflect access, window count, and whether the stop fits the rest of the route. For a local example of how territory affects pricing, the [Aloha Window Bros Ventura County pricing overview](https://alohawindowbros.com/blog/how-much-does-window-cleaning-cost-in-ventura-county/) shows how service area conditions shape real quotes.
-
-Commercial work usually needs a different structure, often square-footage or scope-based pricing, because glass count, access, and setup time vary much more. Bundled package pricing works on both sides of the business because it raises the average ticket without forcing a separate trip for every extra task.
-
-| Pricing Approach | Works Best For | Margin Risk | Best Use Case |
+| Requirement | When it applies | What the rule says | Source |
 |---|---|---|---|
-| Per-window pricing | Smaller residential jobs | Can underprice complex access | Straightforward homes |
-| Square-footage pricing | Larger commercial properties | Can miss setup time | Offices, storefronts, managed properties |
-| Bundle pricing | Repeat residential and HOA work | Needs clear scope | Screens, tracks, sills, add-ons |
+| Fictitious business name statement | Your business name does not include your surname, or suggests other owners | File "not later than 40 days" after you start doing business under that name | [Cal. Bus. & Prof. Code §17910](https://california.public.law/codes/business_and_professions_code_section_17910) and [§17900](https://california.public.law/codes/business_and_professions_code_section_17900) |
+| LLC annual tax | You form a California LLC | $800 a year, due "even if you are not conducting business," until the LLC is cancelled | [California Franchise Tax Board](https://www.ftb.ca.gov/file/business/types/limited-liability-company/index.html) |
+| Workers' compensation | You hire anyone | Required "even if they have only one employee" | [California Department of Industrial Relations](https://www.dir.ca.gov/dwc/employer.htm) |
+| Injury and Illness Prevention Program | You hire anyone | Every employer must establish, implement and maintain an effective program, documented in writing | [Cal/OSHA Title 8 §3203](https://www.dir.ca.gov/title8/3203.html) |
+| Window cleaning safety order | Employees clean windows above ground level | No window may be cleaned from inside or outside unless safe means are provided; approved anchors are required where a worker could fall through an opening whose lesser dimension exceeds 18 inches; building owners must give the employer written assurance before use | [Cal/OSHA Title 8 §3282](https://www.dir.ca.gov/title8/3282.html) |
+| Rope descent (high-rise) | High-rise work on a rope descent system | The building owner must tell the employer in writing that each anchorage is certified for at least 5,000 pounds per attached employee; no rope descent above 300 feet unless no other access is feasible or safer | [29 CFR 1910.27(b)](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.27) |
+| Post-construction clean-up | You bid builder clean-up work | The Contractors State License Board's D-63 Construction Clean-up classification covers removing "any paint or adhesive products from windows" left by a construction project | [CSLB D-63](https://www.cslb.ca.gov/About_Us/Library/Licensing_Classifications/Licensing_Classifications_Detail.aspx?Class=D63) |
 
-<a id="know-when-to-pass"></a>
-### Know when to pass
+Two practical notes. First, the D-63 row is the line to watch if a builder asks you to clean new windows: removing paint, stickers and adhesive after construction is a classified trade, so ask CSLB which license that job needs before you quote it. Second, your city may require its own business license or business tax certificate, so check with the city where the business is based. This table is a summary of the rules we work under, not legal advice; fees and forms change, so confirm with each agency before you file.
 
-Some jobs should be turned down, even if the top-line number looks fine. A distant property can break route density. A building with awkward access can eat paid time. A customer who wants endless negotiation usually brings more friction than profit.
+<a id="insurance-comes-before-the-first-invoice"></a>
+## Insurance Comes Before the First Invoice
 
-Add-ons matter because they improve the economics of a stop. Screen cleaning, hard-water treatment, and detailed interior panels add revenue on the same visit, which helps protect margin without adding another trip. A service menu built around a compact radius and realistic minimums usually holds up better than a scattered book of one-off calls.
+Window cleaning looks low-risk until a ladder slips, a screen gets damaged, or a client says a surface was scratched after the job. The baseline is **general liability insurance** before the first paid job, **commercial auto coverage** for the work vehicle, and **workers' compensation** the day anyone else joins the crew. Those policies do not make the work safer, but they keep one claim from becoming a cash-flow crisis.
 
-The goal is not to match every quote in town. It is to keep each job worth the drive, the setup, and the time on site.
+Commercial clients care about documentation more than homeowners do. HOAs, property managers and office accounts usually ask for a certificate of insurance and written scope before they sign. Our guide to [window cleaning insurance](/blog/window-cleaning-insurance/) explains what homeowners should ask for, which is also a fair checklist of what you should be able to show them.
 
-<a id="local-marketing-and-client-retention"></a>
-## Local Marketing and Client Retention
+A written agreement should define scope, access and timing. If a client expects interior panes, screens and tracks but the quote covered exterior glass only, the job becomes a dispute instead of an appointment.
 
-The best marketing in this trade usually starts with a map, not an ad. If the neighborhoods don't connect cleanly, the lead flow can look busy while the route stays weak.
+<a id="equipment-your-water-sets-the-cost-of-pure-water-cleaning"></a>
+## Equipment: Your Water Sets the Cost of Pure-Water Cleaning
 
-<a id="build-around-neighborhoods-not-broad-geography"></a>
-### Build around neighborhoods, not broad geography
+A starter kit is simple: squeegees, scrubbers, a bucket, microfiber cloths, an extension pole and a sound ladder. Buy for the work you can already win, and pack the truck so tools come out in the order the job uses them, because time spent hunting for gear is unpaid time.
 
-The guide to profitable growth is usually simple, identify compact zip codes, prioritize blocks with higher homeownership, and focus on areas where jobs can be stacked close together. That makes the business easier to schedule and lowers the time cost between appointments. Local search still matters, but it should support the route plan instead of driving it.
+The bigger decision is a **water-fed pole system**, which cleans exterior glass from the ground with purified water instead of soap. Purified water is tap water with its dissolved minerals removed, so nothing is left to dry on the glass. Unger, the equipment maker, says that once rinse water rises above **10 ppm** of total dissolved solids (TDS) it "may not be as effective in producing streak-free and spot-free results" ([Unger](https://usa.ungerglobal.com/blog/10-common-mistakes-in-pure-water-window-cleaning/)). The resin that removes those minerals is used up by the minerals it removes, so **the harder your tap water, the more you spend per working hour.**
 
-A practical marketing mix usually includes:
-- **Google Business Profile work:** keep the profile current, answer calls fast, and use photos that show real jobs.
-- **Review generation:** ask every satisfied client while the result is still fresh.
-- **Neighborhood landing pages:** speak to one city or subdivision at a time instead of writing generic service copy.
-- **Targeted direct mail:** use it for specific communities, not random blanket drops.
-- **Property manager relationships:** stay visible to people who control repeat accounts.
+Unger's production estimate for its one-stage HydroPower Ultra deionizing unit, as published by [Window Cleaning Resource](https://windowcleaner.com/products/unger-hydropower-ultra-1-stage), shows how steep that curve is:
 
-<a id="retention-is-the-cheapest-lead-source"></a>
-### Retention is the cheapest lead source
+| Incoming water | Pure water per fill | Working hours per fill |
+|---|---|---|
+| Soft, under 100 ppm TDS | Over 500 gallons | Over 12.8 |
+| Medium, 100 to 250 ppm | 350 to 500 gallons | 9.5 to 12.8 |
+| Hard, 250 to 400 ppm | 100 to 350 gallons | 2.6 to 9.5 |
+| Very hard, over 400 ppm | Under 100 gallons | Under 2.6 |
 
-Residential window cleaning is naturally recurring, so the first happy customer is often the best future customer you'll ever get. That means reminders, follow-up scheduling, and simple rebook systems matter more than flashy promotion. A customer who's already seen your work needs less convincing and usually books faster.
+*Hours based on 39 gallons per hour, with 10 ppm as the limit for pure water.*
 
-> The easiest sale is the one that doesn't have to be relearned every season.
+Now put local water into that chart. California American Water reports **297 ppm TDS** for its main Thousand Oaks and Newbury Park supply ([Cal Am](https://www.amwater.com/ccr/thousandoaks.pdf)), which lands in the hard band: 100 to 350 gallons, or 2.6 to 9.5 working hours per fill, against more than 12.8 hours on soft water. The City of Ventura's groundwater runs **1,200 to 1,600 mg/L** of dissolved solids before it is blended ([City of Ventura](https://www.usbr.gov/drought/docs/2024/DRP-041_City_of_San_Buenaventura_508.pdf)), three to four times the chart's top band. On a route like that, a reverse osmosis stage ahead of the resin earns its cost, because the membrane removes most of the dissolved load and the resin only polishes what is left. Test your own tap with a TDS meter before you buy anything, and price resin into every job. Our guides to [how a water-fed pole system works](/blog/how-does-a-water-fed-pole-system-work/) and [purified water window cleaning](/blog/purified-water-window-cleaning/) cover the field side.
 
-The business grows when the schedule keeps serving the same areas with a predictable rhythm. If you can turn one job into a repeat route, you've lowered acquisition cost without having to chase a new market every week.
+![A comparison chart of entry-level window cleaning equipment (squeegee, bucket, cloths) against pro-grade equipment (water-fed pole, microfiber sleeves, safety harness).](/img/blog/window-cleaning-business-cleaning-equipment.jpg)
 
-<a id="real-world-case-study-building-a-profitable-route"></a>
-## Real-World Case Study Building a Profitable Route
+<a id="pricing-what-a-working-company-actually-charges"></a>
+## Pricing: What a Working Company Actually Charges
 
-A coastal California operator doesn't build the same route as someone inland. Salt haze, windborne grit, and sprinkler mineral spotting change how often clients need service and what kind of cleaning solves the problem.
+National averages are a poor guide to pricing a route, because they hide the two things that move a local quote: drive time and water. Here is how they show up on our own published price sheet, from our [Ventura County window cleaning cost guide](/blog/how-much-does-window-cleaning-cost-in-ventura-county/):
 
-<a id="start-with-a-narrow-service-radius"></a>
-### Start with a narrow service radius
+| Area | Published band, complete residential clean | Why it sits there |
+|---|---|---|
+| Thousand Oaks | $150 to $400 | Our home base, shortest drive time |
+| Agoura Hills, Newbury Park, Westlake Village, Camarillo, Simi Valley, Ventura | $175 to $425 | Canyon dust, larger homes, or harder or saltier water, depending on the city |
+| Oxnard | $175 to $450 | Coastal salt and agricultural dust together |
+| Ojai | $200 to $475 | The hardest water we work, roughly 17 grains per gallon |
+| Santa Barbara | $200 to $475 | Larger homes, longer drive time, sustained salt exposure |
 
-A first-year operator in Ventura County or Santa Barbara County should choose a compact radius and treat it like a real asset. A route that includes nearby neighborhoods in Thousand Oaks, Westlake Village, and Agoura Hills works differently from one that jumps constantly between coastal and inland jobs. The win comes from keeping drive time predictable and booking properties that share similar cleaning needs.
+The pattern is the lesson. The same four-in-one clean (glass, screens, frames and sills) costs the customer $50 more at the bottom of the band and $75 more at the top once the drive gets long or the water gets hard, because both eat technician time. Hard water restoration, which polishes etched mineral out of the glass, is a separate job we price at $200 to $500. If you price every home off one national number, the far and hard jobs quietly lose money.
 
-<a id="match-equipment-to-local-conditions"></a>
-### Match equipment to local conditions
+| Pricing approach | Works best for | Margin risk |
+|---|---|---|
+| Per-window pricing | Smaller residential jobs | Underprices difficult access |
+| Square-footage or scope pricing | Commercial properties | Can miss setup time |
+| Bundle pricing | Repeat residential and HOA work | Needs a clearly written scope |
 
-Coastal glass often needs more than a basic wash because salt film and residue show up faster. Inland areas can bring dust and wind-driven debris, so screens, tracks, and sills become part of the value proposition. In a county with both conditions, the smartest move is to own gear that handles high glass safely and to offer the add-ons that solve the specific problem, not just the surface symptom.
+<a id="how-many-jobs-make-100000-a-year"></a>
+### How many jobs make $100,000 a year
 
-A route built around recurring homes and a few small commercial accounts usually beats a scattered calendar full of one-off calls. The reason is simple, recurring stops let you refine timing, reduce setup waste, and learn which properties justify extra work. That's how a business stops chasing every lead and starts compounding the ones that fit.
+The arithmetic is simple once you pick an average ticket. At **$300 a job**, an illustration that sits inside our published band and is not our actual average, $100,000 in revenue takes **334 jobs a year**, or about **7 jobs a week** across 48 working weeks. If customers book every three to four months, the interval our cost guide recommends for most Ventura County homes, that is roughly **84 to 112 recurring customers**. That is revenue, not profit: insurance, fuel, resin and payroll come out of it, which is why route density matters more than raw job count.
 
-<a id="your-first-90-days-a-practical-action-plan"></a>
-## Your First 90 Days A Practical Action Plan
+Some jobs should be turned down even when the number looks fine. A distant property breaks route density, awkward access eats paid time, and a client who negotiates every visit brings more friction than margin.
 
-Days 1 to 30 should be about setup, not volume. Get insurance in place, confirm local licensing requirements, buy only the tools you'll use, and define the neighborhoods you want first. If your service area is too wide on day one, you'll feel busy and still miss profit.
+<a id="route-density-beats-ad-spend"></a>
+## Route Density Beats Ad Spend
 
-Days 31 to 60 should focus on routing and first customers. Build a short list of target streets, launch your local profile, ask for reviews early, and avoid taking far-flung jobs just to fill the calendar. Set minimums that protect your truck time.
+Window cleaning is a route business first and a marketing business second. Scattered jobs burn time in the truck, and the truck does not pay the bills. Jobs stacked in the same neighborhoods make the schedule tighter and every stop cheaper to service.
 
-Days 61 to 90 should tighten the system. Review which jobs were efficient, which quotes were weak, and which customers are likely to repeat. Then adjust your pricing, rework your schedule, and formalize reminders so the best accounts don't drift away.
+> **Practical rule:** a small, dense route with repeat customers is worth more than a bigger service area full of one-off calls.
 
-Keep the checklist simple:
-- **Lock the legal basics.**
-- **Choose a compact route.**
-- **Quote for job fit, not just window count.**
-- **Bundle add-ons that belong on the same visit.**
-- **Turn every good customer into a repeat customer.**
+A practical marketing mix for a new operator:
+- **Google Business Profile:** keep it current, answer calls fast, and post photos of real jobs.
+- **Reviews:** ask every satisfied client while the result is still fresh.
+- **Neighborhood pages:** speak to one city or neighborhood at a time instead of writing generic service copy.
+- **Targeted direct mail:** aim it at the streets you already service, not blanket drops.
+- **Property managers:** stay visible to the people who control repeat accounts.
+
+Retention is the cheapest lead source. Residential window cleaning recurs naturally, so reminders and simple rebooking matter more than promotions. A customer who has already seen your work needs less convincing and books faster.
+
+<a id="your-first-90-days"></a>
+## Your First 90 Days
+
+**Days 1 to 30, set up.** Choose the business structure, file the fictitious business name statement if you need one, get general liability and auto coverage in place, and test your tap water's TDS before you buy a pure-water system. Define the first neighborhoods you want.
+
+**Days 31 to 60, first customers.** Launch your Google Business Profile, ask for reviews from the first jobs, and set a minimum charge that protects your drive time. Turn down far-flung jobs that would only fill the calendar.
+
+**Days 61 to 90, tighten the system.** Review which jobs were efficient and which quotes were weak, and move good customers onto a recurring schedule. Before you hire, put workers' compensation and a written Injury and Illness Prevention Program in place.
+
+<a id="frequently-asked-questions"></a>
+## Frequently Asked Questions
+
+<div class="faq-list">
+<details class="faq-item">
+<summary>Do you need a license to start a window cleaning business in California?</summary>
+<p>You need to register the business correctly. A California business operating under a name that does not include the owner's surname must file a fictitious business name statement within 40 days of starting (Business and Professions Code section 17910), a California LLC owes an $800 annual tax to the Franchise Tax Board, and many cities require their own business license or tax certificate. Post-construction window clean-up is a separate case: removing paint or adhesive from new windows falls under the Contractors State License Board's D-63 Construction Clean-up classification, so ask CSLB before bidding that work.</p>
+</details>
+<details class="faq-item">
+<summary>How much does it cost to start a window cleaning business?</summary>
+<p>The fixed legal costs are small and knowable: a county filing fee for a fictitious business name, the $800 annual tax if you form a California LLC, and insurance premiums quoted on your payroll and coverage limits. Equipment is the variable. A squeegee kit is a modest purchase; a water-fed pole system is the large one, and its running cost depends on your water. Unger's chart for a one-stage deionizing unit gives over 500 gallons per fill under 100 ppm TDS but only 100 to 350 gallons at 250 to 400 ppm.</p>
+</details>
+<details class="faq-item">
+<summary>How much should a window cleaner charge?</summary>
+<p>Price by the route and the conditions, not one national number. Aloha Window Bros publishes $150 to $400 for a complete residential clean at its Thousand Oaks home base, $175 to $425 across most of the Conejo Valley and Ventura, $175 to $450 in Oxnard, and $200 to $475 in Ojai and Santa Barbara. The higher bands reflect longer drives and harder water, both of which add technician time. Hard water restoration is priced separately at $200 to $500.</p>
+</details>
+<details class="faq-item">
+<summary>How many customers do you need to make $100,000 a year window cleaning?</summary>
+<p>At an illustrative $300 average job, $100,000 in revenue takes about 334 jobs a year, or about 7 a week across 48 working weeks. If each customer books every three to four months, that is roughly 84 to 112 recurring customers. That figure is revenue before insurance, fuel, equipment and payroll, so a dense route matters more than the raw customer count.</p>
+</details>
+<details class="faq-item">
+<summary>Do you need workers' compensation for a window cleaning business?</summary>
+<p>In California, yes, as soon as you have an employee. The state Department of Industrial Relations says California employers are required by law to have workers' compensation insurance even if they have only one employee. Cal/OSHA also requires every employer to establish, implement and maintain a written Injury and Illness Prevention Program under Title 8 section 3203.</p>
+</details>
+<details class="faq-item">
+<summary>What safety rules apply to cleaning high windows?</summary>
+<p>In California, Cal/OSHA Title 8 section 3282 says no window may be cleaned from inside or outside unless safe means are provided, requires approved anchors where a worker could fall through an opening whose lesser dimension exceeds 18 inches, and requires building owners to give the employer written assurance before use. Nationally, federal OSHA's rope descent rule (29 CFR 1910.27) requires the building owner to certify in writing that each anchorage supports at least 5,000 pounds per attached employee.</p>
+</details>
+</div>
 
 ---
-Aloha Window Bros serves Ventura County and Santa Barbara County with window, screen, frame, sill, and solar cleaning for homes and businesses, and that kind of route-based service is exactly what this business model depends on. If you want a practical example of how a local operator handles coastal conditions, recurring accounts, and full-scope cleaning, visit [Aloha Window Bros](/contact/) and see how the work is structured in real neighborhoods.
+
+Aloha Window Bros is a two-brother window cleaning company serving Ventura County and Santa Barbara County, and every rule and price on this page is one we work under. If you landed here weighing a do-it-yourself route against hiring a crew for your own home, our [window washing service](/services/window-washing/) covers glass, screens, frames and sills as one four-in-one clean, and you can [request a free estimate](/contact/) for your address.

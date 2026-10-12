@@ -4,6 +4,112 @@
 
 ---
 
+### 2026-10-12
+
+**What we did:**
+- **refresh + internal_links (primary): `/blog/window-cleaning-business/`.** An Outrank post (08-03) that Google started
+  ranking on its own on **09-28**, untreated, with one inbound link, no FAQ, and two claims flagged UNVERIFIED by the
+  08-12 audit and never fixed.
+  - **Information gain over the live results** (Reddit, YouTube, Detroit Sponge, Mission Linen, NEXT Insurance,
+    ServGrow, Neighborly; none is California-specific and none is an operating cleaning company):
+    1. A California compliance table, every row read in the source today: B&P §17910 (fictitious business name "not
+       later than 40 days") and §17900, FTB's $800 LLC annual tax, DIR's workers' comp rule ("even if they have only
+       one employee"), Cal/OSHA §3203 (written IIPP) and §3282, 29 CFR 1910.27(b) (5,000 lb anchorages, 300 ft) and
+       CSLB's D-63 Construction Clean-up classification ("any paint or adhesive products from windows").
+    2. **Unger's HydroPower Ultra 1-Stage production chart** (over 500 gallons per fill under 100 ppm TDS, 100 to 350
+       at 250 to 400, under 100 above 400, at 39 gal/hr) applied to Cal Am's **297 ppm** Thousand Oaks supply
+       (re-read in its 2025 CCR today) and Ventura's **1,200 to 1,600 mg/L** pre-blend groundwater. No ranking page says
+       that local water sets the running cost of a pure-water system.
+    3. Our own published per-city bands as route economics, and a labelled $100,000 arithmetic (334 jobs at an
+       illustrative $300, 84 to 112 recurring customers at our cost guide's three-to-four-month interval).
+  - Direct answer in the first 100 words, key takeaways, 6 FAQ items from the live PAA sets (license, startup cost, what
+    to charge, customers for $100,000, workers' comp, high-window safety); FAQPage parity **6 == 6** in `dist/`.
+    Description rewritten (152 chars). **Title unchanged**: it already matches the head query.
+  - **Removed:** GetJobber-only pay ($29,697) and "$260 for 1,500 sq ft" claims, `startupfinancialprojection.com` KPI
+    figures, a dangling video line, absolute self-links, and a hotlinked infographic with a growth arrow next to a
+    business count IBISWorld says is falling. IBISWorld re-read today: revenue CAGR 2.3% to $2.9B (2024), businesses
+    35,344, down 4.9% a year. The equipment infographic was localized.
+  - **Inbound contextual links 1 -> 5**, from `solar-panel-cleaning-business` ("starting a window cleaning business"),
+    `purified-water-window-cleaning` ("window cleaning business guide"), `how-does-a-water-fed-pole-system-work` ("how
+    to start a window cleaning business"), `window-cleaning-insurance` ("starting a window cleaning business in
+    California"), plus `commercial-window-cleaning-prices`, whose absolute link was re-anchored and made relative.
+    None of the five donors has an open read.
+- **No title_meta, no new content, no GBP change, and no edit to any page under review.**
+
+**Why we did it (brief window 2026-09-12..2026-10-09, US only, plus a US join, a page x date pull and live SERPs):**
+- **Every row the brief ranks higher is mid-read or already rejected with evidence:**
+  - *how to clean window screens* 31,869 @ 9.0 and its variants (*how to clean a window screen?* 693, *cleaning a window
+    screen* 686, *how to clean screens* 265, *how to clean window screens without removing them* 408 @ 7.3): the screens
+    post (US page level **1 click / 35,314 impr @ 9.0**) is the 09-13 scraper spike documented on 09-21, and its 09-16
+    retitle is under review until **10-28**.
+  - The streak cluster (*streak free window cleaner* 1,116 @ 7.6, *best no streak window cleaner* 730 @ 3.6, *best glass
+    cleaner for windows 2025* 753 @ 8.7): under review until **10-23**. `best-streak-free-window-cleaner` is not decaying:
+    US page level **22 clicks / 5,968 impr @ 7.8 (prior 2,448 @ 8.8)**, i.e. 22 of the site's 39 non-brand clicks. The
+    brief's "661 from 2,448" is the query-row/fragment artifact again (the join shows `#fragment` rows of 95 to 661 each).
+  - Solar roof (read until 11-11), skylights (11-13), sills (11-16), `/ventura/` (11-18), gutter service (11-09),
+    `/camarillo/`, `/agoura/`, `/newbury/` (09-14 links, 10-26), `/simi-valley/` (11-06), pricing pillar (10-21),
+    `window-screen-cleaning-service` (10-14).
+  - *commerical storefront windows* 347 @ 19.1 and *storefront windows* 186 @ 17.0: architectural intent under a
+    glass-contractor pack, rejected for the sixth time.
+  - **Decaying pages, checked:** `/newbury/` 165 -> 33 is brand rows (documented since 09-21) and under the 09-14
+    read; `skylight-cleaning-service` lost its rows to the how-to (documented); the Simi guide 96 -> 29 is the 10-09
+    consolidation onto `/simi-valley/` working as intended; `streak-free-window-cleaning-cloth` and the slashless
+    `best-streak-free-window-cleaner` are URL variants; `commercial-window-cleaning-prices` 46 -> 5 has no human rows
+    worth a push.
+- **The business guide is the largest untreated, human surface with no open review.** US page level: **202 impr / 0
+  clicks @ 11.4, prior 0**, 38 query rows, **0 anonymized**, desktop 154 / mobile 48. Daily: first impressions 09-28,
+  then 10 to 31 a day (31 on 10-09), positions 10.3 to 13.9 and drifting up. Rows include *how to start a window cleaning
+  business* 41 @ 10.1, *starting a window cleaning business* 22 @ 10.6, *window washing business plan* 22 @ 14.6, *how
+  to start window cleaning business* 18 @ 10.8, *starting a window washing business* 11 @ 11.5, and typo variants
+  (*how tos tart a window cleaning business*), which is how real people type. Live SERP 10-12 from Los Angeles: **#11**
+  under an AI Overview, a video block and PAA. This is the skylight/sills shape (an orphan Google chose by itself).
+- **Audience caveat, stated plainly:** the 10-09 changelog called this family "off-intent", and for bookings it is: these
+  searchers want to become window cleaners. The brief's success metric is non-brand clicks, so that is the only thing
+  this push is graded on. The closing CTA stays soft, and the page also had an accuracy debt open since 08-12.
+- **Scoreboard:** `internal_links` **5-0-0** and `refresh` **3-0-1** are the only clean records, and both are used.
+  `title_meta` (2-4-4) is not needed: the title matches the head query. **`gbp` is 0-0-13 and every grade reads "never
+  appeared in GSC", so there is no gbp row in the ledger**; the pack items are logged below for the GBP workstream.
+  `technical` (3-2-10) has no defect to fix. `new_content`: the matrix is complete and nothing on the board clears the
+  bar as a new URL.
+
+**Expected impact (review 2026-11-23, 42 days):**
+- **Primary:** `/blog/window-cleaning-business/` page-level US position from **11.4 to 8.0 or better**, *how to start a
+  window cleaning business* from **10.1 to 7.0 or better**, **400+ US impressions** and **3+ non-brand clicks** in the 28
+  days before review (currently 0 clicks). Caution for the grader: this is a fresh ranker drifting up on its own (10.3 to
+  10.7 in its last days), so untreated it would probably sit near 10. The claim is that it beats that.
+- The compliance table, the Unger chart and the price bands are AI-citation material (quotable, sourced numbers in an
+  AI Overview SERP). No separate prediction.
+- No prediction for the five donors; each only gained one outbound sentence.
+
+**Metrics at time of action (US, 2026-09-12..2026-10-09 unless stated):**
+- Brief: 98 clicks / 48,717 impr; non-brand **39 clicks** / 48,042 impr, 1,258 queries, avg pos 9.2 (prior 10.3).
+- `/blog/window-cleaning-business/` 0 / 202 @ 11.4 (prior 0). Inbound contextual links before: 1 (an absolute URL). After: 5.
+- Screens post 1 / 35,314 @ 9.0. Best-streak page 22 / 5,968 @ 7.8. `/thousand-oaks/` 4 / 583 @ 5.5 (all brand).
+  `/agoura/` 3 / 436 @ 5.0. `/santa-barbara/` 1 / 100 @ 17.7 (prior 0 / 65 @ 22.5; its city rows still sit at 33 to 47
+  while `/` holds *window cleaning santa barbara* 108 @ 8.8).
+- Sitemap 106 URLs (unchanged). Build 118 pages.
+
+**Logged, NOT actioned (for the GBP workstream and future runs):**
+1. **gbp, pack queries (brief):** *window cleaning thousand oaks* 84 @ 4.3, *screen cleaning service* 35 @ 3.7 (the
+   service page holds 17 @ 3.8), *window cleaning westlake village* 34 @ 2.5, *window cleaning prices thousand oaks* 26 @
+   2.0, *window cleaning cost thousand oaks* 20 @ 4.6, *window cleaning prices ventura* 20 @ 3.6. **Geo-grid ("window
+   cleaning near me"): ABSENT at Agoura Hills ("LOST since last scan"), Newbury Park, Oak Park and Camarillo**; ours at
+   #1 Thousand Oaks and #3 Westlake Village, with **251 reviews**. Weakest incumbents at the absent points: Golden
+   Window Washing (2 reviews, Newbury Park), Assets Window Cleaning (20, Agoura Hills and Oak Park), Guerrero (13,
+   Camarillo). The pack flips scan to scan at these points.
+2. **Still open since 07-27: the GBP website field is `http://alohawindowbros.com/`** (`GBP:/` still shows 67 US
+   impressions this window). It 301-redirects; the profile should say `https://alohawindowbros.com/`. Adam or Sam only.
+3. **Hero with sparkle glyphs:** `/img/blog/window-cleaning-business.jpg` joins storefront, skylights and sills.
+4. **Do not claim CSLB status for routine window washing** in either direction without a CSLB source (site map block).
+5. Carried from 10-09: `/camarillo/` factor card hardness after 10-26; `/simi-valley/` geography and unsourced claims
+   after 11-06; Las Virgenes MWD 142 mg/L sweep; pricing pillar's Ventura row reason after 10-21;
+   `window-cleaning-insurance` cites UK Simply Business claims data and `estimatty.com` (next audit);
+   `skylight-cleaning-pole` "20 metres"; `residential-window-cleaning-prices` hotlinks; real gutter price bands.
+
+**Review after 42 days (2026-11-23).**
+
+---
+
 ### 2026-10-09
 
 **What we did:**

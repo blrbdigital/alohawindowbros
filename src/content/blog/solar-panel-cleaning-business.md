@@ -124,7 +124,7 @@ The trade-off is straightforward. Automation can reduce repeated manual movement
 
 
 
-For Ventura and Santa Barbara counties, manual residential and HOA routes often offer a more manageable starting point than utility-scale work. Build density first, then add commercial tools when the route can keep them working instead of storing them.
+For Ventura and Santa Barbara counties, manual residential and HOA routes often offer a more manageable starting point than utility-scale work. Build density first, then add commercial tools when the route can keep them working instead of storing them. If window cleaning is part of the plan, our guide to [starting a window cleaning business](/blog/window-cleaning-business/) covers the California filings and how local water sets the cost of pure-water work.
 
 <a id="equipment-stack-for-a-professional-cleaning-crew"></a>
 ## Equipment Stack for a Professional Cleaning Crew

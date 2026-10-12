@@ -81,7 +81,7 @@ Here is the practical test I use when reviewing bids. If the property is a simpl
 | Per square foot | **$0.50 to $2.50 per square foot** | Larger facades and curtain walls |
 | Per hour | **$35 to $60 per hour** | Complex, access-heavy work |
 
-For a separate contractor perspective on how different service types get priced, the business-side framing at [Aloha Window Bros' window cleaning business page](https://alohawindowbros.com/blog/window-cleaning-business/) is a useful contrast point.
+For the contractor's side of the same math, our guide to [how to start a window cleaning business](/blog/window-cleaning-business/) shows how drive time and local water move a published price band.
 
 <a id="how-building-type-reshapes-the-final-quote"></a>
 ## How Building Type Reshapes the Final Quote

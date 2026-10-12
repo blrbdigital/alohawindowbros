@@ -1,3 +1,32 @@
+## 2026-10-12 - Business guide rebuilt around California law, Unger's output-by-TDS chart and our own price bands; 4 new inbound links
+
+**refresh + internal_links: `/blog/window-cleaning-business/`.** Google began ranking this Outrank post (08-03) on its
+own on 09-28: 202 US impressions in the brief window, 38 query variants, 0 clicks, position 11.4, one inbound link,
+no FAQ, and two claims the 08-12 audit flagged as UNVERIFIED and never fixed. It is the largest untreated surface with
+no open review. (The 10-09 entry called this query family "off-intent"; it is off-intent for bookings, which is why this
+push is graded on non-brand clicks only.)
+
+- Direct answer in the first 100 words, key takeaways, new ToC.
+- **California compliance table, every row read in the source today:** Bus. & Prof. Code §17910 (fictitious business
+  name "not later than 40 days") and §17900, the FTB's $800 LLC annual tax, DIR's workers' comp rule ("even if they
+  have only one employee"), Cal/OSHA §3203 (written IIPP) and §3282 (window cleaning safety order), 29 CFR 1910.27(b)
+  (rope descent anchorages, 300 ft) and CSLB's D-63 Construction Clean-up classification.
+- **Unger's HydroPower Ultra 1-Stage production chart** (over 500 gallons per fill under 100 ppm TDS, 100 to 350 at
+  250 to 400, under 100 above 400) applied to Cal Am's 297 ppm Thousand Oaks supply (re-read in the 2025 CCR) and
+  Ventura's 1,200 to 1,600 mg/L pre-blend groundwater.
+- **Our published per-city bands** shown as route economics (+$50 at the bottom, +$75 at the top for long drives and hard
+  water), and a labelled $100,000 arithmetic. IBISWorld re-read: revenue up 2.3% a year to $2.9B, businesses down
+  4.9% a year to 35,344.
+- 6 FAQ items from the live People Also Ask sets, FAQPage parity 6 == 6 in `dist/`. Description rewritten (152 chars).
+  Title unchanged. Date 2026-10-12.
+- **Removed:** two GetJobber-only claims (pay, $260 house), content-farm KPI figures, a dangling video line, absolute
+  self-links, and a hotlinked infographic with a misleading growth arrow. The equipment infographic is now local.
+- **Inbound links 1 -> 5:** new contextual links from `solar-panel-cleaning-business`, `purified-water-window-cleaning`,
+  `how-does-a-water-fed-pole-system-work` and `window-cleaning-insurance`; `commercial-window-cleaning-prices`' absolute
+  link re-anchored and made relative.
+- Verified at 390px: no page overflow, the wide compliance table scrolls in its frame, no console errors.
+- Logged, not fixed: the auto-injected hero for this post has sparkle glyphs (fourth such hero).
+
 ## 2026-10-09 - No ranking action; four city posts rebuilt for accuracy, Camarillo hardness corrected, US-only GSC tooling
 
 **No ranking action this run, on purpose.** Every page with real US demand in the brief (screens how-to, the streak

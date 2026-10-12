@@ -210,7 +210,7 @@ That development solved several problems at once. Purification addressed mineral
 
 A purified-water system isn't a one-time purchase that guarantees perfect results. Crews have to monitor TDS, maintain resin and filtration stages, keep hoses and brushes clean, and recognize when a surface needs restoration. The system also has reach and access limits, and water quality varies by location.
 
-The business case is therefore more nuanced than “faster, safer, and chemical-free.” Adoption keeps growing because the method removes ladder work from most residential jobs, but it does not remove the operating costs of resin, filters, water monitoring, equipment upkeep, training, and appropriate restoration work for glass that is already spotted.
+The business case is therefore more nuanced than “faster, safer, and chemical-free.” Adoption keeps growing because the method removes ladder work from most residential jobs, but it does not remove the operating costs of resin, filters, water monitoring, equipment upkeep, training, and appropriate restoration work for glass that is already spotted. If you are pricing a system for a new company, our [window cleaning business guide](/blog/window-cleaning-business/) maps Unger's output-by-TDS chart against Ventura County water supplies.
 
 For homeowners, the decision is practical. Use purified water for routine exterior contamination and hard-to-reach glass. Ask for restoration when mineral deposits are baked on, when etching is visible, or when frames and sills are contaminating the rinse. The best result comes from matching the tool to the condition instead of treating every pane as the same job.
 
