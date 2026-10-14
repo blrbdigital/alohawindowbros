@@ -1,3 +1,30 @@
+## 2026-10-14 - Residential price guide rebuilt around our own bands, California's wage and comp floor and a self-estimate; 5 new inbound links
+
+**refresh + internal_links: `/blog/residential-window-cleaning-prices/`.** Google began ranking this Outrank post (09-03)
+on 10-09: 0 to 1 US impressions a day before, 12 to 22 a day since, at positions 7.6 to 10.2. Brief window (US): 63
+impressions / 0 clicks @ 8.5, prior 28 @ 18.0. Live SERPs from Thousand Oaks put it #6 for *window cleaning pricing
+guide*, #9 for *average cost of window cleaning* and #8 for *residential window cleaning prices*. Every higher row in
+the brief is inside an open review.
+
+- Direct answer with our published bands in the first 100 words, key takeaways, new ToC.
+- New: a "where your home lands inside its band" table (no new prices), a five-step self-estimate, and a California
+  floor table read in the source today (DIR minimum wage $16.90/hr from 2026-01-01; DIR workers' comp "even if they
+  have only one employee") with a labelled wage illustration.
+- 6 FAQ items from the live People Also Ask sets, FAQPage parity 6 == 6 in `dist/`. Description rewritten (157 chars).
+  Title unchanged. Date 2026-10-14.
+- **Removed:** blocklisted `gorilladesk.com` and `housecallpro.com`, `thumbtack.com`, naked Angi figures, unsourced
+  per-window, per-pane, second-story and minimum-fee numbers, invented home-size brackets, a dangling video line,
+  absolute self-links, and four hotlinked images (one showed "$450 - $700+" against our $475 top, one had sparkle
+  glyphs). The access infographic is now local.
+- **Inbound links 3 -> 8:** `/services/window-washing/`, `window-washing-cost-per-window`, `window-cleaning-company`,
+  `is-professional-window-cleaning-worth-it`, `commercial-window-cleaning-prices`.
+- `window-cleaning-company`: price table no longer calls the four-in-one band "routine exterior washing", restoration
+  shows $200 to $500, three absolute links made relative. `commercial-window-cleaning-prices`: a mismatched anchor
+  ("commercial window cleaning resource" pointing at the California guide) fixed, two absolute links made relative.
+- No link to the pricing pillar yet: its review closes 10-21.
+- Verified at 390px: no page overflow, all three tables fit their frames, no 404s or page errors. `legal-guard scan`:
+  no critical or high findings (four pre-existing medium/review items, none from this change).
+
 ## 2026-10-12 - Business guide rebuilt around California law, Unger's output-by-TDS chart and our own price bands; 4 new inbound links
 
 **refresh + internal_links: `/blog/window-cleaning-business/`.** Google began ranking this Outrank post (08-03) on its

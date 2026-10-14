@@ -23,7 +23,7 @@ We handle residential and commercial properties of all sizes.
 
 ## Pricing
 
-Every home is different. Across the ten cities we serve, residential visits run **$150 to $475** depending on your city, window count, and accessibility, from $150 to $400 in Thousand Oaks to $200 to $475 in Ojai and Santa Barbara. We provide free on-site quotes, no surprises.
+Every home is different. Across the ten cities we serve, residential visits run **$150 to $475** depending on your city, window count, and accessibility, from $150 to $400 in Thousand Oaks to $200 to $475 in Ojai and Santa Barbara. We provide free on-site quotes, no surprises. Our guide to [residential window cleaning prices](/blog/residential-window-cleaning-prices/) shows where a home lands inside its band.
 
 ## FAQ
 

@@ -4,6 +4,127 @@
 
 ---
 
+### 2026-10-14
+
+**What we did:**
+- **refresh + internal_links (primary): `/blog/residential-window-cleaning-prices/`.** An Outrank post (09-03) that
+  Google started ranking on its own on **10-09**, untreated, with three inbound links, no FAQ, two blocklisted sources
+  and a hotlinked image publishing prices we do not charge.
+  - **Information gain over the live results** (from Thousand Oaks: housecallpro, windowcleaner.com's pricing forum,
+    gorilladesk, Jobber and Reddit operator threads, plus ProMatcher, Thumbtack, Angi, Homewyse and LA competitors):
+    1. A working company's published bands with a qualitative **"where your home lands inside its band"** table (low
+       end, middle, top, separate restoration). It adds no new prices.
+    2. A **five-step self-estimate** (count windows the way a crew does, upper floors, screens, the site's own wet test,
+       time since the last clean). The calculators in the SERP ask for square footage, the variable our pillar says
+       predicts least.
+    3. **The California floor under every quote**, read in the source today: DIR minimum wage **$16.90/hr from
+       2026-01-01** and DIR's workers' comp rule ("even if they have only one employee"), with a labelled illustration
+       (2 technicians x 3 hours x $16.90 = $101.40 in wages alone). No ranking page connects price to state labor law.
+    4. Cal Am's **297 ppm** TDS and Ventura's **1,200 to 1,600 mg/L** pre-blend groundwater against Unger's 10 ppm rinse
+       limit, to explain why bands differ by city.
+  - Direct answer in the first 100 words, key takeaways, 6 FAQ items from the live PAA (average cost, fair price, going
+    rate in my area, inside and out, per window or flat, how to estimate my house). FAQPage parity **6 == 6** in `dist/`.
+    Description rewritten (157 chars). **Title unchanged**: it is an exact match for *residential window cleaning
+    prices* and already reads as a pricing guide.
+  - **Removed:** `gorilladesk.com` and `housecallpro.com` (blocklisted 09-09 and still live here), `thumbtack.com`,
+    the naked Angi figures ($220, $150 to $302, $184 to $387, $266), unsourced per-window ($8 to $16), per-pane ($4 to
+    $8), second-story ($10 to $40) and minimum-fee ($100 to $250) numbers, invented home-size brackets, a "HomeGuide"
+    attribution with no link, a dangling video line, three absolute self-links, and all four hotlinked images: one
+    showed **"$450 - $700+"** for large homes against our $475 top, one had sparkle glyphs, one had a starburst glyph.
+    The clean access infographic was localized.
+  - **Inbound contextual links 3 -> 8**, from `/services/window-washing/` ("residential window cleaning prices"),
+    `window-washing-cost-per-window` ("residential window cleaning prices guide"), `window-cleaning-company` ("what
+    residential window cleaning costs"), `is-professional-window-cleaning-worth-it` ("residential window cleaning price
+    guide") and `commercial-window-cleaning-prices` ("residential window cleaning prices"). None has an open read.
+  - **Donor fixes:** `window-cleaning-company`'s price table called the four-in-one $150 to $475 band "routine exterior
+    washing" (the 09-18 scope-misstatement class) and listed restoration as "quote required"; now the complete-clean
+    band and $200 to $500. Five absolute links on two donors made relative; one mismatched anchor fixed.
+- **Kept intact for open reads:** the "window cleaning in Ventura" link to `/ventura/` (10-07 read). **Not added:** a link
+  to the pricing pillar, whose 09-09 read closes 10-21.
+- **No title_meta, no new content, no GBP change, and no edit to any page under review.**
+
+**Why we did it (brief window 2026-09-14..2026-10-11, US only, plus page probes, a page x date pull and live SERPs):**
+- **Every row the brief ranks higher is mid-read or already rejected with evidence**, unchanged since 10-12:
+  - *how to clean window screens* 31,466 @ 9.0 and its variants: the screens post (US page level **1 / 35,246 @ 9.0**)
+    is the 09-13 to 09-24 scraper spike; daily US impressions since 09-25 are 57 to 222 at 5.7 to 10.0 with 1 click.
+    Its 09-16 retitle is under review until **10-28**.
+  - The streak cluster (*streak free window cleaner* 1,115 @ 7.7 "slipping", *best no streak window cleaner* 740 @ 3.6,
+    *best glass cleaner for windows 2025* 754 @ 8.7): under review until **10-23**. `best-streak-free-window-cleaner` US
+    page level **22 clicks / 5,945 @ 7.8 (prior 6 / 2,672)**, still 22 of the site's 39 non-brand clicks. Daily
+    impressions have eased from 250 to 414 (09-20..09-24) to 123 to 201 (10-06..10-11); logged for the 10-23 grader.
+  - Skylights (11-13), sills (11-16), solar roof (11-11), gutter service (11-09), `/ventura/` (11-18), business guide
+    (11-23), `/camarillo/` `/agoura/` `/newbury/` (10-26), `/simi-valley/` (11-06), pricing pillar (10-21).
+  - *commerical storefront windows* 368 @ 19.0 and *storefront windows* 205 @ 17.0: architectural intent under a
+    glass-contractor pack, rejected for the seventh time.
+  - **`window-screen-cleaning-service`'s 09-02 read closed today.** US page level **0 / 179 @ 11.2 (prior 0 / 180 @
+    11.9)**; *window screen cleaning* 137 @ 12.0 against the predicted 6 to 10. It shares that query with the screens
+    post (314 @ 13.7), which is under review, so a follow-up waits until after 10-28.
+  - **Decaying pages, checked:** `skylight-cleaning-service` (rows moved to the how-to, documented), slashless
+    `best-streak-free-window-cleaner` and `streak-free-window-cleaning-cloth` (URL variants), `/newbury/` (brand rows),
+    the Simi guide (the 09-25 consolidation onto `/simi-valley/` working), `commercial-window-cleaning-prices` (no human
+    rows).
+- **The residential price guide is the one fresh, untreated, human surface with no open review.** Daily US
+  impressions: 0 to 1 from 09-15 to 10-08, then **12 @ 7.6, 22 @ 9.3, 18 @ 10.2** on 10-09..10-11. Window total
+  **63 / 0 @ 8.5 (prior 28 @ 18.0)**, 31 rows, 0 anonymized: *window cleaning pricing guide* 12 @ 8.5 (prior 27.2),
+  *cost of window cleaning* 6 @ 9.7, *average cost of window cleaning* 3 @ 9.3, *cost of residential window cleaning*
+  3 @ 6.3, *cost to clean windows* 3 @ 9.3. Its rows are **disjoint from the pillar's**, which are all local (*window
+  washing cost ventura county* 24 @ 3.8, *window cleaning prices ventura* 11 @ 3.5), so treating it does not compete
+  with the pillar's read.
+- **Unlike the city pages, these positions hold from inside our base.** DataForSEO, Thousand Oaks, desktop, 10-14:
+  **#6** *window cleaning pricing guide*, **#9** *average cost of window cleaning*, **#8 and #10** *residential window
+  cleaning prices*. The 10-09 proximity finding says city-query positions are invisible to the cities' own residents;
+  these cost queries are being seen by people in Thousand Oaks, which makes this the most customer-adjacent fresh
+  ranker the site has had. (Not in the top 18 for *cost of window cleaning*, *window cleaning cost* or *how much does
+  window cleaning cost*, which ProMatcher holds.)
+- **Scoreboard:** `internal_links` **5-0-0** and `refresh` **3-0-1** are the only clean records, and both are used.
+  `title_meta` (2-4-4) is not needed: the title is an exact match. **`gbp` is 0-0-13 and every grade reads "never
+  appeared in GSC", so there is no gbp row in the ledger**; the pack items are logged below. `technical` (3-2-10) has no
+  defect worth a graded action. `new_content`: the matrix is complete and nothing on the board clears the bar.
+
+**Expected impact (review 2026-11-25, 42 days):**
+- **Primary:** `/blog/residential-window-cleaning-prices/` page-level US **250+ impressions** in the 28 days before
+  review (currently 63, about 18 a day since 10-09), page-level position **8.0 or better**, *window cleaning pricing
+  guide* **6.0 or better** (8.5 today), and **2+ non-brand clicks** (currently 0). Caution for the grader: this is a
+  fresh ranker three days into its rise, so untreated it would probably keep some of that. The claim is that it holds
+  page one and starts earning clicks.
+- The pricing pillar is not a target and gets no new link before its 10-21 review.
+- No prediction for the five donors; each only gained one sentence.
+
+**Metrics at time of action (US, 2026-09-14..2026-10-11 unless stated):**
+- Brief: 99 clicks / 48,979 impr; non-brand **39 clicks** / 48,286 impr, 1,286 queries, avg pos 9.2 (prior 10.2).
+- `/blog/residential-window-cleaning-prices/` 0 / 63 @ 8.5 (prior 2 / 28 @ 18.0). Inbound contextual links before: 3
+  (one from a consolidated URL). After: 8.
+- Pricing pillar 5 / 226 @ 6.2 (prior 0 / 253 @ 5.4). Screens post 1 / 35,246 @ 9.0. Best-streak page 22 / 5,945 @ 7.8.
+  `window-screen-cleaning-service` 0 / 179 @ 11.2. `/thousand-oaks/` 5 / 588 @ 5.4. `/westlake/` 1 / 233 @ 5.6.
+- Sitemap 106 URLs (unchanged). Build 118 pages.
+
+**Logged, NOT actioned (for the GBP workstream and future runs):**
+1. **gbp, pack queries (brief):** *window cleaning thousand oaks* 78 @ 4.2, *window cleaning westlake village* 38 @ 2.3
+   (on `/westlake/` 26 @ 5.9), *screen cleaning service* 36 @ 3.7 (`/services/screen-cleaning/` 18 @ 3.8, the service
+   post 13 @ 4.5), *window cleaning prices thousand oaks* 26 @ 2.0, *window cleaning cost thousand oaks* 23 @ 5.0.
+   **Geo-grid ("window cleaning near me"): Agoura Hills and Oak Park GAINED (ours #2 at both); ABSENT at Newbury Park
+   and Camarillo.** Newbury Park's #1 is Golden Window Washing with **2 reviews** against our **254**, and Newbury Park
+   is part of the City of Thousand Oaks, a few miles from our base, so this point flips scan to scan (we were #1 there
+   on 10-07). Camarillo: AWC (248), Guerrero (13), Golden Boy's (138). `/newbury/` and `/camarillo/` are under the 09-14
+   read until 10-26.
+2. **Still open since 07-27: the GBP website field is `http://alohawindowbros.com/`** (`GBP:/` still 71 US impressions
+   this window). It 301-redirects; it should read `https://alohawindowbros.com/`. Adam or Sam only.
+3. **Blocklisted sources still live** (sweep 10-14): `estimatty.com` on `window-cleaning-insurance`,
+   `workingatheightscourse.co.uk` (Great Britain stats) and two `.com.au` links on `skylight-cleaning-pole`,
+   `hiepro.ehawaii.gov` on `how-to-clean-skylights` (under review until 11-13), and the UK Federation of Window
+   Cleaners PDF on `skylight-cleaning-service`. **32 content files still hotlink `cdnimg.co` images**; every image
+   audited so far has had at least one defect.
+4. After 10-21: link the pillar from the residential price guide, and fix the pillar's Ventura row reason. After 10-26:
+   `/camarillo/` factor card hardness. After 10-28: decide the *window screen cleaning* split between the screens post
+   and `window-screen-cleaning-service`.
+5. Carried: `/simi-valley/` geography and unsourced claims after 11-06; Las Virgenes MWD 142 mg/L sweep; sparkle-glyph
+   heroes (storefront, skylights, sills, business guide); `window-cleaning-insurance`'s UK Simply Business claims data;
+   real gutter price bands from the business.
+
+**Review after 42 days (2026-11-25).**
+
+---
+
 ### 2026-10-12
 
 **What we did:**

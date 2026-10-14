@@ -81,12 +81,12 @@ For a useful benchmark, Aloha Window Bros publishes per city bands running **$15
 
 | Service Area | Typical Price Range | Factors Affecting Cost |
 |---|---:|---|
-| Routine exterior washing | $150 to $475, by city | Access, glass area, stories, and buildup |
-| Full residential cleaning | $200 to $475 in Santa Barbara context | Interior and exterior scope, screens, frames, and sills |
+| Complete residential clean (glass inside and out, screens, frames, and sills) | $150 to $475, by city | Access, glass area, stories, and buildup |
+| Ojai and Santa Barbara homes | $200 to $475 | Larger homes, harder water, and longer drives |
 | Solar panel cleaning | Quote required | Panel access, roof layout, residue, and safety controls |
-| Hard-water stain treatment | Quote required | Severity, glass condition, and restoration method |
+| Hard-water restoration | $200 to $500, separate from cleaning | Severity, glass condition, and restoration method |
 
-For a deeper explanation of how companies structure residential estimates, review this [window washing cost per window guide](https://alohawindowbros.com/blog/window-washing-cost-per-window/). Per-pane pricing can be easy to understand, but whole-property estimates are often more practical when windows differ in size, access, and condition.
+For a deeper explanation of how companies structure residential estimates, review this [window washing cost per window guide](/blog/window-washing-cost-per-window/), and see [what residential window cleaning costs](/blog/residential-window-cleaning-prices/) for where a home lands inside its band. Per-pane pricing can be easy to understand, but whole-property estimates are often more practical when windows differ in size, access, and condition.
 
 <a id="read-the-quote-line-by-line"></a>
 ### Read the quote line by line
@@ -119,7 +119,7 @@ California's [window-cleaning safety requirements](https://www.dir.ca.gov/title8
 
 Red flags include refusal to provide documents, vague answers about workers' compensation, a request to begin roof work before discussing fall protection, or a crew that expects the homeowner to supply ladders. Green flags include a written scope, current insurance documents, clear exclusion zones, property-protection procedures, and a pre-job explanation of how the difficult glass will be reached.
 
-For a practical overview of the coverage questions homeowners should ask, see this [window cleaning insurance guide](https://alohawindowbros.com/blog/window-cleaning-insurance/). Property managers should keep the documents with the work order, not merely inspect them on a technician's phone.
+For a practical overview of the coverage questions homeowners should ask, see this [window cleaning insurance guide](/blog/window-cleaning-insurance/). Property managers should keep the documents with the work order, not merely inspect them on a technician's phone.
 
 <a id="cleaning-methods-and-environmental-performance-trade-offs"></a>
 ## Cleaning Methods and Environmental Performance Trade-Offs
@@ -141,7 +141,7 @@ That doesn't mean every panel installation needs the same schedule. Dust, coasta
 
 Environmental responsibility also requires more than using a “green” label. Ask how the company limits unnecessary water use, controls runoff near planting beds, handles chemical products, and chooses access methods that reduce risk. A water-fed pole can reduce ladder movement, but the company still needs disciplined water management and a competent operator.
 
-For more detail on the process, compare the method described in this [purified-water window cleaning guide](https://alohawindowbros.com/blog/purified-water-window-cleaning/). The right choice is the one that fits your water quality, glass condition, solar equipment, and access constraints.
+For more detail on the process, compare the method described in this [purified-water window cleaning guide](/blog/purified-water-window-cleaning/). The right choice is the one that fits your water quality, glass condition, solar equipment, and access constraints.
 
 <a id="local-climate-factors-that-shape-your-cleaning-schedule"></a>
 ## Local Climate Factors That Shape Your Cleaning Schedule

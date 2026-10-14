@@ -65,7 +65,7 @@ The crew should also protect floors, furnishings, landscaping, walls, and nearby
 
 Local window cleaning quotes work more like a small construction estimate than a fixed menu price. Two homes in the same neighborhood can have very different totals because one has accessible panes and light dust, while the other has multiple stories, delicate screens, mineral spots, and limited ladder access.
 
-Aloha Window Bros publishes **$150 to $475** for a complete residential clean (exterior glass, interior glass, screens, and frames and sills): **$150 to $400** in Thousand Oaks, **$175 to $425** across most of the Conejo Valley and Ventura, **$175 to $450** in Oxnard, and **$200 to $475** in Ojai and Santa Barbara, per our [Ventura County window cleaning cost guide](/blog/how-much-does-window-cleaning-cost-in-ventura-county/). Treat those bands as planning context rather than a guaranteed price. A property assessment remains the reliable way to compare your actual job.
+Aloha Window Bros publishes **$150 to $475** for a complete residential clean (exterior glass, interior glass, screens, and frames and sills): **$150 to $400** in Thousand Oaks, **$175 to $425** across most of the Conejo Valley and Ventura, **$175 to $450** in Oxnard, and **$200 to $475** in Ojai and Santa Barbara, per our [Ventura County window cleaning cost guide](/blog/how-much-does-window-cleaning-cost-in-ventura-county/). Treat those bands as planning context rather than a guaranteed price, and use our [residential window cleaning price guide](/blog/residential-window-cleaning-prices/) to see where a home lands inside its band. A property assessment remains the reliable way to compare your actual job.
 
 <a id="the-main-quote-variables"></a>
 ### The main quote variables

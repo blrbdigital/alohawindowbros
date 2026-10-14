@@ -7,7 +7,7 @@ heroImageAlt: 'Commercial Window Cleaning Prices: Real 2026 Benchmarks'
 ---
 Most advice on **commercial window cleaning prices** starts with a clean-looking average and ends with a bad budget. A single per-window number sounds helpful until you compare a ground-level storefront, a two-story office, and a high-access tower, three jobs that share a category but not the same labor, risk, or equipment needs. The quote you get is usually a reflection of **access, scope, height, and frequency**, not just glass count.
 
-That's why the smartest pricing conversations start with the building, not the average. Contractors commonly quote **by the window, by the pane, by the square foot, or by the hour**, and the figures quoted throughout this guide are widely circulated third-party industry estimates rather than Aloha Window Bros rates. Treat them as a way to understand how the models work, not as a price we or anyone else is committing to. The only bands we publish as our own are residential, and they are set out in our [Ventura County price breakdown](/blog/how-much-does-window-cleaning-cost-in-ventura-county/). Once you know how those models work, a quote stops looking arbitrary and starts looking like a scope document.
+That's why the smartest pricing conversations start with the building, not the average. Contractors commonly quote **by the window, by the pane, by the square foot, or by the hour**, and the figures quoted throughout this guide are widely circulated third-party industry estimates rather than Aloha Window Bros rates. Treat them as a way to understand how the models work, not as a price we or anyone else is committing to. The only bands we publish as our own are residential, and they are set out in our [Ventura County price breakdown](/blog/how-much-does-window-cleaning-cost-in-ventura-county/), with [residential window cleaning prices](/blog/residential-window-cleaning-prices/) showing where a home lands inside them. Once you know how those models work, a quote stops looking arbitrary and starts looking like a scope document.
 
 ## Table of Contents
 - [Why a Single Average Price Misleads Commercial Buyers](#why-a-single-average-price-misleads-commercial-buyers)
@@ -50,7 +50,7 @@ That is also why one contractor may sound cheap and another expensive while both
 
 The quote covers the logistics required to clean the glass safely and repeatably. That is the distinction that matters when you are comparing bids for recurring service, because the steady-state cost is shaped by how often the crew returns, how they reach the glass, and how much setup each visit requires.
 
-For a practical local example of how scope and access affect estimates, see the way a site-specific assessment is handled on [Aloha Window Bros' commercial window cleaning resource](https://alohawindowbros.com/blog/ca-window-cleaning/).
+For a practical local example of how scope and access affect estimates, see the way a site-specific assessment is handled on [our California window cleaning guide](/blog/ca-window-cleaning/).
 
 <a id="the-four-pricing-models-contractors-use"></a>
 ## The Four Pricing Models Contractors Use
@@ -104,7 +104,7 @@ Once a building moves past simple ladder work, the quote changes shape. High-acc
 
 The reason is straightforward. Elevation changes the equipment, the safety plan, and the pace of work. A five-story office with heavy access needs can push quotes into the **$800 to $2,500** range, while larger buildings may move beyond that depending on scope and site conditions. If you are comparing a storefront quote to a mid-rise quote, you are not comparing the same service at all.
 
-For a practical look at how high-window access affects planning, [Aloha Window Bros' high-window cleaning guidance](https://alohawindowbros.com/blog/window-cleaning-for-high-windows/) is worth reviewing before you ask for a site visit.
+For a practical look at how high-window access affects planning, [Aloha Window Bros' high-window cleaning guidance](/blog/window-cleaning-for-high-windows/) is worth reviewing before you ask for a site visit.
 
 <a id="what-you-are-really-paying-for-on-hard-to-access-jobs"></a>
 ## What You Are Really Paying for on Hard-to-Access Jobs
