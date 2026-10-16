@@ -1,4 +1,4 @@
-## 2026-10-16 - Google review count corrected sitewide (185 to 258), two blocklisted-source pages cleaned, towels post consolidated on arrival, no ranking action
+## 2026-10-16 - Google review count corrected sitewide (185 to 258), two blocklisted-source pages cleaned, towels post consolidated on arrival, TCPA consent on the contact form, no ranking action
 
 **technical: `GBP.reviewCount` in `src/lib/seo.ts` 185 -> 258.** The 08-05 figure was 73 reviews stale. Today's live
 pack read for our GBP CID (4483745950804238350, seo-brain `pack_listings`) shows 4.9 stars and 258 reviews, which is
@@ -25,6 +25,11 @@ the wrong paper (PMID 25107595 is a PET imaging study; corrected to Napper and T
 abstract's own figure), a "source" link pointing at the post's own hotlinked image, an unsourced De Falco range,
 four off-topic or wrong-country sources, the homepage-CTA defect, three absolute self-links and three `cdnimg.co`
 images (invented GSM specs, a starburst glint, an illustrated fabricated person). Hero has sparkle glyphs (logged).
+
+**legal: TCPA consent line on the contact form.** `legal-guard live` after the first deploy reported LG-10 HIGH on
+`/contact/` (phone collected, no consent language; the 10-12 weekly sweep timed out on this domain, so it had not
+been reported). Added the CHECKLIST LG-10 sentence verbatim above the submit button with a privacy link (13px,
+#475569 on white, 7.6:1). Rendered at 390px: no horizontal scroll, no console errors.
 
 **No ranking action.** Every striking-distance and CTR-outlier row in the brief is inside an open review (streak
 cluster 10-23, screens post 10-28, the rest 10-21 to 11-25), and the fresh rankers probed this run were rejected with

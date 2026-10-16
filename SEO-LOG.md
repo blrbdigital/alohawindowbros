@@ -34,6 +34,10 @@
   27686821, quoting its abstract), a citation pointing at the post's own image, an unsourced De Falco range, four
   bad sources, the homepage-CTA defect, three absolute self-links, three defective hotlinked images. Detail in the
   site map, SIXTEENTH AUDIT.
+- **Legal (not an SEO action, not in the ledger): TCPA consent sentence added to `/contact/`.** `legal-guard live`
+  after the first deploy reported **LG-10 HIGH** (phone field, no consent language), pre-existing and unreported
+  because the 10-12 weekly sweep timed out on this domain. CLAUDE.md says fix critical/high first, so the CHECKLIST
+  sentence now sits above the submit button. Watch website form submissions for any drop (lead board, Website tag).
 - **No title_meta, no new content, no internal-link change, no GBP change, and no edit to any page under review.**
 
 **Why we did it (brief window 2026-09-16..2026-10-13, US only, plus a US page pull, page probes and a solar cluster
