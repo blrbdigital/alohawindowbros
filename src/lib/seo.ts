@@ -56,15 +56,22 @@ export const businessImages = [
 //
 // VERIFY BEFORE CHANGING ANY NUMBER HERE. `aggregateRating` mirrors the Google
 // Business Profile (CID 4483745950804238350) and must be re-read off the live
-// listing, never estimated. Last verified 2026-08-05: 4.9 stars, 185 reviews
-// (5* 175 / 4* 6 / 3* 2 / 2* 1). The visible hero proof link and the "Rating"
-// badge on the homepage carry the same two numbers and must move with it.
+// listing, never estimated. Last verified 2026-10-16: 4.9 stars, 258 reviews,
+// read off the live pack listing for this CID by the seo-brain SERP tracker
+// (blrb-command-center data/seo-brain.db, table pack_listings, is_ours = 1).
+// Re-read it with:
+//   sqlite3 -readonly data/seo-brain.db "select date, rating, reviews from
+//   pack_listings where cid = '4483745950804238350' order by date desc limit 1"
+// Previous read 2026-08-05: 4.9 stars, 185 reviews (5* 175 / 4* 6 / 3* 2 / 2* 1).
+// The visible hero proof link, the "Rating" badge and stats bar on the homepage,
+// every city page hero and the contact page carry the same two numbers and
+// move with it.
 // ---------------------------------------------------------------------------
 
 export const BUSINESS_ID = `${SITE}/#business`;
 
-/** GBP star rating and review count, read off the live listing 2026-08-05. */
-export const GBP = { ratingValue: '4.9', reviewCount: '185' };
+/** GBP star rating and review count, read off the live listing 2026-10-16. */
+export const GBP = { ratingValue: '4.9', reviewCount: '258' };
 
 /** Every city the business publishes a landing page or service area for. */
 export const AREA_SERVED = [

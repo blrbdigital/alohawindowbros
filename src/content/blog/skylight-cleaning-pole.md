@@ -34,7 +34,7 @@ This guide builds the decision in practical stages. You'll learn how water-fed p
 
 You notice the problem from below: daylight still enters, but the skylight looks cloudy with dust, dried rain, or mineral spots. Because the pane slopes overhead, cleaning it is less like wiping a wall window and more like guiding a brush across a ceiling. Pressure must stay even, while your hands control the pole from a distance.
 
-A ladder solves reach only by moving you closer to the hazard. You may need to reposition it, work beside a roof edge, or stretch sideways to keep the brush on the glass. A pole changes the workflow by keeping your feet on the ground when the property allows it. Water-fed pole systems can support ground-level work at heights of about **20 metres, or roughly 65 to 70 feet**, instead of relying on ladders or roof access, as described in [UK fall-from-height and window-cleaning safety guidance](https://www.workingatheightscourse.co.uk/blog/window-cleaning-accident-statistics-uk).
+A ladder solves reach only by moving you closer to the hazard. You may need to reposition it, work beside a roof edge, or stretch sideways to keep the brush on the glass. A pole changes the workflow by keeping your feet on the ground when the property allows it. A single water-fed main pole is long enough for most homes: Unger lists its nLITE Carbon 24K main pole at **28 feet in six sections and 4.2 pounds**, and describes it as "ideal for cleaning third-story windows or other elevated glass surfaces" ([Unger USA](https://usa.ungerglobal.com/?p=8558)).
 
 ![A man looks up at a dirty, grimy skylight window in a living room during daylight.](https://cdnimg.co/8387fe5a-1497-428d-a3af-57b68fc0bac4/d639082d-3028-4a77-817b-a18042d25d11/skylight-cleaning-pole-dirty-skylight.jpg)
 
@@ -104,7 +104,7 @@ A lighter shaft can improve control, but carbon fiber doesn't cancel the handlin
 
 Reach should be measured from the actual standing position, not from the ground near the house in general. A wall, fence, tree, porch roof, or landscaping bed may prevent you from standing directly below the glass. The pole needs enough length to clear those obstacles while still allowing you to hold it at a manageable angle.
 
-Professional water-fed systems can reach approximately **25 metres, or 80 feet, to 90 feet, about eight stories**, according to [technical guidance on water-fed pole cleaning](https://ionicsystems.com.au/frequently-asked-questions-how-to-do/). Lightweight telescopic poles in the **18 to 30-foot range** are commonly around **1.15 to 2.10 kilograms**, also covered by that guidance. Those figures describe capability, not a recommendation for every home.
+Unger's spec table for the same pole family gives a sense of scale. The nLITE Carbon 24K main pole is **28 feet and 4.2 pounds**, and each two-section extension adds **10.5 feet for 1.9 pounds**, with extension options that add "up to 28 feet of reach to the main pole" ([Unger USA](https://usa.ungerglobal.com/?p=8558)). Those figures describe capability, not a recommendation for every home: every added section puts more weight and flex at the far end of the pole.
 
 A useful selection rule is simple. Start with the shortest working length that reaches the highest point of the glass from a safe ground position. Extra sections add flex, increase the effort needed to steer the head, and can make edge coverage less precise on sloped panes.
 
@@ -204,7 +204,7 @@ For homeowners comparing service options, [professional skylight cleaning](https
 <div class="faq-list">
 <details class="faq-item">
 <summary>How long a pole do you need to reach a skylight?</summary>
-<p>Measure the vertical distance to the top edge of the glazing and add working slack, because a pole held at full extension at a steep angle is hard to control. Lightweight telescopic poles in the 18 to 30-foot range cover most single and two-story residential skylights and typically weigh about 1.15 to 2.10 kilograms, while professional water-fed systems reach roughly 25 metres, or about 80 to 90 feet ([Ionic Systems technical guidance](https://ionicsystems.com.au/frequently-asked-questions-how-to-do/)). Those upper figures describe capability, not a recommendation for a homeowner.</p>
+<p>Measure the vertical distance to the top edge of the glazing and add working slack, because a pole held at full extension at a steep angle is hard to control. A single main pole covers most single and two-story residential skylights. Unger's nLITE Carbon 24K main pole is 28 feet and 4.2 pounds, and each two-section extension adds 10.5 feet and 1.9 pounds (<a href="https://usa.ungerglobal.com/?p=8558">Unger USA</a>). Those upper lengths describe capability, not a recommendation for a homeowner.</p>
 </details>
 <details class="faq-item">
 <summary>Can you use a water-fed pole on a skylight?</summary>

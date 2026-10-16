@@ -4,6 +4,114 @@
 
 ---
 
+### 2026-10-16
+
+**What we did:**
+- **none (primary): no ranking action on any target.** Every row the brief ranks is inside an open review or was
+  already rejected with evidence, and the fresh rankers probed this run do not clear the bar (below).
+- **technical (secondary, correctness): the Google review count is now 258, not 185, on every page that shows it.**
+  `GBP.reviewCount` in `src/lib/seo.ts` feeds the `aggregateRating` node on **15 pages** and the visible "4.9 from N
+  Google reviews" line on **12** (home hero pill and stats bar, all 10 city pages, contact). It was last read on 08-05.
+  Today's live pack read for our CID 4483745950804238350 (seo-brain `pack_listings`, `is_ours = 1`) is **4.9 stars,
+  258 reviews**, the same number the brief's map-pack section reports ("Our listing: 258 reviews"). The tracker's
+  history (245 on 10-07, 249, 251, 254, 258 today) is in the site map with the query to re-read it. Rating unchanged.
+  `cleaning-companies-in-santa-barbara` hardcoded "185 reviews" in its Aloha section and now says "more than 250".
+- **refresh (secondary, accuracy only, no ranking claim): the two blocklisted-source pages logged on 10-14 are clean.**
+  - `window-cleaning-insurance`: UK Simply Business claims data and `estimatty.com` replaced with DIR's "even if they
+    have only one employee" sentence (re-read at dir.ca.gov/dwc/employer.htm today). The lead said California's
+    GL plus workers' comp "bundle averages about $137 per month"; MoneyGeek's $137 is **general liability alone** at
+    $1M/$2M limits (re-read today), so it is now attributed to MoneyGeek as GL, with a link.
+  - `skylight-cleaning-pole`: the UK `workingatheightscourse.co.uk` "20 metres" claim and two Australian Ionic Systems
+    figures (body and FAQ answer) replaced with Unger USA's nLITE Carbon 24K spec table, read today: main pole 28 ft /
+    4.2 lb, extension 10.5 ft / 1.9 lb, "ideal for cleaning third-story windows". FAQPage parity **5 == 5** in `dist/`.
+  - Neither page is a review target. Both were donors (10-12, 10-02); the donated links were not touched.
+- **No title_meta, no new content, no internal-link change, no GBP change, and no edit to any page under review.**
+
+**Why we did it (brief window 2026-09-16..2026-10-13, US only, plus a US page pull, page probes and a solar cluster
+join run today):**
+- **Every row the brief ranks higher is mid-read:**
+  - *how to clean window screens* 26,409 @ 8.9 and its variants (*how to clean a window screen?* 894, *cleaning a
+    window screen* 527, *how to clean window screens without removing them* 489 @ 6.6, *how to clean screens* 302):
+    the screens post (US page level **1 / 30,298 @ 8.9, prior 5,983**) is still carrying the 09-13 to 09-24 scraper
+    spike documented on 09-21. Its 09-16 retitle is under review until **10-28**.
+  - The streak cluster (*streak free window cleaner* 1,098 @ 7.7 "slipping" from 5.9, *best no streak window cleaner*
+    738 @ 3.6, *best glass cleaner for windows 2025* 755 @ 8.7): under review until **10-23**. The page itself is not
+    slipping: US page level **18 clicks / 5,891 @ 7.9, prior 11 / 2,950 @ 8.3**. It is still the site's click engine.
+  - `/thousand-oaks/` (09-09 links, ~10-21), pricing pillar (10-21), `/camarillo/` `/agoura/` `/newbury/` (10-26),
+    `skylight-cleaning-service` (10-30), `/simi-valley/` (11-06), gutter service (11-09), solar roof (11-11),
+    skylights (11-13; *skylight cleaning* 196 @ 11.8, prior 17.9, is moving on its own), sills (11-16), `/ventura/`
+    (11-18), business guide (11-23), residential price guide (11-25, two days old).
+  - *commerical storefront windows* 433 @ 18.8 and *storefront windows* 229 @ 17.1: architectural intent under a
+    glass-contractor pack, rejected for the eighth time.
+- **Fresh rankers probed and rejected (US page level):**
+  - `cleaning-companies-in-santa-barbara` 158 @ 9.1 (prior 7): **79 of 158 are brand rows** (*aloha window bros
+    reviews* 49 @ 8.9); the best non-brand row is *gutter cleaning services santa barbara* 30 @ 11.3. Rejected 10-07
+    for the same reason. Its stale "185 reviews" is what this run fixed, because brand searchers land on it.
+  - `is-professional-window-cleaning-worth-it` 88 @ 3.7, 0 clicks, 58 rows: "near me" and one-impression
+    competitor-name rows (*central window cleaning cleveland*, *carolina window washing*). The topical rows are 6 @
+    11.0 and 5 @ 5.6. Rejected 10-07.
+  - `commercial-window-cleaning-company` 77 @ 5.7: LLM-shaped questions at 1.1 to 2.1 plus *Ontario, CA* (out of area).
+  - **Local solar cluster:** about **165 impressions** on *solar panel cleaning <city or county>* rows spread over
+    **10 URLs**, 1 click; the largest rows sit at 7.5 to 11 (*solar panel cleaning ventura county* 37 @ 10.3 on the
+    service page, 15 @ 11.0 on the cost post; *solar panel cleaning santa barbara* 13 @ 7.5 on the cost post). This
+    is real customer intent, but the internal-link lever is spent (28 files already link `/services/solar-panel-cleaning/`,
+    including all 10 solar city posts, `CityLanding`, the footer and home), the service page carries the 09-30 "hold 11
+    or better" claim until 11-11 (10.3 today), and the 10-09 proximity finding applies to city rows. Logged below.
+  - `how-often-should-solar-panels-be-cleaned` 69 @ 22.8, `window-washing-squeegee` 44 @ 14.3, `what-are-hard-water-
+    stains` 57 @ 24.5: page 2 to 3 with tens of impressions; nothing to push yet.
+  - **Decaying pages, checked:** the slashless `best-streak-free-window-cleaner` and `streak-free-window-cleaning-cloth`
+    are URL variants; `/newbury/` is brand rows; `skylight-cleaning-service` lost its rows to the how-to (documented);
+    the Simi guide is the 09-25 consolidation working; `commercial-window-cleaning-prices` 41 -> 8 has no human rows;
+    `window-washing-ventura-county-...` 67 -> 38 @ 23.5 is a consolidated matrix post.
+- **Why the review count, and why now:** the brief's map-pack section is built on review counts ("Incumbent review
+  average: 218 ... Our listing: 258"), and the site was telling every visitor and every AI engine 185, which reads
+  as a smaller company than the one next to it in the pack. The rule in `seo.ts` is "re-read off the live listing,
+  never estimated"; today's tracker read is a live read of that exact CID, so the rule is met. It touches no page
+  under review in a way that could move its read: the number changes, not the content, links or titles.
+- **Scoreboard:** `internal_links` **5-0-0** and `refresh` **3-0-1** have no clean target this run (every candidate is
+  mid-read or spent). `title_meta` (2-4-4): every CTR outlier is the screens post (scraper rows, under review) or
+  the streak cluster (AI Overview positions, under review). **`gbp` is 0-0-13 and every grade reads "never appeared
+  in GSC", so there is no gbp row in the ledger**; the pack items are logged below. `technical` is 3-2-10, and this
+  entry makes no ranking claim, only a hold claim on `/`. `new_content`: the matrix is complete and nothing on the
+  board clears the bar.
+
+**Expected impact (review 2026-11-27, 42 days):**
+- **None (primary):** nothing to grade. Reads closing 10-21 to 10-30 stay clean.
+- **Technical:** no ranking claim. `/` holds page-level US position **5.5 or better** (4.7 today) and **1,500+
+  impressions** per 28 days (1,831 today). Every `aggregateRating` and visible count on the live site reads 258 or
+  higher (checkable with `curl -s https://alohawindowbros.com/ | grep -o '"reviewCount":"[0-9]*"'`).
+- **Refresh:** no ranking claim. `window-cleaning-insurance` and `skylight-cleaning-pole` had under 2 US impressions
+  each this window; they stay small, and neither carries a blocklisted domain.
+
+**Metrics at time of action (US, 2026-09-16..2026-10-13 unless stated):**
+- Brief: 88 clicks / 44,366 impr; non-brand **34 clicks** / 43,695 impr, 1,337 queries, avg pos 9.2 (prior 9.7).
+- `/` 46 / 1,831 @ 4.7 (prior 62 / 1,818 @ 5.5). Screens post 1 / 30,298 @ 8.9. Best-streak page 18 / 5,891 @ 7.9.
+  `/thousand-oaks/` 5 / 581 @ 5.4. `/agoura/` 3 / 422 @ 4.9. `/services/solar-panel-cleaning/` 1 / 73 @ 13.9.
+  `cleaning-companies-in-santa-barbara` 0 / 158 @ 9.1. `/contact/` 0 / 265 @ 3.0 (brand).
+- GBP (live pack read 2026-10-16): 4.9 stars, 258 reviews. Site before: 4.9 / 185.
+- Sitemap 106 URLs (unchanged). Build 118 pages.
+
+**Logged, NOT actioned (for the GBP workstream and future runs):**
+1. **gbp, pack queries (brief):** *window cleaning thousand oaks* 76 @ 4.2, *window cleaning westlake village* 39 @ 2.3,
+   *screen cleaning service* 36 @ 3.6, *window cleaning prices thousand oaks* 26 @ 2.0. **Geo-grid ("window cleaning
+   near me"): in pack at 5 of 6 points, Newbury Park GAINED (#1); ABSENT at Camarillo** (AWC 248 reviews, Guerrero 14,
+   Golden Boy's 139). Guerrero is the beatable slot; that is GBP work (Camarillo service area, review velocity).
+   `/camarillo/` is under the 09-14 read until 10-26.
+2. **Still open since 07-27: the GBP website field is `http://alohawindowbros.com/`** (`GBP:/` 72 US impressions this
+   window). It should read `https://alohawindowbros.com/`. Adam or Sam only.
+3. **Local solar, after 11-11:** `solar-panel-cleaning-cost` ranks for *solar panel cleaning santa barbara* (7.5) and
+   *ventura county* (11.0) but does not link `/services/solar-panel-cleaning/`. One contextual link from it is the
+   cheapest consolidation step once the 09-30 read closes.
+4. Still open: `hiepro.ehawaii.gov` on `how-to-clean-skylights` (after 11-13), the UK FWC PDF on
+   `skylight-cleaning-service` (after 10-30), 32 files hotlinking `cdnimg.co`, `window-cleaning-before-and-after`
+   profiling a Colorado Front Range competitor, the LG-02 Google Fonts and LG-04 pixel-disclosure mediums from
+   `legal-guard scan`, and the carried items from 10-14 (pillar link after 10-21, `/camarillo/` hardness after 10-26,
+   the *window screen cleaning* split after 10-28, `/simi-valley/` fixes after 11-06, real gutter price bands).
+
+**Review after 42 days (2026-11-27).**
+
+---
+
 ### 2026-10-14
 
 **What we did:**

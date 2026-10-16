@@ -44,7 +44,7 @@ Published residential pricing provides more planning information than most provi
 
 Aloha offers **free on-site and virtual estimates**, online or phone booking, and responses typically within **24 hours**. The company states that it's fully insured and provides a **100% satisfaction guarantee**, including on-the-spot rework when needed. A site walk-through before departure gives customers a chance to review the finished work rather than discovering missed details later.
 
-Its published social proof includes a **4.9-star Google rating from 185 reviews and more than 500 clients**, with customer comments such as “Very efficient and professional. Definitely recommend.” and “Professional, friendly & do a great job!” Those signals are useful, but readers should still ask whether the quote includes screen removal, frame detailing, hard-water-spot treatment, skylights, or ladder-access work.
+Its published social proof includes a **4.9-star Google rating from more than 250 reviews and more than 500 clients**, with customer comments such as “Very efficient and professional. Definitely recommend.” and “Professional, friendly & do a great job!” Those signals are useful, but readers should still ask whether the quote includes screen removal, frame detailing, hard-water-spot treatment, skylights, or ladder-access work.
 
 **Pros**
 

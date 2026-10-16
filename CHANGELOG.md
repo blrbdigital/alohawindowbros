@@ -1,3 +1,27 @@
+## 2026-10-16 - Google review count corrected sitewide (185 to 258), two blocklisted-source pages cleaned, no ranking action
+
+**technical: `GBP.reviewCount` in `src/lib/seo.ts` 185 -> 258.** The 08-05 figure was 73 reviews stale. Today's live
+pack read for our GBP CID (4483745950804238350, seo-brain `pack_listings`) shows 4.9 stars and 258 reviews, which is
+also the number the brief's map-pack section reports. The constant feeds the `aggregateRating` node on 15 pages and
+the visible "4.9 from N Google reviews" line on 12 (home hero and stats bar, all 10 city pages, contact). Rating
+unchanged at 4.9. `cleaning-companies-in-santa-barbara` hardcoded "185 reviews" and is a brand-query surface (*aloha
+window bros reviews* 49 US impressions); it now says "more than 250 reviews". Re-read instructions are in the
+`seo.ts` comment and the site map.
+
+**refresh (accuracy only, no ranking claim):**
+- `window-cleaning-insurance`: removed UK Simply Business claims figures (GBP 1,941, GBP 57 million) and the
+  blocklisted `estimatty.com` link; replaced with DIR's "even if they have only one employee" workers' comp sentence,
+  read in the source today. The lead's "$137 per month" for "that coverage bundle" was MoneyGeek's California
+  general liability figure alone, so it is now attributed as such, with limits and a link.
+- `skylight-cleaning-pole`: removed the UK `workingatheightscourse.co.uk` "20 metres" claim and two Australian Ionic
+  Systems figures (body and FAQ); replaced with Unger USA's nLITE Carbon 24K spec table (28 ft / 4.2 lb main pole,
+  10.5 ft / 1.9 lb extension). FAQPage parity 5 == 5.
+
+**No ranking action.** Every striking-distance and CTR-outlier row in the brief is inside an open review (streak
+cluster 10-23, screens post 10-28, the rest 10-21 to 11-25), and the fresh rankers probed this run were rejected with
+data (see SEO-LOG). No title, no new content, no internal-link change, no GBP change, no edit to any page under review.
+`legal-guard scan`: no critical or high; LG-14 flags the AggregateRating, which now matches the live listing.
+
 ## 2026-10-14 - Residential price guide rebuilt around our own bands, California's wage and comp floor and a self-estimate; 5 new inbound links
 
 **refresh + internal_links: `/blog/residential-window-cleaning-prices/`.** Google began ranking this Outrank post (09-03)

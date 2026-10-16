@@ -5,7 +5,7 @@ description: 'Learn why window cleaning insurance matters, what coverage to ask 
 heroImage: '/img/blog/window-cleaning-insurance.jpg'
 heroImageAlt: 'Window Cleaning Insurance: What Homeowners Need to Ask'
 ---
-If a cleaner can't show you a current certificate of insurance with **general liability** and **workers' compensation**, don't let them touch the glass. In California, that coverage bundle averages about **$137 per month** for window-cleaning businesses, which is a small price to pay for avoiding a homeowner headache.
+If a cleaner can't show you a current certificate of insurance with **general liability** and **workers' compensation**, don't let them touch the glass. General liability alone averages about **$137 per month** for California window-cleaning businesses at $1 million per occurrence and $2 million aggregate limits, according to [MoneyGeek's state-by-state rates](https://www.moneygeek.com/insurance/business/window-cleaning/cost/), which is a small price to pay for avoiding a homeowner headache.
 
 You're probably looking at a ladder right now, a second-story pane, and a quote that sounds reasonable. That's exactly when people skip the boring part and regret it later. Insurance isn't paperwork for the contractor, it's your filter for whether a stranger is about to work inches from your siding, your landscaping, your kids, and your neighbors.
 
@@ -46,7 +46,7 @@ The ladder is the giveaway. The moment it leans against a second-story window, t
 
 You do not need to become an insurance broker. You do need to understand that the wrong cleaner can push a claim onto your own policy if they're uninsured, underinsured, or misclassified. That's why **window cleaning insurance** is your first vetting question, not a back-office detail.
 
-The market data backs up the basic logic. In the U.K., Simply Business reported an average window-cleaners insurance claim of **£1,941** across **17 successful claims** from 1 June 2025 to 31 May 2026, and it also said it paid out **£57 million in claims in 2025 overall**. That tells you two things at once, claims happen often enough to matter, and the business is insurable at a manageable level for small operators. [coverage advice from Estimatty](https://www.estimatty.com/blog/liability-insurance-for-cleaning-company) is useful here because it treats liability as a frontline business screen, not an afterthought.
+California law makes half of that question simple. "California employers are required by law to have workers' compensation insurance, even if they have only one employee," according to the [California Department of Industrial Relations](https://www.dir.ca.gov/dwc/employer.htm). So when a two-person crew shows up without a workers' comp certificate, there are only two honest answers: the crew is the owners alone, with no employees to cover, or the company is out of compliance. Either one is worth hearing before anyone leans a ladder on your house.
 
 > **Practical rule:** If a cleaner can't hand over a current certificate before the appointment, keep your windows dirty and your money in your pocket.
 
