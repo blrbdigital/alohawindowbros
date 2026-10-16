@@ -167,6 +167,19 @@
 //   CONDITION (the 09-11 streak-free precedent): if Google declines this canonical and
 //   the second-story URL ranks second-story queries better than the winner does, remove
 //   this entry and cross-link the two instead.
+//
+// 2026-10-16: ONE more on arrival (US join 2026-09-16..2026-10-13).
+//
+//   /blog/window-cleaning-towels/ -> /blog/streak-free-window-cleaning-cloth/.
+//   Passes the HEADING test as a duplicate: its H2s (why the towel matters, microfiber vs
+//   waffle vs cotton, matching the towel to the job, wiping technique, care and when to
+//   retire, myths) map onto the older guide's (what makes a cloth streak free, cloth types
+//   compared, the two-pass technique, wash and care, myths, choosing a cloth). Neither URL
+//   has demand to split: a towel|cloth|microfiber|rag cluster probe returns 30 impressions
+//   sitewide, nearly all single-impression LLM-shaped paper-towel questions on the streak
+//   winner. The older guide keeps the surface because it has 6 inbound links and the new
+//   post has none. REVERSAL CONDITION: if the towels URL starts ranking towel queries the
+//   cloth guide does not, remove this entry and cross-link the two instead.
 export const CANONICAL_OVERRIDES = {
   'blog/how-to-remove-hard-water-stains-from-windows':
     'https://alohawindowbros.com/blog/how-to-remove-hard-water-spots-from-windows/',
@@ -192,6 +205,8 @@ export const CANONICAL_OVERRIDES = {
     'https://alohawindowbros.com/santa-barbara/',
   'blog/how-to-clean-second-story-windows':
     'https://alohawindowbros.com/blog/window-cleaning-for-high-windows/',
+  'blog/window-cleaning-towels':
+    'https://alohawindowbros.com/blog/streak-free-window-cleaning-cloth/',
 };
 
 /** Absolute canonical for a built pathname, or null if the page is self-canonical. */

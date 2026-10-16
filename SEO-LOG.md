@@ -25,6 +25,15 @@
     figures (body and FAQ answer) replaced with Unger USA's nLITE Carbon 24K spec table, read today: main pole 28 ft /
     4.2 lb, extension 10.5 ft / 1.9 lb, "ideal for cleaning third-story windows". FAQPage parity **5 == 5** in `dist/`.
   - Neither page is a review target. Both were donors (10-12, 10-02); the donated links were not touched.
+- **technical (secondary): sixteenth publisher audit. `window-cleaning-towels` arrived mid-run (Outrank, 10-16) and
+  was consolidated on arrival** onto `streak-free-window-cleaning-cloth` under the 08-28 rule (heading-test
+  duplicate; a `towel|cloth|microfiber|rag` US cluster probe returns **30 impressions sitewide**, nearly all
+  single-impression LLM-shaped paper-towel questions on the streak winner, so there is no demand to split and no
+  reason for a sixth URL near the streak surface while its read runs to 10-23). Defects fixed on the live page: a
+  **PubMed link to the wrong paper** (PMID 25107595 is a PET imaging study; now Napper and Thompson 2016, PMID
+  27686821, quoting its abstract), a citation pointing at the post's own image, an unsourced De Falco range, four
+  bad sources, the homepage-CTA defect, three absolute self-links, three defective hotlinked images. Detail in the
+  site map, SIXTEENTH AUDIT.
 - **No title_meta, no new content, no internal-link change, no GBP change, and no edit to any page under review.**
 
 **Why we did it (brief window 2026-09-16..2026-10-13, US only, plus a US page pull, page probes and a solar cluster
@@ -89,7 +98,7 @@ join run today):**
   `/thousand-oaks/` 5 / 581 @ 5.4. `/agoura/` 3 / 422 @ 4.9. `/services/solar-panel-cleaning/` 1 / 73 @ 13.9.
   `cleaning-companies-in-santa-barbara` 0 / 158 @ 9.1. `/contact/` 0 / 265 @ 3.0 (brand).
 - GBP (live pack read 2026-10-16): 4.9 stars, 258 reviews. Site before: 4.9 / 185.
-- Sitemap 106 URLs (unchanged). Build 118 pages.
+- Sitemap 106 URLs (unchanged: the towels post arrived and was consolidated out). Build 119 pages (118 + towels).
 
 **Logged, NOT actioned (for the GBP workstream and future runs):**
 1. **gbp, pack queries (brief):** *window cleaning thousand oaks* 76 @ 4.2, *window cleaning westlake village* 39 @ 2.3,

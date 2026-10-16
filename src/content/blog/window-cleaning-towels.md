@@ -21,17 +21,15 @@ That's usually not a soap problem. It's a towel problem, or more precisely, a to
 <a id="why-your-towel-choice-makes-or-breaks-the-view"></a>
 ## Why Your Towel Choice Makes or Breaks the View
 
-![A woman looks out a dirty window with residue from sea salt, pollen, and dust particles.](https://cdnimg.co/8387fe5a-1497-428d-a3af-57b68fc0bac4/d5754105-9085-4306-add9-77d2c48d7a45/window-cleaning-towels-dirty-window.jpg)
-
 A coastal homeowner in Ventura or Santa Barbara usually sees it first in the morning. The glass looks fine from across the room, then the angle changes and salt haze, dust, and faint streaks show up in the light. A random cloth often turns that into a bigger mess.
 
-The towel decides whether residue comes off the pane or gets pushed around. Split microfiber is usually the better glass tool because the polyester gives the cloth structure while polyamide adds softness and moisture uptake, and the blends you'll most often see sold for glass work are 80/20 or 70/30 polyester/polyamide. For a closer look at how exterior glass changes the job, see the [purified water window cleaning guide](https://alohawindowbros.com/blog/purified-water-window-cleaning/).
+The towel decides whether residue comes off the pane or gets pushed around. Split microfiber is usually the better glass tool because the polyester gives the cloth structure while polyamide adds softness and moisture uptake, and the blends you'll most often see sold for glass work are 80/20 or 70/30 polyester/polyamide. For a closer look at how exterior glass changes the job, see the [purified water window cleaning guide](/blog/purified-water-window-cleaning/).
 
-Absorbency matters on the job. **Microfiber can absorb about 7 to 8 times its dry weight** [source](https://cdnimg.co/8387fe5a-1497-428d-a3af-57b68fc0bac4/d5754105-9085-4306-add9-77d2c48d7a45/window-cleaning-towels-dirty-window.jpg), while cotton is typically around **3 to 5 times its dry weight** [source](https://alohawindowbros.com/blog/purified-water-window-cleaning/). That extra holding power helps pull solution off the pane instead of leaving a thin film behind. A towel can still smear if it carries detergent residue, trapped grit, or softener buildup.
+Absorbency matters on the job. A split microfiber towel holds more solution than a cotton one of the same size, and that extra holding power helps pull solution off the pane instead of leaving a thin film behind. A towel can still smear if it carries detergent residue, trapped grit, or softener buildup.
 
 > A towel that looks clean in your hand can still behave dirty on glass.
 
-That is why the final wipe matters as much as the cleaner. The [Binks Balustrades glass cleaner review](https://binksbalustrades.co.uk/video/glass-cleaner-review-by-binks-balustrades/) shows the same trade-off we see in the field, where the last pass decides whether the glass clears or needs another round. On coastal work, the wrong towel can leave a pane looking worse than before you touched it.
+That is why the final wipe matters as much as the cleaner. We see the same trade-off in the field: the last pass decides whether the glass clears or needs another round. On coastal work, the wrong towel can leave a pane looking worse than before you touched it.
 
 <a id="microfiber-waffle-and-cotton-explained-without-the-jargon"></a>
 ## Microfiber, Waffle, and Cotton Explained Without the Jargon
@@ -58,9 +56,7 @@ A quick rule of thumb helps at the store. Low- or medium-pile, tightly woven tow
 <a id="matching-the-towel-to-the-surface-and-the-job"></a>
 ## Matching the Towel to the Surface and the Job
 
-![An infographic showing the best cleaning towels and tools for interior glass, exterior glass, screens, and frames.](https://cdnimg.co/8387fe5a-1497-428d-a3af-57b68fc0bac4/28a93642-17ba-4663-b172-21080c44e13b/window-cleaning-towels-cleaning-guide.jpg)
-
-Interior glass is where people overcomplicate the work. A clean, low-pile microfiber towel is usually enough for the final polish if the pane was prepped correctly, and it pairs well with a separate damp-pass towel for fingerprints and light residue. If you're comparing what crews charge for that kind of service, the [average window cleaning rates guide](https://atomicexteriors.com/blogs/window-cleaning-cost/) gives useful context for why the right towel setup matters to labor time and finish quality.
+Interior glass is where people overcomplicate the work. A clean, low-pile microfiber towel is usually enough for the final polish if the pane was prepped correctly, and it pairs well with a separate damp-pass towel for fingerprints and light residue.
 
 Exterior glass needs a different mindset. Salt aerosol, sprinkler overspray, and airborne grit mean you want a towel with more capacity for the first removal pass, then a tighter cloth for the finish. That's where a thicker, higher-GSM towel earns its keep, not because it's automatically better, but because it can soak up more solution before it starts dragging.
 
@@ -70,12 +66,10 @@ Frames and sills can take a more absorbent towel because they collect the dirty 
 
 > A towel can be perfectly soft and still be the wrong tool if it carries detergent, softener, or oily soil.
 
-For solution chemistry, the towel works best when it isn't fighting residue. The [window washing soap guide](https://alohawindowbros.com/blog/window-washing-soap/) is useful background if you want to pair towel choice with the right cleaning solution. The cloth and the cleaner have to match the job, or the finish will keep looking almost right.
+For solution chemistry, the towel works best when it isn't fighting residue. The [window washing soap guide](/blog/window-washing-soap/) is useful background if you want to pair towel choice with the right cleaning solution. The cloth and the cleaner have to match the job, or the finish will keep looking almost right.
 
 <a id="wiping-technique-that-prevents-streaks-and-scratches"></a>
 ## Wiping Technique That Prevents Streaks and Scratches
-
-![A five-step guide illustration showing professional techniques for cleaning windows to prevent streaks and scratches.](https://cdnimg.co/8387fe5a-1497-428d-a3af-57b68fc0bac4/6a3ab744-6c9a-4bfb-b500-c15dd4ecb533/window-cleaning-towels-wiping-technique.jpg)
 
 The cloth's condition matters, but the motion matters just as much. A linear wipe lifts and moves dust off a surface, while circular wiping can redistribute particles, which is a bad habit on glass because tiny mineral and sand particles can get dragged over the same area repeatedly. That's one reason a streak may look like a finish problem when it's really a wiping-path problem.
 
@@ -87,11 +81,9 @@ The rhythm that works on most residential glass is simple. First, use a damp pas
 
 The same logic applies to screens, only more gently. On mesh, the goal is to lift dust without pressing it through the weave or scuffing the frame. That's where a lighter touch and a cleaner towel face save a lot of rework.
 
-For a visual walk-through, the [Alderstone Water Company guide to stain-free surfaces](https://www.alderstonewater.com/blog/removing-hard-water-stains/) is a good reminder that mineral contamination needs control, not more rubbing. Hard water spots and coastal residue don't respond well to force. They respond to cleaner cloth management and a steadier wipe path.
+Mineral contamination needs control, not more rubbing, which is why our [hard water spot removal guide](/blog/how-to-remove-hard-water-spots-from-windows/) starts with diagnosis instead of a stronger towel. Hard water spots and coastal residue don't respond well to force. They respond to cleaner cloth management and a steadier wipe path.
 
-
-
-The four habits that keep the finish clean are the same every time: keep glass and frame towels separate, fold often, swap out a damp or contaminated cloth, and inspect for embedded debris before the final pass. If you're already seeing repeat streaks, the [streak-free window method guide](https://alohawindowbros.com/blog/how-to-get-streak-free-windows/) covers the same finish discipline from a broader cleaning angle.
+The four habits that keep the finish clean are the same every time: keep glass and frame towels separate, fold often, swap out a damp or contaminated cloth, and inspect for embedded debris before the final pass. If you're already seeing repeat streaks, the [streak-free window method guide](/blog/how-to-get-streak-free-windows/) covers the same finish discipline from a broader cleaning angle.
 
 <a id="care-washing-and-when-to-retire-a-towel"></a>
 ## Care, Washing, and When to Retire a Towel
@@ -108,14 +100,14 @@ When a towel starts failing, it usually tells on itself. The edges get stiff, th
 
 That warning matters more on the coast. Salt aerosol and pollen load towels quickly in Ventura and Santa Barbara County, even when the glass didn't look especially dirty at first glance. I'd rather see a homeowner rinse or pre-wash a glass towel more often than keep using one that's transferring haze back onto the pane.
 
-The [microfiber fabric reference](https://www.apexfashionlab.com/glossary/microfiber-fabric) is useful if you want the material basics, but the job-site lesson is simpler. Clean towels dry glass better, and overworked towels stop being clean enough for glass long before they look worn out.
+The job-site lesson is simple. Clean towels dry glass better, and overworked towels stop being clean enough for glass long before they look worn out.
 
 <a id="the-sustainability-trade-off-most-towel-advice-skips"></a>
 ## The Sustainability Trade-off Most Towel Advice Skips
 
 Reusable microfiber can be the better glass towel, but it is not automatically the cleaner option in every sense. Laundry sheds fibers, and domestic washing is one pathway for microfiber pollution, so the sustainability question depends on how long the towel lasts and how it is washed. In practice, service life matters as much as cleaning performance.
 
-The release rates vary a lot by textile and wash method. A peer-reviewed study, De Falco et al., measured microfiber losses ranging from **9.6 to 1,240 mg per kilogram of textile per wash**, with mechanically treated polyester releasing substantially more than woven nylon. A 2024 systematic review notes that laundering-related fibers have been found in places ranging from deep-sea sediment to remote land areas. Another review, [Napper and Thompson](https://pubmed.ncbi.nlm.nih.gov/25107595/), reports domestic laundry releases ranging from **120 to 730,000 fibers per wash cycle** across studies. The spread is wide, but the point is consistent, washing behavior matters.
+The release rates vary a lot by textile and wash method. In a 2016 Plymouth University study, [Napper and Thompson](https://pubmed.ncbi.nlm.nih.gov/27686821/) estimated that **over 700,000 fibers** could be released from an average 6 kg wash load of acrylic fabric, and found that polyester-cotton blends consistently shed significantly fewer fibers than polyester or acrylic. Washing behavior matters.
 
 That does not mean microfiber should be tossed in favor of paper towels. It means fewer good towels should be used for longer, and they should be treated like reusable tools rather than disposable rags. A towel reserved for glass, washed separately, and retired at the right time usually gives a cleaner finish with less waste than paper.
 
@@ -147,4 +139,4 @@ When the glass is high, the spotting won't quit, or post-construction dust is ev
 
 ---
 
-Aloha Window Bros handles the part of the job that towels can't fix alone, including windows, screens, frames, and sills across Ventura County and Santa Barbara County. If you want clear glass without guessing which cloth belongs where, visit [Aloha Window Bros](https://alohawindowbros.com) to request a free on-site quote and get the right finish for your home or property.
+Aloha Window Bros handles the part of the job that towels can't fix alone, including windows, screens, frames, and sills across Ventura County and Santa Barbara County. If you want clear glass without guessing which cloth belongs where, [request a free on-site quote from Aloha Window Bros](/contact/) and get the right finish for your home or property.

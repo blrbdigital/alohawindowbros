@@ -1,4 +1,4 @@
-## 2026-10-16 - Google review count corrected sitewide (185 to 258), two blocklisted-source pages cleaned, no ranking action
+## 2026-10-16 - Google review count corrected sitewide (185 to 258), two blocklisted-source pages cleaned, towels post consolidated on arrival, no ranking action
 
 **technical: `GBP.reviewCount` in `src/lib/seo.ts` 185 -> 258.** The 08-05 figure was 73 reviews stale. Today's live
 pack read for our GBP CID (4483745950804238350, seo-brain `pack_listings`) shows 4.9 stars and 258 reviews, which is
@@ -16,6 +16,15 @@ window bros reviews* 49 US impressions); it now says "more than 250 reviews". Re
 - `skylight-cleaning-pole`: removed the UK `workingatheightscourse.co.uk` "20 metres" claim and two Australian Ionic
   Systems figures (body and FAQ); replaced with Unger USA's nLITE Carbon 24K spec table (28 ft / 4.2 lb main pole,
   10.5 ft / 1.9 lb extension). FAQPage parity 5 == 5.
+
+**technical: sixteenth publisher audit, `window-cleaning-towels` (Outrank, published 10-16 during this run),
+consolidated on arrival** onto `streak-free-window-cleaning-cloth` via `src/lib/consolidated.mjs` (heading-test
+duplicate; 30 US impressions of towel/cloth demand sitewide, so nothing to split). Canonical, `mainEntityOfPage` and
+sitemap verified in `dist/` (sitemap stays 106). The page stays live, so its defects were fixed too: a PubMed link to
+the wrong paper (PMID 25107595 is a PET imaging study; corrected to Napper and Thompson 2016, PMID 27686821, with the
+abstract's own figure), a "source" link pointing at the post's own hotlinked image, an unsourced De Falco range,
+four off-topic or wrong-country sources, the homepage-CTA defect, three absolute self-links and three `cdnimg.co`
+images (invented GSM specs, a starburst glint, an illustrated fabricated person). Hero has sparkle glyphs (logged).
 
 **No ranking action.** Every striking-distance and CTR-outlier row in the brief is inside an open review (streak
 cluster 10-23, screens post 10-28, the rest 10-21 to 11-25), and the fresh rankers probed this run were rejected with
