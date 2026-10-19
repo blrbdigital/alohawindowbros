@@ -4,6 +4,104 @@
 
 ---
 
+### 2026-10-19
+
+**What we did:**
+- **technical (primary): seventeenth publisher audit. Three Outrank posts arrived 10-17 to 10-19; two were consolidated
+  on arrival and all three were corrected.**
+  - `house-window-cleaning-cost` (10-18) -> canonical to `residential-window-cleaning-prices`. Heading test: six of
+    eight H2s map onto the price guide. The price guide holds every national consumer-cost row on the site (24 rows,
+    71 US impressions in the brief window), INCLUDING this post's head query (*house window cleaning cost* 1 @ 1.0,
+    *cost to clean windows on a house* 4 @ 8.8, *window cleaning cost* 12 @ 7.8). Its 10-14 refresh is under review
+    until **11-25**; a second consumer-price URL on that surface would destroy the read. Third price post consolidated
+    (after the professional-cost and exterior-cost posts).
+  - `solar-panel-cleaning-california` (10-19) -> canonical to `is-solar-panel-cleaning-worth-it`. Its lead calls cleaning
+    "a break-even call" and five of seven H2s map onto the worth-it guide. A 90-day US probe for any
+    `solar ... california|ca|socal` wording returns **3 impressions sitewide**: there is no California-solar demand to
+    split, and the worth-it guide already holds *is solar panel cleaning worth it* 22 @ 8.9.
+  - Both stay live, so both were corrected: naked Angi ($150 to $302, $220, sixth appearance), HomeAdvisor per-pane
+    figures and the **Jobber "$260 for 1,500 sq ft" dropped as unverified on 10-12** replaced with our published city
+    bands; the California post's **window bands presented as solar prices** ("$150 to $400 statewide ... based on Aloha
+    Window Bros service information", a prompt leak) removed, because the site publishes no solar prices; a "Southern
+    California soiling study cited earlier" that was never cited (5.1%, 4.8 to 5.5%, 2 to 6%, 7%) replaced with the
+    UC San Diego 186-site study and the IEA PVPS T13-21 report, both re-read in the source today; a DTSC claim linked to
+    `ambrosesolar.com`, a Wikipedia statistic, UK HSE ladder guidance (now OSHA 1926.1053), a roofer, a Dallas maid
+    service and a quote vendor removed; "the publisher" self-references (new class) and the unverifiable "virtual
+    estimate" claim fixed. Detail in the site map, SEVENTEENTH AUDIT.
+- **refresh + internal links (secondary): `solar-panel-cleaning-and-bird-proofing` (10-17) kept self-canonical and
+  treated.** No bird page exists and a 90-day probe for `bird|pigeon|dropping|guano|critter` returns **0 impressions**,
+  which (per the 09-11 lesson) means the topic is new, not duplicated. Added a direct answer and key takeaways, a
+  5-item FAQ (parity **5 == 5** in `dist/`), the Migratory Bird Treaty Act for active nests (16 U.S.C. 703, read at
+  Cornell LII), and corrected the PMC11894218 citation: it is an experimental 2025 *Scientific Reports* paper, not a
+  "peer-reviewed review"; the 23.8% and 36 to 38% figures are in its text and are now attributed to the earlier
+  experiments it summarizes. An unlinked "NREL guidance" claim and three off-topic links removed. **Inbound links 0 -> 3**
+  from `is-solar-panel-cleaning-worth-it`, `solar-panel-cleaning-brush-and-pole` and `solar-panel-cleaning-system`
+  (none has an open read).
+- **All 11 hotlinked images deleted** after viewing each one: invented per-pane prices, a technician graphic with
+  invented wages ("$10-$15 per hour", below the $16.90 California minimum), sparkle glyphs, two technicians standing or
+  kneeling ON solar arrays, a "Monthly / Quarterly" schedule that contradicts the frequency guide, a typo.
+- **No title_meta, no new content, no GBP change, and no edit to any page under review.**
+
+**Why we did it (brief window 2026-09-19..2026-10-16, US only, plus a US page probe and three cluster probes today):**
+- **Every row the brief ranks is still mid-read, three days after the 10-16 run:**
+  - *how to clean window screens* **7,782 @ 10.0** (prior 8.7) and its variants (*how to clean a window screen?* 812 @
+    8.4, *how to clean window screens without removing them* 562 @ 6.3, *cleaning a window screen* 440 @ 7.8): the
+    screens post is still deflating from the 09-13 to 09-24 scraper spike (page 11,576 vs prior 25,203); its 09-16
+    retitle is under review until **10-28**.
+  - Streak cluster (*streak free window cleaner* 1,044 @ 7.9, *best no streak window cleaner* 738 @ 3.6, *best glass
+    cleaner for windows 2025* 730 @ 8.7): under review until **10-23**.
+  - Pricing pillar and `/thousand-oaks/` close **10-21**; `/camarillo/` `/agoura/` `/newbury/` **10-26**; skylight
+    service **10-30**; solar roof and the solar service page **11-11**; residential price guide **11-25**.
+  - *commerical storefront windows* 503 @ 18.5 and *storefront windows* 251 @ 17.3: architectural intent under a
+    glass-contractor pack (Oakstone, Westoaks, Westlake Glass), rejected for the ninth time.
+- **Why the consolidations, and why now:** the 08-28 rule (consolidate a heading-test duplicate on arrival, so a new URL
+  cannot split a surface mid-experiment) applies to both. The house-cost post entered the exact surface the 10-14
+  price-guide push is measuring. Leaving it indexed would also have published Angi's $150 to $302 on a page
+  competing with our own bands.
+- **Scoreboard:** `technical` is 3-2-10, but every consolidation since 08-26 is still pending and this entry makes a
+  canonical-honoured claim, not a ranking claim. `refresh` (3-0-1) and `internal_links` (5-0-0) are the record's best
+  types and the bird post is the only fresh, unreviewed target on the site. `title_meta` (2-4-4): every CTR outlier is
+  the screens post or the streak cluster, both under review. **`gbp` is 0-0-13 and every grade reads "never appeared
+  in GSC", so there is still no gbp row in the ledger**; the pack items are logged below. `new_content` (1-0-1): the
+  matrix is complete and nothing on the board clears the bar.
+
+**Expected impact (review 2026-11-30, 42 days):**
+- **technical:** Google honours both canonicals. `house-window-cleaning-cost` and `solar-panel-cleaning-california` each
+  earn **under 10 US impressions** in the 28 days before review, and no consumer-cost query ranks on both the house
+  URL and the price guide.
+- **refresh (bird post):** indexed and earning **20+ US impressions** in the 28 days before review, from 0, on bird and
+  solar-dropping queries. Moderate confidence: 32% of sitemap URLs have zero impressions, but recent arrivals with
+  inbound links (sills, skylights, the business guide) all surfaced within six weeks.
+
+**Metrics at time of action (US, 2026-09-19..2026-10-16 unless stated):**
+- Brief: 85 clicks / 25,943 impr; non-brand **32 clicks** (prior 22) / 25,259 impr, 1,401 queries, avg pos 9.8 (prior 9.0).
+- `residential-window-cleaning-prices` 0 / 169 @ 7.8 (prior 2 / 33 @ 16.5). `is-solar-panel-cleaning-worth-it` 0 / 67 @
+  14.1. `house-window-cleaning-cost`, `solar-panel-cleaning-california`, `solar-panel-cleaning-and-bird-proofing`: not
+  yet in GSC (published 10-17 to 10-19, after the window).
+- Sitemap 106 -> **107**. Build 122 pages (119 + the three arrivals).
+
+**Logged, NOT actioned (for the GBP workstream and future runs):**
+1. **gbp, pack queries (brief):** *window cleaning thousand oaks* 70 @ 3.8, *window cleaning westlake village* 38 @ 1.9,
+   *screen cleaning service* 34 @ 3.2, *window cleaning prices thousand oaks* 26 @ 1.8, *window cleaner westlake village*
+   22 @ 1.8, *window cleaning prices camarillo* 20 @ 4.9. **Geo-grid: in pack at 5 of 6 points, ABSENT at Camarillo**
+   (AWC 248 reviews, Guerrero 14, Golden Boy's 139). Guerrero is the beatable slot: GBP work (Camarillo service area,
+   review velocity). `/camarillo/` is under the 09-14 read until 10-26.
+2. **Review count:** the brief's pack read shows **259** reviews; the site shows 258 (set 10-16). One review is not
+   worth a sitewide schema change; re-read at the next material move.
+3. **Still open since 07-27: the GBP website field is `http://alohawindowbros.com/`**. It should read `https://`. Adam
+   or Sam only.
+4. **Server blocklist** (ask Adam before editing the VPS service): add `hibcoroof.com`, `cleanersrated.com`,
+   `gmaids.com`, `sunnydaypro.com`, `fourseasonsroofing.com`, `commercialroofers.net.au`,
+   `wildlifecontrolservicesct.com`, `ambrosesolar.com`, and treat `en.wikipedia.org` as a non-source.
+5. Carried: the solar cost post's service-page link after 11-11, the pillar link on the price guide after 10-21, the
+   *window screen cleaning* split after 10-28, `hiepro.ehawaii.gov` on `how-to-clean-skylights` after 11-13, the UK FWC
+   PDF on `skylight-cleaning-service` after 10-30, older `cdnimg.co` hotlinks, sparkle-glyph heroes (now including
+   `house-window-cleaning-cost`), and the LG-02/LG-04 mediums.
+
+**Review after 42 days (2026-11-30).**
+
+---
+
 ### 2026-10-16
 
 **What we did:**

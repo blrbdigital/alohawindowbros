@@ -180,6 +180,36 @@
 //   winner. The older guide keeps the surface because it has 6 inbound links and the new
 //   post has none. REVERSAL CONDITION: if the towels URL starts ranking towel queries the
 //   cloth guide does not, remove this entry and cross-link the two instead.
+//
+// 2026-10-19: TWO more on arrival (US join 2026-09-19..2026-10-16, plus a 90-day solar probe).
+//
+//   /blog/house-window-cleaning-cost/ -> /blog/residential-window-cleaning-prices/.
+//   Passes the HEADING test as a duplicate: six of its eight H2s map onto the price guide
+//   (what it costs, the building blocks of a quote / per window vs flat, why local prices
+//   differ, sample estimates / where your home lands, comparing quotes, hiring). The price
+//   guide already holds every national consumer-cost row on the site, 24 of them, INCLUDING
+//   this post's own head query (`house window cleaning cost` 1 @ 1.0, `cost to clean
+//   windows on a house` 4 @ 8.8, `window cleaning cost` 12 @ 7.8). Its 10-14 refresh is
+//   under review until 11-25, and a second consumer-price URL entering that surface
+//   mid-read destroys the read. Third price post consolidated (after the professional-cost
+//   and exterior-cost posts). REVERSAL CONDITION: if Google declines this canonical and
+//   the house-cost URL ranks house-cost queries better than the price guide does, remove
+//   this entry and cross-link the two instead.
+//
+//   /blog/solar-panel-cleaning-california/ -> /blog/is-solar-panel-cleaning-worth-it/.
+//   Its own lead calls cleaning "a break-even call", and five of its seven H2s map onto the
+//   worth-it guide (why California differs, what soiling costs, coastal/inland/ash climate,
+//   deciding if it is worth it at your property, DIY vs pro). A 90-day probe for any
+//   `solar ... california|ca|socal` wording returns 3 impressions sitewide, so there is no
+//   California-solar demand to split. The worth-it guide holds `is solar panel cleaning
+//   worth it` 22 @ 8.9 and has 6 inbound links; the new post has none. REVERSAL CONDITION:
+//   if the California URL ranks solar queries the worth-it guide does not, remove this
+//   entry and cross-link the two instead.
+//
+//   NOT consolidated: /blog/solar-panel-cleaning-and-bird-proofing/ (10-17). Bird proofing
+//   has no page on this site (0 bird|pigeon|dropping impressions in 90 days, which is
+//   evidence the topic is new, not that it is duplicated, per the 09-11 lesson). Kept
+//   self-canonical with 3 inbound links.
 export const CANONICAL_OVERRIDES = {
   'blog/how-to-remove-hard-water-stains-from-windows':
     'https://alohawindowbros.com/blog/how-to-remove-hard-water-spots-from-windows/',
@@ -207,6 +237,10 @@ export const CANONICAL_OVERRIDES = {
     'https://alohawindowbros.com/blog/window-cleaning-for-high-windows/',
   'blog/window-cleaning-towels':
     'https://alohawindowbros.com/blog/streak-free-window-cleaning-cloth/',
+  'blog/house-window-cleaning-cost':
+    'https://alohawindowbros.com/blog/residential-window-cleaning-prices/',
+  'blog/solar-panel-cleaning-california':
+    'https://alohawindowbros.com/blog/is-solar-panel-cleaning-worth-it/',
 };
 
 /** Absolute canonical for a built pathname, or null if the page is self-canonical. */

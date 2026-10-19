@@ -58,7 +58,7 @@ Heavy soiling is where the losses get obvious. A review in the research brief re
 
 That is the line that matters. Light dust is a nuisance. Heavy contamination costs real money.
 
-A roof hit by wildfire ash, construction dust, or a thick patch of bird droppings behaves differently from a roof that picked up a week of ordinary dust. In those cases, the layer is dense enough that rain and gravity cannot clear it fully. You are paying to get light back onto the cells, not to make the glass look nicer.
+A roof hit by wildfire ash, construction dust, or a thick patch of bird droppings behaves differently from a roof that picked up a week of ordinary dust. In those cases, the layer is dense enough that rain and gravity cannot clear it fully. You are paying to get light back onto the cells, not to make the glass look nicer. If the droppings keep coming back to the same panels, pair the cleaning with [bird proofing under the array](/blog/solar-panel-cleaning-and-bird-proofing/) so you are not paying for the same spot every few months.
 
 > Panels can lose significant output while appearing only lightly soiled. If the deposit is bonded, uneven, or thick enough to shade cells, output drops faster than homeowners typically notice.
 

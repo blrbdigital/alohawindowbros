@@ -41,7 +41,7 @@ The stakes are real. The [IEA PVPS report on soiling losses](https://iea-pvps.or
 <a id="match-the-method-to-the-residue"></a>
 ### Match the method to the residue
 
-Salt aerosol behaves differently from loose inland dust. Coastal residue can dry into a haze, especially when mixed with moisture, sprinkler overspray, or organic matter. Pollen can cling to that film, while bird droppings create concentrated spots that need soaking rather than aggressive scrubbing.
+Salt aerosol behaves differently from loose inland dust. Coastal residue can dry into a haze, especially when mixed with moisture, sprinkler overspray, or organic matter. Pollen can cling to that film, while bird droppings create concentrated spots that need soaking rather than aggressive scrubbing. Where droppings return to the same panel edge, the [solar panel cleaning and bird proofing guide](/blog/solar-panel-cleaning-and-bird-proofing/) covers closing the gap birds use.
 
 A useful system therefore has three working parts:
 

@@ -177,7 +177,7 @@ Coastal properties deal with salt aerosol, while inland homes can receive dry, w
 
 - **Coastal exposure:** Schedule attention when salt film becomes visible or clarity drops. Shorter intervals may be appropriate because airborne salt can settle on glass and frames.
 - **Inland dust:** Check after dusty wind events and plan a cleaning after the main dry or dusty period, especially if residue remains when the first rains arrive.
-- **Trees and birds:** Watch for pollen, leaves, and droppings. Spot cleaning may be more sensible than waiting for the entire array to become heavily soiled.
+- **Trees and birds:** Watch for pollen, leaves, and droppings. Spot cleaning may be more sensible than waiting for the entire array to become heavily soiled. If birds nest under the panels, a brush only treats the symptom; see [how to clean and bird-proof solar panels](/blog/solar-panel-cleaning-and-bird-proofing/).
 - **Commercial sites and HOAs:** Use a written inspection and cleaning schedule, document access conditions, and compare service providers on insurance, equipment, and their willingness to assess the site before work.
 
 Property managers shouldn't choose a contractor solely by advertised pole length. Ask what brush material the crew uses, whether they use purified water, how they protect electrical equipment, and what happens if a module is already cracked or delaminating.

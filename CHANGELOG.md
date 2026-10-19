@@ -1,3 +1,38 @@
+## 2026-10-19 - Seventeenth publisher audit: house-cost and California solar posts consolidated on arrival, bird-proofing post treated and linked, no ranking action
+
+**technical: two Outrank arrivals consolidated on arrival** (`src/lib/consolidated.mjs`, reasoning and reversal
+conditions in the comment block):
+- `/blog/house-window-cleaning-cost/` -> `/blog/residential-window-cleaning-prices/`. Six of eight H2s map onto the
+  price guide, which already holds all 24 national consumer-cost rows on the site, including this post's own head
+  query (*house window cleaning cost* 1 @ 1.0). The price guide's 10-14 refresh is under review until 11-25.
+- `/blog/solar-panel-cleaning-california/` -> `/blog/is-solar-panel-cleaning-worth-it/`. Five of seven H2s map; a
+  90-day probe for any California solar wording returns 3 impressions sitewide.
+- Both pages stay live and were still corrected: naked Angi/HomeAdvisor prices and the unverified Jobber $260 figure
+  replaced with our published city bands; window bands quoted as solar prices removed (the site publishes no solar
+  prices); a "study cited earlier" that was never cited, a DTSC claim linked to a solar company, Wikipedia, UK HSE,
+  a roofer, a Dallas maid service and a cleaning-quote vendor removed; "the publisher" self-references, the
+  unverifiable "virtual estimate" claim, empty video placeholders, absolute self-links and homepage CTAs fixed. UK
+  HSE ladder guidance replaced with OSHA 1926.1053; wage context now cites the California Labor Commissioner
+  ($16.90/hr from 2026-01-01, re-read today).
+
+**refresh + internal_links: `/blog/solar-panel-cleaning-and-bird-proofing/` kept self-canonical** (no bird page exists;
+0 bird impressions in 90 days means a new topic, not a duplicate). Direct answer and key takeaways added at the top,
+a 5-item FAQ (FAQPage parity 5 == 5), the PMC citation corrected (an experimental 2025 *Scientific Reports* paper, not
+a review; 23.8% and 36 to 38% verified in its text and attributed to the earlier experiments it summarizes), the
+unlinked NREL claim removed, the Migratory Bird Treaty Act (16 U.S.C. 703) cited for active nests, a useless "Varies"
+price column replaced with "Best use", three off-topic links removed (Connecticut wildlife vendor, Australian roofer,
+metal roofer). Three inbound links added from `is-solar-panel-cleaning-worth-it`, `solar-panel-cleaning-brush-and-pole`
+and `solar-panel-cleaning-system` (none under review).
+
+**Images:** all 11 hotlinked `cdnimg.co` images deleted after a visual audit: invented per-pane prices and wages
+(one showing "$10-$15/hr", below the California minimum), sparkle glyphs, technicians standing and kneeling on
+solar arrays, a "monthly / quarterly" schedule contradicting the frequency guide, and a typo. The auto-injected hero
+on the house-cost post has sparkle glyphs (left in place; heroes are not hand-picked).
+
+**Why no ranking action:** every striking-distance and CTR-outlier row in the brief is inside an open review
+(screens retitle to 10-28, streak cluster to 10-23, pricing pillar and `/thousand-oaks/` to 10-21). Detail in
+SEO-LOG.md. Build 122 pages, sitemap 106 -> 107. `legal-guard scan`: no new findings.
+
 ## 2026-10-16 - Google review count corrected sitewide (185 to 258), two blocklisted-source pages cleaned, towels post consolidated on arrival, TCPA consent on the contact form, no ranking action
 
 **technical: `GBP.reviewCount` in `src/lib/seo.ts` 185 -> 258.** The 08-05 figure was 73 reviews stale. Today's live
