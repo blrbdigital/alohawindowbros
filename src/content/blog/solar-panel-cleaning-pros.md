@@ -5,7 +5,7 @@ description: 'Learn what solar panel cleaning pros do, how much it costs, and wh
 heroImage: '/img/blog/solar-panel-cleaning-pros.jpg'
 heroImageAlt: 'Solar Panel Cleaning Pros: What They Do and Why It Matters'
 ---
-Professional solar panel cleaning is performance maintenance, not just an appearance upgrade: soiling accounts for approximately 3%, 7% of annual global photovoltaic energy production losses. Whether a cleaning visit pays off at your home depends on local conditions, panel access, and the type of residue on the glass.
+Professional solar panel cleaning is performance maintenance, not just an appearance upgrade: soiling is "considered responsible for an average of 4% to 7% global energy loss" in photovoltaic systems, according to the [IEA Photovoltaic Power Systems Programme](https://iea-pvps.org/wp-content/uploads/2026/03/IEA-PVPS-Insights-2025.pdf). Whether a cleaning visit pays off at your home depends on local conditions, panel access, and the type of residue on the glass.
 
 You might be looking up at a dusty array in Ventura, wondering whether to book a cleaning or wait for rain. Your monitoring app still shows electricity production, so nothing seems obviously wrong. The useful question isn't whether the panels look spotless, but whether removing those deposits would recover enough generation to justify the service.
 
@@ -26,7 +26,7 @@ You might be looking up at a dusty array in Ventura, wondering whether to book a
   - [Cleaning and equipment selection](#cleaning-and-equipment-selection)
   - [Inspection and documentation](#inspection-and-documentation)
 - [How Much Solar Panel Cleaning Costs and How Often](#how-much-solar-panel-cleaning-costs-and-how-often)
-  - [Typical Residential Solar Cleaning Costs](#typical-residential-solar-cleaning-costs)
+  - [What Sets a Solar Cleaning Quote](#typical-residential-solar-cleaning-costs)
   - [Let conditions determine the next visit](#let-conditions-determine-the-next-visit)
   - [Estimate the financial benefit conservatively](#estimate-the-financial-benefit-conservatively)
 - [What to Look for When Hiring a Solar Cleaning Service](#what-to-look-for-when-hiring-a-solar-cleaning-service)
@@ -41,18 +41,16 @@ You might be looking up at a dusty array in Ventura, wondering whether to book a
 
 Consider a homeowner in Camarillo who notices a dull film across the panels after a dry stretch. From the driveway, it looks like ordinary dust. Because the system is still producing electricity, leaving it alone seems reasonable.
 
-That's an understandable decision, but continued production doesn't prove the panels are performing as well as they could. **Soiling** is the accumulation of dust, pollen, pollution particles, and other deposits that reduce the sunlight reaching a photovoltaic surface. The National Renewable Energy Laboratory's technical review of photovoltaic soiling estimates that these deposits cause approximately **3%, 7% of annual global photovoltaic energy production losses**.
+That's an understandable decision, but continued production doesn't prove the panels are performing as well as they could. **Soiling** is the accumulation of dust, pollen, pollution particles, and other deposits that reduce the sunlight reaching a photovoltaic surface. The IEA PVPS soiling report estimated that soiling cost **at least 3% to 4% of global annual PV energy production in 2018** ([IEA PVPS T13-21:2022](https://www.iea-pvps.org/wp-content/uploads/2023/01/IEA-PVPS-T13-21-2022-REPORT-Soiling-Losses-PV-Plants.pdf)), and the programme's 2025 Insights report puts the average at **4% to 7%**.
 
 The distinction between appearance and performance is the starting point.
-
-![A man observing dirty solar panels on his roof, with an infographic explaining benefits of professional cleaning.](https://cdnimg.co/8387fe5a-1497-428d-a3af-57b68fc0bac4/5cebf8c2-da6a-49ae-a544-3c7d1dee74ec/solar-panel-cleaning-pros-solar-efficiency.jpg)
 
 <a id="a-working-system-can-still-need-attention"></a>
 ### A working system can still need attention
 
 Think of a window screen that gradually collects dust. Light still enters the room, but the screen isn't as transparent as it was. Solar panels can similarly remain operational while surface deposits limit their potential generation.
 
-However, a global average isn't a forecast for your roof. The NREL review describes uneven soiling conditions, with dry, dusty, polluted, and low-rainfall environments generally accumulating deposits faster. A homeowner shouldn't apply a worldwide loss estimate directly to an individual electricity bill.
+However, a global average isn't a forecast for your roof. The same IEA report says mitigation "must be tailored to local conditions and system/site characteristics," because dry, dusty, and polluted sites soil much faster than others. A homeowner shouldn't apply a worldwide loss estimate directly to an individual electricity bill.
 
 > **Practical rule:** Treat visible dirt as a reason to investigate, not automatic proof that a cleaning visit will pay for itself.
 
@@ -68,7 +66,7 @@ For a coastal Southern California property, useful questions include:
 
 A useful cleaning recommendation should explain why your particular array needs attention. It shouldn't begin with an automatic recurring appointment.
 
-For a closer look at scheduling, this guide to [how often solar panels should be cleaned](https://alohawindowbros.com/blog/how-often-should-solar-panels-be-cleaned/) provides a starting point for discussing your property's conditions. The aim is to maintain useful generation without purchasing unnecessary visits.
+For a closer look at scheduling, this guide to [how often solar panels should be cleaned](/blog/how-often-should-solar-panels-be-cleaned/) provides a starting point for discussing your property's conditions. The aim is to maintain useful generation without purchasing unnecessary visits.
 
 The homeowner in Camarillo doesn't need to decide from the driveway alone. A safe inspection, a review of production history, and an access assessment provide a more sensible basis for choosing professional service.
 
@@ -77,9 +75,9 @@ The homeowner in Camarillo doesn't need to decide from the driveway alone. A saf
 
 A film of grime on a window can dim a room even when the sun is bright. On a solar panel, deposits interfere with incoming light before the cells can use it.
 
-The effect isn't always uniform. A light dust layer may cover much of the glass, while bird droppings or other adhered material may obscure smaller areas more heavily. The [IEA Photovoltaic Power Systems Programme's report on soiling losses](https://www.iea-pvps.org/wp-content/uploads/2023/01/IEA-PVPS-T13-21-2022-REPORT-Soiling-Losses-PV-Plants.pdf) explains that deposits can block or scatter irradiance and create **nonuniform shading** across cells.
+The effect isn't always uniform. A light dust layer may cover much of the glass, while bird droppings or other adhered material may obscure smaller areas more heavily. The [IEA PVPS report on soiling losses](https://www.iea-pvps.org/wp-content/uploads/2023/01/IEA-PVPS-T13-21-2022-REPORT-Soiling-Losses-PV-Plants.pdf) documents **non-uniform soiling** as its own case, including buildup along the sides and bottom edge of the module frame and blotches covering several cells, which shade some cells more than others.
 
-![A diagram illustrating how various types of dirt, such as dust, pollen, and bird droppings, reduce solar panel energy production.](https://cdnimg.co/8387fe5a-1497-428d-a3af-57b68fc0bac4/7be01f45-3545-4951-b9b4-a52819bbedbd/solar-panel-cleaning-pros-dirt-impact.jpg)
+![A diagram of five deposit types on a solar panel (dust, pollen, salt aerosols, bird droppings, and mineral deposits) and how less light reaching the cells lowers energy production.](/img/blog/solar-panel-cleaning-pros-dirt-impact.jpg)
 
 <a id="different-deposits-create-different-problems"></a>
 ### Different deposits create different problems
@@ -99,7 +97,7 @@ These categories help explain why a single cleaning method won't suit every roof
 
 Rain may remove some material, but a wet panel isn't necessarily a clean panel. The clearest evidence comes from comparing measured performance rather than assuming that a storm completed the job.
 
-In an NREL investigation of pollen-induced soiling at utility-scale plants in North Carolina, losses exceeded **15% at every site** during peak spring pollen conditions, and manual cleaning produced measured recovery of **5%, 11%**. Recovery after pollen season was slow and didn't consistently correlate with rainfall.
+In a [National Renewable Energy Laboratory study of utility-scale solar plants in North Carolina](https://www.nlr.gov/news/detail/program/2023/nrel-research-finds-rain-not-enough-to-wash-pollen-from-solar-panels), performance fell by **as much as 15%** during peak pollen season, mostly from cypress, juniper, pine, and oak pollen, even with frequent rain. Mechanical wet-brush cleaning then measured performance increases of **5% to 11%**.
 
 Those findings concern utility-scale sites in a different region. They demonstrate that pollen can persist and cleaning can recover output, but they don't establish a guaranteed improvement for a home in Oxnard or Goleta.
 
@@ -122,11 +120,9 @@ The gap between DIY cleaning and professional service comes down to how the pers
 <a id="a-hose-rinse-and-controlled-cleaning-arent-equivalent"></a>
 ### A hose rinse and controlled cleaning aren't equivalent
 
-NREL field testing of heavily bio-soiled modules recorded initial losses of approximately **13.4%, 14.6%** relative to a clean reference. Hose-water rinsing reduced one measured loss only to approximately **12.9%**, while water combined with a soft-bristle brush reduced it to approximately **8.1%**.
+NREL's work on pollen and mold soiling in the Southeast U.S. found modules whose I-V curves were **13% to 14% below nameplate**, held back by mold that rain had not removed. In its words, "rubbing with DI water and soft cloth restores clean surface while pressurized garden hose did not" ([NREL poster, Muller et al.](https://docs.nlr.gov/docs/fy23osti/85783.pdf)).
 
 That result supports controlled mechanical action for adhered contamination. It does not support harder scrubbing, and it does not show that cleaning always restores full output. Brushing works here the way a soft mitt works on a car: it lifts grime that water alone leaves behind, while an abrasive pad would damage the finish.
-
-![A comparison infographic showing the benefits of professional solar panel cleaning versus risky DIY cleaning methods.](https://cdnimg.co/8387fe5a-1497-428d-a3af-57b68fc0bac4/38e1d536-8ee3-4ef7-ac4b-81b97555ad4e/solar-panel-cleaning-pros-comparison.jpg)
 
 | Decision factor | Homeowner consideration | What to ask a professional |
 |---|---|---|
@@ -139,7 +135,7 @@ That result supports controlled mechanical action for adhered contamination. It 
 <a id="gentle-technique-matters-more-than-force"></a>
 ### Gentle technique matters more than force
 
-A practical protocol is to work on cool panels, use nonabrasive tools, account for water quality, and avoid walking on modules. Abrasive pads, aggressive scraping, and unsuitable dry brushing can risk scratching glass or damaging coatings.
+A practical protocol is to work on cool panels, use nonabrasive tools, account for water quality, and avoid walking on modules. The [IEA PVPS degradation and failure annex](https://iea-pvps.org/wp-content/uploads/2025/02/IEA-PVPS-T13-30-2025-PVFS-ANNEX-Degradation-and-Failure.pdf) lists "inappropriate cleaning techniques (mechanical removal techniques, inappropriate cleaning agents)" as a cause of glass abrasion and corrosion that can damage or remove a module's coatings.
 
 Water quality deserves attention on its own. Hard water behaves on a panel the way it does on a shower door: the water evaporates and the minerals stay behind, leaving fresh residue where dirt used to be.
 
@@ -161,9 +157,7 @@ The strongest solar panel cleaning pros explain what they will do differently an
 
 A professional visit should begin with the property, not a brush. Before work starts, the provider needs to understand access, panel condition, surrounding surfaces, and the deposits being treated.
 
-The initial inspection should establish what can be cleaned safely and what falls outside the service.
-
-![Two professional technicians in safety gear inspecting and cleaning residential solar panels on a house roof.](https://cdnimg.co/8387fe5a-1497-428d-a3af-57b68fc0bac4/73e17b2b-0b2a-49da-ab27-cc81e3b6e067/solar-panel-cleaning-pros-solar-maintenance.jpg)
+The initial inspection should establish what can be cleaned safely and what falls outside the service. Our [solar panel cleaning service guide](/blog/solar-panel-cleaning-service/) walks through a full visit, from the site walk-through to warranty questions.
 
 <a id="assessment-and-preparation"></a>
 ### Assessment and preparation
@@ -177,18 +171,14 @@ A clear service plan should address:
 - **Service boundaries:** Distinguish surface cleaning from electrical diagnosis or repair.
 - **Water use:** Choose an approach suited to the deposits rather than assuming prolonged rinsing is necessary.
 
-The [IEA PVPS guidance on photovoltaic degradation and failure](https://iea-pvps.org/wp-content/uploads/2025/02/IEA-PVPS-T13-30-2025-PVFS-ANNEX-Degradation-and-Failure.pdf) supports selecting cleaning methods around water availability, site access, system layout, and soiling type. Both water-based and waterless approaches may have a role, but neither should be treated as universally appropriate.
+The IEA PVPS Insights report says cleaning technologies "should be selected based on site-specific factors such as water availability, system layout, and budget." Both water-based and waterless approaches may have a role, but neither should be treated as universally appropriate.
 
 <a id="cleaning-and-equipment-selection"></a>
 ### Cleaning and equipment selection
 
 Where suitable, a provider may use purified-water rinsing followed by controlled soft-brush agitation and a final rinse. The technician should adapt the treatment to the residue while protecting the module surface.
 
-Keep the equipment discussion specific. **Pressurized screen cleaners are window-screen tools**, not evidence that the same equipment belongs on solar modules. A company offering several exterior-cleaning services should clearly distinguish its solar-cleaning method from its other processes.
-
-If you're comparing service descriptions, use this video as a prompt for questions about access, tools, and the work being proposed.
-
-
+Keep the equipment discussion specific. **Tools built for window glass or screens are not automatically safe on solar modules.** A company offering several exterior-cleaning services should clearly distinguish its solar-cleaning method from its other processes.
 
 <a id="inspection-and-documentation"></a>
 ### Inspection and documentation
@@ -204,26 +194,25 @@ A final walk-through should also establish what was completed, rather than relyi
 
 A useful solar-cleaning price is a quote for your array, not a borrowed range from a different service. Window-cleaning packages, another region's rates, and unusually accessible installations don't establish what your roof will cost.
 
-There isn't a supported solar-specific price range to quote for Ventura and Santa Barbara here. The honest approach is to request a property-specific estimate and compare what each provider includes.
-
 <a id="typical-residential-solar-cleaning-costs"></a>
-### Typical Residential Solar Cleaning Costs
+### What Sets a Solar Cleaning Quote
 
-| Service Area | Typical Range |
+Aloha Window Bros does not publish a flat solar price, because the job changes with every roof. A quote should account for:
+
+| Factor | Why it moves the price |
 |---|---|
-| Ventura County | Site-specific quote needed; no verified solar-cleaning range available |
-| Santa Barbara County | Site-specific quote needed; no verified solar-cleaning range available |
+| Panel count and layout | More modules and split arrays take more time |
+| Roof height and pitch | Ground-reach pole work is faster than a steep two-story roof |
+| Residue type | Loose dust rinses off; bird droppings and cemented film need brush work |
+| Water | Purified water costs more to produce than tap water but leaves no mineral spots |
+| Documentation | Before-and-after photos and a condition note take time to do properly |
 
-Ask whether the estimate accounts for array size, roof access, layout, residue, and documentation. Those details make competing proposals more useful than comparing headline prices alone.
-
-For a local starting point, review the guide to [solar panel cleaning cost](https://alohawindowbros.com/blog/solar-panel-cleaning-cost/) and then request an estimate for the actual installation.
-
-The same budgeting discipline applies to other property services. HomeProBadge's guide to [lawn aeration service costs](https://homeprobadge.com/blog/lawn-aeration-service) is a separate resource for homeowners planning yard maintenance, not a pricing benchmark for solar cleaning.
+Those details make competing proposals more useful than comparing headline prices alone. For a local starting point, review the guide to [solar panel cleaning cost](/blog/solar-panel-cleaning-cost/) and then request an estimate for the actual installation.
 
 <a id="let-conditions-determine-the-next-visit"></a>
 ### Let conditions determine the next visit
 
-A recurring appointment can be convenient, but convenience doesn't establish economic value. The [IEA PVPS guidance on site-specific soiling management](https://iea-pvps.org/wp-content/uploads/2026/03/IEA-PVPS-Insights-2025.pdf) recommends balancing recovered energy against operating costs and explains that dust can combine with nighttime dew and become cemented to a module surface.
+A recurring appointment can be convenient, but convenience doesn't establish economic value. The [IEA PVPS Insights report](https://iea-pvps.org/wp-content/uploads/2026/03/IEA-PVPS-Insights-2025.pdf) says cleaning schedules "must be optimized to balance the revenues from the recovered energy and the operational costs." The IEA soiling report adds that in high humidity or below the dew point, water dissolves part of the dust and cements it to the glass. That matters on the coast, where the morning marine layer keeps humidity high.
 
 That makes the timing decision more nuanced than waiting until panels look heavily coated. Yet it still doesn't justify frequent cleaning at every property.
 
@@ -304,7 +293,7 @@ For a Ventura or Santa Barbara homeowner, the next step is usually modest. Gathe
 - **Request an assessment:** If residue persists or the panels are difficult to inspect, obtain a scoped quote.
 - **Seek separate diagnosis:** If the concern involves system operation rather than surface condition, don't assume washing will resolve it.
 
-If you're still weighing the expense, this discussion of [whether solar panel cleaning is worth it](https://alohawindowbros.com/blog/is-solar-panel-cleaning-worth-it/) can help frame the decision around your priorities.
+If you're still weighing the expense, this discussion of [whether solar panel cleaning is worth it](/blog/is-solar-panel-cleaning-worth-it/) can help frame the decision around your priorities.
 
 **Appearance-focused cleaning and performance-focused cleaning are different purchases.** Both can be legitimate, but only the latter should be evaluated as an investment in recovered generation.
 
@@ -312,4 +301,4 @@ Choose service when the proposed method, likely benefit, and access plan make se
 
 ---
 
-Aloha Window Bros offers solar panel cleaning with purified-water equipment and soft, nonabrasive brushes in Ventura County and Santa Barbara County. Visit [Aloha Window Bros](https://alohawindowbros.com) to request a free on-site or virtual estimate, and share photos of your array, access details, and any persistent residue so the team can discuss an appropriate scope of work.
+Aloha Window Bros offers solar panel cleaning with purified-water equipment and soft, nonabrasive brushes in Ventura County and Santa Barbara County. [Book a free on-site quote with Aloha Window Bros](/contact/) and mention your array size, roof access, and any persistent residue. We walk the property with you before we leave, and if anything doesn't look right, we redo it on the spot.

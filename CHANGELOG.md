@@ -1,3 +1,49 @@
+## 2026-10-21 - Eighteenth publisher audit: window frames and solar pros posts consolidated on arrival and corrected, pricing pillar Ventura row fixed, no ranking action
+
+**technical: two Outrank arrivals consolidated on arrival** (`src/lib/consolidated.mjs`, reasoning and reversal
+conditions in the comment block):
+- `/blog/how-to-clean-window-frames/` -> `/blog/how-to-clean-window-sills-and-tracks/`. Every frame query on the site
+  already ranks on the sills guide (*frame and sill cleaning* 75 @ 10.1, *window frame cleaning* 6 @ 18.7), five of
+  seven H2s map, and the sills guide is under review until 11-16. Protective call with a written reversal plan: after
+  11-16 the frames post can run as its own experiment.
+- `/blog/solar-panel-cleaning-pros/` -> `/blog/solar-panel-cleaning-service/`. Five of seven H2s map; the service guide
+  holds the provider rows (*solar panel cleaning companies* 5 @ 7.8) on a surface already split three ways.
+- Sitemap 109 -> 107 URLs. Verified in `dist/`: both canonicals point at the winners, zero self-URL leaks in JSON-LD,
+  both winners still in the sitemap.
+
+**Both pages stay live and were corrected:**
+- Frames: a 2009 EPA renovation pamphlet was cited as "the EPA summary of its updated lead-dust rule" for 2024 figures.
+  Replaced with two live EPA pages read today: approximately three-quarters of pre-1978 homes still contain some lead
+  paint (not "half"), and since the 2024 rule any reportable level of lead dust is a hazard while 5/40/100 µg/ft² are
+  the post-abatement clearance levels (the post had called them hazard thresholds). Unfound "1.2 million people" figures
+  deleted. A GKFP "every three to four months" claim that is not in the GKFP PDF deleted, and its real list of unsuitable
+  cleaners (including acetic acid and ammonia) used instead. Aluprof figures verified, 25°C now also shown as 77°F. An
+  NPS "south and west facing windows" detail that is not in Preservation Brief 9 deleted. `$150 to $400` presented as
+  the general price band corrected to $150 to $475 by city with a link to the pricing pillar.
+- Solar: an unlinked "NREL review, 3%, 7%" replaced with IEA PVPS T13-21 (at least 3 to 4% in 2018) and IEA PVPS
+  Insights 2025 (4% to 7%). Two unlinked NREL studies were real: now linked (`www.nlr.gov` news page, `docs.nlr.gov`
+  poster) and quoted accurately ("as much as 15%", not "exceeded 15% at every site"). Two IEA citations re-pointed to
+  the report that actually contains the sentence. A lawn-aeration link and a "no verified solar-cleaning range available"
+  table (generator text) removed; the table is now a quote-factors table with no invented price. "Virtual estimate"
+  claim replaced with the homepage walk-through promise.
+- Both: homepage CTAs now point at `/contact/`, absolute self-links made relative, empty "watch this video" lines
+  removed, off-topic sources removed (`usasuperior.com`, `paintersnorthshore.co.nz`, `homeprosetx.com`,
+  `homeprobadge.com`). Grep for the homepage-CTA defect across the collection returns zero.
+
+**Images:** 9 hotlinked `cdnimg.co` images audited. Two clean ones localized to `public/img/blog/`
+(`how-to-clean-window-frames-ladder-safety.jpg`, `solar-panel-cleaning-pros-dirt-impact.jpg`). Seven deleted: sparkle
+glyphs (three), a vinegar-on-vinyl recommendation the cited manufacturer forbids, an invented "up to 25%" and kWh chart,
+an em dash, and fabricated workers on roofs. The auto-injected frames hero has sparkle glyphs (left in place).
+
+**refresh (accuracy): pricing pillar Ventura row.** `/blog/how-much-does-window-cleaning-cost-in-ventura-county/` said
+Ventura's band reflects "private wells in older Midtown and east Ventura". It now says city groundwater at 1,200 to
+1,600 mg/L dissolved solids before blending, linked to the City of Ventura's USBR application (verified 10-07). Held
+until the pillar's 09-09 read closed today.
+
+**Not done, on purpose:** no title_meta, no new content, no GBP change, no edit to any page under review (the planned
+pillar link from the residential price guide waits for that guide's 11-25 read). `legal-guard scan`: no critical or
+high, the two known mediums only.
+
 ## 2026-10-19 - Seventeenth publisher audit: house-cost and California solar posts consolidated on arrival, bird-proofing post treated and linked, no ranking action
 
 **technical: two Outrank arrivals consolidated on arrival** (`src/lib/consolidated.mjs`, reasoning and reversal

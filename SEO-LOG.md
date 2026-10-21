@@ -4,6 +4,117 @@
 
 ---
 
+### 2026-10-21
+
+**What we did:**
+- **technical (primary): eighteenth publisher audit. Both Outrank arrivals since 10-19 were consolidated on arrival and
+  corrected.**
+  - `how-to-clean-window-frames` (10-20) -> canonical to `how-to-clean-window-sills-and-tracks`. A 90-day US probe for
+    `frame` puts every frame row on this site on the sills guide already: *frame and sill cleaning* **75 @ 10.1**,
+    *window frame cleaning* 6 @ 18.7, *how to clean window frame* 1 @ 25.0. Five of the post's seven H2s map onto the
+    sills guide. That guide (US **559 impr @ 14.1** in the brief window, a Top page) is under review until **11-16**.
+    This is a protective call, not a duplicate verdict: pure frame demand is 7 impressions, too thin to judge. The
+    reversal plan is written down: after 11-16, if the sills guide is not gaining frame rows, run the frames post as its
+    own experiment.
+  - `solar-panel-cleaning-pros` (10-21) -> canonical to `solar-panel-cleaning-service`. Five of seven H2s map. The
+    service guide holds the provider rows (*solar panel cleaning service* 18, *solar panel cleaning companies* 5 @ 7.8)
+    on a 77-impression surface already split three ways (`is-solar-panel-cleaning-worth-it` 27 @ 18.1, the service page,
+    which is under review until 11-11).
+  - Both stay live, so both were corrected. **Frames:** a 2009 EPA renovation pamphlet (NEPIS P1008M6G) was cited as
+    "the EPA summary of its updated lead-dust rule" for 2024-rule numbers. Now two live EPA pages read today:
+    *approximately three-quarters* of pre-1978 homes still contain some lead paint (the post said half), and since the
+    2024 rule any reportable level of lead dust is a hazard; 5/40/100 µg/ft² are post-abatement clearance levels, which
+    the post had called hazard thresholds. GKFP's "every three to four months" and NPS's "south and west facing windows"
+    are not in their documents, so both were deleted. `$150 to $400` presented as the general band was corrected to
+    $150 to $475 by city, linked to the pillar. **Solar:** an unlinked "NREL review, 3%, 7%" (an en dash stripped to a
+    comma) became IEA PVPS T13-21 (at least 3 to 4%, 2018) and IEA PVPS Insights 2025 (4% to 7%). Two unlinked NREL
+    studies turned out to be real and are now linked on `nlr.gov` and quoted accurately. Two IEA citations were
+    re-pointed to the report that actually contains the sentence. A lawn-aeration link and a "no verified solar-cleaning
+    range available" table (generator text) were removed, and the "virtual estimate" claim (third time) was fixed.
+    **Both:** CTAs moved from the homepage to `/contact/`, self-links made relative, empty video lines deleted, four
+    off-topic sources removed. Of 9 hotlinked images, 2 were localized and 7 deleted (sparkle glyphs, invented "up to
+    25%" and kWh figures, a vinegar-on-vinyl recommendation the cited manufacturer forbids, an em dash, fabricated
+    workers on roofs). Detail in the site map, EIGHTEENTH AUDIT.
+- **refresh (secondary, accuracy only): the pricing pillar's Ventura row.** It said Ventura's band reflects "private
+  wells in older Midtown and east Ventura". It now says city groundwater at 1,200 to 1,600 mg/L dissolved solids before
+  blending, linked to the City of Ventura's USBR application (verified 10-07). This fix had been held since 10-07 until
+  the pillar's 09-09 read closed today.
+- **No title_meta, no new content, no GBP change, no internal-link push, and no edit to any page under review.**
+
+**Why we did it (brief window 2026-09-21..2026-10-18, US only, plus page probes and two 90-day cluster probes today):**
+- **Every row the brief ranks is still mid-read:**
+  - Screens cluster (*how to clean window screens* 4,156 @ 10.1, *how to clean a window screen?* 948 @ 7.0, *how to
+    clean window screens without removing them* 577 @ 6.3, *window screen cleaning* 437 @ 10.9): the screens post
+    (7,934, prior 29,341) is still deflating from the 09-13 to 09-24 scraper spike. Its 09-16 retitle closes **10-28**.
+  - Streak cluster (*streak free window cleaner* 987 @ 8.0, *best no streak window cleaner* 738 @ 3.6, *best glass
+    cleaner for windows 2025* 486 @ 8.9, *best window cleaner* 285 @ 17.5 newly rising from 2): closes **10-23**.
+  - `/camarillo/` `/agoura/` `/newbury/` **10-26**; skylight service **10-30** (*skylight cleaning* 234 @ 12.3, prior
+    21.8); `/simi-valley/` **11-06** (238, prior 116); gutter service **11-09**; solar roof and the solar service page
+    **11-11** (*how to clean solar panels on roof* 231 @ 10.6); skylight how-to **11-13**; sills guide **11-16**;
+    `/ventura/` **11-18**; business guide **11-23**; residential price guide **11-25** (US 210 @ 7.2, prior 34 @ 16.1,
+    still climbing).
+  - *commerical storefront windows* 541 @ 18.1 and *storefront windows* 256 @ 17.3: architectural intent under a
+    glass-contractor pack, rejected for the tenth time.
+- **Two reads closed today, and neither needs a follow-up push:**
+  - **`/thousand-oaks/`** (09-09 links): *window cleaning thousand oaks* on the page **7.7, prior 10.1**, against a
+    predicted "8 or better". Page **5 clicks / 601 @ 5.5 (prior 1 / 596 @ 6.1)**. The title is already an exact match,
+    and we hold #1 in the pack at Thousand Oaks center, so there is nothing cheap left to add.
+  - **Pricing pillar** (09-09 consolidations): page **3 / 224 @ 4.7 (prior 2 / 275 @ 6.1)**. Of the three URLs
+    consolidated that day, the cost post took 1 US impression and the other two took none, so the consolidations held.
+    The only open item was the Ventura row, which is an accuracy fix, now done.
+- **Why consolidate rather than keep:** the 08-28 rule (do not let a new URL split a surface mid-experiment) covers
+  both. The frames post landed on the rows of a Top page whose read runs to 11-16, and the solar post landed on a
+  provider surface already split three ways next to the solar service page's 11-11 read.
+- **Scoreboard:** `technical` is 3-2-10, but every consolidation since 08-26 is still pending and this entry makes a
+  canonical-honoured claim, not a ranking claim. `refresh` (3-0-1) is used only for an accuracy fix with a modest
+  prediction. `internal_links` (5-0-0) has no free target today: every page worth pushing is mid-read. `title_meta`
+  (2-4-4): every CTR outlier is the screens post or the streak cluster, both under review. **`gbp` is 0-0-13 and every
+  grade reads "never appeared in GSC", so there is still no gbp row in the ledger**; the pack items are logged below.
+  `new_content` (1-0-1): the matrix is complete and nothing on the board clears the bar.
+
+**Expected impact (review 2026-12-02, 42 days):**
+- **technical:** Google honours both canonicals. `how-to-clean-window-frames` and `solar-panel-cleaning-pros` each earn
+  **under 10 US impressions** in the 28 days before review. The frame rows (*frame and sill cleaning*, *window frame
+  cleaning*) stay on the sills guide.
+- **refresh (pillar):** no ranking claim. The pillar keeps *window washing cost ventura county* at **4.5 or better**
+  (3.8 today) and holds **150+ US impressions** (224 today) in the 28 days before review.
+
+**Metrics at time of action (US, 2026-09-21..2026-10-18 unless stated):**
+- Brief: 93 clicks / 22,269 impr; non-brand **35 clicks** (prior 22) / 21,574 impr, 1,439 queries, avg pos 9.8 (prior 9.0).
+- `how-to-clean-window-sills-and-tracks` 0 / 559 @ 14.1. `solar-panel-cleaning-service` 0 / 65 @ 18.7. Pillar 3 / 224 @
+  4.7. `how-to-clean-window-frames`, `solar-panel-cleaning-pros`: not yet in GSC (published 10-20 and 10-21).
+- Sitemap 109 -> **107**. Build 124 pages.
+
+**Logged, NOT actioned (for the GBP workstream and future runs):**
+1. **gbp, pack queries (brief):** *window cleaning thousand oaks* 70 @ 3.9, *window cleaning westlake village* 37 @ 1.6,
+   *screen cleaning service* 30 @ 3.3, *window cleaning prices thousand oaks* 26 @ 1.8, *window cleaner westlake village*
+   22 @ 1.8, *window cleaning prices camarillo* 20 @ 4.9. **Geo-grid: in pack at 5 of 6 points (Newbury Park GAINED,
+   ours #1), ABSENT at Camarillo** (Guerrero 14 reviews, AWC 248, Golden Boy's 139). Guerrero is the beatable slot: GBP
+   work on the Camarillo service area and review velocity. `/camarillo/` is under the 09-14 read until 10-26.
+2. **Review count:** the brief's pack read shows **261** reviews; the site shows 258 (set 10-16). Three reviews is still
+   not worth a sitewide schema change; re-read at the next material move.
+3. **Still open since 07-27: the GBP website field is `http://alohawindowbros.com/`.** It should read `https://`. Adam
+   or Sam only.
+4. **New finding: two March county posts are decaying on the county head queries.**
+   `window-washing-ventura-county-why-professional-cleaning-makes-a-difference` 0 / 38 @ 24.3 (prior 72 @ 18.9;
+   *window washing ventura county* 10 @ 13.0, *window washing company ventura county* 8 @ 11.1) and
+   `window-cleaning-ventura-county-what-homeowners-should-know-before-hiring-professionals` 0 / 20 @ 27.2 (prior 44;
+   *window cleaners ventura county* 6 @ 12.0). The homepage holds the same county queries at 1.0 to 3.4. Neither post
+   has ever been audited. Candidate next run: audit both, then decide consolidation onto `/` or treatment, with a join.
+5. **Server blocklist** (ask Adam before editing the VPS service): add `usasuperior.com`, `paintersnorthshore.co.nz`,
+   `homeprosetx.com`, `homeprobadge.com`, plus the 10-19 list (`hibcoroof.com`, `cleanersrated.com`, `gmaids.com`,
+   `sunnydaypro.com`, `fourseasonsroofing.com`, `commercialroofers.net.au`, `wildlifecontrolservicesct.com`,
+   `ambrosesolar.com`).
+6. Carried: the pillar link from the residential price guide after **11-25** (deferred again: that guide is mid-read);
+   the frames reversal decision after **11-16**; the solar cost post's service-page link after 11-11; the *window
+   screen cleaning* split after 10-28; `hiepro.ehawaii.gov` on `how-to-clean-skylights` after 11-13; the UK FWC PDF on
+   `skylight-cleaning-service` after 10-30; older `cdnimg.co` hotlinks; sparkle-glyph heroes (now including
+   `how-to-clean-window-frames`); the LG-02/LG-04 mediums.
+
+**Review after 42 days (2026-12-02).**
+
+---
+
 ### 2026-10-19
 
 **What we did:**

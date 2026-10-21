@@ -210,6 +210,34 @@
 //   has no page on this site (0 bird|pigeon|dropping impressions in 90 days, which is
 //   evidence the topic is new, not that it is duplicated, per the 09-11 lesson). Kept
 //   self-canonical with 3 inbound links.
+//
+// 2026-10-21: TWO more on arrival (US join 2026-07-23..2026-10-18 for 90-day cluster
+// probes, plus page probes over the brief window 2026-09-21..2026-10-18).
+//
+//   /blog/how-to-clean-window-frames/ -> /blog/how-to-clean-window-sills-and-tracks/.
+//   Every frame row on this site is already on the sills guide: `frame and sill cleaning`
+//   75 @ 10.1, `window frame cleaning` 6 @ 18.7, `how to clean window frame` 1 @ 25.0. Five
+//   of the frames post's seven H2s map onto it (tools/cleaners by material, the cleaning
+//   sequence, hard water and salt residue, drainage/weep holes, when to call a pro). The
+//   sills guide (559 @ 14.1, first window) is under its 10-05 review until 11-16, and a
+//   second URL entering its frame rows mid-read destroys the read. This is a protective
+//   call, not a judgment that frames is the same topic: pure frame demand here is only
+//   7 impressions, too thin to say. REVERSAL CONDITION: after 11-16, if the sills guide
+//   is not gaining frame rows, remove this entry and run the frames post as its own
+//   experiment (it has the material-specific and pre-1978 lead content the sills guide
+//   lacks), cross-linked both ways.
+//
+//   /blog/solar-panel-cleaning-pros/ -> /blog/solar-panel-cleaning-service/.
+//   Five of its seven H2s map onto the service guide (why panels lose output, how dirt
+//   affects output, pro vs DIY, what a professional visit involves, making the call); the
+//   other two (cost, hiring) are covered by `solar-panel-cleaning-cost` and the service
+//   guide's site walk-through section. The service guide already holds the provider
+//   rows (`solar panel cleaning service` 18, `solar panel cleaning companies` 5 @ 7.8,
+//   `solar panel cleaning service near me`), a surface already split three ways with
+//   `is-solar-panel-cleaning-worth-it` (27 @ 18.1) and the service page (under review
+//   until 11-11). A fourth URL there helps nobody. REVERSAL CONDITION: if Google declines
+//   the canonical and the pros URL ranks provider queries better than the service guide,
+//   remove this entry and cross-link the two.
 export const CANONICAL_OVERRIDES = {
   'blog/how-to-remove-hard-water-stains-from-windows':
     'https://alohawindowbros.com/blog/how-to-remove-hard-water-spots-from-windows/',
@@ -241,6 +269,10 @@ export const CANONICAL_OVERRIDES = {
     'https://alohawindowbros.com/blog/residential-window-cleaning-prices/',
   'blog/solar-panel-cleaning-california':
     'https://alohawindowbros.com/blog/is-solar-panel-cleaning-worth-it/',
+  'blog/how-to-clean-window-frames':
+    'https://alohawindowbros.com/blog/how-to-clean-window-sills-and-tracks/',
+  'blog/solar-panel-cleaning-pros':
+    'https://alohawindowbros.com/blog/solar-panel-cleaning-service/',
 };
 
 /** Absolute canonical for a built pathname, or null if the page is self-canonical. */

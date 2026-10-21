@@ -28,7 +28,7 @@ Almost every article on this topic quotes a national average and stops there. A 
 | Westlake Village | $175 to $425 | Larger two-story homes with high window counts |
 | Camarillo | $175 to $425 | Agricultural dust, Camrosa water on the harder end |
 | Simi Valley | $175 to $425 | Dry heat bakes dust into glass, little marine moisture to soften it |
-| Ventura | $175 to $425 | Coastal salt plus private wells in older Midtown and east Ventura |
+| Ventura | $175 to $425 | Coastal salt plus city groundwater at [1,200 to 1,600 mg/L dissolved solids](https://www.usbr.gov/drought/docs/2024/DRP-041_City_of_San_Buenaventura_508.pdf) before blending |
 | Oxnard | $175 to $450 | Coastal salt and agricultural dust together |
 | Ojai | $200 to $475 | The hardest water in the county, roughly 17 grains per gallon |
 | Santa Barbara | $200 to $475 | Larger homes, longer drive time, sustained salt exposure |
