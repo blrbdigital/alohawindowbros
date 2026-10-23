@@ -45,12 +45,10 @@ A window can look clean from indoors while its sill holds grit and moisture. Whe
 
 That's why the quote should spell out what the crew will clean. Ask whether screens are removed and washed or just brushed in place, whether tracks and sills are included, and whether the service covers interior glass, exterior glass, or both. These details tell you more than a general label like “window cleaning.”
 
-Professional window-frame cleaning sits within the broader U.S. janitorial-services industry, classified under NAICS 561720. Census-related reporting cited by [janitorial-services industry information](https://www.fairmarketvalue.com/resources/industries/561720/janitorial-services) identified **1,072,010 U.S. nonemployer individual proprietorships in janitorial services in 2023**. That figure covers many kinds of small janitorial businesses, not window-cleaning companies alone, but it shows how important locally operated providers are to the wider service field.
-
 <a id="when-other-exterior-work-makes-sense"></a>
 ### When other exterior work makes sense
 
-A window crew shouldn't use one aggressive method on every exterior surface. Frames, glass, siding, and painted trim each call for appropriate handling. If you're planning broader exterior maintenance, an overview of [pressure washing for home exteriors](https://hayespaintinganddecorating.com/pressure-washing/) can help you consider how that work differs from detailed window-frame cleaning.
+A window crew shouldn't use one aggressive method on every exterior surface. Frames, glass, siding, and painted trim each call for appropriate handling, and pressure washing siding is a different job from detailing a window frame.
 
 The main distinction is simple: pressure washing addresses suitable exterior surfaces, while window detailing requires attention to fragile components and places where water can collect. A professional should explain what's included and identify anything that needs repair or specialist assessment rather than promising that cleaning alone will solve it.
 
@@ -58,8 +56,6 @@ The main distinction is simple: pressure washing addresses suitable exterior sur
 ## The Four-in-One Service Explained
 
 A thorough window visit has several distinct tasks. The glass, frame, track, sill, and screen collect different kinds of soil, so a single rag or spray-and-wipe routine rarely handles them all well.
-
-![A diagram illustrating a professional four-in-one window cleaning service covering glass, frames, tracks, sills, and screens.](https://cdnimg.co/8387fe5a-1497-428d-a3af-57b68fc0bac4/145a9187-b9dc-4c5e-afbc-f55c8da0242f/professional-window-frame-cleaning-window-service.jpg)
 
 <a id="start-with-the-loose-debris"></a>
 ### Start with the loose debris
@@ -71,14 +67,14 @@ Frames need a different touch from glass. A cloth and mild cleaning solution may
 <a id="clean-the-glass-with-water-quality-in-mind"></a>
 ### Clean the glass with water quality in mind
 
-Rinse water can leave mineral marks when it dries. The Glass Association of North America recommends wash and rinse water with **20 parts per million or less of total dissolved solids**, and advises against untreated tap water. It recommends ion exchange and/or reverse-osmosis treatment in its [guidance on cleaning architectural glass](https://www.glass.org/sites/default/files/2023-12/FB01-00_2023_Proper_Procedures_Cleaning_Architectural_Glass_Products.pdf).
+Rinse water can leave mineral marks when it dries. The National Glass Association's technical paper FB01-00 on [cleaning architectural glass](https://www.glass.org/sites/default/files/2023-12/FB01-00_2023_Proper_Procedures_Cleaning_Architectural_Glass_Products.pdf) says wash and rinse water must carry **20 parts per million or less of total dissolved solids**, that "the use of tap water is not acceptable," and that ion exchange and/or reverse-osmosis treatment should be used.
 
 That matters around Ventura and Santa Barbara, where sprinkler overspray or hard water can leave a visible outline on glass and frames. Dissolved minerals such as calcium, magnesium, and silica remain behind when droplets evaporate. A professional can test water at the point of use, clean away existing soil, and finish with a low-TDS rinse. Purified water helps prevent fresh residue, but it won't undo glass that's already been etched by long-standing mineral deposits.
 
 <a id="give-screens-their-own-cleaning"></a>
 ### Give screens their own cleaning
 
-Screens hold dust and pollen in the mesh and along the edges. Spraying a screen while it remains in the window can push dirt through rather than remove it. A more thorough method is to remove the screen, clean both sides with suitable pressure and care, let it dry, and reinstall it without bending the frame. For more detail on what a dedicated [window screen cleaning service](https://alohawindowbros.com/blog/window-screen-cleaning-service/) involves, compare the process with the scope in your quote.
+Screens hold dust and pollen in the mesh and along the edges. Spraying a screen while it remains in the window can push dirt through rather than remove it. A more thorough method is to remove the screen, wash both sides gently, let it dry, and reinstall it without bending the frame. For more detail on what a dedicated [window screen cleaning service](/blog/window-screen-cleaning-service/) involves, compare the process with the scope in your quote.
 
 Done well, this four-in-one approach leaves the window looking finished from both inside and out. The crew should also confirm whether screens and interior glass are included, since providers may define those services differently.
 
@@ -86,8 +82,6 @@ Done well, this four-in-one approach leaves the window looking finished from bot
 ## Professional Service Versus DIY Cleaning
 
 DIY cleaning makes sense for accessible windows in good condition when you have the time, safe footing, and suitable supplies. It becomes a different proposition when you're reaching above a ground-level window, dealing with stubborn track buildup, or handling old paint that may be deteriorating.
-
-![A split image contrasting an amateur woman struggling to clean windows with a professional cleaner using equipment.](https://cdnimg.co/8387fe5a-1497-428d-a3af-57b68fc0bac4/a6470089-ad42-42cb-8f0f-e5fbfd409a83/professional-window-frame-cleaning-window-cleaning.jpg)
 
 A homeowner can use a soft cloth, a mild solution, and a careful hand to clean a sound frame. The trade-off is time: tracks and corners take patience, and a home job often stops once the visible glass looks clear. Professionals bring equipment for different tasks, including purified-water systems for exterior rinsing and tools to clear debris from narrow tracks.
 
@@ -105,7 +99,7 @@ A homeowner can use a soft cloth, a mild solution, and a careful hand to clean a
 <a id="old-paint-needs-a-different-decision"></a>
 ### Old paint needs a different decision
 
-Painted windows in older or historic homes deserve extra caution. Friction can wear painted surfaces and spread dust, particularly around casings and the trough where a window moves. Historic-property guidance identifies painted windows and doors as a lead-safety concern and recommends attention to areas where dust accumulates; see the lead-safety guidance for historic property owners.pdf).
+Painted windows in older or historic homes deserve extra caution. Friction can wear painted surfaces and spread dust, particularly around casings and the trough where a window moves. According to the [EPA](https://www.epa.gov/lead/protect-your-family-sources-lead), approximately three-quarters of U.S. homes built before 1978 still contain some lead-based paint.
 
 Tell the provider in advance if the home is pre-1978 or historic, especially if paint is loose, damaged, or exposed. Don't dry-scrape or use abrasive agitation on an unstable surface. Cleaning isn't lead abatement. If deteriorated paint raises concern, testing or referral to an appropriately qualified lead professional is the safer next step.
 
@@ -116,24 +110,20 @@ Professional work isn't automatically the right choice for every window. But if 
 
 A home near the coast and a home farther inland can need different attention, even when their windows are similar. Along the coast, salt aerosol settles on glass and works into frame edges. Inland, dry-season dust and windblown grit settle on screens, tracks, and sills. In both settings, sprinkler overspray can add mineral spotting.
 
-![An infographic comparing coastal and inland window maintenance, illustrating debris types and different cleaning frequency requirements.](https://cdnimg.co/8387fe5a-1497-428d-a3af-57b68fc0bac4/03e25f5b-b4d2-4c0e-9334-c3625457771c/professional-window-frame-cleaning-window-care.jpg)
+![An infographic comparing coastal and inland window maintenance, illustrating debris types and different cleaning frequency requirements.](/img/blog/professional-window-frame-cleaning-coastal-inland.jpg)
 
 On a coastal property, salt film can make clean glass look hazy again, while deposits along the frame deserve attention before they're mistaken for ordinary dust. The useful maintenance interval depends on how exposed the home is, nearby conditions, and the homeowner's standards. There's no single schedule that fits every address from Ventura to Montecito.
 
-Inland, wind can carry fine dust onto panes and into the tracks. When rain follows a dusty spell, the residue can become more noticeable as it runs down the glass or collects at the sill. Screens may also need attention because dust and pollen cling to the mesh. A provider familiar with the [window-care needs of California homes](https://alohawindowbros.com/blog/ca-window-cleaning/) can help distinguish a coastal salt film from inland windblown grime and adjust the cleaning method accordingly.
+Inland, wind can carry fine dust onto panes and into the tracks. When rain follows a dusty spell, the residue can become more noticeable as it runs down the glass or collects at the sill. Screens may also need attention because dust and pollen cling to the mesh. A provider familiar with the [window-care needs of California homes](/blog/ca-window-cleaning/) can help distinguish a coastal salt film from inland windblown grime and adjust the cleaning method accordingly.
 
 <a id="watch-for-signs-that-cleaning-wont-fix"></a>
 ### Watch for signs that cleaning won't fix
 
-A recurring black mark or damp patch deserves more attention than a one-time surface stain. Building-science research links surface condensation with mold growth and deterioration of wood frames, as well as corrosion or weakening of aluminum frames. The [research on condensation and window-frame impacts](https://www.mdpi.com/2075-5309/15/12/2126/pdf) helps explain why repeated staining can point to a moisture condition rather than a cleaning shortfall.
+A recurring black mark or damp patch deserves more attention than a one-time surface stain. A 2025 study in *Buildings* that modeled window frames in humid Valdivia, Chile treats interior surface condensation as a durability and indoor-air-quality problem, and found the risk climbs with indoor humidity: at 50% relative humidity, a modified timber frame reached condensation conditions on **167 days a year against 100** for an aluminum frame ([Verichev et al., *Buildings*](https://www.mdpi.com/2075-5309/15/12/2126)). Repeated staining in the same spot usually points to a moisture condition rather than a cleaning shortfall.
 
 Look at the sill slope, weep holes, seals, and the pattern of condensation. Note whether the wet area appears on the room side, the exterior, or both. A cleaner can document what's visible, but shouldn't promise that washing permanently removes mold when the underlying moisture remains.
 
-EPA guidance recommends drying wet areas within **24 to 48 hours** and keeping indoor relative humidity **below 60%, ideally 30 to 50%**, to inhibit mold growth. If staining returns, consider whether ventilation, indoor humidity, a failed seal, or drainage may be involved. Depending on the signs, the right referral may be to an HVAC contractor, glazier, waterproofing professional, or mold-remediation specialist.
-
-Here's a short video to help you think about window care in relation to local conditions:
-
-
+The [EPA's guide to mold and moisture](https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home) recommends drying wet areas within **24 to 48 hours** and keeping indoor relative humidity **below 60%, ideally 30 to 50%**, to inhibit mold growth. If staining returns, consider whether ventilation, indoor humidity, a failed seal, or drainage may be involved. Depending on the signs, the right referral may be to an HVAC contractor, glazier, waterproofing professional, or mold-remediation specialist.
 
 <a id="what-professional-window-frame-cleaning-costs"></a>
 ## What Professional Window Frame Cleaning Costs
@@ -143,16 +133,18 @@ Salt buildup on a coastal home and windblown dust inland can change how much lab
 <a id="ask-for-a-scoped-estimate"></a>
 ### Ask for a scoped estimate
 
-An on-site assessment can help when windows are hard to reach, tracks have heavy buildup, frames are delicate, or access is uncertain. A virtual estimate may suit a straightforward job if the provider gets enough detail about the home and requested work. Ask whether the estimate is free and whether the company will get approval before adding work.
+An on-site assessment matters most when windows are hard to reach, tracks have heavy buildup, frames are delicate, or access is uncertain. Aloha Window Bros quotes every job on site, for free. Whoever you hire, ask whether the estimate is free and whether the company will get approval before adding work.
 
-Residential price information puts typical jobs at **$150 to $400**, with full cleans in Santa Barbara commonly **$200 to $475**. These figures are starting points, not guaranteed quotes. The final price depends on the property and scope.
+Aloha Window Bros publishes its own bands for a full four-in-one clean (glass, screens, frames, and sills), and they vary by city. These are starting points, not guaranteed quotes; the final price depends on the property and scope.
 
-| Service type | Price range |
+| City | Full residential clean |
 |---|---:|
-| Typical residential window cleaning | $150 to $400 |
-| Full clean in Santa Barbara | $200 to $475 |
+| Thousand Oaks | $150 to $400 |
+| Agoura Hills, Newbury Park, Westlake Village, Camarillo, Simi Valley, Ventura | $175 to $425 |
+| Oxnard | $175 to $450 |
+| Ojai, Santa Barbara | $200 to $475 |
 
-A [residential window cleaning price guide](https://alohawindowbros.com/blog/residential-window-cleaning-prices/) can help you prepare questions. Ask the company to specify whether frames, tracks, sills, screens, and interior glass are included or priced separately.
+The reasons behind each band are in our [Ventura County window cleaning price guide](/blog/how-much-does-window-cleaning-cost-in-ventura-county/), and the [residential window cleaning price guide](/blog/residential-window-cleaning-prices/) covers national benchmarks. Ask the company to specify whether frames, tracks, sills, screens, and interior glass are included or priced separately.
 
 <a id="dont-pay-for-ambiguity"></a>
 ### Don't pay for ambiguity
@@ -173,14 +165,14 @@ The visit usually follows the same sequence. First comes the condition check: cr
 
 Then the work itself. The team protects nearby surfaces, removes screens for washing, clears debris from tracks, details frames and sills, and cleans the glass with suitable tools and water. A purified-water system earns its keep on exterior glass, and pressurized screen-cleaning equipment pulls dirt and pollen out of mesh when used appropriately.
 
-Safety planning deserves a straight answer. Window work can involve ladders, powered equipment, suspended platforms, or rope-descent systems. OSHA's records trace the guidance from the adoption of ANSI/ASME 39.1-1987 through later federal guidance on descent-control devices and the **November 2016** Walking-Working Surfaces and Personal Fall Protection Systems rule. For rope-descent work, building owners must supply written confirmation that anchorages have been identified, tested, certified, and maintained to support **5,000 pounds in any direction for each attached worker**. The [OSHA interpretation and related safety history](https://www.osha.gov/laws-regs/standardinterpretations/1987-11-02-1) shows why a provider should discuss training, equipment, and access plainly instead of treating speed as the measure of a job.
+Safety planning deserves a straight answer. Window work can involve ladders, powered equipment, suspended platforms, or rope-descent systems. For rope-descent work on commercial buildings, [OSHA 29 CFR 1910.27](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.27) requires the building owner to tell the employer in writing that each anchorage has been identified, tested, certified, and maintained to support at least **5,000 pounds in any direction for each employee attached**. A provider should discuss training, equipment, and access plainly instead of treating speed as the measure of a job.
 
 <a id="finish-with-a-walk-through"></a>
 ### Finish with a walk-through
 
 Stay for the closeout. Check the glass from the angles where morning light exposes streaks, then look over a sample of frames, tracks, and screens. Point out misses while the team is still on site. Ask whether any remaining marks are removable soil, mineral etching, or a condition that needs separate assessment, since sprinkler spotting along hard-water lines often outlasts a standard wash.
 
-Insurance and property protection come up here too. A professional provider can explain its scope, its access plan, and what its satisfaction policy covers. For shared properties, boards balancing window work against other building needs can adapt the [COA board maintenance budgeting tips](https://accessmgt.com/condo-maintenance-services/) to schedule recurring exterior care, while the window contractor documents its own scope, insurance, and safety approach.
+Insurance and property protection come up here too. A professional provider can explain its scope, its access plan, and what its satisfaction policy covers. For shared properties, HOA boards can ask the window contractor to put its scope, insurance, and safety approach in writing before recurring exterior care is scheduled.
 
 <a id="making-the-right-choice-for-your-windows"></a>
 ## Making the Right Choice for Your Windows
@@ -198,10 +190,10 @@ A local provider should understand that a coastal home may need a different appr
 - **Disclose older paint:** Mention pre-1978 or historic construction and any peeling or damaged paint before anyone starts brushing or washing.
 - **Request a clear estimate:** Ask what's included, how the price may change if the scope changes, and whether the provider is insured.
 
-If a frame continues to stain after cleaning, ask what should be checked before another visit. Window repair guidance, such as these [Houston window repair tips](https://h-towneremodelers.com/window-repair-houston-texas/), can also help homeowners recognize when a maintenance issue may need repair rather than another cleaning.
+If a frame continues to stain after cleaning, ask what should be checked before another visit, since a failed seal or poor drainage needs repair rather than another cleaning.
 
 A clean window should look better, but a good service visit should also leave you with a clearer understanding of the frames' condition. Choose a provider that explains its methods, respects the difference between cleaning and remediation, and offers a scope suited to your property.
 
 ---
 
-If salt film, inland dust, or dirty tracks are dulling your windows, request a free on-site estimate from [Aloha Window Bros](https://alohawindowbros.com), serving Ventura County and Santa Barbara County with insured window, screen, frame, and sill cleaning. Ask for a clear scope that fits your home and the conditions your windows face.
+If salt film, inland dust, or dirty tracks are dulling your windows, [book a free on-site quote with Aloha Window Bros](/contact/), serving Ventura County and Santa Barbara County with insured window, screen, frame, and sill cleaning. We walk the property with you before we leave, and if anything doesn't look right, we redo it on the spot.

@@ -1,3 +1,45 @@
+## 2026-10-23 - Nineteenth publisher audit: frame-service and solar efficiency posts consolidated on arrival and corrected, streak method page re-consolidated at its review date
+
+**technical: two Outrank arrivals consolidated on arrival** (`src/lib/consolidated.mjs`, reasoning and reversal
+conditions in the comment block):
+- `/blog/professional-window-frame-cleaning/` -> `/blog/how-to-clean-window-sills-and-tracks/`. The second frame URL in
+  three days. Every frame query on the site already ranks on the sills guide (*frame and sill cleaning* 81 @ 10.1 US,
+  90 days), and the sills guide is under review until 11-16. Decide it together with the 10-20 frames post after that.
+- `/blog/solar-panel-cleaning-efficiency/` -> `/blog/is-solar-panel-cleaning-worth-it/`. Six of seven H2s map onto the
+  worth-it guide, and a 90-day US probe finds zero efficiency queries. Second "does cleaning pay back" solar post in five
+  days.
+
+**technical: `/blog/how-to-get-streak-free-windows/` re-consolidated onto `/blog/best-streak-free-window-cleaner/`** at the
+09-11 reversal's own review date. The reversal predicted 500+ impressions at position 4 to 7; the page took 3 US
+impressions (61 worldwide, prior 1,961), because the September "surge" was non-US desktop traffic (found 10-02). US method
+queries rank on the roundup instead (*streak-free window cleaning* 154 @ 11.6, *streak free window cleaning* 79 @ 11.0).
+
+Sitemap 109 -> 106 URLs. Verified in `dist/` for all three: canonical and `mainEntityOfPage` point at the winner, the
+winner is self-canonical, loser absent from the sitemap, winner present. Build 126 pages.
+
+**Both arrivals stay live and were corrected:**
+- Frames: "Glass Association of North America" corrected to the National Glass Association (FB01-00 publisher) and
+  quoted as written. OSHA's 1987 interpretation was cited for the 2016 rule and the 5,000 lb anchorage; now cited to
+  29 CFR 1910.27. A frame-condensation paper now says what it found (167 vs 100 condensation days at 50% RH, timber vs
+  aluminum, Valdivia, Chile). A broken lead-safety link replaced with the live EPA figure (three-quarters of pre-1978
+  homes). EPA mold guidance linked. The `$150 to $400` general band replaced with our published city bands in a table,
+  linked to the pricing pillar. An off-topic janitorial NAICS statistic deleted. Screen method aligned with our
+  remove-wash-dry-reinstall service.
+- Solar: IEA figures re-pointed to the T13-21 executive summary that contains them. The UAE study's "2.3% weekly vs
+  monthly" and "full year 13.1%" are not in it (a 3.5-month experiment); deleted and the study described accurately.
+  The unverifiable NREL 13.4/14.6/12.9/8.1 table (removed 10-21 from another post) replaced with the Muller et al. poster's
+  own text and a four-row evidence table with a source per row. "Restores 90 to 95% of the lost power" corrected to "of
+  power output", per the review. Window price bands presented as solar prices removed; points to the solar cost guide.
+- Both: homepage CTAs now point at `/contact/`, absolute self-links made relative, empty video lines removed, "virtual
+  estimate" claims replaced with the free on-site quote and walk-through promise. Removed sources: `fairmarketvalue.com`,
+  `hayespaintinganddecorating.com`, `accessmgt.com`, `h-towneremodelers.com`.
+- Images: 1 localized (`professional-window-frame-cleaning-coastal-inland.jpg`), 5 deleted (sparkle glyphs, a person on a
+  step stool, an em dash, invented per-visit solar prices, a fabricated technician). The frames hero has five sparkle
+  glyphs and is logged, not replaced.
+
+No title_meta, no new content, no GBP change, and no edit to any page under review. `legal-guard scan`: no new findings
+(the LG-02/LG-04 mediums are carried).
+
 ## 2026-10-21 - Eighteenth publisher audit: window frames and solar pros posts consolidated on arrival and corrected, pricing pillar Ventura row fixed, no ranking action
 
 **technical: two Outrank arrivals consolidated on arrival** (`src/lib/consolidated.mjs`, reasoning and reversal

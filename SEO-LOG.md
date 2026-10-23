@@ -4,6 +4,106 @@
 
 ---
 
+### 2026-10-23
+
+**What we did:**
+- **technical (primary): nineteenth publisher audit. Both Outrank arrivals since 10-21 were consolidated on arrival and
+  corrected.**
+  - `professional-window-frame-cleaning` (10-22) -> canonical to `how-to-clean-window-sills-and-tracks`. The second frame
+    URL in three days. A 90-day US probe puts every frame row on the sills guide: *frame and sill cleaning* **81 @ 10.1**,
+    *window frame cleaning* 6 @ 18.7, *how to clean window frame* 1 @ 25.0. Its H2s map onto the sills guide plus
+    `window-track-cleaning-service` (scope, visit, price). The sills guide (US **652 @ 13.2** in the brief window, a Top
+    page) is under review until **11-16**; this joins the 10-20 frames post in that decision.
+  - `solar-panel-cleaning-efficiency` (10-23) -> canonical to `is-solar-panel-cleaning-worth-it`. Six of seven H2s map. A
+    90-day US probe for `efficien|output|production|kwh|pay off|worth` returns **zero efficiency rows**; the worth-it guide
+    holds *is solar panel cleaning worth it* 25 @ 9.2. Second "does it pay back" solar post consolidated there in five days.
+  - Both stay live, so both were corrected. **Frames:** FB01-00 credited to the National Glass Association (the post said
+    "Glass Association of North America") and quoted as written; OSHA's 1987 letter was cited for the 2016 rule and the
+    5,000 lb anchorage, now cited to 29 CFR 1910.27; a Chilean frame-condensation paper now says what it found; a broken
+    lead-safety link replaced with the live EPA figure; EPA mold guidance linked; `$150 to $400` (fourteenth appearance)
+    replaced with our city bands in a table. **Solar:** IEA figures re-pointed to the T13-21 executive summary; the UAE
+    study's "2.3%" and "full year 13.1%" are not in it (a 3.5-month experiment) and were deleted; the NREL 13.4/14.6/12.9/
+    8.1 table, the same unverifiable slide figures removed on 10-21, replaced with the poster's own text and a four-row
+    evidence table; window bands presented as solar prices removed. **Both:** CTAs moved to `/contact/`, self-links made
+    relative, empty video lines deleted, "virtual estimate" removed, four off-topic sources removed. Of 6 hotlinked images,
+    1 localized and 5 deleted. Detail in the site map, NINETEENTH AUDIT.
+- **technical (secondary): graded the 09-11 streak reversal at its review date and re-consolidated
+  `how-to-get-streak-free-windows` onto `best-streak-free-window-cleaner`.**
+- **No title_meta, no new content, no GBP change, no internal-link push, and no edit to any page under review.**
+
+**Why we did it (brief window 2026-09-23..2026-10-20, US only, plus US page probes and two cluster probes today):**
+- **The streak reversal failed on its own terms, and the original rule now holds on human data.** It predicted 500+
+  impressions at 4 to 7 on *how to clean windows streak free*. The page took **3 US impressions** (61 worldwide, prior
+  **1,961**). The 10-02 finding already explained why: the surge it was argued from was desktop traffic from 97 countries,
+  0% US, ending 09-16. Its written condition ("below 200: the 08-31 call was right on a longer horizon") is met. And the
+  US method rows rank on the roundup, not the method page: *streak-free window cleaning* **154 @ 11.6**, *streak free
+  window cleaning* **79 @ 11.0**, *no streak window cleaning* 14 @ 12.6. Google picks the roundup for method intent.
+- **The roundup itself is now free of the 10-23 lock, but nothing was done to it today.** US page **16 clicks / 5,229 @
+  8.8** (prior 16 / 4,578 @ 7.9): the site's top non-brand click page, about 44% of the brief's 36 non-brand clicks. Slips
+  in the brief: *streak free window cleaner* 952 @ 8.1 (prior 6.3), *best no streak window cleaner* 592 @ 4.4 (prior
+  1.6). New: *best window cleaner* 378 @ 17.7 (from 2). The live SERP shows an AI Overview on every streak query, and this
+  page's US rows now arrive as section anchors (`#why-windows-streak...`, `#3-sprayway...`), the citation pattern. A title
+  change on the page earning the clicks needs its own decision, not an add-on to an audit day (see logged item 3).
+- **Every other row the brief ranks is mid-read:** screens cluster (*how to clean window screens* 2,271 @ 10.2, *how to
+  clean a window screen?* 1,108 @ 6.0, *without removing them* 592 @ 6.2, *window screen cleaning* 443 @ 10.5) closes
+  **10-28**; `/camarillo/` `/agoura/` `/newbury/` **10-26**; skylight service **10-30** (*skylight cleaning* 244 @ 11.7,
+  prior 20.8); solar roof **11-11**; skylight how-to **11-13**; sills **11-16**; business guide **11-23** (*how to start a
+  window cleaning business* 152 @ 9.3, prior 28.3); residential price guide **11-25** (266 @ 6.8). *commerical storefront
+  windows* 580 @ 17.8 and *storefront windows* 279 @ 16.8: architectural intent under a glass-contractor pack
+  (Westoaks, Oakstone, The Window Factory), rejected for the eleventh time.
+- **Why consolidate rather than keep:** the 08-28 rule (a new URL must not split a surface mid-experiment) covers the
+  frame post. The efficiency post enters a surface with no efficiency demand at all, next to the solar service read
+  (11-11). Neither adds information the canonical targets lack that their sources support.
+- **Scoreboard:** `technical` is 3-2-10, but these are canonical-honoured claims, not ranking claims, and every
+  consolidation since 08-26 is still pending. `refresh` (3-0-1) and `internal_links` (5-0-0): every page worth pushing is
+  mid-read. `title_meta` (2-4-4): the only unlocked CTR target is the roundup, see above. **`gbp` is 0-0-13 and every grade
+  reads "never appeared in GSC", so there is still no gbp row in the ledger**; pack items are logged below. `new_content`
+  (1-0-1): the matrix is complete and nothing on the board clears the bar.
+
+**Expected impact (review 2026-12-04, 42 days):**
+- **technical (arrivals):** Google honours both canonicals. `professional-window-frame-cleaning` and
+  `solar-panel-cleaning-efficiency` each earn **under 10 US impressions** in the 28 days before review, and the frame rows
+  (*frame and sill cleaning*, *window frame cleaning*) stay on the sills guide.
+- **technical (streak):** `how-to-get-streak-free-windows` earns **under 10 US impressions**, and the roundup keeps the
+  method rows: *streak-free window cleaning* plus *streak free window cleaning* hold **150+ US impressions combined at
+  position 12.0 or better** (233 @ about 11.4 today).
+
+**Metrics at time of action (US, 2026-09-23..2026-10-20 unless stated):**
+- Brief: 91 clicks / 20,507 impr; non-brand **36 clicks** (prior 22) / 19,792 impr, 1,469 queries, avg pos 9.7 (prior 9.1).
+- `how-to-clean-window-sills-and-tracks` 0 / 652 @ 13.2. `is-solar-panel-cleaning-worth-it` 0 / 71 @ 13.9.
+  `best-streak-free-window-cleaner` 16 / 5,229 @ 8.8. `how-to-get-streak-free-windows` 0 / 3 @ 17.7.
+  `professional-window-frame-cleaning`, `solar-panel-cleaning-efficiency`: not yet in GSC (published 10-22 and 10-23).
+- Sitemap 109 -> **106**. Build 126 pages.
+
+**Logged, NOT actioned (for the GBP workstream and future runs):**
+1. **gbp, pack queries (brief):** *window cleaning thousand oaks* 66 @ 3.6, *window cleaning westlake village* 36 @ 1.6,
+   *screen cleaning service* 28 @ 3.3, *window cleaning prices thousand oaks* 26 @ 1.8, *window cleaner westlake village*
+   22 @ 1.8, *window cleaning prices camarillo* 20 @ 4.9. **Geo-grid: in pack at 5 of 6 points, ABSENT at Camarillo**
+   (AWC 248 reviews, Guerrero 14, Golden Boy's 139). Guerrero is the beatable slot: Camarillo service area and review
+   velocity. `/camarillo/` is under the 09-14 read until 10-26.
+2. **Review count:** the brief reads **261**, the site shows 258 (set 10-16). Still not worth a sitewide schema change.
+3. **Next-run candidate, the roundup (`best-streak-free-window-cleaner`):** now unlocked. Measure before touching: a US
+   query x page x date pull for *best no streak window cleaner* and *streak free window cleaner* to see whether the slip is
+   a step (an update or an AI Overview change) or a drift, and whether *best window cleaner* (378 @ 17.7) is US product
+   intent. Only then weigh a title test, and only with the 09-07 AI Overview caveat in the prediction. The 10-02
+   table-fix hold (60 page-level clicks per 28 days) runs to 11-13 and makes no ranking claim.
+4. **New: `is-solar-panel-cleaning-worth-it` now carries two consolidations and has its own backlog:** 0 FAQ items (no
+   FAQPage node), 4 `cdnimg.co` hotlinks, `pvgis.com` cited 4 times (a commercial site, not the EU JRC PVGIS tool), and
+   first-person voice. The verified material from the efficiency post (*Discover Sustainability* review, Micheli et al.,
+   the UAE interval study, the NREL poster) is the obvious source for a refresh. Not done today: 71 US impressions, and a
+   half-fix would leave the hotlinks and the pvgis citations in place.
+5. **Still open since 07-27: the GBP website field is `http://alohawindowbros.com/`.** It should read `https://`. Adam or
+   Sam only.
+6. **Server blocklist** (ask Adam before editing the VPS service): the 10-19 and 10-21 lists, unchanged.
+7. Carried: the two March county posts (audit, then decide consolidation onto `/`); the frames reversal decision after
+   **11-16** (now covering both frame posts); the pillar link from the residential price guide after 11-25; the solar
+   cost post's service-page link after 11-11; the *window screen cleaning* split after 10-28; sparkle-glyph heroes (now
+   including `professional-window-frame-cleaning`, five glyphs); the LG-02/LG-04 mediums.
+
+**Review after 42 days (2026-12-04).**
+
+---
+
 ### 2026-10-21
 
 **What we did:**

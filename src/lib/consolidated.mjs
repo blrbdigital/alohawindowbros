@@ -238,6 +238,43 @@
 //   until 11-11). A fourth URL there helps nobody. REVERSAL CONDITION: if Google declines
 //   the canonical and the pros URL ranks provider queries better than the service guide,
 //   remove this entry and cross-link the two.
+//
+// 2026-10-23: THREE MORE. Two Outrank arrivals consolidated on arrival under the 08-28
+// rule, plus the 09-11 reversal graded at its own review date and re-consolidated.
+//
+//   /blog/professional-window-frame-cleaning/ -> /blog/how-to-clean-window-sills-and-tracks/.
+//   The SECOND frame URL in three days (after how-to-clean-window-frames, 10-20). A 90-day
+//   US probe (07-23..10-20) puts every frame row on the site on the sills guide already:
+//   `frame and sill cleaning` 81 @ 10.1, `window frame cleaning` 6 @ 18.7, `how to clean
+//   window frame` 1 @ 25.0. Its seven H2s map onto the sills guide (debris-first workflow,
+//   material care, mold and moisture, when to call a pro) and onto window-track-cleaning-
+//   service (scope, visit, price), which is linked from the sills guide. The sills read
+//   runs to 11-16. REVERSAL CONDITION: decide together with the 10-20 frames post after
+//   11-16; if frames is un-consolidated as its own experiment, this service-intent page
+//   should point at that frames post or stay here, never become a third live frame URL.
+//
+//   /blog/solar-panel-cleaning-efficiency/ -> /blog/is-solar-panel-cleaning-worth-it/.
+//   The second "does cleaning pay back" solar post in five days (after
+//   solar-panel-cleaning-california, 10-19). Six of its seven H2s map onto the worth-it
+//   guide (why it matters, how soiling cuts output, what cleaning recovers, coast vs inland
+//   intervals, choosing an approach, measuring the gain). A 90-day US probe for
+//   `efficien|output|production|kwh|pay off|worth` returns ZERO efficiency rows; the
+//   worth-it guide holds `is solar panel cleaning worth it` 25 @ 9.2. REVERSAL CONDITION:
+//   if Google declines the canonical and the efficiency URL ranks queries the worth-it
+//   guide does not, remove this entry and cross-link the two.
+//
+//   /blog/how-to-get-streak-free-windows/ -> /blog/best-streak-free-window-cleaner/,
+//   RE-CONSOLIDATED at the 09-11 reversal's own review date. The reversal predicted 500+
+//   impressions at position 4 to 7 on `how to clean windows streak free`; the page took
+//   3 US impressions (09-23..10-20), 61 worldwide, against 1,961 in the prior window. The
+//   10-02 finding explains why: the "surge" was desktop traffic from 97 countries, 0% US,
+//   that stopped on 09-16. The 09-11 entry set its own condition ("below 200 impressions:
+//   the 08-31 call was right on a longer horizon") and it is met. The ORIGINAL rule is met
+//   too, with human data this time: the US method rows sit on the roundup
+//   (`streak-free window cleaning` 154 @ 11.6, `streak free window cleaning` 79 @ 11.0,
+//   `no streak window cleaning` 14 @ 12.6) and on the method page not at all. Google picks
+//   the roundup for method intent, so the method page's links and content point there.
+//   REVERSAL CONDITION: only on a US join showing method rows ranking on this URL.
 export const CANONICAL_OVERRIDES = {
   'blog/how-to-remove-hard-water-stains-from-windows':
     'https://alohawindowbros.com/blog/how-to-remove-hard-water-spots-from-windows/',
@@ -273,6 +310,12 @@ export const CANONICAL_OVERRIDES = {
     'https://alohawindowbros.com/blog/how-to-clean-window-sills-and-tracks/',
   'blog/solar-panel-cleaning-pros':
     'https://alohawindowbros.com/blog/solar-panel-cleaning-service/',
+  'blog/professional-window-frame-cleaning':
+    'https://alohawindowbros.com/blog/how-to-clean-window-sills-and-tracks/',
+  'blog/solar-panel-cleaning-efficiency':
+    'https://alohawindowbros.com/blog/is-solar-panel-cleaning-worth-it/',
+  'blog/how-to-get-streak-free-windows':
+    'https://alohawindowbros.com/blog/best-streak-free-window-cleaner/',
 };
 
 /** Absolute canonical for a built pathname, or null if the page is self-canonical. */
