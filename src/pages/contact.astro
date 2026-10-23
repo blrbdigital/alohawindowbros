@@ -322,6 +322,9 @@ const SERVICES = [
         if (typeof gtag === 'function') {
           // @ts-ignore
           gtag('event', 'form_submit', { event_category: 'conversion', event_label: 'inquiry_form' });
+          // Google Ads "Contact" conversion. No thank-you page, so it fires on successful submit.
+          // @ts-ignore
+          gtag('event', 'conversion', { send_to: 'AW-18533684280/p5QACKCUt6cdELioxoVF' });
         }
       } else {
         status.classList.add('err');
