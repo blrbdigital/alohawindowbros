@@ -5,19 +5,31 @@ Prepared 2026-10-24. Requested outcome: linked to Google Ads **469-016-4215**, l
 ## Current status
 
 - [x] Research and prefill completed from the live site, repository, supplied account context, and current Google help pages.
-- [ ] Exact category and postcode eligibility confirmed in Google's setup flow.
-- [ ] Existing Google Ads account selected and linkage verified.
+- [x] Window cleaning eligibility for California, ZIP 91362 accepted by the manual setup flow. Other service-area selections remain pending.
+- [x] Existing Google Ads account 469-016-4215 verified in the account chooser and opened read-only.
+- [ ] LSA linkage to 469-016-4215 verified. Blocked by routing to another, cancelled account.
 - [ ] LSA profile created.
 - [ ] Lowest accepted weekly budget saved and recorded.
 - [ ] Paused/not-live status verified with screenshot.
 - [ ] Terms accepted by Adam through the requested approval card.
 - [ ] Client verification materials supplied and required checks completed.
 
-**Current stop point: Google password challenge in isolated agent desk `gads`.** At Adam's 13:24 instruction, the idle watcher was stopped and setup moved off the Mini's screen to container Chromium at CDP `http://127.0.0.1:9335`. No main Chrome cookies or profiles were copied. Entered `blrbdigital@gmail.com` and clicked Next. Google displayed its password page at `https://accounts.google.com`, with exactly one visible `input[type="password"]`. No password was read, typed or submitted. Evidence: `desk-gads-after-email.png` in the evidence directory below.
+**Current stop point: LSA Business details is bound to the wrong customer ID.** Adam completed Google sign-in and 2FA himself in isolated desk `gads`. The read-only watcher observed departure from `accounts.google.com` at 13:46:34 EDT and stopped. The signed-in Google account is `blrbdigital@gmail.com`.
 
-**SECRET NEEDED: https://accounts.google.com (password, desk gads).** Leave this tab open. Once Adam supplies a session-bound secret card, use `secret-fill --card <id> --desk gads --selector 'input[type="password"]' --submit`. Do not inspect the password value. Stop for any Google 2FA prompt, insecure-browser block, terms acceptance, or client/staff invitation. LSA profile creation, account linkage and budget remain pending sign-in.
+The Google Ads account chooser lists **Aloha. WindowBros, 469-016-4215**, plus **Google Ads account, 565-382-4300, Cancelled**. Opening Aloha's account confirms it is accessible. However, the LSA signup and inbox both route to a Business details form whose menu explicitly says **Your customer ID: 5653824300**. No account-switch control was present in that setup drawer. Do not reactivate or populate this cancelled account as a substitute for the requested account.
 
-Earlier screen preflight never reached 180 seconds idle. A 30-second watcher started at 13:23 and was stopped when Adam authorized the isolated desk. Main Chrome was not driven.
+**HUB: BLOCKED account routing.** Resolve the LSA association with 469-016-4215 before saving Aloha's details. No Aloha business fields were entered or saved, no budget was configured, and no LSA ad was launched. The blank onboarding shell under 565-382-4300 is not a completed Aloha LSA profile. Its prior existence versus creation by Google's eligibility flow is not established. No cancellation/reactivation action was taken.
+
+### What the authenticated setup established
+
+- Selecting the existing **Aloha Window Bros** GBP and clicking Next returned **Not eligible for sign up.** Google did not explain why. The GBP was not linked.
+- Google's visible **Skip Business Profile** option led to its manual eligibility checker, which explicitly permits connecting an existing GBP later.
+- Entered United States, California, **91362**, **Window cleaning**, then clicked **Check Eligibility**. Google advanced to Business details. This confirms the category/ZIP combination proceeds; it does not verify the GBP or all target cities.
+- The Business details form asks for business name, optional registration name, phone, optional website, owner first/last name, total fieldworkers, year founded, address, and customer-visit status. Email and text lead preferences defaulted to selected. None of these business fields or preferences was submitted.
+- No Terms acceptance or invitation step was reached. No agreement was accepted and no client/staff notification or background-check invite was initiated. Generic footer Policies & Terms is not the agreement needed for Adam's consent card.
+- Aloha's existing Google Ads overview already shows the Search campaign **AWB | Search | Window + Gutter** with an Enabled ad. It was inspected read-only and left unchanged. This is separate from the unlaunched LSA setup.
+
+Screenshots and exact stop-state URL are in the evidence directory below. The LSA page remains open in desk `gads`. Agent work used CDP only; main Chrome was not driven and no Chrome cookies/profile were copied. The earlier idle watcher is stopped. The fresh secret card was not used because Adam completed sign-in himself.
 
 ## Eligibility and badge
 
@@ -25,7 +37,7 @@ Google's current badge is **Google Verified**, replacing the old Google Screened
 
 | Actual Aloha service | LSA category and proposed selection | Availability and badge |
 | --- | --- | --- |
-| Residential and commercial window washing, interior/exterior, frames/sills, skylights | Window cleaning; select matching window and skylight job types offered by the wizard | Google lists window cleaning in the US. Google Verified after required verification. Exact 91362 and target-city eligibility remains to be checked. |
+| Residential and commercial window washing, interior/exterior, frames/sills, skylights | Window cleaning; select matching window and skylight job types offered by the wizard | Google lists window cleaning in the US. Google Verified after required verification. Manual eligibility for California 91362 advanced to Business details on 2026-10-24. Target-city coverage and GBP affiliation remain pending. |
 | Gutter and downspout cleaning | Gutter cleaning within Window cleaning | Google's window-cleaning category explicitly includes gutters. Same Google Verified badge and category requirements. |
 | Screen cleaning | Window cleaning, if the wizard offers a matching job type | Aloha sells it. A separate screen-cleaning LSA category is not established by the cited Google list. Do not select screen repair or installation. |
 | Solar panel cleaning | Select only if a matching cleaning job type is offered | Aloha sells cleaning. Google's list includes Solar energy contractor, which does not establish eligibility for cleaning-only work. Do not select installation or electrical services. |
@@ -33,7 +45,7 @@ Google's current badge is **Google Verified**, replacing the old Google Screened
 
 Sources: [Google supported categories and eligibility checker](https://support.google.com/localservices/answer/6224841?hl=en), [Google US category requirements, Window cleaning](https://support.google.com/localservices/answer/12174778?hl=en), [Aloha window washing](https://alohawindowbros.com/services/window-washing/), [gutters](https://alohawindowbros.com/services/gutter-cleaning/), [screens](https://alohawindowbros.com/services/screen-cleaning/), [solar panels](https://alohawindowbros.com/services/solar-panel-cleaning/). Historical pressure-washing evidence: `.claude-site-map.md`, service-gap note.
 
-Google directs businesses to its eligibility checker for geographic confirmation. A national category listing is not a confirmed eligible result for Ventura County or Santa Barbara County. Starting postcode: **91362**. [Eligibility checker](https://ads.google.com/localservices/signup/eligibility)
+Google directs businesses to its eligibility checker for geographic confirmation. The authenticated checker accepted **Window cleaning / California / 91362** and advanced to Business details. This is not confirmation of every target ZIP in Ventura County or Santa Barbara County. [Eligibility checker](https://ads.google.com/localservices/signup/eligibility)
 
 ## Prefilled business details
 
@@ -46,13 +58,13 @@ Google directs businesses to its eligibility checker for geographic confirmation
 | Phone | +1 805-341-4121 | Live site; leads-pipeline memory identifies it as Ely's cell and business line. |
 | Business email | alohawindowbros@gmail.com | Live site and leads-pipeline memory. Entering this is not authorization to send invitations. |
 | Website | https://alohawindowbros.com/ | Live site |
-| Google Business Profile | https://maps.google.com/?cid=4483745950804238350 | Live site `sameAs` and hero link. Raw Maps fetch returned a JS shell, so GBP contents and current verification/access status remain unverified. |
+| Google Business Profile | https://maps.google.com/?cid=4483745950804238350 | Live site `sameAs` and hero link. Raw Maps fetch returned a JS shell. The signed-in LSA selector lists Aloha Window Bros, but selecting it returns Not eligible for sign up. GBP verification and successful affiliation remain unresolved. |
 | Hours | Open 24 hours, Monday through Sunday | Live site JSON-LD; repository says this mirrored owner-set GBP hours verified 2026-08-05. Confirm current GBP before saving. Business hours do not establish a 24-hour staffed ad schedule. |
 | Years in business | Candidate: 2 completed years as of 2026-10-24, based on 2024-10-05 start date. Do not submit without client or GBP confirmation. | BBB gives Business Started 10/5/2024. Its displayed rounded years count is stale. No primary founding-date evidence found. |
 | Owner/contact | Ely Sirota-Foster is a candidate contact, not a verified ownership roster. | BBB names him Co-CEO; leads-pipeline memory names Ely. Client must confirm legal owners and authority. |
-| Existing Google Ads ID | 469-016-4215 | Explicit task instruction and 2026-10-23 account-setup memory. Must verify in UI. |
+| Existing Google Ads ID | 469-016-4215 | Verified in Google Ads account chooser and opened on 2026-10-24 as Aloha. WindowBros. LSA currently routes to cancelled 565-382-4300 instead. |
 | Ads account context | Billing already on file, Sam is Admin, advertiser verification pending | Task instruction. Earlier 2026-10-23 memory still said Sam's invite was pending; current task supersedes that old snapshot, UI recheck pending. |
-| Promotion | Reported $500 spend-match offer by 2026-12-22 | Task and prior setup record. Do not assume LSA spend qualifies or credit is earned. |
+| Promotion | Live overview shows $500 credit after $500 qualifying spend by 2026-12-22 | Google Ads overview verified 2026-10-24 shows $500 still needed. Do not assume LSA spend qualifies or credit is earned. |
 | Budget | Lowest weekly amount accepted by Google's actual budget control; value not yet known | Do not substitute Google's recommended budget for its minimum. [Budget help](https://support.google.com/localservices/answer/7434558?hl=en) |
 | Serving status | PAUSED or incomplete/not live, including pre-badge advertising | Explicit task requirement; do not activate to finish onboarding. |
 
@@ -98,7 +110,7 @@ The window-cleaning requirements also govern its gutter job type. Requirements f
 ## Browser execution and approval boundaries
 
 1. Use isolated agent desk `gads` via CDP `http://127.0.0.1:9335`, per Adam's 13:24 update. Use DOM targets. Do not drive the Mini's screen or copy Chrome cookies/profiles.
-2. Complete the authorized desk sign-in as `blrbdigital@gmail.com` using the scoped secret card, then open LSA. Select and visibly verify **469-016-4215** before any account save. Do not create an unrelated Google Ads account.
+2. Desk sign-in as `blrbdigital@gmail.com` is complete. Resolve the LSA customer-ID mismatch and visibly verify **469-016-4215** in LSA before any business-detail save. Do not reactivate the cancelled account or create an unrelated Google Ads account.
 3. Complete eligibility and business prefill as far as verified data permits. Record unresolved fields rather than inventing values.
 4. Stop before Terms acceptance. Capture the exact agreement text, all linked Terms and Privacy URLs, and the page/screenshot for Adam's card. No agreement has been accepted in this task.
 5. Stop before any client/staff email or screening invitation. Record the displayed recipient address, message purpose, sender/provider and exact sending control. No send is authorized by this checklist.
@@ -122,7 +134,16 @@ Evidence directory: `/Users/adam/Library/Logs/blrb/aloha-lsa-20261024/`:
 - `idle-checks.jsonl`: timestamped screen preflight observations and confirmation that GUI was not driven.
 - `live-business-prefill.json`: live homepage business JSON-LD with fetch time and source URL.
 - `legal-guard.txt`: scanner output for this documentation-only change.
+- `signin-watch.jsonl`: read-only 20-second sign-in observations.
+- `lsa-after-gbp-selection.png`: Aloha selected with Not eligible for sign up result.
+- `lsa-91362-eligibility-result.png`: successful manual eligibility advances to Business details.
+- `ads-account-check.png`: Google Ads chooser with both actual customer IDs and Cancelled status.
+- `ads-4690164215.png`: requested Aloha Ads overview, inspected read-only.
+- `lsa-wrong-customer-id.png`: LSA menu explicitly showing customer ID 5653824300.
+- `lsa-stop-state.json`: timestamp, exact setup URL and page text at the account-routing stop.
 
-Checklist first committed and remote-verified as `81dccfc54d007463e66f05f7b8e4d3e9f7f26cfb`. Branch: `codex/aloha-lsa-setup-20261024`. [Remote checklist](https://github.com/blrbdigital/alohawindowbros/blob/codex/aloha-lsa-setup-20261024/docs/lsa-setup.md). The follow-up commit records the final screen preflight stop. Main/master were not pushed and no production deployment was triggered.
+Checklist first committed and remote-verified as `81dccfc54d007463e66f05f7b8e4d3e9f7f26cfb`. Branch: `codex/aloha-lsa-setup-20261024`. [Remote checklist](https://github.com/blrbdigital/alohawindowbros/blob/codex/aloha-lsa-setup-20261024/docs/lsa-setup.md). Follow-up commits record desk sign-in and the account-routing stop. Main/master were not pushed and no production deployment was triggered.
 
-Next operator: complete the scoped password-card step in desk `gads`, handle any 2FA gate, verify account 469-016-4215, run local eligibility, confirm GBP details, and continue only to the first terms/invitation gate. Collect the client-only items above while keeping the profile not live.
+Next operator: resolve the LSA account association with Google before entering client details. Google signup help displayed **+1 844-263-9884**, Monday to Friday, 9 AM to 9 PM EDT. No support call or external message was sent. Concrete support question: "Signed in as blrbdigital@gmail.com, Aloha Google Ads is 469-016-4215, but LSA signup/inbox routes to cancelled customer 565-382-4300. How can we enroll Aloha under the intended account without reactivating the cancelled one? Selecting the existing Aloha GBP also returns Not eligible for sign up, while manual Window cleaning / CA / 91362 eligibility succeeds."
+
+Ask for Ely, to be routed by Adam: please provide the exact legal business name/DBA, current insurance certificate, applicable licenses, owner and fieldworker verification details including fieldworker count and founding year, and genuine team/vehicle/job photos. Sensitive identity/background details belong only in Google's secure verification flow.
