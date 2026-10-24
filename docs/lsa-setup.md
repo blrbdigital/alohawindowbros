@@ -13,7 +13,9 @@ Prepared 2026-10-24. Requested outcome: linked to Google Ads **469-016-4215**, l
 - [ ] Terms accepted by Adam through the requested approval card.
 - [ ] Client verification materials supplied and required checks completed.
 
-Browser setup has not started. Initial screen check: Jairy frontmost, unlocked, idle 3 seconds. Waiting for at least 180 seconds of idle time before any GUI interaction.
+**Stop point: screen-availability preflight, before LSA navigation.** Repeated checks through 2026-10-24 13:13 EDT showed active use. Recorded idle readings were 2 seconds at 13:07:20, 30 seconds at 13:10:17, and 0 seconds at 13:13:21. Additional checks were 0 to 7 seconds. The required 180-second idle threshold was never met. Jairy or Terminal was frontmost. No Chrome navigation, clicks or typing were performed.
+
+**HUB: NEEDS idle screen.** Resume the existing task after 3 minutes of inactivity, recheck frontmost/idle, then open the LSA eligibility flow. No LSA profile was created, no account linkage or budget was saved, and no paused status can yet be claimed. No terms, login wall or invitation step was reached. Therefore no authenticated agreement URLs or invitation recipients are available to report. There is no LSA screenshot because no LSA page was opened.
 
 ## Eligibility and badge
 
@@ -113,4 +115,12 @@ Documentation-only work. Push on a dedicated branch because `.github/workflows/d
 
 Validation: `git diff --check` passed; no em dashes. `legal-guard scan` returned 0 critical/high findings, 3 medium and 2 review findings in existing website files. No website source was changed.
 
-Evidence directory: `/Users/adam/Library/Logs/blrb/aloha-lsa-20261024/`. UI setup is pending an idle screen. Exact stop point and UI evidence will be appended after the browser attempt.
+Evidence directory: `/Users/adam/Library/Logs/blrb/aloha-lsa-20261024/`:
+
+- `idle-checks.jsonl`: timestamped screen preflight observations and confirmation that GUI was not driven.
+- `live-business-prefill.json`: live homepage business JSON-LD with fetch time and source URL.
+- `legal-guard.txt`: scanner output for this documentation-only change.
+
+Checklist first committed and remote-verified as `81dccfc54d007463e66f05f7b8e4d3e9f7f26cfb`. Branch: `codex/aloha-lsa-setup-20261024`. [Remote checklist](https://github.com/blrbdigital/alohawindowbros/blob/codex/aloha-lsa-setup-20261024/docs/lsa-setup.md). The follow-up commit records the final screen preflight stop. Main/master were not pushed and no production deployment was triggered.
+
+Next operator: establish the idle window, verify account 469-016-4215, run local eligibility, confirm GBP details, and continue only to the first terms/invitation/login gate. Collect the client-only items above while keeping the profile not live.
