@@ -13,9 +13,11 @@ Prepared 2026-10-24. Requested outcome: linked to Google Ads **469-016-4215**, l
 - [ ] Terms accepted by Adam through the requested approval card.
 - [ ] Client verification materials supplied and required checks completed.
 
-**Stop point: screen-availability preflight, before LSA navigation.** Repeated checks through 2026-10-24 13:13 EDT showed active use. Recorded idle readings were 2 seconds at 13:07:20, 30 seconds at 13:10:17, and 0 seconds at 13:13:21. Additional checks were 0 to 7 seconds. The required 180-second idle threshold was never met. Jairy or Terminal was frontmost. No Chrome navigation, clicks or typing were performed.
+**Current stop point: Google password challenge in isolated agent desk `gads`.** At Adam's 13:24 instruction, the idle watcher was stopped and setup moved off the Mini's screen to container Chromium at CDP `http://127.0.0.1:9335`. No main Chrome cookies or profiles were copied. Entered `blrbdigital@gmail.com` and clicked Next. Google displayed its password page at `https://accounts.google.com`, with exactly one visible `input[type="password"]`. No password was read, typed or submitted. Evidence: `desk-gads-after-email.png` in the evidence directory below.
 
-**HUB: NEEDS idle screen.** Resume the existing task after 3 minutes of inactivity, recheck frontmost/idle, then open the LSA eligibility flow. No LSA profile was created, no account linkage or budget was saved, and no paused status can yet be claimed. No terms, login wall or invitation step was reached. Therefore no authenticated agreement URLs or invitation recipients are available to report. There is no LSA screenshot because no LSA page was opened.
+**SECRET NEEDED: https://accounts.google.com (password, desk gads).** Leave this tab open. Once Adam supplies a session-bound secret card, use `secret-fill --card <id> --desk gads --selector 'input[type="password"]' --submit`. Do not inspect the password value. Stop for any Google 2FA prompt, insecure-browser block, terms acceptance, or client/staff invitation. LSA profile creation, account linkage and budget remain pending sign-in.
+
+Earlier screen preflight never reached 180 seconds idle. A 30-second watcher started at 13:23 and was stopped when Adam authorized the isolated desk. Main Chrome was not driven.
 
 ## Eligibility and badge
 
@@ -95,13 +97,13 @@ The window-cleaning requirements also govern its gutter job type. Requirements f
 
 ## Browser execution and approval boundaries
 
-1. Check `macui frontmost` and HID idle seconds. Drive the Mini only after 180 seconds idle, and stop if Adam resumes use. Use AX/DOM targets before OCR; never guessed pixels. Do not copy Chrome cookies or profiles.
-2. Open a dedicated LSA tab in the requested signed-in BLRB Chrome profile. Select and visibly verify **469-016-4215** before any account save. Do not create an unrelated Google Ads account.
+1. Use isolated agent desk `gads` via CDP `http://127.0.0.1:9335`, per Adam's 13:24 update. Use DOM targets. Do not drive the Mini's screen or copy Chrome cookies/profiles.
+2. Complete the authorized desk sign-in as `blrbdigital@gmail.com` using the scoped secret card, then open LSA. Select and visibly verify **469-016-4215** before any account save. Do not create an unrelated Google Ads account.
 3. Complete eligibility and business prefill as far as verified data permits. Record unresolved fields rather than inventing values.
 4. Stop before Terms acceptance. Capture the exact agreement text, all linked Terms and Privacy URLs, and the page/screenshot for Adam's card. No agreement has been accepted in this task.
 5. Stop before any client/staff email or screening invitation. Record the displayed recipient address, message purpose, sender/provider and exact sending control. No send is authorized by this checklist.
 6. If reached, save the lowest accepted weekly budget and leave ads paused/not live. Capture the account ID, budget, profile state and remaining verification tasks. Do not enable pre-badge ads.
-7. On a login, 2FA or CAPTCHA wall, leave the tab open and report `LOGIN NEEDED: <site> <url>`.
+7. At the password field report `SECRET NEEDED: https://accounts.google.com (password, desk gads)`. For a Google code or phone tap report `CODE NEEDED: Google 2FA` with its kind. On an insecure-browser block or CAPTCHA, stop with a screenshot; no workarounds.
 
 No invitation recipients or agreement URLs have yet been presented by an authenticated setup page. Do not mistake generic Google footer links for the actual account agreement.
 
@@ -123,4 +125,4 @@ Evidence directory: `/Users/adam/Library/Logs/blrb/aloha-lsa-20261024/`:
 
 Checklist first committed and remote-verified as `81dccfc54d007463e66f05f7b8e4d3e9f7f26cfb`. Branch: `codex/aloha-lsa-setup-20261024`. [Remote checklist](https://github.com/blrbdigital/alohawindowbros/blob/codex/aloha-lsa-setup-20261024/docs/lsa-setup.md). The follow-up commit records the final screen preflight stop. Main/master were not pushed and no production deployment was triggered.
 
-Next operator: establish the idle window, verify account 469-016-4215, run local eligibility, confirm GBP details, and continue only to the first terms/invitation/login gate. Collect the client-only items above while keeping the profile not live.
+Next operator: complete the scoped password-card step in desk `gads`, handle any 2FA gate, verify account 469-016-4215, run local eligibility, confirm GBP details, and continue only to the first terms/invitation gate. Collect the client-only items above while keeping the profile not live.
