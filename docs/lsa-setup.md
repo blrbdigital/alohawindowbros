@@ -18,7 +18,7 @@ Prepared 2026-10-24. Requested outcome: linked to Google Ads **469-016-4215**, p
 
 The Google Ads account chooser lists **Aloha. WindowBros, 469-016-4215**, plus **Google Ads account, 565-382-4300, Cancelled**. Opening Aloha's account confirms it is accessible. However, the LSA signup and inbox both route to a Business details form whose menu explicitly says **Your customer ID: 5653824300**. No account-switch control was present in that setup drawer. Do not reactivate or populate this cancelled account as a substitute for the requested account.
 
-**HUB: BLOCKED account routing.** Resolve the LSA association with 469-016-4215 before saving Aloha's details. No Aloha business fields were entered or saved, no budget was configured, and no LSA ad was launched. The blank onboarding shell under 565-382-4300 is not a completed Aloha LSA profile. Its prior existence versus creation by Google's eligibility flow is not established. No cancellation/reactivation action was taken.
+**HUB: BLOCKED account routing.** Resolve the LSA association with 469-016-4215 before saving Aloha's details. No Aloha business fields were entered or saved, no budget was configured, and no LSA ad was launched. The blank onboarding shell under 565-382-4300 is not a completed Aloha LSA profile. The Ads account predates this task (January 2024). The origin/date of its blank LSA onboarding shell is not established. No cancellation/reactivation action was taken.
 
 ### Follow-up: both requested binding attempts failed
 
@@ -28,6 +28,35 @@ The Google Ads account chooser lists **Aloha. WindowBros, 469-016-4215**, plus *
 Both requested paths therefore failed to bind LSA to **4690164215**. The cancelled account was not reactivated, edited or submitted. No budget step, invitation, support call or Terms acceptance was performed. The existing Ads page displays an Accept Call and Messaging Ads Terms banner; it was not opened or accepted, and it is not proof that the LSA account-routing issue is resolved.
 
 Screenshots: `attempt1-campaign-types.png`, `attempt1-tools-nav.png`, `attempt2-account-context-result.png`. Exact source/request/result URLs and page text: `attempt1-campaign-types.json`, `attempt2-request.json`, `attempt2-result.json` in the evidence directory below.
+
+### Final routes 3 and 4: MCC check and cancelled-account audit
+
+**Route 3, MCC:** `blrbdigital@gmail.com` has only two selectable Google Ads accounts in the chooser: cancelled 565-382-4300 and Aloha 469-016-4215. In Aloha 469-016-4215, Admin > Access and security > Managers explicitly says **You don't have any entries yet**. No accessible MCC managing Aloha was found, so there was no MCC Accounts > + or MCC Local Services view to use. No manager account was created and no linking request/invite was sent.
+
+**Route 4, read-only audit of 565-382-4300:**
+
+| Question | Observed evidence |
+| --- | --- |
+| What is it? | An older mixed BLRB/Aloha Google Ads account, not an empty new account. Current campaign table contains Professional Web Design (Smart), BLRB_Search (Google) (Search), and Aloha Bros Roof Cleaning (Smart). All three are Paused and the account remains Cancelled. |
+| When does it date from? | All-time range starts January 10, 2024. Access table lists BLRB admin added January 10, 2024. Advertiser terms show accepted March 5, 2024 at 15:04:08 America/New_York. |
+| Who created it? | Account-creation actor was not directly exposed. `blrbdigital@gmail.com` is the sole current admin and earliest listed user. Google exposes only the past two years of change history, so that is not proof of the January 2024 creation actor. |
+| Aloha campaign creator/date | Change history explicitly records `blrbdigital@gmail.com` creating Aloha Bros Roof Cleaning on December 19, 2024 at 8:56:12 PM Eastern. BLRB paused it February 12, 2025 at 9:54:47 PM Eastern. |
+| Aloha association | `alohabrosroofcleaning@gmail.com` has Standard access, invited by BLRB and added January 28, 2025; the data-protection contact is Ely. Campaign history includes roof-cleaning edits by this client email. |
+| Historic LSA? | The listed campaigns are Smart/Search, not Local Services. The LSA route currently opens an incomplete blank onboarding form, but no evidence establishes that a completed LSA profile ever existed or when that blank shell originated. Do not call it an established old LSA account. |
+| Historical spend | Account total $712.16: Aloha Bros Roof Cleaning $528.07, Professional Web Design $68.92, BLRB_Search $115.17. The $528.07 in the retained change-history chart is not the whole account total. |
+| Billing identity | Payer `blrb digital`, Postpay, primary Amex ending 1004, no backup payment method. This is the cancelled account's billing setup, not Aloha 469-016-4215's billing. No billing edit was made. |
+| Recent billing | 2026 summary shows $0 net cost in each displayed month and a -$5.85 payment entry in May. Outstanding balance and the reason for that entry were not established from the viewed summary. |
+| Cancellation actor/date | Not established in the available history. Do not infer an automatic cancellation from the age or inactivity. |
+
+Evidence in the local directory below: `attempt3-account-selector.png`, `attempt3-aloha-managers.{png,json}`, `cancelled-preferences.{png,json}`, `cancelled-users.{png,json}`, `cancelled-billing-settings.{png,json}`, `cancelled-billing-summary.json`, `cancelled-change-history.{png,json}`, `cancelled-change-rows.json`, `cancelled-campaigns.{png,json}`.
+
+**All four routes are exhausted; stop here.** No account reactivation, business-detail save, budget change, Terms acceptance, invitation or support call was performed.
+
+Options for Adam:
+
+1. Ely signs up for LSA from his own Google account, verifies the intended business/account, then grants us manager access. No invite has been sent.
+2. Adam calls Google LSA support at **844-263-9884** with the support question below, including the confirmed old BLRB/Aloha account history.
+3. Reuse 565-382-4300 only with explicit authorization and a billing decision: it currently uses BLRB's existing postpay/Amex setup and mixes BLRB with Aloha history. Reactivation is free, but subsequent ad costs use its billing setup unless changed. All three observed campaigns are paused and should stay paused; reactivation alone does not unpause them. No $500 promotion transfer or linkage to 469-016-4215 is established. [Google reactivation guidance](https://support.google.com/google-ads/answer/2375392?hl=en)
 
 ### What the authenticated setup established
 
@@ -153,6 +182,6 @@ Evidence directory: `/Users/adam/Library/Logs/blrb/aloha-lsa-20261024/`:
 
 Checklist first committed and remote-verified as `81dccfc54d007463e66f05f7b8e4d3e9f7f26cfb`. Branch: `codex/aloha-lsa-setup-20261024`. [Remote checklist](https://github.com/blrbdigital/alohawindowbros/blob/codex/aloha-lsa-setup-20261024/docs/lsa-setup.md). Follow-up commits record desk sign-in and the account-routing stop. Main/master were not pushed and no production deployment was triggered.
 
-Next operator: both requested account-binding paths are exhausted. Resolve the LSA account association before entering client details. No support calls are authorized. Google signup help displayed **+1 844-263-9884**, Monday to Friday, 9 AM to 9 PM EDT. No support call or external message was sent. Concrete support question: "Signed in as blrbdigital@gmail.com, Aloha Google Ads is 469-016-4215, but LSA signup/inbox routes to cancelled customer 565-382-4300. How can we enroll Aloha under the intended account without reactivating the cancelled one? Selecting the existing Aloha GBP also returns Not eligible for sign up, while manual Window cleaning / CA / 91362 eligibility succeeds."
+Next operator: all four requested routes are exhausted, including the MCC check and read-only historical-account audit. Resolve the LSA account association before entering client details. No support calls are authorized. Google signup help displayed **+1 844-263-9884**, Monday to Friday, 9 AM to 9 PM EDT. No support call or external message was sent. Concrete support question: "Signed in as blrbdigital@gmail.com, Aloha Google Ads is 469-016-4215, but LSA signup/inbox routes to cancelled customer 565-382-4300. How can we enroll Aloha under the intended account without reactivating the cancelled one? Selecting the existing Aloha GBP also returns Not eligible for sign up, while manual Window cleaning / CA / 91362 eligibility succeeds."
 
 Ask for Ely, to be routed by Adam: please provide the exact legal business name/DBA, current insurance certificate, applicable licenses, owner and fieldworker verification details including fieldworker count and founding year, and genuine team/vehicle/job photos. Sensitive identity/background details belong only in Google's secure verification flow.
