@@ -1,27 +1,36 @@
 # Aloha Window Bros: Google Local Services Ads setup
 
-Prepared 2026-10-24. **Current authorized LSA target: 565-382-4300.** Adam chose reuse of the original account: "thats fine if thats where it started and how to make it work"; the hub clarified option 3. Reactivate only if LSA requires it, keep all three existing campaigns paused, and do not change billing. Stop before Terms acceptance, any client/staff invitation, or any budget. Leave owner name, fieldworker count and founding year blank until Ely confirms them.
+Prepared 2026-10-24. **Current authorized LSA target: 565-382-4300.** Adam chose reuse of the original account: "thats fine if thats where it started and how to make it work"; the hub clarified option 3. Reactivate only if LSA requires it, keep all three existing campaigns paused, and do not change billing. Stop before Terms acceptance, any client/staff invitation, or any budget. Latest approved details: owner Ely Sirota-Foster; fieldworkers 3 (Adam corrected 4 to 3 before submission); founding year 2023 from the California registry-derived record described below. Stop if per-worker details or background checks appear.
 
 ## Current status
 
-- [x] Research and prefill completed from sourced business facts and current Google help.
-- [x] Window cleaning / California / ZIP 91362 eligibility accepted by Google's manual setup flow.
-- [x] Adam approved using 565-382-4300 after investigation of the original 469-016-4215 routing requirement.
-- [x] Verified LSA drawer customer ID 5653824300 before entering details.
-- [x] Filled the business-details form with Aloha Window Bros, +1 805-341-4121, https://alohawindowbros.com/, 138 Colt Lane, Thousand Oaks, CA 91362. The default customer-visit setting remains No.
-- [ ] Business-details submission completed. Next is blocked by required owner first/last name and founding year.
-- [ ] LSA profile completed. Not live; no budget or launch step reached.
-- [ ] Reactivation performed. Not needed for the form so far; account remains cancelled.
-- [ ] Terms or invitations reached. None accepted or sent.
-- [x] Existing three campaigns remain paused; billing unchanged.
+- [x] Window cleaning / California / ZIP 91362 eligibility accepted.
+- [x] Adam approved account 565-382-4300; LSA shows CID 5653824300.
+- [x] Business details accepted: Aloha Window Bros, +1 805-341-4121, https://alohawindowbros.com/, 138 Colt Lane, Thousand Oaks, CA 91362, owner Ely Sirota-Foster, total fieldworkers 3, year founded 2023. Customer visiting location remains No. Optional registration name remains blank.
+- [x] Service-area step accepted with 14 published locations. See exact list below.
+- [ ] Service types submitted. Window cleaning and Gutter cleaning selected, but Next was not clicked because of the license attestation.
+- [ ] Hours, photos, ad preview and verification completed.
+- [ ] LSA completed or live. Profile onboarding remains incomplete and not live; no budget step reached.
+- [ ] Reactivation performed. Not required so far; no reactivation or billing change made.
+- [x] Existing three campaigns still show Paused in the final read-only account check.
+- [x] Stopped before agreement acceptance. No invitation, per-worker details or background-check step reached.
 
-**Current stop: client facts required on Business details.** Clicking Next with owner name and founding year blank returned **Enter owner's first name**, **Enter owner's last name**, **Invalid year**, and **Some inputs are invalid, please fix.** The known values remain filled in the open desk `gads` tab, but the form did not advance and successful persistence is not claimed. Owner first/last name, total fieldworkers and founding year remain blank. The fieldworker input did not show an error at this validation step; its later requirement is not established.
+**HUB: NEEDS terms.** Current stop is **Professional license verification** on **Set up your service types**. The unchecked **I agree** box certifies that the business and workers carry all relevant licenses and registrations for every offered service and jurisdiction, and acknowledges Google's right to request proof. This is a factual licensing attestation, not just permission to continue. No license evidence has been supplied, so the agent cannot attest for the business.
 
-**HUB: NEEDS client details.** Ely must confirm the exact owner first name, last name and founding year. Also collect total fieldworkers for the next step. Historical BBB identity/date candidates are not approved substitutes. No Terms acceptance control or applicable Terms/Privacy pair has been reached; the generic Policies & Terms footer is not an approval-card agreement.
+Exact stop URL: https://ads.google.com/localservices/signup/jobtype?cid=1062919459&bid=11098085965&pid=9999999999&euid=8585873612&hl=en&gl=US&zc=91362
 
-The signed-in desk account is `blrbdigital@gmail.com`. All work uses isolated desk `gads` over CDP; main Chrome is untouched. The account remains cancelled because current progress did not require reactivation. All three existing campaigns remain paused. No billing changes, invitations, budget changes or support calls were made.
+**Terms URL: none linked on this attestation. Privacy URL: none linked on this attestation.** The text refers to Google's Minimum Provider Requirements without a hyperlink. All visible links and the exact attestation text are saved in the evidence files. Do not substitute generic Google Terms/Privacy URLs or present them as the actual documents attached to this checkbox. A later Terms/Privacy agreement, if displayed, requires its own stop and consent card.
 
-Evidence: `reuse-prefilled-business-details.png`, `reuse-after-business-next.{png,json}`, `reuse-stop-owner-year-required.png`, `reuse-preflight-paused.json`, `reuse-final-paused.json` in `/Users/adam/Library/Logs/blrb/aloha-lsa-20261024/`.
+The signed-in account is `blrbdigital@gmail.com`, in isolated desk `gads`. Main Chrome was untouched. No invitations, budget changes, payment edits, support calls or agreement acceptance occurred. Adam's final crew count of 3 was entered before submission; the earlier 4 was never submitted.
+
+Evidence in `/Users/adam/Library/Logs/blrb/aloha-lsa-20261024/`:
+
+- `owner-crew3-year2023.png`: approved name/count and sourced year before submission.
+- `serviceareas-entered.{png,json}`: accepted service-area selections.
+- `license-attestation-stop.{png,json}` and `license-attestation-unchecked.png`: exact stop and unchecked agreement.
+- `license-attestation-text.txt`: full attestation including license-definition tooltip. SHA-256: `11e986393c64ac5c9974a6c53d8be7241c3f3dce64193af13beee846815c4231`.
+- `final-terms-stop-campaign-state.json`: all three existing campaigns still Paused.
+- `aloha-ca-statement-20240827.pdf` and `bizfile-initial.png`: source filing copy and direct-registry access failure.
 
 ## Historical routing investigation
 
@@ -70,7 +79,7 @@ Options for Adam:
 - Selecting the existing **Aloha Window Bros** GBP and clicking Next returned **Not eligible for sign up.** Google did not explain why. The GBP was not linked.
 - Google's visible **Skip Business Profile** option led to its manual eligibility checker, which explicitly permits connecting an existing GBP later.
 - Entered United States, California, **91362**, **Window cleaning**, then clicked **Check Eligibility**. Google advanced to Business details. This confirms the category/ZIP combination proceeds; it does not verify the GBP or all target cities.
-- The Business details form asks for business name, optional registration name, phone, optional website, owner first/last name, total fieldworkers, year founded, address, and customer-visit status. Email and text lead preferences defaulted to selected. None of these business fields or preferences was submitted.
+- The Business details form asks for business name, optional registration name, phone, optional website, owner first/last name, total fieldworkers, year founded, address, and customer-visit status. Email and text lead preferences defaulted to selected. At this historical stage none had been submitted; the current status above records the subsequently accepted business details.
 - No Terms acceptance or invitation step was reached. No agreement was accepted and no client/staff notification or background-check invite was initiated. Generic footer Policies & Terms is not the agreement needed for Adam's consent card.
 - Aloha's existing Google Ads overview already shows the Search campaign **AWB | Search | Window + Gutter** with an Enabled ad. It was inspected read-only and left unchanged. This is separate from the unlaunched LSA setup.
 
@@ -97,16 +106,17 @@ Google directs businesses to its eligibility checker for geographic confirmation
 | Field | Value to use or confirm | Source and confidence |
 | --- | --- | --- |
 | Public business name | Aloha Window Bros | Live homepage and `src/lib/seo.ts` |
-| Legal business name/entity | Not verified. Do not invent an LLC suffix or treat the trading name as a registered legal name. | Client registration/DBA needed. BBB lists sole proprietorship, which is a third-party lead, not legal evidence. |
+| Legal business name/entity | Aloha Window Bros LLC, California entity 202359717080. Optional registration-name field was left blank in the submitted form. | California Statement of Information dated 2024-08-27, copy linked below. BBB's sole-proprietorship label conflicts with this filing. |
 | Business address | 138 Colt Lane, Thousand Oaks, CA 91362, United States | Live homepage JSON-LD fetched 2026-10-24; `src/lib/seo.ts`; corroborated by BBB |
 | Location type | Service-area business is the proposed setting; confirm the GBP setting before saving. Do not publish the address as a customer storefront without evidence. | Site describes work at customer properties; public visiting location not established. |
 | Phone | +1 805-341-4121 | Live site; leads-pipeline memory identifies it as Ely's cell and business line. |
 | Business email | alohawindowbros@gmail.com | Live site and leads-pipeline memory. Entering this is not authorization to send invitations. |
 | Website | https://alohawindowbros.com/ | Live site |
 | Google Business Profile | https://maps.google.com/?cid=4483745950804238350 | Live site `sameAs` and hero link. Raw Maps fetch returned a JS shell. The signed-in LSA selector lists Aloha Window Bros, but selecting it returns Not eligible for sign up. GBP verification and successful affiliation remain unresolved. |
-| Hours | Open 24 hours, Monday through Sunday | Live site JSON-LD; repository says this mirrored owner-set GBP hours verified 2026-08-05. Confirm current GBP before saving. Business hours do not establish a 24-hour staffed ad schedule. |
-| Years in business | Candidate: 2 completed years as of 2026-10-24, based on 2024-10-05 start date. Do not submit without client or GBP confirmation. | BBB gives Business Started 10/5/2024. Its displayed rounded years count is stale. No primary founding-date evidence found. |
-| Owner/contact | Ely Sirota-Foster is a candidate contact, not a verified ownership roster. | BBB names him Co-CEO; leads-pipeline memory names Ely. Client must confirm legal owners and authority. |
+| Hours | Open 24 hours, Monday through Sunday | Live site JSON-LD and public GBP overview checked 2026-10-24 both show Open 24 hours. Business hours do not establish a 24-hour staffed ad schedule. |
+| Year founded | 2023, entered and accepted | Initial registration dated 2023-11-13 in Bizprofile's reproduction of California SOS data. Direct bizfile access blocked; source limitations below. This replaces the earlier BBB 2024 candidate. |
+| Owner/contact | First Ely; last Sirota-Foster, entered and accepted | User explicitly approved this name. California filing names Ely L Sirota-Foster as manager/member, CEO and agent. This is not a complete current ownership roster. |
+| Total fieldworkers | 3, entered and accepted | Adam's 14:21 correction. This is an operator-supplied count, not a publicly verified workforce total. Earlier 4 was replaced before submission. |
 | Existing Google Ads ID | 469-016-4215 | Verified in Google Ads account chooser and opened on 2026-10-24 as Aloha. WindowBros. The subsequent decision authorizes 565-382-4300 as the LSA target; 469-016-4215 remains the separate Search Ads account. |
 | Ads account context | Billing already on file, Sam is Admin, advertiser verification pending | Task instruction. Earlier 2026-10-23 memory still said Sam's invite was pending; current task supersedes that old snapshot, UI recheck pending. |
 | Promotion | Live overview shows $500 credit after $500 qualifying spend by 2026-12-22 | Google Ads overview verified 2026-10-24 shows $500 still needed. Do not assume LSA spend qualifies or credit is earned. |
@@ -114,6 +124,18 @@ Google directs businesses to its eligibility checker for geographic confirmation
 | Serving status | PAUSED or incomplete/not live, including pre-badge advertising | Explicit task requirement; do not activate to finish onboarding. |
 
 Third-party business identity/date reference: [BBB business details](https://www.bbb.org/us/ca/thousand-oaks/profile/window-cleaning/aloha-window-bros-1236-92095192). No claim of BBB accreditation is intended.
+
+### Owner, founding year and workforce research, 2026-10-24
+
+- **California registry record:** [Bizprofile's Aloha Window Bros LLC record](https://www.bizprofile.net/ca/thousand-oaks/aloha-window-bros-llc) explicitly reports initial filing on **November 13, 2023**, entity **202359717080**, and says its data was extracted from California SOS on March 25, 2026. The business name, Ely and 138 Colt Lane match Aloha. Used **2023** at Adam's direction to use the registration year. The date is a registry-derived secondary source, not a direct live SOS result.
+- **Actual filing copy:** [California Statement of Information, August 27, 2024](https://static.bizprofile.net/4/6/4/3/4/8/46434896.pdf), filing BA20241550702, corroborates the LLC, entity number, Ely L Sirota-Foster as CEO/manager/member/agent, and window, solar and gutter cleaning. Andy S Cruz is also listed as a manager/member. This filing does not itself state the initial registration date or a fieldworker total. Local evidence: `aloha-ca-statement-20240827.pdf`.
+- **Direct registry limitation:** [California bizfile](https://bizfileonline.sos.ca.gov/search/business) returned an Incapsula unsuccessful-request page in the desk and HTTP 403 through web fetch. No CAPTCHA or access-control workaround attempted. Screenshot: `bizfile-initial.png`. This is not a no-match search result.
+- **Identity discrepancies:** The filing lists the principal address ZIP as 91361, whereas Aloha's current website and BBB use 91362. The filing's agent address also mixes Colt Lane with Isla Vista. Retained the current site/GBP-based operating details; do not silently substitute historical filing addresses. Recheck legal-address details against current registration evidence at verification.
+- **BBB:** [Business profile](https://www.bbb.org/us/ca/thousand-oaks/profile/window-cleaning/aloha-window-bros-1236-92095192) lists Ely Sirota-Foster, Business Started 10/5/2024, and sole proprietorship. No Number of Employees field was found. Its entity/date claims conflict with the registry-derived record and filed LLC document; do not use its 2024 year for this form.
+- **GBP and own site:** [GBP](https://www.google.com/maps?cid=4483745950804238350), [homepage](https://alohawindowbros.com/) and [Thousand Oaks page](https://alohawindowbros.com/thousand-oaks/) support current services and operating details. Copy about two brothers does not establish total fieldworkers. GBP reviews mentioning Arlo and Brandon or two people on a visit do not state total staffing.
+- **Nextdoor:** [Aloha profile](https://nextdoor.com/pages/aloha-window-bros-isla-vista-ca/) names technician Tyler in a business post and Jordon in a review, but gives no total staffing or registration date. Do not count named people across reviews. Its alternate phone/hours were not substituted for current GBP/site details.
+- **Yelp and Angi:** Targeted exact-name searches produced no usable Aloha founding-year or staff-total evidence. Yelp content was robots-blocked. Unrelated similarly named businesses were excluded.
+- **Crew decision:** Adam first directed 4 at 14:20, then explicitly corrected it to **3 at 14:21**. Three was entered before clicking Next. No sourced claim that the business employs exactly three people is being made.
 
 ### Service area
 
@@ -123,11 +145,13 @@ Use city selections rather than inventing a full ZIP list. The only verified bus
 - Additional published service areas: Montecito, Hope Ranch, Goleta, Carpinteria, Summerland.
 - County description: Ventura County and Santa Barbara County, California. Agoura Hills and Westlake Village are explicitly published service cities; do not remove them just because of county boundaries.
 
+Actual accepted selections: Agoura Hills, Camarillo, Carpinteria, Goleta, Montecito, Newbury Park, Ojai, Oxnard, Santa Barbara, Simi Valley, Summerland, Thousand Oaks, Ventura, Westlake Village. Google identifies Newbury Park as part of Thousand Oaks and flagged one overlapping area; Next accepted the set. Hope Ranch returned no selectable match for either Hope Ranch or Hope Ranch, CA, so it was not independently added. No county-wide blanket targeting or guessed ZIPs were added.
+
 Source: live homepage JSON-LD `areaServed`, `src/lib/seo.ts` `AREA_SERVED`, and live service-page city links. If Google's picker requires ZIPs, obtain its actual city/ZIP matches and confirm coverage before saving. Do not assume every ZIP in either county is covered.
 
 ### Job-type entry plan
 
-Select window cleaning and gutter cleaning when offered. Add skylight cleaning and screen cleaning only where their displayed definitions match the work on Aloha's site. Solar-panel cleaning and pressure washing need the category/job-type checks above. Leave repairs, installations, roofing, electrical work and unrelated generic categories unselected. Record the exact labels actually offered in the setup flow.
+Selected the exact offered labels **Window cleaning** and **Gutter cleaning**. The service-types step remains unsubmitted at the license attestation. Offered but unselected: Glass & mirror cleaning, Power/pressure washing, Rooftop/skylight cleaning, Other. No separate screen-cleaning or solar-panel-cleaning label was offered. Select window cleaning and gutter cleaning when offered. Add skylight cleaning and screen cleaning only where their displayed definitions match the work on Aloha's site. Solar-panel cleaning and pressure washing need the category/job-type checks above. Leave repairs, installations, roofing, electrical work and unrelated generic categories unselected. Record the exact labels actually offered in the setup flow.
 
 ## Verification requirements
 
@@ -145,7 +169,7 @@ The window-cleaning requirements also govern its gutter job type. Requirements f
 
 ## Only the client can provide or confirm
 
-1. Exact legal name, DBA/entity evidence, current operating address/location type, start date, actual staffed hours, and any changes to service coverage or pressure-washing work.
+1. Current registration/DBA documents for Aloha Window Bros LLC, legal-address reconciliation, actual staffed hours, and any changes to service coverage or pressure-washing work. Public records sourced the name/year; do not ask Ely to re-source those now.
 2. Current signed insurance certificate with policy number, limits and expiration, plus DBA linkage if names differ.
 3. Applicable license numbers/documents, or evidence supporting a not-required declaration requested by Google.
 4. Confirmed owner and fieldworker roster. Each required person supplies background-check details and consent directly to the screening provider. No SSNs, dates of birth, ID scans or background results in this repo.
@@ -162,7 +186,7 @@ The window-cleaning requirements also govern its gutter job type. Requirements f
 6. Stop before any budget setup, per latest instruction. Keep LSA not live; do not enable pre-badge ads.
 7. At the password field report `SECRET NEEDED: https://accounts.google.com (password, desk gads)`. For a Google code or phone tap report `CODE NEEDED: Google 2FA` with its kind. On an insecure-browser block or CAPTCHA, stop with a screenshot; no workarounds.
 
-No invitation recipients or agreement URLs have yet been presented by an authenticated setup page. Do not mistake generic Google footer links for the actual account agreement.
+No invitation recipients have been presented. The current licensing attestation has no linked Terms or Privacy URL. Do not mistake generic Google footer links for documents attached to that agreement.
 
 ## Lead delivery
 
@@ -189,6 +213,6 @@ Evidence directory: `/Users/adam/Library/Logs/blrb/aloha-lsa-20261024/`:
 
 Checklist first committed and remote-verified as `81dccfc54d007463e66f05f7b8e4d3e9f7f26cfb`. Branch: `codex/aloha-lsa-setup-20261024`. [Remote checklist](https://github.com/blrbdigital/alohawindowbros/blob/codex/aloha-lsa-setup-20261024/docs/lsa-setup.md). Follow-up commits record desk sign-in and the account-routing stop. Main/master were not pushed and no production deployment was triggered.
 
-Next operator: resume the already-filled business-details tab after Ely confirms owner first/last name and founding year; also collect fieldworker count. Target 565-382-4300 is approved. Stop at Terms, invitations or any budget. No support calls are authorized. The following support question is retained as historical context only: Google signup help displayed **+1 844-263-9884**, Monday to Friday, 9 AM to 9 PM EDT. No support call or external message was sent. Concrete support question: "Signed in as blrbdigital@gmail.com, Aloha Google Ads is 469-016-4215, but LSA signup/inbox routes to cancelled customer 565-382-4300. How can we enroll Aloha under the intended account without reactivating the cancelled one? Selecting the existing Aloha GBP also returns Not eligible for sign up, while manual Window cleaning / CA / 91362 eligibility succeeds."
+Next operator: keep the service-types page open at the unchecked Professional license verification agreement. Obtain Adam's consent tied to the captured attestation and the business's applicable licensing facts before checking it. Stop again at any separate Terms/Privacy agreement, per-worker details/background checks, invitations or budget. Target 565-382-4300 is approved; preserve the three paused campaigns and current billing. No support calls are authorized. The following support question is retained as historical context only: Google signup help displayed **+1 844-263-9884**, Monday to Friday, 9 AM to 9 PM EDT. No support call or external message was sent. Concrete support question: "Signed in as blrbdigital@gmail.com, Aloha Google Ads is 469-016-4215, but LSA signup/inbox routes to cancelled customer 565-382-4300. How can we enroll Aloha under the intended account without reactivating the cancelled one? Selecting the existing Aloha GBP also returns Not eligible for sign up, while manual Window cleaning / CA / 91362 eligibility succeeds."
 
-Ask for Ely, to be routed by Adam: please provide the exact legal business name/DBA, current insurance certificate, applicable licenses, owner and fieldworker verification details including fieldworker count and founding year, and genuine team/vehicle/job photos. Sensitive identity/background details belong only in Google's secure verification flow.
+Remaining client materials for Sam/Adam to collect when verification requires them: current legal-name/DBA documents and address reconciliation, insurance certificate, applicable licenses, owner/worker verification details, and genuine team/vehicle/job photos. Founding year and the form's crew count have already been entered using the sources and instructions above. Sensitive identity/background details belong only in Google's secure verification flow.
